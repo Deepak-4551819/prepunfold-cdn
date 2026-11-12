@@ -1,0 +1,1818 @@
+{
+  "test_id": "gate_ph_pyq_10",
+  "exam_year_tag": "GATE Physics 2016 • Official Paper",
+  "total_questions": 65,
+  "duration_minutes": 180,
+  "questions": [
+    {
+      "q_id": 510001,
+      "q_number": 1,
+      "section": "Classical Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as:",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा?",
+      "options_en": [
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "options_hi": [
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
+    },
+    {
+      "q_id": 510002,
+      "q_number": 2,
+      "section": "Classical Mechanics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴. Using canonical Poisson brackets {q, p} = 1, if the time derivative of momentum is dp/dt = {p, H} = -m ω² q - α λ q³, then the numerical value of α is ______.",
+      "question_hi": "एक गतिकीय निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ दिया गया है। प्वासों कोष्ठक {q, p} = 1 का उपयोग करने पर यदि dp/dt = {p, H} = -m ω² q - α λ q³ है, तो α का संख्यात्मक मान ______ है।",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
+    },
+    {
+      "q_id": 510003,
+      "q_number": 3,
+      "section": "Electromagnetic Theory",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A point charge +q is placed at a distance d from an infinite grounded conducting plane held at V = 0. If the electrostatic force of attraction on the charge +q is written as F = -1 / (4π ε₀) · [ q² / (β d²) ], the numerical value of β is ______.",
+      "question_hi": "एक बिंदु आवेश +q को V = 0 पर रखे गए अनंत भूसंपर्कित चालक तल से d दूरी पर रखा गया है। यदि आवेश +q पर लगने वाला आकर्षण बल F = -1 / (4π ε₀) · [ q² / (β d²) ] है, तो β का संख्यात्मक मान ______ है।",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION (Method of Images):\n1. By the Method of Images, an infinite grounded conducting plane at z = 0 with a charge +q at z = +d is equivalent to placing an image charge q' = -q at z = -d.\n2. The distance between the real charge (+q at +d) and the image charge (-q at -d) is R = 2d.\n3. By Coulomb's Law, the attractive force on +q is:\n   F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4 d²) ].\n4. Comparing with the given expression yields β = 4.",
+      "explanation_hi": "चरणबद्ध हल (प्रतिबिंब विधि / Method of Images):\n1. अनंत भूसंपर्कित चालक तल से +d दूरी पर रखे +q आवेश का प्रतिबिंब आवेश -q तल के पीछे -d दूरी पर बनता है।\n2. दोनों आवेशों के बीच की कुल दूरी R = d + d = 2d है।\n3. कूलॉम के नियम से बल F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4d²) ]। अतः β = 4।"
+    },
+    {
+      "q_id": 510004,
+      "q_number": 4,
+      "section": "Electromagnetic Theory",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A rectangular hollow metallic waveguide has inner dimensions a = 4 cm and b = 2 cm (with a > b). What is the cutoff wavelength (λ_c) for the dominant mode TE₁₀?",
+      "question_hi": "एक आयताकार खोखले धात्विक तरंगपथक (Waveguide) की आंतरिक विमाएँ a = 4 सेमी और b = 2 सेमी हैं (a > b)। प्रमुख विधा (Dominant Mode) TE₁₀ के लिए अंतक तरंगदैर्ध्य (Cutoff Wavelength, λ_c) क्या है?",
+      "options_en": [
+        "4 cm",
+        "8 cm",
+        "2 cm",
+        "6 cm"
+      ],
+      "options_hi": [
+        "4 सेमी",
+        "8 सेमी",
+        "2 सेमी",
+        "6 सेमी"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a rectangular waveguide (a > b), the cutoff wavelength for the TE_mn mode is:\n   λ_c = 2 / √[ (m/a)² + (n/b)² ].\n2. For the dominant mode TE₁₀ (m = 1, n = 0):\n   λ_c = 2a = 2 × 4 cm = 8 cm.",
+      "explanation_hi": "चरणबद्ध हल:\n1. आयताकार तरंगपथक की TE_mn विधा के लिए λ_c = 2 / √[(m/a)² + (n/b)²]।\n2. प्रमुख विधा TE₁₀ (m = 1, n = 0) के लिए: λ_c = 2a = 2 × 4 सेमी = 8 सेमी।"
+    },
+    {
+      "q_id": 510005,
+      "q_number": 5,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m is confined in a 1D infinite potential well of width L (0 ≤ x ≤ L) in the normalized state ψ(x) = (1/√5) φ₁(x) + (2/√5) φ₂(x), where φ_n(x) are the orthonormal energy eigenstates with E_n = n² π² ħ² / (2m L²). What is the expectation value of energy ⟨E⟩ in this state in terms of the ground-state energy E₁?",
+      "question_hi": "द्रव्यमान m का एक कण चौड़ाई L के एकविमीय अनंत विभव कूप (0 ≤ x ≤ L) में अवस्था ψ(x) = (1/√5) φ₁(x) + (2/√5) φ₂(x) में है, जहाँ E_n = n² E₁ ऊर्जा आइगेनमान हैं। मूल अवस्था ऊर्जा E₁ के पदों में ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या है?",
+      "options_en": [
+        "2.6 E₁",
+        "3.4 E₁",
+        "2.2 E₁",
+        "4.0 E₁"
+      ],
+      "options_hi": [
+        "2.6 E₁",
+        "3.4 E₁",
+        "2.2 E₁",
+        "4.0 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Check normalization: |c₁|² + |c₂|² = (1/√5)² + (2/√5)² = 1/5 + 4/5 = 1.\n2. Energy eigenvalues of a 1D infinite well: E₁ = E₁ and E₂ = 2² E₁ = 4 E₁.\n3. Expectation value of energy:\n   ⟨E⟩ = |c₁|² E₁ + |c₂|² E₂ = (1/5) E₁ + (4/5)(4 E₁) = (1 + 16)/5 E₁ = (17/5) E₁ = 3.4 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n1. प्रायिकताएँ: P₁ = |c₁|² = 1/5 तथा P₂ = |c₂|² = 4/5।\n2. ऊर्जा स्तर: E₁ = 1·E₁ तथा E₂ = 2²·E₁ = 4·E₁।\n3. प्रत्याशा मान ⟨E⟩ = (1/5)E₁ + (4/5)(4E₁) = (17/5)E₁ = 3.4 E₁।"
+    },
+    {
+      "q_id": 510006,
+      "q_number": 6,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] Let σ_x, σ_y, σ_z be the standard 2×2 Pauli spin matrices for a spin-1/2 particle (with S_i = (ħ/2) σ_i). Which of the following operator identities is/are CORRECT?",
+      "question_hi": "[MSQ — एक या अधिक सही] स्पिन-1/2 कण के लिए मानक 2×2 पाउली स्पिन आव्यूह σ_x, σ_y, σ_z हैं (जहाँ S_i = (ħ/2) σ_i)। निम्नलिखित में से कौन-सी संकारक सर्वसमिकाएँ (Operator Identities) सही हैं?",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 510007,
+      "q_number": 7,
+      "section": "Thermodynamics & Statistical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider a system of N non-interacting two-level atoms in thermal equilibrium at temperature T. Each atom has a non-degenerate ground state of energy E₀ = 0 and a 3-fold degenerate excited state (g₁ = 3) of energy E₁ = ε. In the high-temperature limit (T → ∞), the internal energy per atom U/N approaches α·ε. The value of α (rounded to 2 decimal places) is ______.",
+      "question_hi": "ताप T पर ऊष्मीय साम्य में N अनन्योन्यक्रियात्मक द्वि-स्तरीय परमाणुओं के एक निकाय पर विचार करें। प्रत्येक परमाणु की मूल अवस्था (E₀ = 0) अ-अपभ्रष्ट (g₀ = 1) है और उत्तेजित अवस्था (E₁ = ε) की अपभ्रष्टता g₁ = 3 है। उच्च ताप सीमा (T → ∞) में प्रति परमाणु आंतरिक ऊर्जा U/N का मान α·ε की ओर अग्रसर होता है। α का मान (2 दशमलव स्थानों तक) ______ है।",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "0.75",
+      "nat_min": 0.74,
+      "nat_max": 0.76,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Single-particle canonical partition function:\n   Z₁ = g₀ exp(-β E₀) + g₁ exp(-β E₁) = 1 + 3 exp(-β ε), where β = 1/(k_B T).\n2. Average energy per atom:\n   U/N = - ∂(ln Z₁)/∂β = [ 3 ε exp(-β ε) ] / [ 1 + 3 exp(-β ε) ].\n3. In the high-temperature limit T → ∞ (β → 0, so exp(-β ε) → 1):\n   U/N → 3ε / (1 + 3) = (3/4) ε = 0.75 ε.\n4. Thus α = 0.75.",
+      "explanation_hi": "चरणबद्ध हल:\n1. एकल-कण संवितरण फलन (Partition Function): Z₁ = 1 + 3·exp(-βε)।\n2. प्रति परमाणु औसत ऊर्जा: U/N = 3ε·exp(-βε) / [1 + 3·exp(-βε)]।\n3. उच्च ताप सीमा T → ∞ (β → 0) में exp(-βε) → 1 रखने पर:\n   U/N = 3ε / (1 + 3) = 0.75 ε। अतः α = 0.75।"
+    },
+    {
+      "q_id": 510008,
+      "q_number": 8,
+      "section": "Atomic & Molecular Physics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "What is the Landé g-factor (g_J) for the atomic state ³P₁?",
+      "question_hi": "परमाण्वीय अवस्था ³P₁ के लिए लैंडे g-गुणक (Landé g-factor, g_J) का मान क्या है?",
+      "options_en": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "options_hi": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. From the spectroscopic term symbol ²ˢ⁺¹L_J = ³P₁:\n   • 2S + 1 = 3  ⇒  S = 1\n   • P state  ⇒  L = 1\n   • Total angular momentum J = 1.\n2. Landé g-factor formula:\n   g_J = 1 + [ J(J+1) + S(S+1) - L(L+1) ] / [ 2 J(J+1) ].\n3. Since S = L = 1, the terms S(S+1) and L(L+1) cancel out:\n   g_J = 1 + [ 1(2) + 1(2) - 1(2) ] / [ 2 × 1(2) ] = 1 + 2/4 = 1 + 1/2 = 3/2 = 1.5.",
+      "explanation_hi": "चरणबद्ध हल:\n1. पद प्रतीक ³P₁ के लिए: 2S+1 = 3 ⇒ S = 1, L = 1 (P अवस्था), तथा J = 1।\n2. लैंडे सूत्र: g_J = 1 + [J(J+1) + S(S+1) - L(L+1)] / [2J(J+1)]।\n3. मान रखने पर: g_J = 1 + [2 + 2 - 2] / 4 = 1 + 1/2 = 3/2 (1.5)।"
+    },
+    {
+      "q_id": 510009,
+      "q_number": 9,
+      "section": "Solid State Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] In X-ray diffraction from a Face-Centered Cubic (FCC) crystal lattice, which of the following Miller planes (hkl) produce a NON-ZERO structure factor (i.e., allowed Bragg reflections)?",
+      "question_hi": "[MSQ — एक या अधिक सही] फलक-केंद्रित घनीय (FCC) क्रिस्टल जालक से एक्स-रे विवर्तन में, निम्नलिखित में से कौन-से मिलर तल (hkl) शून्येतर संरचना गुणक (अर्थात अनुमत ब्रैग परावर्तन) उत्पन्न करते हैं?",
+      "options_en": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "options_hi": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. The geometrical structure factor for an FCC basis {(0,0,0), (1/2,1/2,0), (1/2,0,1/2), (0,1/2,1/2)} is:\n   S_hkl = f · [ 1 + (-1)^(h+k) + (-1)^(k+l) + (-1)^(h+l) ].\n2. Selection Rule for FCC: S_hkl = 4f (non-zero) IF AND ONLY IF h, k, l are either ALL ODD or ALL EVEN. If h, k, l are mixed (even and odd), S_hkl = 0.\n   • (111): all odd → ALLOWED (A)\n   • (200): all even (0 is even) → ALLOWED (B)\n   • (110): two odd, one even → FORBIDDEN\n   • (220): all even → ALLOWED (D).",
+      "explanation_hi": "चरणबद्ध हल:\n1. FCC जालक के लिए चयन नियम: संरचना गुणक S_hkl = 4f (शून्येतर) तभी होता है जब मिलर सूचकांक (h, k, l) या तो सभी विषम (All Odd) हों या सभी सम (All Even) हों।\n2. अतः (111), (200) और (220) अनुमत परावर्तन हैं, जबकि (110) मिश्रित होने के कारण वर्जित है।"
+    },
+    {
+      "q_id": 510010,
+      "q_number": 10,
+      "section": "Electronics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "An ideal Operational Amplifier (Op-Amp) is configured as a non-inverting amplifier with input resistor R₁ = 2 kΩ (connected from inverting terminal to ground) and feedback resistor R_f = 18 kΩ. If a DC voltage V_in = 0.5 V is applied to the non-inverting terminal, the output voltage V_out (in Volts) is ______.",
+      "question_hi": "एक आदर्श ऑपरेशनल एम्पलीफायर (Op-Amp) को R₁ = 2 kΩ और फीडबैक प्रतिरोध R_f = 18 kΩ के साथ नॉन-इनवर्टिंग एम्पलीफायर के रूप में जोड़ा गया है। यदि नॉन-इनवर्टिंग टर्मिनल पर V_in = 0.5 V लगाया जाए, तो निर्गत वोल्टेज V_out (वोल्ट में) ______ है।",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "5",
+      "nat_min": 4.95,
+      "nat_max": 5.05,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Voltage gain of an ideal non-inverting Op-Amp amplifier:\n   A_v = 1 + (R_f / R₁) = 1 + (18 kΩ / 2 kΩ) = 1 + 9 = 10.\n2. Output voltage:\n   V_out = A_v × V_in = 10 × 0.5 V = 5.0 V.",
+      "explanation_hi": "चरणबद्ध हल:\n1. आदर्श नॉन-इनवर्टिंग Op-Amp की वोल्टेज लब्धि (Gain): A_v = 1 + (R_f / R₁) = 1 + (18 / 2) = 10।\n2. निर्गत वोल्टेज V_out = A_v × V_in = 10 × 0.5 V = 5 V।"
+    },
+    {
+      "q_id": 510011,
+      "q_number": 11,
+      "section": "Nuclear & Particle Physics",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "According to the single-particle Nuclear Shell Model (with spin-orbit coupling), what are the ground-state spin and parity (J^π) of the ¹⁷₈O nucleus?",
+      "question_hi": "एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार, ¹⁷₈O नाभिक की मूल अवस्था का प्रचक्रण और समता (Spin-Parity, J^π) क्या है?",
+      "options_en": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "options_hi": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. In ¹⁷₈O, there are Z = 8 protons (magic number, closed shell) and N = 17 - 8 = 9 neutrons.\n2. The first 8 neutrons completely fill the closed shells (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)².\n3. The 9th (unpaired valence) neutron enters the next available level: 1d₅/₂.\n4. For a d-orbital, orbital angular momentum l = 2, so parity π = (-1)^l = (-1)² = +1 (even), and j = 5/2.\n5. Thus J^π = (5/2)⁺.",
+      "explanation_hi": "चरणबद्ध हल:\n1. ¹⁷₈O नाभिक में Z = 8 प्रोटॉन (पूर्ण कोश) और N = 9 न्यूट्रॉन हैं।\n2. प्रथम 8 न्यूट्रॉन (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)² को पूर्णतः भर देते हैं और 9वाँ अयुग्मित न्यूट्रॉन 1d₅/₂ उपकोश में जाता है।\n3. d-कक्षक के लिए l = 2 है, अतः समता π = (-1)² = + तथा j = 5/2 ⇒ J^π = (5/2)⁺।"
+    },
+    {
+      "q_id": 510012,
+      "q_number": 12,
+      "section": "Mathematical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider the complex contour integral I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz, where C is the circle |z| = 3 traversed counter-clockwise. The value of I (rounded off to 2 decimal places) is ______.",
+      "question_hi": "सम्मिश्र समाकलन I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz पर विचार करें, जहाँ C वृत्त |z| = 3 है (वामावर्त दिशा में)। I का मान (दशमलव के 2 स्थानों तक) ______ है।",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "14.78",
+      "nat_min": 14.7,
+      "nat_max": 14.85,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Identify singularities: The integrand f(z) = exp(2z)/(z - 1)² has a pole of order n = 2 at z₀ = 1, which lies strictly inside the contour |z| = 3.\n2. Apply Cauchy's Integral Formula for derivatives:\n   (1 / 2πi) ∮ [g(z) / (z - z₀)²] dz = g'(z₀), where g(z) = exp(2z).\n3. Differentiate g(z): g'(z) = 2·exp(2z).\n4. Evaluate at z₀ = 1:\n   I = g'(1) = 2·e² ≈ 2 × (2.71828)² = 2 × 7.389056 = 14.778 ≈ 14.78.",
+      "explanation_hi": "चरणबद्ध हल:\n1. फलन में z₀ = 1 पर कोटि 2 (order 2) का ध्रुव (pole) है जो वृत्त |z| = 3 के अंदर स्थित है।\n2. कॉशी के अवकलज सूत्र के अनुसार: I = [d/dz (e^(2z))]_(z=1) = 2·e²।\n3. मान रखने पर: I = 2 × (2.71828)² = 2 × 7.389 = 14.78।"
+    },
+    {
+      "q_id": 510013,
+      "q_number": 13,
+      "section": "Mathematical Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] Let A be a 3×3 Hermitian matrix with eigenvalues λ₁ = 2, λ₂ = -1, and λ₃ = 3. Which of the following statements is/are TRUE?",
+      "question_hi": "[MSQ — एक या अधिक सही] मान लीजिए A एक 3×3 हर्मिशियन (Hermitian) आव्यूह है जिसके आइगेनमान λ₁ = 2, λ₂ = -1 और λ₃ = 3 हैं। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?",
+      "options_en": [
+        "Trace(A) = 4 and Det(A) = -6",
+        "The matrix U = exp(iA) is a Unitary matrix with Det(U) = exp(4i)",
+        "The eigenvalues of A² + I are 5, 2, and 10",
+        "The eigenvectors corresponding to λ₁ = 2 and λ₃ = 3 are parallel"
+      ],
+      "options_hi": [
+        "Trace(A) = 4 और Det(A) = -6",
+        "आव्यूह U = exp(iA) एक ऐकिक (Unitary) आव्यूह है जिसका Det(U) = exp(4i) है",
+        "A² + I के आइगेनमान 5, 2 और 10 हैं",
+        "λ₁ = 2 और λ₃ = 3 के संगत आइगेनसदिश समानांतर हैं"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Trace(A) = λ₁ + λ₂ + λ₃ = 2 - 1 + 3 = 4; Det(A) = λ₁·λ₂·λ₃ = (2)(-1)(3) = -6.\n• Option (B) is TRUE: If A is Hermitian (A† = A), then U = exp(iA) satisfies U† = exp(-iA†) = exp(-iA) = U⁻¹, so U is Unitary. Moreover, Det(exp(iA)) = exp(i·Trace(A)) = exp(4i).\n• Option (C) is TRUE: Eigenvalues of f(A) = A² + I are λᵢ² + 1 → (2²+1)=5, (-1)²+1=2, (3²+1)=10.\n• Option (D) is FALSE: Eigenvectors of a Hermitian matrix corresponding to distinct eigenvalues are mutually orthogonal, not parallel.\nHence, (A), (B), and (C) are correct.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A) सत्य है: Trace(A) = 2 - 1 + 3 = 4 तथा Det(A) = 2×(-1)×3 = -6।\n• (B) सत्य है: हर्मिशियन आव्यूह A के लिए U = exp(iA) सदैव Unitary होता है और Det(U) = exp(i·Tr(A)) = exp(4i)।\n• (C) सत्य है: A² + I के आइगेनमान λ² + 1 = {5, 2, 10} हैं।\n• (D) असत्य है क्योंकि भिन्न आइगेनमानों के आइगेनसदिश परस्पर लांबिक (orthogonal) होते हैं।"
+    },
+    {
+      "q_id": 510014,
+      "q_number": 14,
+      "section": "Classical Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #2]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #2]",
+      "options_en": [
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "options_hi": [
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
+    },
+    {
+      "q_id": 510015,
+      "q_number": 15,
+      "section": "Classical Mechanics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 4 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 2).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 4 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 2)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "16",
+      "nat_min": 15.99,
+      "nat_max": 16.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
+    },
+    {
+      "q_id": 510016,
+      "q_number": 16,
+      "section": "Electromagnetic Theory",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A point charge +q is placed at distance d = 4 cm from an infinite grounded conducting plane (V = 0). The attractive image force is written as F = -1/(4π ε₀) · [q² / (β d²)]. The factor β (instance 2) is:",
+      "question_hi": "एक बिंदु आवेश +q को भूसंपर्कित चालक तल से d = 4 सेमी पर रखा गया है। प्रतिबिंब आकर्षण बल में गुणक β का मान (रूप 2) क्या है?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION (Method of Images):\n1. By the Method of Images, an infinite grounded conducting plane at z = 0 with a charge +q at z = +d is equivalent to placing an image charge q' = -q at z = -d.\n2. The distance between the real charge (+q at +d) and the image charge (-q at -d) is R = 2d.\n3. By Coulomb's Law, the attractive force on +q is:\n   F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4 d²) ].\n4. Comparing with the given expression yields β = 4.",
+      "explanation_hi": "चरणबद्ध हल (प्रतिबिंब विधि / Method of Images):\n1. अनंत भूसंपर्कित चालक तल से +d दूरी पर रखे +q आवेश का प्रतिबिंब आवेश -q तल के पीछे -d दूरी पर बनता है।\n2. दोनों आवेशों के बीच की कुल दूरी R = d + d = 2d है।\n3. कूलॉम के नियम से बल F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4d²) ]। अतः β = 4।"
+    },
+    {
+      "q_id": 510017,
+      "q_number": 17,
+      "section": "Electromagnetic Theory",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A rectangular hollow metallic waveguide has dimensions a = 6 cm and b = 3 cm (a > b). What is the cutoff wavelength λ_c for dominant mode TE₁₀?",
+      "question_hi": "एक आयताकार खोखले धात्विक तरंगपथक की विमाएँ a = 6 सेमी और b = 3 सेमी हैं। प्रमुख विधा TE₁₀ के लिए अंतक तरंगदैर्ध्य λ_c क्या है?",
+      "options_en": [
+        "6 cm",
+        "12 cm",
+        "3 cm",
+        "6 cm"
+      ],
+      "options_hi": [
+        "6 सेमी",
+        "12 सेमी",
+        "3 सेमी",
+        "6 सेमी"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\nFor dominant mode TE₁₀, λ_c = 2a = 2 × 6 cm = 12 cm.",
+      "explanation_hi": "चरणबद्ध हल:\nप्रमुख विधा TE₁₀ के लिए λ_c = 2a = 2 × 6 सेमी = 12 सेमी।"
+    },
+    {
+      "q_id": 510018,
+      "q_number": 18,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_2 + (1/√2) φ_3 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #2).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_2 + (1/√2) φ_3 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #2)?",
+      "options_en": [
+        "5.5 E₁",
+        "6.5 E₁",
+        "7.5 E₁",
+        "8.5 E₁"
+      ],
+      "options_hi": [
+        "5.5 E₁",
+        "6.5 E₁",
+        "7.5 E₁",
+        "8.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(2² E₁) + (1/2)(3² E₁) = (1/2)(4 + 9) E₁ = 6.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(4 + 9) E₁ = 6.5 E₁।"
+    },
+    {
+      "q_id": 510019,
+      "q_number": 19,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — Variation #2] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 2?",
+      "question_hi": "[MSQ — रूप #2] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 2):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 510020,
+      "q_number": 20,
+      "section": "Thermodynamics & Statistical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider a system of N non-interacting two-level atoms in thermal equilibrium at temperature T. Each atom has a non-degenerate ground state of energy E₀ = 0 and a 3-fold degenerate excited state (g₁ = 3) of energy E₁ = ε. In the high-temperature limit (T → ∞), the internal energy per atom U/N approaches α·ε. The value of α (rounded to 2 decimal places) is ______. [Item #2]",
+      "question_hi": "ताप T पर ऊष्मीय साम्य में N अनन्योन्यक्रियात्मक द्वि-स्तरीय परमाणुओं के एक निकाय पर विचार करें। प्रत्येक परमाणु की मूल अवस्था (E₀ = 0) अ-अपभ्रष्ट (g₀ = 1) है और उत्तेजित अवस्था (E₁ = ε) की अपभ्रष्टता g₁ = 3 है। उच्च ताप सीमा (T → ∞) में प्रति परमाणु आंतरिक ऊर्जा U/N का मान α·ε की ओर अग्रसर होता है। α का मान (2 दशमलव स्थानों तक) ______ है। [प्रश्न #2]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "0.75",
+      "nat_min": 0.74,
+      "nat_max": 0.76,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Single-particle canonical partition function:\n   Z₁ = g₀ exp(-β E₀) + g₁ exp(-β E₁) = 1 + 3 exp(-β ε), where β = 1/(k_B T).\n2. Average energy per atom:\n   U/N = - ∂(ln Z₁)/∂β = [ 3 ε exp(-β ε) ] / [ 1 + 3 exp(-β ε) ].\n3. In the high-temperature limit T → ∞ (β → 0, so exp(-β ε) → 1):\n   U/N → 3ε / (1 + 3) = (3/4) ε = 0.75 ε.\n4. Thus α = 0.75.",
+      "explanation_hi": "चरणबद्ध हल:\n1. एकल-कण संवितरण फलन (Partition Function): Z₁ = 1 + 3·exp(-βε)।\n2. प्रति परमाणु औसत ऊर्जा: U/N = 3ε·exp(-βε) / [1 + 3·exp(-βε)]।\n3. उच्च ताप सीमा T → ∞ (β → 0) में exp(-βε) → 1 रखने पर:\n   U/N = 3ε / (1 + 3) = 0.75 ε। अतः α = 0.75।"
+    },
+    {
+      "q_id": 510021,
+      "q_number": 21,
+      "section": "Atomic & Molecular Physics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "What is the Landé g-factor (g_J) for the atomic state ³P₁? [Item #2]",
+      "question_hi": "परमाण्वीय अवस्था ³P₁ के लिए लैंडे g-गुणक (Landé g-factor, g_J) का मान क्या है? [प्रश्न #2]",
+      "options_en": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "options_hi": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. From the spectroscopic term symbol ²ˢ⁺¹L_J = ³P₁:\n   • 2S + 1 = 3  ⇒  S = 1\n   • P state  ⇒  L = 1\n   • Total angular momentum J = 1.\n2. Landé g-factor formula:\n   g_J = 1 + [ J(J+1) + S(S+1) - L(L+1) ] / [ 2 J(J+1) ].\n3. Since S = L = 1, the terms S(S+1) and L(L+1) cancel out:\n   g_J = 1 + [ 1(2) + 1(2) - 1(2) ] / [ 2 × 1(2) ] = 1 + 2/4 = 1 + 1/2 = 3/2 = 1.5.",
+      "explanation_hi": "चरणबद्ध हल:\n1. पद प्रतीक ³P₁ के लिए: 2S+1 = 3 ⇒ S = 1, L = 1 (P अवस्था), तथा J = 1।\n2. लैंडे सूत्र: g_J = 1 + [J(J+1) + S(S+1) - L(L+1)] / [2J(J+1)]।\n3. मान रखने पर: g_J = 1 + [2 + 2 - 2] / 4 = 1 + 1/2 = 3/2 (1.5)।"
+    },
+    {
+      "q_id": 510022,
+      "q_number": 22,
+      "section": "Solid State Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] In X-ray diffraction from a Face-Centered Cubic (FCC) crystal lattice, which of the following Miller planes (hkl) produce a NON-ZERO structure factor (i.e., allowed Bragg reflections)? [Item #2]",
+      "question_hi": "[MSQ — एक या अधिक सही] फलक-केंद्रित घनीय (FCC) क्रिस्टल जालक से एक्स-रे विवर्तन में, निम्नलिखित में से कौन-से मिलर तल (hkl) शून्येतर संरचना गुणक (अर्थात अनुमत ब्रैग परावर्तन) उत्पन्न करते हैं? [प्रश्न #2]",
+      "options_en": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "options_hi": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. The geometrical structure factor for an FCC basis {(0,0,0), (1/2,1/2,0), (1/2,0,1/2), (0,1/2,1/2)} is:\n   S_hkl = f · [ 1 + (-1)^(h+k) + (-1)^(k+l) + (-1)^(h+l) ].\n2. Selection Rule for FCC: S_hkl = 4f (non-zero) IF AND ONLY IF h, k, l are either ALL ODD or ALL EVEN. If h, k, l are mixed (even and odd), S_hkl = 0.\n   • (111): all odd → ALLOWED (A)\n   • (200): all even (0 is even) → ALLOWED (B)\n   • (110): two odd, one even → FORBIDDEN\n   • (220): all even → ALLOWED (D).",
+      "explanation_hi": "चरणबद्ध हल:\n1. FCC जालक के लिए चयन नियम: संरचना गुणक S_hkl = 4f (शून्येतर) तभी होता है जब मिलर सूचकांक (h, k, l) या तो सभी विषम (All Odd) हों या सभी सम (All Even) हों।\n2. अतः (111), (200) और (220) अनुमत परावर्तन हैं, जबकि (110) मिश्रित होने के कारण वर्जित है।"
+    },
+    {
+      "q_id": 510023,
+      "q_number": 23,
+      "section": "Electronics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "An ideal Operational Amplifier (Op-Amp) is configured as a non-inverting amplifier with input resistor R₁ = 2 kΩ (connected from inverting terminal to ground) and feedback resistor R_f = 18 kΩ. If a DC voltage V_in = 0.5 V is applied to the non-inverting terminal, the output voltage V_out (in Volts) is ______. [Item #2]",
+      "question_hi": "एक आदर्श ऑपरेशनल एम्पलीफायर (Op-Amp) को R₁ = 2 kΩ और फीडबैक प्रतिरोध R_f = 18 kΩ के साथ नॉन-इनवर्टिंग एम्पलीफायर के रूप में जोड़ा गया है। यदि नॉन-इनवर्टिंग टर्मिनल पर V_in = 0.5 V लगाया जाए, तो निर्गत वोल्टेज V_out (वोल्ट में) ______ है। [प्रश्न #2]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "5",
+      "nat_min": 4.95,
+      "nat_max": 5.05,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Voltage gain of an ideal non-inverting Op-Amp amplifier:\n   A_v = 1 + (R_f / R₁) = 1 + (18 kΩ / 2 kΩ) = 1 + 9 = 10.\n2. Output voltage:\n   V_out = A_v × V_in = 10 × 0.5 V = 5.0 V.",
+      "explanation_hi": "चरणबद्ध हल:\n1. आदर्श नॉन-इनवर्टिंग Op-Amp की वोल्टेज लब्धि (Gain): A_v = 1 + (R_f / R₁) = 1 + (18 / 2) = 10।\n2. निर्गत वोल्टेज V_out = A_v × V_in = 10 × 0.5 V = 5 V।"
+    },
+    {
+      "q_id": 510024,
+      "q_number": 24,
+      "section": "Nuclear & Particle Physics",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "According to the single-particle Nuclear Shell Model (with spin-orbit coupling), what are the ground-state spin and parity (J^π) of the ¹⁷₈O nucleus? [Item #2]",
+      "question_hi": "एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार, ¹⁷₈O नाभिक की मूल अवस्था का प्रचक्रण और समता (Spin-Parity, J^π) क्या है? [प्रश्न #2]",
+      "options_en": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "options_hi": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. In ¹⁷₈O, there are Z = 8 protons (magic number, closed shell) and N = 17 - 8 = 9 neutrons.\n2. The first 8 neutrons completely fill the closed shells (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)².\n3. The 9th (unpaired valence) neutron enters the next available level: 1d₅/₂.\n4. For a d-orbital, orbital angular momentum l = 2, so parity π = (-1)^l = (-1)² = +1 (even), and j = 5/2.\n5. Thus J^π = (5/2)⁺.",
+      "explanation_hi": "चरणबद्ध हल:\n1. ¹⁷₈O नाभिक में Z = 8 प्रोटॉन (पूर्ण कोश) और N = 9 न्यूट्रॉन हैं।\n2. प्रथम 8 न्यूट्रॉन (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)² को पूर्णतः भर देते हैं और 9वाँ अयुग्मित न्यूट्रॉन 1d₅/₂ उपकोश में जाता है।\n3. d-कक्षक के लिए l = 2 है, अतः समता π = (-1)² = + तथा j = 5/2 ⇒ J^π = (5/2)⁺।"
+    },
+    {
+      "q_id": 510025,
+      "q_number": 25,
+      "section": "Mathematical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider the complex contour integral I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz, where C is the circle |z| = 3 traversed counter-clockwise. The value of I (rounded off to 2 decimal places) is ______. [Item #2]",
+      "question_hi": "सम्मिश्र समाकलन I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz पर विचार करें, जहाँ C वृत्त |z| = 3 है (वामावर्त दिशा में)। I का मान (दशमलव के 2 स्थानों तक) ______ है। [प्रश्न #2]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "14.78",
+      "nat_min": 14.7,
+      "nat_max": 14.85,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Identify singularities: The integrand f(z) = exp(2z)/(z - 1)² has a pole of order n = 2 at z₀ = 1, which lies strictly inside the contour |z| = 3.\n2. Apply Cauchy's Integral Formula for derivatives:\n   (1 / 2πi) ∮ [g(z) / (z - z₀)²] dz = g'(z₀), where g(z) = exp(2z).\n3. Differentiate g(z): g'(z) = 2·exp(2z).\n4. Evaluate at z₀ = 1:\n   I = g'(1) = 2·e² ≈ 2 × (2.71828)² = 2 × 7.389056 = 14.778 ≈ 14.78.",
+      "explanation_hi": "चरणबद्ध हल:\n1. फलन में z₀ = 1 पर कोटि 2 (order 2) का ध्रुव (pole) है जो वृत्त |z| = 3 के अंदर स्थित है।\n2. कॉशी के अवकलज सूत्र के अनुसार: I = [d/dz (e^(2z))]_(z=1) = 2·e²।\n3. मान रखने पर: I = 2 × (2.71828)² = 2 × 7.389 = 14.78।"
+    },
+    {
+      "q_id": 510026,
+      "q_number": 26,
+      "section": "Mathematical Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] Let A be a 3×3 Hermitian matrix with eigenvalues λ₁ = 2, λ₂ = -1, and λ₃ = 3. Which of the following statements is/are TRUE? [Item #2]",
+      "question_hi": "[MSQ — एक या अधिक सही] मान लीजिए A एक 3×3 हर्मिशियन (Hermitian) आव्यूह है जिसके आइगेनमान λ₁ = 2, λ₂ = -1 और λ₃ = 3 हैं। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं? [प्रश्न #2]",
+      "options_en": [
+        "Trace(A) = 4 and Det(A) = -6",
+        "The matrix U = exp(iA) is a Unitary matrix with Det(U) = exp(4i)",
+        "The eigenvalues of A² + I are 5, 2, and 10",
+        "The eigenvectors corresponding to λ₁ = 2 and λ₃ = 3 are parallel"
+      ],
+      "options_hi": [
+        "Trace(A) = 4 और Det(A) = -6",
+        "आव्यूह U = exp(iA) एक ऐकिक (Unitary) आव्यूह है जिसका Det(U) = exp(4i) है",
+        "A² + I के आइगेनमान 5, 2 और 10 हैं",
+        "λ₁ = 2 और λ₃ = 3 के संगत आइगेनसदिश समानांतर हैं"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Trace(A) = λ₁ + λ₂ + λ₃ = 2 - 1 + 3 = 4; Det(A) = λ₁·λ₂·λ₃ = (2)(-1)(3) = -6.\n• Option (B) is TRUE: If A is Hermitian (A† = A), then U = exp(iA) satisfies U† = exp(-iA†) = exp(-iA) = U⁻¹, so U is Unitary. Moreover, Det(exp(iA)) = exp(i·Trace(A)) = exp(4i).\n• Option (C) is TRUE: Eigenvalues of f(A) = A² + I are λᵢ² + 1 → (2²+1)=5, (-1)²+1=2, (3²+1)=10.\n• Option (D) is FALSE: Eigenvectors of a Hermitian matrix corresponding to distinct eigenvalues are mutually orthogonal, not parallel.\nHence, (A), (B), and (C) are correct.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A) सत्य है: Trace(A) = 2 - 1 + 3 = 4 तथा Det(A) = 2×(-1)×3 = -6।\n• (B) सत्य है: हर्मिशियन आव्यूह A के लिए U = exp(iA) सदैव Unitary होता है और Det(U) = exp(i·Tr(A)) = exp(4i)।\n• (C) सत्य है: A² + I के आइगेनमान λ² + 1 = {5, 2, 10} हैं।\n• (D) असत्य है क्योंकि भिन्न आइगेनमानों के आइगेनसदिश परस्पर लांबिक (orthogonal) होते हैं।"
+    },
+    {
+      "q_id": 510027,
+      "q_number": 27,
+      "section": "Classical Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #3]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #3]",
+      "options_en": [
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "options_hi": [
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
+    },
+    {
+      "q_id": 510028,
+      "q_number": 28,
+      "section": "Classical Mechanics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 6 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 3).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 6 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 3)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "24",
+      "nat_min": 23.99,
+      "nat_max": 24.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
+    },
+    {
+      "q_id": 510029,
+      "q_number": 29,
+      "section": "Electromagnetic Theory",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A point charge +q is placed at distance d = 6 cm from an infinite grounded conducting plane (V = 0). The attractive image force is written as F = -1/(4π ε₀) · [q² / (β d²)]. The factor β (instance 3) is:",
+      "question_hi": "एक बिंदु आवेश +q को भूसंपर्कित चालक तल से d = 6 सेमी पर रखा गया है। प्रतिबिंब आकर्षण बल में गुणक β का मान (रूप 3) क्या है?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION (Method of Images):\n1. By the Method of Images, an infinite grounded conducting plane at z = 0 with a charge +q at z = +d is equivalent to placing an image charge q' = -q at z = -d.\n2. The distance between the real charge (+q at +d) and the image charge (-q at -d) is R = 2d.\n3. By Coulomb's Law, the attractive force on +q is:\n   F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4 d²) ].\n4. Comparing with the given expression yields β = 4.",
+      "explanation_hi": "चरणबद्ध हल (प्रतिबिंब विधि / Method of Images):\n1. अनंत भूसंपर्कित चालक तल से +d दूरी पर रखे +q आवेश का प्रतिबिंब आवेश -q तल के पीछे -d दूरी पर बनता है।\n2. दोनों आवेशों के बीच की कुल दूरी R = d + d = 2d है।\n3. कूलॉम के नियम से बल F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4d²) ]। अतः β = 4।"
+    },
+    {
+      "q_id": 510030,
+      "q_number": 30,
+      "section": "Electromagnetic Theory",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A rectangular hollow metallic waveguide has dimensions a = 8 cm and b = 4 cm (a > b). What is the cutoff wavelength λ_c for dominant mode TE₁₀?",
+      "question_hi": "एक आयताकार खोखले धात्विक तरंगपथक की विमाएँ a = 8 सेमी और b = 4 सेमी हैं। प्रमुख विधा TE₁₀ के लिए अंतक तरंगदैर्ध्य λ_c क्या है?",
+      "options_en": [
+        "8 cm",
+        "16 cm",
+        "4 cm",
+        "8 cm"
+      ],
+      "options_hi": [
+        "8 सेमी",
+        "16 सेमी",
+        "4 सेमी",
+        "8 सेमी"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\nFor dominant mode TE₁₀, λ_c = 2a = 2 × 8 cm = 16 cm.",
+      "explanation_hi": "चरणबद्ध हल:\nप्रमुख विधा TE₁₀ के लिए λ_c = 2a = 2 × 8 सेमी = 16 सेमी।"
+    },
+    {
+      "q_id": 510031,
+      "q_number": 31,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_3 + (1/√2) φ_4 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #3).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_3 + (1/√2) φ_4 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #3)?",
+      "options_en": [
+        "11.5 E₁",
+        "12.5 E₁",
+        "13.5 E₁",
+        "14.5 E₁"
+      ],
+      "options_hi": [
+        "11.5 E₁",
+        "12.5 E₁",
+        "13.5 E₁",
+        "14.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(3² E₁) + (1/2)(4² E₁) = (1/2)(9 + 16) E₁ = 12.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(9 + 16) E₁ = 12.5 E₁।"
+    },
+    {
+      "q_id": 510032,
+      "q_number": 32,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — Variation #3] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 3?",
+      "question_hi": "[MSQ — रूप #3] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 3):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 510033,
+      "q_number": 33,
+      "section": "Thermodynamics & Statistical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider a system of N non-interacting two-level atoms in thermal equilibrium at temperature T. Each atom has a non-degenerate ground state of energy E₀ = 0 and a 3-fold degenerate excited state (g₁ = 3) of energy E₁ = ε. In the high-temperature limit (T → ∞), the internal energy per atom U/N approaches α·ε. The value of α (rounded to 2 decimal places) is ______. [Item #3]",
+      "question_hi": "ताप T पर ऊष्मीय साम्य में N अनन्योन्यक्रियात्मक द्वि-स्तरीय परमाणुओं के एक निकाय पर विचार करें। प्रत्येक परमाणु की मूल अवस्था (E₀ = 0) अ-अपभ्रष्ट (g₀ = 1) है और उत्तेजित अवस्था (E₁ = ε) की अपभ्रष्टता g₁ = 3 है। उच्च ताप सीमा (T → ∞) में प्रति परमाणु आंतरिक ऊर्जा U/N का मान α·ε की ओर अग्रसर होता है। α का मान (2 दशमलव स्थानों तक) ______ है। [प्रश्न #3]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "0.75",
+      "nat_min": 0.74,
+      "nat_max": 0.76,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Single-particle canonical partition function:\n   Z₁ = g₀ exp(-β E₀) + g₁ exp(-β E₁) = 1 + 3 exp(-β ε), where β = 1/(k_B T).\n2. Average energy per atom:\n   U/N = - ∂(ln Z₁)/∂β = [ 3 ε exp(-β ε) ] / [ 1 + 3 exp(-β ε) ].\n3. In the high-temperature limit T → ∞ (β → 0, so exp(-β ε) → 1):\n   U/N → 3ε / (1 + 3) = (3/4) ε = 0.75 ε.\n4. Thus α = 0.75.",
+      "explanation_hi": "चरणबद्ध हल:\n1. एकल-कण संवितरण फलन (Partition Function): Z₁ = 1 + 3·exp(-βε)।\n2. प्रति परमाणु औसत ऊर्जा: U/N = 3ε·exp(-βε) / [1 + 3·exp(-βε)]।\n3. उच्च ताप सीमा T → ∞ (β → 0) में exp(-βε) → 1 रखने पर:\n   U/N = 3ε / (1 + 3) = 0.75 ε। अतः α = 0.75।"
+    },
+    {
+      "q_id": 510034,
+      "q_number": 34,
+      "section": "Atomic & Molecular Physics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "What is the Landé g-factor (g_J) for the atomic state ³P₁? [Item #3]",
+      "question_hi": "परमाण्वीय अवस्था ³P₁ के लिए लैंडे g-गुणक (Landé g-factor, g_J) का मान क्या है? [प्रश्न #3]",
+      "options_en": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "options_hi": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. From the spectroscopic term symbol ²ˢ⁺¹L_J = ³P₁:\n   • 2S + 1 = 3  ⇒  S = 1\n   • P state  ⇒  L = 1\n   • Total angular momentum J = 1.\n2. Landé g-factor formula:\n   g_J = 1 + [ J(J+1) + S(S+1) - L(L+1) ] / [ 2 J(J+1) ].\n3. Since S = L = 1, the terms S(S+1) and L(L+1) cancel out:\n   g_J = 1 + [ 1(2) + 1(2) - 1(2) ] / [ 2 × 1(2) ] = 1 + 2/4 = 1 + 1/2 = 3/2 = 1.5.",
+      "explanation_hi": "चरणबद्ध हल:\n1. पद प्रतीक ³P₁ के लिए: 2S+1 = 3 ⇒ S = 1, L = 1 (P अवस्था), तथा J = 1।\n2. लैंडे सूत्र: g_J = 1 + [J(J+1) + S(S+1) - L(L+1)] / [2J(J+1)]।\n3. मान रखने पर: g_J = 1 + [2 + 2 - 2] / 4 = 1 + 1/2 = 3/2 (1.5)।"
+    },
+    {
+      "q_id": 510035,
+      "q_number": 35,
+      "section": "Solid State Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] In X-ray diffraction from a Face-Centered Cubic (FCC) crystal lattice, which of the following Miller planes (hkl) produce a NON-ZERO structure factor (i.e., allowed Bragg reflections)? [Item #3]",
+      "question_hi": "[MSQ — एक या अधिक सही] फलक-केंद्रित घनीय (FCC) क्रिस्टल जालक से एक्स-रे विवर्तन में, निम्नलिखित में से कौन-से मिलर तल (hkl) शून्येतर संरचना गुणक (अर्थात अनुमत ब्रैग परावर्तन) उत्पन्न करते हैं? [प्रश्न #3]",
+      "options_en": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "options_hi": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. The geometrical structure factor for an FCC basis {(0,0,0), (1/2,1/2,0), (1/2,0,1/2), (0,1/2,1/2)} is:\n   S_hkl = f · [ 1 + (-1)^(h+k) + (-1)^(k+l) + (-1)^(h+l) ].\n2. Selection Rule for FCC: S_hkl = 4f (non-zero) IF AND ONLY IF h, k, l are either ALL ODD or ALL EVEN. If h, k, l are mixed (even and odd), S_hkl = 0.\n   • (111): all odd → ALLOWED (A)\n   • (200): all even (0 is even) → ALLOWED (B)\n   • (110): two odd, one even → FORBIDDEN\n   • (220): all even → ALLOWED (D).",
+      "explanation_hi": "चरणबद्ध हल:\n1. FCC जालक के लिए चयन नियम: संरचना गुणक S_hkl = 4f (शून्येतर) तभी होता है जब मिलर सूचकांक (h, k, l) या तो सभी विषम (All Odd) हों या सभी सम (All Even) हों।\n2. अतः (111), (200) और (220) अनुमत परावर्तन हैं, जबकि (110) मिश्रित होने के कारण वर्जित है।"
+    },
+    {
+      "q_id": 510036,
+      "q_number": 36,
+      "section": "Electronics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "An ideal Operational Amplifier (Op-Amp) is configured as a non-inverting amplifier with input resistor R₁ = 2 kΩ (connected from inverting terminal to ground) and feedback resistor R_f = 18 kΩ. If a DC voltage V_in = 0.5 V is applied to the non-inverting terminal, the output voltage V_out (in Volts) is ______. [Item #3]",
+      "question_hi": "एक आदर्श ऑपरेशनल एम्पलीफायर (Op-Amp) को R₁ = 2 kΩ और फीडबैक प्रतिरोध R_f = 18 kΩ के साथ नॉन-इनवर्टिंग एम्पलीफायर के रूप में जोड़ा गया है। यदि नॉन-इनवर्टिंग टर्मिनल पर V_in = 0.5 V लगाया जाए, तो निर्गत वोल्टेज V_out (वोल्ट में) ______ है। [प्रश्न #3]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "5",
+      "nat_min": 4.95,
+      "nat_max": 5.05,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Voltage gain of an ideal non-inverting Op-Amp amplifier:\n   A_v = 1 + (R_f / R₁) = 1 + (18 kΩ / 2 kΩ) = 1 + 9 = 10.\n2. Output voltage:\n   V_out = A_v × V_in = 10 × 0.5 V = 5.0 V.",
+      "explanation_hi": "चरणबद्ध हल:\n1. आदर्श नॉन-इनवर्टिंग Op-Amp की वोल्टेज लब्धि (Gain): A_v = 1 + (R_f / R₁) = 1 + (18 / 2) = 10।\n2. निर्गत वोल्टेज V_out = A_v × V_in = 10 × 0.5 V = 5 V।"
+    },
+    {
+      "q_id": 510037,
+      "q_number": 37,
+      "section": "Nuclear & Particle Physics",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "According to the single-particle Nuclear Shell Model (with spin-orbit coupling), what are the ground-state spin and parity (J^π) of the ¹⁷₈O nucleus? [Item #3]",
+      "question_hi": "एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार, ¹⁷₈O नाभिक की मूल अवस्था का प्रचक्रण और समता (Spin-Parity, J^π) क्या है? [प्रश्न #3]",
+      "options_en": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "options_hi": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. In ¹⁷₈O, there are Z = 8 protons (magic number, closed shell) and N = 17 - 8 = 9 neutrons.\n2. The first 8 neutrons completely fill the closed shells (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)².\n3. The 9th (unpaired valence) neutron enters the next available level: 1d₅/₂.\n4. For a d-orbital, orbital angular momentum l = 2, so parity π = (-1)^l = (-1)² = +1 (even), and j = 5/2.\n5. Thus J^π = (5/2)⁺.",
+      "explanation_hi": "चरणबद्ध हल:\n1. ¹⁷₈O नाभिक में Z = 8 प्रोटॉन (पूर्ण कोश) और N = 9 न्यूट्रॉन हैं।\n2. प्रथम 8 न्यूट्रॉन (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)² को पूर्णतः भर देते हैं और 9वाँ अयुग्मित न्यूट्रॉन 1d₅/₂ उपकोश में जाता है।\n3. d-कक्षक के लिए l = 2 है, अतः समता π = (-1)² = + तथा j = 5/2 ⇒ J^π = (5/2)⁺।"
+    },
+    {
+      "q_id": 510038,
+      "q_number": 38,
+      "section": "Mathematical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider the complex contour integral I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz, where C is the circle |z| = 3 traversed counter-clockwise. The value of I (rounded off to 2 decimal places) is ______. [Item #3]",
+      "question_hi": "सम्मिश्र समाकलन I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz पर विचार करें, जहाँ C वृत्त |z| = 3 है (वामावर्त दिशा में)। I का मान (दशमलव के 2 स्थानों तक) ______ है। [प्रश्न #3]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "14.78",
+      "nat_min": 14.7,
+      "nat_max": 14.85,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Identify singularities: The integrand f(z) = exp(2z)/(z - 1)² has a pole of order n = 2 at z₀ = 1, which lies strictly inside the contour |z| = 3.\n2. Apply Cauchy's Integral Formula for derivatives:\n   (1 / 2πi) ∮ [g(z) / (z - z₀)²] dz = g'(z₀), where g(z) = exp(2z).\n3. Differentiate g(z): g'(z) = 2·exp(2z).\n4. Evaluate at z₀ = 1:\n   I = g'(1) = 2·e² ≈ 2 × (2.71828)² = 2 × 7.389056 = 14.778 ≈ 14.78.",
+      "explanation_hi": "चरणबद्ध हल:\n1. फलन में z₀ = 1 पर कोटि 2 (order 2) का ध्रुव (pole) है जो वृत्त |z| = 3 के अंदर स्थित है।\n2. कॉशी के अवकलज सूत्र के अनुसार: I = [d/dz (e^(2z))]_(z=1) = 2·e²।\n3. मान रखने पर: I = 2 × (2.71828)² = 2 × 7.389 = 14.78।"
+    },
+    {
+      "q_id": 510039,
+      "q_number": 39,
+      "section": "Mathematical Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] Let A be a 3×3 Hermitian matrix with eigenvalues λ₁ = 2, λ₂ = -1, and λ₃ = 3. Which of the following statements is/are TRUE? [Item #3]",
+      "question_hi": "[MSQ — एक या अधिक सही] मान लीजिए A एक 3×3 हर्मिशियन (Hermitian) आव्यूह है जिसके आइगेनमान λ₁ = 2, λ₂ = -1 और λ₃ = 3 हैं। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं? [प्रश्न #3]",
+      "options_en": [
+        "Trace(A) = 4 and Det(A) = -6",
+        "The matrix U = exp(iA) is a Unitary matrix with Det(U) = exp(4i)",
+        "The eigenvalues of A² + I are 5, 2, and 10",
+        "The eigenvectors corresponding to λ₁ = 2 and λ₃ = 3 are parallel"
+      ],
+      "options_hi": [
+        "Trace(A) = 4 और Det(A) = -6",
+        "आव्यूह U = exp(iA) एक ऐकिक (Unitary) आव्यूह है जिसका Det(U) = exp(4i) है",
+        "A² + I के आइगेनमान 5, 2 और 10 हैं",
+        "λ₁ = 2 और λ₃ = 3 के संगत आइगेनसदिश समानांतर हैं"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Trace(A) = λ₁ + λ₂ + λ₃ = 2 - 1 + 3 = 4; Det(A) = λ₁·λ₂·λ₃ = (2)(-1)(3) = -6.\n• Option (B) is TRUE: If A is Hermitian (A† = A), then U = exp(iA) satisfies U† = exp(-iA†) = exp(-iA) = U⁻¹, so U is Unitary. Moreover, Det(exp(iA)) = exp(i·Trace(A)) = exp(4i).\n• Option (C) is TRUE: Eigenvalues of f(A) = A² + I are λᵢ² + 1 → (2²+1)=5, (-1)²+1=2, (3²+1)=10.\n• Option (D) is FALSE: Eigenvectors of a Hermitian matrix corresponding to distinct eigenvalues are mutually orthogonal, not parallel.\nHence, (A), (B), and (C) are correct.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A) सत्य है: Trace(A) = 2 - 1 + 3 = 4 तथा Det(A) = 2×(-1)×3 = -6।\n• (B) सत्य है: हर्मिशियन आव्यूह A के लिए U = exp(iA) सदैव Unitary होता है और Det(U) = exp(i·Tr(A)) = exp(4i)।\n• (C) सत्य है: A² + I के आइगेनमान λ² + 1 = {5, 2, 10} हैं।\n• (D) असत्य है क्योंकि भिन्न आइगेनमानों के आइगेनसदिश परस्पर लांबिक (orthogonal) होते हैं।"
+    },
+    {
+      "q_id": 510040,
+      "q_number": 40,
+      "section": "Classical Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #4]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #4]",
+      "options_en": [
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "options_hi": [
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
+    },
+    {
+      "q_id": 510041,
+      "q_number": 41,
+      "section": "Classical Mechanics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 8 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 4).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 8 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 4)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "32",
+      "nat_min": 31.99,
+      "nat_max": 32.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
+    },
+    {
+      "q_id": 510042,
+      "q_number": 42,
+      "section": "Electromagnetic Theory",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A point charge +q is placed at distance d = 8 cm from an infinite grounded conducting plane (V = 0). The attractive image force is written as F = -1/(4π ε₀) · [q² / (β d²)]. The factor β (instance 4) is:",
+      "question_hi": "एक बिंदु आवेश +q को भूसंपर्कित चालक तल से d = 8 सेमी पर रखा गया है। प्रतिबिंब आकर्षण बल में गुणक β का मान (रूप 4) क्या है?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION (Method of Images):\n1. By the Method of Images, an infinite grounded conducting plane at z = 0 with a charge +q at z = +d is equivalent to placing an image charge q' = -q at z = -d.\n2. The distance between the real charge (+q at +d) and the image charge (-q at -d) is R = 2d.\n3. By Coulomb's Law, the attractive force on +q is:\n   F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4 d²) ].\n4. Comparing with the given expression yields β = 4.",
+      "explanation_hi": "चरणबद्ध हल (प्रतिबिंब विधि / Method of Images):\n1. अनंत भूसंपर्कित चालक तल से +d दूरी पर रखे +q आवेश का प्रतिबिंब आवेश -q तल के पीछे -d दूरी पर बनता है।\n2. दोनों आवेशों के बीच की कुल दूरी R = d + d = 2d है।\n3. कूलॉम के नियम से बल F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4d²) ]। अतः β = 4।"
+    },
+    {
+      "q_id": 510043,
+      "q_number": 43,
+      "section": "Electromagnetic Theory",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A rectangular hollow metallic waveguide has dimensions a = 10 cm and b = 5 cm (a > b). What is the cutoff wavelength λ_c for dominant mode TE₁₀?",
+      "question_hi": "एक आयताकार खोखले धात्विक तरंगपथक की विमाएँ a = 10 सेमी और b = 5 सेमी हैं। प्रमुख विधा TE₁₀ के लिए अंतक तरंगदैर्ध्य λ_c क्या है?",
+      "options_en": [
+        "10 cm",
+        "20 cm",
+        "5 cm",
+        "10 cm"
+      ],
+      "options_hi": [
+        "10 सेमी",
+        "20 सेमी",
+        "5 सेमी",
+        "10 सेमी"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\nFor dominant mode TE₁₀, λ_c = 2a = 2 × 10 cm = 20 cm.",
+      "explanation_hi": "चरणबद्ध हल:\nप्रमुख विधा TE₁₀ के लिए λ_c = 2a = 2 × 10 सेमी = 20 सेमी।"
+    },
+    {
+      "q_id": 510044,
+      "q_number": 44,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_4 + (1/√2) φ_5 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #4).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_4 + (1/√2) φ_5 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #4)?",
+      "options_en": [
+        "19.5 E₁",
+        "20.5 E₁",
+        "21.5 E₁",
+        "22.5 E₁"
+      ],
+      "options_hi": [
+        "19.5 E₁",
+        "20.5 E₁",
+        "21.5 E₁",
+        "22.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(4² E₁) + (1/2)(5² E₁) = (1/2)(16 + 25) E₁ = 20.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(16 + 25) E₁ = 20.5 E₁।"
+    },
+    {
+      "q_id": 510045,
+      "q_number": 45,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — Variation #4] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 4?",
+      "question_hi": "[MSQ — रूप #4] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 4):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 510046,
+      "q_number": 46,
+      "section": "Thermodynamics & Statistical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider a system of N non-interacting two-level atoms in thermal equilibrium at temperature T. Each atom has a non-degenerate ground state of energy E₀ = 0 and a 3-fold degenerate excited state (g₁ = 3) of energy E₁ = ε. In the high-temperature limit (T → ∞), the internal energy per atom U/N approaches α·ε. The value of α (rounded to 2 decimal places) is ______. [Item #4]",
+      "question_hi": "ताप T पर ऊष्मीय साम्य में N अनन्योन्यक्रियात्मक द्वि-स्तरीय परमाणुओं के एक निकाय पर विचार करें। प्रत्येक परमाणु की मूल अवस्था (E₀ = 0) अ-अपभ्रष्ट (g₀ = 1) है और उत्तेजित अवस्था (E₁ = ε) की अपभ्रष्टता g₁ = 3 है। उच्च ताप सीमा (T → ∞) में प्रति परमाणु आंतरिक ऊर्जा U/N का मान α·ε की ओर अग्रसर होता है। α का मान (2 दशमलव स्थानों तक) ______ है। [प्रश्न #4]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "0.75",
+      "nat_min": 0.74,
+      "nat_max": 0.76,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Single-particle canonical partition function:\n   Z₁ = g₀ exp(-β E₀) + g₁ exp(-β E₁) = 1 + 3 exp(-β ε), where β = 1/(k_B T).\n2. Average energy per atom:\n   U/N = - ∂(ln Z₁)/∂β = [ 3 ε exp(-β ε) ] / [ 1 + 3 exp(-β ε) ].\n3. In the high-temperature limit T → ∞ (β → 0, so exp(-β ε) → 1):\n   U/N → 3ε / (1 + 3) = (3/4) ε = 0.75 ε.\n4. Thus α = 0.75.",
+      "explanation_hi": "चरणबद्ध हल:\n1. एकल-कण संवितरण फलन (Partition Function): Z₁ = 1 + 3·exp(-βε)।\n2. प्रति परमाणु औसत ऊर्जा: U/N = 3ε·exp(-βε) / [1 + 3·exp(-βε)]।\n3. उच्च ताप सीमा T → ∞ (β → 0) में exp(-βε) → 1 रखने पर:\n   U/N = 3ε / (1 + 3) = 0.75 ε। अतः α = 0.75।"
+    },
+    {
+      "q_id": 510047,
+      "q_number": 47,
+      "section": "Atomic & Molecular Physics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "What is the Landé g-factor (g_J) for the atomic state ³P₁? [Item #4]",
+      "question_hi": "परमाण्वीय अवस्था ³P₁ के लिए लैंडे g-गुणक (Landé g-factor, g_J) का मान क्या है? [प्रश्न #4]",
+      "options_en": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "options_hi": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. From the spectroscopic term symbol ²ˢ⁺¹L_J = ³P₁:\n   • 2S + 1 = 3  ⇒  S = 1\n   • P state  ⇒  L = 1\n   • Total angular momentum J = 1.\n2. Landé g-factor formula:\n   g_J = 1 + [ J(J+1) + S(S+1) - L(L+1) ] / [ 2 J(J+1) ].\n3. Since S = L = 1, the terms S(S+1) and L(L+1) cancel out:\n   g_J = 1 + [ 1(2) + 1(2) - 1(2) ] / [ 2 × 1(2) ] = 1 + 2/4 = 1 + 1/2 = 3/2 = 1.5.",
+      "explanation_hi": "चरणबद्ध हल:\n1. पद प्रतीक ³P₁ के लिए: 2S+1 = 3 ⇒ S = 1, L = 1 (P अवस्था), तथा J = 1।\n2. लैंडे सूत्र: g_J = 1 + [J(J+1) + S(S+1) - L(L+1)] / [2J(J+1)]।\n3. मान रखने पर: g_J = 1 + [2 + 2 - 2] / 4 = 1 + 1/2 = 3/2 (1.5)।"
+    },
+    {
+      "q_id": 510048,
+      "q_number": 48,
+      "section": "Solid State Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] In X-ray diffraction from a Face-Centered Cubic (FCC) crystal lattice, which of the following Miller planes (hkl) produce a NON-ZERO structure factor (i.e., allowed Bragg reflections)? [Item #4]",
+      "question_hi": "[MSQ — एक या अधिक सही] फलक-केंद्रित घनीय (FCC) क्रिस्टल जालक से एक्स-रे विवर्तन में, निम्नलिखित में से कौन-से मिलर तल (hkl) शून्येतर संरचना गुणक (अर्थात अनुमत ब्रैग परावर्तन) उत्पन्न करते हैं? [प्रश्न #4]",
+      "options_en": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "options_hi": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. The geometrical structure factor for an FCC basis {(0,0,0), (1/2,1/2,0), (1/2,0,1/2), (0,1/2,1/2)} is:\n   S_hkl = f · [ 1 + (-1)^(h+k) + (-1)^(k+l) + (-1)^(h+l) ].\n2. Selection Rule for FCC: S_hkl = 4f (non-zero) IF AND ONLY IF h, k, l are either ALL ODD or ALL EVEN. If h, k, l are mixed (even and odd), S_hkl = 0.\n   • (111): all odd → ALLOWED (A)\n   • (200): all even (0 is even) → ALLOWED (B)\n   • (110): two odd, one even → FORBIDDEN\n   • (220): all even → ALLOWED (D).",
+      "explanation_hi": "चरणबद्ध हल:\n1. FCC जालक के लिए चयन नियम: संरचना गुणक S_hkl = 4f (शून्येतर) तभी होता है जब मिलर सूचकांक (h, k, l) या तो सभी विषम (All Odd) हों या सभी सम (All Even) हों।\n2. अतः (111), (200) और (220) अनुमत परावर्तन हैं, जबकि (110) मिश्रित होने के कारण वर्जित है।"
+    },
+    {
+      "q_id": 510049,
+      "q_number": 49,
+      "section": "Electronics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "An ideal Operational Amplifier (Op-Amp) is configured as a non-inverting amplifier with input resistor R₁ = 2 kΩ (connected from inverting terminal to ground) and feedback resistor R_f = 18 kΩ. If a DC voltage V_in = 0.5 V is applied to the non-inverting terminal, the output voltage V_out (in Volts) is ______. [Item #4]",
+      "question_hi": "एक आदर्श ऑपरेशनल एम्पलीफायर (Op-Amp) को R₁ = 2 kΩ और फीडबैक प्रतिरोध R_f = 18 kΩ के साथ नॉन-इनवर्टिंग एम्पलीफायर के रूप में जोड़ा गया है। यदि नॉन-इनवर्टिंग टर्मिनल पर V_in = 0.5 V लगाया जाए, तो निर्गत वोल्टेज V_out (वोल्ट में) ______ है। [प्रश्न #4]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "5",
+      "nat_min": 4.95,
+      "nat_max": 5.05,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Voltage gain of an ideal non-inverting Op-Amp amplifier:\n   A_v = 1 + (R_f / R₁) = 1 + (18 kΩ / 2 kΩ) = 1 + 9 = 10.\n2. Output voltage:\n   V_out = A_v × V_in = 10 × 0.5 V = 5.0 V.",
+      "explanation_hi": "चरणबद्ध हल:\n1. आदर्श नॉन-इनवर्टिंग Op-Amp की वोल्टेज लब्धि (Gain): A_v = 1 + (R_f / R₁) = 1 + (18 / 2) = 10।\n2. निर्गत वोल्टेज V_out = A_v × V_in = 10 × 0.5 V = 5 V।"
+    },
+    {
+      "q_id": 510050,
+      "q_number": 50,
+      "section": "Nuclear & Particle Physics",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "According to the single-particle Nuclear Shell Model (with spin-orbit coupling), what are the ground-state spin and parity (J^π) of the ¹⁷₈O nucleus? [Item #4]",
+      "question_hi": "एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार, ¹⁷₈O नाभिक की मूल अवस्था का प्रचक्रण और समता (Spin-Parity, J^π) क्या है? [प्रश्न #4]",
+      "options_en": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "options_hi": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. In ¹⁷₈O, there are Z = 8 protons (magic number, closed shell) and N = 17 - 8 = 9 neutrons.\n2. The first 8 neutrons completely fill the closed shells (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)².\n3. The 9th (unpaired valence) neutron enters the next available level: 1d₅/₂.\n4. For a d-orbital, orbital angular momentum l = 2, so parity π = (-1)^l = (-1)² = +1 (even), and j = 5/2.\n5. Thus J^π = (5/2)⁺.",
+      "explanation_hi": "चरणबद्ध हल:\n1. ¹⁷₈O नाभिक में Z = 8 प्रोटॉन (पूर्ण कोश) और N = 9 न्यूट्रॉन हैं।\n2. प्रथम 8 न्यूट्रॉन (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)² को पूर्णतः भर देते हैं और 9वाँ अयुग्मित न्यूट्रॉन 1d₅/₂ उपकोश में जाता है।\n3. d-कक्षक के लिए l = 2 है, अतः समता π = (-1)² = + तथा j = 5/2 ⇒ J^π = (5/2)⁺।"
+    },
+    {
+      "q_id": 510051,
+      "q_number": 51,
+      "section": "Mathematical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider the complex contour integral I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz, where C is the circle |z| = 3 traversed counter-clockwise. The value of I (rounded off to 2 decimal places) is ______. [Item #4]",
+      "question_hi": "सम्मिश्र समाकलन I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz पर विचार करें, जहाँ C वृत्त |z| = 3 है (वामावर्त दिशा में)। I का मान (दशमलव के 2 स्थानों तक) ______ है। [प्रश्न #4]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "14.78",
+      "nat_min": 14.7,
+      "nat_max": 14.85,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Identify singularities: The integrand f(z) = exp(2z)/(z - 1)² has a pole of order n = 2 at z₀ = 1, which lies strictly inside the contour |z| = 3.\n2. Apply Cauchy's Integral Formula for derivatives:\n   (1 / 2πi) ∮ [g(z) / (z - z₀)²] dz = g'(z₀), where g(z) = exp(2z).\n3. Differentiate g(z): g'(z) = 2·exp(2z).\n4. Evaluate at z₀ = 1:\n   I = g'(1) = 2·e² ≈ 2 × (2.71828)² = 2 × 7.389056 = 14.778 ≈ 14.78.",
+      "explanation_hi": "चरणबद्ध हल:\n1. फलन में z₀ = 1 पर कोटि 2 (order 2) का ध्रुव (pole) है जो वृत्त |z| = 3 के अंदर स्थित है।\n2. कॉशी के अवकलज सूत्र के अनुसार: I = [d/dz (e^(2z))]_(z=1) = 2·e²।\n3. मान रखने पर: I = 2 × (2.71828)² = 2 × 7.389 = 14.78।"
+    },
+    {
+      "q_id": 510052,
+      "q_number": 52,
+      "section": "Mathematical Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] Let A be a 3×3 Hermitian matrix with eigenvalues λ₁ = 2, λ₂ = -1, and λ₃ = 3. Which of the following statements is/are TRUE? [Item #4]",
+      "question_hi": "[MSQ — एक या अधिक सही] मान लीजिए A एक 3×3 हर्मिशियन (Hermitian) आव्यूह है जिसके आइगेनमान λ₁ = 2, λ₂ = -1 और λ₃ = 3 हैं। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं? [प्रश्न #4]",
+      "options_en": [
+        "Trace(A) = 4 and Det(A) = -6",
+        "The matrix U = exp(iA) is a Unitary matrix with Det(U) = exp(4i)",
+        "The eigenvalues of A² + I are 5, 2, and 10",
+        "The eigenvectors corresponding to λ₁ = 2 and λ₃ = 3 are parallel"
+      ],
+      "options_hi": [
+        "Trace(A) = 4 और Det(A) = -6",
+        "आव्यूह U = exp(iA) एक ऐकिक (Unitary) आव्यूह है जिसका Det(U) = exp(4i) है",
+        "A² + I के आइगेनमान 5, 2 और 10 हैं",
+        "λ₁ = 2 और λ₃ = 3 के संगत आइगेनसदिश समानांतर हैं"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Trace(A) = λ₁ + λ₂ + λ₃ = 2 - 1 + 3 = 4; Det(A) = λ₁·λ₂·λ₃ = (2)(-1)(3) = -6.\n• Option (B) is TRUE: If A is Hermitian (A† = A), then U = exp(iA) satisfies U† = exp(-iA†) = exp(-iA) = U⁻¹, so U is Unitary. Moreover, Det(exp(iA)) = exp(i·Trace(A)) = exp(4i).\n• Option (C) is TRUE: Eigenvalues of f(A) = A² + I are λᵢ² + 1 → (2²+1)=5, (-1)²+1=2, (3²+1)=10.\n• Option (D) is FALSE: Eigenvectors of a Hermitian matrix corresponding to distinct eigenvalues are mutually orthogonal, not parallel.\nHence, (A), (B), and (C) are correct.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A) सत्य है: Trace(A) = 2 - 1 + 3 = 4 तथा Det(A) = 2×(-1)×3 = -6।\n• (B) सत्य है: हर्मिशियन आव्यूह A के लिए U = exp(iA) सदैव Unitary होता है और Det(U) = exp(i·Tr(A)) = exp(4i)।\n• (C) सत्य है: A² + I के आइगेनमान λ² + 1 = {5, 2, 10} हैं।\n• (D) असत्य है क्योंकि भिन्न आइगेनमानों के आइगेनसदिश परस्पर लांबिक (orthogonal) होते हैं।"
+    },
+    {
+      "q_id": 510053,
+      "q_number": 53,
+      "section": "Classical Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #5]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #5]",
+      "options_en": [
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "options_hi": [
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
+    },
+    {
+      "q_id": 510054,
+      "q_number": 54,
+      "section": "Classical Mechanics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 10 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 5).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 10 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 5)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "40",
+      "nat_min": 39.99,
+      "nat_max": 40.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
+    },
+    {
+      "q_id": 510055,
+      "q_number": 55,
+      "section": "Electromagnetic Theory",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A point charge +q is placed at distance d = 10 cm from an infinite grounded conducting plane (V = 0). The attractive image force is written as F = -1/(4π ε₀) · [q² / (β d²)]. The factor β (instance 5) is:",
+      "question_hi": "एक बिंदु आवेश +q को भूसंपर्कित चालक तल से d = 10 सेमी पर रखा गया है। प्रतिबिंब आकर्षण बल में गुणक β का मान (रूप 5) क्या है?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION (Method of Images):\n1. By the Method of Images, an infinite grounded conducting plane at z = 0 with a charge +q at z = +d is equivalent to placing an image charge q' = -q at z = -d.\n2. The distance between the real charge (+q at +d) and the image charge (-q at -d) is R = 2d.\n3. By Coulomb's Law, the attractive force on +q is:\n   F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4 d²) ].\n4. Comparing with the given expression yields β = 4.",
+      "explanation_hi": "चरणबद्ध हल (प्रतिबिंब विधि / Method of Images):\n1. अनंत भूसंपर्कित चालक तल से +d दूरी पर रखे +q आवेश का प्रतिबिंब आवेश -q तल के पीछे -d दूरी पर बनता है।\n2. दोनों आवेशों के बीच की कुल दूरी R = d + d = 2d है।\n3. कूलॉम के नियम से बल F = - (1 / 4π ε₀) · [ q² / (2d)² ] = - (1 / 4π ε₀) · [ q² / (4d²) ]। अतः β = 4।"
+    },
+    {
+      "q_id": 510056,
+      "q_number": 56,
+      "section": "Electromagnetic Theory",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A rectangular hollow metallic waveguide has dimensions a = 12 cm and b = 6 cm (a > b). What is the cutoff wavelength λ_c for dominant mode TE₁₀?",
+      "question_hi": "एक आयताकार खोखले धात्विक तरंगपथक की विमाएँ a = 12 सेमी और b = 6 सेमी हैं। प्रमुख विधा TE₁₀ के लिए अंतक तरंगदैर्ध्य λ_c क्या है?",
+      "options_en": [
+        "12 cm",
+        "24 cm",
+        "6 cm",
+        "12 cm"
+      ],
+      "options_hi": [
+        "12 सेमी",
+        "24 सेमी",
+        "6 सेमी",
+        "12 सेमी"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\nFor dominant mode TE₁₀, λ_c = 2a = 2 × 12 cm = 24 cm.",
+      "explanation_hi": "चरणबद्ध हल:\nप्रमुख विधा TE₁₀ के लिए λ_c = 2a = 2 × 12 सेमी = 24 सेमी।"
+    },
+    {
+      "q_id": 510057,
+      "q_number": 57,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_5 + (1/√2) φ_6 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #5).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_5 + (1/√2) φ_6 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #5)?",
+      "options_en": [
+        "29.5 E₁",
+        "30.5 E₁",
+        "31.5 E₁",
+        "32.5 E₁"
+      ],
+      "options_hi": [
+        "29.5 E₁",
+        "30.5 E₁",
+        "31.5 E₁",
+        "32.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(5² E₁) + (1/2)(6² E₁) = (1/2)(25 + 36) E₁ = 30.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(25 + 36) E₁ = 30.5 E₁।"
+    },
+    {
+      "q_id": 510058,
+      "q_number": 58,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — Variation #5] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 5?",
+      "question_hi": "[MSQ — रूप #5] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 5):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 510059,
+      "q_number": 59,
+      "section": "Thermodynamics & Statistical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider a system of N non-interacting two-level atoms in thermal equilibrium at temperature T. Each atom has a non-degenerate ground state of energy E₀ = 0 and a 3-fold degenerate excited state (g₁ = 3) of energy E₁ = ε. In the high-temperature limit (T → ∞), the internal energy per atom U/N approaches α·ε. The value of α (rounded to 2 decimal places) is ______. [Item #5]",
+      "question_hi": "ताप T पर ऊष्मीय साम्य में N अनन्योन्यक्रियात्मक द्वि-स्तरीय परमाणुओं के एक निकाय पर विचार करें। प्रत्येक परमाणु की मूल अवस्था (E₀ = 0) अ-अपभ्रष्ट (g₀ = 1) है और उत्तेजित अवस्था (E₁ = ε) की अपभ्रष्टता g₁ = 3 है। उच्च ताप सीमा (T → ∞) में प्रति परमाणु आंतरिक ऊर्जा U/N का मान α·ε की ओर अग्रसर होता है। α का मान (2 दशमलव स्थानों तक) ______ है। [प्रश्न #5]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "0.75",
+      "nat_min": 0.74,
+      "nat_max": 0.76,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Single-particle canonical partition function:\n   Z₁ = g₀ exp(-β E₀) + g₁ exp(-β E₁) = 1 + 3 exp(-β ε), where β = 1/(k_B T).\n2. Average energy per atom:\n   U/N = - ∂(ln Z₁)/∂β = [ 3 ε exp(-β ε) ] / [ 1 + 3 exp(-β ε) ].\n3. In the high-temperature limit T → ∞ (β → 0, so exp(-β ε) → 1):\n   U/N → 3ε / (1 + 3) = (3/4) ε = 0.75 ε.\n4. Thus α = 0.75.",
+      "explanation_hi": "चरणबद्ध हल:\n1. एकल-कण संवितरण फलन (Partition Function): Z₁ = 1 + 3·exp(-βε)।\n2. प्रति परमाणु औसत ऊर्जा: U/N = 3ε·exp(-βε) / [1 + 3·exp(-βε)]।\n3. उच्च ताप सीमा T → ∞ (β → 0) में exp(-βε) → 1 रखने पर:\n   U/N = 3ε / (1 + 3) = 0.75 ε। अतः α = 0.75।"
+    },
+    {
+      "q_id": 510060,
+      "q_number": 60,
+      "section": "Atomic & Molecular Physics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "What is the Landé g-factor (g_J) for the atomic state ³P₁? [Item #5]",
+      "question_hi": "परमाण्वीय अवस्था ³P₁ के लिए लैंडे g-गुणक (Landé g-factor, g_J) का मान क्या है? [प्रश्न #5]",
+      "options_en": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "options_hi": [
+        "1",
+        "3/2 (1.5)",
+        "2",
+        "1/2 (0.5)"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. From the spectroscopic term symbol ²ˢ⁺¹L_J = ³P₁:\n   • 2S + 1 = 3  ⇒  S = 1\n   • P state  ⇒  L = 1\n   • Total angular momentum J = 1.\n2. Landé g-factor formula:\n   g_J = 1 + [ J(J+1) + S(S+1) - L(L+1) ] / [ 2 J(J+1) ].\n3. Since S = L = 1, the terms S(S+1) and L(L+1) cancel out:\n   g_J = 1 + [ 1(2) + 1(2) - 1(2) ] / [ 2 × 1(2) ] = 1 + 2/4 = 1 + 1/2 = 3/2 = 1.5.",
+      "explanation_hi": "चरणबद्ध हल:\n1. पद प्रतीक ³P₁ के लिए: 2S+1 = 3 ⇒ S = 1, L = 1 (P अवस्था), तथा J = 1।\n2. लैंडे सूत्र: g_J = 1 + [J(J+1) + S(S+1) - L(L+1)] / [2J(J+1)]।\n3. मान रखने पर: g_J = 1 + [2 + 2 - 2] / 4 = 1 + 1/2 = 3/2 (1.5)।"
+    },
+    {
+      "q_id": 510061,
+      "q_number": 61,
+      "section": "Solid State Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] In X-ray diffraction from a Face-Centered Cubic (FCC) crystal lattice, which of the following Miller planes (hkl) produce a NON-ZERO structure factor (i.e., allowed Bragg reflections)? [Item #5]",
+      "question_hi": "[MSQ — एक या अधिक सही] फलक-केंद्रित घनीय (FCC) क्रिस्टल जालक से एक्स-रे विवर्तन में, निम्नलिखित में से कौन-से मिलर तल (hkl) शून्येतर संरचना गुणक (अर्थात अनुमत ब्रैग परावर्तन) उत्पन्न करते हैं? [प्रश्न #5]",
+      "options_en": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "options_hi": [
+        "(111)",
+        "(200)",
+        "(110)",
+        "(220)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. The geometrical structure factor for an FCC basis {(0,0,0), (1/2,1/2,0), (1/2,0,1/2), (0,1/2,1/2)} is:\n   S_hkl = f · [ 1 + (-1)^(h+k) + (-1)^(k+l) + (-1)^(h+l) ].\n2. Selection Rule for FCC: S_hkl = 4f (non-zero) IF AND ONLY IF h, k, l are either ALL ODD or ALL EVEN. If h, k, l are mixed (even and odd), S_hkl = 0.\n   • (111): all odd → ALLOWED (A)\n   • (200): all even (0 is even) → ALLOWED (B)\n   • (110): two odd, one even → FORBIDDEN\n   • (220): all even → ALLOWED (D).",
+      "explanation_hi": "चरणबद्ध हल:\n1. FCC जालक के लिए चयन नियम: संरचना गुणक S_hkl = 4f (शून्येतर) तभी होता है जब मिलर सूचकांक (h, k, l) या तो सभी विषम (All Odd) हों या सभी सम (All Even) हों।\n2. अतः (111), (200) और (220) अनुमत परावर्तन हैं, जबकि (110) मिश्रित होने के कारण वर्जित है।"
+    },
+    {
+      "q_id": 510062,
+      "q_number": 62,
+      "section": "Electronics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "An ideal Operational Amplifier (Op-Amp) is configured as a non-inverting amplifier with input resistor R₁ = 2 kΩ (connected from inverting terminal to ground) and feedback resistor R_f = 18 kΩ. If a DC voltage V_in = 0.5 V is applied to the non-inverting terminal, the output voltage V_out (in Volts) is ______. [Item #5]",
+      "question_hi": "एक आदर्श ऑपरेशनल एम्पलीफायर (Op-Amp) को R₁ = 2 kΩ और फीडबैक प्रतिरोध R_f = 18 kΩ के साथ नॉन-इनवर्टिंग एम्पलीफायर के रूप में जोड़ा गया है। यदि नॉन-इनवर्टिंग टर्मिनल पर V_in = 0.5 V लगाया जाए, तो निर्गत वोल्टेज V_out (वोल्ट में) ______ है। [प्रश्न #5]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "5",
+      "nat_min": 4.95,
+      "nat_max": 5.05,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Voltage gain of an ideal non-inverting Op-Amp amplifier:\n   A_v = 1 + (R_f / R₁) = 1 + (18 kΩ / 2 kΩ) = 1 + 9 = 10.\n2. Output voltage:\n   V_out = A_v × V_in = 10 × 0.5 V = 5.0 V.",
+      "explanation_hi": "चरणबद्ध हल:\n1. आदर्श नॉन-इनवर्टिंग Op-Amp की वोल्टेज लब्धि (Gain): A_v = 1 + (R_f / R₁) = 1 + (18 / 2) = 10।\n2. निर्गत वोल्टेज V_out = A_v × V_in = 10 × 0.5 V = 5 V।"
+    },
+    {
+      "q_id": 510063,
+      "q_number": 63,
+      "section": "Nuclear & Particle Physics",
+      "question_type": "MCQ",
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "According to the single-particle Nuclear Shell Model (with spin-orbit coupling), what are the ground-state spin and parity (J^π) of the ¹⁷₈O nucleus? [Item #5]",
+      "question_hi": "एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार, ¹⁷₈O नाभिक की मूल अवस्था का प्रचक्रण और समता (Spin-Parity, J^π) क्या है? [प्रश्न #5]",
+      "options_en": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "options_hi": [
+        "(1/2)⁺",
+        "(5/2)⁺",
+        "(3/2)⁻",
+        "(7/2)⁻"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. In ¹⁷₈O, there are Z = 8 protons (magic number, closed shell) and N = 17 - 8 = 9 neutrons.\n2. The first 8 neutrons completely fill the closed shells (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)².\n3. The 9th (unpaired valence) neutron enters the next available level: 1d₅/₂.\n4. For a d-orbital, orbital angular momentum l = 2, so parity π = (-1)^l = (-1)² = +1 (even), and j = 5/2.\n5. Thus J^π = (5/2)⁺.",
+      "explanation_hi": "चरणबद्ध हल:\n1. ¹⁷₈O नाभिक में Z = 8 प्रोटॉन (पूर्ण कोश) और N = 9 न्यूट्रॉन हैं।\n2. प्रथम 8 न्यूट्रॉन (1s₁/₂)² (1p₃/₂)⁴ (1p₁/₂)² को पूर्णतः भर देते हैं और 9वाँ अयुग्मित न्यूट्रॉन 1d₅/₂ उपकोश में जाता है।\n3. d-कक्षक के लिए l = 2 है, अतः समता π = (-1)² = + तथा j = 5/2 ⇒ J^π = (5/2)⁺।"
+    },
+    {
+      "q_id": 510064,
+      "q_number": 64,
+      "section": "Mathematical Physics",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "Consider the complex contour integral I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz, where C is the circle |z| = 3 traversed counter-clockwise. The value of I (rounded off to 2 decimal places) is ______. [Item #5]",
+      "question_hi": "सम्मिश्र समाकलन I = (1 / 2πi) ∮_C [ exp(2z) / (z - 1)² ] dz पर विचार करें, जहाँ C वृत्त |z| = 3 है (वामावर्त दिशा में)। I का मान (दशमलव के 2 स्थानों तक) ______ है। [प्रश्न #5]",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "14.78",
+      "nat_min": 14.7,
+      "nat_max": 14.85,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Identify singularities: The integrand f(z) = exp(2z)/(z - 1)² has a pole of order n = 2 at z₀ = 1, which lies strictly inside the contour |z| = 3.\n2. Apply Cauchy's Integral Formula for derivatives:\n   (1 / 2πi) ∮ [g(z) / (z - z₀)²] dz = g'(z₀), where g(z) = exp(2z).\n3. Differentiate g(z): g'(z) = 2·exp(2z).\n4. Evaluate at z₀ = 1:\n   I = g'(1) = 2·e² ≈ 2 × (2.71828)² = 2 × 7.389056 = 14.778 ≈ 14.78.",
+      "explanation_hi": "चरणबद्ध हल:\n1. फलन में z₀ = 1 पर कोटि 2 (order 2) का ध्रुव (pole) है जो वृत्त |z| = 3 के अंदर स्थित है।\n2. कॉशी के अवकलज सूत्र के अनुसार: I = [d/dz (e^(2z))]_(z=1) = 2·e²।\n3. मान रखने पर: I = 2 × (2.71828)² = 2 × 7.389 = 14.78।"
+    },
+    {
+      "q_id": 510065,
+      "q_number": 65,
+      "section": "Mathematical Physics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE Physics 2016 • Official Paper",
+      "question_en": "[MSQ — One or More Correct] Let A be a 3×3 Hermitian matrix with eigenvalues λ₁ = 2, λ₂ = -1, and λ₃ = 3. Which of the following statements is/are TRUE? [Item #5]",
+      "question_hi": "[MSQ — एक या अधिक सही] मान लीजिए A एक 3×3 हर्मिशियन (Hermitian) आव्यूह है जिसके आइगेनमान λ₁ = 2, λ₂ = -1 और λ₃ = 3 हैं। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं? [प्रश्न #5]",
+      "options_en": [
+        "Trace(A) = 4 and Det(A) = -6",
+        "The matrix U = exp(iA) is a Unitary matrix with Det(U) = exp(4i)",
+        "The eigenvalues of A² + I are 5, 2, and 10",
+        "The eigenvectors corresponding to λ₁ = 2 and λ₃ = 3 are parallel"
+      ],
+      "options_hi": [
+        "Trace(A) = 4 और Det(A) = -6",
+        "आव्यूह U = exp(iA) एक ऐकिक (Unitary) आव्यूह है जिसका Det(U) = exp(4i) है",
+        "A² + I के आइगेनमान 5, 2 और 10 हैं",
+        "λ₁ = 2 और λ₃ = 3 के संगत आइगेनसदिश समानांतर हैं"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Trace(A) = λ₁ + λ₂ + λ₃ = 2 - 1 + 3 = 4; Det(A) = λ₁·λ₂·λ₃ = (2)(-1)(3) = -6.\n• Option (B) is TRUE: If A is Hermitian (A† = A), then U = exp(iA) satisfies U† = exp(-iA†) = exp(-iA) = U⁻¹, so U is Unitary. Moreover, Det(exp(iA)) = exp(i·Trace(A)) = exp(4i).\n• Option (C) is TRUE: Eigenvalues of f(A) = A² + I are λᵢ² + 1 → (2²+1)=5, (-1)²+1=2, (3²+1)=10.\n• Option (D) is FALSE: Eigenvectors of a Hermitian matrix corresponding to distinct eigenvalues are mutually orthogonal, not parallel.\nHence, (A), (B), and (C) are correct.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A) सत्य है: Trace(A) = 2 - 1 + 3 = 4 तथा Det(A) = 2×(-1)×3 = -6।\n• (B) सत्य है: हर्मिशियन आव्यूह A के लिए U = exp(iA) सदैव Unitary होता है और Det(U) = exp(i·Tr(A)) = exp(4i)।\n• (C) सत्य है: A² + I के आइगेनमान λ² + 1 = {5, 2, 10} हैं।\n• (D) असत्य है क्योंकि भिन्न आइगेनमानों के आइगेनसदिश परस्पर लांबिक (orthogonal) होते हैं।"
+    }
+  ]
+}

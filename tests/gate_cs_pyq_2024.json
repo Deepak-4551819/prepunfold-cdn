@@ -1,0 +1,586 @@
+{
+  "test_id": "gate_cs_pyq_2024",
+  "exam_year_tag": "GATE CS • 2024 Official Paper",
+  "total_questions": 20,
+  "duration_minutes": 120,
+  "questions": [
+    {
+      "q_id": 20241,
+      "q_number": 1,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Consider a system that uses 5 bits for representing signed integers in 2's complement format. Two integers A and B are represented as A = 01010 and B = 11010. Which one of the following operations will result in an arithmetic overflow?",
+      "question_hi": "[Digital Logic (2's Complement Overflow) • GATE CSE (CS) • Feb 2024]\nConsider a system that uses 5 bits for representing signed integers in 2's complement format. Two integers A and B are represented as A = 01010 and B = 11010. Which one of the following operations will result in an arithmetic overflow?",
+      "options_en": [
+        "A − B",
+        "A + B",
+        "B − A",
+        "A & B"
+      ],
+      "options_hi": [
+        "A − B",
+        "A + B",
+        "B − A",
+        "A & B"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "In 5-bit 2's complement (representable range −16 to +15), A = 01010₂ = +10 and B = 11010₂ = −16 + 8 + 2 = −6. Computing A − B = 10 − (−6) = +16 exceeds the maximum positive value +15, resulting in a signed arithmetic overflow.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nIn 5-bit 2's complement (representable range −16 to +15), A = 01010₂ = +10 and B = 11010₂ = −16 + 8 + 2 = −6. Computing A − B = 10 − (−6) = +16 exceeds the maximum positive value +15, resulting in a signed arithmetic overflow.",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20242,
+      "q_number": 2,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Let f : R → R be defined as f(x) = max{x, x³}. The set of all points in R where f(x) is NOT differentiable is:",
+      "question_hi": "[Engineering Mathematics (Piecewise Differentiability) • GATE CSE (CS) • Feb 2024]\nLet f : R → R be defined as f(x) = max{x, x³}. The set of all points in R where f(x) is NOT differentiable is:",
+      "options_en": [
+        "{−1, 0, 1}",
+        "{0, 1}",
+        "{−1, 1}",
+        "{0}"
+      ],
+      "options_hi": [
+        "{−1, 0, 1}",
+        "{0, 1}",
+        "{−1, 1}",
+        "{0}"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "The curves y = x and y = x³ intersect where x³ − x = x(x − 1)(x + 1) = 0, i.e., at x = −1, 0, 1. At each of these three points the left and right derivatives of max{x, x³} differ (1 vs 3 at x = ±1; 0 vs 1 at x = 0), so f is non-differentiable at {−1, 0, 1}.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nThe curves y = x and y = x³ intersect where x³ − x = x(x − 1)(x + 1) = 0, i.e., at x = −1, 0, 1. At each of these three points the left and right derivatives of max{x, x³} differ (1 vs 3 at x = ±1; 0 vs 1 at x = 0), so f is non-differentiable at {−1, 0, 1}.",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20243,
+      "q_number": 3,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "The worst-case time complexity to build a Binary Max-Heap of n elements in-place from an unsorted array using bottom-up heapify (Floyd's algorithm) is:",
+      "question_hi": "[Data Structures (Binary Heaps) • GATE CSE (CS) • Feb 2024]\nThe worst-case time complexity to build a Binary Max-Heap of n elements in-place from an unsorted array using bottom-up heapify (Floyd's algorithm) is:",
+      "options_en": [
+        "Θ(n)",
+        "Θ(n log n)",
+        "Θ(log n)",
+        "Θ(n²)"
+      ],
+      "options_hi": [
+        "Θ(n)",
+        "Θ(n log n)",
+        "Θ(log n)",
+        "Θ(n²)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Bottom-up Build-Max-Heap runs Sift-Down from index ⌊n/2⌋ down to 1, taking Σ_{h=0}^{⌊log n⌋} ⌈n / 2^(h+1)⌉ O(h) = Θ(n) time in the worst case.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nBottom-up Build-Max-Heap runs Sift-Down from index ⌊n/2⌋ down to 1, taking Σ_{h=0}^{⌊log n⌋} ⌈n / 2^(h+1)⌉ O(h) = Θ(n) time in the worst case.",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20244,
+      "q_number": 4,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "By the Master Theorem, the asymptotic solution to the divide-and-conquer recurrence T(n) = 4 T(n/2) + n² log n is:",
+      "question_hi": "[Algorithms (Asymptotic Recurrences) • GATE CSE (CS) • Feb 2024]\nBy the Master Theorem, the asymptotic solution to the divide-and-conquer recurrence T(n) = 4 T(n/2) + n² log n is:",
+      "options_en": [
+        "Θ(n² log² n)",
+        "Θ(n² log n)",
+        "Θ(n²)",
+        "Θ(n³)"
+      ],
+      "options_hi": [
+        "Θ(n² log² n)",
+        "Θ(n² log n)",
+        "Θ(n²)",
+        "Θ(n³)"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Here a = 4, b = 2, so n^(log_b a) = n^(log_2 4) = n². Since f(n) = n² log¹ n = Θ(n^(log_b a) log^k n) with k = 1, the Extended Master Theorem Case 2 gives T(n) = Θ(n² log^(k+1) n) = Θ(n² log² n).",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nHere a = 4, b = 2, so n^(log_b a) = n^(log_2 4) = n². Since f(n) = n² log¹ n = Θ(n^(log_b a) log^k n) with k = 1, the Extended Master Theorem Case 2 gives T(n) = Θ(n² log^(k+1) n) = Θ(n² log² n).",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20245,
+      "q_number": 5,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Let L = {a^n b^n c^n | n ≥ 0}. Which of the following statements about L is TRUE?",
+      "question_hi": "[Theory of Computation (Chomsky Hierarchy) • GATE CSE (CS) • Feb 2024]\nLet L = {a^n b^n c^n | n ≥ 0}. Which of the following statements about L is TRUE?",
+      "options_en": [
+        "L is a Context-Sensitive Language (CSL) but NOT a Context-Free Language (CFL).",
+        "L is a deterministic Context-Free Language.",
+        "L is Regular.",
+        "L is undecidable."
+      ],
+      "options_hi": [
+        "L is a Context-Sensitive Language (CSL) but NOT a Context-Free Language (CFL).",
+        "L is a deterministic Context-Free Language.",
+        "L is Regular.",
+        "L is undecidable."
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "By the Pumping Lemma for CFLs, {a^n b^n c^n} cannot be recognized by any Pushdown Automaton (one stack cannot simultaneously match three independent counts), but it is easily accepted by a Linear Bounded Automaton (CSL).",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nBy the Pumping Lemma for CFLs, {a^n b^n c^n} cannot be recognized by any Pushdown Automaton (one stack cannot simultaneously match three independent counts), but it is easily accepted by a Linear Bounded Automaton (CSL).",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20246,
+      "q_number": 6,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Which one of the following statements regarding context-free grammar parsers is ALWAYS true?",
+      "question_hi": "[Compiler Design (LL(1) & LR Parsing) • GATE CSE (CS) • Feb 2024]\nWhich one of the following statements regarding context-free grammar parsers is ALWAYS true?",
+      "options_en": [
+        "Every LL(1) grammar is an LR(1) grammar, but not every LR(1) grammar is LL(1).",
+        "Every LR(1) grammar is an LL(1) grammar.",
+        "SLR(1) is strictly more powerful than LALR(1).",
+        "Left-recursive grammars can be LL(1)."
+      ],
+      "options_hi": [
+        "Every LL(1) grammar is an LR(1) grammar, but not every LR(1) grammar is LL(1).",
+        "Every LR(1) grammar is an LL(1) grammar.",
+        "SLR(1) is strictly more powerful than LALR(1).",
+        "Left-recursive grammars can be LL(1)."
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "LL(1) grammars form a proper subset of LR(1) grammars. Left-recursive grammars can never be LL(k), whereas LR(1) handles left recursion naturally. For number of states, SLR(1) and LALR(1) have the same number of states, with LALR(1) strictly more powerful than SLR(1).",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nLL(1) grammars form a proper subset of LR(1) grammars. Left-recursive grammars can never be LL(k), whereas LR(1) handles left recursion naturally. For number of states, SLR(1) and LALR(1) have the same number of states, with LALR(1) strictly more powerful than SLR(1).",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20247,
+      "q_number": 7,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Among non-preemptive and preemptive CPU scheduling algorithms, which algorithm is provably optimal in minimizing the average waiting time for a given set of processes?",
+      "question_hi": "[Operating Systems (CPU Scheduling) • GATE CSE (CS) • Feb 2024]\nAmong non-preemptive and preemptive CPU scheduling algorithms, which algorithm is provably optimal in minimizing the average waiting time for a given set of processes?",
+      "options_en": [
+        "Shortest Remaining Time First (SRTF / Preemptive SJF)",
+        "Round Robin (RR) with small time quantum",
+        "First-Come, First-Served (FCFS)",
+        "Multilevel Feedback Queue"
+      ],
+      "options_hi": [
+        "Shortest Remaining Time First (SRTF / Preemptive SJF)",
+        "Round Robin (RR) with small time quantum",
+        "First-Come, First-Served (FCFS)",
+        "Multilevel Feedback Queue"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Shortest Remaining Time First (preemptive Shortest Job First) always schedules the ready process with the smallest remaining CPU burst, minimizing average waiting time.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nShortest Remaining Time First (preemptive Shortest Job First) always schedules the ready process with the smallest remaining CPU burst, minimizing average waiting time.",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20248,
+      "q_number": 8,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "A relational schema R is in Boyce-Codd Normal Form (BCNF) if and only if for every non-trivial functional dependency X → Y holding in R:",
+      "question_hi": "[Database Management Systems (Normal Forms) • GATE CSE (CS) • Feb 2024]\nA relational schema R is in Boyce-Codd Normal Form (BCNF) if and only if for every non-trivial functional dependency X → Y holding in R:",
+      "options_en": [
+        "X is a superkey of R",
+        "Y is a prime attribute of R",
+        "X is a prime attribute of R",
+        "R has no transitive dependencies only"
+      ],
+      "options_hi": [
+        "X is a superkey of R",
+        "Y is a prime attribute of R",
+        "X is a prime attribute of R",
+        "R has no transitive dependencies only"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "By definition, R is in BCNF iff for every non-trivial FD X → Y (where Y ⊈ X), the determinant X is a superkey of R.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nBy definition, R is in BCNF iff for every non-trivial FD X → Y (where Y ⊈ X), the determinant X is a superkey of R.",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 20249,
+      "q_number": 9,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Suppose a TCP connection has a maximum segment size (MSS) of 1 KB and its congestion window (cwnd) is currently 32 KB when a timeout occurs. Under standard TCP Reno/Tahoe, the slow-start threshold (ssthresh) and the new cwnd immediately after the timeout become:",
+      "question_hi": "[Computer Networks (TCP Congestion Control) • GATE CSE (CS) • Feb 2024]\nSuppose a TCP connection has a maximum segment size (MSS) of 1 KB and its congestion window (cwnd) is currently 32 KB when a timeout occurs. Under standard TCP Reno/Tahoe, the slow-start threshold (ssthresh) and the new cwnd immediately after the timeout become:",
+      "options_en": [
+        "ssthresh = 16 KB and cwnd = 1 KB",
+        "ssthresh = 16 KB and cwnd = 16 KB",
+        "ssthresh = 32 KB and cwnd = 1 KB",
+        "ssthresh = 8 KB and cwnd = 1 KB"
+      ],
+      "options_hi": [
+        "ssthresh = 16 KB and cwnd = 1 KB",
+        "ssthresh = 16 KB and cwnd = 16 KB",
+        "ssthresh = 32 KB and cwnd = 1 KB",
+        "ssthresh = 8 KB and cwnd = 1 KB"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "On a retransmission timeout (RTO), TCP sets ssthresh = cwnd / 2 = 32 KB / 2 = 16 KB and resets cwnd to 1 MSS = 1 KB (entering Slow Start).",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nOn a retransmission timeout (RTO), TCP sets ssthresh = cwnd / 2 = 32 KB / 2 = 16 KB and resets cwnd to 1 MSS = 1 KB (entering Slow Start).",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 202410,
+      "q_number": 10,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "A 32-bit processor has a 64 KB, 4-way set-associative cache with a cache block (line) size of 64 bytes. The number of bits in the Tag, Set Index, and Byte Offset fields of the physical address are, respectively:",
+      "question_hi": "[Computer Organization (Cache Memory Mapping) • GATE CSE (CS) • Feb 2024]\nA 32-bit processor has a 64 KB, 4-way set-associative cache with a cache block (line) size of 64 bytes. The number of bits in the Tag, Set Index, and Byte Offset fields of the physical address are, respectively:",
+      "options_en": [
+        "18, 8, 6",
+        "16, 10, 6",
+        "18, 10, 4",
+        "20, 6, 6"
+      ],
+      "options_hi": [
+        "18, 8, 6",
+        "16, 10, 6",
+        "18, 10, 4",
+        "20, 6, 6"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Block size = 64 B = 2⁶ B => Byte Offset = 6 bits. Total cache lines = 64 KB / 64 B = 1024 lines. With 4-way set associativity, Number of sets = 1024 / 4 = 256 = 2⁸ sets => Set Index = 8 bits. Tag bits = 32 − (8 + 6) = 18 bits.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nBlock size = 64 B = 2⁶ B => Byte Offset = 6 bits. Total cache lines = 64 KB / 64 B = 1024 lines. With 4-way set associativity, Number of sets = 1024 / 4 = 256 = 2⁸ sets => Set Index = 8 bits. Tag bits = 32 − (8 + 6) = 18 bits.",
+      "question_type": "MCQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 1.0,
+      "q_negative_marks": 0.33
+    },
+    {
+      "q_id": 202411,
+      "q_number": 11,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Let G = (V, E) be a simple connected undirected graph with n = |V| ≥ 3 vertices. Which of the following statement(s) is/are ALWAYS true?",
+      "question_hi": "[Graph Theory & Discrete Mathematics • GATE CSE (CS) • Feb 2024]\nLet G = (V, E) be a simple connected undirected graph with n = |V| ≥ 3 vertices. Which of the following statement(s) is/are ALWAYS true?",
+      "options_en": [
+        "If G is a tree, then |E| = n − 1 and G is bipartite.",
+        "The sum of degrees of all vertices in G is 2|E|.",
+        "If every vertex of G has even degree, then G contains an Eulerian circuit.",
+        "If G is planar, then |E| ≤ 3n − 6."
+      ],
+      "options_hi": [
+        "If G is a tree, then |E| = n − 1 and G is bipartite.",
+        "The sum of degrees of all vertices in G is 2|E|.",
+        "If every vertex of G has even degree, then G contains an Eulerian circuit.",
+        "If G is planar, then |E| ≤ 3n − 6."
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation_en": "All four are fundamental theorems of graph theory: every tree has n − 1 edges and no odd cycles (hence bipartite); Handshaking Lemma gives Σ deg(v) = 2|E|; Euler's Theorem states a connected graph has an Eulerian circuit iff every vertex has even degree; and Euler's planar graph bound gives |E| ≤ 3n − 6 for n ≥ 3.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nAll four are fundamental theorems of graph theory: every tree has n − 1 edges and no odd cycles (hence bipartite); Handshaking Lemma gives Σ deg(v) = 2|E|; Euler's Theorem states a connected graph has an Eulerian circuit iff every vertex has even degree; and Euler's planar graph bound gives |E| ≤ 3n − 6 for n ≥ 3.",
+      "question_type": "MSQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202412,
+      "q_number": 12,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Which of the following statement(s) regarding OS resource allocation and deadlocks is/are TRUE?",
+      "question_hi": "[Operating Systems (Deadlock Prevention & Banker's Algorithm) • GATE CSE (CS) • Feb 2024]\nWhich of the following statement(s) regarding OS resource allocation and deadlocks is/are TRUE?",
+      "options_en": [
+        "Imposing a strict total ordering on resource types and requiring processes to request resources in increasing order prevents Circular Wait.",
+        "An unsafe state in Banker's algorithm is not necessarily a deadlocked state, but may lead to deadlock.",
+        "If a resource-allocation graph has only single-instance resource types, then a cycle is both necessary and sufficient for deadlock.",
+        "Spooling eliminates Mutual Exclusion for sharable output devices like printer queues."
+      ],
+      "options_hi": [
+        "Imposing a strict total ordering on resource types and requiring processes to request resources in increasing order prevents Circular Wait.",
+        "An unsafe state in Banker's algorithm is not necessarily a deadlocked state, but may lead to deadlock.",
+        "If a resource-allocation graph has only single-instance resource types, then a cycle is both necessary and sufficient for deadlock.",
+        "Spooling eliminates Mutual Exclusion for sharable output devices like printer queues."
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation_en": "All four statements are standard OS principles: resource ordering breaks circular wait; unsafe states mean the OS cannot guarantee avoidance if max claims are requested; single-instance RAG cycle <=> deadlock; spooling turns printer output into disk files.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nAll four statements are standard OS principles: resource ordering breaks circular wait; unsafe states mean the OS cannot guarantee avoidance if max claims are requested; single-instance RAG cycle <=> deadlock; spooling turns printer output into disk files.",
+      "question_type": "MSQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202413,
+      "q_number": 13,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Which of the following statement(s) about database concurrency control is/are TRUE?",
+      "question_hi": "[DBMS (Conflict Serializability & 2PL) • GATE CSE (CS) • Feb 2024]\nWhich of the following statement(s) about database concurrency control is/are TRUE?",
+      "options_en": [
+        "A schedule S is conflict-serializable if and only if its precedence (serialization) graph is acyclic.",
+        "Strict Two-Phase Locking (Strict 2PL) guarantees both conflict serializability and cascadeless recoverability.",
+        "Every view-serializable schedule is also conflict-serializable.",
+        "Timestamp-ordering protocol ensures freedom from deadlock because no transaction ever waits."
+      ],
+      "options_hi": [
+        "A schedule S is conflict-serializable if and only if its precedence (serialization) graph is acyclic.",
+        "Strict Two-Phase Locking (Strict 2PL) guarantees both conflict serializability and cascadeless recoverability.",
+        "Every view-serializable schedule is also conflict-serializable.",
+        "Timestamp-ordering protocol ensures freedom from deadlock because no transaction ever waits."
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "explanation_en": "Conflict serializability is equivalent to an acyclic precedence graph. Strict 2PL holds all exclusive locks until commit/abort, ensuring cascadeless schedules and conflict serializability. Timestamp ordering aborts/rolls back rather than waiting, preventing deadlock. Note that conflict-serializable schedules are a proper subset of view-serializable schedules (not vice versa).",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nConflict serializability is equivalent to an acyclic precedence graph. Strict 2PL holds all exclusive locks until commit/abort, ensuring cascadeless schedules and conflict serializability. Timestamp ordering aborts/rolls back rather than waiting, preventing deadlock. Note that conflict-serializable schedules are a proper subset of view-serializable schedules (not vice versa).",
+      "question_type": "MSQ",
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202414,
+      "q_number": 14,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "A sender uses the Selective Repeat sliding window protocol over a 10 Mbps link with a one-way propagation delay of 20 ms and a frame size of 10,000 bits. To achieve 100% link utilization (ignoring ACKs and header overhead), the minimum required sender window size W (in frames) is ________.",
+      "question_hi": "[Computer Networks (Sliding Window Throughput) • GATE CSE (CS) • Feb 2024]\nA sender uses the Selective Repeat sliding window protocol over a 10 Mbps link with a one-way propagation delay of 20 ms and a frame size of 10,000 bits. To achieve 100% link utilization (ignoring ACKs and header overhead), the minimum required sender window size W (in frames) is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Transmission time T_t = L / B = 10,000 bits / (10 × 10⁶ bps) = 1 ms. Round-trip propagation delay 2 T_p = 2 × 20 ms = 40 ms. For 100% utilization, W / (1 + 2a) ≥ 1 => W = 1 + 2(T_p / T_t) = 1 + 40/1 = 41 frames.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nTransmission time T_t = L / B = 10,000 bits / (10 × 10⁶ bps) = 1 ms. Round-trip propagation delay 2 T_p = 2 × 20 ms = 40 ms. For 100% utilization, W / (1 + 2a) ≥ 1 => W = 1 + 2(T_p / T_t) = 1 + 40/1 = 41 frames.",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 41.0,
+      "nat_max": 41.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202415,
+      "q_number": 15,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "A paged virtual memory system uses a Translation Lookaside Buffer (TLB) with a hit ratio of 90%. A TLB lookup takes 10 ns and a main memory access takes 100 ns (assuming TLB lookup and memory access are sequential, and a single-level page table in main memory). The Effective Memory Access Time (EMAT) in nanoseconds (assuming 0 page faults) is ________.",
+      "question_hi": "[Operating Systems (Effective Memory Access Time) • GATE CSE (CS) • Feb 2024]\nA paged virtual memory system uses a Translation Lookaside Buffer (TLB) with a hit ratio of 90%. A TLB lookup takes 10 ns and a main memory access takes 100 ns (assuming TLB lookup and memory access are sequential, and a single-level page table in main memory). The Effective Memory Access Time (EMAT) in nanoseconds (assuming 0 page faults) is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "On a TLB hit (90%): time = TLB (10 ns) + 1 memory access (100 ns) = 110 ns. On a TLB miss (10%): time = TLB (10 ns) + page table access (100 ns) + data access (100 ns) = 210 ns. EMAT = 0.90 × 110 + 0.10 × 210 = 99 + 21 = 120 ns.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nOn a TLB hit (90%): time = TLB (10 ns) + 1 memory access (100 ns) = 110 ns. On a TLB miss (10%): time = TLB (10 ns) + page table access (100 ns) + data access (100 ns) = 210 ns. EMAT = 0.90 × 110 + 0.10 × 210 = 99 + 21 = 120 ns.",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 120.0,
+      "nat_max": 120.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202416,
+      "q_number": 16,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Let G be a complete undirected graph K_5 on 5 vertices {1, 2, 3, 4, 5} where the weight of edge (i, j) is |i − j|. The total weight of a Minimum Spanning Tree (MST) of G is ________.",
+      "question_hi": "[Algorithms (Minimum Spanning Tree) • GATE CSE (CS) • Feb 2024]\nLet G be a complete undirected graph K_5 on 5 vertices {1, 2, 3, 4, 5} where the weight of edge (i, j) is |i − j|. The total weight of a Minimum Spanning Tree (MST) of G is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Connecting consecutive vertices (1,2), (2,3), (3,4), and (4,5) uses 4 edges each of weight |i − (i+1)| = 1, forming a spanning path of minimum possible total weight 4 × 1 = 4.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nConnecting consecutive vertices (1,2), (2,3), (3,4), and (4,5) uses 4 edges each of weight |i − (i+1)| = 1, forming a spanning path of minimum possible total weight 4 × 1 = 4.",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 4.0,
+      "nat_max": 4.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202417,
+      "q_number": 17,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Over the alphabet Σ = {0, 1}, the minimum number of states in a Deterministic Finite Automaton (DFA) that accepts all binary strings whose decimal value is divisible by 5 (with the empty string ε rejected or treated as 0 — wait: if 0 is accepted from start state, how many remainder states mod 5 exist?) is ________.",
+      "question_hi": "[Theory of Computation (Minimal DFA States) • GATE CSE (CS) • Feb 2024]\nOver the alphabet Σ = {0, 1}, the minimum number of states in a Deterministic Finite Automaton (DFA) that accepts all binary strings whose decimal value is divisible by 5 (with the empty string ε rejected or treated as 0 — wait: if 0 is accepted from start state, how many remainder states mod 5 exist?) is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "By the Myhill-Nerode Theorem, two binary strings x and y are distinguishable iff x ≢ y (mod 5). Since there are 5 residue classes modulo 5 ({0, 1, 2, 3, 4}), the minimal DFA has exactly 5 states.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nBy the Myhill-Nerode Theorem, two binary strings x and y are distinguishable iff x ≢ y (mod 5). Since there are 5 residue classes modulo 5 ({0, 1, 2, 3, 4}), the minimal DFA has exactly 5 states.",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 5.0,
+      "nat_max": 5.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202418,
+      "q_number": 18,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "To implement a full adder (both Sum and Carry-Out outputs) using 4-to-1 multiplexers (with two select lines A, B and complement of C_in available), the minimum number of 4:1 multiplexers required is ________.",
+      "question_hi": "[Digital Logic (Combinational Multiplexer) • GATE CSE (CS) • Feb 2024]\nTo implement a full adder (both Sum and Carry-Out outputs) using 4-to-1 multiplexers (with two select lines A, B and complement of C_in available), the minimum number of 4:1 multiplexers required is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "A 4:1 MUX has 1 output, so generating two distinct Boolean outputs (Sum and C_out) requires 2 separate 4:1 multiplexers (one for Sum and one for Carry-Out).",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nA 4:1 MUX has 1 output, so generating two distinct Boolean outputs (Sum and C_out) requires 2 separate 4:1 multiplexers (one for Sum and one for Carry-Out).",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 2.0,
+      "nat_max": 2.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202419,
+      "q_number": 19,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "Consider the C function: int f(int n) { static int k = 0; if (n <= 0) return 0; k += 2; return k + f(n - 1); }. The value returned by the call f(4) is ________.",
+      "question_hi": "[C Programming (Recursion & Static Variables) • GATE CSE (CS) • Feb 2024]\nConsider the C function: int f(int n) { static int k = 0; if (n <= 0) return 0; k += 2; return k + f(n - 1); }. The value returned by the call f(4) is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "Tracing f(4): n=4 sets k=2 and returns 2 + f(3); n=3 sets k=4 and returns 4 + f(2); n=2 sets k=6 and returns 6 + f(1); n=1 sets k=8 and returns 8 + f(0); n=0 returns 0. Total = 2 + 4 + 6 + 8 + 0 = 20.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nTracing f(4): n=4 sets k=2 and returns 2 + f(3); n=3 sets k=4 and returns 4 + f(2); n=2 sets k=6 and returns 6 + f(1); n=1 sets k=8 and returns 8 + f(0); n=0 returns 0. Total = 2 + 4 + 6 + 8 + 0 = 20.",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 20.0,
+      "nat_max": 20.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    },
+    {
+      "q_id": 202420,
+      "q_number": 20,
+      "section": "Computer Science & IT (CS)",
+      "exam_year_tag": "GATE CS • 2024 Official Paper",
+      "question_en": "A B+ tree internal node has block size 1024 bytes, search key size 12 bytes, and block pointer size 8 bytes. The maximum number of block pointers (order p) that can fit in one internal node is ________.",
+      "question_hi": "[DBMS (B+ Tree Order & Fanout) • GATE CSE (CS) • Feb 2024]\nA B+ tree internal node has block size 1024 bytes, search key size 12 bytes, and block pointer size 8 bytes. The maximum number of block pointers (order p) that can fit in one internal node is ________.",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "explanation_en": "An internal node of order p contains p block pointers and (p − 1) search keys: 8p + 12(p − 1) ≤ 1024 => 20p − 12 ≤ 1024 => 20p ≤ 1036 => p = ⌊1036 / 20⌋ = 51.",
+      "explanation_hi": "आधिकारिक समाधान (GATE CSE (CS) • Feb 2024):\nAn internal node of order p contains p block pointers and (p − 1) search keys: 8p + 12(p − 1) ≤ 1024 => 20p − 12 ≤ 1024 => 20p ≤ 1036 => p = ⌊1036 / 20⌋ = 51.",
+      "question_type": "NAT",
+      "nat_answer": "",
+      "nat_min": 51.0,
+      "nat_max": 51.0,
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0
+    }
+  ]
+}

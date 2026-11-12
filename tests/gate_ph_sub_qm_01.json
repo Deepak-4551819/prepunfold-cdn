@@ -1,0 +1,998 @@
+{
+  "test_id": "gate_ph_sub_qm_01",
+  "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+  "total_questions": 30,
+  "duration_minutes": 90,
+  "questions": [
+    {
+      "q_id": 641001,
+      "q_number": 1,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is confined in a 1D infinite potential well of width L (0 ≤ x ≤ L) in the normalized state ψ(x) = (1/√5) φ₁(x) + (2/√5) φ₂(x), where φ_n(x) are the orthonormal energy eigenstates with E_n = n² π² ħ² / (2m L²). What is the expectation value of energy ⟨E⟩ in this state in terms of the ground-state energy E₁?",
+      "question_hi": "द्रव्यमान m का एक कण चौड़ाई L के एकविमीय अनंत विभव कूप (0 ≤ x ≤ L) में अवस्था ψ(x) = (1/√5) φ₁(x) + (2/√5) φ₂(x) में है, जहाँ E_n = n² E₁ ऊर्जा आइगेनमान हैं। मूल अवस्था ऊर्जा E₁ के पदों में ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या है?",
+      "options_en": [
+        "2.6 E₁",
+        "3.4 E₁",
+        "2.2 E₁",
+        "4.0 E₁"
+      ],
+      "options_hi": [
+        "2.6 E₁",
+        "3.4 E₁",
+        "2.2 E₁",
+        "4.0 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Check normalization: |c₁|² + |c₂|² = (1/√5)² + (2/√5)² = 1/5 + 4/5 = 1.\n2. Energy eigenvalues of a 1D infinite well: E₁ = E₁ and E₂ = 2² E₁ = 4 E₁.\n3. Expectation value of energy:\n   ⟨E⟩ = |c₁|² E₁ + |c₂|² E₂ = (1/5) E₁ + (4/5)(4 E₁) = (1 + 16)/5 E₁ = (17/5) E₁ = 3.4 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n1. प्रायिकताएँ: P₁ = |c₁|² = 1/5 तथा P₂ = |c₂|² = 4/5।\n2. ऊर्जा स्तर: E₁ = 1·E₁ तथा E₂ = 2²·E₁ = 4·E₁।\n3. प्रत्याशा मान ⟨E⟩ = (1/5)E₁ + (4/5)(4E₁) = (17/5)E₁ = 3.4 E₁।"
+    },
+    {
+      "q_id": 641002,
+      "q_number": 2,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — One or More Correct] Let σ_x, σ_y, σ_z be the standard 2×2 Pauli spin matrices for a spin-1/2 particle (with S_i = (ħ/2) σ_i). Which of the following operator identities is/are CORRECT?",
+      "question_hi": "[MSQ — एक या अधिक सही] स्पिन-1/2 कण के लिए मानक 2×2 पाउली स्पिन आव्यूह σ_x, σ_y, σ_z हैं (जहाँ S_i = (ħ/2) σ_i)। निम्नलिखित में से कौन-सी संकारक सर्वसमिकाएँ (Operator Identities) सही हैं?",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641003,
+      "q_number": 3,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_2 + (1/√2) φ_3 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #2).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_2 + (1/√2) φ_3 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #2)?",
+      "options_en": [
+        "5.5 E₁",
+        "6.5 E₁",
+        "7.5 E₁",
+        "8.5 E₁"
+      ],
+      "options_hi": [
+        "5.5 E₁",
+        "6.5 E₁",
+        "7.5 E₁",
+        "8.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(2² E₁) + (1/2)(3² E₁) = (1/2)(4 + 9) E₁ = 6.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(4 + 9) E₁ = 6.5 E₁।"
+    },
+    {
+      "q_id": 641004,
+      "q_number": 4,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #2] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 2?",
+      "question_hi": "[MSQ — रूप #2] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 2):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641005,
+      "q_number": 5,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_3 + (1/√2) φ_4 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #3).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_3 + (1/√2) φ_4 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #3)?",
+      "options_en": [
+        "11.5 E₁",
+        "12.5 E₁",
+        "13.5 E₁",
+        "14.5 E₁"
+      ],
+      "options_hi": [
+        "11.5 E₁",
+        "12.5 E₁",
+        "13.5 E₁",
+        "14.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(3² E₁) + (1/2)(4² E₁) = (1/2)(9 + 16) E₁ = 12.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(9 + 16) E₁ = 12.5 E₁।"
+    },
+    {
+      "q_id": 641006,
+      "q_number": 6,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #3] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 3?",
+      "question_hi": "[MSQ — रूप #3] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 3):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641007,
+      "q_number": 7,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_4 + (1/√2) φ_5 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #4).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_4 + (1/√2) φ_5 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #4)?",
+      "options_en": [
+        "19.5 E₁",
+        "20.5 E₁",
+        "21.5 E₁",
+        "22.5 E₁"
+      ],
+      "options_hi": [
+        "19.5 E₁",
+        "20.5 E₁",
+        "21.5 E₁",
+        "22.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(4² E₁) + (1/2)(5² E₁) = (1/2)(16 + 25) E₁ = 20.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(16 + 25) E₁ = 20.5 E₁।"
+    },
+    {
+      "q_id": 641008,
+      "q_number": 8,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #4] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 4?",
+      "question_hi": "[MSQ — रूप #4] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 4):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641009,
+      "q_number": 9,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_5 + (1/√2) φ_6 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #5).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_5 + (1/√2) φ_6 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #5)?",
+      "options_en": [
+        "29.5 E₁",
+        "30.5 E₁",
+        "31.5 E₁",
+        "32.5 E₁"
+      ],
+      "options_hi": [
+        "29.5 E₁",
+        "30.5 E₁",
+        "31.5 E₁",
+        "32.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(5² E₁) + (1/2)(6² E₁) = (1/2)(25 + 36) E₁ = 30.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(25 + 36) E₁ = 30.5 E₁।"
+    },
+    {
+      "q_id": 641010,
+      "q_number": 10,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #5] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 5?",
+      "question_hi": "[MSQ — रूप #5] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 5):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641011,
+      "q_number": 11,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_6 + (1/√2) φ_7 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #6).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_6 + (1/√2) φ_7 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #6)?",
+      "options_en": [
+        "41.5 E₁",
+        "42.5 E₁",
+        "43.5 E₁",
+        "44.5 E₁"
+      ],
+      "options_hi": [
+        "41.5 E₁",
+        "42.5 E₁",
+        "43.5 E₁",
+        "44.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(6² E₁) + (1/2)(7² E₁) = (1/2)(36 + 49) E₁ = 42.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(36 + 49) E₁ = 42.5 E₁।"
+    },
+    {
+      "q_id": 641012,
+      "q_number": 12,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #6] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 6?",
+      "question_hi": "[MSQ — रूप #6] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 6):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641013,
+      "q_number": 13,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_7 + (1/√2) φ_8 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #7).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_7 + (1/√2) φ_8 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #7)?",
+      "options_en": [
+        "55.5 E₁",
+        "56.5 E₁",
+        "57.5 E₁",
+        "58.5 E₁"
+      ],
+      "options_hi": [
+        "55.5 E₁",
+        "56.5 E₁",
+        "57.5 E₁",
+        "58.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(7² E₁) + (1/2)(8² E₁) = (1/2)(49 + 64) E₁ = 56.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(49 + 64) E₁ = 56.5 E₁।"
+    },
+    {
+      "q_id": 641014,
+      "q_number": 14,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #7] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 7?",
+      "question_hi": "[MSQ — रूप #7] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 7):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641015,
+      "q_number": 15,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_8 + (1/√2) φ_9 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #8).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_8 + (1/√2) φ_9 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #8)?",
+      "options_en": [
+        "71.5 E₁",
+        "72.5 E₁",
+        "73.5 E₁",
+        "74.5 E₁"
+      ],
+      "options_hi": [
+        "71.5 E₁",
+        "72.5 E₁",
+        "73.5 E₁",
+        "74.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(8² E₁) + (1/2)(9² E₁) = (1/2)(64 + 81) E₁ = 72.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(64 + 81) E₁ = 72.5 E₁।"
+    },
+    {
+      "q_id": 641016,
+      "q_number": 16,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #8] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 8?",
+      "question_hi": "[MSQ — रूप #8] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 8):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641017,
+      "q_number": 17,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_9 + (1/√2) φ_10 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #9).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_9 + (1/√2) φ_10 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #9)?",
+      "options_en": [
+        "89.5 E₁",
+        "90.5 E₁",
+        "91.5 E₁",
+        "92.5 E₁"
+      ],
+      "options_hi": [
+        "89.5 E₁",
+        "90.5 E₁",
+        "91.5 E₁",
+        "92.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(9² E₁) + (1/2)(10² E₁) = (1/2)(81 + 100) E₁ = 90.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(81 + 100) E₁ = 90.5 E₁।"
+    },
+    {
+      "q_id": 641018,
+      "q_number": 18,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #9] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 9?",
+      "question_hi": "[MSQ — रूप #9] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 9):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641019,
+      "q_number": 19,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_10 + (1/√2) φ_11 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #10).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_10 + (1/√2) φ_11 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #10)?",
+      "options_en": [
+        "109.5 E₁",
+        "110.5 E₁",
+        "111.5 E₁",
+        "112.5 E₁"
+      ],
+      "options_hi": [
+        "109.5 E₁",
+        "110.5 E₁",
+        "111.5 E₁",
+        "112.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(10² E₁) + (1/2)(11² E₁) = (1/2)(100 + 121) E₁ = 110.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(100 + 121) E₁ = 110.5 E₁।"
+    },
+    {
+      "q_id": 641020,
+      "q_number": 20,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #10] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 10?",
+      "question_hi": "[MSQ — रूप #10] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 10):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641021,
+      "q_number": 21,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_11 + (1/√2) φ_12 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #11).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_11 + (1/√2) φ_12 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #11)?",
+      "options_en": [
+        "131.5 E₁",
+        "132.5 E₁",
+        "133.5 E₁",
+        "134.5 E₁"
+      ],
+      "options_hi": [
+        "131.5 E₁",
+        "132.5 E₁",
+        "133.5 E₁",
+        "134.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(11² E₁) + (1/2)(12² E₁) = (1/2)(121 + 144) E₁ = 132.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(121 + 144) E₁ = 132.5 E₁।"
+    },
+    {
+      "q_id": 641022,
+      "q_number": 22,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #11] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 11?",
+      "question_hi": "[MSQ — रूप #11] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 11):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641023,
+      "q_number": 23,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_12 + (1/√2) φ_13 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #12).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_12 + (1/√2) φ_13 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #12)?",
+      "options_en": [
+        "155.5 E₁",
+        "156.5 E₁",
+        "157.5 E₁",
+        "158.5 E₁"
+      ],
+      "options_hi": [
+        "155.5 E₁",
+        "156.5 E₁",
+        "157.5 E₁",
+        "158.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(12² E₁) + (1/2)(13² E₁) = (1/2)(144 + 169) E₁ = 156.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(144 + 169) E₁ = 156.5 E₁।"
+    },
+    {
+      "q_id": 641024,
+      "q_number": 24,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #12] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 12?",
+      "question_hi": "[MSQ — रूप #12] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 12):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641025,
+      "q_number": 25,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_13 + (1/√2) φ_14 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #13).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_13 + (1/√2) φ_14 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #13)?",
+      "options_en": [
+        "181.5 E₁",
+        "182.5 E₁",
+        "183.5 E₁",
+        "184.5 E₁"
+      ],
+      "options_hi": [
+        "181.5 E₁",
+        "182.5 E₁",
+        "183.5 E₁",
+        "184.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(13² E₁) + (1/2)(14² E₁) = (1/2)(169 + 196) E₁ = 182.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(169 + 196) E₁ = 182.5 E₁।"
+    },
+    {
+      "q_id": 641026,
+      "q_number": 26,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #13] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 13?",
+      "question_hi": "[MSQ — रूप #13] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 13):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641027,
+      "q_number": 27,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_14 + (1/√2) φ_15 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #14).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_14 + (1/√2) φ_15 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #14)?",
+      "options_en": [
+        "209.5 E₁",
+        "210.5 E₁",
+        "211.5 E₁",
+        "212.5 E₁"
+      ],
+      "options_hi": [
+        "209.5 E₁",
+        "210.5 E₁",
+        "211.5 E₁",
+        "212.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(14² E₁) + (1/2)(15² E₁) = (1/2)(196 + 225) E₁ = 210.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(196 + 225) E₁ = 210.5 E₁।"
+    },
+    {
+      "q_id": 641028,
+      "q_number": 28,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #14] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 14?",
+      "question_hi": "[MSQ — रूप #14] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 14):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    },
+    {
+      "q_id": 641029,
+      "q_number": 29,
+      "section": "Quantum Mechanics",
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_15 + (1/√2) φ_16 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #15).",
+      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_15 + (1/√2) φ_16 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #15)?",
+      "options_en": [
+        "239.5 E₁",
+        "240.5 E₁",
+        "241.5 E₁",
+        "242.5 E₁"
+      ],
+      "options_hi": [
+        "239.5 E₁",
+        "240.5 E₁",
+        "241.5 E₁",
+        "242.5 E₁"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(15² E₁) + (1/2)(16² E₁) = (1/2)(225 + 256) E₁ = 240.5 E₁.",
+      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(225 + 256) E₁ = 240.5 E₁।"
+    },
+    {
+      "q_id": 641030,
+      "q_number": 30,
+      "section": "Quantum Mechanics",
+      "question_type": "MSQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #1",
+      "question_en": "[MSQ — Variation #15] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 15?",
+      "question_hi": "[MSQ — रूप #15] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 15):",
+      "options_en": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "options_hi": [
+        "[σ_x, σ_y] = 2i σ_z",
+        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
+        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
+        "Trace(σ_x) = 2"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
+      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+    }
+  ]
+}
