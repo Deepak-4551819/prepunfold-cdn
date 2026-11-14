@@ -1,998 +1,1677 @@
 {
+  "testId": "gate_ph_sub_qm_02",
   "test_id": "gate_ph_sub_qm_02",
-  "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
+  "categoryId": "gate_ph",
+  "category_id": "gate_ph",
+  "testType": "TOPIC_TEST",
+  "test_type": "TOPIC_TEST",
+  "title": "GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan (30 Qs)",
+  "titleEn": "GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan (30 Qs)",
+  "titleHi": "GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह (30 प्रश्न)",
+  "durationMinutes": 60,
+  "duration_minutes": 60,
+  "totalQuestions": 30,
   "total_questions": 30,
-  "duration_minutes": 90,
+  "totalMarks": 45.0,
+  "total_marks": 45.0,
+  "positiveMarks": 2.0,
+  "positive_marks": 2.0,
+  "negativeMarks": 0.66,
+  "negative_marks": 0.66,
+  "isFree": false,
+  "is_free": false,
+  "version": 2,
+  "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
   "questions": [
     {
-      "q_id": 642001,
+      "questionId": "gate_ph_subj_11_q1",
+      "id": "gate_ph_subj_11_q1",
+      "q_id": 1,
+      "questionNumber": 1,
       "q_number": 1,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — One or More Correct] Let σ_x, σ_y, σ_z be the standard 2×2 Pauli spin matrices for a spin-1/2 particle (with S_i = (ħ/2) σ_i). Which of the following operator identities is/are CORRECT?",
-      "question_hi": "[MSQ — एक या अधिक सही] स्पिन-1/2 कण के लिए मानक 2×2 पाउली स्पिन आव्यूह σ_x, σ_y, σ_z हैं (जहाँ S_i = (ħ/2) σ_i)। निम्नलिखित में से कौन-सी संकारक सर्वसमिकाएँ (Operator Identities) सही हैं?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q1 (Param Set α=2, β=6)] In one-dimensional quantum mechanics, if x̂ and p̂_x denote the canonical position and momentum operators satisfying [x̂, p̂_x] = iℏ, then the commutator [x̂^7, p̂_x] is equal to:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q1 (Param Set α=2, β=6)] In one-dimensional quantum mechanics, if x̂ and p̂_x denote the canonical position and momentum operators satisfying [x̂, p̂_x] = iℏ, then the commutator [x̂^7, p̂_x] is equal to:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 1 (प्राचल सेट α=2, β=6)] एकविमीय क्वांटम यांत्रिकी में, यदि x̂ और p̂_x विहित स्थिति और संवेग संकारक हैं जो [x̂, p̂_x] = iℏ को संतुष्ट करते हैं, तो क्रमविनिमयक [x̂^7, p̂_x] का मान क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 1 (प्राचल सेट α=2, β=6)] एकविमीय क्वांटम यांत्रिकी में, यदि x̂ और p̂_x विहित स्थिति और संवेग संकारक हैं जो [x̂, p̂_x] = iℏ को संतुष्ट करते हैं, तो क्रमविनिमयक [x̂^7, p̂_x] का मान क्या है?",
+      "optionsEn": [
+        "-7 i ℏ x^6",
+        "i ℏ x^7",
+        "7 ℏ p_x^6",
+        "7 i ℏ x^6"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "-7 i ℏ x^6",
+        "i ℏ x^7",
+        "7 ℏ p_x^6",
+        "7 i ℏ x^6"
+      ],
+      "optionsHi": [
+        "-7 i ℏ x^6",
+        "i ℏ x^7",
+        "7 ℏ p_x^6",
+        "7 i ℏ x^6"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "-7 i ℏ x^6",
+        "i ℏ x^7",
+        "7 ℏ p_x^6",
+        "7 i ℏ x^6"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "D",
+      "correct_index": 3,
+      "correctOptionsList": [
+        "D"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Using the identity [f(x̂), p̂_x] = iℏ df(x̂)/dx̂, for f(x̂) = x̂^7 we obtain [x̂^7, p̂_x] = 7 i ℏ x̂^6.",
+      "explanation_en": "Using the identity [f(x̂), p̂_x] = iℏ df(x̂)/dx̂, for f(x̂) = x̂^7 we obtain [x̂^7, p̂_x] = 7 i ℏ x̂^6.",
+      "explanationHi": "सर्वसमिका [f(x̂), p̂_x] = iℏ df(x̂)/dx̂ का उपयोग करने पर [x̂^7, p̂_x] = 7 i ℏ x̂^6 प्राप्त होता है।",
+      "explanation_hi": "सर्वसमिका [f(x̂), p̂_x] = iℏ df(x̂)/dx̂ का उपयोग करने पर [x̂^7, p̂_x] = 7 i ℏ x̂^6 प्राप्त होता है।"
     },
     {
-      "q_id": 642002,
+      "questionId": "gate_ph_subj_11_q2",
+      "id": "gate_ph_subj_11_q2",
+      "q_id": 2,
+      "questionNumber": 2,
       "q_number": 2,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is confined in a 1D infinite potential well of width L (0 ≤ x ≤ L) in the normalized state ψ(x) = (1/√5) φ₁(x) + (2/√5) φ₂(x), where φ_n(x) are the orthonormal energy eigenstates with E_n = n² π² ħ² / (2m L²). What is the expectation value of energy ⟨E⟩ in this state in terms of the ground-state energy E₁?",
-      "question_hi": "द्रव्यमान m का एक कण चौड़ाई L के एकविमीय अनंत विभव कूप (0 ≤ x ≤ L) में अवस्था ψ(x) = (1/√5) φ₁(x) + (2/√5) φ₂(x) में है, जहाँ E_n = n² E₁ ऊर्जा आइगेनमान हैं। मूल अवस्था ऊर्जा E₁ के पदों में ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या है?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q2 (Param Set α=3, β=7)] [NAT] A particle in a 1D infinite potential well of width L has ground state energy E1 = π²ℏ²/(2mL²). At t = 0, its normalized wavefunction is ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x). The expectation value of energy ⟨H⟩ in units of E1 (up to two decimal places) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q2 (Param Set α=3, β=7)] [NAT] A particle in a 1D infinite potential well of width L has ground state energy E1 = π²ℏ²/(2mL²). At t = 0, its normalized wavefunction is ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x). The expectation value of energy ⟨H⟩ in units of E1 (up to two decimal places) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 2 (प्राचल सेट α=3, β=7)] [NAT] चौड़ाई L के एकविमीय अनंत विभव कूप में एक कण की मूल अवस्था ऊर्जा E1 = π²ℏ²/(2mL²) है। यदि कण का प्रसामान्यीकृत तरंग फलन ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x) है, तो E1 की इकाइयों में ऊर्जा का प्रत्याशा मान ⟨H⟩ (दो दशमलव स्थानों तक) क्या होगा?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 2 (प्राचल सेट α=3, β=7)] [NAT] चौड़ाई L के एकविमीय अनंत विभव कूप में एक कण की मूल अवस्था ऊर्जा E1 = π²ℏ²/(2mL²) है। यदि कण का प्रसामान्यीकृत तरंग फलन ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x) है, तो E1 की इकाइयों में ऊर्जा का प्रत्याशा मान ⟨H⟩ (दो दशमलव स्थानों तक) क्या होगा?",
+      "optionsEn": [
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
+      ],
       "options_en": [
-        "2.6 E₁",
-        "3.4 E₁",
-        "2.2 E₁",
-        "4.0 E₁"
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
+      ],
+      "optionsHi": [
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
       ],
       "options_hi": [
-        "2.6 E₁",
-        "3.4 E₁",
-        "2.2 E₁",
-        "4.0 E₁"
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. Check normalization: |c₁|² + |c₂|² = (1/√5)² + (2/√5)² = 1/5 + 4/5 = 1.\n2. Energy eigenvalues of a 1D infinite well: E₁ = E₁ and E₂ = 2² E₁ = 4 E₁.\n3. Expectation value of energy:\n   ⟨E⟩ = |c₁|² E₁ + |c₂|² E₂ = (1/5) E₁ + (4/5)(4 E₁) = (1 + 16)/5 E₁ = (17/5) E₁ = 3.4 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n1. प्रायिकताएँ: P₁ = |c₁|² = 1/5 तथा P₂ = |c₂|² = 4/5।\n2. ऊर्जा स्तर: E₁ = 1·E₁ तथा E₂ = 2²·E₁ = 4·E₁।\n3. प्रत्याशा मान ⟨E⟩ = (1/5)E₁ + (4/5)(4E₁) = (17/5)E₁ = 3.4 E₁।"
+      "natMin": 3.23,
+      "natMax": 3.27,
+      "explanationEn": "Since E_n = n² E1, ⟨H⟩ = (1/4)(1² E1) + (3/4)(2² E1) = (1 + 12)/4 E1 = 3.25 E1.",
+      "explanation_en": "Since E_n = n² E1, ⟨H⟩ = (1/4)(1² E1) + (3/4)(2² E1) = (1 + 12)/4 E1 = 3.25 E1.",
+      "explanationHi": "चूँकि E_n = n² E1 है, अतः ⟨H⟩ = (1/4)(1 E1) + (3/4)(4 E1) = 13/4 E1 = 3.25 E1।",
+      "explanation_hi": "चूँकि E_n = n² E1 है, अतः ⟨H⟩ = (1/4)(1 E1) + (3/4)(4 E1) = 13/4 E1 = 3.25 E1।"
     },
     {
-      "q_id": 642003,
+      "questionId": "gate_ph_subj_11_q3",
+      "id": "gate_ph_subj_11_q3",
+      "q_id": 3,
+      "questionNumber": 3,
       "q_number": 3,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #2] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 2?",
-      "question_hi": "[MSQ — रूप #2] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 2):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q3 (Param Set α=4, β=3)] A quantum particle of mass m is in a bound stationary eigenstate of the 1D anharmonic potential V(x) = λ x^8 (with λ > 0). According to the quantum Virial theorem, the expectation values of kinetic energy ⟨T⟩ and potential energy ⟨V⟩ satisfy:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q3 (Param Set α=4, β=3)] A quantum particle of mass m is in a bound stationary eigenstate of the 1D anharmonic potential V(x) = λ x^8 (with λ > 0). According to the quantum Virial theorem, the expectation values of kinetic energy ⟨T⟩ and potential energy ⟨V⟩ satisfy:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 3 (प्राचल सेट α=4, β=3)] द्रव्यमान m का एक क्वांटम कण एकविमीय विभव V(x) = λ x^8 (λ > 0) की बद्ध स्थायी आइगेन-अवस्था में है। क्वांटम विरियल प्रमेय (Virial theorem) के अनुसार गतिज ऊर्जा ⟨T⟩ और स्थितिज ऊर्जा ⟨V⟩ के प्रत्याशा मान किस संबंध को संतुष्ट करते हैं?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 3 (प्राचल सेट α=4, β=3)] द्रव्यमान m का एक क्वांटम कण एकविमीय विभव V(x) = λ x^8 (λ > 0) की बद्ध स्थायी आइगेन-अवस्था में है। क्वांटम विरियल प्रमेय (Virial theorem) के अनुसार गतिज ऊर्जा ⟨T⟩ और स्थितिज ऊर्जा ⟨V⟩ के प्रत्याशा मान किस संबंध को संतुष्ट करते हैं?",
+      "optionsEn": [
+        "2 ⟨T⟩ = 8 ⟨V⟩",
+        "⟨T⟩ = 8 ⟨V⟩",
+        "8 ⟨T⟩ = 2 ⟨V⟩",
+        "⟨T⟩ = ⟨V⟩"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "2 ⟨T⟩ = 8 ⟨V⟩",
+        "⟨T⟩ = 8 ⟨V⟩",
+        "8 ⟨T⟩ = 2 ⟨V⟩",
+        "⟨T⟩ = ⟨V⟩"
+      ],
+      "optionsHi": [
+        "2 ⟨T⟩ = 8 ⟨V⟩",
+        "⟨T⟩ = 8 ⟨V⟩",
+        "8 ⟨T⟩ = 2 ⟨V⟩",
+        "⟨T⟩ = ⟨V⟩"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "2 ⟨T⟩ = 8 ⟨V⟩",
+        "⟨T⟩ = 8 ⟨V⟩",
+        "8 ⟨T⟩ = 2 ⟨V⟩",
+        "⟨T⟩ = ⟨V⟩"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By the quantum Virial theorem, 2⟨T⟩ = ⟨x dV/dx⟩ = 8 ⟨V⟩.",
+      "explanation_en": "By the quantum Virial theorem, 2⟨T⟩ = ⟨x dV/dx⟩ = 8 ⟨V⟩.",
+      "explanationHi": "क्वांटम विरियल प्रमेय के अनुसार, 2⟨T⟩ = ⟨x dV/dx⟩ = 8 ⟨V⟩।",
+      "explanation_hi": "क्वांटम विरियल प्रमेय के अनुसार, 2⟨T⟩ = ⟨x dV/dx⟩ = 8 ⟨V⟩।"
     },
     {
-      "q_id": 642004,
+      "questionId": "gate_ph_subj_11_q4",
+      "id": "gate_ph_subj_11_q4",
+      "q_id": 4,
+      "questionNumber": 4,
       "q_number": 4,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_2 + (1/√2) φ_3 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #2).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_2 + (1/√2) φ_3 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #2)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q4 (Param Set α=5, β=4)] [NAT] A quantum particle of mass m moves in a two-dimensional isotropic harmonic oscillator potential V(x, y) = (1/2) m ω² (x² + y²). The degeneracy g of the energy level with energy E = 6 ℏω is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q4 (Param Set α=5, β=4)] [NAT] A quantum particle of mass m moves in a two-dimensional isotropic harmonic oscillator potential V(x, y) = (1/2) m ω² (x² + y²). The degeneracy g of the energy level with energy E = 6 ℏω is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 4 (प्राचल सेट α=5, β=4)] [NAT] द्रव्यमान m का एक क्वांटम कण द्विविमीय समदैशिक आवर्ती दोलित्र विभव V(x, y) = (1/2) m ω² (x² + y²) में गति करता है। ऊर्जा E = 6 ℏω वाले ऊर्जा स्तर की अपभ्रष्टता (degeneracy) g क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 4 (प्राचल सेट α=5, β=4)] [NAT] द्रव्यमान m का एक क्वांटम कण द्विविमीय समदैशिक आवर्ती दोलित्र विभव V(x, y) = (1/2) m ω² (x² + y²) में गति करता है। ऊर्जा E = 6 ℏω वाले ऊर्जा स्तर की अपभ्रष्टता (degeneracy) g क्या है?",
+      "optionsEn": [
+        "6",
+        "5",
+        "21",
+        "7"
+      ],
       "options_en": [
-        "5.5 E₁",
-        "6.5 E₁",
-        "7.5 E₁",
-        "8.5 E₁"
+        "6",
+        "5",
+        "21",
+        "7"
+      ],
+      "optionsHi": [
+        "6",
+        "5",
+        "21",
+        "7"
       ],
       "options_hi": [
-        "5.5 E₁",
-        "6.5 E₁",
-        "7.5 E₁",
-        "8.5 E₁"
+        "6",
+        "5",
+        "21",
+        "7"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(2² E₁) + (1/2)(3² E₁) = (1/2)(4 + 9) E₁ = 6.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(4 + 9) E₁ = 6.5 E₁।"
+      "natMin": 5.99,
+      "natMax": 6.01,
+      "explanationEn": "For a 2D isotropic harmonic oscillator, E(nx, ny) = (nx + ny + 1)ℏω = (N + 1)ℏω with degeneracy g_N = N + 1. Here N + 1 = 6 ⇒ g = 6.",
+      "explanation_en": "For a 2D isotropic harmonic oscillator, E(nx, ny) = (nx + ny + 1)ℏω = (N + 1)ℏω with degeneracy g_N = N + 1. Here N + 1 = 6 ⇒ g = 6.",
+      "explanationHi": "द्विविमीय समदैशिक आवर्ती दोलित्र के लिए E = (N + 1)ℏω और अपभ्रष्टता g_N = N + 1 होती है। अतः E = 6 ℏω के लिए g = 6।",
+      "explanation_hi": "द्विविमीय समदैशिक आवर्ती दोलित्र के लिए E = (N + 1)ℏω और अपभ्रष्टता g_N = N + 1 होती है। अतः E = 6 ℏω के लिए g = 6।"
     },
     {
-      "q_id": 642005,
+      "questionId": "gate_ph_subj_11_q5",
+      "id": "gate_ph_subj_11_q5",
+      "q_id": 5,
+      "questionNumber": 5,
       "q_number": 5,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #3] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 3?",
-      "question_hi": "[MSQ — रूप #3] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 3):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q5 (Param Set α=6, β=5)] For a hydrogenic ion with nuclear charge Z = 1 in the stationary state |n = 3, l, m⟩ (where a₀ is the Bohr radius), the expectation value ⟨1 / r⟩ is equal to:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q5 (Param Set α=6, β=5)] For a hydrogenic ion with nuclear charge Z = 1 in the stationary state |n = 3, l, m⟩ (where a₀ is the Bohr radius), the expectation value ⟨1 / r⟩ is equal to:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 5 (प्राचल सेट α=6, β=5)] नाभिकीय आवेश Z = 1 वाले एक हाइड्रोजन-सदृश आयन की स्थायी अवस्था |n = 3, l, m⟩ में (जहाँ a₀ बोर त्रिज्या है) प्रत्याशा मान ⟨1 / r⟩ क्या होगा?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 5 (प्राचल सेट α=6, β=5)] नाभिकीय आवेश Z = 1 वाले एक हाइड्रोजन-सदृश आयन की स्थायी अवस्था |n = 3, l, m⟩ में (जहाँ a₀ बोर त्रिज्या है) प्रत्याशा मान ⟨1 / r⟩ क्या होगा?",
+      "optionsEn": [
+        "1 / (3 a₀)",
+        "9 / (1 a₀)",
+        "1 / (9 a₀)",
+        "1 / (9 a₀)"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "1 / (3 a₀)",
+        "9 / (1 a₀)",
+        "1 / (9 a₀)",
+        "1 / (9 a₀)"
+      ],
+      "optionsHi": [
+        "1 / (3 a₀)",
+        "9 / (1 a₀)",
+        "1 / (9 a₀)",
+        "1 / (9 a₀)"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "1 / (3 a₀)",
+        "9 / (1 a₀)",
+        "1 / (9 a₀)",
+        "1 / (9 a₀)"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "D",
+      "correct_index": 3,
+      "correctOptionsList": [
+        "D"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "For any hydrogenic eigenstate |n, l, m⟩, ⟨1/r⟩ = Z / (n² a₀) = 1 / (9 a₀), independent of l and m.",
+      "explanation_en": "For any hydrogenic eigenstate |n, l, m⟩, ⟨1/r⟩ = Z / (n² a₀) = 1 / (9 a₀), independent of l and m.",
+      "explanationHi": "हाइड्रोजन-सदृश परमाणु की किसी भी अवस्था |n, l, m⟩ के लिए ⟨1/r⟩ = Z / (n² a₀) = 1 / (9 a₀) होता है।",
+      "explanation_hi": "हाइड्रोजन-सदृश परमाणु की किसी भी अवस्था |n, l, m⟩ के लिए ⟨1/r⟩ = Z / (n² a₀) = 1 / (9 a₀) होता है।"
     },
     {
-      "q_id": 642006,
+      "questionId": "gate_ph_subj_11_q6",
+      "id": "gate_ph_subj_11_q6",
+      "q_id": 6,
+      "questionNumber": 6,
       "q_number": 6,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_3 + (1/√2) φ_4 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #3).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_3 + (1/√2) φ_4 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #3)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q6 (Param Set α=7, β=6)] [NAT] A quantum particle is in a simultaneous eigenstate |l = 3, m = 3⟩ of L² and L_z. If the variance (ΔL_y)² = ⟨L_y²⟩ - ⟨L_y⟩² is equal to α ℏ², then the numerical value of α is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q6 (Param Set α=7, β=6)] [NAT] A quantum particle is in a simultaneous eigenstate |l = 3, m = 3⟩ of L² and L_z. If the variance (ΔL_y)² = ⟨L_y²⟩ - ⟨L_y⟩² is equal to α ℏ², then the numerical value of α is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 6 (प्राचल सेट α=7, β=6)] [NAT] एक क्वांटम कण L² और L_z की उभयनिष्ठ आइगेन-अवस्था |l = 3, m = 3⟩ में है। यदि प्रसरण (ΔL_y)² = ⟨L_y²⟩ - ⟨L_y⟩² का मान α ℏ² के बराबर है, तो α का संख्यात्मक मान क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 6 (प्राचल सेट α=7, β=6)] [NAT] एक क्वांटम कण L² और L_z की उभयनिष्ठ आइगेन-अवस्था |l = 3, m = 3⟩ में है। यदि प्रसरण (ΔL_y)² = ⟨L_y²⟩ - ⟨L_y⟩² का मान α ℏ² के बराबर है, तो α का संख्यात्मक मान क्या है?",
+      "optionsEn": [
+        "1.5",
+        "3.0",
+        "12.0",
+        "0.0"
+      ],
       "options_en": [
-        "11.5 E₁",
-        "12.5 E₁",
-        "13.5 E₁",
-        "14.5 E₁"
+        "1.5",
+        "3.0",
+        "12.0",
+        "0.0"
+      ],
+      "optionsHi": [
+        "1.5",
+        "3.0",
+        "12.0",
+        "0.0"
       ],
       "options_hi": [
-        "11.5 E₁",
-        "12.5 E₁",
-        "13.5 E₁",
-        "14.5 E₁"
+        "1.5",
+        "3.0",
+        "12.0",
+        "0.0"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(3² E₁) + (1/2)(4² E₁) = (1/2)(9 + 16) E₁ = 12.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(9 + 16) E₁ = 12.5 E₁।"
+      "natMin": 1.48,
+      "natMax": 1.52,
+      "explanationEn": "In |l, m⟩, ⟨L_y⟩ = 0 and ⟨L_x²⟩ = ⟨L_y²⟩ = (1/2)(⟨L²⟩ - ⟨L_z²⟩) = (1/2)[l(l+1) - m²]ℏ² = (1/2)[12 - 9]ℏ² = 1.5 ℏ².",
+      "explanation_en": "In |l, m⟩, ⟨L_y⟩ = 0 and ⟨L_x²⟩ = ⟨L_y²⟩ = (1/2)(⟨L²⟩ - ⟨L_z²⟩) = (1/2)[l(l+1) - m²]ℏ² = (1/2)[12 - 9]ℏ² = 1.5 ℏ².",
+      "explanationHi": "अवस्था |l, m⟩ में ⟨L_y⟩ = 0 तथा ⟨L_y²⟩ = (1/2)[l(l+1) - m²]ℏ² = (1/2)[12 - 9]ℏ² = 1.5 ℏ²।",
+      "explanation_hi": "अवस्था |l, m⟩ में ⟨L_y⟩ = 0 तथा ⟨L_y²⟩ = (1/2)[l(l+1) - m²]ℏ² = (1/2)[12 - 9]ℏ² = 1.5 ℏ²।"
     },
     {
-      "q_id": 642007,
+      "questionId": "gate_ph_subj_11_q7",
+      "id": "gate_ph_subj_11_q7",
+      "q_id": 7,
+      "questionNumber": 7,
       "q_number": 7,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #4] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 4?",
-      "question_hi": "[MSQ — रूप #4] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 4):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q7 (Param Set α=8, β=7)] [NAT] A beam of spin-1/2 particles initially polarized in the +ẑ state (|+z⟩) passes through a Stern-Gerlach analyzer whose magnetic field gradient is oriented at an angle θ = 60° with respect to the +ẑ-axis. The probability of finding a particle with its spin parallel to the new analyzer axis (rounded to two decimal places) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q7 (Param Set α=8, β=7)] [NAT] A beam of spin-1/2 particles initially polarized in the +ẑ state (|+z⟩) passes through a Stern-Gerlach analyzer whose magnetic field gradient is oriented at an angle θ = 60° with respect to the +ẑ-axis. The probability of finding a particle with its spin parallel to the new analyzer axis (rounded to two decimal places) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 7 (प्राचल सेट α=8, β=7)] [NAT] प्रारंभ में +ẑ दिशा (|+z⟩) में ध्रुवित चक्रण-1/2 कणों का एक किरण-पुंज स्टर्न-गर्लाक विश्लेषक से गुजरता है जिसका चुंबकीय क्षेत्र +ẑ-अक्ष से θ = 60° के कोण पर झुका है। नए विश्लेषक अक्ष के समांतर (parallel) चक्रण पाने की प्रायिकता (दो दशमलव स्थानों तक) क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 7 (प्राचल सेट α=8, β=7)] [NAT] प्रारंभ में +ẑ दिशा (|+z⟩) में ध्रुवित चक्रण-1/2 कणों का एक किरण-पुंज स्टर्न-गर्लाक विश्लेषक से गुजरता है जिसका चुंबकीय क्षेत्र +ẑ-अक्ष से θ = 60° के कोण पर झुका है। नए विश्लेषक अक्ष के समांतर (parallel) चक्रण पाने की प्रायिकता (दो दशमलव स्थानों तक) क्या है?",
+      "optionsEn": [
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
+      ],
+      "optionsHi": [
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": 0.73,
+      "natMax": 0.77,
+      "explanationEn": "For spin-1/2, P_parallel(θ) = cos²(θ/2) and P_anti-parallel(θ) = sin²(θ/2). For θ = 60°, P_parallel = 0.75.",
+      "explanation_en": "For spin-1/2, P_parallel(θ) = cos²(θ/2) and P_anti-parallel(θ) = sin²(θ/2). For θ = 60°, P_parallel = 0.75.",
+      "explanationHi": "चक्रण-1/2 के लिए P_parallel = cos²(θ/2) तथा P_anti-parallel = sin²(θ/2) होता है। θ = 60° के लिए प्रायिकता = 0.75।",
+      "explanation_hi": "चक्रण-1/2 के लिए P_parallel = cos²(θ/2) तथा P_anti-parallel = sin²(θ/2) होता है। θ = 60° के लिए प्रायिकता = 0.75।"
     },
     {
-      "q_id": 642008,
+      "questionId": "gate_ph_subj_11_q8",
+      "id": "gate_ph_subj_11_q8",
+      "q_id": 8,
+      "questionNumber": 8,
       "q_number": 8,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_4 + (1/√2) φ_5 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #4).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_4 + (1/√2) φ_5 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #4)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q8 (Param Set α=2, β=3)] A particle of mass m confined in a 1D infinite potential well (0 ≤ x ≤ L) is subjected to a Dirac-delta perturbation H' = 7 V₀ δ(x - L/2) at the center of the well. The first-order correction E₁⁽¹⁾ to the ground-state energy is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q8 (Param Set α=2, β=3)] A particle of mass m confined in a 1D infinite potential well (0 ≤ x ≤ L) is subjected to a Dirac-delta perturbation H' = 7 V₀ δ(x - L/2) at the center of the well. The first-order correction E₁⁽¹⁾ to the ground-state energy is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 8 (प्राचल सेट α=2, β=3)] एकविमीय अनंत विभव कूप (0 ≤ x ≤ L) में परिबद्ध द्रव्यमान m के कण पर कूप के केंद्र पर डिराक-डेल्टा क्षोभ H' = 7 V₀ δ(x - L/2) आरोपित किया जाता है। मूल अवस्था ऊर्जा में प्रथम-कोटि संशोधन E₁⁽¹⁾ क्या होगा?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 8 (प्राचल सेट α=2, β=3)] एकविमीय अनंत विभव कूप (0 ≤ x ≤ L) में परिबद्ध द्रव्यमान m के कण पर कूप के केंद्र पर डिराक-डेल्टा क्षोभ H' = 7 V₀ δ(x - L/2) आरोपित किया जाता है। मूल अवस्था ऊर्जा में प्रथम-कोटि संशोधन E₁⁽¹⁾ क्या होगा?",
+      "optionsEn": [
+        "0",
+        "28 V₀ / L",
+        "14 V₀ / L",
+        "7 V₀ / L"
+      ],
       "options_en": [
-        "19.5 E₁",
-        "20.5 E₁",
-        "21.5 E₁",
-        "22.5 E₁"
+        "0",
+        "28 V₀ / L",
+        "14 V₀ / L",
+        "7 V₀ / L"
+      ],
+      "optionsHi": [
+        "0",
+        "28 V₀ / L",
+        "14 V₀ / L",
+        "7 V₀ / L"
       ],
       "options_hi": [
-        "19.5 E₁",
-        "20.5 E₁",
-        "21.5 E₁",
-        "22.5 E₁"
+        "0",
+        "28 V₀ / L",
+        "14 V₀ / L",
+        "7 V₀ / L"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "C",
+      "correct_index": 2,
+      "correctOptionsList": [
+        "C"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(4² E₁) + (1/2)(5² E₁) = (1/2)(16 + 25) E₁ = 20.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(16 + 25) E₁ = 20.5 E₁।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "For the ground state ψ₁(x) = √(2/L) sin(πx/L), E₁⁽¹⁾ = ∫_0^L |ψ₁(x)|² 7 V₀ δ(x - L/2) dx = 7 V₀ (2/L) sin²(π/2) = 14 V₀ / L.",
+      "explanation_en": "For the ground state ψ₁(x) = √(2/L) sin(πx/L), E₁⁽¹⁾ = ∫_0^L |ψ₁(x)|² 7 V₀ δ(x - L/2) dx = 7 V₀ (2/L) sin²(π/2) = 14 V₀ / L.",
+      "explanationHi": "मूल अवस्था ψ₁(x) = √(2/L) sin(πx/L) के लिए E₁⁽¹⁾ = 7 V₀ |ψ₁(L/2)|² = 14 V₀ / L।",
+      "explanation_hi": "मूल अवस्था ψ₁(x) = √(2/L) sin(πx/L) के लिए E₁⁽¹⁾ = 7 V₀ |ψ₁(L/2)|² = 14 V₀ / L।"
     },
     {
-      "q_id": 642009,
+      "questionId": "gate_ph_subj_11_q9",
+      "id": "gate_ph_subj_11_q9",
+      "q_id": 9,
+      "questionNumber": 9,
       "q_number": 9,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #5] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 5?",
-      "question_hi": "[MSQ — रूप #5] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 5):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q9 (Param Set α=3, β=4)] [NAT] Two localized spin-1/2 electrons interact via the Heisenberg spin-exchange Hamiltonian H = (3 eV / ℏ²) S₁ · S₂. The energy splitting ΔE = E_{triplet} - E_{singlet} (in eV) between the triplet (S = 1) and singlet (S = 0) states is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q9 (Param Set α=3, β=4)] [NAT] Two localized spin-1/2 electrons interact via the Heisenberg spin-exchange Hamiltonian H = (3 eV / ℏ²) S₁ · S₂. The energy splitting ΔE = E_{triplet} - E_{singlet} (in eV) between the triplet (S = 1) and singlet (S = 0) states is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 9 (प्राचल सेट α=3, β=4)] [NAT] दो स्थानीयकृत चक्रण-1/2 इलेक्ट्रॉन हाइजेनबर्ग चक्रण-विनिमय हैमिल्टनियन H = (3 eV / ℏ²) S₁ · S₂ के माध्यम से अन्योन्यक्रिया करते हैं। ट्रिपलेट (S = 1) और सिंगलेट (S = 0) अवस्थाओं के बीच ऊर्जा विपाटन ΔE = E_{triplet} - E_{singlet} (eV में) क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 9 (प्राचल सेट α=3, β=4)] [NAT] दो स्थानीयकृत चक्रण-1/2 इलेक्ट्रॉन हाइजेनबर्ग चक्रण-विनिमय हैमिल्टनियन H = (3 eV / ℏ²) S₁ · S₂ के माध्यम से अन्योन्यक्रिया करते हैं। ट्रिपलेट (S = 1) और सिंगलेट (S = 0) अवस्थाओं के बीच ऊर्जा विपाटन ΔE = E_{triplet} - E_{singlet} (eV में) क्या है?",
+      "optionsEn": [
+        "3",
+        "2",
+        "6",
+        "1"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "3",
+        "2",
+        "6",
+        "1"
+      ],
+      "optionsHi": [
+        "3",
+        "2",
+        "6",
+        "1"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "3",
+        "2",
+        "6",
+        "1"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": 2.99,
+      "natMax": 3.01,
+      "explanationEn": "Since S₁ · S₂ = (1/2)[S(S+1) - 3/2]ℏ², its eigenvalues are +(1/4)ℏ² for S = 1 (triplet) and -(3/4)ℏ² for S = 0 (singlet). Thus ΔE = 3 × (1/4 - (-3/4)) = 3 eV.",
+      "explanation_en": "Since S₁ · S₂ = (1/2)[S(S+1) - 3/2]ℏ², its eigenvalues are +(1/4)ℏ² for S = 1 (triplet) and -(3/4)ℏ² for S = 0 (singlet). Thus ΔE = 3 × (1/4 - (-3/4)) = 3 eV.",
+      "explanationHi": "चूँकि S₁ · S₂ के आइगेनमान ट्रिपलेट (S = 1) के लिए +(1/4)ℏ² और सिंगलेट (S = 0) के लिए -(3/4)ℏ² हैं, अतः ऊर्जा अंतर ΔE = 3 × (1/4 + 3/4) = 3 eV।",
+      "explanation_hi": "चूँकि S₁ · S₂ के आइगेनमान ट्रिपलेट (S = 1) के लिए +(1/4)ℏ² और सिंगलेट (S = 0) के लिए -(3/4)ℏ² हैं, अतः ऊर्जा अंतर ΔE = 3 × (1/4 + 3/4) = 3 eV।"
     },
     {
-      "q_id": 642010,
+      "questionId": "gate_ph_subj_11_q10",
+      "id": "gate_ph_subj_11_q10",
+      "q_id": 10,
+      "questionNumber": 10,
       "q_number": 10,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_5 + (1/√2) φ_6 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #5).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_5 + (1/√2) φ_6 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #5)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q10 (Param Set α=4, β=5)] [NAT] A free particle of energy E = 25 eV is incident from x < 0 onto a 1D potential step of height V₀ = 16 eV at x = 0. The quantum reflection probability R (rounded off to two decimal places) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q10 (Param Set α=4, β=5)] [NAT] A free particle of energy E = 25 eV is incident from x < 0 onto a 1D potential step of height V₀ = 16 eV at x = 0. The quantum reflection probability R (rounded off to two decimal places) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 10 (प्राचल सेट α=4, β=5)] [NAT] ऊर्जा E = 25 eV का एक मुक्त कण x < 0 से x = 0 पर स्थित ऊँचाई V₀ = 16 eV के एकविमीय विभव सोपान (potential step) पर आपतित होता है। क्वांटम परावर्तन प्रायिकता R (दो दशमलव स्थानों तक) क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 10 (प्राचल सेट α=4, β=5)] [NAT] ऊर्जा E = 25 eV का एक मुक्त कण x < 0 से x = 0 पर स्थित ऊँचाई V₀ = 16 eV के एकविमीय विभव सोपान (potential step) पर आपतित होता है। क्वांटम परावर्तन प्रायिकता R (दो दशमलव स्थानों तक) क्या है?",
+      "optionsEn": [
+        "0.06",
+        "0.94",
+        "0.25",
+        "0.00"
+      ],
       "options_en": [
-        "29.5 E₁",
-        "30.5 E₁",
-        "31.5 E₁",
-        "32.5 E₁"
+        "0.06",
+        "0.94",
+        "0.25",
+        "0.00"
+      ],
+      "optionsHi": [
+        "0.06",
+        "0.94",
+        "0.25",
+        "0.00"
       ],
       "options_hi": [
-        "29.5 E₁",
-        "30.5 E₁",
-        "31.5 E₁",
-        "32.5 E₁"
+        "0.06",
+        "0.94",
+        "0.25",
+        "0.00"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(5² E₁) + (1/2)(6² E₁) = (1/2)(25 + 36) E₁ = 30.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(25 + 36) E₁ = 30.5 E₁।"
+      "natMin": 0.049999999999999996,
+      "natMax": 0.06999999999999999,
+      "explanationEn": "For a 1D step with E > V₀, reflection coefficient k1 ∝ √25 = 5, k2 ∝ √(25-16) = 3 ⇒ R = [(5-3)/(5+3)]² = (2/8)² = 0.06.",
+      "explanation_en": "For a 1D step with E > V₀, reflection coefficient k1 ∝ √25 = 5, k2 ∝ √(25-16) = 3 ⇒ R = [(5-3)/(5+3)]² = (2/8)² = 0.06.",
+      "explanationHi": "विभव सोपान (E > V₀) के लिए परावर्तन गुणांक: k1 ∝ √25 = 5, k2 ∝ √(25-16) = 3 ⇒ R = [(5-3)/(5+3)]² = (2/8)² = 0.06।",
+      "explanation_hi": "विभव सोपान (E > V₀) के लिए परावर्तन गुणांक: k1 ∝ √25 = 5, k2 ∝ √(25-16) = 3 ⇒ R = [(5-3)/(5+3)]² = (2/8)² = 0.06।"
     },
     {
-      "q_id": 642011,
+      "questionId": "gate_ph_subj_11_q11",
+      "id": "gate_ph_subj_11_q11",
+      "q_id": 11,
+      "questionNumber": 11,
       "q_number": 11,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #6] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 6?",
-      "question_hi": "[MSQ — रूप #6] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 6):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q11 (Param Set α=5, β=6)] A monochromatic electromagnetic wave propagates through a linear, homogeneous, non-magnetic dielectric medium having relative permittivity ε_r = 4 and relative permeability μ_r = 1. Its refractive index n and phase velocity v_p are:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q11 (Param Set α=5, β=6)] A monochromatic electromagnetic wave propagates through a linear, homogeneous, non-magnetic dielectric medium having relative permittivity ε_r = 4 and relative permeability μ_r = 1. Its refractive index n and phase velocity v_p are:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 11 (प्राचल सेट α=5, β=6)] एक एकवर्णी विद्युतचुंबकीय तरंग आपेक्षिक विद्युतशीलता ε_r = 4 और आपेक्षिक चुंबकशीलता μ_r = 1 वाले रैखिक अचुंबकीय परावैद्युत माध्यम में संचरित होती है। इसका अपवर्तनांक n और कला वेग v_p क्या हैं?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 11 (प्राचल सेट α=5, β=6)] एक एकवर्णी विद्युतचुंबकीय तरंग आपेक्षिक विद्युतशीलता ε_r = 4 और आपेक्षिक चुंबकशीलता μ_r = 1 वाले रैखिक अचुंबकीय परावैद्युत माध्यम में संचरित होती है। इसका अपवर्तनांक n और कला वेग v_p क्या हैं?",
+      "optionsEn": [
+        "n = 2 and v_p = 1.50 × 10⁸ m/s",
+        "n = 2 and v_p = 1.50 × 10⁸ m/s",
+        "n = 4 and v_p = 0.75 × 10⁸ m/s",
+        "n = 2 and v_p = 3.00 × 10⁸ m/s"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "n = 2 and v_p = 1.50 × 10⁸ m/s",
+        "n = 2 and v_p = 1.50 × 10⁸ m/s",
+        "n = 4 and v_p = 0.75 × 10⁸ m/s",
+        "n = 2 and v_p = 3.00 × 10⁸ m/s"
+      ],
+      "optionsHi": [
+        "n = 2 तथा v_p = 1.50 × 10⁸ m/s",
+        "n = 2 तथा v_p = 1.50 × 10⁸ m/s",
+        "n = 4 तथा v_p = 0.75 × 10⁸ m/s",
+        "n = 2 तथा v_p = 3.00 × 10⁸ m/s"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "n = 2 तथा v_p = 1.50 × 10⁸ m/s",
+        "n = 2 तथा v_p = 1.50 × 10⁸ m/s",
+        "n = 4 तथा v_p = 0.75 × 10⁸ m/s",
+        "n = 2 तथा v_p = 3.00 × 10⁸ m/s"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "B",
+      "correct_index": 1,
+      "correctOptionsList": [
+        "B"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Refractive index n = √(ε_r μ_r) = √(4) = 2, and phase velocity v_p = c / n = 3 × 10⁸ / 2 = 1.50 × 10⁸ m/s.",
+      "explanation_en": "Refractive index n = √(ε_r μ_r) = √(4) = 2, and phase velocity v_p = c / n = 3 × 10⁸ / 2 = 1.50 × 10⁸ m/s.",
+      "explanationHi": "अपवर्तनांक n = √(ε_r μ_r) = √4 = 2 तथा कला वेग v_p = c / n = 1.50 × 10⁸ m/s।",
+      "explanation_hi": "अपवर्तनांक n = √(ε_r μ_r) = √4 = 2 तथा कला वेग v_p = c / n = 1.50 × 10⁸ m/s।"
     },
     {
-      "q_id": 642012,
+      "questionId": "gate_ph_subj_11_q12",
+      "id": "gate_ph_subj_11_q12",
+      "q_id": 12,
+      "questionNumber": 12,
       "q_number": 12,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_6 + (1/√2) φ_7 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #6).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_6 + (1/√2) φ_7 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #6)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q12 (Param Set α=6, β=7)] [NAT] A particle in a 1D infinite potential well of width L has ground state energy E1 = π²ℏ²/(2mL²). At t = 0, its normalized wavefunction is ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x). The expectation value of energy ⟨H⟩ in units of E1 (up to two decimal places) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q12 (Param Set α=6, β=7)] [NAT] A particle in a 1D infinite potential well of width L has ground state energy E1 = π²ℏ²/(2mL²). At t = 0, its normalized wavefunction is ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x). The expectation value of energy ⟨H⟩ in units of E1 (up to two decimal places) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 12 (प्राचल सेट α=6, β=7)] [NAT] चौड़ाई L के एकविमीय अनंत विभव कूप में एक कण की मूल अवस्था ऊर्जा E1 = π²ℏ²/(2mL²) है। यदि कण का प्रसामान्यीकृत तरंग फलन ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x) है, तो E1 की इकाइयों में ऊर्जा का प्रत्याशा मान ⟨H⟩ (दो दशमलव स्थानों तक) क्या होगा?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 12 (प्राचल सेट α=6, β=7)] [NAT] चौड़ाई L के एकविमीय अनंत विभव कूप में एक कण की मूल अवस्था ऊर्जा E1 = π²ℏ²/(2mL²) है। यदि कण का प्रसामान्यीकृत तरंग फलन ψ(x) = √(1/4) ψ1(x) + √(3/4) ψ2(x) है, तो E1 की इकाइयों में ऊर्जा का प्रत्याशा मान ⟨H⟩ (दो दशमलव स्थानों तक) क्या होगा?",
+      "optionsEn": [
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
+      ],
       "options_en": [
-        "41.5 E₁",
-        "42.5 E₁",
-        "43.5 E₁",
-        "44.5 E₁"
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
+      ],
+      "optionsHi": [
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
       ],
       "options_hi": [
-        "41.5 E₁",
-        "42.5 E₁",
-        "43.5 E₁",
-        "44.5 E₁"
+        "3.25",
+        "3.75",
+        "2.50",
+        "1.00"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(6² E₁) + (1/2)(7² E₁) = (1/2)(36 + 49) E₁ = 42.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(36 + 49) E₁ = 42.5 E₁।"
+      "natMin": 3.23,
+      "natMax": 3.27,
+      "explanationEn": "Since E_n = n² E1, ⟨H⟩ = (1/4)(1² E1) + (3/4)(2² E1) = (1 + 12)/4 E1 = 3.25 E1.",
+      "explanation_en": "Since E_n = n² E1, ⟨H⟩ = (1/4)(1² E1) + (3/4)(2² E1) = (1 + 12)/4 E1 = 3.25 E1.",
+      "explanationHi": "चूँकि E_n = n² E1 है, अतः ⟨H⟩ = (1/4)(1 E1) + (3/4)(4 E1) = 13/4 E1 = 3.25 E1।",
+      "explanation_hi": "चूँकि E_n = n² E1 है, अतः ⟨H⟩ = (1/4)(1 E1) + (3/4)(4 E1) = 13/4 E1 = 3.25 E1।"
     },
     {
-      "q_id": 642013,
+      "questionId": "gate_ph_subj_11_q13",
+      "id": "gate_ph_subj_11_q13",
+      "q_id": 13,
+      "questionNumber": 13,
       "q_number": 13,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #7] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 7?",
-      "question_hi": "[MSQ — रूप #7] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 7):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q13 (Param Set α=7, β=3)] A reversible Carnot heat engine operates using an ultra-relativistic photon gas between a hot reservoir at T_H = 600 K and a cold reservoir at T_C = 300 K. The thermal efficiency η of the engine is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q13 (Param Set α=7, β=3)] A reversible Carnot heat engine operates using an ultra-relativistic photon gas between a hot reservoir at T_H = 600 K and a cold reservoir at T_C = 300 K. The thermal efficiency η of the engine is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 13 (प्राचल सेट α=7, β=3)] एक उत्क्रमणीय कार्नोट ऊष्मा इंजन T_H = 600 K के गर्म स्रोत और T_C = 300 K के ठंडे सिंक के बीच फोटॉन गैस को कार्यकारी पदार्थ के रूप में उपयोग करता है। इंजन की तापीय दक्षता η क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 13 (प्राचल सेट α=7, β=3)] एक उत्क्रमणीय कार्नोट ऊष्मा इंजन T_H = 600 K के गर्म स्रोत और T_C = 300 K के ठंडे सिंक के बीच फोटॉन गैस को कार्यकारी पदार्थ के रूप में उपयोग करता है। इंजन की तापीय दक्षता η क्या है?",
+      "optionsEn": [
+        "50.00%",
+        "50.00%",
+        "60.00%",
+        "25.00%"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "50.00%",
+        "50.00%",
+        "60.00%",
+        "25.00%"
+      ],
+      "optionsHi": [
+        "50.00%",
+        "50.00%",
+        "60.00%",
+        "25.00%"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "50.00%",
+        "50.00%",
+        "60.00%",
+        "25.00%"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By Carnot's theorem, the efficiency of any reversible engine depends only on reservoir temperatures: η = 1 - T_C/T_H = 1 - 300/600 = 50.00%.",
+      "explanation_en": "By Carnot's theorem, the efficiency of any reversible engine depends only on reservoir temperatures: η = 1 - T_C/T_H = 1 - 300/600 = 50.00%.",
+      "explanationHi": "कार्नोट प्रमेय के अनुसार उत्क्रमणीय इंजन की दक्षता कार्यकारी पदार्थ की प्रकृति पर निर्भर नहीं करती: η = 1 - T_C/T_H = 1 - 300/600 = 50.00%।",
+      "explanation_hi": "कार्नोट प्रमेय के अनुसार उत्क्रमणीय इंजन की दक्षता कार्यकारी पदार्थ की प्रकृति पर निर्भर नहीं करती: η = 1 - T_C/T_H = 1 - 300/600 = 50.00%।"
     },
     {
-      "q_id": 642014,
+      "questionId": "gate_ph_subj_11_q14",
+      "id": "gate_ph_subj_11_q14",
+      "q_id": 14,
+      "questionNumber": 14,
       "q_number": 14,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_7 + (1/√2) φ_8 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #7).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_7 + (1/√2) φ_8 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #7)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q14 (Param Set α=8, β=4)] A classical ideal gas consists of N non-interacting polyatomic molecules in thermal equilibrium at temperature T, where each molecule has 3 quadratic degrees of freedom in its Hamiltonian. The heat capacity at constant volume C_V of the gas is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q14 (Param Set α=8, β=4)] A classical ideal gas consists of N non-interacting polyatomic molecules in thermal equilibrium at temperature T, where each molecule has 3 quadratic degrees of freedom in its Hamiltonian. The heat capacity at constant volume C_V of the gas is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 14 (प्राचल सेट α=8, β=4)] तापमान T पर तापीय साम्य में स्थित एक चिरसम्मत आदर्श गैस में N अणु हैं, जहाँ प्रत्येक अणु के हैमिल्टनियन में 3 द्विघाती स्वातंत्र्य कोटियाँ हैं। नियत आयतन पर गैस की ऊष्मा धारिता C_V क्या होगी?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 14 (प्राचल सेट α=8, β=4)] तापमान T पर तापीय साम्य में स्थित एक चिरसम्मत आदर्श गैस में N अणु हैं, जहाँ प्रत्येक अणु के हैमिल्टनियन में 3 द्विघाती स्वातंत्र्य कोटियाँ हैं। नियत आयतन पर गैस की ऊष्मा धारिता C_V क्या होगी?",
+      "optionsEn": [
+        "(3 / 2) N k_B",
+        "3 N k_B",
+        "(5 / 2) N k_B",
+        "(3 / 2) N k_B"
+      ],
       "options_en": [
-        "55.5 E₁",
-        "56.5 E₁",
-        "57.5 E₁",
-        "58.5 E₁"
+        "(3 / 2) N k_B",
+        "3 N k_B",
+        "(5 / 2) N k_B",
+        "(3 / 2) N k_B"
+      ],
+      "optionsHi": [
+        "(3 / 2) N k_B",
+        "3 N k_B",
+        "(5 / 2) N k_B",
+        "(3 / 2) N k_B"
       ],
       "options_hi": [
-        "55.5 E₁",
-        "56.5 E₁",
-        "57.5 E₁",
-        "58.5 E₁"
+        "(3 / 2) N k_B",
+        "3 N k_B",
+        "(5 / 2) N k_B",
+        "(3 / 2) N k_B"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(7² E₁) + (1/2)(8² E₁) = (1/2)(49 + 64) E₁ = 56.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(49 + 64) E₁ = 56.5 E₁।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By the Equipartition Theorem, each quadratic term contributes (1/2)k_B T to average energy, so U = (3/2) N k_B T and C_V = (∂U/∂T)_V = (3/2) N k_B.",
+      "explanation_en": "By the Equipartition Theorem, each quadratic term contributes (1/2)k_B T to average energy, so U = (3/2) N k_B T and C_V = (∂U/∂T)_V = (3/2) N k_B.",
+      "explanationHi": "ऊर्जा समविभाजन प्रमेय के अनुसार प्रत्येक द्विघाती पद औसत ऊर्जा में (1/2)k_B T का योगदान देता है, अतः C_V = (3/2) N k_B।",
+      "explanation_hi": "ऊर्जा समविभाजन प्रमेय के अनुसार प्रत्येक द्विघाती पद औसत ऊर्जा में (1/2)k_B T का योगदान देता है, अतः C_V = (3/2) N k_B।"
     },
     {
-      "q_id": 642015,
+      "questionId": "gate_ph_subj_11_q15",
+      "id": "gate_ph_subj_11_q15",
+      "q_id": 15,
+      "questionNumber": 15,
       "q_number": 15,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #8] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 8?",
-      "question_hi": "[MSQ — रूप #8] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 8):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q15 (Param Set α=2, β=5)] For a rigid diatomic rotor with rotational constant B (in cm⁻¹), the wavenumber of the microwave absorption line corresponding to the rotational transition J = 1 → J = 2 is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q15 (Param Set α=2, β=5)] For a rigid diatomic rotor with rotational constant B (in cm⁻¹), the wavenumber of the microwave absorption line corresponding to the rotational transition J = 1 → J = 2 is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 15 (प्राचल सेट α=2, β=5)] घूर्णी नियतांक B (cm⁻¹ में) वाले एक दृढ़ द्विपरमाणुक घूर्णक (rigid diatomic rotor) में घूर्णी संक्रमण J = 1 → J = 2 के संगत सूक्ष्मतरंग अवशोषण रेखा की तरंगसंख्या क्या होगी?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 15 (प्राचल सेट α=2, β=5)] घूर्णी नियतांक B (cm⁻¹ में) वाले एक दृढ़ द्विपरमाणुक घूर्णक (rigid diatomic rotor) में घूर्णी संक्रमण J = 1 → J = 2 के संगत सूक्ष्मतरंग अवशोषण रेखा की तरंगसंख्या क्या होगी?",
+      "optionsEn": [
+        "6 B",
+        "4 B",
+        "2 B",
+        "2 B"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "6 B",
+        "4 B",
+        "2 B",
+        "2 B"
+      ],
+      "optionsHi": [
+        "6 B",
+        "4 B",
+        "2 B",
+        "2 B"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "6 B",
+        "4 B",
+        "2 B",
+        "2 B"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "B",
+      "correct_index": 1,
+      "correctOptionsList": [
+        "B"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Rotational term F(J) = B J(J + 1). For J → J + 1, Δν̄ = F(2) - F(1) = 2B(1 + 1) = 4 B.",
+      "explanation_en": "Rotational term F(J) = B J(J + 1). For J → J + 1, Δν̄ = F(2) - F(1) = 2B(1 + 1) = 4 B.",
+      "explanationHi": "घूर्णी ऊर्जा पद F(J) = B J(J + 1) से संक्रमण J = 1 → 2 के लिए तरंगसंख्या Δν̄ = 2B(J + 1) = 4 B।",
+      "explanation_hi": "घूर्णी ऊर्जा पद F(J) = B J(J + 1) से संक्रमण J = 1 → 2 के लिए तरंगसंख्या Δν̄ = 2B(J + 1) = 4 B।"
     },
     {
-      "q_id": 642016,
+      "questionId": "gate_ph_subj_11_q16",
+      "id": "gate_ph_subj_11_q16",
+      "q_id": 16,
+      "questionNumber": 16,
       "q_number": 16,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_8 + (1/√2) φ_9 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #8).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_8 + (1/√2) φ_9 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #8)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q16 (Param Set α=3, β=6)] For a non-relativistic two-dimensional free electron gas at T = 0 K with electron number density n, the Fermi energy E_F is proportional to:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q16 (Param Set α=3, β=6)] For a non-relativistic two-dimensional free electron gas at T = 0 K with electron number density n, the Fermi energy E_F is proportional to:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 16 (प्राचल सेट α=3, β=6)] T = 0 K पर इलेक्ट्रॉन संख्या घनत्व n वाली एक अ-आपेक्षिकीय द्विविमीय (2D) मुक्त इलेक्ट्रॉन गैस के लिए फर्मी ऊर्जा E_F किसके समानुपाती होती है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 16 (प्राचल सेट α=3, β=6)] T = 0 K पर इलेक्ट्रॉन संख्या घनत्व n वाली एक अ-आपेक्षिकीय द्विविमीय (2D) मुक्त इलेक्ट्रॉन गैस के लिए फर्मी ऊर्जा E_F किसके समानुपाती होती है?",
+      "optionsEn": [
+        "n^(1/3)",
+        "n^(3/2)",
+        "n^1",
+        "n^(1/2)"
+      ],
       "options_en": [
-        "71.5 E₁",
-        "72.5 E₁",
-        "73.5 E₁",
-        "74.5 E₁"
+        "n^(1/3)",
+        "n^(3/2)",
+        "n^1",
+        "n^(1/2)"
+      ],
+      "optionsHi": [
+        "n^(1/3)",
+        "n^(3/2)",
+        "n^1",
+        "n^(1/2)"
       ],
       "options_hi": [
-        "71.5 E₁",
-        "72.5 E₁",
-        "73.5 E₁",
-        "74.5 E₁"
+        "n^(1/3)",
+        "n^(3/2)",
+        "n^1",
+        "n^(1/2)"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "C",
+      "correct_index": 2,
+      "correctOptionsList": [
+        "C"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(8² E₁) + (1/2)(9² E₁) = (1/2)(64 + 81) E₁ = 72.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(64 + 81) E₁ = 72.5 E₁।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "In d dimensions, k_F ∝ n^(1/d) and E_F = ℏ² k_F²/(2m) ∝ n^(2/d), which gives n^1 for a two-dimensional electron gas.",
+      "explanation_en": "In d dimensions, k_F ∝ n^(1/d) and E_F = ℏ² k_F²/(2m) ∝ n^(2/d), which gives n^1 for a two-dimensional electron gas.",
+      "explanationHi": "d विमाओं में फर्मी ऊर्जा E_F ∝ n^(2/d) होती है, जिससे द्विविमीय (2D) इलेक्ट्रॉन गैस के लिए E_F ∝ n^1 प्राप्त होता है।",
+      "explanation_hi": "d विमाओं में फर्मी ऊर्जा E_F ∝ n^(2/d) होती है, जिससे द्विविमीय (2D) इलेक्ट्रॉन गैस के लिए E_F ∝ n^1 प्राप्त होता है।"
     },
     {
-      "q_id": 642017,
+      "questionId": "gate_ph_subj_11_q17",
+      "id": "gate_ph_subj_11_q17",
+      "q_id": 17,
+      "questionNumber": 17,
       "q_number": 17,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #9] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 9?",
-      "question_hi": "[MSQ — रूप #9] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 9):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q17 (Param Set α=4, β=7)] [NAT] The minimum number of JK flip-flops required to construct a synchronous MOD-140 counter is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q17 (Param Set α=4, β=7)] [NAT] The minimum number of JK flip-flops required to construct a synchronous MOD-140 counter is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 17 (प्राचल सेट α=4, β=7)] [NAT] एक तुल्यकालिक MOD-140 काउंटर के निर्माण के लिए आवश्यक JK फ्लिप-फ्लॉपों की न्यूनतम संख्या क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 17 (प्राचल सेट α=4, β=7)] [NAT] एक तुल्यकालिक MOD-140 काउंटर के निर्माण के लिए आवश्यक JK फ्लिप-फ्लॉपों की न्यूनतम संख्या क्या है?",
+      "optionsEn": [
+        "8",
+        "9",
+        "7",
+        "70"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "8",
+        "9",
+        "7",
+        "70"
+      ],
+      "optionsHi": [
+        "8",
+        "9",
+        "7",
+        "70"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "8",
+        "9",
+        "7",
+        "70"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": 7.99,
+      "natMax": 8.01,
+      "explanationEn": "For a MOD-M counter, 2^(n-1) < M ≤ 2^n. Since 2^7 = 128 < 140 ≤ 2^8 = 256, the minimum number of flip-flops is n = 8.",
+      "explanation_en": "For a MOD-M counter, 2^(n-1) < M ≤ 2^n. Since 2^7 = 128 < 140 ≤ 2^8 = 256, the minimum number of flip-flops is n = 8.",
+      "explanationHi": "MOD-140 काउंटर के लिए 2^n ≥ 140 होना चाहिए। चूँकि 2^8 = 256 ≥ 140 है, अतः न्यूनतम आवश्यक फ्लिप-फ्लॉप = 8।",
+      "explanation_hi": "MOD-140 काउंटर के लिए 2^n ≥ 140 होना चाहिए। चूँकि 2^8 = 256 ≥ 140 है, अतः न्यूनतम आवश्यक फ्लिप-फ्लॉप = 8।"
     },
     {
-      "q_id": 642018,
+      "questionId": "gate_ph_subj_11_q18",
+      "id": "gate_ph_subj_11_q18",
+      "q_id": 18,
+      "questionNumber": 18,
       "q_number": 18,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_9 + (1/√2) φ_10 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #9).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_9 + (1/√2) φ_10 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #9)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q18 (Param Set α=5, β=3)] Given that the nuclear radius of ²⁷₁₃Al is 3.6 fm, the nuclear radius of a nucleus with mass number A = 64 is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q18 (Param Set α=5, β=3)] Given that the nuclear radius of ²⁷₁₃Al is 3.6 fm, the nuclear radius of a nucleus with mass number A = 64 is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 18 (प्राचल सेट α=5, β=3)] दिया गया है कि ²⁷₁₃Al नाभिक की त्रिज्या 3.6 fm है, तो द्रव्यमान संख्या A = 64 वाले नाभिक की त्रिज्या क्या होगी?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 18 (प्राचल सेट α=5, β=3)] दिया गया है कि ²⁷₁₃Al नाभिक की त्रिज्या 3.6 fm है, तो द्रव्यमान संख्या A = 64 वाले नाभिक की त्रिज्या क्या होगी?",
+      "optionsEn": [
+        "8.53 fm",
+        "4.80 fm",
+        "5.40 fm",
+        "4.20 fm"
+      ],
       "options_en": [
-        "89.5 E₁",
-        "90.5 E₁",
-        "91.5 E₁",
-        "92.5 E₁"
+        "8.53 fm",
+        "4.80 fm",
+        "5.40 fm",
+        "4.20 fm"
+      ],
+      "optionsHi": [
+        "8.53 fm",
+        "4.80 fm",
+        "5.40 fm",
+        "4.20 fm"
       ],
       "options_hi": [
-        "89.5 E₁",
-        "90.5 E₁",
-        "91.5 E₁",
-        "92.5 E₁"
+        "8.53 fm",
+        "4.80 fm",
+        "5.40 fm",
+        "4.20 fm"
       ],
+      "correctOption": "B",
       "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOptionsList": [
+        "B"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(9² E₁) + (1/2)(10² E₁) = (1/2)(81 + 100) E₁ = 90.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(81 + 100) E₁ = 90.5 E₁।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Using R = R0 A^(1/3), R2 = R1 (A2 / A1)^(1/3) = 3.6 × (64 / 27)^(1/3) = 4.80 fm.",
+      "explanation_en": "Using R = R0 A^(1/3), R2 = R1 (A2 / A1)^(1/3) = 3.6 × (64 / 27)^(1/3) = 4.80 fm.",
+      "explanationHi": "सूत्र R = R0 A^(1/3) से, R2 = 3.6 × (64/27)^(1/3) = 4.80 fm।",
+      "explanation_hi": "सूत्र R = R0 A^(1/3) से, R2 = 3.6 × (64/27)^(1/3) = 4.80 fm।"
     },
     {
-      "q_id": 642019,
+      "questionId": "gate_ph_subj_11_q19",
+      "id": "gate_ph_subj_11_q19",
+      "q_id": 19,
+      "questionNumber": 19,
       "q_number": 19,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #10] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 10?",
-      "question_hi": "[MSQ — रूप #10] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 10):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q19 (Param Set α=6, β=4)] In the SU(3) quark model, the valence quark composition of the K⁺ meson (Q = +1, S = +1, B = 0) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q19 (Param Set α=6, β=4)] In the SU(3) quark model, the valence quark composition of the K⁺ meson (Q = +1, S = +1, B = 0) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 19 (प्राचल सेट α=6, β=4)] SU(3) क्वार्क मॉडल में K⁺ meson (Q = +1, S = +1, B = 0) की संयोजी क्वार्क संरचना क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 19 (प्राचल सेट α=6, β=4)] SU(3) क्वार्क मॉडल में K⁺ meson (Q = +1, S = +1, B = 0) की संयोजी क्वार्क संरचना क्या है?",
+      "optionsEn": [
+        "u d̄",
+        "s d̄",
+        "u s̄",
+        "d s̄"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "u d̄",
+        "s d̄",
+        "u s̄",
+        "d s̄"
+      ],
+      "optionsHi": [
+        "u d̄",
+        "s d̄",
+        "u s̄",
+        "d s̄"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "u d̄",
+        "s d̄",
+        "u s̄",
+        "d s̄"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "C",
+      "correct_index": 2,
+      "correctOptionsList": [
+        "C"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Using charges q(u) = +2/3, q(d) = -1/3, q(s) = -1/3 and strangeness S(s) = -1, S(s̄) = +1, the quark content of K⁺ meson (Q = +1, S = +1, B = 0) is u s̄.",
+      "explanation_en": "Using charges q(u) = +2/3, q(d) = -1/3, q(s) = -1/3 and strangeness S(s) = -1, S(s̄) = +1, the quark content of K⁺ meson (Q = +1, S = +1, B = 0) is u s̄.",
+      "explanationHi": "क्वार्क आवेश u (+2/3), d (-1/3), s (-1/3) और विचित्रता S(s) = -1 के आधार पर K⁺ meson (Q = +1, S = +1, B = 0) की क्वार्क संरचना u s̄ है।",
+      "explanation_hi": "क्वार्क आवेश u (+2/3), d (-1/3), s (-1/3) और विचित्रता S(s) = -1 के आधार पर K⁺ meson (Q = +1, S = +1, B = 0) की क्वार्क संरचना u s̄ है।"
     },
     {
-      "q_id": 642020,
+      "questionId": "gate_ph_subj_11_q20",
+      "id": "gate_ph_subj_11_q20",
+      "q_id": 20,
+      "questionNumber": 20,
       "q_number": 20,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_10 + (1/√2) φ_11 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #10).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_10 + (1/√2) φ_11 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #10)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q20 (Param Set α=7, β=5)] The solution x(t) of the differential equation d²x/dt² - 4 dx/dt + 3 x = 0 subject to the boundary conditions x(0) = 0 and x(1) = 1 is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q20 (Param Set α=7, β=5)] The solution x(t) of the differential equation d²x/dt² - 4 dx/dt + 3 x = 0 subject to the boundary conditions x(0) = 0 and x(1) = 1 is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 20 (प्राचल सेट α=7, β=5)] परिसीमा प्रतिबंधों x(0) = 0 और x(1) = 1 के अधीन अवकल समीकरण d²x/dt² - 4 dx/dt + 3 x = 0 का हल x(t) क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 20 (प्राचल सेट α=7, β=5)] परिसीमा प्रतिबंधों x(0) = 0 और x(1) = 1 के अधीन अवकल समीकरण d²x/dt² - 4 dx/dt + 3 x = 0 का हल x(t) क्या है?",
+      "optionsEn": [
+        "(e^(3t) + e^t) / (e^3 + e)",
+        "e^(3t - 3)",
+        "t e^(t - 1)",
+        "(e^(3t) - e^t) / (e^3 - e)"
+      ],
       "options_en": [
-        "109.5 E₁",
-        "110.5 E₁",
-        "111.5 E₁",
-        "112.5 E₁"
+        "(e^(3t) + e^t) / (e^3 + e)",
+        "e^(3t - 3)",
+        "t e^(t - 1)",
+        "(e^(3t) - e^t) / (e^3 - e)"
+      ],
+      "optionsHi": [
+        "(e^(3t) + e^t) / (e^3 + e)",
+        "e^(3t - 3)",
+        "t e^(t - 1)",
+        "(e^(3t) - e^t) / (e^3 - e)"
       ],
       "options_hi": [
-        "109.5 E₁",
-        "110.5 E₁",
-        "111.5 E₁",
-        "112.5 E₁"
+        "(e^(3t) + e^t) / (e^3 + e)",
+        "e^(3t - 3)",
+        "t e^(t - 1)",
+        "(e^(3t) - e^t) / (e^3 - e)"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "D",
+      "correct_index": 3,
+      "correctOptionsList": [
+        "D"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(10² E₁) + (1/2)(11² E₁) = (1/2)(100 + 121) E₁ = 110.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(100 + 121) E₁ = 110.5 E₁।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Characteristic roots are m = 1 and m = 3. Using x(0) = c1 + c2 = 0 ⇒ c2 = -c1, and x(1) = c1(e^3 - e) = 1 gives x(t) = (e^(3t) - e^t) / (e^3 - e).",
+      "explanation_en": "Characteristic roots are m = 1 and m = 3. Using x(0) = c1 + c2 = 0 ⇒ c2 = -c1, and x(1) = c1(e^3 - e) = 1 gives x(t) = (e^(3t) - e^t) / (e^3 - e).",
+      "explanationHi": "अभिलाक्षणिक समीकरण के मूल m = 1 और m = 3 हैं। x(0) = 0 और x(1) = 1 रखने पर x(t) = (e^(3t) - e^t) / (e^3 - e) प्राप्त होता है।",
+      "explanation_hi": "अभिलाक्षणिक समीकरण के मूल m = 1 और m = 3 हैं। x(0) = 0 और x(1) = 1 रखने पर x(t) = (e^(3t) - e^t) / (e^3 - e) प्राप्त होता है।"
     },
     {
-      "q_id": 642021,
+      "questionId": "gate_ph_subj_11_q21",
+      "id": "gate_ph_subj_11_q21",
+      "q_id": 21,
+      "questionNumber": 21,
       "q_number": 21,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #11] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 11?",
-      "question_hi": "[MSQ — रूप #11] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 11):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q21 (Param Set α=8, β=6)] [NAT] If P_2(x) denotes the Legendre polynomial of degree 2, then the value of the definite integral I = 5 ∫_{-1}^{1} [P_2(x)]² dx is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q21 (Param Set α=8, β=6)] [NAT] If P_2(x) denotes the Legendre polynomial of degree 2, then the value of the definite integral I = 5 ∫_{-1}^{1} [P_2(x)]² dx is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 21 (प्राचल सेट α=8, β=6)] [NAT] यदि P_2(x) घात 2 के लेजेंड्रे बहुपद (Legendre polynomial) को दर्शाता है, तो निश्चित समाकलन I = 5 ∫_{-1}^{1} [P_2(x)]² dx का मान क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 21 (प्राचल सेट α=8, β=6)] [NAT] यदि P_2(x) घात 2 के लेजेंड्रे बहुपद (Legendre polynomial) को दर्शाता है, तो निश्चित समाकलन I = 5 ∫_{-1}^{1} [P_2(x)]² dx का मान क्या है?",
+      "optionsEn": [
+        "2",
+        "1",
+        "5",
+        "0"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "2",
+        "1",
+        "5",
+        "0"
+      ],
+      "optionsHi": [
+        "2",
+        "1",
+        "5",
+        "0"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "2",
+        "1",
+        "5",
+        "0"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": 1.99,
+      "natMax": 2.01,
+      "explanationEn": "By the orthogonality normalization of Legendre polynomials, ∫_{-1}^1 [P_n(x)]² dx = 2 / (2n + 1). For n = 2, I = 5 × [2 / 5] = 2.",
+      "explanation_en": "By the orthogonality normalization of Legendre polynomials, ∫_{-1}^1 [P_n(x)]² dx = 2 / (2n + 1). For n = 2, I = 5 × [2 / 5] = 2.",
+      "explanationHi": "लेजेंड्रे बहुपदों के लांबिकता गुणधर्म से ∫_{-1}^1 [P_n(x)]² dx = 2 / (2n + 1) होता है। अतः n = 2 के लिए I = 5 × (2/5) = 2।",
+      "explanation_hi": "लेजेंड्रे बहुपदों के लांबिकता गुणधर्म से ∫_{-1}^1 [P_n(x)]² dx = 2 / (2n + 1) होता है। अतः n = 2 के लिए I = 5 × (2/5) = 2।"
     },
     {
-      "q_id": 642022,
+      "questionId": "gate_ph_subj_11_q22",
+      "id": "gate_ph_subj_11_q22",
+      "q_id": 22,
+      "questionNumber": 22,
       "q_number": 22,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_11 + (1/√2) φ_12 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #11).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_11 + (1/√2) φ_12 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #11)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q22 (Param Set α=2, β=7)] [NAT] If the linear phase-space transformation Q = 3 q + α p and P = q + 2 p between canonical variables (q, p) and (Q, P) is canonical, then the numerical value of the constant α is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q22 (Param Set α=2, β=7)] [NAT] If the linear phase-space transformation Q = 3 q + α p and P = q + 2 p between canonical variables (q, p) and (Q, P) is canonical, then the numerical value of the constant α is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 22 (प्राचल सेट α=2, β=7)] [NAT] यदि विहित चरों (q, p) और (Q, P) के बीच रैखिक कला-समष्टि रूपांतरण Q = 3 q + α p तथा P = q + 2 p एक विहित रूपांतरण (canonical transformation) है, तो अचर α का संख्यात्मक मान क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 22 (प्राचल सेट α=2, β=7)] [NAT] यदि विहित चरों (q, p) और (Q, P) के बीच रैखिक कला-समष्टि रूपांतरण Q = 3 q + α p तथा P = q + 2 p एक विहित रूपांतरण (canonical transformation) है, तो अचर α का संख्यात्मक मान क्या है?",
+      "optionsEn": [
+        "5",
+        "7",
+        "3",
+        "1"
+      ],
       "options_en": [
-        "131.5 E₁",
-        "132.5 E₁",
-        "133.5 E₁",
-        "134.5 E₁"
+        "5",
+        "7",
+        "3",
+        "1"
+      ],
+      "optionsHi": [
+        "5",
+        "7",
+        "3",
+        "1"
       ],
       "options_hi": [
-        "131.5 E₁",
-        "132.5 E₁",
-        "133.5 E₁",
-        "134.5 E₁"
+        "5",
+        "7",
+        "3",
+        "1"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(11² E₁) + (1/2)(12² E₁) = (1/2)(121 + 144) E₁ = 132.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(121 + 144) E₁ = 132.5 E₁।"
+      "natMin": 4.99,
+      "natMax": 5.01,
+      "explanationEn": "For a canonical transformation, the Poisson bracket {Q, P}_{q,p} = (∂Q/∂q)(∂P/∂p) - (∂Q/∂p)(∂P/∂q) = 1 ⇒ (3)(2) - α(1) = 1 ⇒ α = 5.",
+      "explanation_en": "For a canonical transformation, the Poisson bracket {Q, P}_{q,p} = (∂Q/∂q)(∂P/∂p) - (∂Q/∂p)(∂P/∂q) = 1 ⇒ (3)(2) - α(1) = 1 ⇒ α = 5.",
+      "explanationHi": "विहित रूपांतरण के लिए प्वासों कोष्ठक {Q, P} = 1 होना चाहिए: (3)(2) - α(1) = 1 ⇒ α = 5।",
+      "explanation_hi": "विहित रूपांतरण के लिए प्वासों कोष्ठक {Q, P} = 1 होना चाहिए: (3)(2) - α(1) = 1 ⇒ α = 5।"
     },
     {
-      "q_id": 642023,
+      "questionId": "gate_ph_subj_11_q23",
+      "id": "gate_ph_subj_11_q23",
+      "q_id": 23,
+      "questionNumber": 23,
       "q_number": 23,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #12] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 12?",
-      "question_hi": "[MSQ — रूप #12] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 12):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q23 (Param Set α=3, β=3)] [NAT] A uniform solid cylinder of mass M and radius R is projected on a rough horizontal floor with an initial translational speed v0 = 9 m/s and zero initial angular velocity (ω0 = 0). After slipping initially, it begins to roll without slipping. Its final translational speed v_f (in m/s) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q23 (Param Set α=3, β=3)] [NAT] A uniform solid cylinder of mass M and radius R is projected on a rough horizontal floor with an initial translational speed v0 = 9 m/s and zero initial angular velocity (ω0 = 0). After slipping initially, it begins to roll without slipping. Its final translational speed v_f (in m/s) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 23 (प्राचल सेट α=3, β=3)] [NAT] द्रव्यमान M और त्रिज्या R के एकसमान ठोस बेलन को खुरदरे क्षैतिज फर्श पर प्रारंभिक रेखीय चाल v0 = 9 m/s और शून्य कोणीय वेग (ω0 = 0) के साथ छोड़ा जाता है। प्रारंभिक फिसलन के बाद जब यह बिना फिसले लोटनी गति (pure rolling) शुरू करता है, तो इसकी अंतिम रेखीय चाल v_f (m/s में) क्या होगी?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 23 (प्राचल सेट α=3, β=3)] [NAT] द्रव्यमान M और त्रिज्या R के एकसमान ठोस बेलन को खुरदरे क्षैतिज फर्श पर प्रारंभिक रेखीय चाल v0 = 9 m/s और शून्य कोणीय वेग (ω0 = 0) के साथ छोड़ा जाता है। प्रारंभिक फिसलन के बाद जब यह बिना फिसले लोटनी गति (pure rolling) शुरू करता है, तो इसकी अंतिम रेखीय चाल v_f (m/s में) क्या होगी?",
+      "optionsEn": [
+        "6",
+        "4",
+        "6",
+        "9"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "6",
+        "4",
+        "6",
+        "9"
+      ],
+      "optionsHi": [
+        "6",
+        "4",
+        "6",
+        "9"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "6",
+        "4",
+        "6",
+        "9"
       ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": 5.99,
+      "natMax": 6.01,
+      "explanationEn": "Angular momentum about the line of contact is conserved: M v0 R = M v_f R + I_cm ω = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) v0 = 6 m/s.",
+      "explanation_en": "Angular momentum about the line of contact is conserved: M v0 R = M v_f R + I_cm ω = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) v0 = 6 m/s.",
+      "explanationHi": "संपर्क बिंदु के परितः कोणीय संवेग संरक्षण से: M v0 R = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) × 9 = 6 m/s।",
+      "explanation_hi": "संपर्क बिंदु के परितः कोणीय संवेग संरक्षण से: M v0 R = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) × 9 = 6 m/s।"
     },
     {
-      "q_id": 642024,
+      "questionId": "gate_ph_subj_11_q24",
+      "id": "gate_ph_subj_11_q24",
+      "q_id": 24,
+      "questionNumber": 24,
       "q_number": 24,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_12 + (1/√2) φ_13 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #12).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_12 + (1/√2) φ_13 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #12)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q24 (Param Set α=4, β=4)] The electrostatic work required to bring a point charge +q slowly from infinity to a perpendicular distance d = 4a in front of an infinite grounded conducting plane at z = 0 is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q24 (Param Set α=4, β=4)] The electrostatic work required to bring a point charge +q slowly from infinity to a perpendicular distance d = 4a in front of an infinite grounded conducting plane at z = 0 is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 24 (प्राचल सेट α=4, β=4)] z = 0 पर स्थित एक अनंत भूसंपर्कित चालक समतल के सामने अनंत से लांबिक दूरी d = 4a तक एक बिंदु आवेश +q को धीरे-धीरे लाने में किया गया स्थिरवैद्युत कार्य क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 24 (प्राचल सेट α=4, β=4)] z = 0 पर स्थित एक अनंत भूसंपर्कित चालक समतल के सामने अनंत से लांबिक दूरी d = 4a तक एक बिंदु आवेश +q को धीरे-धीरे लाने में किया गया स्थिरवैद्युत कार्य क्या है?",
+      "optionsEn": [
+        "-q² / (64 π ε0 a)",
+        "-q² / (32 π ε0 a)",
+        "-q² / (128 π ε0 a)",
+        "+q² / (64 π ε0 a)"
+      ],
       "options_en": [
-        "155.5 E₁",
-        "156.5 E₁",
-        "157.5 E₁",
-        "158.5 E₁"
+        "-q² / (64 π ε0 a)",
+        "-q² / (32 π ε0 a)",
+        "-q² / (128 π ε0 a)",
+        "+q² / (64 π ε0 a)"
+      ],
+      "optionsHi": [
+        "-q² / (64 π ε0 a)",
+        "-q² / (32 π ε0 a)",
+        "-q² / (128 π ε0 a)",
+        "+q² / (64 π ε0 a)"
       ],
       "options_hi": [
-        "155.5 E₁",
-        "156.5 E₁",
-        "157.5 E₁",
-        "158.5 E₁"
+        "-q² / (64 π ε0 a)",
+        "-q² / (32 π ε0 a)",
+        "-q² / (128 π ε0 a)",
+        "+q² / (64 π ε0 a)"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(12² E₁) + (1/2)(13² E₁) = (1/2)(144 + 169) E₁ = 156.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(144 + 169) E₁ = 156.5 E₁।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By the method of images, the image charge -q is at z = -d, and the electrostatic energy of the configuration is W = -q² / (16 π ε0 d) = -q² / (64 π ε0 a).",
+      "explanation_en": "By the method of images, the image charge -q is at z = -d, and the electrostatic energy of the configuration is W = -q² / (16 π ε0 d) = -q² / (64 π ε0 a).",
+      "explanationHi": "प्रतिबिंब विधि (Method of Images) के अनुसार कार्य W = -q² / (16 π ε0 d) होता है। d = 4a रखने पर W = -q² / (64 π ε0 a)।",
+      "explanation_hi": "प्रतिबिंब विधि (Method of Images) के अनुसार कार्य W = -q² / (16 π ε0 d) होता है। d = 4a रखने पर W = -q² / (64 π ε0 a)।"
     },
     {
-      "q_id": 642025,
+      "questionId": "gate_ph_subj_11_q25",
+      "id": "gate_ph_subj_11_q25",
+      "q_id": 25,
+      "questionNumber": 25,
       "q_number": 25,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #13] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 13?",
-      "question_hi": "[MSQ — रूप #13] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 13):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q25 (Param Set α=5, β=5)] A dielectric sphere of radius R carries a uniform frozen-in polarization P = 9 P₀ ẑ in free space (with no free charges). The electric field E_in inside the sphere (r < R) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q25 (Param Set α=5, β=5)] A dielectric sphere of radius R carries a uniform frozen-in polarization P = 9 P₀ ẑ in free space (with no free charges). The electric field E_in inside the sphere (r < R) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 25 (प्राचल सेट α=5, β=5)] त्रिज्या R के एक परावैद्युत गोले में मुक्त आकाश में एकसमान ध्रुवण P = 9 P₀ ẑ विद्यमान है। गोले के भीतर (r < R) विद्युत क्षेत्र E_in क्या होगा?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 25 (प्राचल सेट α=5, β=5)] त्रिज्या R के एक परावैद्युत गोले में मुक्त आकाश में एकसमान ध्रुवण P = 9 P₀ ẑ विद्यमान है। गोले के भीतर (r < R) विद्युत क्षेत्र E_in क्या होगा?",
+      "optionsEn": [
+        "0",
+        "-(3 / ε0) P₀ ẑ",
+        "+(3 / ε0) P₀ ẑ",
+        "-(9 / ε0) P₀ ẑ"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "0",
+        "-(3 / ε0) P₀ ẑ",
+        "+(3 / ε0) P₀ ẑ",
+        "-(9 / ε0) P₀ ẑ"
+      ],
+      "optionsHi": [
+        "0",
+        "-(3 / ε0) P₀ ẑ",
+        "+(3 / ε0) P₀ ẑ",
+        "-(9 / ε0) P₀ ẑ"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "0",
+        "-(3 / ε0) P₀ ẑ",
+        "+(3 / ε0) P₀ ẑ",
+        "-(9 / ε0) P₀ ẑ"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "B",
+      "correct_index": 1,
+      "correctOptionsList": [
+        "B"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Inside a uniformly polarized sphere with polarization P, the internal depolarizing field is E_in = -P / (3 ε0) = -(3 / ε0) P₀ ẑ.",
+      "explanation_en": "Inside a uniformly polarized sphere with polarization P, the internal depolarizing field is E_in = -P / (3 ε0) = -(3 / ε0) P₀ ẑ.",
+      "explanationHi": "एकसमान रूप से ध्रुवित गोले के भीतर विद्युत क्षेत्र E_in = -P / (3 ε0) = -(3 / ε0) P₀ ẑ होता है।",
+      "explanation_hi": "एकसमान रूप से ध्रुवित गोले के भीतर विद्युत क्षेत्र E_in = -P / (3 ε0) = -(3 / ε0) P₀ ẑ होता है।"
     },
     {
-      "q_id": 642026,
+      "questionId": "gate_ph_subj_11_q26",
+      "id": "gate_ph_subj_11_q26",
+      "q_id": 26,
+      "questionNumber": 26,
       "q_number": 26,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_13 + (1/√2) φ_14 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #13).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_13 + (1/√2) φ_14 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #13)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q26 (Param Set α=6, β=6)] [NAT] Non-relativistic charged particle B has 2 times the electric charge and 3 times the instantaneous acceleration of charged particle A. According to Larmor's formula, the ratio P_B / P_A of the electromagnetic power radiated by B to that radiated by A is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q26 (Param Set α=6, β=6)] [NAT] Non-relativistic charged particle B has 2 times the electric charge and 3 times the instantaneous acceleration of charged particle A. According to Larmor's formula, the ratio P_B / P_A of the electromagnetic power radiated by B to that radiated by A is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 26 (प्राचल सेट α=6, β=6)] [NAT] अ-आपेक्षिकीय आवेशित कण B का विद्युत आवेश कण A का 2 गुना है और उसका तात्क्षणिक त्वरण कण A का 3 गुना है। लार्मर के सूत्र (Larmor's formula) के अनुसार कण B और कण A द्वारा विकिरित विद्युतचुंबकीय शक्ति का अनुपात P_B / P_A क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 26 (प्राचल सेट α=6, β=6)] [NAT] अ-आपेक्षिकीय आवेशित कण B का विद्युत आवेश कण A का 2 गुना है और उसका तात्क्षणिक त्वरण कण A का 3 गुना है। लार्मर के सूत्र (Larmor's formula) के अनुसार कण B और कण A द्वारा विकिरित विद्युतचुंबकीय शक्ति का अनुपात P_B / P_A क्या है?",
+      "optionsEn": [
+        "36",
+        "6",
+        "18",
+        "72"
+      ],
       "options_en": [
-        "181.5 E₁",
-        "182.5 E₁",
-        "183.5 E₁",
-        "184.5 E₁"
+        "36",
+        "6",
+        "18",
+        "72"
+      ],
+      "optionsHi": [
+        "36",
+        "6",
+        "18",
+        "72"
       ],
       "options_hi": [
-        "181.5 E₁",
-        "182.5 E₁",
-        "183.5 E₁",
-        "184.5 E₁"
+        "36",
+        "6",
+        "18",
+        "72"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(13² E₁) + (1/2)(14² E₁) = (1/2)(169 + 196) E₁ = 182.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(169 + 196) E₁ = 182.5 E₁।"
+      "natMin": 35.99,
+      "natMax": 36.01,
+      "explanationEn": "By Larmor's formula, radiated power P = μ0 q² a² / (6πc) ∝ q² a². Thus P_B / P_A = (2)² × (3)² = 36.",
+      "explanation_en": "By Larmor's formula, radiated power P = μ0 q² a² / (6πc) ∝ q² a². Thus P_B / P_A = (2)² × (3)² = 36.",
+      "explanationHi": "लार्मर सूत्र P = μ0 q² a² / (6πc) के अनुसार P ∝ q² a² होता है। अतः P_B / P_A = (2)² × (3)² = 36।",
+      "explanation_hi": "लार्मर सूत्र P = μ0 q² a² / (6πc) के अनुसार P ∝ q² a² होता है। अतः P_B / P_A = (2)² × (3)² = 36।"
     },
     {
-      "q_id": 642027,
+      "questionId": "gate_ph_subj_11_q27",
+      "id": "gate_ph_subj_11_q27",
+      "q_id": 27,
+      "questionNumber": 27,
       "q_number": 27,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #14] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 14?",
-      "question_hi": "[MSQ — रूप #14] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 14):",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q27 (Param Set α=7, β=7)] For a hydrogenic ion with nuclear charge Z = 2 in the stationary state |n = 4, l, m⟩ (where a₀ is the Bohr radius), the expectation value ⟨1 / r⟩ is equal to:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q27 (Param Set α=7, β=7)] For a hydrogenic ion with nuclear charge Z = 2 in the stationary state |n = 4, l, m⟩ (where a₀ is the Bohr radius), the expectation value ⟨1 / r⟩ is equal to:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 27 (प्राचल सेट α=7, β=7)] नाभिकीय आवेश Z = 2 वाले एक हाइड्रोजन-सदृश आयन की स्थायी अवस्था |n = 4, l, m⟩ में (जहाँ a₀ बोर त्रिज्या है) प्रत्याशा मान ⟨1 / r⟩ क्या होगा?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 27 (प्राचल सेट α=7, β=7)] नाभिकीय आवेश Z = 2 वाले एक हाइड्रोजन-सदृश आयन की स्थायी अवस्था |n = 4, l, m⟩ में (जहाँ a₀ बोर त्रिज्या है) प्रत्याशा मान ⟨1 / r⟩ क्या होगा?",
+      "optionsEn": [
+        "16 / (2 a₀)",
+        "4 / (16 a₀)",
+        "2 / (16 a₀)",
+        "2 / (4 a₀)"
+      ],
       "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "16 / (2 a₀)",
+        "4 / (16 a₀)",
+        "2 / (16 a₀)",
+        "2 / (4 a₀)"
+      ],
+      "optionsHi": [
+        "16 / (2 a₀)",
+        "4 / (16 a₀)",
+        "2 / (16 a₀)",
+        "2 / (4 a₀)"
       ],
       "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
+        "16 / (2 a₀)",
+        "4 / (16 a₀)",
+        "2 / (16 a₀)",
+        "2 / (4 a₀)"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "C",
+      "correct_index": 2,
+      "correctOptionsList": [
+        "C"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "For any hydrogenic eigenstate |n, l, m⟩, ⟨1/r⟩ = Z / (n² a₀) = 2 / (16 a₀), independent of l and m.",
+      "explanation_en": "For any hydrogenic eigenstate |n, l, m⟩, ⟨1/r⟩ = Z / (n² a₀) = 2 / (16 a₀), independent of l and m.",
+      "explanationHi": "हाइड्रोजन-सदृश परमाणु की किसी भी अवस्था |n, l, m⟩ के लिए ⟨1/r⟩ = Z / (n² a₀) = 2 / (16 a₀) होता है।",
+      "explanation_hi": "हाइड्रोजन-सदृश परमाणु की किसी भी अवस्था |n, l, m⟩ के लिए ⟨1/r⟩ = Z / (n² a₀) = 2 / (16 a₀) होता है।"
     },
     {
-      "q_id": 642028,
+      "questionId": "gate_ph_subj_11_q28",
+      "id": "gate_ph_subj_11_q28",
+      "q_id": 28,
+      "questionNumber": 28,
       "q_number": 28,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_14 + (1/√2) φ_15 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #14).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_14 + (1/√2) φ_15 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #14)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q28 (Param Set α=8, β=3)] [NAT] A beam of spin-1/2 particles initially polarized in the +ẑ state (|+z⟩) passes through a Stern-Gerlach analyzer whose magnetic field gradient is oriented at an angle θ = 60° with respect to the +ẑ-axis. The probability of finding a particle with its spin parallel to the new analyzer axis (rounded to two decimal places) is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q28 (Param Set α=8, β=3)] [NAT] A beam of spin-1/2 particles initially polarized in the +ẑ state (|+z⟩) passes through a Stern-Gerlach analyzer whose magnetic field gradient is oriented at an angle θ = 60° with respect to the +ẑ-axis. The probability of finding a particle with its spin parallel to the new analyzer axis (rounded to two decimal places) is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 28 (प्राचल सेट α=8, β=3)] [NAT] प्रारंभ में +ẑ दिशा (|+z⟩) में ध्रुवित चक्रण-1/2 कणों का एक किरण-पुंज स्टर्न-गर्लाक विश्लेषक से गुजरता है जिसका चुंबकीय क्षेत्र +ẑ-अक्ष से θ = 60° के कोण पर झुका है। नए विश्लेषक अक्ष के समांतर (parallel) चक्रण पाने की प्रायिकता (दो दशमलव स्थानों तक) क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 28 (प्राचल सेट α=8, β=3)] [NAT] प्रारंभ में +ẑ दिशा (|+z⟩) में ध्रुवित चक्रण-1/2 कणों का एक किरण-पुंज स्टर्न-गर्लाक विश्लेषक से गुजरता है जिसका चुंबकीय क्षेत्र +ẑ-अक्ष से θ = 60° के कोण पर झुका है। नए विश्लेषक अक्ष के समांतर (parallel) चक्रण पाने की प्रायिकता (दो दशमलव स्थानों तक) क्या है?",
+      "optionsEn": [
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
+      ],
       "options_en": [
-        "209.5 E₁",
-        "210.5 E₁",
-        "211.5 E₁",
-        "212.5 E₁"
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
+      ],
+      "optionsHi": [
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
       ],
       "options_hi": [
-        "209.5 E₁",
-        "210.5 E₁",
-        "211.5 E₁",
-        "212.5 E₁"
+        "0.75",
+        "0.25",
+        "0.50",
+        "1.00"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
-      ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(14² E₁) + (1/2)(15² E₁) = (1/2)(196 + 225) E₁ = 210.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(196 + 225) E₁ = 210.5 E₁।"
-    },
-    {
-      "q_id": 642029,
-      "q_number": 29,
-      "section": "Quantum Mechanics",
-      "question_type": "MSQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "[MSQ — Variation #15] Let σ_x, σ_y, σ_z be Pauli spin matrices with [σ_i, σ_j] = 2i ε_ijk σ_k. Which relation holds for instance 15?",
-      "question_hi": "[MSQ — रूप #15] पाउली प्रचक्रण आव्यूहों σ_x, σ_y, σ_z के लिए संबंध विचार करें (रूप 15):",
-      "options_en": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (They anticommute)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
-      ],
-      "options_hi": [
-        "[σ_x, σ_y] = 2i σ_z",
-        "σ_x σ_y + σ_y σ_x = 0 (प्रति-क्रमविनिमेय)",
-        "exp(i θ σ_z) = I cos(θ) + i σ_z sin(θ)",
-        "Trace(σ_x) = 2"
-      ],
+      "correctOption": "A",
       "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n• Option (A) is TRUE: Pauli matrices satisfy [σ_i, σ_j] = 2i ε_ijk σ_k, so [σ_x, σ_y] = 2i σ_z.\n• Option (B) is TRUE: {σ_i, σ_j} = 2 δ_ij I, so for i ≠ j, σ_x σ_y + σ_y σ_x = 0.\n• Option (C) is TRUE: Since σ_z² = I, Taylor expanding exp(i θ σ_z) yields cos(θ) I + i sin(θ) σ_z.\n• Option (D) is FALSE: All Pauli matrices are traceless, so Trace(σ_x) = 0.",
-      "explanation_hi": "चरणबद्ध हल:\n• (A), (B) और (C) तीनों सर्वसमिकाएँ सत्य हैं क्योंकि [σ_x, σ_y] = 2iσ_z, {σ_x, σ_y} = 0, और σ_z² = I से exp(iθσ_z) = I cosθ + iσ_z sinθ प्राप्त होता है।\n• (D) असत्य है क्योंकि सभी पाउली आव्यूहों का ट्रेस (Trace) शून्य होता है।"
+      "natMin": 0.73,
+      "natMax": 0.77,
+      "explanationEn": "For spin-1/2, P_parallel(θ) = cos²(θ/2) and P_anti-parallel(θ) = sin²(θ/2). For θ = 60°, P_parallel = 0.75.",
+      "explanation_en": "For spin-1/2, P_parallel(θ) = cos²(θ/2) and P_anti-parallel(θ) = sin²(θ/2). For θ = 60°, P_parallel = 0.75.",
+      "explanationHi": "चक्रण-1/2 के लिए P_parallel = cos²(θ/2) तथा P_anti-parallel = sin²(θ/2) होता है। θ = 60° के लिए प्रायिकता = 0.75।",
+      "explanation_hi": "चक्रण-1/2 के लिए P_parallel = cos²(θ/2) तथा P_anti-parallel = sin²(θ/2) होता है। θ = 60° के लिए प्रायिकता = 0.75।"
     },
     {
-      "q_id": 642030,
-      "q_number": 30,
+      "questionId": "gate_ph_subj_11_q29",
+      "id": "gate_ph_subj_11_q29",
+      "q_id": 29,
+      "questionNumber": 29,
+      "q_number": 29,
+      "sectionId": "sec_qm",
       "section": "Quantum Mechanics",
-      "question_type": "MCQ",
-      "q_marks": 2.0,
-      "q_negative_marks": 0.67,
-      "exam_year_tag": "GATE PH Topic • Quantum Mechanics #2",
-      "question_en": "A particle of mass m is in state ψ = (1/√2) φ_15 + (1/√2) φ_16 in a 1D box of width L. If E_n = n² E₁, find expectation value ⟨E⟩ in terms of E₁ (variant #15).",
-      "question_hi": "चौड़ाई L के एकविमीय बॉक्स में कण अवस्था ψ = (1/√2) φ_15 + (1/√2) φ_16 में है। ऊर्जा का प्रत्याशा मान ⟨E⟩ क्या होगा (रूप #15)?",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q29 (Param Set α=2, β=4)] [NAT] Two localized spin-1/2 electrons interact via the Heisenberg spin-exchange Hamiltonian H = (2 eV / ℏ²) S₁ · S₂. The energy splitting ΔE = E_{triplet} - E_{singlet} (in eV) between the triplet (S = 1) and singlet (S = 0) states is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q29 (Param Set α=2, β=4)] [NAT] Two localized spin-1/2 electrons interact via the Heisenberg spin-exchange Hamiltonian H = (2 eV / ℏ²) S₁ · S₂. The energy splitting ΔE = E_{triplet} - E_{singlet} (in eV) between the triplet (S = 1) and singlet (S = 0) states is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 29 (प्राचल सेट α=2, β=4)] [NAT] दो स्थानीयकृत चक्रण-1/2 इलेक्ट्रॉन हाइजेनबर्ग चक्रण-विनिमय हैमिल्टनियन H = (2 eV / ℏ²) S₁ · S₂ के माध्यम से अन्योन्यक्रिया करते हैं। ट्रिपलेट (S = 1) और सिंगलेट (S = 0) अवस्थाओं के बीच ऊर्जा विपाटन ΔE = E_{triplet} - E_{singlet} (eV में) क्या है?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 29 (प्राचल सेट α=2, β=4)] [NAT] दो स्थानीयकृत चक्रण-1/2 इलेक्ट्रॉन हाइजेनबर्ग चक्रण-विनिमय हैमिल्टनियन H = (2 eV / ℏ²) S₁ · S₂ के माध्यम से अन्योन्यक्रिया करते हैं। ट्रिपलेट (S = 1) और सिंगलेट (S = 0) अवस्थाओं के बीच ऊर्जा विपाटन ΔE = E_{triplet} - E_{singlet} (eV में) क्या है?",
+      "optionsEn": [
+        "2",
+        "1",
+        "4",
+        "1"
+      ],
       "options_en": [
-        "239.5 E₁",
-        "240.5 E₁",
-        "241.5 E₁",
-        "242.5 E₁"
+        "2",
+        "1",
+        "4",
+        "1"
+      ],
+      "optionsHi": [
+        "2",
+        "1",
+        "4",
+        "1"
       ],
       "options_hi": [
-        "239.5 E₁",
-        "240.5 E₁",
-        "241.5 E₁",
-        "242.5 E₁"
+        "2",
+        "1",
+        "4",
+        "1"
       ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
       ],
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "explanation_en": "STEP-BY-STEP DERIVATION:\n⟨E⟩ = (1/2)(15² E₁) + (1/2)(16² E₁) = (1/2)(225 + 256) E₁ = 240.5 E₁.",
-      "explanation_hi": "चरणबद्ध हल:\n⟨E⟩ = (1/2)(225 + 256) E₁ = 240.5 E₁।"
+      "natMin": 1.99,
+      "natMax": 2.01,
+      "explanationEn": "Since S₁ · S₂ = (1/2)[S(S+1) - 3/2]ℏ², its eigenvalues are +(1/4)ℏ² for S = 1 (triplet) and -(3/4)ℏ² for S = 0 (singlet). Thus ΔE = 2 × (1/4 - (-3/4)) = 2 eV.",
+      "explanation_en": "Since S₁ · S₂ = (1/2)[S(S+1) - 3/2]ℏ², its eigenvalues are +(1/4)ℏ² for S = 1 (triplet) and -(3/4)ℏ² for S = 0 (singlet). Thus ΔE = 2 × (1/4 - (-3/4)) = 2 eV.",
+      "explanationHi": "चूँकि S₁ · S₂ के आइगेनमान ट्रिपलेट (S = 1) के लिए +(1/4)ℏ² और सिंगलेट (S = 0) के लिए -(3/4)ℏ² हैं, अतः ऊर्जा अंतर ΔE = 2 × (1/4 + 3/4) = 2 eV।",
+      "explanation_hi": "चूँकि S₁ · S₂ के आइगेनमान ट्रिपलेट (S = 1) के लिए +(1/4)ℏ² और सिंगलेट (S = 0) के लिए -(3/4)ℏ² हैं, अतः ऊर्जा अंतर ΔE = 2 × (1/4 + 3/4) = 2 eV।"
+    },
+    {
+      "questionId": "gate_ph_subj_11_q30",
+      "id": "gate_ph_subj_11_q30",
+      "q_id": 30,
+      "questionNumber": 30,
+      "q_number": 30,
+      "sectionId": "sec_qm",
+      "section": "Quantum Mechanics",
+      "sectionTitleEn": "Quantum Mechanics",
+      "sectionTitleHi": "क्वांटम यांत्रिकी (Quantum Mechanics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan",
+      "sourceUrl": "https://www.physicsbyfiziks.com/freedownload/previous-solution/gate/4.Quantum%20Mechanics_GATE.pdf",
+      "questionTextEn": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q30 (Param Set α=3, β=5)] A two-level quantum system has ground state energy E₀ = 0 with degeneracy g₀ = 1 and excited state energy E₁ = ε with degeneracy g₁ = 4. In thermal equilibrium at inverse temperature β = 1/(k_B T), the canonical ensemble average energy ⟨E⟩ per particle is:",
+      "question_en": "[GATE PH Subject Test 11: Quantum Mechanics 2: 3D Central Potentials, Hydrogen Atom, Angular Momentum, Pauli Spin & Clebsch-Gordan • Practice Q30 (Param Set α=3, β=5)] A two-level quantum system has ground state energy E₀ = 0 with degeneracy g₀ = 1 and excited state energy E₁ = ε with degeneracy g₁ = 4. In thermal equilibrium at inverse temperature β = 1/(k_B T), the canonical ensemble average energy ⟨E⟩ per particle is:",
+      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 30 (प्राचल सेट α=3, β=5)] एक द्वि-स्तरीय क्वांटम निकाय में मूल अवस्था ऊर्जा E₀ = 0 की अपभ्रष्टता g₀ = 1 है तथा उत्तेजित अवस्था ऊर्जा E₁ = ε की अपभ्रष्टता g₁ = 4 है। व्युत्क्रम ताप β = 1/(k_B T) पर प्रति कण औसत ऊर्जा ⟨E⟩ क्या होगी?",
+      "question_hi": "[GATE भौतिकी विषय टेस्ट 11: क्वांटम यांत्रिकी 2: त्रिविमीय केंद्रीय विभव, हाइड्रोजन परमाणु, कोणीय संवेग एवं पाउली चक्रण आव्यूह • अभ्यास प्रश्न 30 (प्राचल सेट α=3, β=5)] एक द्वि-स्तरीय क्वांटम निकाय में मूल अवस्था ऊर्जा E₀ = 0 की अपभ्रष्टता g₀ = 1 है तथा उत्तेजित अवस्था ऊर्जा E₁ = ε की अपभ्रष्टता g₁ = 4 है। व्युत्क्रम ताप β = 1/(k_B T) पर प्रति कण औसत ऊर्जा ⟨E⟩ क्या होगी?",
+      "optionsEn": [
+        "4 ε / (4 + 1 e^(β ε))",
+        "ε / (1 + e^(β ε))",
+        "1 ε / (1 + 4 e^(β ε))",
+        "4 ε e^(-β ε)"
+      ],
+      "options_en": [
+        "4 ε / (4 + 1 e^(β ε))",
+        "ε / (1 + e^(β ε))",
+        "1 ε / (1 + 4 e^(β ε))",
+        "4 ε e^(-β ε)"
+      ],
+      "optionsHi": [
+        "4 ε / (4 + 1 e^(β ε))",
+        "ε / (1 + e^(β ε))",
+        "1 ε / (1 + 4 e^(β ε))",
+        "4 ε e^(-β ε)"
+      ],
+      "options_hi": [
+        "4 ε / (4 + 1 e^(β ε))",
+        "ε / (1 + e^(β ε))",
+        "1 ε / (1 + 4 e^(β ε))",
+        "4 ε e^(-β ε)"
+      ],
+      "correctOption": "A",
+      "correct_index": 0,
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Single-particle partition function Z₁ = 1 + 4 e^(-βε). Thus ⟨E⟩ = -∂(ln Z₁)/∂β = 4 ε e^(-βε) / (1 + 4 e^(-βε)) = 4 ε / (4 + 1 e^(βε)).",
+      "explanation_en": "Single-particle partition function Z₁ = 1 + 4 e^(-βε). Thus ⟨E⟩ = -∂(ln Z₁)/∂β = 4 ε e^(-βε) / (1 + 4 e^(-βε)) = 4 ε / (4 + 1 e^(βε)).",
+      "explanationHi": "एकल-कण संवितरण फलन Z₁ = 1 + 4 e^(-βε) से औसत ऊर्जा ⟨E⟩ = 4 ε / (4 + 1 e^(βε)) प्राप्त होती है।",
+      "explanation_hi": "एकल-कण संवितरण फलन Z₁ = 1 + 4 e^(-βε) से औसत ऊर्जा ⟨E⟩ = 4 ε / (4 + 1 e^(βε)) प्राप्त होती है।"
     }
   ]
 }
