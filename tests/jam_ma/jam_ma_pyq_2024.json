@@ -1,878 +1,1897 @@
 {
-  "test_id": "jam_ma_pyq_2024",
-  "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-  "total_questions": 30,
-  "duration_minutes": 180,
+  "testId": "jam_ma_pyq_2024",
+  "categoryId": "jam_ma",
+  "titleEn": "IIT JAM 2024 Mathematics (MA) Official Pattern Solved Paper",
+  "titleHi": "IIT JAM 2024 गणित (MA) आधिकारिक पैटर्न हल प्रश्न पत्र",
+  "testType": "PYQ",
+  "isFree": true,
+  "durationMinutes": 180,
+  "totalQuestions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2024,
+  "shiftBadge": "IIT JAM MA • 2024 Official Paper",
   "questions": [
     {
-      "q_id": 20241,
-      "q_number": 1,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The limit as n → ∞ of the sequence a_n = (1 + 2/n)^(3n) is:",
-      "question_hi": "[Sequences & Series of Real Numbers • IIT JAM Mathematics (MA) • Feb 2024]\nThe limit as n → ∞ of the sequence a_n = (1 + 2/n)^(3n) is:",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q001",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Sequences & Series of Real Numbers",
+      "difficulty": "Easy",
+      "questionTextEn": "The limit as n → ∞ of the sequence a_n = (1 + 2/n)^(3n) is:",
+      "questionTextHi": "[Sequences & Series of Real Numbers • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe limit as n → ∞ of the अनुक्रम (sequence) a_n = (1 + 2/n)^(3n) is:",
+      "optionsEn": [
         "e⁶",
         "e²",
         "e³",
         "1"
       ],
-      "options_hi": [
-        "e⁶",
-        "e²",
-        "e³",
+      "optionsHi": [
+        "विकल्प: e⁶",
+        "विकल्प: e²",
+        "विकल्प: e³",
+        "विकल्प: 1"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Using lim_{n→∞} (1 + x/n)^n = e^x, we have lim_{n→∞} [(1 + 2/n)^n]³ = (e²)³ = e⁶.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nUsing lim_{n→∞} (1 + x/n)^n = e^x, we have lim_{n→∞} [(1 + 2/n)^n]³ = (e²)³ = e⁶."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q002",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Convergence of Infinite Series",
+      "difficulty": "Easy",
+      "questionTextEn": "For which values of the real parameter p does the alternating series Σ_{n=2}^∞ (−1)^n / (n (ln n)^p) converge conditionally?",
+      "questionTextHi": "[Convergence of Infinite Series • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nके लिए which values of the real parameter p does the alternating श्रेणी (series) Σ_{n=2}^∞ (−1)^n / (n (ln n)^p) converge conditionally?",
+      "optionsEn": [
+        "0 ≤ p ≤ 1",
+        "p > 1",
+        "p < 0",
+        "All p ∈ R"
+      ],
+      "optionsHi": [
+        "विकल्प: 0 ≤ p ≤ 1",
+        "विकल्प: p > 1",
+        "विकल्प: p < 0",
+        "विकल्प: All p ∈ R"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By the Alternating Series Test (Leibniz criterion), 1/(n (ln n)^p) decreases monotonically to 0 for all p ≥ 0, so the series converges for p ≥ 0. By the Integral Test, Σ 1/(n (ln n)^p) converges absolutely only for p > 1. Hence it converges conditionally for 0 ≤ p ≤ 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy the Alternating Series Test (Leibniz criterion), 1/(n (ln n)^p) decreases monotonically to 0 for all p ≥ 0, so the series converges for p ≥ 0. By the Integral Test, Σ 1/(n (ln n)^p) converges absolutely only for p > 1. Hence it converges conditionally for 0 ≤ p ≤ 1."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q003",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Functions of One Real Variable (Rolle's & Mean Value Theorem)",
+      "difficulty": "Medium",
+      "questionTextEn": "The number of distinct real roots of the polynomial equation x⁵ − 5x + 2 = 0 in R is:",
+      "questionTextHi": "[Functions of One Real Variable (Rolle's & Mean Value Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nकी संख्या distinct real roots of the बहुपद (polynomial) equation x⁵ − 5x + 2 = 0 में R is:",
+      "optionsEn": [
+        "3",
+        "1",
+        "5",
+        "2"
+      ],
+      "optionsHi": [
+        "विकल्प: 3",
+        "विकल्प: 1",
+        "विकल्प: 5",
+        "विकल्प: 2"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Let f(x) = x⁵ − 5x + 2. Then f'(x) = 5(x⁴ − 1) = 0 at x = −1 and x = 1. Since f(−2) = −20 < 0, f(−1) = 6 > 0, f(1) = −2 < 0, and f(2) = 24 > 0, by the Intermediate Value Theorem and Rolle's Theorem, f(x) has exactly 3 real roots.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nLet f(x) = x⁵ − 5x + 2. Then f'(x) = 5(x⁴ − 1) = 0 at x = −1 and x = 1. Since f(−2) = −20 < 0, f(−1) = 6 > 0, f(1) = −2 < 0, and f(2) = 24 > 0, by the Intermediate Value Theorem and Rolle's Theorem, f(x) has exactly 3 real roots."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q004",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Riemann Integration & Fundamental Theorem of Calculus",
+      "difficulty": "Medium",
+      "questionTextEn": "Let F(x) = ∫_0^(x²) cos(√t) dt for x > 0. Then the derivative F'(π) is equal to:",
+      "questionTextHi": "[Riemann Integration & Fundamental Theorem of Calculus • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि F(x) = ∫_0^(x²) cos(√t) dt के लिए x > 0. Then the derivative F'(π) के बराबर है:",
+      "optionsEn": [
+        "−2π",
+        "2π",
+        "0",
+        "−1"
+      ],
+      "optionsHi": [
+        "विकल्प: −2π",
+        "विकल्प: 2π",
+        "विकल्प: 0",
+        "विकल्प: −1"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By Leibniz's rule for differentiating under the integral sign, F'(x) = cos(√(x²)) · (2x) = 2x cos(x). Evaluating at x = π gives F'(π) = 2π cos(π) = −2π.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy Leibniz's rule for differentiating under the integral sign, F'(x) = cos(√(x²)) · (2x) = 2x cos(x). Evaluating at x = π gives F'(π) = 2π cos(π) = −2π."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q005",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Multivariable Calculus (Maxima & Minima)",
+      "difficulty": "Medium",
+      "questionTextEn": "The critical point (1, 1) of the smooth function f(x, y) = x³ + y³ − 3xy is a:",
+      "questionTextHi": "[Multivariable Calculus (Maxima & Minima) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe critical point (1, 1) of the smooth function f(x, y) = x³ + y³ − 3xy is a:",
+      "optionsEn": [
+        "local minimum with value −1",
+        "local maximum with value −1",
+        "saddle point",
+        "degenerate inflection point"
+      ],
+      "optionsHi": [
+        "मान −1 के साथ स्थानीय निम्नतम (local minimum)",
+        "मान −1 के साथ स्थानीय उच्चतम (local maximum)",
+        "पल्याण बिंदु (saddle point)",
+        "अपभ्रष्ट नतिपरिवर्तन बिंदु (degenerate inflection point)"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "∇f = (3x² − 3y, 3y² − 3x) = (0, 0) at (0, 0) and (1, 1). At (1, 1), f_{xx} = 6 > 0, f_{yy} = 6, f_{xy} = −3, and Hessian determinant D = (6)(6) − (−3)² = 27 > 0. Hence (1, 1) is a strict local minimum with f(1, 1) = 1 + 1 − 3 = −1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\n∇f = (3x² − 3y, 3y² − 3x) = (0, 0) at (0, 0) and (1, 1). At (1, 1), f_{xx} = 6 > 0, f_{yy} = 6, f_{xy} = −3, and Hessian determinant D = (6)(6) − (−3)² = 27 > 0. Hence (1, 1) is a strict local minimum with f(1, 1) = 1 + 1 − 3 = −1."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q006",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Limit of a Sequence)",
+      "difficulty": "Easy",
+      "questionTextEn": "The limit as n → ∞ of the sequence b_n = (n!)^(1/n) / n is:",
+      "questionTextHi": "[Real Analysis (Limit of a Sequence) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe limit as n → ∞ of the अनुक्रम (sequence) b_n = (n!)^(1/n) / n is:",
+      "optionsEn": [
+        "1/e",
+        "e",
+        "1",
+        "0"
+      ],
+      "optionsHi": [
+        "विकल्प: 1/e",
+        "विकल्प: e",
+        "विकल्प: 1",
+        "विकल्प: 0"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By Stirling's approximation n! ~ √(2πn) (n/e)^n, we have (n!)^(1/n) / n → 1/e.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy Stirling's approximation n! ~ √(2πn) (n/e)^n, we have (n!)^(1/n) / n → 1/e."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q007",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Trace & Determinant)",
+      "difficulty": "Easy",
+      "questionTextEn": "If A is a 2 × 2 real matrix such that Trace(A) = 5 and det(A) = 6, then the eigenvalues of A⁻¹ are:",
+      "questionTextHi": "[Linear Algebra (Trace & Determinant) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि A is a 2 × 2 real आव्यूह (matrix) such that Trace(A) = 5 and det(A) = 6, then the आइगेनमान (आइगेनमान (eigenvalue)s) of A⁻¹ are:",
+      "optionsEn": [
+        "1/2 and 1/3",
+        "2 and 3",
+        "−2 and −3",
+        "1/5 and 1/6"
+      ],
+      "optionsHi": [
+        "विकल्प: 1/2 and 1/3",
+        "विकल्प: 2 and 3",
+        "विकल्प: −2 and −3",
+        "विकल्प: 1/5 and 1/6"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "The eigenvalues of A satisfy λ² − 5λ + 6 = 0 => λ = 2, 3. Thus the eigenvalues of A⁻¹ are 1/2 and 1/3.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nThe eigenvalues of A satisfy λ² − 5λ + 6 = 0 => λ = 2, 3. Thus the eigenvalues of A⁻¹ are 1/2 and 1/3."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q008",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Integrating Factor)",
+      "difficulty": "Easy",
+      "questionTextEn": "An integrating factor μ(x) that converts the linear ODE x (dy/dx) + 3y = x⁴ (for x > 0) into an exact differential d/dx [μ(x) y] is:",
+      "questionTextHi": "[Differential Equations (Integrating Factor) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nAn integrating factor μ(x) that converts the linear ODE x (dy/dx) + 3y = x⁴ (के लिए x > 0) into an exact differential d/dx [μ(x) y] is:",
+      "optionsEn": [
+        "x²",
+        "x³",
+        "1/x³",
+        "e^(3x)"
+      ],
+      "optionsHi": [
+        "विकल्प: x²",
+        "विकल्प: x³",
+        "विकल्प: 1/x³",
+        "विकल्प: e^(3x)"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Dividing by x gives y' + (3/x)y = x³; μ(x) = exp(∫ (3/x) dx) = x³. Multiplying the original equation x y' + 3y = x⁴ by x² gives d/dx(x³ y) = x⁶, so with respect to the given form x y' + 3y, multiplying by x² makes the LHS d/dx(x³ y).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nDividing by x gives y' + (3/x)y = x³; μ(x) = exp(∫ (3/x) dx) = x³. Multiplying the original equation x y' + 3y = x⁴ by x² gives d/dx(x³ y) = x⁶, so with respect to the given form x y' + 3y, multiplying by x² makes the LHS d/dx(x³ y)."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q009",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Order of Permutation)",
+      "difficulty": "Easy",
+      "questionTextEn": "In the symmetric group S_7, the order of the permutation σ = (1 2 3)(4 5 6 7) written as a product of disjoint cycles is:",
+      "questionTextHi": "[Group Theory (Order of Permutation) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमें the symmetric समूह (group) S_7, the order of the permutation σ = (1 2 3)(4 5 6 7) written as a product of disjoint cycles is:",
+      "optionsEn": [
+        "12",
+        "7",
+        "24",
+        "4"
+      ],
+      "optionsHi": [
+        "विकल्प: 12",
+        "विकल्प: 7",
+        "विकल्प: 24",
+        "विकल्प: 4"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "The order of a product of disjoint cycles is the least common multiple of their lengths: lcm(3, 4) = 12.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nThe order of a product of disjoint cycles is the least common multiple of their lengths: lcm(3, 4) = 12."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q010",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Vector Calculus (Curl of a Gradient)",
+      "difficulty": "Easy",
+      "questionTextEn": "For any twice continuously differentiable scalar field φ(x, y, z) on R³, the vector identity ∇ × (∇φ) is identically equal to:",
+      "questionTextHi": "[Vector Calculus (Curl of a Gradient) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nके लिए any twice continuously अवकलनीय (differentiable) scalar field φ(x, y, z) on R³, the vector identity ∇ × (∇φ) is identically equal to:",
+      "optionsEn": [
+        "0⃗ (the zero vector)",
+        "∇²φ",
+        "φ ∇φ",
         "1"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "optionsHi": [
+        "विकल्प: 0⃗ (the zero vector)",
+        "विकल्प: ∇²φ",
+        "विकल्प: φ ∇φ",
+        "विकल्प: 1"
       ],
-      "explanation_en": "Using lim_{n→∞} (1 + x/n)^n = e^x, we have lim_{n→∞} [(1 + 2/n)^n]³ = (e²)³ = e⁶.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nUsing lim_{n→∞} (1 + x/n)^n = e^x, we have lim_{n→∞} [(1 + 2/n)^n]³ = (e²)³ = e⁶.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.33
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By equality of mixed partial derivatives, the curl of any gradient field is identically the zero vector 0⃗.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy equality of mixed partial derivatives, the curl of any gradient field is identically the zero vector 0⃗."
     },
     {
-      "q_id": 20242,
-      "q_number": 2,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "For which values of the real parameter p does the alternating series Σ_{n=2}^∞ (−1)^n / (n (ln n)^p) converge conditionally?",
-      "question_hi": "[Convergence of Infinite Series • IIT JAM Mathematics (MA) • Feb 2024]\nFor which values of the real parameter p does the alternating series Σ_{n=2}^∞ (−1)^n / (n (ln n)^p) converge conditionally?",
-      "options_en": [
-        "0 ≤ p ≤ 1",
-        "p > 1",
-        "p < 0",
-        "All p ∈ R"
-      ],
-      "options_hi": [
-        "0 ≤ p ≤ 1",
-        "p > 1",
-        "p < 0",
-        "All p ∈ R"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "By the Alternating Series Test (Leibniz criterion), 1/(n (ln n)^p) decreases monotonically to 0 for all p ≥ 0, so the series converges for p ≥ 0. By the Integral Test, Σ 1/(n (ln n)^p) converges absolutely only for p > 1. Hence it converges conditionally for 0 ≤ p ≤ 1.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nBy the Alternating Series Test (Leibniz criterion), 1/(n (ln n)^p) decreases monotonically to 0 for all p ≥ 0, so the series converges for p ≥ 0. By the Integral Test, Σ 1/(n (ln n)^p) converges absolutely only for p > 1. Hence it converges conditionally for 0 ≤ p ≤ 1.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.33
-    },
-    {
-      "q_id": 20243,
-      "q_number": 3,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The number of distinct real roots of the polynomial equation x⁵ − 5x + 2 = 0 in R is:",
-      "question_hi": "[Functions of One Real Variable (Rolle's & Mean Value Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nThe number of distinct real roots of the polynomial equation x⁵ − 5x + 2 = 0 in R is:",
-      "options_en": [
-        "3",
-        "1",
-        "5",
-        "2"
-      ],
-      "options_hi": [
-        "3",
-        "1",
-        "5",
-        "2"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "Let f(x) = x⁵ − 5x + 2. Then f'(x) = 5(x⁴ − 1) = 0 at x = −1 and x = 1. Since f(−2) = −20 < 0, f(−1) = 6 > 0, f(1) = −2 < 0, and f(2) = 24 > 0, by the Intermediate Value Theorem and Rolle's Theorem, f(x) has exactly 3 real roots.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nLet f(x) = x⁵ − 5x + 2. Then f'(x) = 5(x⁴ − 1) = 0 at x = −1 and x = 1. Since f(−2) = −20 < 0, f(−1) = 6 > 0, f(1) = −2 < 0, and f(2) = 24 > 0, by the Intermediate Value Theorem and Rolle's Theorem, f(x) has exactly 3 real roots.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.33
-    },
-    {
-      "q_id": 20244,
-      "q_number": 4,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let F(x) = ∫_0^(x²) cos(√t) dt for x > 0. Then the derivative F'(π) is equal to:",
-      "question_hi": "[Riemann Integration & Fundamental Theorem of Calculus • IIT JAM Mathematics (MA) • Feb 2024]\nLet F(x) = ∫_0^(x²) cos(√t) dt for x > 0. Then the derivative F'(π) is equal to:",
-      "options_en": [
-        "−2π",
-        "2π",
-        "0",
-        "−1"
-      ],
-      "options_hi": [
-        "−2π",
-        "2π",
-        "0",
-        "−1"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "By Leibniz's rule for differentiating under the integral sign, F'(x) = cos(√(x²)) · (2x) = 2x cos(x). Evaluating at x = π gives F'(π) = 2π cos(π) = −2π.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nBy Leibniz's rule for differentiating under the integral sign, F'(x) = cos(√(x²)) · (2x) = 2x cos(x). Evaluating at x = π gives F'(π) = 2π cos(π) = −2π.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.33
-    },
-    {
-      "q_id": 20245,
-      "q_number": 5,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The critical point (1, 1) of the smooth function f(x, y) = x³ + y³ − 3xy is a:",
-      "question_hi": "[Multivariable Calculus (Maxima & Minima) • IIT JAM Mathematics (MA) • Feb 2024]\nThe critical point (1, 1) of the smooth function f(x, y) = x³ + y³ − 3xy is a:",
-      "options_en": [
-        "local minimum with value −1",
-        "local maximum with value −1",
-        "saddle point",
-        "degenerate inflection point"
-      ],
-      "options_hi": [
-        "local minimum with value −1",
-        "local maximum with value −1",
-        "saddle point",
-        "degenerate inflection point"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "∇f = (3x² − 3y, 3y² − 3x) = (0, 0) at (0, 0) and (1, 1). At (1, 1), f_{xx} = 6 > 0, f_{yy} = 6, f_{xy} = −3, and Hessian determinant D = (6)(6) − (−3)² = 27 > 0. Hence (1, 1) is a strict local minimum with f(1, 1) = 1 + 1 − 3 = −1.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\n∇f = (3x² − 3y, 3y² − 3x) = (0, 0) at (0, 0) and (1, 1). At (1, 1), f_{xx} = 6 > 0, f_{yy} = 6, f_{xy} = −3, and Hessian determinant D = (6)(6) − (−3)² = 27 > 0. Hence (1, 1) is a strict local minimum with f(1, 1) = 1 + 1 − 3 = −1.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.33
-    },
-    {
-      "q_id": 20246,
-      "q_number": 6,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Consider the differential equation (y + x³) dx + (a x + b y³) dy = 0. If this equation is exact on R², what is the value of the constant a, and what is the general implicit solution when b = 1?",
-      "question_hi": "[Differential Equations (Integrating Factors) • IIT JAM Mathematics (MA) • Feb 2024]\nConsider the differential equation (y + x³) dx + (a x + b y³) dy = 0. If this equation is exact on R², what is the value of the constant a, and what is the general implicit solution when b = 1?",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q011",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Integrating Factors)",
+      "difficulty": "Medium",
+      "questionTextEn": "Consider the differential equation (y + x³) dx + (a x + b y³) dy = 0. If this equation is exact on R², what is the value of the constant a, and what is the general implicit solution when b = 1?",
+      "questionTextHi": "[Differential Equations (Integrating Factors) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nConsider the अवकल समीकरण (differential equation) (y + x³) dx + (a x + b y³) dy = 0. यदि this equation is exact on R², what is का मान the constant a, and what is the general implicit solution when b = 1?",
+      "optionsEn": [
         "a = 1 and x y + x⁴/4 + y⁴/4 = C",
         "a = 3 and 3xy + x⁴ + y⁴ = C",
         "a = −1 and xy − x⁴/4 + y⁴/4 = C",
         "a = 0 and x⁴/4 + y⁴/4 = C"
       ],
-      "options_hi": [
-        "a = 1 and x y + x⁴/4 + y⁴/4 = C",
-        "a = 3 and 3xy + x⁴ + y⁴ = C",
-        "a = −1 and xy − x⁴/4 + y⁴/4 = C",
-        "a = 0 and x⁴/4 + y⁴/4 = C"
+      "optionsHi": [
+        "विकल्प: a = 1 and x y + x⁴/4 + y⁴/4 = C",
+        "विकल्प: a = 3 and 3xy + x⁴ + y⁴ = C",
+        "विकल्प: a = −1 and xy − x⁴/4 + y⁴/4 = C",
+        "विकल्प: a = 0 and x⁴/4 + y⁴/4 = C"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
       ],
-      "explanation_en": "For exactness, ∂M/∂y = 1 must equal ∂N/∂x = a, so a = 1. Integrating M dx + N dy = (y + x³)dx + (x + y³)dy = 0 yields xy + x⁴/4 + y⁴/4 = C.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nFor exactness, ∂M/∂y = 1 must equal ∂N/∂x = a, so a = 1. Integrating M dx + N dy = (y + x³)dx + (x + y³)dy = 0 yields xy + x⁴/4 + y⁴/4 = C.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "For exactness, ∂M/∂y = 1 must equal ∂N/∂x = a, so a = 1. Integrating M dx + N dy = (y + x³)dx + (x + y³)dy = 0 yields xy + x⁴/4 + y⁴/4 = C.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nFor exactness, ∂M/∂y = 1 must equal ∂N/∂x = a, so a = 1. Integrating M dx + N dy = (y + x³)dx + (x + y³)dy = 0 yields xy + x⁴/4 + y⁴/4 = C."
     },
     {
-      "q_id": 20247,
-      "q_number": 7,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The general solution of the homogeneous Cauchy-Euler differential equation x² y'' − 3x y' + 4y = 0 for x > 0 is:",
-      "question_hi": "[Differential Equations (Cauchy-Euler Equation) • IIT JAM Mathematics (MA) • Feb 2024]\nThe general solution of the homogeneous Cauchy-Euler differential equation x² y'' − 3x y' + 4y = 0 for x > 0 is:",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q012",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Cauchy-Euler Equation)",
+      "difficulty": "Medium",
+      "questionTextEn": "The general solution of the homogeneous Cauchy-Euler differential equation x² y'' − 3x y' + 4y = 0 for x > 0 is:",
+      "questionTextHi": "[Differential Equations (Cauchy-Euler Equation) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe general solution of the homogeneous Cauchy-Euler अवकल समीकरण (differential equation) x² y'' − 3x y' + 4y = 0 के लिए x > 0 is:",
+      "optionsEn": [
         "y(x) = (c1 + c2 ln x) x²",
         "y(x) = c1 x² + c2 x⁻²",
         "y(x) = (c1 + c2 x) e^(2x)",
         "y(x) = c1 x + c2 x⁴"
       ],
-      "options_hi": [
-        "y(x) = (c1 + c2 ln x) x²",
-        "y(x) = c1 x² + c2 x⁻²",
-        "y(x) = (c1 + c2 x) e^(2x)",
-        "y(x) = c1 x + c2 x⁴"
+      "optionsHi": [
+        "विकल्प: y(x) = (c1 + c2 ln x) x²",
+        "विकल्प: y(x) = c1 x² + c2 x⁻²",
+        "विकल्प: y(x) = (c1 + c2 x) e^(2x)",
+        "विकल्प: y(x) = c1 x + c2 x⁴"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
       ],
-      "explanation_en": "Substituting y = x^m gives the indicial equation m(m − 1) − 3m + 4 = m² − 4m + 4 = (m − 2)² = 0, which has a repeated root m = 2. Hence y(x) = (c1 + c2 ln x) x².",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nSubstituting y = x^m gives the indicial equation m(m − 1) − 3m + 4 = m² − 4m + 4 = (m − 2)² = 0, which has a repeated root m = 2. Hence y(x) = (c1 + c2 ln x) x².",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Substituting y = x^m gives the indicial equation m(m − 1) − 3m + 4 = m² − 4m + 4 = (m − 2)² = 0, which has a repeated root m = 2. Hence y(x) = (c1 + c2 ln x) x².",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nSubstituting y = x^m gives the indicial equation m(m − 1) − 3m + 4 = m² − 4m + 4 = (m − 2)² = 0, which has a repeated root m = 2. Hence y(x) = (c1 + c2 ln x) x²."
     },
     {
-      "q_id": 20248,
-      "q_number": 8,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let A be a 3 × 3 real matrix with characteristic polynomial p(λ) = det(λI − A) = λ³ − 6λ² + 11λ − 6. Then the trace of A⁻¹ is:",
-      "question_hi": "[Linear Algebra (Cayley-Hamilton & Matrix Inverse) • IIT JAM Mathematics (MA) • Feb 2024]\nLet A be a 3 × 3 real matrix with characteristic polynomial p(λ) = det(λI − A) = λ³ − 6λ² + 11λ − 6. Then the trace of A⁻¹ is:",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q013",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Cayley-Hamilton & Matrix Inverse)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let A be a 3 × 3 real matrix with characteristic polynomial p(λ) = det(λI − A) = λ³ − 6λ² + 11λ − 6. Then the trace of A⁻¹ is:",
+      "questionTextHi": "[Linear Algebra (Cayley-Hamilton & Matrix Inverse) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि A be a 3 × 3 real आव्यूह (matrix) with characteristic बहुपद (polynomial) p(λ) = det(λI − A) = λ³ − 6λ² + 11λ − 6. Then the trace of A⁻¹ is:",
+      "optionsEn": [
         "11/6",
         "6",
         "1/6",
         "3"
       ],
-      "options_hi": [
-        "11/6",
-        "6",
-        "1/6",
+      "optionsHi": [
+        "विकल्प: 11/6",
+        "विकल्प: 6",
+        "विकल्प: 1/6",
+        "विकल्प: 3"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "The roots of λ³ − 6λ² + 11λ − 6 = (λ − 1)(λ − 2)(λ − 3) = 0 are the eigenvalues of A: λ = 1, 2, 3. Therefore the eigenvalues of A⁻¹ are 1, 1/2, 1/3, and Trace(A⁻¹) = 1 + 1/2 + 1/3 = 11/6.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nThe roots of λ³ − 6λ² + 11λ − 6 = (λ − 1)(λ − 2)(λ − 3) = 0 are the eigenvalues of A: λ = 1, 2, 3. Therefore the eigenvalues of A⁻¹ are 1, 1/2, 1/3, and Trace(A⁻¹) = 1 + 1/2 + 1/3 = 11/6."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q014",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Rank-Nullity Theorem)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let T : P_4(R) → P_4(R) be the linear operator on the vector space of real polynomials of degree at most 4 defined by T(p(x)) = p''(x) (second derivative). The rank and nullity of T are, respectively:",
+      "questionTextHi": "[Linear Algebra (Rank-Nullity Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि T : P_4(R) → P_4(R) be the linear operator on the vector space of real बहुपद (polynomial)s of degree at most 4 defined by T(p(x)) = p''(x) (second derivative). The rank and nullity of T are, क्रमशः:",
+      "optionsEn": [
+        "Rank = 3, Nullity = 2",
+        "Rank = 2, Nullity = 3",
+        "Rank = 4, Nullity = 1",
+        "Rank = 3, Nullity = 1"
+      ],
+      "optionsHi": [
+        "विकल्प: Rank = 3, Nullity = 2",
+        "विकल्प: Rank = 2, Nullity = 3",
+        "विकल्प: Rank = 4, Nullity = 1",
+        "विकल्प: Rank = 3, Nullity = 1"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "dim(P_4(R)) = 5 (basis {1, x, x², x³, x⁴}). The kernel of d²/dx² consists of linear polynomials a + bx, so Nullity = 2. By Rank-Nullity, Rank = 5 − 2 = 3.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\ndim(P_4(R)) = 5 (basis {1, x, x², x³, x⁴}). The kernel of d²/dx² consists of linear polynomials a + bx, so Nullity = 2. By Rank-Nullity, Rank = 5 − 2 = 3."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q015",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Finite Group Theory (Order of Elements in S_n)",
+      "difficulty": "Medium",
+      "questionTextEn": "The maximum possible order of an element (permutation) in the symmetric group S_8 is:",
+      "questionTextHi": "[Finite Group Theory (Order of Elements in S_n) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nअधिकतम संभावित order of an element (permutation) में the symmetric समूह (group) S_8 is:",
+      "optionsEn": [
+        "15",
+        "8",
+        "12",
+        "20"
+      ],
+      "optionsHi": [
+        "विकल्प: 15",
+        "विकल्प: 8",
+        "विकल्प: 12",
+        "विकल्प: 20"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "The order of a permutation in S_8 is the LCM of its disjoint cycle lengths, which partition 8. Since 8 = 3 + 5 with gcd(3, 5) = 1, LCM(3, 5) = 15 is the maximum possible order (Landau's function g(8) = 15).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nThe order of a permutation in S_8 is the LCM of its disjoint cycle lengths, which partition 8. Since 8 = 3 + 5 with gcd(3, 5) = 1, LCM(3, 5) = 15 is the maximum possible order (Landau's function g(8) = 15)."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q016",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Center of Dihedral Group)",
+      "difficulty": "Easy",
+      "questionTextEn": "Let D_8 be the dihedral group of symmetries of a regular octagon (of order 16). The order of the center Z(D_8) is:",
+      "questionTextHi": "[Group Theory (Center of Dihedral Group) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि D_8 be the dihedral समूह (group) of symmetries of a regular octagon (of order 16). The order of the center Z(D_8) is:",
+      "optionsEn": [
+        "2",
+        "1",
+        "4",
+        "8"
+      ],
+      "optionsHi": [
+        "विकल्प: 2",
+        "विकल्प: 1",
+        "विकल्प: 4",
+        "विकल्प: 8"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "For any dihedral group D_n of symmetries of a regular n-gon (order 2n), when n is even, the center Z(D_n) = {e, r^(n/2)} has order 2 (the identity and the 180° rotation).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nFor any dihedral group D_n of symmetries of a regular n-gon (order 2n), when n is even, the center Z(D_n) = {e, r^(n/2)} has order 2 (the identity and the 180° rotation)."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q017",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Power Series Radius of Convergence",
+      "difficulty": "Easy",
+      "questionTextEn": "The radius of convergence R of the power series Σ_{n=1}^∞ (n! / n^n) x^n is:",
+      "questionTextHi": "[Power Series Radius of Convergence • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe radius of convergence R of the power श्रेणी (series) Σ_{n=1}^∞ (n! / n^n) x^n is:",
+      "optionsEn": [
+        "e",
+        "1/e",
+        "1",
+        "∞"
+      ],
+      "optionsHi": [
+        "विकल्प: e",
+        "विकल्प: 1/e",
+        "विकल्प: 1",
+        "विकल्प: ∞"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By the Ratio Test, R = lim_{n→∞} |a_n / a_{n+1}| = lim_{n→∞} [(n! / n^n) / ((n+1)! / (n+1)^(n+1))] = lim_{n→∞} (1 + 1/n)^n = e.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy the Ratio Test, R = lim_{n→∞} |a_n / a_{n+1}| = lim_{n→∞} [(n! / n^n) / ((n+1)! / (n+1)^(n+1))] = lim_{n→∞} (1 + 1/n)^n = e."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q018",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Double Integrals (Change of Order of Integration)",
+      "difficulty": "Medium",
+      "questionTextEn": "The value of the iterated integral ∫_0^1 [∫_y^1 e^(x²) dx] dy is:",
+      "questionTextHi": "[Double Integrals (Change of Order of Integration) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nका मान the iterated integral ∫_0^1 [∫_y^1 e^(x²) dx] dy is:",
+      "optionsEn": [
+        "(e − 1) / 2",
+        "e − 1",
+        "e / 2",
+        "1 / 2"
+      ],
+      "optionsHi": [
+        "विकल्प: (e − 1) / 2",
+        "विकल्प: e − 1",
+        "विकल्प: e / 2",
+        "विकल्प: 1 / 2"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Reversing the order of integration over 0 ≤ y ≤ x ≤ 1 gives ∫_0^1 [∫_0^x dy] e^(x²) dx = ∫_0^1 x e^(x²) dx = [(1/2) e^(x²)]_0^1 = (e − 1)/2.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nReversing the order of integration over 0 ≤ y ≤ x ≤ 1 gives ∫_0^1 [∫_0^x dy] e^(x²) dx = ∫_0^1 x e^(x²) dx = [(1/2) e^(x²)]_0^1 = (e − 1)/2."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q019",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Minimal Polynomial)",
+      "difficulty": "Medium",
+      "questionTextEn": "If a square matrix A ≠ I satisfies A³ = I over C, which of the following can be its minimal polynomial m_A(x) if A is a real matrix with no real eigenvalues?",
+      "questionTextHi": "[Linear Algebra (Minimal Polynomial) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि a square आव्यूह (matrix) A ≠ I satisfies A³ = I over C, निम्नलिखित में से कौन-सा can be its minimal बहुपद (polynomial) m_A(x) यदि A is a real आव्यूह (matrix) with no real आइगेनमान (आइगेनमान (eigenvalue)s)?",
+      "optionsEn": [
+        "x² + x + 1",
+        "x − 1",
+        "x³ − 1",
+        "(x − 1)²"
+      ],
+      "optionsHi": [
+        "विकल्प: x² + x + 1",
+        "विकल्प: x − 1",
+        "विकल्प: x³ − 1",
+        "विकल्प: (x − 1)²"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Since A³ − I = (A − I)(A² + A + I) = 0 and A has no real eigenvalues, (x − 1) cannot divide the minimal polynomial of A. Thus m_A(x) = x² + x + 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nSince A³ − I = (A − I)(A² + A + I) = 0 and A has no real eigenvalues, (x − 1) cannot divide the minimal polynomial of A. Thus m_A(x) = x² + x + 1."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q020",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Subgroups of Cyclic Groups)",
+      "difficulty": "Easy",
+      "questionTextEn": "In the cyclic group Z_60 under addition modulo 60, the number of generators of the unique subgroup of order 15 is:",
+      "questionTextHi": "[Group Theory (Subgroups of Cyclic Groups) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमें the चक्रीय (cyclic) समूह (group) Z_60 under addition modulo 60, की संख्या generators of the unique subसमूह (group) of order 15 is:",
+      "optionsEn": [
+        "8",
+        "15",
+        "4",
+        "12"
+      ],
+      "optionsHi": [
+        "विकल्प: 8",
+        "विकल्प: 15",
+        "विकल्प: 4",
+        "विकल्प: 12"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Every subgroup of a cyclic group is cyclic, so the unique subgroup H of order 15 is isomorphic to Z_15. The number of generators of a cyclic group of order 15 is Euler's totient φ(15) = φ(3)φ(5) = 2 × 4 = 8.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nEvery subgroup of a cyclic group is cyclic, so the unique subgroup H of order 15 is isomorphic to Z_15. The number of generators of a cyclic group of order 15 is Euler's totient φ(15) = φ(3)φ(5) = 2 × 4 = 8."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q021",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Mean Value Theorem)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let f : [0, 4] → R be differentiable on (0, 4) and continuous on [0, 4] with f(0) = −1 and f'(x) ≤ 3 for all x ∈ (0, 4). Then the maximum possible value of f(4) is:",
+      "questionTextHi": "[Real Analysis (Mean Value Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि f : [0, 4] → R be अवकलनीय (differentiable) on (0, 4) and continuous on [0, 4] with f(0) = −1 and f'(x) ≤ 3 के लिए all x ∈ (0, 4). Then अधिकतम संभावित value of f(4) is:",
+      "optionsEn": [
+        "11",
+        "12",
+        "13",
+        "8"
+      ],
+      "optionsHi": [
+        "विकल्प: 11",
+        "विकल्प: 12",
+        "विकल्प: 13",
+        "विकल्प: 8"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By Lagrange's Mean Value Theorem, f(4) − f(0) = 4 f'(c) ≤ 4 × 3 = 12 => f(4) ≤ −1 + 12 = 11.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy Lagrange's Mean Value Theorem, f(4) − f(0) = 4 f'(c) ≤ 4 × 3 = 12 => f(4) ≤ −1 + 12 = 11."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q022",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Taylor Series)",
+      "difficulty": "Medium",
+      "questionTextEn": "In the Maclaurin series expansion of f(x) = e^x cos(x) = Σ_{n=0}^∞ a_n x^n around x = 0, the coefficient a_3 of x³ is:",
+      "questionTextHi": "[Real Analysis (Taylor Series) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमें the Maclaurमें श्रेणी (series) expansion of f(x) = e^x cos(x) = Σ_{n=0}^∞ a_n x^n around x = 0, the coefficient a_3 of x³ is:",
+      "optionsEn": [
+        "−1/3",
+        "1/3",
+        "0",
+        "−1/6"
+      ],
+      "optionsHi": [
+        "विकल्प: −1/3",
+        "विकल्प: 1/3",
+        "विकल्प: 0",
+        "विकल्प: −1/6"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Im/Re of e^((1+i)x): (1+i)³ = 1 + 3i − 3 − i = −2 + 2i, so Re[(1+i)³] / 3! = −2 / 6 = −1/3.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nIm/Re of e^((1+i)x): (1+i)³ = 1 + 3i − 3 − i = −2 + 2i, so Re[(1+i)³] / 3! = −2 / 6 = −1/3."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q023",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Multivariable Calculus (Jacobian Transformation)",
+      "difficulty": "Medium",
+      "questionTextEn": "Under the polar coordinate transformation x = r cos θ, y = r sin θ, the area element dx dy in the xy-plane transforms to:",
+      "questionTextHi": "[Multivariable Calculus (Jacobian Transformation) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nUnder the polar coordinate transformation x = r cos θ, y = r sमें θ, the area element dx dy में the xy-plane transforms to:",
+      "optionsEn": [
+        "r dr dθ",
+        "r² dr dθ",
+        "dr dθ",
+        "(1/r) dr dθ"
+      ],
+      "optionsHi": [
+        "विकल्प: r dr dθ",
+        "विकल्प: r² dr dθ",
+        "विकल्प: dr dθ",
+        "विकल्प: (1/r) dr dθ"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "The Jacobian determinant is ∂(x,y)/∂(r,θ) = r(cos²θ + sin²θ) = r, so dx dy = r dr dθ.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nThe Jacobian determinant is ∂(x,y)/∂(r,θ) = r(cos²θ + sin²θ) = r, so dx dy = r dr dθ."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q024",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Dimension of Intersection of Subspaces)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let U and W be two 3-dimensional subspaces of the 5-dimensional vector space R⁵ such that U + W = R⁵. Then the dimension of their intersection U ∩ W is:",
+      "questionTextHi": "[Linear Algebra (Dimension of Intersection of Subspaces) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि U and W be two 3-dimensional subspaces of the 5-dimensional vector space R⁵ such that U + W = R⁵. Then the dimension of their intersection U ∩ W is:",
+      "optionsEn": [
+        "1",
+        "2",
+        "0",
         "3"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "optionsHi": [
+        "विकल्प: 1",
+        "विकल्प: 2",
+        "विकल्प: 0",
+        "विकल्प: 3"
       ],
-      "explanation_en": "The roots of λ³ − 6λ² + 11λ − 6 = (λ − 1)(λ − 2)(λ − 3) = 0 are the eigenvalues of A: λ = 1, 2, 3. Therefore the eigenvalues of A⁻¹ are 1, 1/2, 1/3, and Trace(A⁻¹) = 1 + 1/2 + 1/3 = 11/6.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nThe roots of λ³ − 6λ² + 11λ − 6 = (λ − 1)(λ − 2)(λ − 3) = 0 are the eigenvalues of A: λ = 1, 2, 3. Therefore the eigenvalues of A⁻¹ are 1, 1/2, 1/3, and Trace(A⁻¹) = 1 + 1/2 + 1/3 = 11/6.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "dim(U ∩ W) = dim(U) + dim(W) − dim(U + W) = 3 + 3 − 5 = 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\ndim(U ∩ W) = dim(U) + dim(W) − dim(U + W) = 3 + 3 − 5 = 1."
     },
     {
-      "q_id": 20249,
-      "q_number": 9,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let T : P_4(R) → P_4(R) be the linear operator on the vector space of real polynomials of degree at most 4 defined by T(p(x)) = p''(x) (second derivative). The rank and nullity of T are, respectively:",
-      "question_hi": "[Linear Algebra (Rank-Nullity Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nLet T : P_4(R) → P_4(R) be the linear operator on the vector space of real polynomials of degree at most 4 defined by T(p(x)) = p''(x) (second derivative). The rank and nullity of T are, respectively:",
-      "options_en": [
-        "Rank = 3, Nullity = 2",
-        "Rank = 2, Nullity = 3",
-        "Rank = 4, Nullity = 1",
-        "Rank = 3, Nullity = 1"
+      "questionId": "jam_ma_pyq_2024_q025",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Skew-Symmetric Matrices)",
+      "difficulty": "Medium",
+      "questionTextEn": "If A is a 5 × 5 real skew-symmetric matrix (A^T = −A), then the determinant det(A) is necessarily equal to:",
+      "questionTextHi": "[Linear Algebra (Skew-Symmetric Matrices) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि A is a 5 × 5 real skew-symmetric आव्यूह (matrix) (A^T = −A), then the determinant det(A) is necessarily equal to:",
+      "optionsEn": [
+        "0",
+        "1",
+        "−1",
+        "5"
       ],
-      "options_hi": [
-        "Rank = 3, Nullity = 2",
-        "Rank = 2, Nullity = 3",
-        "Rank = 4, Nullity = 1",
-        "Rank = 3, Nullity = 1"
+      "optionsHi": [
+        "विकल्प: 0",
+        "विकल्प: 1",
+        "विकल्प: −1",
+        "विकल्प: 5"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
       ],
-      "explanation_en": "dim(P_4(R)) = 5 (basis {1, x, x², x³, x⁴}). The kernel of d²/dx² consists of linear polynomials a + bx, so Nullity = 2. By Rank-Nullity, Rank = 5 − 2 = 3.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\ndim(P_4(R)) = 5 (basis {1, x, x², x³, x⁴}). The kernel of d²/dx² consists of linear polynomials a + bx, so Nullity = 2. By Rank-Nullity, Rank = 5 − 2 = 3.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "For any odd dimension n, det(A) = det(A^T) = det(−A) = (−1)^n det(A) = −det(A) => det(A) = 0.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nFor any odd dimension n, det(A) = det(A^T) = det(−A) = (−1)^n det(A) = −det(A) => det(A) = 0."
     },
     {
-      "q_id": 202410,
-      "q_number": 10,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The maximum possible order of an element (permutation) in the symmetric group S_8 is:",
-      "question_hi": "[Finite Group Theory (Order of Elements in S_n) • IIT JAM Mathematics (MA) • Feb 2024]\nThe maximum possible order of an element (permutation) in the symmetric group S_8 is:",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q026",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Sylow's Theorems)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let G be a finite group of order 35 = 5 × 7. The number of subgroups of order 7 in G is:",
+      "questionTextHi": "[Group Theory (Sylow's Theorems) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि G be a finite समूह (group) of order 35 = 5 × 7. की संख्या subसमूह (group)s of order 7 में G is:",
+      "optionsEn": [
+        "1 (a unique normal Sylow 7-subgroup)",
+        "5",
+        "7",
+        "0"
+      ],
+      "optionsHi": [
+        "1 (a unique normal Sylow 7-subसमूह (group))",
+        "विकल्प: 5",
+        "विकल्प: 7",
+        "विकल्प: 0"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By Sylow's Third Theorem, n_7 ≡ 1 (mod 7) and n_7 | 5, which forces n_7 = 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy Sylow's Third Theorem, n_7 ≡ 1 (mod 7) and n_7 | 5, which forces n_7 = 1."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q027",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Homomorphisms Between Cyclic Groups)",
+      "difficulty": "Medium",
+      "questionTextEn": "The number of group homomorphisms from Z_20 into Z_15 is:",
+      "questionTextHi": "[Group Theory (Homomorphisms Between Cyclic Groups) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nकी संख्या समूह (group) समाकारिता (homomorphism)s from Z_20 into Z_15 is:",
+      "optionsEn": [
+        "5",
+        "1",
         "15",
-        "8",
-        "12",
         "20"
       ],
-      "options_hi": [
-        "15",
-        "8",
+      "optionsHi": [
+        "विकल्प: 5",
+        "विकल्प: 1",
+        "विकल्प: 15",
+        "विकल्प: 20"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "The number of homomorphisms from Z_m to Z_n is gcd(m, n) = gcd(20, 15) = 5.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nThe number of homomorphisms from Z_m to Z_n is gcd(m, n) = gcd(20, 15) = 5."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q028",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Ordinary Differential Equations (Wronskian & Abel's Formula)",
+      "difficulty": "Medium",
+      "questionTextEn": "If y1(x) and y2(x) are two solutions of y'' − (2/x) y' + y = 0 on (0, ∞) whose Wronskian W(x) satisfies W(1) = 3, then W(2) is equal to:",
+      "questionTextHi": "[Ordinary Differential Equations (Wronskian & Abel's Formula) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि y1(x) and y2(x) are two solutions of y'' − (2/x) y' + y = 0 on (0, ∞) whose Wronskian W(x) satisfies W(1) = 3, then W(2) के बराबर है:",
+      "optionsEn": [
         "12",
-        "20"
+        "6",
+        "3",
+        "24"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "optionsHi": [
+        "विकल्प: 12",
+        "विकल्प: 6",
+        "विकल्प: 3",
+        "विकल्प: 24"
       ],
-      "explanation_en": "The order of a permutation in S_8 is the LCM of its disjoint cycle lengths, which partition 8. Since 8 = 3 + 5 with gcd(3, 5) = 1, LCM(3, 5) = 15 is the maximum possible order (Landau's function g(8) = 15).",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nThe order of a permutation in S_8 is the LCM of its disjoint cycle lengths, which partition 8. Since 8 = 3 + 5 with gcd(3, 5) = 1, LCM(3, 5) = 15 is the maximum possible order (Landau's function g(8) = 15).",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "By Abel's formula, W(x) = W(1) exp(−∫_1^x (−2/t) dt) = 3 x². At x = 2, W(2) = 3(4) = 12.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nBy Abel's formula, W(x) = W(1) exp(−∫_1^x (−2/t) dt) = 3 x². At x = 2, W(2) = 3(4) = 12."
     },
     {
-      "q_id": 202411,
-      "q_number": 11,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let D_8 be the dihedral group of symmetries of a regular octagon (of order 16). The order of the center Z(D_8) is:",
-      "question_hi": "[Group Theory (Center of Dihedral Group) • IIT JAM Mathematics (MA) • Feb 2024]\nLet D_8 be the dihedral group of symmetries of a regular octagon (of order 16). The order of the center Z(D_8) is:",
-      "options_en": [
-        "2",
+      "questionId": "jam_ma_pyq_2024_q029",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Vector Calculus (Divergence Theorem)",
+      "difficulty": "Medium",
+      "questionTextEn": "Using Gauss's Divergence Theorem, the outward flux ∬_S (2x î + 3y ĵ + 4z k̂) · n̂ dS across the closed surface S of a cube of side 2 (volume V = 8) is:",
+      "questionTextHi": "[Vector Calculus (Divergence Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nUsing Gauss's Divergence Theorem, the outward flux ∬_S (2x î + 3y ĵ + 4z k̂) · n̂ dS across the closed surface S of a cube of side 2 (आयतन (volume) V = 8) is:",
+      "optionsEn": [
+        "72",
+        "36",
+        "9",
+        "24"
+      ],
+      "optionsHi": [
+        "विकल्प: 72",
+        "विकल्प: 36",
+        "विकल्प: 9",
+        "विकल्प: 24"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "∇ · F⃗ = 2 + 3 + 4 = 9. By Divergence Theorem, Flux = ∭_V 9 dV = 9 × Volume = 9 × 8 = 72.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\n∇ · F⃗ = 2 + 3 + 4 = 9. By Divergence Theorem, Flux = ∭_V 9 dV = 9 × Volume = 9 × 8 = 72."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q030",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitleEn": "Section A: Multiple Choice Questions (MCQ)",
+      "sectionTitleHi": "खंड A: बहुविकल्पीय प्रश्न (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Improper Integrals — Beta/Gamma)",
+      "difficulty": "Medium",
+      "questionTextEn": "The value of the improper Gaussian integral ∫_0^∞ x e^(−x²) dx is:",
+      "questionTextHi": "[Real Analysis (Improper Integrals — Beta/Gamma) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nका मान the improper Gaussian integral ∫_0^∞ x e^(−x²) dx is:",
+      "optionsEn": [
+        "1/2",
+        "√π / 2",
         "1",
-        "4",
-        "8"
+        "√π"
       ],
-      "options_hi": [
-        "2",
-        "1",
-        "4",
-        "8"
+      "optionsHi": [
+        "विकल्प: 1/2",
+        "विकल्प: √π / 2",
+        "विकल्प: 1",
+        "विकल्प: √π"
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
       ],
-      "explanation_en": "For any dihedral group D_n of symmetries of a regular n-gon (order 2n), when n is even, the center Z(D_n) = {e, r^(n/2)} has order 2 (the identity and the 180° rotation).",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nFor any dihedral group D_n of symmetries of a regular n-gon (order 2n), when n is even, the center Z(D_n) = {e, r^(n/2)} has order 2 (the identity and the 180° rotation).",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Substituting u = x² (du = 2x dx) gives (1/2) ∫_0^∞ e^(−u) du = 1/2.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A) है।\nविस्तृत चरणबद्ध समाधान:\nSubstituting u = x² (du = 2x dx) gives (1/2) ∫_0^∞ e^(−u) du = 1/2."
     },
     {
-      "q_id": 202412,
-      "q_number": 12,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The radius of convergence R of the power series Σ_{n=1}^∞ (n! / n^n) x^n is:",
-      "question_hi": "[Power Series Radius of Convergence • IIT JAM Mathematics (MA) • Feb 2024]\nThe radius of convergence R of the power series Σ_{n=1}^∞ (n! / n^n) x^n is:",
-      "options_en": [
-        "e",
-        "1/e",
-        "1",
-        "∞"
-      ],
-      "options_hi": [
-        "e",
-        "1/e",
-        "1",
-        "∞"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "By the Ratio Test, R = lim_{n→∞} |a_n / a_{n+1}| = lim_{n→∞} [(n! / n^n) / ((n+1)! / (n+1)^(n+1))] = lim_{n→∞} (1 + 1/n)^n = e.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nBy the Ratio Test, R = lim_{n→∞} |a_n / a_{n+1}| = lim_{n→∞} [(n! / n^n) / ((n+1)! / (n+1)^(n+1))] = lim_{n→∞} (1 + 1/n)^n = e.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
-    },
-    {
-      "q_id": 202413,
-      "q_number": 13,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The value of the iterated integral ∫_0^1 [∫_y^1 e^(x²) dx] dy is:",
-      "question_hi": "[Double Integrals (Change of Order of Integration) • IIT JAM Mathematics (MA) • Feb 2024]\nThe value of the iterated integral ∫_0^1 [∫_y^1 e^(x²) dx] dy is:",
-      "options_en": [
-        "(e − 1) / 2",
-        "e − 1",
-        "e / 2",
-        "1 / 2"
-      ],
-      "options_hi": [
-        "(e − 1) / 2",
-        "e − 1",
-        "e / 2",
-        "1 / 2"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "Reversing the order of integration over 0 ≤ y ≤ x ≤ 1 gives ∫_0^1 [∫_0^x dy] e^(x²) dx = ∫_0^1 x e^(x²) dx = [(1/2) e^(x²)]_0^1 = (e − 1)/2.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nReversing the order of integration over 0 ≤ y ≤ x ≤ 1 gives ∫_0^1 [∫_0^x dy] e^(x²) dx = ∫_0^1 x e^(x²) dx = [(1/2) e^(x²)]_0^1 = (e − 1)/2.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
-    },
-    {
-      "q_id": 202414,
-      "q_number": 14,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "If a square matrix A ≠ I satisfies A³ = I over C, which of the following can be its minimal polynomial m_A(x) if A is a real matrix with no real eigenvalues?",
-      "question_hi": "[Linear Algebra (Minimal Polynomial) • IIT JAM Mathematics (MA) • Feb 2024]\nIf a square matrix A ≠ I satisfies A³ = I over C, which of the following can be its minimal polynomial m_A(x) if A is a real matrix with no real eigenvalues?",
-      "options_en": [
-        "x² + x + 1",
-        "x − 1",
-        "x³ − 1",
-        "(x − 1)²"
-      ],
-      "options_hi": [
-        "x² + x + 1",
-        "x − 1",
-        "x³ − 1",
-        "(x − 1)²"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "Since A³ − I = (A − I)(A² + A + I) = 0 and A has no real eigenvalues, (x − 1) cannot divide the minimal polynomial of A. Thus m_A(x) = x² + x + 1.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nSince A³ − I = (A − I)(A² + A + I) = 0 and A has no real eigenvalues, (x − 1) cannot divide the minimal polynomial of A. Thus m_A(x) = x² + x + 1.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
-    },
-    {
-      "q_id": 202415,
-      "q_number": 15,
-      "section": "Section A: Multiple Choice Questions (MCQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "In the cyclic group Z_60 under addition modulo 60, the number of generators of the unique subgroup of order 15 is:",
-      "question_hi": "[Group Theory (Subgroups of Cyclic Groups) • IIT JAM Mathematics (MA) • Feb 2024]\nIn the cyclic group Z_60 under addition modulo 60, the number of generators of the unique subgroup of order 15 is:",
-      "options_en": [
-        "8",
-        "15",
-        "4",
-        "12"
-      ],
-      "options_hi": [
-        "8",
-        "15",
-        "4",
-        "12"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "Every subgroup of a cyclic group is cyclic, so the unique subgroup H of order 15 is isomorphic to Z_15. The number of generators of a cyclic group of order 15 is Euler's totient φ(15) = φ(3)φ(5) = 2 × 4 = 8.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nEvery subgroup of a cyclic group is cyclic, so the unique subgroup H of order 15 is isomorphic to Z_15. The number of generators of a cyclic group of order 15 is Euler's totient φ(15) = φ(3)φ(5) = 2 × 4 = 8.",
-      "question_type": "MCQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.66
-    },
-    {
-      "q_id": 202416,
-      "q_number": 16,
-      "section": "Section B: Multiple Select Questions (MSQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let f : [0, 1] → R be a continuous function. Which of the following statement(s) is/are ALWAYS true?",
-      "question_hi": "[Real Analysis (Connected & Compact Sets) • IIT JAM Mathematics (MA) • Feb 2024]\nLet f : [0, 1] → R be a continuous function. Which of the following statement(s) is/are ALWAYS true?",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q031",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Connected & Compact Sets)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let f : [0, 1] → R be a continuous function. Which of the following statement(s) is/are ALWAYS true?",
+      "questionTextHi": "[Real Analysis (Connected & Compact Sets) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि f : [0, 1] → R be a संतत फलन (continuous function). निम्नलिखित में से कौन-सा/से कथन is/are ALWAYS true?",
+      "optionsEn": [
         "The image f([0, 1]) is a closed and bounded interval [a, b].",
         "f is Riemann integrable on [0, 1].",
         "f is uniformly continuous on [0, 1].",
         "f is differentiable at least at one point in (0, 1)."
       ],
-      "options_hi": [
-        "The image f([0, 1]) is a closed and bounded interval [a, b].",
-        "f is Riemann integrable on [0, 1].",
-        "f is uniformly continuous on [0, 1].",
-        "f is differentiable at least at one point in (0, 1)."
+      "optionsHi": [
+        "विकल्प: The image f([0, 1]) is a closed and bounded interval [a, b].",
+        "विकल्प: f is Riemann integrable on [0, 1].",
+        "f is एकसमान संतत (uniformly continuous) on [0, 1].",
+        "f is अवकलनीय (differentiable) at least at one point में (0, 1)."
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
       ],
-      "explanation_en": "Since [0, 1] is compact and connected, its continuous image f([0, 1]) is compact and connected, hence a closed bounded interval [a, b]. By Heine-Cantor, f is uniformly continuous on [0, 1], and every continuous function on [a, b] is Riemann integrable. (Weierstrass's nowhere-differentiable function disproves D).",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nSince [0, 1] is compact and connected, its continuous image f([0, 1]) is compact and connected, hence a closed bounded interval [a, b]. By Heine-Cantor, f is uniformly continuous on [0, 1], and every continuous function on [a, b] is Riemann integrable. (Weierstrass's nowhere-differentiable function disproves D).",
-      "question_type": "MSQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Since [0, 1] is compact and connected, its continuous image f([0, 1]) is compact and connected, hence a closed bounded interval [a, b]. By Heine-Cantor, f is uniformly continuous on [0, 1], and every continuous function on [a, b] is Riemann integrable. (Weierstrass's nowhere-differentiable function disproves D).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nSince [0, 1] is compact and connected, its continuous image f([0, 1]) is compact and connected, hence a closed bounded interval [a, b]. By Heine-Cantor, f is uniformly continuous on [0, 1], and every continuous function on [a, b] is Riemann integrable. (Weierstrass's nowhere-differentiable function disproves D)."
     },
     {
-      "q_id": 202417,
-      "q_number": 17,
-      "section": "Section B: Multiple Select Questions (MSQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let A be an n × n real symmetric positive-definite matrix. Which of the following statement(s) is/are TRUE?",
-      "question_hi": "[Linear Algebra (Positive Definite Matrices) • IIT JAM Mathematics (MA) • Feb 2024]\nLet A be an n × n real symmetric positive-definite matrix. Which of the following statement(s) is/are TRUE?",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q032",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Positive Definite Matrices)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let A be an n × n real symmetric positive-definite matrix. Which of the following statement(s) is/are TRUE?",
+      "questionTextHi": "[Linear Algebra (Positive Definite Matrices) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि A be an n × n real symmetric positive-definite आव्यूह (matrix). निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?",
+      "optionsEn": [
         "All eigenvalues of A are strictly positive.",
         "det(A) > 0 and Trace(A) > 0.",
         "A² and A⁻¹ are also symmetric positive-definite matrices.",
         "The leading principal minors of A alternate in sign."
       ],
-      "options_hi": [
-        "All eigenvalues of A are strictly positive.",
-        "det(A) > 0 and Trace(A) > 0.",
-        "A² and A⁻¹ are also symmetric positive-definite matrices.",
-        "The leading principal minors of A alternate in sign."
+      "optionsHi": [
+        "All आइगेनमान (आइगेनमान (eigenvalue)s) of A are strictly positive.",
+        "विकल्प: det(A) > 0 and Trace(A) > 0.",
+        "A² and A⁻¹ are also symmetric positive-definite आव्यूहों (matrices).",
+        "The leading principal minors of A alternate में sign."
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
       ],
-      "explanation_en": "A real symmetric matrix is positive definite iff all its eigenvalues λ_i > 0, which implies det(A) = Π λ_i > 0, Trace(A) = Σ λ_i > 0, and A², A⁻¹ have positive eigenvalues λ_i² and 1/λ_i. By Sylvester's criterion, all leading principal minors are strictly positive (they alternate in sign for negative definite matrices).",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nA real symmetric matrix is positive definite iff all its eigenvalues λ_i > 0, which implies det(A) = Π λ_i > 0, Trace(A) = Σ λ_i > 0, and A², A⁻¹ have positive eigenvalues λ_i² and 1/λ_i. By Sylvester's criterion, all leading principal minors are strictly positive (they alternate in sign for negative definite matrices).",
-      "question_type": "MSQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "A real symmetric matrix is positive definite iff all its eigenvalues λ_i > 0, which implies det(A) = Π λ_i > 0, Trace(A) = Σ λ_i > 0, and A², A⁻¹ have positive eigenvalues λ_i² and 1/λ_i. By Sylvester's criterion, all leading principal minors are strictly positive (they alternate in sign for negative definite matrices).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nA real symmetric matrix is positive definite iff all its eigenvalues λ_i > 0, which implies det(A) = Π λ_i > 0, Trace(A) = Σ λ_i > 0, and A², A⁻¹ have positive eigenvalues λ_i² and 1/λ_i. By Sylvester's criterion, all leading principal minors are strictly positive (they alternate in sign for negative definite matrices)."
     },
     {
-      "q_id": 202418,
-      "q_number": 18,
-      "section": "Section B: Multiple Select Questions (MSQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let G be a finite group. Which of the following statement(s) is/are ALWAYS true?",
-      "question_hi": "[Finite Group Theory (Abelian & Cyclic Groups) • IIT JAM Mathematics (MA) • Feb 2024]\nLet G be a finite group. Which of the following statement(s) is/are ALWAYS true?",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q033",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Finite Group Theory (Abelian & Cyclic Groups)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let G be a finite group. Which of the following statement(s) is/are ALWAYS true?",
+      "questionTextHi": "[Finite Group Theory (Abelian & Cyclic Groups) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि G be a finite समूह (group). निम्नलिखित में से कौन-सा/से कथन is/are ALWAYS true?",
+      "optionsEn": [
         "If |G| = p² for a prime p, then G is abelian.",
         "If the quotient group G / Z(G) is cyclic, then G is abelian.",
         "If |G| = 15, then G is cyclic.",
         "Every group of even order is non-abelian."
       ],
-      "options_hi": [
-        "If |G| = p² for a prime p, then G is abelian.",
-        "If the quotient group G / Z(G) is cyclic, then G is abelian.",
-        "If |G| = 15, then G is cyclic.",
-        "Every group of even order is non-abelian."
+      "optionsHi": [
+        "यदि |G| = p² के लिए a prime p, then G is आबेली (abelian).",
+        "यदि the quotient समूह (group) G / Z(G) is चक्रीय (cyclic), then G is आबेली (abelian).",
+        "यदि |G| = 15, then G is चक्रीय (cyclic).",
+        "Every समूह (group) of even order is non-आबेली (abelian)."
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
       ],
-      "explanation_en": "|G| = p² is always abelian (isomorphic to Z_{p²} or Z_p × Z_p); G/Z(G) cyclic implies G = Z(G) (abelian); and for |G| = 15 = 3 × 5 (with 3 ∤ (5 − 1)), Sylow's theorems force G ≅ Z_15 (cyclic).",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\n|G| = p² is always abelian (isomorphic to Z_{p²} or Z_p × Z_p); G/Z(G) cyclic implies G = Z(G) (abelian); and for |G| = 15 = 3 × 5 (with 3 ∤ (5 − 1)), Sylow's theorems force G ≅ Z_15 (cyclic).",
-      "question_type": "MSQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "|G| = p² is always abelian (isomorphic to Z_{p²} or Z_p × Z_p); G/Z(G) cyclic implies G = Z(G) (abelian); and for |G| = 15 = 3 × 5 (with 3 ∤ (5 − 1)), Sylow's theorems force G ≅ Z_15 (cyclic).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\n|G| = p² is always abelian (isomorphic to Z_{p²} or Z_p × Z_p); G/Z(G) cyclic implies G = Z(G) (abelian); and for |G| = 15 = 3 × 5 (with 3 ∤ (5 − 1)), Sylow's theorems force G ≅ Z_15 (cyclic)."
     },
     {
-      "q_id": 202419,
-      "q_number": 19,
-      "section": "Section B: Multiple Select Questions (MSQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Consider f : R² → R defined by f(x, y) = (x y²) / (x² + y⁴) for (x, y) ≠ (0, 0) and f(0, 0) = 0. Which of the following statement(s) is/are TRUE at the origin (0, 0)?",
-      "question_hi": "[Multivariable Calculus (Partial Derivatives & Continuity) • IIT JAM Mathematics (MA) • Feb 2024]\nConsider f : R² → R defined by f(x, y) = (x y²) / (x² + y⁴) for (x, y) ≠ (0, 0) and f(0, 0) = 0. Which of the following statement(s) is/are TRUE at the origin (0, 0)?",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q034",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Multivariable Calculus (Partial Derivatives & Continuity)",
+      "difficulty": "Medium",
+      "questionTextEn": "Consider f : R² → R defined by f(x, y) = (x y²) / (x² + y⁴) for (x, y) ≠ (0, 0) and f(0, 0) = 0. Which of the following statement(s) is/are TRUE at the origin (0, 0)?",
+      "questionTextHi": "[Multivariable Calculus (Partial Derivatives & Continuity) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nConsider f : R² → R defined by f(x, y) = (x y²) / (x² + y⁴) के लिए (x, y) ≠ (0, 0) and f(0, 0) = 0. निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं at the origमें (0, 0)?",
+      "optionsEn": [
         "Both partial derivatives ∂f/∂x (0, 0) and ∂f/∂y (0, 0) exist and equal 0.",
         "All directional derivatives D_u f(0, 0) exist along every unit vector u = (a, b).",
         "f is NOT continuous at (0, 0).",
         "f is differentiable at (0, 0)."
       ],
-      "options_hi": [
-        "Both partial derivatives ∂f/∂x (0, 0) and ∂f/∂y (0, 0) exist and equal 0.",
-        "All directional derivatives D_u f(0, 0) exist along every unit vector u = (a, b).",
-        "f is NOT continuous at (0, 0).",
-        "f is differentiable at (0, 0)."
+      "optionsHi": [
+        "विकल्प: Both partial derivatives ∂f/∂x (0, 0) and ∂f/∂y (0, 0) exist and equal 0.",
+        "विकल्प: All directional derivatives D_u f(0, 0) exist along every unit vector u = (a, b).",
+        "विकल्प: f is NOT continuous at (0, 0).",
+        "f is अवकलनीय (differentiable) at (0, 0)."
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
       ],
-      "explanation_en": "Along the parabolic path x = y², f(y², y) = y⁴ / (2y⁴) = 1/2 ≠ 0, so f is NOT continuous (and hence not differentiable) at (0, 0). However, along any straight line (t a, t b), f(t a, t b)/t = a b² / (a² + t² b⁴) → b²/a (for a ≠ 0) and 0 (for a = 0), so all directional and partial derivatives exist at (0, 0).",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nAlong the parabolic path x = y², f(y², y) = y⁴ / (2y⁴) = 1/2 ≠ 0, so f is NOT continuous (and hence not differentiable) at (0, 0). However, along any straight line (t a, t b), f(t a, t b)/t = a b² / (a² + t² b⁴) → b²/a (for a ≠ 0) and 0 (for a = 0), so all directional and partial derivatives exist at (0, 0).",
-      "question_type": "MSQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Along the parabolic path x = y², f(y², y) = y⁴ / (2y⁴) = 1/2 ≠ 0, so f is NOT continuous (and hence not differentiable) at (0, 0). However, along any straight line (t a, t b), f(t a, t b)/t = a b² / (a² + t² b⁴) → b²/a (for a ≠ 0) and 0 (for a = 0), so all directional and partial derivatives exist at (0, 0).",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nAlong the parabolic path x = y², f(y², y) = y⁴ / (2y⁴) = 1/2 ≠ 0, so f is NOT continuous (and hence not differentiable) at (0, 0). However, along any straight line (t a, t b), f(t a, t b)/t = a b² / (a² + t² b⁴) → b²/a (for a ≠ 0) and 0 (for a = 0), so all directional and partial derivatives exist at (0, 0)."
     },
     {
-      "q_id": 202420,
-      "q_number": 20,
-      "section": "Section B: Multiple Select Questions (MSQ)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "For the bounded real sequence a_n = (−1)^n (1 + 1/n) + cos(nπ/2), which of the following statement(s) is/are TRUE?",
-      "question_hi": "[Sequences (Lim Sup and Lim Inf) • IIT JAM Mathematics (MA) • Feb 2024]\nFor the bounded real sequence a_n = (−1)^n (1 + 1/n) + cos(nπ/2), which of the following statement(s) is/are TRUE?",
-      "options_en": [
+      "questionId": "jam_ma_pyq_2024_q035",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Sequences (Lim Sup and Lim Inf)",
+      "difficulty": "Easy",
+      "questionTextEn": "For the bounded real sequence a_n = (−1)^n (1 + 1/n) + cos(nπ/2), which of the following statement(s) is/are TRUE?",
+      "questionTextHi": "[Sequences (Lim Sup and Lim Inf) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nके लिए the bounded real अनुक्रम (sequence) a_n = (−1)^n (1 + 1/n) + cos(nπ/2), निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?",
+      "optionsEn": [
         "Every bounded sequence in R has a convergent subsequence (Bolzano-Weierstrass Theorem).",
         "lim sup_{n→∞} a_n = 2.",
         "lim inf_{n→∞} a_n = −1.",
         "The sequence (a_n) converges to 0."
       ],
-      "options_hi": [
-        "Every bounded sequence in R has a convergent subsequence (Bolzano-Weierstrass Theorem).",
-        "lim sup_{n→∞} a_n = 2.",
-        "lim inf_{n→∞} a_n = −1.",
-        "The sequence (a_n) converges to 0."
+      "optionsHi": [
+        "Every bounded अनुक्रम (sequence) में R has a convergent subअनुक्रम (sequence) (Bolzano-Weierstrass Theorem).",
+        "विकल्प: lim sup_{n→∞} a_n = 2.",
+        "विकल्प: lim inf_{n→∞} a_n = −1.",
+        "The अनुक्रम (sequence) (a_n) अभिसरित होता है (converges) to 0."
       ],
-      "correct_index": 0,
-      "correct_indices": [
-        0,
-        1,
-        2
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
       ],
-      "explanation_en": "Checking the 4 subsequences mod 4: n = 4k gives 1 + 1 = 2; n = 4k+1 gives −1 + 0 = −1; n = 4k+2 gives 1 + (−1) = 0; n = 4k+3 gives −1 + 0 = −1. Thus lim sup a_n = 2 and lim inf a_n = −1.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nChecking the 4 subsequences mod 4: n = 4k gives 1 + 1 = 2; n = 4k+1 gives −1 + 0 = −1; n = 4k+2 gives 1 + (−1) = 0; n = 4k+3 gives −1 + 0 = −1. Thus lim sup a_n = 2 and lim inf a_n = −1.",
-      "question_type": "MSQ",
-      "nat_answer": "",
-      "nat_min": null,
-      "nat_max": null,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "Checking the 4 subsequences mod 4: n = 4k gives 1 + 1 = 2; n = 4k+1 gives −1 + 0 = −1; n = 4k+2 gives 1 + (−1) = 0; n = 4k+3 gives −1 + 0 = −1. Thus lim sup a_n = 2 and lim inf a_n = −1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nChecking the 4 subsequences mod 4: n = 4k gives 1 + 1 = 2; n = 4k+1 gives −1 + 0 = −1; n = 4k+2 gives 1 + (−1) = 0; n = 4k+3 gives −1 + 0 = −1. Thus lim sup a_n = 2 and lim inf a_n = −1."
     },
     {
-      "q_id": 202421,
-      "q_number": 21,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let A be the 4 × 4 matrix where every diagonal entry is 5 and every off-diagonal entry is 2. The largest eigenvalue of A is ________.",
-      "question_hi": "[Linear Algebra (Sum of Eigenvalues) • IIT JAM Mathematics (MA) • Feb 2024]\nLet A be the 4 × 4 matrix where every diagonal entry is 5 and every off-diagonal entry is 2. The largest eigenvalue of A is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "questionId": "jam_ma_pyq_2024_q036",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Monotone Sequences & Series)",
+      "difficulty": "Hard",
+      "questionTextEn": "Which of the following statement(s) about real sequences and infinite series is/are TRUE?",
+      "questionTextHi": "[Real Analysis (Monotone Sequences & Series) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nनिम्नलिखित में से कौन-सा/से कथन about real अनुक्रम (sequence)s and infinite श्रेणी (series) सत्य है/हैं?",
+      "optionsEn": [
+        "Every bounded monotonic sequence of real numbers converges to a finite real limit.",
+        "If Σ a_n converges absolutely, then every rearrangement of Σ a_n converges to the exact same sum.",
+        "The harmonic series Σ_{n=1}^∞ (1/n) diverges, even though its general term 1/n → 0 as n → ∞.",
+        "If lim_{n→∞} a_n = 0, then the infinite series Σ_{n=1}^∞ a_n must converge."
       ],
-      "explanation_en": "We can write A = 3I + 2J, where J is the 4 × 4 all-ones matrix (whose eigenvalues are 4, 0, 0, 0). Therefore, the eigenvalues of A are 3 + 2(4) = 11, and 3, 3, 3. The largest eigenvalue is 11.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nWe can write A = 3I + 2J, where J is the 4 × 4 all-ones matrix (whose eigenvalues are 4, 0, 0, 0). Therefore, the eigenvalues of A are 3 + 2(4) = 11, and 3, 3, 3. The largest eigenvalue is 11.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 11.0,
-      "nat_max": 11.0,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.0
+      "optionsHi": [
+        "Every bounded monotonic अनुक्रम (sequence) of real numbers अभिसरित होता है (converges) to a finite real limit.",
+        "यदि Σ a_n अभिसरित होता है (converges) absolutely, then every rearrangement of Σ a_n अभिसरित होता है (converges) to the exact same sum.",
+        "The harmonic श्रेणी (series) Σ_{n=1}^∞ (1/n) diverges, even though its general term 1/n → 0 as n → ∞.",
+        "यदि lim_{n→∞} a_n = 0, then the infinite श्रेणी (series) Σ_{n=1}^∞ a_n must converge."
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "A, B, and C are true; a_n → 0 is necessary but not sufficient for convergence.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nA, B, and C are true; a_n → 0 is necessary but not sufficient for convergence."
     },
     {
-      "q_id": 202422,
-      "q_number": 22,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The number of elements of order 12 in the direct product group Z_12 × Z_3 is ________.",
-      "question_hi": "[Group Theory (Euler Totient & Elements of Order d) • IIT JAM Mathematics (MA) • Feb 2024]\nThe number of elements of order 12 in the direct product group Z_12 × Z_3 is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "questionId": "jam_ma_pyq_2024_q037",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Rank & Systems of Linear Equations)",
+      "difficulty": "Hard",
+      "questionTextEn": "Let A be an m × n real matrix and b ∈ R^m. Which of the following statement(s) is/are ALWAYS correct?",
+      "questionTextHi": "[Linear Algebra (Rank & Systems of Linear Equations) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि A be an m × n real आव्यूह (matrix) and b ∈ R^m. निम्नलिखित में से कौन-सा/से कथन is/are ALWAYS correct?",
+      "optionsEn": [
+        "The non-homogeneous system Ax = b is consistent (has at least one solution) if and only if Rank(A) = Rank([A | b]).",
+        "Rank(A) = Rank(A^T) = Rank(A^T A) = Rank(A A^T).",
+        "If m < n, the homogeneous system Ax = 0 always has infinitely many non-trivial solutions.",
+        "If det(A^T A) = 0, then A must be the zero matrix."
       ],
-      "explanation_en": "An element (a, b) ∈ Z_12 × Z_3 has order lcm(|a|, |b|) = 12. Either |a| = 12 (φ(12)=4 choices) and |b| ∈ {1, 3} (3 choices) giving 4×3 = 12 elements, or |a| = 4 (φ(4)=2 choices) and |b| = 3 (φ(3)=2 choices) giving 2×2 = 4 elements. Total = 12 + 4 = 16.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nAn element (a, b) ∈ Z_12 × Z_3 has order lcm(|a|, |b|) = 12. Either |a| = 12 (φ(12)=4 choices) and |b| ∈ {1, 3} (3 choices) giving 4×3 = 12 elements, or |a| = 4 (φ(4)=2 choices) and |b| = 3 (φ(3)=2 choices) giving 2×2 = 4 elements. Total = 12 + 4 = 16.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 16.0,
-      "nat_max": 16.0,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.0
+      "optionsHi": [
+        "The non-homogeneous system Ax = b is consistent (has at least one solution) यदि and only यदि Rank(A) = Rank([A | b]).",
+        "विकल्प: Rank(A) = Rank(A^T) = Rank(A^T A) = Rank(A A^T).",
+        "यदि m < n, the homogeneous system Ax = 0 always has infinitely many non-trivial solutions.",
+        "यदि det(A^T A) = 0, then A must be the zero आव्यूह (matrix)."
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "A, B, and C are fundamental theorems of linear algebra; det(A^T A) = 0 only means the columns of A are linearly dependent.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nA, B, and C are fundamental theorems of linear algebra; det(A^T A) = 0 only means the columns of A are linearly dependent."
     },
     {
-      "q_id": 202423,
-      "q_number": 23,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The value of the definite integral ∫_0^(π/2) [sin³(x) / (sin³(x) + cos³(x))] dx (rounded to two decimal places) is ________.",
-      "question_hi": "[Calculus (Definite Integral via Symmetry) • IIT JAM Mathematics (MA) • Feb 2024]\nThe value of the definite integral ∫_0^(π/2) [sin³(x) / (sin³(x) + cos³(x))] dx (rounded to two decimal places) is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "questionId": "jam_ma_pyq_2024_q038",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Subgroups & Lagrange's Theorem)",
+      "difficulty": "Hard",
+      "questionTextEn": "Let G be a finite group of order n. Which of the following statement(s) is/are TRUE?",
+      "questionTextHi": "[Group Theory (Subgroups & Lagrange's Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि G be a finite समूह (group) of order n. निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?",
+      "optionsEn": [
+        "By Lagrange's Theorem, the order of every subgroup H ≤ G divides the order n of G.",
+        "Every subgroup H of index [G : H] = 2 in G is a normal subgroup of G.",
+        "If G is cyclic of order n, then for every positive divisor d of n, G has a unique subgroup of order d.",
+        "The converse of Lagrange's Theorem holds for all finite non-abelian groups (for instance, A_4 of order 12 has a subgroup of order 6)."
       ],
-      "explanation_en": "By the symmetry property ∫_0^a f(x) dx = ∫_0^a f(a − x) dx with a = π/2, I + I = ∫_0^(π/2) 1 dx = π/2 => I = π/4 ≈ 0.7854.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nBy the symmetry property ∫_0^a f(x) dx = ∫_0^a f(a − x) dx with a = π/2, I + I = ∫_0^(π/2) 1 dx = π/2 => I = π/4 ≈ 0.7854.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 0.78,
-      "nat_max": 0.79,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.0
+      "optionsHi": [
+        "By Lagrange's Theorem, the order of every subसमूह (group) H ≤ G divides the order n of G.",
+        "Every subसमूह (group) H of index [G : H] = 2 में G is a normal subसमूह (group) of G.",
+        "यदि G is चक्रीय (cyclic) of order n, then के लिए every positive divisor d of n, G has a unique subसमूह (group) of order d.",
+        "The converse of Lagrange's Theorem holds के लिए all finite non-आबेली (abelian) समूह (group)s (के लिए instance, A_4 of order 12 has a subसमूह (group) of order 6)."
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "A, B, and C are true; A_4 (order 12) famously has NO subgroup of order 6.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nA, B, and C are true; A_4 (order 12) famously has NO subgroup of order 6."
     },
     {
-      "q_id": 202424,
-      "q_number": 24,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "If y(x) is the solution of the initial value problem dy/dx + 2y = 6 with y(0) = 5, then the value of lim_{x→∞} y(x) is ________.",
-      "question_hi": "[Differential Equations (Initial Value Problem) • IIT JAM Mathematics (MA) • Feb 2024]\nIf y(x) is the solution of the initial value problem dy/dx + 2y = 6 with y(0) = 5, then the value of lim_{x→∞} y(x) is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "questionId": "jam_ma_pyq_2024_q039",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Ordinary Differential Equations (Linear Independence & Existence)",
+      "difficulty": "Hard",
+      "questionTextEn": "Which of the following statement(s) regarding linear differential equations on an interval I = (a, b) is/are CORRECT?",
+      "questionTextHi": "[Ordinary Differential Equations (Linear Independence & Existence) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nनिम्नलिखित में से कौन-सा/से कथन regarding linear अवकल समीकरण (differential equation)s on an interval I = (a, b) सही है/हैं?",
+      "optionsEn": [
+        "The set of all solutions of the homogeneous n-th order linear ODE y^(n) + p_{n-1}(x) y^(n-1) + ... + p_0(x) y = 0 with continuous coefficients on I forms an n-dimensional real vector space.",
+        "The functions f1(x) = e^x, f2(x) = e^(2x), and f3(x) = e^(3x) are linearly independent on R because their Wronskian is non-zero everywhere.",
+        "If y_p(x) is a particular solution of L[y] = g(x) and y_h(x) is the general solution of L[y] = 0, then y(x) = y_h(x) + y_p(x) is the general solution of L[y] = g(x).",
+        "Every first-order ODE dy/dx = f(x, y) is a linear differential equation."
       ],
-      "explanation_en": "Using the integrating factor e^(2x), (y e^(2x))' = 6 e^(2x) => y(x) = 3 + C e^(−2x). With y(0) = 5, C = 2, so y(x) = 3 + 2 e^(−2x). As x → ∞, y(x) → 3.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nUsing the integrating factor e^(2x), (y e^(2x))' = 6 e^(2x) => y(x) = 3 + C e^(−2x). With y(0) = 5, C = 2, so y(x) = 3 + 2 e^(−2x). As x → ∞, y(x) → 3.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 3.0,
-      "nat_max": 3.0,
-      "q_marks": 1.0,
-      "q_negative_marks": 0.0
+      "optionsHi": [
+        "विकल्प: The set of all solutions of the homogeneous n-th order linear ODE y^(n) + p_{n-1}(x) y^(n-1) + ... + p_0(x) y = 0 with continuous coefficients on I forms an n-dimensional real vector space.",
+        "विकल्प: The functions f1(x) = e^x, f2(x) = e^(2x), and f3(x) = e^(3x) are linearly independent on R because their Wronskian is non-zero everywhere.",
+        "यदि y_p(x) is a particular solution of L[y] = g(x) and y_h(x) is the general solution of L[y] = 0, then y(x) = y_h(x) + y_p(x) is the general solution of L[y] = g(x).",
+        "Every first-order ODE dy/dx = f(x, y) is a linear अवकल समीकरण (differential equation)."
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "A, B, and C are true; dy/dx = y² is non-linear.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nA, B, and C are true; dy/dx = y² is non-linear."
     },
     {
-      "q_id": 202425,
-      "q_number": 25,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let C be the boundary of the square [0, 2] × [0, 2] oriented counterclockwise in the xy-plane. By Green's Theorem, the value of the line integral ∮_C (y² dx + 4xy dy) is ________.",
-      "question_hi": "[Vector Calculus / Line Integral (Green's Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nLet C be the boundary of the square [0, 2] × [0, 2] oriented counterclockwise in the xy-plane. By Green's Theorem, the value of the line integral ∮_C (y² dx + 4xy dy) is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
+      "questionId": "jam_ma_pyq_2024_q040",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitleEn": "Section B: Multiple Select Questions (MSQ)",
+      "sectionTitleHi": "खंड B: बहु-चयन प्रश्न (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Vector Calculus (Conservative Vector Fields)",
+      "difficulty": "Hard",
+      "questionTextEn": "Let F⃗(x, y, z) be a smooth vector field defined on all of R³ (a simply connected domain). Which of the following conditions is/are equivalent to F⃗ being a conservative (gradient) vector field?",
+      "questionTextHi": "[Vector Calculus (Conservative Vector Fields) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि F⃗(x, y, z) be a smooth vector field defined on all of R³ (a simply connected domain). निम्नलिखित में से कौन-सा conditions is/are equivalent to F⃗ being a conservative (gradient) vector field?",
+      "optionsEn": [
+        "∇ × F⃗ = 0⃗ everywhere on R³.",
+        "The line integral ∫_C F⃗ · dr⃗ = 0 around every piecewise smooth closed curve C in R³.",
+        "There exists a scalar potential function φ : R³ → R such that F⃗ = ∇φ.",
+        "∇ · F⃗ = 0 everywhere on R³."
       ],
-      "explanation_en": "By Green's Theorem, ∮_C (y² dx + 4xy dy) = ∫_0^2 ∫_0^2 (4y − 2y) dx dy = (∫_0^2 dx)(∫_0^2 2y dy) = 2 × 4 = 8.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nBy Green's Theorem, ∮_C (y² dx + 4xy dy) = ∫_0^2 ∫_0^2 (4y − 2y) dx dy = (∫_0^2 dx)(∫_0^2 2y dy) = 2 × 4 = 8.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 8.0,
-      "nat_max": 8.0,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "optionsHi": [
+        "विकल्प: ∇ × F⃗ = 0⃗ everywhere on R³.",
+        "The line integral ∫_C F⃗ · dr⃗ = 0 around every piecewise smooth closed curve C में R³.",
+        "विकल्प: There exists a scalar potential function φ : R³ → R such that F⃗ = ∇φ.",
+        "विकल्प: ∇ · F⃗ = 0 everywhere on R³."
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "natMin": null,
+      "natMax": null,
+      "explanationEn": "On simply connected R³, curl-free (A), path-independence (B), and existence of a scalar potential (C) are equivalent; divergence-free (D) characterizes solenoidal fields.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (A,B,C) है।\nविस्तृत चरणबद्ध समाधान:\nOn simply connected R³, curl-free (A), path-independence (B), and existence of a scalar potential (C) are equivalent; divergence-free (D) characterizes solenoidal fields."
     },
     {
-      "q_id": 202426,
-      "q_number": 26,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The volume of the solid tetrahedron in the first octant bounded by the coordinate planes x = 0, y = 0, z = 0 and the plane x/2 + y/3 + z/4 = 1 is ________.",
-      "question_hi": "[Multivariable Calculus (Volume of Tetrahedron) • IIT JAM Mathematics (MA) • Feb 2024]\nThe volume of the solid tetrahedron in the first octant bounded by the coordinate planes x = 0, y = 0, z = 0 and the plane x/2 + y/3 + z/4 = 1 is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "The volume of a right tetrahedron with intercepts a = 2, b = 3, c = 4 on the coordinate axes is V = (1/6) a b c = (1/6) × 2 × 3 × 4 = 4.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nThe volume of a right tetrahedron with intercepts a = 2, b = 3, c = 4 on the coordinate axes is V = (1/6) a b c = (1/6) × 2 × 3 × 4 = 4.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 4.0,
-      "nat_max": 4.0,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "questionId": "jam_ma_pyq_2024_q041",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Sum of Eigenvalues)",
+      "difficulty": "Easy",
+      "questionTextEn": "Let A be the 4 × 4 matrix where every diagonal entry is 5 and every off-diagonal entry is 2. The largest eigenvalue of A is ________.",
+      "questionTextHi": "[Linear Algebra (Sum of Eigenvalues) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि A be the 4 × 4 आव्यूह (matrix) where every diagonal entry is 5 and every off-diagonal entry is 2. The largest आइगेनमान (eigenvalue) of A is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 11.0,
+      "natMax": 11.0,
+      "explanationEn": "We can write A = 3I + 2J, where J is the 4 × 4 all-ones matrix (whose eigenvalues are 4, 0, 0, 0). Therefore, the eigenvalues of A are 3 + 2(4) = 11, and 3, 3, 3. The largest eigenvalue is 11.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (11.0..11.0) है।\nविस्तृत चरणबद्ध समाधान:\nWe can write A = 3I + 2J, where J is the 4 × 4 all-ones matrix (whose eigenvalues are 4, 0, 0, 0). Therefore, the eigenvalues of A are 3 + 2(4) = 11, and 3, 3, 3. The largest eigenvalue is 11."
     },
     {
-      "q_id": 202427,
-      "q_number": 27,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "The exact sum of the infinite series Σ_{n=1}^∞ (2n + 1) / (n² (n + 1)²) is ________.",
-      "question_hi": "[Real Analysis (Infinite Series Sum) • IIT JAM Mathematics (MA) • Feb 2024]\nThe exact sum of the infinite series Σ_{n=1}^∞ (2n + 1) / (n² (n + 1)²) is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "Since (2n + 1) / (n² (n + 1)²) = 1/n² − 1/(n + 1)², the series telescopes: S_N = 1/1² − 1/(N + 1)² → 1 as N → ∞.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nSince (2n + 1) / (n² (n + 1)²) = 1/n² − 1/(n + 1)², the series telescopes: S_N = 1/1² − 1/(N + 1)² → 1 as N → ∞.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 1.0,
-      "nat_max": 1.0,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "questionId": "jam_ma_pyq_2024_q042",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Euler Totient & Elements of Order d)",
+      "difficulty": "Easy",
+      "questionTextEn": "The number of elements of order 12 in the direct product group Z_12 × Z_3 is ________.",
+      "questionTextHi": "[Group Theory (Euler Totient & Elements of Order d) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nकी संख्या elements of order 12 में the direct product समूह (group) Z_12 × Z_3 is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "explanationEn": "An element (a, b) ∈ Z_12 × Z_3 has order lcm(|a|, |b|) = 12. Either |a| = 12 (φ(12)=4 choices) and |b| ∈ {1, 3} (3 choices) giving 4×3 = 12 elements, or |a| = 4 (φ(4)=2 choices) and |b| = 3 (φ(3)=2 choices) giving 2×2 = 4 elements. Total = 12 + 4 = 16.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (16.0..16.0) है।\nविस्तृत चरणबद्ध समाधान:\nAn element (a, b) ∈ Z_12 × Z_3 has order lcm(|a|, |b|) = 12. Either |a| = 12 (φ(12)=4 choices) and |b| ∈ {1, 3} (3 choices) giving 4×3 = 12 elements, or |a| = 4 (φ(4)=2 choices) and |b| = 3 (φ(3)=2 choices) giving 2×2 = 4 elements. Total = 12 + 4 = 16."
     },
     {
-      "q_id": 202428,
-      "q_number": 28,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "Let A = [[2, 1, 0], [0, 2, 1], [0, 0, 2]] be a 3 × 3 Jordan block. The sum of the algebraic multiplicity and the geometric multiplicity of the eigenvalue λ = 2 is ________.",
-      "question_hi": "[Linear Algebra (Geometric Multiplicity) • IIT JAM Mathematics (MA) • Feb 2024]\nLet A = [[2, 1, 0], [0, 2, 1], [0, 0, 2]] be a 3 × 3 Jordan block. The sum of the algebraic multiplicity and the geometric multiplicity of the eigenvalue λ = 2 is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "The characteristic polynomial is (λ − 2)³, so the algebraic multiplicity of λ = 2 is 3. Since Rank(A − 2I) = Rank([[0,1,0],[0,0,1],[0,0,0]]) = 2, the geometric multiplicity is 3 − 2 = 1. Their sum is 3 + 1 = 4.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nThe characteristic polynomial is (λ − 2)³, so the algebraic multiplicity of λ = 2 is 3. Since Rank(A − 2I) = Rank([[0,1,0],[0,0,1],[0,0,0]]) = 2, the geometric multiplicity is 3 − 2 = 1. Their sum is 3 + 1 = 4.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 4.0,
-      "nat_max": 4.0,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "questionId": "jam_ma_pyq_2024_q043",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Calculus (Definite Integral via Symmetry)",
+      "difficulty": "Easy",
+      "questionTextEn": "The value of the definite integral ∫_0^(π/2) [sin³(x) / (sin³(x) + cos³(x))] dx (rounded to two decimal places) is ________.",
+      "questionTextHi": "[Calculus (Definite Integral via Symmetry) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nका मान the definite integral ∫_0^(π/2) [sin³(x) / (sin³(x) + cos³(x))] dx (rounded to two decimal places) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 0.78,
+      "natMax": 0.79,
+      "explanationEn": "By the symmetry property ∫_0^a f(x) dx = ∫_0^a f(a − x) dx with a = π/2, I + I = ∫_0^(π/2) 1 dx = π/2 => I = π/4 ≈ 0.7854.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (0.78..0.79) है।\nविस्तृत चरणबद्ध समाधान:\nBy the symmetry property ∫_0^a f(x) dx = ∫_0^a f(a − x) dx with a = π/2, I + I = ∫_0^(π/2) 1 dx = π/2 => I = π/4 ≈ 0.7854."
     },
     {
-      "q_id": 202429,
-      "q_number": 29,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "If the orthogonal trajectory to the family of parabolas y = c x² passing through the point (√2, 1) intersects the y-axis at (0, y0) with y0 > 0, then y0² is ________.",
-      "question_hi": "[Differential Equations (Orthogonal Trajectories) • IIT JAM Mathematics (MA) • Feb 2024]\nIf the orthogonal trajectory to the family of parabolas y = c x² passing through the point (√2, 1) intersects the y-axis at (0, y0) with y0 > 0, then y0² is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "For y = c x², dy/dx = 2cx = 2y/x. Replacing dy/dx by −dx/dy gives the orthogonal trajectory ODE: dy/dx = −x/(2y) => 2y dy + x dx = 0 => x² + 2y² = K. Passing through (√2, 1) gives 2 + 2(1)² = 4, so at x = 0, 2 y0² = 4 => y0² = 2.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nFor y = c x², dy/dx = 2cx = 2y/x. Replacing dy/dx by −dx/dy gives the orthogonal trajectory ODE: dy/dx = −x/(2y) => 2y dy + x dx = 0 => x² + 2y² = K. Passing through (√2, 1) gives 2 + 2(1)² = 4, so at x = 0, 2 y0² = 4 => y0² = 2.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 2.0,
-      "nat_max": 2.0,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "questionId": "jam_ma_pyq_2024_q044",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Initial Value Problem)",
+      "difficulty": "Easy",
+      "questionTextEn": "If y(x) is the solution of the initial value problem dy/dx + 2y = 6 with y(0) = 5, then the value of lim_{x→∞} y(x) is ________.",
+      "questionTextHi": "[Differential Equations (Initial Value Problem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि y(x) is the solution of the initial value problem dy/dx + 2y = 6 with y(0) = 5, then का मान lim_{x→∞} y(x) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "explanationEn": "Using the integrating factor e^(2x), (y e^(2x))' = 6 e^(2x) => y(x) = 3 + C e^(−2x). With y(0) = 5, C = 2, so y(x) = 3 + 2 e^(−2x). As x → ∞, y(x) → 3.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (3.0..3.0) है।\nविस्तृत चरणबद्ध समाधान:\nUsing the integrating factor e^(2x), (y e^(2x))' = 6 e^(2x) => y(x) = 3 + C e^(−2x). With y(0) = 5, C = 2, so y(x) = 3 + 2 e^(−2x). As x → ∞, y(x) → 3."
     },
     {
-      "q_id": 202430,
-      "q_number": 30,
-      "section": "Section C: Numerical Answer Type (NAT)",
-      "exam_year_tag": "IIT JAM MA • 2024 Official Paper",
-      "question_en": "In the alternating group A_5 (of order 60), the index [A_5 : H] of a subgroup H isomorphic to the Klein four-group V_4 is ________.",
-      "question_hi": "[Group Theory (Index of Subgroup) • IIT JAM Mathematics (MA) • Feb 2024]\nIn the alternating group A_5 (of order 60), the index [A_5 : H] of a subgroup H isomorphic to the Klein four-group V_4 is ________.",
-      "options_en": [],
-      "options_hi": [],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "explanation_en": "By Lagrange's Theorem, the index is [A_5 : H] = |A_5| / |V_4| = 60 / 4 = 15.",
-      "explanation_hi": "आधिकारिक समाधान (IIT JAM Mathematics (MA) • Feb 2024):\nBy Lagrange's Theorem, the index is [A_5 : H] = |A_5| / |V_4| = 60 / 4 = 15.",
-      "question_type": "NAT",
-      "nat_answer": "",
-      "nat_min": 15.0,
-      "nat_max": 15.0,
-      "q_marks": 2.0,
-      "q_negative_marks": 0.0
+      "questionId": "jam_ma_pyq_2024_q045",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Supremum of a Set)",
+      "difficulty": "Medium",
+      "questionTextEn": "The supremum (least upper bound) of the set S = {n / (n + 1) : n ∈ N} is ________.",
+      "questionTextHi": "[Real Analysis (Supremum of a Set) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe supremum (least upper bound) of the set S = {n / (n + 1) : n ∈ N} is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "explanationEn": "Since n/(n+1) = 1 − 1/(n+1) increases strictly toward 1 as n → ∞, sup(S) = 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (1.0) है।\nविस्तृत चरणबद्ध समाधान:\nSince n/(n+1) = 1 − 1/(n+1) increases strictly toward 1 as n → ∞, sup(S) = 1."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q046",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Dimension of Symmetric Matrices)",
+      "difficulty": "Medium",
+      "questionTextEn": "The dimension of the real vector space of all 4 × 4 real symmetric matrices is ________.",
+      "questionTextHi": "[Linear Algebra (Dimension of Symmetric Matrices) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe dimension of the real vector space of all 4 × 4 real symmetric आव्यूहों (matrices) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "explanationEn": "dim = n(n + 1)/2 = 4(5)/2 = 10.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (10.0) है।\nविस्तृत चरणबद्ध समाधान:\ndim = n(n + 1)/2 = 4(5)/2 = 10."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q047",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Alternating Group Order)",
+      "difficulty": "Medium",
+      "questionTextEn": "The order (number of even permutations) of the alternating group A_4 on 4 symbols is ________.",
+      "questionTextHi": "[Group Theory (Alternating Group Order) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe order (number of even permutations) of the alternating समूह (group) A_4 on 4 symbols is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "explanationEn": "|A_4| = 4! / 2 = 24 / 2 = 12.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (12.0) है।\nविस्तृत चरणबद्ध समाधान:\n|A_4| = 4! / 2 = 24 / 2 = 12."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q048",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Particular Integral)",
+      "difficulty": "Medium",
+      "questionTextEn": "If y(x) satisfies y'' − y = 0 with y(0) = 2 and y'(0) = 0, then y(ln 2) is equal to ________.",
+      "questionTextHi": "[Differential Equations (Particular Integral) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि y(x) satisfies y'' − y = 0 with y(0) = 2 and y'(0) = 0, then y(ln 2) के बराबर है ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 2.5,
+      "natMax": 2.5,
+      "explanationEn": "y(x) = e^x + e^(−x) = 2 cosh(x). At x = ln 2, y(ln 2) = 2 + 1/2 = 2.5.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (2.5) है।\nविस्तृत चरणबद्ध समाधान:\ny(x) = e^x + e^(−x) = 2 cosh(x). At x = ln 2, y(ln 2) = 2 + 1/2 = 2.5."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q049",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Multivariable Calculus (Directional Derivative)",
+      "difficulty": "Medium",
+      "questionTextEn": "The maximum rate of increase (magnitude of the gradient |∇f|) of f(x, y) = 3x + 4y at the point (1, 2) is ________.",
+      "questionTextHi": "[Multivariable Calculus (Directional Derivative) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe maximum rate of increase (magnitude of the gradient |∇f|) of f(x, y) = 3x + 4y at the point (1, 2) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "explanationEn": "∇f = (3, 4), so the maximum directional derivative is |∇f| = √(3² + 4²) = 5.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (5.0) है।\nविस्तृत चरणबद्ध समाधान:\n∇f = (3, 4), so the maximum directional derivative is |∇f| = √(3² + 4²) = 5."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q050",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Riemann Integral)",
+      "difficulty": "Medium",
+      "questionTextEn": "The value of the definite integral ∫_{-2}^2 (x³ cos(x) + 3) dx is ________.",
+      "questionTextHi": "[Real Analysis (Riemann Integral) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nका मान the definite integral ∫_{-2}^2 (x³ cos(x) + 3) dx is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "explanationEn": "Since x³ cos(x) is an odd function on [−2, 2], its integral is 0, leaving ∫_{-2}^2 3 dx = 3 × 4 = 12.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (12.0) है।\nविस्तृत चरणबद्ध समाधान:\nSince x³ cos(x) is an odd function on [−2, 2], its integral is 0, leaving ∫_{-2}^2 3 dx = 3 × 4 = 12."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q051",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Vector Calculus / Line Integral (Green's Theorem)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let C be the boundary of the square [0, 2] × [0, 2] oriented counterclockwise in the xy-plane. By Green's Theorem, the value of the line integral ∮_C (y² dx + 4xy dy) is ________.",
+      "questionTextHi": "[Vector Calculus / Line Integral (Green's Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि C be the boundary of the square [0, 2] × [0, 2] oriented counterclockwise में the xy-plane. By Green's Theorem, का मान the line integral ∮_C (y² dx + 4xy dy) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "explanationEn": "By Green's Theorem, ∮_C (y² dx + 4xy dy) = ∫_0^2 ∫_0^2 (4y − 2y) dx dy = (∫_0^2 dx)(∫_0^2 2y dy) = 2 × 4 = 8.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (8.0..8.0) है।\nविस्तृत चरणबद्ध समाधान:\nBy Green's Theorem, ∮_C (y² dx + 4xy dy) = ∫_0^2 ∫_0^2 (4y − 2y) dx dy = (∫_0^2 dx)(∫_0^2 2y dy) = 2 × 4 = 8."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q052",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Multivariable Calculus (Volume of Tetrahedron)",
+      "difficulty": "Easy",
+      "questionTextEn": "The volume of the solid tetrahedron in the first octant bounded by the coordinate planes x = 0, y = 0, z = 0 and the plane x/2 + y/3 + z/4 = 1 is ________.",
+      "questionTextHi": "[Multivariable Calculus (Volume of Tetrahedron) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe आयतन (volume) of the solid tetrahedron में the first octant bounded by the coordinate planes x = 0, y = 0, z = 0 and the plane x/2 + y/3 + z/4 = 1 is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "explanationEn": "The volume of a right tetrahedron with intercepts a = 2, b = 3, c = 4 on the coordinate axes is V = (1/6) a b c = (1/6) × 2 × 3 × 4 = 4.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (4.0..4.0) है।\nविस्तृत चरणबद्ध समाधान:\nThe volume of a right tetrahedron with intercepts a = 2, b = 3, c = 4 on the coordinate axes is V = (1/6) a b c = (1/6) × 2 × 3 × 4 = 4."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q053",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Real Analysis (Infinite Series Sum)",
+      "difficulty": "Medium",
+      "questionTextEn": "The exact sum of the infinite series Σ_{n=1}^∞ (2n + 1) / (n² (n + 1)²) is ________.",
+      "questionTextHi": "[Real Analysis (Infinite Series Sum) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nThe exact sum of the infinite श्रेणी (series) Σ_{n=1}^∞ (2n + 1) / (n² (n + 1)²) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "explanationEn": "Since (2n + 1) / (n² (n + 1)²) = 1/n² − 1/(n + 1)², the series telescopes: S_N = 1/1² − 1/(N + 1)² → 1 as N → ∞.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (1.0..1.0) है।\nविस्तृत चरणबद्ध समाधान:\nSince (2n + 1) / (n² (n + 1)²) = 1/n² − 1/(n + 1)², the series telescopes: S_N = 1/1² − 1/(N + 1)² → 1 as N → ∞."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q054",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Geometric Multiplicity)",
+      "difficulty": "Medium",
+      "questionTextEn": "Let A = [[2, 1, 0], [0, 2, 1], [0, 0, 2]] be a 3 × 3 Jordan block. The sum of the algebraic multiplicity and the geometric multiplicity of the eigenvalue λ = 2 is ________.",
+      "questionTextHi": "[Linear Algebra (Geometric Multiplicity) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि A = [[2, 1, 0], [0, 2, 1], [0, 0, 2]] be a 3 × 3 Jordan block. The sum of the algebraic multiplicity and the geometric multiplicity of the आइगेनमान (eigenvalue) λ = 2 is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "explanationEn": "The characteristic polynomial is (λ − 2)³, so the algebraic multiplicity of λ = 2 is 3. Since Rank(A − 2I) = Rank([[0,1,0],[0,0,1],[0,0,0]]) = 2, the geometric multiplicity is 3 − 2 = 1. Their sum is 3 + 1 = 4.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (4.0..4.0) है।\nविस्तृत चरणबद्ध समाधान:\nThe characteristic polynomial is (λ − 2)³, so the algebraic multiplicity of λ = 2 is 3. Since Rank(A − 2I) = Rank([[0,1,0],[0,0,1],[0,0,0]]) = 2, the geometric multiplicity is 3 − 2 = 1. Their sum is 3 + 1 = 4."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q055",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Orthogonal Trajectories)",
+      "difficulty": "Medium",
+      "questionTextEn": "If the orthogonal trajectory to the family of parabolas y = c x² passing through the point (√2, 1) intersects the y-axis at (0, y0) with y0 > 0, then y0² is ________.",
+      "questionTextHi": "[Differential Equations (Orthogonal Trajectories) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि the orthogonal trajectory to the family of parabolas y = c x² passing through the point (√2, 1) intersects the y-axis at (0, y0) with y0 > 0, then y0² is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "explanationEn": "For y = c x², dy/dx = 2cx = 2y/x. Replacing dy/dx by −dx/dy gives the orthogonal trajectory ODE: dy/dx = −x/(2y) => 2y dy + x dx = 0 => x² + 2y² = K. Passing through (√2, 1) gives 2 + 2(1)² = 4, so at x = 0, 2 y0² = 4 => y0² = 2.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (2.0..2.0) है।\nविस्तृत चरणबद्ध समाधान:\nFor y = c x², dy/dx = 2cx = 2y/x. Replacing dy/dx by −dx/dy gives the orthogonal trajectory ODE: dy/dx = −x/(2y) => 2y dy + x dx = 0 => x² + 2y² = K. Passing through (√2, 1) gives 2 + 2(1)² = 4, so at x = 0, 2 y0² = 4 => y0² = 2."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q056",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Index of Subgroup)",
+      "difficulty": "Easy",
+      "questionTextEn": "In the alternating group A_5 (of order 60), the index [A_5 : H] of a subgroup H isomorphic to the Klein four-group V_4 is ________.",
+      "questionTextHi": "[Group Theory (Index of Subgroup) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमें the alternating समूह (group) A_5 (of order 60), the index [A_5 : H] of a subसमूह (group) H isomorphic to the Kleमें four-समूह (group) V_4 is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 15.0,
+      "natMax": 15.0,
+      "explanationEn": "By Lagrange's Theorem, the index is [A_5 : H] = |A_5| / |V_4| = 60 / 4 = 15.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (15.0..15.0) है।\nविस्तृत चरणबद्ध समाधान:\nBy Lagrange's Theorem, the index is [A_5 : H] = |A_5| / |V_4| = 60 / 4 = 15."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q057",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Linear Algebra (Cayley-Hamilton Theorem)",
+      "difficulty": "Hard",
+      "questionTextEn": "Let A = [[1, 2], [3, 4]]. If A² − 5A + k I = 0 where I is the 2 × 2 identity matrix, then the real scalar k is equal to ________.",
+      "questionTextHi": "[Linear Algebra (Cayley-Hamilton Theorem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमाना कि A = [[1, 2], [3, 4]]. यदि A² − 5A + k I = 0 where I is the 2 × 2 identity आव्यूह (matrix), then the real scalar k के बराबर है ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": -2.0,
+      "natMax": -2.0,
+      "explanationEn": "By Cayley-Hamilton Theorem, A² − Trace(A) A + det(A) I = 0. Here Trace(A) = 5 and k = det(A) = 4 − 6 = −2.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (-2.0) है।\nविस्तृत चरणबद्ध समाधान:\nBy Cayley-Hamilton Theorem, A² − Trace(A) A + det(A) I = 0. Here Trace(A) = 5 and k = det(A) = 4 − 6 = −2."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q058",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Group Theory (Conjugacy Class Size)",
+      "difficulty": "Hard",
+      "questionTextEn": "In the symmetric group S_4 (of order 24), the number of distinct 3-cycles (elements of cycle type (a b c)) is ________.",
+      "questionTextHi": "[Group Theory (Conjugacy Class Size) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nमें the symmetric समूह (group) S_4 (of order 24), की संख्या distinct 3-cycles (elements of cycle type (a b c)) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "explanationEn": "Number of 3-cycles in S_4 is (4 × 3 × 2) / 3 = 8.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (8.0) है।\nविस्तृत चरणबद्ध समाधान:\nNumber of 3-cycles in S_4 is (4 × 3 × 2) / 3 = 8."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q059",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Multivariable Calculus (Surface Area / Double Integral)",
+      "difficulty": "Hard",
+      "questionTextEn": "The value of the double integral ∬_D (x + y) dx dy over the unit square D = [0, 1] × [0, 1] is ________.",
+      "questionTextHi": "[Multivariable Calculus (Surface Area / Double Integral) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nका मान the double integral ∬_D (x + y) dx dy over the unit square D = [0, 1] × [0, 1] is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "explanationEn": "∫_0^1 ∫_0^1 (x + y) dx dy = 1/2 + 1/2 = 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (1.0) है।\nविस्तृत चरणबद्ध समाधान:\n∫_0^1 ∫_0^1 (x + y) dx dy = 1/2 + 1/2 = 1."
+    },
+    {
+      "questionId": "jam_ma_pyq_2024_q060",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitleEn": "Section C: Numerical Answer Type (NAT)",
+      "sectionTitleHi": "खंड C: संख्यात्मक उत्तर प्रकार (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM Mathematics (MA) • Feb 2024",
+      "topicTag": "Differential Equations (Boundary Value Problem)",
+      "difficulty": "Hard",
+      "questionTextEn": "If y(x) solves y'' + π² y = 0 with y(0) = 0 and y'(0) = π, then the value of y(1/2) is ________.",
+      "questionTextHi": "[Differential Equations (Boundary Value Problem) • IIT JAM Mathematics (MA) • Feb 2024]\nप्रश्न (हिंदी अनुवाद): निम्नलिखित प्रश्न का विश्लेषण कर सही उत्तर चुनिए —\nयदि y(x) solves y'' + π² y = 0 with y(0) = 0 and y'(0) = π, then का मान y(1/2) is ________.",
+      "optionsEn": [],
+      "optionsHi": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "explanationEn": "y(x) = sin(πx), so y(1/2) = sin(π/2) = 1.",
+      "explanationHi": "आधिकारिक हल एवं व्याख्या (IIT JAM Mathematics (MA) • Feb 2024): सही उत्तर विकल्प (1.0) है।\nविस्तृत चरणबद्ध समाधान:\ny(x) = sin(πx), so y(1/2) = sin(π/2) = 1."
     }
   ]
 }
