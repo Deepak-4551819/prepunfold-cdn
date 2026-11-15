@@ -1,1677 +1,788 @@
 {
-  "testId": "gate_ph_sub_cm_01",
   "test_id": "gate_ph_sub_cm_01",
-  "categoryId": "gate_ph",
-  "category_id": "gate_ph",
-  "testType": "TOPIC_TEST",
-  "test_type": "TOPIC_TEST",
-  "title": "GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws (30 Qs)",
-  "titleEn": "GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws (30 Qs)",
-  "titleHi": "GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम (30 प्रश्न)",
-  "durationMinutes": 60,
-  "duration_minutes": 60,
-  "totalQuestions": 30,
+  "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
   "total_questions": 30,
-  "totalMarks": 45.0,
-  "total_marks": 45.0,
-  "positiveMarks": 2.0,
-  "positive_marks": 2.0,
-  "negativeMarks": 0.66,
-  "negative_marks": 0.66,
-  "isFree": false,
-  "is_free": false,
-  "version": 2,
-  "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
+  "duration_minutes": 90,
   "questions": [
     {
-      "questionId": "gate_ph_subj_04_q1",
-      "id": "gate_ph_subj_04_q1",
-      "q_id": 1,
-      "questionNumber": 1,
+      "q_id": 621001,
       "q_number": 1,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q1 (Param Set α=2, β=7)] [NAT] A mechanical system in three-dimensional space consists of N = 7 point particles subjected to k = 4 independent holonomic constraints. The number of degrees of freedom of the system is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q1 (Param Set α=2, β=7)] [NAT] A mechanical system in three-dimensional space consists of N = 7 point particles subjected to k = 4 independent holonomic constraints. The number of degrees of freedom of the system is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 1 (प्राचल सेट α=2, β=7)] [NAT] त्रिविमीय आकाश में एक यांत्रिक निकाय N = 7 बिंदु कणों से मिलकर बना है जो k = 4 स्वतंत्र होलोनोमिक प्रतिबंधों के अधीन हैं। निकाय की स्वातंत्र्य कोटियों (degrees of freedom) की संख्या क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 1 (प्राचल सेट α=2, β=7)] [NAT] त्रिविमीय आकाश में एक यांत्रिक निकाय N = 7 बिंदु कणों से मिलकर बना है जो k = 4 स्वतंत्र होलोनोमिक प्रतिबंधों के अधीन हैं। निकाय की स्वातंत्र्य कोटियों (degrees of freedom) की संख्या क्या है?",
-      "optionsEn": [
-        "17",
-        "18",
-        "21",
-        "16"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as:",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा?",
       "options_en": [
-        "17",
-        "18",
-        "21",
-        "16"
-      ],
-      "optionsHi": [
-        "17",
-        "18",
-        "21",
-        "16"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "17",
-        "18",
-        "21",
-        "16"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": 16.99,
-      "natMax": 17.01,
-      "explanationEn": "In 3D space, Degrees of Freedom f = 3N - k = 3(7) - 4 = 17.",
-      "explanation_en": "In 3D space, Degrees of Freedom f = 3N - k = 3(7) - 4 = 17.",
-      "explanationHi": "त्रिविमीय आकाश में स्वातंत्र्य कोटियों की संख्या f = 3N - k = 3(7) - 4 = 17।",
-      "explanation_hi": "त्रिविमीय आकाश में स्वातंत्र्य कोटियों की संख्या f = 3N - k = 3(7) - 4 = 17।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q2",
-      "id": "gate_ph_subj_04_q2",
-      "q_id": 2,
-      "questionNumber": 2,
+      "q_id": 621002,
       "q_number": 2,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q2 (Param Set α=3, β=3)] The Lagrangian of a particle of mass m is given by L = (1/2) m [ṙ² + r² θ̇² + r² sin^3(θ) φ̇²] - V(r, θ). Which one of the following statements is TRUE?",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q2 (Param Set α=3, β=3)] The Lagrangian of a particle of mass m is given by L = (1/2) m [ṙ² + r² θ̇² + r² sin^3(θ) φ̇²] - V(r, θ). Which one of the following statements is TRUE?",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 2 (प्राचल सेट α=3, β=3)] द्रव्यमान m के एक कण का लैग्रांजियन L = (1/2) m [ṙ² + r² θ̇² + r² sin^3(θ) φ̇²] - V(r, θ) द्वारा दिया गया है। निम्नलिखित में से कौन-सा कथन सत्य है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 2 (प्राचल सेट α=3, β=3)] द्रव्यमान m के एक कण का लैग्रांजियन L = (1/2) m [ṙ² + r² θ̇² + r² sin^3(θ) φ̇²] - V(r, θ) द्वारा दिया गया है। निम्नलिखित में से कौन-सा कथन सत्य है?",
-      "optionsEn": [
-        "p_φ = m r² sin^3(θ) φ̇ is conserved",
-        "p_θ = m r² θ̇ is conserved",
-        "p_r = m ṙ is conserved",
-        "Only total linear momentum is conserved"
-      ],
-      "options_en": [
-        "p_φ = m r² sin^3(θ) φ̇ is conserved",
-        "p_θ = m r² θ̇ is conserved",
-        "p_r = m ṙ is conserved",
-        "Only total linear momentum is conserved"
-      ],
-      "optionsHi": [
-        "p_φ = m r² sin^3(θ) φ̇ संरक्षित रहता है",
-        "p_θ = m r² θ̇ संरक्षित रहता है",
-        "p_r = m ṙ संरक्षित रहता है",
-        "केवल कुल रैखिक संवेग संरक्षित रहता है"
-      ],
-      "options_hi": [
-        "p_φ = m r² sin^3(θ) φ̇ संरक्षित रहता है",
-        "p_θ = m r² θ̇ संरक्षित रहता है",
-        "p_r = m ṙ संरक्षित रहता है",
-        "केवल कुल रैखिक संवेग संरक्षित रहता है"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴. Using canonical Poisson brackets {q, p} = 1, if the time derivative of momentum is dp/dt = {p, H} = -m ω² q - α λ q³, then the numerical value of α is ______.",
+      "question_hi": "एक गतिकीय निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ दिया गया है। प्वासों कोष्ठक {q, p} = 1 का उपयोग करने पर यदि dp/dt = {p, H} = -m ω² q - α λ q³ है, तो α का संख्यात्मक मान ______ है।",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Since φ does not appear explicitly in L (∂L/∂φ = 0), φ is a cyclic coordinate and its conjugate momentum p_φ = ∂L/∂φ̇ = m r² sin^3(θ) φ̇ is a constant of motion.",
-      "explanation_en": "Since φ does not appear explicitly in L (∂L/∂φ = 0), φ is a cyclic coordinate and its conjugate momentum p_φ = ∂L/∂φ̇ = m r² sin^3(θ) φ̇ is a constant of motion.",
-      "explanationHi": "चूँकि लैग्रांजियन L में निर्देशांक φ प्रत्यक्ष रूप से उपस्थित नहीं है (∂L/∂φ = 0), अतः φ एक चक्रीय निर्देशांक है और इसका संयुग्मी संवेग p_φ = m r² sin^3(θ) φ̇ संरक्षित रहता है।",
-      "explanation_hi": "चूँकि लैग्रांजियन L में निर्देशांक φ प्रत्यक्ष रूप से उपस्थित नहीं है (∂L/∂φ = 0), अतः φ एक चक्रीय निर्देशांक है और इसका संयुग्मी संवेग p_φ = m r² sin^3(θ) φ̇ संरक्षित रहता है।"
+      "correct_indices": [],
+      "nat_answer": "4",
+      "nat_min": 3.99,
+      "nat_max": 4.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q3",
-      "id": "gate_ph_subj_04_q3",
-      "q_id": 3,
-      "questionNumber": 3,
+      "q_id": 621003,
       "q_number": 3,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q3 (Param Set α=4, β=4)] A particle moves in an attractive central force field given by F(r) = -(k / r^4) r̂ (with k > 0), vanishing at infinity. The potential energy V(r) of the particle is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q3 (Param Set α=4, β=4)] A particle moves in an attractive central force field given by F(r) = -(k / r^4) r̂ (with k > 0), vanishing at infinity. The potential energy V(r) of the particle is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 3 (प्राचल सेट α=4, β=4)] एक कण आकर्षी केंद्रीय बल क्षेत्र F(r) = -(k / r^4) r̂ (जहाँ k > 0 तथा अनंत पर विभव शून्य है) में गति कर रहा है। कण की स्थितिज ऊर्जा V(r) क्या होगी?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 3 (प्राचल सेट α=4, β=4)] एक कण आकर्षी केंद्रीय बल क्षेत्र F(r) = -(k / r^4) r̂ (जहाँ k > 0 तथा अनंत पर विभव शून्य है) में गति कर रहा है। कण की स्थितिज ऊर्जा V(r) क्या होगी?",
-      "optionsEn": [
-        "-k / r^3",
-        "-4 k / r^5",
-        "-k / (3 r^3)",
-        "k / (3 r^3)"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #2]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #2]",
       "options_en": [
-        "-k / r^3",
-        "-4 k / r^5",
-        "-k / (3 r^3)",
-        "k / (3 r^3)"
-      ],
-      "optionsHi": [
-        "-k / r^3",
-        "-4 k / r^5",
-        "-k / (3 r^3)",
-        "k / (3 r^3)"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "-k / r^3",
-        "-4 k / r^5",
-        "-k / (3 r^3)",
-        "k / (3 r^3)"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "C",
-      "correct_index": 2,
-      "correctOptionsList": [
-        "C"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Since F(r) = -dV/dr = -k r^(-4), integrating from ∞ to r gives V(r) = ∫ k r^(-4) dr = -k / (3 r^3).",
-      "explanation_en": "Since F(r) = -dV/dr = -k r^(-4), integrating from ∞ to r gives V(r) = ∫ k r^(-4) dr = -k / (3 r^3).",
-      "explanationHi": "चूँकि F(r) = -dV/dr = -k r^(-4) है, अनंत से r तक समाकलन करने पर V(r) = -k / (3 r^3) प्राप्त होता है।",
-      "explanation_hi": "चूँकि F(r) = -dV/dr = -k r^(-4) है, अनंत से r तक समाकलन करने पर V(r) = -k / (3 r^3) प्राप्त होता है।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q4",
-      "id": "gate_ph_subj_04_q4",
-      "q_id": 4,
-      "questionNumber": 4,
+      "q_id": 621004,
       "q_number": 4,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q4 (Param Set α=5, β=5)] A particle of mass m has the Lagrangian L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q). In terms of the generalized coordinate q and canonical momentum p = ∂L/∂q̇, the Hamiltonian H(q, p) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q4 (Param Set α=5, β=5)] A particle of mass m has the Lagrangian L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q). In terms of the generalized coordinate q and canonical momentum p = ∂L/∂q̇, the Hamiltonian H(q, p) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 4 (प्राचल सेट α=5, β=5)] द्रव्यमान m के एक कण का लैग्रांजियन L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q) है। सामान्यीकृत निर्देशांक q और विहित संवेग p = ∂L/∂q̇ के पदों में हैमिल्टनियन H(q, p) क्या होगा?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 4 (प्राचल सेट α=5, β=5)] द्रव्यमान m के एक कण का लैग्रांजियन L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q) है। सामान्यीकृत निर्देशांक q और विहित संवेग p = ∂L/∂q̇ के पदों में हैमिल्टनियन H(q, p) क्या होगा?",
-      "optionsEn": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
-      ],
-      "options_en": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
-      ],
-      "optionsHi": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
-      ],
-      "options_hi": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
-      ],
-      "correctOption": "B",
-      "correct_index": 1,
-      "correctOptionsList": [
-        "B"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Canonical momentum p = ∂L/∂q̇ = m q̇ + 4 q ⇒ q̇ = (p - 4 q)/m. Then H = p q̇ - L = (p - 4 q)² / (2m) + V(q).",
-      "explanation_en": "Canonical momentum p = ∂L/∂q̇ = m q̇ + 4 q ⇒ q̇ = (p - 4 q)/m. Then H = p q̇ - L = (p - 4 q)² / (2m) + V(q).",
-      "explanationHi": "विहित संवेग p = m q̇ + 4 q से q̇ = (p - 4 q)/m प्राप्त होता है। इसे H = p q̇ - L में रखने पर H = (p - 4 q)² / (2m) + V(q)।",
-      "explanation_hi": "विहित संवेग p = m q̇ + 4 q से q̇ = (p - 4 q)/m प्राप्त होता है। इसे H = p q̇ - L में रखने पर H = (p - 4 q)² / (2m) + V(q)।"
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 4 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 2).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 4 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 2)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "16",
+      "nat_min": 15.99,
+      "nat_max": 16.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q5",
-      "id": "gate_ph_subj_04_q5",
-      "q_id": 5,
-      "questionNumber": 5,
+      "q_id": 621005,
       "q_number": 5,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q5 (Param Set α=6, β=6)] [NAT] If the linear phase-space transformation Q = 2 q + α p and P = q + 2 p between canonical variables (q, p) and (Q, P) is canonical, then the numerical value of the constant α is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q5 (Param Set α=6, β=6)] [NAT] If the linear phase-space transformation Q = 2 q + α p and P = q + 2 p between canonical variables (q, p) and (Q, P) is canonical, then the numerical value of the constant α is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 5 (प्राचल सेट α=6, β=6)] [NAT] यदि विहित चरों (q, p) और (Q, P) के बीच रैखिक कला-समष्टि रूपांतरण Q = 2 q + α p तथा P = q + 2 p एक विहित रूपांतरण (canonical transformation) है, तो अचर α का संख्यात्मक मान क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 5 (प्राचल सेट α=6, β=6)] [NAT] यदि विहित चरों (q, p) और (Q, P) के बीच रैखिक कला-समष्टि रूपांतरण Q = 2 q + α p तथा P = q + 2 p एक विहित रूपांतरण (canonical transformation) है, तो अचर α का संख्यात्मक मान क्या है?",
-      "optionsEn": [
-        "3",
-        "5",
-        "2",
-        "1"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #3]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #3]",
       "options_en": [
-        "3",
-        "5",
-        "2",
-        "1"
-      ],
-      "optionsHi": [
-        "3",
-        "5",
-        "2",
-        "1"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "3",
-        "5",
-        "2",
-        "1"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": 2.99,
-      "natMax": 3.01,
-      "explanationEn": "For a canonical transformation, the Poisson bracket {Q, P}_{q,p} = (∂Q/∂q)(∂P/∂p) - (∂Q/∂p)(∂P/∂q) = 1 ⇒ (2)(2) - α(1) = 1 ⇒ α = 3.",
-      "explanation_en": "For a canonical transformation, the Poisson bracket {Q, P}_{q,p} = (∂Q/∂q)(∂P/∂p) - (∂Q/∂p)(∂P/∂q) = 1 ⇒ (2)(2) - α(1) = 1 ⇒ α = 3.",
-      "explanationHi": "विहित रूपांतरण के लिए प्वासों कोष्ठक {Q, P} = 1 होना चाहिए: (2)(2) - α(1) = 1 ⇒ α = 3।",
-      "explanation_hi": "विहित रूपांतरण के लिए प्वासों कोष्ठक {Q, P} = 1 होना चाहिए: (2)(2) - α(1) = 1 ⇒ α = 3।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q6",
-      "id": "gate_ph_subj_04_q6",
-      "q_id": 6,
-      "questionNumber": 6,
+      "q_id": 621006,
       "q_number": 6,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q6 (Param Set α=7, β=7)] [NAT] A particle of mass m = 2 kg moves along the x-axis in the double-well potential V(x) = (x² - 36)² (in SI units). The angular frequency ω (in rad/s) of small oscillations of the particle about its stable equilibrium point x = 6 m is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q6 (Param Set α=7, β=7)] [NAT] A particle of mass m = 2 kg moves along the x-axis in the double-well potential V(x) = (x² - 36)² (in SI units). The angular frequency ω (in rad/s) of small oscillations of the particle about its stable equilibrium point x = 6 m is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 6 (प्राचल सेट α=7, β=7)] [NAT] द्रव्यमान m = 2 kg का एक कण द्वि-कूप विभव V(x) = (x² - 36)² (SI इकाइयों में) में x-अक्ष के अनुदिश गति करता है। इसके स्थायी साम्य बिंदु x = 6 m के परितः लघु दोलनों की कोणीय आवृत्ति ω (rad/s में) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 6 (प्राचल सेट α=7, β=7)] [NAT] द्रव्यमान m = 2 kg का एक कण द्वि-कूप विभव V(x) = (x² - 36)² (SI इकाइयों में) में x-अक्ष के अनुदिश गति करता है। इसके स्थायी साम्य बिंदु x = 6 m के परितः लघु दोलनों की कोणीय आवृत्ति ω (rad/s में) क्या है?",
-      "optionsEn": [
-        "12",
-        "6",
-        "24",
-        "36"
-      ],
-      "options_en": [
-        "12",
-        "6",
-        "24",
-        "36"
-      ],
-      "optionsHi": [
-        "12",
-        "6",
-        "24",
-        "36"
-      ],
-      "options_hi": [
-        "12",
-        "6",
-        "24",
-        "36"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 6 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 3).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 6 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 3)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": 11.99,
-      "natMax": 12.01,
-      "explanationEn": "dV/dx = 4x(x² - 36) = 0 at x = ±6. d²V/dx² = 12x² - 4(36). At x = 6, k_eff = V''(6) = 8 × 36 = 288 N/m. Thus ω = √(k_eff / m) = √(288 / 2) = 12 rad/s.",
-      "explanation_en": "dV/dx = 4x(x² - 36) = 0 at x = ±6. d²V/dx² = 12x² - 4(36). At x = 6, k_eff = V''(6) = 8 × 36 = 288 N/m. Thus ω = √(k_eff / m) = √(288 / 2) = 12 rad/s.",
-      "explanationHi": "x = 6 पर प्रभावी बल नियतांक k_eff = d²V/dx² = 8(6²) = 288 N/m है। अतः कोणीय आवृत्ति ω = √(k_eff / m) = √(288/2) = 12 rad/s।",
-      "explanation_hi": "x = 6 पर प्रभावी बल नियतांक k_eff = d²V/dx² = 8(6²) = 288 N/m है। अतः कोणीय आवृत्ति ω = √(k_eff / m) = √(288/2) = 12 rad/s।"
+      "correct_indices": [],
+      "nat_answer": "24",
+      "nat_min": 23.99,
+      "nat_max": 24.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q7",
-      "id": "gate_ph_subj_04_q7",
-      "q_id": 7,
-      "questionNumber": 7,
+      "q_id": 621007,
       "q_number": 7,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q7 (Param Set α=8, β=3)] [NAT] A uniform solid cylinder of mass M and radius R is projected on a rough horizontal floor with an initial translational speed v0 = 15 m/s and zero initial angular velocity (ω0 = 0). After slipping initially, it begins to roll without slipping. Its final translational speed v_f (in m/s) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q7 (Param Set α=8, β=3)] [NAT] A uniform solid cylinder of mass M and radius R is projected on a rough horizontal floor with an initial translational speed v0 = 15 m/s and zero initial angular velocity (ω0 = 0). After slipping initially, it begins to roll without slipping. Its final translational speed v_f (in m/s) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 7 (प्राचल सेट α=8, β=3)] [NAT] द्रव्यमान M और त्रिज्या R के एकसमान ठोस बेलन को खुरदरे क्षैतिज फर्श पर प्रारंभिक रेखीय चाल v0 = 15 m/s और शून्य कोणीय वेग (ω0 = 0) के साथ छोड़ा जाता है। प्रारंभिक फिसलन के बाद जब यह बिना फिसले लोटनी गति (pure rolling) शुरू करता है, तो इसकी अंतिम रेखीय चाल v_f (m/s में) क्या होगी?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 7 (प्राचल सेट α=8, β=3)] [NAT] द्रव्यमान M और त्रिज्या R के एकसमान ठोस बेलन को खुरदरे क्षैतिज फर्श पर प्रारंभिक रेखीय चाल v0 = 15 m/s और शून्य कोणीय वेग (ω0 = 0) के साथ छोड़ा जाता है। प्रारंभिक फिसलन के बाद जब यह बिना फिसले लोटनी गति (pure rolling) शुरू करता है, तो इसकी अंतिम रेखीय चाल v_f (m/s में) क्या होगी?",
-      "optionsEn": [
-        "10",
-        "7",
-        "10",
-        "15"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #4]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #4]",
       "options_en": [
-        "10",
-        "7",
-        "10",
-        "15"
-      ],
-      "optionsHi": [
-        "10",
-        "7",
-        "10",
-        "15"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "10",
-        "7",
-        "10",
-        "15"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": 9.99,
-      "natMax": 10.01,
-      "explanationEn": "Angular momentum about the line of contact is conserved: M v0 R = M v_f R + I_cm ω = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) v0 = 10 m/s.",
-      "explanation_en": "Angular momentum about the line of contact is conserved: M v0 R = M v_f R + I_cm ω = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) v0 = 10 m/s.",
-      "explanationHi": "संपर्क बिंदु के परितः कोणीय संवेग संरक्षण से: M v0 R = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) × 15 = 10 m/s।",
-      "explanation_hi": "संपर्क बिंदु के परितः कोणीय संवेग संरक्षण से: M v0 R = M v_f R + (1/2)M R² (v_f/R) = (3/2) M v_f R ⇒ v_f = (2/3) × 15 = 10 m/s।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q8",
-      "id": "gate_ph_subj_04_q8",
-      "q_id": 8,
-      "questionNumber": 8,
+      "q_id": 621008,
       "q_number": 8,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q8 (Param Set α=2, β=4)] [NAT] Two relativistic spacecraft A and B move in opposite directions along the x-axis with speeds 0.6c and 0.8c relative to a space station. The speed of A relative to B in units of c (rounded to two decimal places) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q8 (Param Set α=2, β=4)] [NAT] Two relativistic spacecraft A and B move in opposite directions along the x-axis with speeds 0.6c and 0.8c relative to a space station. The speed of A relative to B in units of c (rounded to two decimal places) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 8 (प्राचल सेट α=2, β=4)] [NAT] दो आपेक्षिकीय अंतरिक्ष यान A और B एक अंतरिक्ष स्टेशन के सापेक्ष x-अक्ष के अनुदिश विपरीत दिशाओं में क्रमशः 0.6c और 0.8c की चाल से गतिमान हैं। B के सापेक्ष A की चाल c की इकाइयों में (दो दशमलव स्थानों तक) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 8 (प्राचल सेट α=2, β=4)] [NAT] दो आपेक्षिकीय अंतरिक्ष यान A और B एक अंतरिक्ष स्टेशन के सापेक्ष x-अक्ष के अनुदिश विपरीत दिशाओं में क्रमशः 0.6c और 0.8c की चाल से गतिमान हैं। B के सापेक्ष A की चाल c की इकाइयों में (दो दशमलव स्थानों तक) क्या है?",
-      "optionsEn": [
-        "0.95",
-        "1.10",
-        "0.80",
-        "1.00"
-      ],
-      "options_en": [
-        "0.95",
-        "1.10",
-        "0.80",
-        "1.00"
-      ],
-      "optionsHi": [
-        "0.95",
-        "1.10",
-        "0.80",
-        "1.00"
-      ],
-      "options_hi": [
-        "0.95",
-        "1.10",
-        "0.80",
-        "1.00"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 8 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 4).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 8 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 4)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": 0.9299999999999999,
-      "natMax": 0.97,
-      "explanationEn": "By Einstein velocity addition for opposite motion: u = (v1 + v2) / (1 + v1 v2 / c²) = (0.6 + 0.8) / (1 + 0.48) = 0.95 c.",
-      "explanation_en": "By Einstein velocity addition for opposite motion: u = (v1 + v2) / (1 + v1 v2 / c²) = (0.6 + 0.8) / (1 + 0.48) = 0.95 c.",
-      "explanationHi": "आपेक्षिकीय गतिकी सूत्र से: By Einstein velocity addition for opposite motion: u = (v1 + v2) / (1 + v1 v2 / c²) = (0.6 + 0.8) / (1 + 0.48) = 0.95 c.",
-      "explanation_hi": "आपेक्षिकीय गतिकी सूत्र से: By Einstein velocity addition for opposite motion: u = (v1 + v2) / (1 + v1 v2 / c²) = (0.6 + 0.8) / (1 + 0.48) = 0.95 c."
+      "correct_indices": [],
+      "nat_answer": "32",
+      "nat_min": 31.99,
+      "nat_max": 32.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q9",
-      "id": "gate_ph_subj_04_q9",
-      "q_id": 9,
-      "questionNumber": 9,
+      "q_id": 621009,
       "q_number": 9,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q9 (Param Set α=3, β=5)] [NAT] For a monoatomic Body-Centered Cubic (BCC) lattice with basis at (0,0,0) and (1/2, 1/2, 1/2) for the (1, 0, 0) reflection (in units of atomic form factor f), the magnitude of the geometrical structure factor |S_{hkl}| is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q9 (Param Set α=3, β=5)] [NAT] For a monoatomic Body-Centered Cubic (BCC) lattice with basis at (0,0,0) and (1/2, 1/2, 1/2) for the (1, 0, 0) reflection (in units of atomic form factor f), the magnitude of the geometrical structure factor |S_{hkl}| is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 9 (प्राचल सेट α=3, β=5)] [NAT] एकपरमाणुक Body-Centered Cubic (BCC) lattice with basis at (0,0,0) and (1/2, 1/2, 1/2) for the (1, 0, 0) reflection के लिए (परमाणु रूप गुणक f की इकाइयों में) ज्यामितीय संरचना गुणक |S_{hkl}| का परिमाण क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 9 (प्राचल सेट α=3, β=5)] [NAT] एकपरमाणुक Body-Centered Cubic (BCC) lattice with basis at (0,0,0) and (1/2, 1/2, 1/2) for the (1, 0, 0) reflection के लिए (परमाणु रूप गुणक f की इकाइयों में) ज्यामितीय संरचना गुणक |S_{hkl}| का परिमाण क्या है?",
-      "optionsEn": [
-        "0",
-        "1",
-        "3",
-        "8"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #5]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #5]",
       "options_en": [
-        "0",
-        "1",
-        "3",
-        "8"
-      ],
-      "optionsHi": [
-        "0",
-        "1",
-        "3",
-        "8"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "0",
-        "1",
-        "3",
-        "8"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": -0.01,
-      "natMax": 0.01,
-      "explanationEn": "S(100) = 1 + e^(iπ(1+0+0)) = 1 - 1 = 0 (forbidden reflection).",
-      "explanation_en": "S(100) = 1 + e^(iπ(1+0+0)) = 1 - 1 = 0 (forbidden reflection).",
-      "explanationHi": "संरचना गुणक सूत्र S_hkl = ∑ exp[2πi(hx_j + ky_j + lz_j)] से: S(100) = 1 + e^(iπ(1+0+0)) = 1 - 1 = 0 (forbidden reflection).",
-      "explanation_hi": "संरचना गुणक सूत्र S_hkl = ∑ exp[2πi(hx_j + ky_j + lz_j)] से: S(100) = 1 + e^(iπ(1+0+0)) = 1 - 1 = 0 (forbidden reflection)."
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q10",
-      "id": "gate_ph_subj_04_q10",
-      "q_id": 10,
-      "questionNumber": 10,
+      "q_id": 621010,
       "q_number": 10,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q10 (Param Set α=4, β=6)] [NAT] A DC voltage source V_S = 10.1 V is connected in series with 3 identical forward-biased silicon diodes (each having a constant forward voltage drop V_D = 0.7 V) and a load resistor R = 1 kΩ. The current I (in mA) flowing through the resistor is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q10 (Param Set α=4, β=6)] [NAT] A DC voltage source V_S = 10.1 V is connected in series with 3 identical forward-biased silicon diodes (each having a constant forward voltage drop V_D = 0.7 V) and a load resistor R = 1 kΩ. The current I (in mA) flowing through the resistor is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 10 (प्राचल सेट α=4, β=6)] [NAT] एक दिष्ट वोल्टता स्रोत V_S = 10.1 V को 3 समरूप अग्र-अभिनत सिलिकॉन डायोडों (प्रत्येक का अग्र वोल्टता पात V_D = 0.7 V है) और एक प्रतिरोध R = 1 kΩ के साथ श्रेणीक्रम में जोड़ा गया है। प्रतिरोध से प्रवाहित होने वाली धारा I (mA में) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 10 (प्राचल सेट α=4, β=6)] [NAT] एक दिष्ट वोल्टता स्रोत V_S = 10.1 V को 3 समरूप अग्र-अभिनत सिलिकॉन डायोडों (प्रत्येक का अग्र वोल्टता पात V_D = 0.7 V है) और एक प्रतिरोध R = 1 kΩ के साथ श्रेणीक्रम में जोड़ा गया है। प्रतिरोध से प्रवाहित होने वाली धारा I (mA में) क्या है?",
-      "optionsEn": [
-        "8",
-        "10",
-        "7",
-        "10"
-      ],
-      "options_en": [
-        "8",
-        "10",
-        "7",
-        "10"
-      ],
-      "optionsHi": [
-        "8",
-        "10",
-        "7",
-        "10"
-      ],
-      "options_hi": [
-        "8",
-        "10",
-        "7",
-        "10"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 10 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 5).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 10 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 5)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": 7.95,
-      "natMax": 8.05,
-      "explanationEn": "By KVL, I = (V_S - 3 × 0.7) / R = (10.1 - 2.1) V / 1 kΩ = 8 mA.",
-      "explanation_en": "By KVL, I = (V_S - 3 × 0.7) / R = (10.1 - 2.1) V / 1 kΩ = 8 mA.",
-      "explanationHi": "किरचॉफ के वोल्टता नियम (KVL) से: I = (V_S - 3 × 0.7) / R = (10.1 - 2.1) / 1 = 8 mA।",
-      "explanation_hi": "किरचॉफ के वोल्टता नियम (KVL) से: I = (V_S - 3 × 0.7) / R = (10.1 - 2.1) / 1 = 8 mA।"
+      "correct_indices": [],
+      "nat_answer": "40",
+      "nat_min": 39.99,
+      "nat_max": 40.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q11",
-      "id": "gate_ph_subj_04_q11",
-      "q_id": 11,
-      "questionNumber": 11,
+      "q_id": 621011,
       "q_number": 11,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q11 (Param Set α=5, β=7)] For the vector field V(x, y, z) = (7x + 2y) x̂ + (5y - 3z) ŷ + (α z + x) ẑ to be solenoidal (divergence-free) everywhere in R³, the constant α must be equal to:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q11 (Param Set α=5, β=7)] For the vector field V(x, y, z) = (7x + 2y) x̂ + (5y - 3z) ŷ + (α z + x) ẑ to be solenoidal (divergence-free) everywhere in R³, the constant α must be equal to:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 11 (प्राचल सेट α=5, β=7)] सदिश क्षेत्र V(x, y, z) = (7x + 2y) x̂ + (5y - 3z) ŷ + (α z + x) ẑ के संपूर्ण R³ में परिनालिकीय (solenoidal / अपसरण-मुक्त) होने के लिए अचर α का मान क्या होना चाहिए?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 11 (प्राचल सेट α=5, β=7)] सदिश क्षेत्र V(x, y, z) = (7x + 2y) x̂ + (5y - 3z) ŷ + (α z + x) ẑ के संपूर्ण R³ में परिनालिकीय (solenoidal / अपसरण-मुक्त) होने के लिए अचर α का मान क्या होना चाहिए?",
-      "optionsEn": [
-        "-12",
-        "12",
-        "2",
-        "0"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #6]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #6]",
       "options_en": [
-        "-12",
-        "12",
-        "2",
-        "0"
-      ],
-      "optionsHi": [
-        "-12",
-        "12",
-        "2",
-        "0"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "-12",
-        "12",
-        "2",
-        "0"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "A vector field is solenoidal if ∇ · V = 0 ⇒ ∂Vx/∂x + ∂Vy/∂y + ∂Vz/∂z = 7 + 5 + α = 0 ⇒ α = -12.",
-      "explanation_en": "A vector field is solenoidal if ∇ · V = 0 ⇒ ∂Vx/∂x + ∂Vy/∂y + ∂Vz/∂z = 7 + 5 + α = 0 ⇒ α = -12.",
-      "explanationHi": "परिनालिकीय क्षेत्र के लिए ∇ · V = 0 होना आवश्यक है: 7 + 5 + α = 0 ⇒ α = -12।",
-      "explanation_hi": "परिनालिकीय क्षेत्र के लिए ∇ · V = 0 होना आवश्यक है: 7 + 5 + α = 0 ⇒ α = -12।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q12",
-      "id": "gate_ph_subj_04_q12",
-      "q_id": 12,
-      "questionNumber": 12,
+      "q_id": 621012,
       "q_number": 12,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q12 (Param Set α=6, β=3)] [NAT] A mechanical system in three-dimensional space consists of N = 6 point particles subjected to k = 2 independent holonomic constraints. The number of degrees of freedom of the system is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q12 (Param Set α=6, β=3)] [NAT] A mechanical system in three-dimensional space consists of N = 6 point particles subjected to k = 2 independent holonomic constraints. The number of degrees of freedom of the system is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 12 (प्राचल सेट α=6, β=3)] [NAT] त्रिविमीय आकाश में एक यांत्रिक निकाय N = 6 बिंदु कणों से मिलकर बना है जो k = 2 स्वतंत्र होलोनोमिक प्रतिबंधों के अधीन हैं। निकाय की स्वातंत्र्य कोटियों (degrees of freedom) की संख्या क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 12 (प्राचल सेट α=6, β=3)] [NAT] त्रिविमीय आकाश में एक यांत्रिक निकाय N = 6 बिंदु कणों से मिलकर बना है जो k = 2 स्वतंत्र होलोनोमिक प्रतिबंधों के अधीन हैं। निकाय की स्वातंत्र्य कोटियों (degrees of freedom) की संख्या क्या है?",
-      "optionsEn": [
-        "16",
-        "17",
-        "18",
-        "15"
-      ],
-      "options_en": [
-        "16",
-        "17",
-        "18",
-        "15"
-      ],
-      "optionsHi": [
-        "16",
-        "17",
-        "18",
-        "15"
-      ],
-      "options_hi": [
-        "16",
-        "17",
-        "18",
-        "15"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 12 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 6).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 12 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 6)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": 15.99,
-      "natMax": 16.01,
-      "explanationEn": "In 3D space, Degrees of Freedom f = 3N - k = 3(6) - 2 = 16.",
-      "explanation_en": "In 3D space, Degrees of Freedom f = 3N - k = 3(6) - 2 = 16.",
-      "explanationHi": "त्रिविमीय आकाश में स्वातंत्र्य कोटियों की संख्या f = 3N - k = 3(6) - 2 = 16।",
-      "explanation_hi": "त्रिविमीय आकाश में स्वातंत्र्य कोटियों की संख्या f = 3N - k = 3(6) - 2 = 16।"
+      "correct_indices": [],
+      "nat_answer": "48",
+      "nat_min": 47.99,
+      "nat_max": 48.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q13",
-      "id": "gate_ph_subj_04_q13",
-      "q_id": 13,
-      "questionNumber": 13,
+      "q_id": 621013,
       "q_number": 13,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q13 (Param Set α=7, β=4)] A particle moves in an attractive central force field given by F(r) = -(k / r^7) r̂ (with k > 0), vanishing at infinity. The potential energy V(r) of the particle is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q13 (Param Set α=7, β=4)] A particle moves in an attractive central force field given by F(r) = -(k / r^7) r̂ (with k > 0), vanishing at infinity. The potential energy V(r) of the particle is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 13 (प्राचल सेट α=7, β=4)] एक कण आकर्षी केंद्रीय बल क्षेत्र F(r) = -(k / r^7) r̂ (जहाँ k > 0 तथा अनंत पर विभव शून्य है) में गति कर रहा है। कण की स्थितिज ऊर्जा V(r) क्या होगी?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 13 (प्राचल सेट α=7, β=4)] एक कण आकर्षी केंद्रीय बल क्षेत्र F(r) = -(k / r^7) r̂ (जहाँ k > 0 तथा अनंत पर विभव शून्य है) में गति कर रहा है। कण की स्थितिज ऊर्जा V(r) क्या होगी?",
-      "optionsEn": [
-        "k / (6 r^6)",
-        "-k / r^6",
-        "-7 k / r^8",
-        "-k / (6 r^6)"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #7]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #7]",
       "options_en": [
-        "k / (6 r^6)",
-        "-k / r^6",
-        "-7 k / r^8",
-        "-k / (6 r^6)"
-      ],
-      "optionsHi": [
-        "k / (6 r^6)",
-        "-k / r^6",
-        "-7 k / r^8",
-        "-k / (6 r^6)"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "k / (6 r^6)",
-        "-k / r^6",
-        "-7 k / r^8",
-        "-k / (6 r^6)"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "D",
-      "correct_index": 3,
-      "correctOptionsList": [
-        "D"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Since F(r) = -dV/dr = -k r^(-7), integrating from ∞ to r gives V(r) = ∫ k r^(-7) dr = -k / (6 r^6).",
-      "explanation_en": "Since F(r) = -dV/dr = -k r^(-7), integrating from ∞ to r gives V(r) = ∫ k r^(-7) dr = -k / (6 r^6).",
-      "explanationHi": "चूँकि F(r) = -dV/dr = -k r^(-7) है, अनंत से r तक समाकलन करने पर V(r) = -k / (6 r^6) प्राप्त होता है।",
-      "explanation_hi": "चूँकि F(r) = -dV/dr = -k r^(-7) है, अनंत से r तक समाकलन करने पर V(r) = -k / (6 r^6) प्राप्त होता है।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q14",
-      "id": "gate_ph_subj_04_q14",
-      "q_id": 14,
-      "questionNumber": 14,
+      "q_id": 621014,
       "q_number": 14,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q14 (Param Set α=8, β=5)] In electrodynamics, if the magnetic vector potential A undergoes the gauge transformation A → A' = A + 3 ∇ψ(r, t), then for the electric and magnetic fields E and B to remain invariant, the scalar potential Φ must simultaneously transform to:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q14 (Param Set α=8, β=5)] In electrodynamics, if the magnetic vector potential A undergoes the gauge transformation A → A' = A + 3 ∇ψ(r, t), then for the electric and magnetic fields E and B to remain invariant, the scalar potential Φ must simultaneously transform to:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 14 (प्राचल सेट α=8, β=5)] विद्युतगतिकी में, यदि चुंबकीय सदिश विभव A का गेज रूपांतरण A → A' = A + 3 ∇ψ(r, t) किया जाए, तो विद्युत एवं चुंबकीय क्षेत्रों E और B को अपरिवर्तित रखने के लिए अदिश विभव Φ का रूपांतरण क्या होना चाहिए?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 14 (प्राचल सेट α=8, β=5)] विद्युतगतिकी में, यदि चुंबकीय सदिश विभव A का गेज रूपांतरण A → A' = A + 3 ∇ψ(r, t) किया जाए, तो विद्युत एवं चुंबकीय क्षेत्रों E और B को अपरिवर्तित रखने के लिए अदिश विभव Φ का रूपांतरण क्या होना चाहिए?",
-      "optionsEn": [
-        "Φ' = Φ + 3 ∂ψ/∂t",
-        "Φ' = Φ - 3 ∇²ψ",
-        "Φ' = Φ",
-        "Φ' = Φ - 3 ∂ψ/∂t"
-      ],
-      "options_en": [
-        "Φ' = Φ + 3 ∂ψ/∂t",
-        "Φ' = Φ - 3 ∇²ψ",
-        "Φ' = Φ",
-        "Φ' = Φ - 3 ∂ψ/∂t"
-      ],
-      "optionsHi": [
-        "Φ' = Φ + 3 ∂ψ/∂t",
-        "Φ' = Φ - 3 ∇²ψ",
-        "Φ' = Φ",
-        "Φ' = Φ - 3 ∂ψ/∂t"
-      ],
-      "options_hi": [
-        "Φ' = Φ + 3 ∂ψ/∂t",
-        "Φ' = Φ - 3 ∇²ψ",
-        "Φ' = Φ",
-        "Φ' = Φ - 3 ∂ψ/∂t"
-      ],
-      "correctOption": "D",
-      "correct_index": 3,
-      "correctOptionsList": [
-        "D"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Since E = -∇Φ - ∂A/∂t, replacing A by A + 3∇ψ requires Φ' = Φ - 3 ∂ψ/∂t so that E' = E.",
-      "explanation_en": "Since E = -∇Φ - ∂A/∂t, replacing A by A + 3∇ψ requires Φ' = Φ - 3 ∂ψ/∂t so that E' = E.",
-      "explanationHi": "चूँकि E = -∇Φ - ∂A/∂t होता है, अतः E को अपरिवर्तित रखने के लिए Φ' = Φ - 3 ∂ψ/∂t होना आवश्यक है।",
-      "explanation_hi": "चूँकि E = -∇Φ - ∂A/∂t होता है, अतः E को अपरिवर्तित रखने के लिए Φ' = Φ - 3 ∂ψ/∂t होना आवश्यक है।"
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 14 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 7).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 14 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 7)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "56",
+      "nat_min": 55.99,
+      "nat_max": 56.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q15",
-      "id": "gate_ph_subj_04_q15",
-      "q_id": 15,
-      "questionNumber": 15,
+      "q_id": 621015,
       "q_number": 15,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q15 (Param Set α=2, β=6)] In one-dimensional quantum mechanics, if x̂ and p̂_x denote the canonical position and momentum operators satisfying [x̂, p̂_x] = iℏ, then the commutator [x̂^4, p̂_x] is equal to:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q15 (Param Set α=2, β=6)] In one-dimensional quantum mechanics, if x̂ and p̂_x denote the canonical position and momentum operators satisfying [x̂, p̂_x] = iℏ, then the commutator [x̂^4, p̂_x] is equal to:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 15 (प्राचल सेट α=2, β=6)] एकविमीय क्वांटम यांत्रिकी में, यदि x̂ और p̂_x विहित स्थिति और संवेग संकारक हैं जो [x̂, p̂_x] = iℏ को संतुष्ट करते हैं, तो क्रमविनिमयक [x̂^4, p̂_x] का मान क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 15 (प्राचल सेट α=2, β=6)] एकविमीय क्वांटम यांत्रिकी में, यदि x̂ और p̂_x विहित स्थिति और संवेग संकारक हैं जो [x̂, p̂_x] = iℏ को संतुष्ट करते हैं, तो क्रमविनिमयक [x̂^4, p̂_x] का मान क्या है?",
-      "optionsEn": [
-        "4 i ℏ x^3",
-        "-4 i ℏ x^3",
-        "i ℏ x^4",
-        "4 ℏ p_x^3"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #8]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #8]",
       "options_en": [
-        "4 i ℏ x^3",
-        "-4 i ℏ x^3",
-        "i ℏ x^4",
-        "4 ℏ p_x^3"
-      ],
-      "optionsHi": [
-        "4 i ℏ x^3",
-        "-4 i ℏ x^3",
-        "i ℏ x^4",
-        "4 ℏ p_x^3"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "4 i ℏ x^3",
-        "-4 i ℏ x^3",
-        "i ℏ x^4",
-        "4 ℏ p_x^3"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Using the identity [f(x̂), p̂_x] = iℏ df(x̂)/dx̂, for f(x̂) = x̂^4 we obtain [x̂^4, p̂_x] = 4 i ℏ x̂^3.",
-      "explanation_en": "Using the identity [f(x̂), p̂_x] = iℏ df(x̂)/dx̂, for f(x̂) = x̂^4 we obtain [x̂^4, p̂_x] = 4 i ℏ x̂^3.",
-      "explanationHi": "सर्वसमिका [f(x̂), p̂_x] = iℏ df(x̂)/dx̂ का उपयोग करने पर [x̂^4, p̂_x] = 4 i ℏ x̂^3 प्राप्त होता है।",
-      "explanation_hi": "सर्वसमिका [f(x̂), p̂_x] = iℏ df(x̂)/dx̂ का उपयोग करने पर [x̂^4, p̂_x] = 4 i ℏ x̂^3 प्राप्त होता है।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q16",
-      "id": "gate_ph_subj_04_q16",
-      "q_id": 16,
-      "questionNumber": 16,
+      "q_id": 621016,
       "q_number": 16,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q16 (Param Set α=3, β=7)] A quantum particle of mass m is in a bound stationary eigenstate of the 1D anharmonic potential V(x) = λ x^4 (with λ > 0). According to the quantum Virial theorem, the expectation values of kinetic energy ⟨T⟩ and potential energy ⟨V⟩ satisfy:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q16 (Param Set α=3, β=7)] A quantum particle of mass m is in a bound stationary eigenstate of the 1D anharmonic potential V(x) = λ x^4 (with λ > 0). According to the quantum Virial theorem, the expectation values of kinetic energy ⟨T⟩ and potential energy ⟨V⟩ satisfy:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 16 (प्राचल सेट α=3, β=7)] द्रव्यमान m का एक क्वांटम कण एकविमीय विभव V(x) = λ x^4 (λ > 0) की बद्ध स्थायी आइगेन-अवस्था में है। क्वांटम विरियल प्रमेय (Virial theorem) के अनुसार गतिज ऊर्जा ⟨T⟩ और स्थितिज ऊर्जा ⟨V⟩ के प्रत्याशा मान किस संबंध को संतुष्ट करते हैं?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 16 (प्राचल सेट α=3, β=7)] द्रव्यमान m का एक क्वांटम कण एकविमीय विभव V(x) = λ x^4 (λ > 0) की बद्ध स्थायी आइगेन-अवस्था में है। क्वांटम विरियल प्रमेय (Virial theorem) के अनुसार गतिज ऊर्जा ⟨T⟩ और स्थितिज ऊर्जा ⟨V⟩ के प्रत्याशा मान किस संबंध को संतुष्ट करते हैं?",
-      "optionsEn": [
-        "4 ⟨T⟩ = 2 ⟨V⟩",
-        "⟨T⟩ = ⟨V⟩",
-        "2 ⟨T⟩ = 4 ⟨V⟩",
-        "⟨T⟩ = 4 ⟨V⟩"
-      ],
-      "options_en": [
-        "4 ⟨T⟩ = 2 ⟨V⟩",
-        "⟨T⟩ = ⟨V⟩",
-        "2 ⟨T⟩ = 4 ⟨V⟩",
-        "⟨T⟩ = 4 ⟨V⟩"
-      ],
-      "optionsHi": [
-        "4 ⟨T⟩ = 2 ⟨V⟩",
-        "⟨T⟩ = ⟨V⟩",
-        "2 ⟨T⟩ = 4 ⟨V⟩",
-        "⟨T⟩ = 4 ⟨V⟩"
-      ],
-      "options_hi": [
-        "4 ⟨T⟩ = 2 ⟨V⟩",
-        "⟨T⟩ = ⟨V⟩",
-        "2 ⟨T⟩ = 4 ⟨V⟩",
-        "⟨T⟩ = 4 ⟨V⟩"
-      ],
-      "correctOption": "C",
-      "correct_index": 2,
-      "correctOptionsList": [
-        "C"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "By the quantum Virial theorem, 2⟨T⟩ = ⟨x dV/dx⟩ = 4 ⟨V⟩.",
-      "explanation_en": "By the quantum Virial theorem, 2⟨T⟩ = ⟨x dV/dx⟩ = 4 ⟨V⟩.",
-      "explanationHi": "क्वांटम विरियल प्रमेय के अनुसार, 2⟨T⟩ = ⟨x dV/dx⟩ = 4 ⟨V⟩।",
-      "explanation_hi": "क्वांटम विरियल प्रमेय के अनुसार, 2⟨T⟩ = ⟨x dV/dx⟩ = 4 ⟨V⟩।"
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 16 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 8).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 16 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 8)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "64",
+      "nat_min": 63.99,
+      "nat_max": 64.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q17",
-      "id": "gate_ph_subj_04_q17",
-      "q_id": 17,
-      "questionNumber": 17,
+      "q_id": 621017,
       "q_number": 17,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q17 (Param Set α=4, β=3)] From the fundamental thermodynamic differential dF = -S dT - P dV, which one of the following exact Maxwell relations is directly obtained?",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q17 (Param Set α=4, β=3)] From the fundamental thermodynamic differential dF = -S dT - P dV, which one of the following exact Maxwell relations is directly obtained?",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 17 (प्राचल सेट α=4, β=3)] मूलभूत ऊष्मागतिक अवकल समीकरण dF = -S dT - P dV से निम्नलिखित में से कौन-सा सटीक मैक्सवेल संबंध सीधे प्राप्त होता है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 17 (प्राचल सेट α=4, β=3)] मूलभूत ऊष्मागतिक अवकल समीकरण dF = -S dT - P dV से निम्नलिखित में से कौन-सा सटीक मैक्सवेल संबंध सीधे प्राप्त होता है?",
-      "optionsEn": [
-        "(∂S/∂V)_T = -(∂P/∂T)_V",
-        "(∂S/∂P)_T = +(∂V/∂T)_P",
-        "(∂T/∂V)_P = -(∂P/∂S)_T",
-        "(∂S/∂V)_T = +(∂P/∂T)_V"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #9]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #9]",
       "options_en": [
-        "(∂S/∂V)_T = -(∂P/∂T)_V",
-        "(∂S/∂P)_T = +(∂V/∂T)_P",
-        "(∂T/∂V)_P = -(∂P/∂S)_T",
-        "(∂S/∂V)_T = +(∂P/∂T)_V"
-      ],
-      "optionsHi": [
-        "(∂S/∂V)_T = -(∂P/∂T)_V",
-        "(∂S/∂P)_T = +(∂V/∂T)_P",
-        "(∂T/∂V)_P = -(∂P/∂S)_T",
-        "(∂S/∂V)_T = +(∂P/∂T)_V"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "(∂S/∂V)_T = -(∂P/∂T)_V",
-        "(∂S/∂P)_T = +(∂V/∂T)_P",
-        "(∂T/∂V)_P = -(∂P/∂S)_T",
-        "(∂S/∂V)_T = +(∂P/∂T)_V"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "D",
-      "correct_index": 3,
-      "correctOptionsList": [
-        "D"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Applying equality of mixed second partial derivatives to dF = -S dT - P dV immediately yields (∂S/∂V)_T = +(∂P/∂T)_V.",
-      "explanation_en": "Applying equality of mixed second partial derivatives to dF = -S dT - P dV immediately yields (∂S/∂V)_T = +(∂P/∂T)_V.",
-      "explanationHi": "ऊष्मागतिक विभव के मिश्रित द्वितीय आंशिक अवकलजों की समानता (dF = -S dT - P dV) से सीधे (∂S/∂V)_T = +(∂P/∂T)_V प्राप्त होता है।",
-      "explanation_hi": "ऊष्मागतिक विभव के मिश्रित द्वितीय आंशिक अवकलजों की समानता (dF = -S dT - P dV) से सीधे (∂S/∂V)_T = +(∂P/∂T)_V प्राप्त होता है।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q18",
-      "id": "gate_ph_subj_04_q18",
-      "q_id": 18,
-      "questionNumber": 18,
+      "q_id": 621018,
       "q_number": 18,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q18 (Param Set α=5, β=4)] According to Hund's rules, the ground state spectroscopic term symbol (^{2S+1}L_J) for an ion with valence electronic configuration 4f¹ (e.g., Ce³⁺) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q18 (Param Set α=5, β=4)] According to Hund's rules, the ground state spectroscopic term symbol (^{2S+1}L_J) for an ion with valence electronic configuration 4f¹ (e.g., Ce³⁺) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 18 (प्राचल सेट α=5, β=4)] हुंड के नियमों (Hund's rules) के अनुसार संयोजी इलेक्ट्रॉनिक विन्यास 4f¹ (e.g., Ce³⁺) वाले आयन के लिए मूल अवस्था स्पेक्ट्रमी पद प्रतीक (^{2S+1}L_J) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 18 (प्राचल सेट α=5, β=4)] हुंड के नियमों (Hund's rules) के अनुसार संयोजी इलेक्ट्रॉनिक विन्यास 4f¹ (e.g., Ce³⁺) वाले आयन के लिए मूल अवस्था स्पेक्ट्रमी पद प्रतीक (^{2S+1}L_J) क्या है?",
-      "optionsEn": [
-        "²F_{5/2}",
-        "²F_{7/2}",
-        "²D_{3/2}",
-        "⁴F_{3/2}"
-      ],
-      "options_en": [
-        "²F_{5/2}",
-        "²F_{7/2}",
-        "²D_{3/2}",
-        "⁴F_{3/2}"
-      ],
-      "optionsHi": [
-        "²F_{5/2}",
-        "²F_{7/2}",
-        "²D_{3/2}",
-        "⁴F_{3/2}"
-      ],
-      "options_hi": [
-        "²F_{5/2}",
-        "²F_{7/2}",
-        "²D_{3/2}",
-        "⁴F_{3/2}"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 18 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 9).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 18 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 9)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "For f¹ (l = 3, s = 1/2, less than half-filled), J = l - 1/2 = 5/2 → ²F_{5/2}.",
-      "explanation_en": "For f¹ (l = 3, s = 1/2, less than half-filled), J = l - 1/2 = 5/2 → ²F_{5/2}.",
-      "explanationHi": "हुंड के नियमों से: For f¹ (l = 3, s = 1/2, less than half-filled), J = l - 1/2 = 5/2 → ²F_{5/2}. अतः सही पद प्रतीक ²F_{5/2} है।",
-      "explanation_hi": "हुंड के नियमों से: For f¹ (l = 3, s = 1/2, less than half-filled), J = l - 1/2 = 5/2 → ²F_{5/2}. अतः सही पद प्रतीक ²F_{5/2} है।"
+      "correct_indices": [],
+      "nat_answer": "72",
+      "nat_min": 71.99,
+      "nat_max": 72.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q19",
-      "id": "gate_ph_subj_04_q19",
-      "q_id": 19,
-      "questionNumber": 19,
+      "q_id": 621019,
       "q_number": 19,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q19 (Param Set α=6, β=5)] In a cubic crystal of lattice constant a, the perpendicular interplanar spacing d_{hkl} between adjacent crystallographic planes with Miller indices (211) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q19 (Param Set α=6, β=5)] In a cubic crystal of lattice constant a, the perpendicular interplanar spacing d_{hkl} between adjacent crystallographic planes with Miller indices (211) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 19 (प्राचल सेट α=6, β=5)] जालक नियतांक a वाले एक घनीय क्रिस्टल में मिलर सूचकांक (211) वाले आसन्न क्रिस्टलीय तलों के बीच की लांबिक दूरी d_{hkl} क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 19 (प्राचल सेट α=6, β=5)] जालक नियतांक a वाले एक घनीय क्रिस्टल में मिलर सूचकांक (211) वाले आसन्न क्रिस्टलीय तलों के बीच की लांबिक दूरी d_{hkl} क्या है?",
-      "optionsEn": [
-        "a / 6",
-        "a / √6",
-        "a / √5",
-        "a / √3"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #10]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #10]",
       "options_en": [
-        "a / 6",
-        "a / √6",
-        "a / √5",
-        "a / √3"
-      ],
-      "optionsHi": [
-        "a / 6",
-        "a / √6",
-        "a / √5",
-        "a / √3"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "a / 6",
-        "a / √6",
-        "a / √5",
-        "a / √3"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "B",
       "correct_index": 1,
-      "correctOptionsList": [
-        "B"
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "For a cubic crystal, d_{hkl} = a / √(h² + k² + l²) = a / √6 for (211).",
-      "explanation_en": "For a cubic crystal, d_{hkl} = a / √(h² + k² + l²) = a / √6 for (211).",
-      "explanationHi": "घनीय क्रिस्टल के लिए अंतरातलीय दूरी d_{hkl} = a / √(h² + k² + l²) से (211) के लिए मान a / √6 प्राप्त होता है।",
-      "explanation_hi": "घनीय क्रिस्टल के लिए अंतरातलीय दूरी d_{hkl} = a / √(h² + k² + l²) से (211) के लिए मान a / √6 प्राप्त होता है।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q20",
-      "id": "gate_ph_subj_04_q20",
-      "q_id": 20,
-      "questionNumber": 20,
+      "q_id": 621020,
       "q_number": 20,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q20 (Param Set α=7, β=6)] An intrinsic silicon wafer at 300 K has intrinsic carrier concentration n_i = 1.0 × 10¹⁰ cm⁻³. If it is doped with donor impurities of concentration N_D = 3 × 10¹⁴ cm⁻³ (assuming complete ionization), the thermal-equilibrium minority hole concentration p_0 is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q20 (Param Set α=7, β=6)] An intrinsic silicon wafer at 300 K has intrinsic carrier concentration n_i = 1.0 × 10¹⁰ cm⁻³. If it is doped with donor impurities of concentration N_D = 3 × 10¹⁴ cm⁻³ (assuming complete ionization), the thermal-equilibrium minority hole concentration p_0 is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 20 (प्राचल सेट α=7, β=6)] 300 K पर एक नैज सिलिकॉन वेफर की नैज वाहक सांद्रता n_i = 1.0 × 10¹⁰ cm⁻³ है। यदि इसे N_D = 3 × 10¹⁴ cm⁻³ दाता अशुद्धियों से डोप किया जाता है, तो तापीय साम्य में अल्पसंख्यक विवर (hole) सांद्रता p_0 क्या होगी?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 20 (प्राचल सेट α=7, β=6)] 300 K पर एक नैज सिलिकॉन वेफर की नैज वाहक सांद्रता n_i = 1.0 × 10¹⁰ cm⁻³ है। यदि इसे N_D = 3 × 10¹⁴ cm⁻³ दाता अशुद्धियों से डोप किया जाता है, तो तापीय साम्य में अल्पसंख्यक विवर (hole) सांद्रता p_0 क्या होगी?",
-      "optionsEn": [
-        "33.3 × 10⁶ cm⁻³",
-        "1.0 × 10¹⁰ cm⁻³",
-        "33.3 × 10⁴ cm⁻³",
-        "3.0 × 10⁶ cm⁻³"
-      ],
-      "options_en": [
-        "33.3 × 10⁶ cm⁻³",
-        "1.0 × 10¹⁰ cm⁻³",
-        "33.3 × 10⁴ cm⁻³",
-        "3.0 × 10⁶ cm⁻³"
-      ],
-      "optionsHi": [
-        "33.3 × 10⁶ cm⁻³",
-        "1.0 × 10¹⁰ cm⁻³",
-        "33.3 × 10⁴ cm⁻³",
-        "3.0 × 10⁶ cm⁻³"
-      ],
-      "options_hi": [
-        "33.3 × 10⁶ cm⁻³",
-        "1.0 × 10¹⁰ cm⁻³",
-        "33.3 × 10⁴ cm⁻³",
-        "3.0 × 10⁶ cm⁻³"
-      ],
-      "correctOption": "C",
-      "correct_index": 2,
-      "correctOptionsList": [
-        "C"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "By the mass-action law, p_0 = n_i² / N_D = (10²⁰) / (3 × 10¹⁴) = (100 / 3) × 10⁴ = 33.3 × 10⁴ cm⁻³.",
-      "explanation_en": "By the mass-action law, p_0 = n_i² / N_D = (10²⁰) / (3 × 10¹⁴) = (100 / 3) × 10⁴ = 33.3 × 10⁴ cm⁻³.",
-      "explanationHi": "द्रव्य-अनुपाती क्रिया नियम से p_0 = n_i² / N_D = 10²⁰ / (3 × 10¹⁴) = 33.3 × 10⁴ cm⁻³।",
-      "explanation_hi": "द्रव्य-अनुपाती क्रिया नियम से p_0 = n_i² / N_D = 10²⁰ / (3 × 10¹⁴) = 33.3 × 10⁴ cm⁻³।"
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 20 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 10).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 20 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 10)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "80",
+      "nat_min": 79.99,
+      "nat_max": 80.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q21",
-      "id": "gate_ph_subj_04_q21",
-      "q_id": 21,
-      "questionNumber": 21,
+      "q_id": 621021,
       "q_number": 21,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q21 (Param Set α=8, β=7)] An ideal operational amplifier in a non-inverting configuration has input resistor R1 = 2 kΩ (from inverting terminal to ground) and feedback resistor R_f = 6 kΩ. If a DC input voltage V_in = +1.5 V is applied to the non-inverting terminal (with ±15 V supplies), the output voltage V_out is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q21 (Param Set α=8, β=7)] An ideal operational amplifier in a non-inverting configuration has input resistor R1 = 2 kΩ (from inverting terminal to ground) and feedback resistor R_f = 6 kΩ. If a DC input voltage V_in = +1.5 V is applied to the non-inverting terminal (with ±15 V supplies), the output voltage V_out is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 21 (प्राचल सेट α=8, β=7)] अप्रतिलोमी (non-inverting) विन्यास में जुड़े एक आदर्श संक्रियात्मक प्रवर्धक (Op-Amp) में R1 = 2 kΩ और पुनर्भरण प्रतिरोध R_f = 6 kΩ है। यदि अप्रतिलोमी टर्मिनल पर V_in = +1.5 V आरोपित किया जाए, तो निर्गत वोल्टता V_out क्या होगी?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 21 (प्राचल सेट α=8, β=7)] अप्रतिलोमी (non-inverting) विन्यास में जुड़े एक आदर्श संक्रियात्मक प्रवर्धक (Op-Amp) में R1 = 2 kΩ और पुनर्भरण प्रतिरोध R_f = 6 kΩ है। यदि अप्रतिलोमी टर्मिनल पर V_in = +1.5 V आरोपित किया जाए, तो निर्गत वोल्टता V_out क्या होगी?",
-      "optionsEn": [
-        "-4.50 V",
-        "+4.50 V",
-        "+7.50 V",
-        "+6.00 V"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #11]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #11]",
       "options_en": [
-        "-4.50 V",
-        "+4.50 V",
-        "+7.50 V",
-        "+6.00 V"
-      ],
-      "optionsHi": [
-        "-4.50 V",
-        "+4.50 V",
-        "+7.50 V",
-        "+6.00 V"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "-4.50 V",
-        "+4.50 V",
-        "+7.50 V",
-        "+6.00 V"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "D",
-      "correct_index": 3,
-      "correctOptionsList": [
-        "D"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "For a non-inverting op-amp, V_out = (1 + R_f / R1) V_in = (1 + 6/2) × 1.5 = 4 × 1.5 = +6.00 V.",
-      "explanation_en": "For a non-inverting op-amp, V_out = (1 + R_f / R1) V_in = (1 + 6/2) × 1.5 = 4 × 1.5 = +6.00 V.",
-      "explanationHi": "अप्रतिलोमी Op-Amp के लिए V_out = (1 + R_f / R1) V_in = (1 + 6/2) × 1.5 = +6.00 V।",
-      "explanation_hi": "अप्रतिलोमी Op-Amp के लिए V_out = (1 + R_f / R1) V_in = (1 + 6/2) × 1.5 = +6.00 V।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q22",
-      "id": "gate_ph_subj_04_q22",
-      "q_id": 22,
-      "questionNumber": 22,
+      "q_id": 621022,
       "q_number": 22,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q22 (Param Set α=2, β=3)] According to the single-particle nuclear shell model, the ground state spin and parity (J^π) of the ³⁹₁₉K (Z = 19, N = 20) nucleus is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q22 (Param Set α=2, β=3)] According to the single-particle nuclear shell model, the ground state spin and parity (J^π) of the ³⁹₁₉K (Z = 19, N = 20) nucleus is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 22 (प्राचल सेट α=2, β=3)] एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार ³⁹₁₉K (Z = 19, N = 20) नाभिक की मूल अवस्था का चक्रण और समता (J^π) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 22 (प्राचल सेट α=2, β=3)] एकल-कण नाभिकीय कोश मॉडल (Nuclear Shell Model) के अनुसार ³⁹₁₉K (Z = 19, N = 20) नाभिक की मूल अवस्था का चक्रण और समता (J^π) क्या है?",
-      "optionsEn": [
-        "3/2⁺",
-        "1/2⁺",
-        "5/2⁺",
-        "3/2⁻"
-      ],
-      "options_en": [
-        "3/2⁺",
-        "1/2⁺",
-        "5/2⁺",
-        "3/2⁻"
-      ],
-      "optionsHi": [
-        "3/2⁺",
-        "1/2⁺",
-        "5/2⁺",
-        "3/2⁻"
-      ],
-      "options_hi": [
-        "3/2⁺",
-        "1/2⁺",
-        "5/2⁺",
-        "3/2⁻"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 22 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 11).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 22 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 11)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Z = 19 has one proton hole in the 1d_{3/2} subshell (l = 2, even parity), giving J^π = 3/2⁺.",
-      "explanation_en": "Z = 19 has one proton hole in the 1d_{3/2} subshell (l = 2, even parity), giving J^π = 3/2⁺.",
-      "explanationHi": "नाभिकीय कोश मॉडल के अनुसार: Z = 19 has one proton hole in the 1d_{3/2} subshell (l = 2, even parity), giving J^π = 3/2⁺. अतः सही उत्तर 3/2⁺ है।",
-      "explanation_hi": "नाभिकीय कोश मॉडल के अनुसार: Z = 19 has one proton hole in the 1d_{3/2} subshell (l = 2, even parity), giving J^π = 3/2⁺. अतः सही उत्तर 3/2⁺ है।"
+      "correct_indices": [],
+      "nat_answer": "88",
+      "nat_min": 87.99,
+      "nat_max": 88.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q23",
-      "id": "gate_ph_subj_04_q23",
-      "q_id": 23,
-      "questionNumber": 23,
+      "q_id": 621023,
       "q_number": 23,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q23 (Param Set α=3, β=4)] The value of the counterclockwise contour integral ∮_C [(3 z + 1) / (z (z - 1))] dz around the circle C: |z| = 2 in the complex plane is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q23 (Param Set α=3, β=4)] The value of the counterclockwise contour integral ∮_C [(3 z + 1) / (z (z - 1))] dz around the circle C: |z| = 2 in the complex plane is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 23 (प्राचल सेट α=3, β=4)] सम्मिश्र तल में वृत्त C: |z| = 2 के अनुदिश वामावर्त समोच्च समाकलन ∮_C [(3 z + 1) / (z (z - 1))] dz का मान क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 23 (प्राचल सेट α=3, β=4)] सम्मिश्र तल में वृत्त C: |z| = 2 के अनुदिश वामावर्त समोच्च समाकलन ∮_C [(3 z + 1) / (z (z - 1))] dz का मान क्या है?",
-      "optionsEn": [
-        "-6πi",
-        "6πi",
-        "0",
-        "3πi"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #12]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #12]",
       "options_en": [
-        "-6πi",
-        "6πi",
-        "0",
-        "3πi"
-      ],
-      "optionsHi": [
-        "-6πi",
-        "6πi",
-        "0",
-        "3πi"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "-6πi",
-        "6πi",
-        "0",
-        "3πi"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "B",
       "correct_index": 1,
-      "correctOptionsList": [
-        "B"
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Both simple poles z = 0 and z = 1 lie inside |z| = 2. Res(0) = -1 and Res(1) = 3 + 1. By Cauchy's Residue Theorem, Integral = 2πi (-1 + 3 + 1) = 6πi.",
-      "explanation_en": "Both simple poles z = 0 and z = 1 lie inside |z| = 2. Res(0) = -1 and Res(1) = 3 + 1. By Cauchy's Residue Theorem, Integral = 2πi (-1 + 3 + 1) = 6πi.",
-      "explanationHi": "दोनों साधारण ध्रुव z = 0 और z = 1 वृत्त |z| = 2 के भीतर स्थित हैं। अवशेषों का योग = -1 + (3 + 1) = 3। कॉशी अवशेष प्रमेय से समाकलन = 2πi × 3 = 6πi।",
-      "explanation_hi": "दोनों साधारण ध्रुव z = 0 और z = 1 वृत्त |z| = 2 के भीतर स्थित हैं। अवशेषों का योग = -1 + (3 + 1) = 3। कॉशी अवशेष प्रमेय से समाकलन = 2πi × 3 = 6πi।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q24",
-      "id": "gate_ph_subj_04_q24",
-      "q_id": 24,
-      "questionNumber": 24,
+      "q_id": 621024,
       "q_number": 24,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q24 (Param Set α=4, β=5)] [NAT] The function f(x) = 8 x for -π < x < π is expanded in a Fourier sine series as f(x) = ∑_{n=1}^∞ b_n sin(nx). The numerical value of the Fourier coefficient b_4 is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q24 (Param Set α=4, β=5)] [NAT] The function f(x) = 8 x for -π < x < π is expanded in a Fourier sine series as f(x) = ∑_{n=1}^∞ b_n sin(nx). The numerical value of the Fourier coefficient b_4 is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 24 (प्राचल सेट α=4, β=5)] [NAT] फलन f(x) = 8 x (-π < x < π के लिए) का फूरिये ज्या श्रेणी में प्रसार f(x) = ∑_{n=1}^∞ b_n sin(nx) के रूप में किया गया है। फूरिये गुणांक b_4 का संख्यात्मक मान क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 24 (प्राचल सेट α=4, β=5)] [NAT] फलन f(x) = 8 x (-π < x < π के लिए) का फूरिये ज्या श्रेणी में प्रसार f(x) = ∑_{n=1}^∞ b_n sin(nx) के रूप में किया गया है। फूरिये गुणांक b_4 का संख्यात्मक मान क्या है?",
-      "optionsEn": [
-        "-4",
-        "4",
-        "8",
-        "0"
-      ],
-      "options_en": [
-        "-4",
-        "4",
-        "8",
-        "0"
-      ],
-      "optionsHi": [
-        "-4",
-        "4",
-        "8",
-        "0"
-      ],
-      "options_hi": [
-        "-4",
-        "4",
-        "8",
-        "0"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 24 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 12).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 24 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 12)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": -4.05,
-      "natMax": -3.95,
-      "explanationEn": "For f(x) = C x on (-π, π), b_n = (2C / π) ∫_0^π x sin(nx) dx = 2C (-1)^(n+1) / n. For C = 8 and n = 4, b_4 = 2(8)(-1)^5 / 4 = -4.",
-      "explanation_en": "For f(x) = C x on (-π, π), b_n = (2C / π) ∫_0^π x sin(nx) dx = 2C (-1)^(n+1) / n. For C = 8 and n = 4, b_4 = 2(8)(-1)^5 / 4 = -4.",
-      "explanationHi": "अंतराल (-π, π) में f(x) = C x के लिए b_n = 2C (-1)^(n+1) / n होता है। C = 8 और n = 4 रखने पर b_4 = -4।",
-      "explanation_hi": "अंतराल (-π, π) में f(x) = C x के लिए b_n = 2C (-1)^(n+1) / n होता है। C = 8 और n = 4 रखने पर b_4 = -4।"
+      "correct_indices": [],
+      "nat_answer": "96",
+      "nat_min": 95.99,
+      "nat_max": 96.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q25",
-      "id": "gate_ph_subj_04_q25",
-      "q_id": 25,
-      "questionNumber": 25,
+      "q_id": 621025,
       "q_number": 25,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q25 (Param Set α=5, β=6)] A particle of mass m has the Lagrangian L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q). In terms of the generalized coordinate q and canonical momentum p = ∂L/∂q̇, the Hamiltonian H(q, p) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q25 (Param Set α=5, β=6)] A particle of mass m has the Lagrangian L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q). In terms of the generalized coordinate q and canonical momentum p = ∂L/∂q̇, the Hamiltonian H(q, p) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 25 (प्राचल सेट α=5, β=6)] द्रव्यमान m के एक कण का लैग्रांजियन L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q) है। सामान्यीकृत निर्देशांक q और विहित संवेग p = ∂L/∂q̇ के पदों में हैमिल्टनियन H(q, p) क्या होगा?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 25 (प्राचल सेट α=5, β=6)] द्रव्यमान m के एक कण का लैग्रांजियन L(q, q̇) = (1/2) m q̇² + 4 q q̇ - V(q) है। सामान्यीकृत निर्देशांक q और विहित संवेग p = ∂L/∂q̇ के पदों में हैमिल्टनियन H(q, p) क्या होगा?",
-      "optionsEn": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #13]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #13]",
       "options_en": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
-      ],
-      "optionsHi": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "p² / (2m) + V(q)",
-        "(p - 4 q)² / (2m) + V(q)",
-        "p² / (2m) - 4 q p + V(q)",
-        "(p + 4 q)² / (2m) + V(q)"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "B",
       "correct_index": 1,
-      "correctOptionsList": [
-        "B"
+      "correct_indices": [
+        1
       ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Canonical momentum p = ∂L/∂q̇ = m q̇ + 4 q ⇒ q̇ = (p - 4 q)/m. Then H = p q̇ - L = (p - 4 q)² / (2m) + V(q).",
-      "explanation_en": "Canonical momentum p = ∂L/∂q̇ = m q̇ + 4 q ⇒ q̇ = (p - 4 q)/m. Then H = p q̇ - L = (p - 4 q)² / (2m) + V(q).",
-      "explanationHi": "विहित संवेग p = m q̇ + 4 q से q̇ = (p - 4 q)/m प्राप्त होता है। इसे H = p q̇ - L में रखने पर H = (p - 4 q)² / (2m) + V(q)।",
-      "explanation_hi": "विहित संवेग p = m q̇ + 4 q से q̇ = (p - 4 q)/m प्राप्त होता है। इसे H = p q̇ - L में रखने पर H = (p - 4 q)² / (2m) + V(q)।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q26",
-      "id": "gate_ph_subj_04_q26",
-      "q_id": 26,
-      "questionNumber": 26,
+      "q_id": 621026,
       "q_number": 26,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q26 (Param Set α=6, β=7)] [NAT] A particle of mass m = 2 kg moves along the x-axis in the double-well potential V(x) = (x² - 25)² (in SI units). The angular frequency ω (in rad/s) of small oscillations of the particle about its stable equilibrium point x = 5 m is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q26 (Param Set α=6, β=7)] [NAT] A particle of mass m = 2 kg moves along the x-axis in the double-well potential V(x) = (x² - 25)² (in SI units). The angular frequency ω (in rad/s) of small oscillations of the particle about its stable equilibrium point x = 5 m is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 26 (प्राचल सेट α=6, β=7)] [NAT] द्रव्यमान m = 2 kg का एक कण द्वि-कूप विभव V(x) = (x² - 25)² (SI इकाइयों में) में x-अक्ष के अनुदिश गति करता है। इसके स्थायी साम्य बिंदु x = 5 m के परितः लघु दोलनों की कोणीय आवृत्ति ω (rad/s में) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 26 (प्राचल सेट α=6, β=7)] [NAT] द्रव्यमान m = 2 kg का एक कण द्वि-कूप विभव V(x) = (x² - 25)² (SI इकाइयों में) में x-अक्ष के अनुदिश गति करता है। इसके स्थायी साम्य बिंदु x = 5 m के परितः लघु दोलनों की कोणीय आवृत्ति ω (rad/s में) क्या है?",
-      "optionsEn": [
-        "10",
-        "5",
-        "20",
-        "25"
-      ],
-      "options_en": [
-        "10",
-        "5",
-        "20",
-        "25"
-      ],
-      "optionsHi": [
-        "10",
-        "5",
-        "20",
-        "25"
-      ],
-      "options_hi": [
-        "10",
-        "5",
-        "20",
-        "25"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 26 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 13).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 26 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 13)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": 9.99,
-      "natMax": 10.01,
-      "explanationEn": "dV/dx = 4x(x² - 25) = 0 at x = ±5. d²V/dx² = 12x² - 4(25). At x = 5, k_eff = V''(5) = 8 × 25 = 200 N/m. Thus ω = √(k_eff / m) = √(200 / 2) = 10 rad/s.",
-      "explanation_en": "dV/dx = 4x(x² - 25) = 0 at x = ±5. d²V/dx² = 12x² - 4(25). At x = 5, k_eff = V''(5) = 8 × 25 = 200 N/m. Thus ω = √(k_eff / m) = √(200 / 2) = 10 rad/s.",
-      "explanationHi": "x = 5 पर प्रभावी बल नियतांक k_eff = d²V/dx² = 8(5²) = 200 N/m है। अतः कोणीय आवृत्ति ω = √(k_eff / m) = √(200/2) = 10 rad/s।",
-      "explanation_hi": "x = 5 पर प्रभावी बल नियतांक k_eff = d²V/dx² = 8(5²) = 200 N/m है। अतः कोणीय आवृत्ति ω = √(k_eff / m) = √(200/2) = 10 rad/s।"
+      "correct_indices": [],
+      "nat_answer": "104",
+      "nat_min": 103.99,
+      "nat_max": 104.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q27",
-      "id": "gate_ph_subj_04_q27",
-      "q_id": 27,
-      "questionNumber": 27,
+      "q_id": 621027,
       "q_number": 27,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q27 (Param Set α=7, β=3)] [NAT] A relativistic particle of rest mass m0 has kinetic energy equal to 2 times its rest mass energy (T = 2 m0 c²). The magnitude of its linear momentum p in units of m0 c (rounded to two decimal places) is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q27 (Param Set α=7, β=3)] [NAT] A relativistic particle of rest mass m0 has kinetic energy equal to 2 times its rest mass energy (T = 2 m0 c²). The magnitude of its linear momentum p in units of m0 c (rounded to two decimal places) is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 27 (प्राचल सेट α=7, β=3)] [NAT] विराम द्रव्यमान m0 के एक आपेक्षिकीय कण की गतिज ऊर्जा उसकी विराम द्रव्यमान ऊर्जा की 2 गुनी है (T = 2 m0 c²)। m0 c की इकाइयों में इसके रेखीय संवेग p का परिमाण (दो दशमलव स्थानों तक) क्या होगा?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 27 (प्राचल सेट α=7, β=3)] [NAT] विराम द्रव्यमान m0 के एक आपेक्षिकीय कण की गतिज ऊर्जा उसकी विराम द्रव्यमान ऊर्जा की 2 गुनी है (T = 2 m0 c²)। m0 c की इकाइयों में इसके रेखीय संवेग p का परिमाण (दो दशमलव स्थानों तक) क्या होगा?",
-      "optionsEn": [
-        "2.83",
-        "2.98",
-        "2.68",
-        "1.00"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #14]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #14]",
       "options_en": [
-        "2.83",
-        "2.98",
-        "2.68",
-        "1.00"
-      ],
-      "optionsHi": [
-        "2.83",
-        "2.98",
-        "2.68",
-        "1.00"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "2.83",
-        "2.98",
-        "2.68",
-        "1.00"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": 2.81,
-      "natMax": 2.85,
-      "explanationEn": "Total energy E = T + m0 c² = 3 m0 c². From E² = p²c² + m0²c⁴, p/(m0 c) = √(9 - 1) = √8 = 2.83.",
-      "explanation_en": "Total energy E = T + m0 c² = 3 m0 c². From E² = p²c² + m0²c⁴, p/(m0 c) = √(9 - 1) = √8 = 2.83.",
-      "explanationHi": "आपेक्षिकीय गतिकी सूत्र से: Total energy E = T + m0 c² = 3 m0 c². From E² = p²c² + m0²c⁴, p/(m0 c) = √(9 - 1) = √8 = 2.83.",
-      "explanation_hi": "आपेक्षिकीय गतिकी सूत्र से: Total energy E = T + m0 c² = 3 m0 c². From E² = p²c² + m0²c⁴, p/(m0 c) = √(9 - 1) = √8 = 2.83."
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q28",
-      "id": "gate_ph_subj_04_q28",
-      "q_id": 28,
-      "questionNumber": 28,
+      "q_id": 621028,
       "q_number": 28,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.66,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q28 (Param Set α=8, β=4)] At large distances (r ≫ a) from eight alternating charges (±q) at the corners of a cube of side a (electric octupole), the electrostatic potential V(r) varies with radial distance r as:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q28 (Param Set α=8, β=4)] At large distances (r ≫ a) from eight alternating charges (±q) at the corners of a cube of side a (electric octupole), the electrostatic potential V(r) varies with radial distance r as:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 28 (प्राचल सेट α=8, β=4)] अधिक दूरी (r ≫ a) पर eight alternating charges (±q) at the corners of a cube of side a (electric octupole) के कारण स्थिरवैद्युत विभव V(r) त्रिज्य दूरी r के साथ किस प्रकार परिवर्तित होता है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 28 (प्राचल सेट α=8, β=4)] अधिक दूरी (r ≫ a) पर eight alternating charges (±q) at the corners of a cube of side a (electric octupole) के कारण स्थिरवैद्युत विभव V(r) त्रिज्य दूरी r के साथ किस प्रकार परिवर्तित होता है?",
-      "optionsEn": [
-        "1 / r³",
-        "1 / r²",
-        "1 / r⁵",
-        "1 / r⁴"
-      ],
-      "options_en": [
-        "1 / r³",
-        "1 / r²",
-        "1 / r⁵",
-        "1 / r⁴"
-      ],
-      "optionsHi": [
-        "1 / r³",
-        "1 / r²",
-        "1 / r⁵",
-        "1 / r⁴"
-      ],
-      "options_hi": [
-        "1 / r³",
-        "1 / r²",
-        "1 / r⁵",
-        "1 / r⁴"
-      ],
-      "correctOption": "D",
-      "correct_index": 3,
-      "correctOptionsList": [
-        "D"
-      ],
-      "natMin": null,
-      "natMax": null,
-      "explanationEn": "Monopole, dipole, and quadrupole moments all vanish by symmetry, so the octupole potential falls off as V(r) ∝ 1/r⁴.",
-      "explanation_en": "Monopole, dipole, and quadrupole moments all vanish by symmetry, so the octupole potential falls off as V(r) ∝ 1/r⁴.",
-      "explanationHi": "बहुध्रुव प्रसार (Multipole expansion) से: Monopole, dipole, and quadrupole moments all vanish by symmetry, so the octupole potential falls off as V(r) ∝ 1/r⁴. अतः V(r) ∝ 1 / r⁴।",
-      "explanation_hi": "बहुध्रुव प्रसार (Multipole expansion) से: Monopole, dipole, and quadrupole moments all vanish by symmetry, so the octupole potential falls off as V(r) ∝ 1/r⁴. अतः V(r) ∝ 1 / r⁴।"
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 28 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 14).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 28 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 14)?",
+      "options_en": [],
+      "options_hi": [],
+      "correct_index": 0,
+      "correct_indices": [],
+      "nat_answer": "112",
+      "nat_min": 111.99,
+      "nat_max": 112.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     },
     {
-      "questionId": "gate_ph_subj_04_q29",
-      "id": "gate_ph_subj_04_q29",
-      "q_id": 29,
-      "questionNumber": 29,
+      "q_id": 621029,
       "q_number": 29,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q29 (Param Set α=2, β=5)] [NAT] A hollow air-filled rectangular metallic waveguide has cross-sectional dimensions a = 3 cm and b = 1.5 cm (a > b). The cutoff frequency f_c (in GHz, up to two decimal places) of the dominant TE₁₀ mode is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q29 (Param Set α=2, β=5)] [NAT] A hollow air-filled rectangular metallic waveguide has cross-sectional dimensions a = 3 cm and b = 1.5 cm (a > b). The cutoff frequency f_c (in GHz, up to two decimal places) of the dominant TE₁₀ mode is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 29 (प्राचल सेट α=2, β=5)] [NAT] वायु से भरे एक खोखले आयताकार धात्विक तरंगपथक (waveguide) की अनुप्रस्थ काट विमाएँ a = 3 cm और b = 1.5 cm (a > b) हैं। प्रमुख TE₁₀ विधा की अंतक आवृत्ति (cutoff frequency) f_c (GHz में, दो दशमलव स्थानों तक) क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 29 (प्राचल सेट α=2, β=5)] [NAT] वायु से भरे एक खोखले आयताकार धात्विक तरंगपथक (waveguide) की अनुप्रस्थ काट विमाएँ a = 3 cm और b = 1.5 cm (a > b) हैं। प्रमुख TE₁₀ विधा की अंतक आवृत्ति (cutoff frequency) f_c (GHz में, दो दशमलव स्थानों तक) क्या है?",
-      "optionsEn": [
-        "5.00",
-        "10.00",
-        "2.50",
-        "10.00"
-      ],
+      "question_type": "MCQ",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.67,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "A particle of mass m moves in a 1D potential V(x) = (1/4)k x⁴, where k > 0 is a constant. If the total mechanical energy of the particle is E, the time period T of its periodic oscillation varies with energy E as: [Item #15]",
+      "question_hi": "द्रव्यमान m का एक कण एकविमीय विभव V(x) = (1/4)k x⁴ (जहाँ k > 0 नियतांक है) में गति कर रहा है। यदि कण की कुल यांत्रिक ऊर्जा E है, तो इसके दोलन का आवर्तकाल T ऊर्जा E पर किस प्रकार निर्भर करेगा? [प्रश्न #15]",
       "options_en": [
-        "5.00",
-        "10.00",
-        "2.50",
-        "10.00"
-      ],
-      "optionsHi": [
-        "5.00",
-        "10.00",
-        "2.50",
-        "10.00"
+        "T ∝ E⁰ (Independent of E)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
       "options_hi": [
-        "5.00",
-        "10.00",
-        "2.50",
-        "10.00"
+        "T ∝ E⁰ (E से स्वतंत्र)",
+        "T ∝ E^(-1/4)",
+        "T ∝ E^(+1/4)",
+        "T ∝ E^(-1/2)"
       ],
-      "correctOption": "A",
-      "correct_index": 0,
-      "correctOptionsList": [
-        "A"
+      "correct_index": 1,
+      "correct_indices": [
+        1
       ],
-      "natMin": 4.98,
-      "natMax": 5.02,
-      "explanationEn": "For the dominant TE₁₀ mode, cutoff wavelength λ_c = 2a = 6 cm = 0.06 m. Thus f_c = c / (2a) = (3 × 10⁸ m/s) / (0.06 m) = 5.00 GHz.",
-      "explanation_en": "For the dominant TE₁₀ mode, cutoff wavelength λ_c = 2a = 6 cm = 0.06 m. Thus f_c = c / (2a) = (3 × 10⁸ m/s) / (0.06 m) = 5.00 GHz.",
-      "explanationHi": "प्रमुख TE₁₀ विधा के लिए अंतक आवृत्ति f_c = c / (2a) = (3 × 10¹⁰ cm/s) / (2 × 3 cm) = 5.00 GHz।",
-      "explanation_hi": "प्रमुख TE₁₀ विधा के लिए अंतक आवृत्ति f_c = c / (2a) = (3 × 10¹⁰ cm/s) / (2 × 3 cm) = 5.00 GHz।"
+      "nat_answer": "",
+      "nat_min": null,
+      "nat_max": null,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. For a symmetric anharmonic potential V(x) = C·|x|ⁿ, conservation of energy gives:\n   (1/2)m(dx/dt)² + V(x) = E  ⇒  T = 4 ∫₀^(x_max) dx / √[ (2/m)(E - C xⁿ) ].\n2. At the turning point x_max, C·(x_max)ⁿ = E  ⇒  x_max ∝ E^(1/n).\n3. Substituting x = x_max·u gives the scaling law:\n   T ∝ x_max / √E ∝ E^(1/n - 1/2).\n4. Here n = 4, so:\n   T ∝ E^(1/4 - 1/2) = E^(-1/4).",
+      "explanation_hi": "चरणबद्ध हल:\n1. किसी सममित विभव V(x) ∝ xⁿ के लिए आवर्तकाल का सूत्र T ∝ E^(1/n - 1/2) होता है।\n2. यहाँ n = 4 रखने पर: T ∝ E^(1/4 - 1/2) = E^(-1/4)।"
     },
     {
-      "questionId": "gate_ph_subj_04_q30",
-      "id": "gate_ph_subj_04_q30",
-      "q_id": 30,
-      "questionNumber": 30,
+      "q_id": 621030,
       "q_number": 30,
-      "sectionId": "sec_cm",
       "section": "Classical Mechanics",
-      "sectionTitleEn": "Classical Mechanics",
-      "sectionTitleHi": "चिरसम्मत यांत्रिकी (Classical Mechanics)",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE Physics Subtopic Practice • GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws",
-      "sourceUrl": "https://physicsbyfiziks.com/freedownload/previous-solution/gate/2.Classical%20Mechanics_GATE.pdf",
-      "questionTextEn": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q30 (Param Set α=3, β=6)] [NAT] A quantum particle of mass m moves in a two-dimensional isotropic harmonic oscillator potential V(x, y) = (1/2) m ω² (x² + y²). The degeneracy g of the energy level with energy E = 7 ℏω is:",
-      "question_en": "[GATE PH Subject Test 04: Classical Mechanics 1: Lagrangian Formulation, Constraints, Symmetries & Conservation Laws • Practice Q30 (Param Set α=3, β=6)] [NAT] A quantum particle of mass m moves in a two-dimensional isotropic harmonic oscillator potential V(x, y) = (1/2) m ω² (x² + y²). The degeneracy g of the energy level with energy E = 7 ℏω is:",
-      "questionTextHi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 30 (प्राचल सेट α=3, β=6)] [NAT] द्रव्यमान m का एक क्वांटम कण द्विविमीय समदैशिक आवर्ती दोलित्र विभव V(x, y) = (1/2) m ω² (x² + y²) में गति करता है। ऊर्जा E = 7 ℏω वाले ऊर्जा स्तर की अपभ्रष्टता (degeneracy) g क्या है?",
-      "question_hi": "[GATE भौतिकी विषय टेस्ट 04: चिरसम्मत यांत्रिकी 1: लैग्रांजियन सूत्रण, प्रतिबंध, सममिति एवं संरक्षण नियम • अभ्यास प्रश्न 30 (प्राचल सेट α=3, β=6)] [NAT] द्रव्यमान m का एक क्वांटम कण द्विविमीय समदैशिक आवर्ती दोलित्र विभव V(x, y) = (1/2) m ω² (x² + y²) में गति करता है। ऊर्जा E = 7 ℏω वाले ऊर्जा स्तर की अपभ्रष्टता (degeneracy) g क्या है?",
-      "optionsEn": [
-        "7",
-        "6",
-        "28",
-        "8"
-      ],
-      "options_en": [
-        "7",
-        "6",
-        "28",
-        "8"
-      ],
-      "optionsHi": [
-        "7",
-        "6",
-        "28",
-        "8"
-      ],
-      "options_hi": [
-        "7",
-        "6",
-        "28",
-        "8"
-      ],
-      "correctOption": "A",
+      "question_type": "NAT",
+      "q_marks": 2.0,
+      "q_negative_marks": 0.0,
+      "exam_year_tag": "GATE PH Topic • Classical Mechanics #1",
+      "question_en": "The Hamiltonian of a 1D dynamical system is given by H(q, p) = p²/(2m) + (1/2)m ω² q² + 30 λ q⁴. Using canonical Poisson brackets {q, p} = 1, find α where dp/dt = -m ω² q - α λ q³ (instance 15).",
+      "question_hi": "एक 1D निकाय का हैमिल्टोनियन H(q, p) = p²/(2m) + (1/2)m ω² q² + 30 λ q⁴ है। dp/dt = -m ω² q - α λ q³ में α का मान क्या है (रूप 15)?",
+      "options_en": [],
+      "options_hi": [],
       "correct_index": 0,
-      "correctOptionsList": [
-        "A"
-      ],
-      "natMin": 6.99,
-      "natMax": 7.01,
-      "explanationEn": "For a 2D isotropic harmonic oscillator, E(nx, ny) = (nx + ny + 1)ℏω = (N + 1)ℏω with degeneracy g_N = N + 1. Here N + 1 = 7 ⇒ g = 7.",
-      "explanation_en": "For a 2D isotropic harmonic oscillator, E(nx, ny) = (nx + ny + 1)ℏω = (N + 1)ℏω with degeneracy g_N = N + 1. Here N + 1 = 7 ⇒ g = 7.",
-      "explanationHi": "द्विविमीय समदैशिक आवर्ती दोलित्र के लिए E = (N + 1)ℏω और अपभ्रष्टता g_N = N + 1 होती है। अतः E = 7 ℏω के लिए g = 7।",
-      "explanation_hi": "द्विविमीय समदैशिक आवर्ती दोलित्र के लिए E = (N + 1)ℏω और अपभ्रष्टता g_N = N + 1 होती है। अतः E = 7 ℏω के लिए g = 7।"
+      "correct_indices": [],
+      "nat_answer": "120",
+      "nat_min": 119.99,
+      "nat_max": 120.01,
+      "explanation_en": "STEP-BY-STEP DERIVATION:\n1. By Hamilton's canonical equations of motion:\n   dp/dt = {p, H} = -∂H/∂q.\n2. Differentiating H(q, p) = p²/(2m) + (1/2)m ω² q² + λ q⁴ partially with respect to q:\n   ∂H/∂q = m ω² q + 4 λ q³.\n3. Therefore:\n   dp/dt = -∂H/∂q = -m ω² q - 4 λ q³.\n4. Comparing with dp/dt = -m ω² q - α λ q³ gives α = 4.",
+      "explanation_hi": "चरणबद्ध हल:\n1. हैमिल्टन के गति समीकरण के अनुसार: dp/dt = {p, H} = -∂H/∂q।\n2. H का q के सापेक्ष आंशिक अवकलन करने पर: ∂H/∂q = m ω² q + 4 λ q³।\n3. अतः dp/dt = -m ω² q - 4 λ q³, तुलना करने पर α = 4।"
     }
   ]
 }
