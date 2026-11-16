@@ -1,0 +1,1255 @@
+{
+  "testId": "gate_ph_sub_01",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_sub_01",
+  "category_id": "gate_ph",
+  "language": "hi",
+  "title": "GATE PH उप-विषय टेस्ट: गणितीय भौतिकी 1 — रैखिक बीजगणित एवं सदिश कलन",
+  "titleEn": "GATE PH Subtopic Test: Mathematical Physics 1 — Linear Algebra & Vector Calculus",
+  "titleHi": "GATE PH उप-विषय टेस्ट: गणितीय भौतिकी 1 — रैखिक बीजगणित एवं सदिश कलन",
+  "testType": "TOPIC_TEST",
+  "test_type": "TOPIC_TEST",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 90,
+  "duration_minutes": 90,
+  "totalQuestions": 30,
+  "total_questions": 30,
+  "maxMarks": 50.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2026,
+  "shiftBadge": "Mathematical Physics 1",
+  "questions": [
+    {
+      "questionId": "gate_ph_sub_01_q001",
+      "questionNumber": 1,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "निम्नलिखित 3×3 वास्तविक आव्यूह M पर विचार कीजिए:\n$$M = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & k \\end{pmatrix}$$\nवास्तविक प्राचल k के किस मान के लिए आव्यूह M अव्युत्क्रमणीय (singular) होगा?",
+      "options": [
+        "k = 5",
+        "k = 6",
+        "k = 7",
+        "k = 8"
+      ],
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "कोई वर्ग आव्यूह अव्युत्क्रमणीय (singular) तभी होता है जब उसकी सारणिक (determinant) शून्य हो।\nप्रथम पंक्ति के सापेक्ष सारणिक का विस्तार करने पर:\n$$\\det(M) = 1(2k - 12) - 1(k - 3) + 1(4 - 2)$$\n$$\\det(M) = 2k - 12 - k + 3 + 2 = k - 7$$\n$\\det(M) = 0$ रखने पर हमें प्राप्त होता है: $k - 7 = 0 \\implies k = 7$।\nअतः, $k = 7$ होने पर आव्यूह अव्युत्क्रमणीय है।",
+      "questionTextEn": "Consider the 3×3 real matrix M given by:\n$$M = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & k \\end{pmatrix}$$\nFor what value of the real parameter k is the matrix M singular (non-invertible)?",
+      "optionsEn": [
+        "k = 5",
+        "k = 6",
+        "k = 7",
+        "k = 8"
+      ],
+      "explanationEn": "A square matrix is singular if and only if its determinant is zero.\nExpanding the determinant along the first row:\n$$\\det(M) = 1(2k - 12) - 1(k - 3) + 1(4 - 2)$$\n$$\\det(M) = 2k - 12 - k + 3 + 2 = k - 7$$\nSetting $\\det(M) = 0$ gives $k - 7 = 0 \\implies k = 7$.\nThus, the matrix is singular when $k = 7$.",
+      "questionTextHi": "निम्नलिखित 3×3 वास्तविक आव्यूह M पर विचार कीजिए:\n$$M = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & k \\end{pmatrix}$$\nवास्तविक प्राचल k के किस मान के लिए आव्यूह M अव्युत्क्रमणीय (singular) होगा?",
+      "optionsHi": [
+        "k = 5",
+        "k = 6",
+        "k = 7",
+        "k = 8"
+      ],
+      "explanationHi": "कोई वर्ग आव्यूह अव्युत्क्रमणीय (singular) तभी होता है जब उसकी सारणिक (determinant) शून्य हो।\nप्रथम पंक्ति के सापेक्ष सारणिक का विस्तार करने पर:\n$$\\det(M) = 1(2k - 12) - 1(k - 3) + 1(4 - 2)$$\n$$\\det(M) = 2k - 12 - k + 3 + 2 = k - 7$$\n$\\det(M) = 0$ रखने पर हमें प्राप्त होता है: $k - 7 = 0 \\implies k = 7$।\nअतः, $k = 7$ होने पर आव्यूह अव्युत्क्रमणीय है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q002",
+      "questionNumber": 2,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "एक 3×3 वास्तविक आव्यूह A का अनुरेख (trace) Tr(A) = 6 तथा सारणिक det(A) = 6 है। यदि A का एक आइगेनमान λ₁ = 1 है, तो शेष दो आइगेनमान क्या होंगे?",
+      "options": [
+        "2 तथा 3",
+        "1 तथा 4",
+        "-2 तथा -3",
+        "3 तथा 3"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "किसी भी n×n आव्यूह के लिए, अनुरेख (trace) आइगेनमानों का योग होता है तथा सारणिक आइगेनमानों का गुणनफल होता है:\n1. $\\lambda_1 + \\lambda_2 + \\lambda_3 = \\text{Tr}(A) = 6$\nचूँकि $\\lambda_1 = 1$ दिया गया है, अतः $\\lambda_2 + \\lambda_3 = 6 - 1 = 5$।\n2. $\\lambda_1 \\lambda_2 \\lambda_3 = \\det(A) = 6$\n$\\lambda_1 = 1$ रखने पर, $\\lambda_2 \\lambda_3 = 6$ प्राप्त होता है।\nवे दो संख्याएँ जिनका योग 5 तथा गुणनफल 6 है, समीकरण $t^2 - 5t + 6 = 0$ के मूल हैं, जो कि 2 और 3 हैं।\nअतः शेष दो आइगेनमान 2 तथा 3 हैं।",
+      "questionTextEn": "A 3×3 real matrix A has trace Tr(A) = 6 and determinant det(A) = 6. If one of the eigenvalues of A is λ₁ = 1, then the other two eigenvalues are:",
+      "optionsEn": [
+        "2 and 3",
+        "1 and 4",
+        "-2 and -3",
+        "3 and 3"
+      ],
+      "explanationEn": "For any n×n matrix, the trace is the sum of eigenvalues and the determinant is the product of eigenvalues:\n1. $\\lambda_1 + \\lambda_2 + \\lambda_3 = \\text{Tr}(A) = 6$\nGiven $\\lambda_1 = 1$, we have $\\lambda_2 + \\lambda_3 = 6 - 1 = 5$.\n2. $\\lambda_1 \\lambda_2 \\lambda_3 = \\det(A) = 6$\nWith $\\lambda_1 = 1$, we have $\\lambda_2 \\lambda_3 = 6$.\nThe two numbers whose sum is 5 and product is 6 are the roots of $t^2 - 5t + 6 = 0$, which are $t = 2$ and $t = 3$.\nTherefore, the other two eigenvalues are 2 and 3.",
+      "questionTextHi": "एक 3×3 वास्तविक आव्यूह A का अनुरेख (trace) Tr(A) = 6 तथा सारणिक det(A) = 6 है। यदि A का एक आइगेनमान λ₁ = 1 है, तो शेष दो आइगेनमान क्या होंगे?",
+      "optionsHi": [
+        "2 तथा 3",
+        "1 तथा 4",
+        "-2 तथा -3",
+        "3 तथा 3"
+      ],
+      "explanationHi": "किसी भी n×n आव्यूह के लिए, अनुरेख (trace) आइगेनमानों का योग होता है तथा सारणिक आइगेनमानों का गुणनफल होता है:\n1. $\\lambda_1 + \\lambda_2 + \\lambda_3 = \\text{Tr}(A) = 6$\nचूँकि $\\lambda_1 = 1$ दिया गया है, अतः $\\lambda_2 + \\lambda_3 = 6 - 1 = 5$।\n2. $\\lambda_1 \\lambda_2 \\lambda_3 = \\det(A) = 6$\n$\\lambda_1 = 1$ रखने पर, $\\lambda_2 \\lambda_3 = 6$ प्राप्त होता है।\nवे दो संख्याएँ जिनका योग 5 तथा गुणनफल 6 है, समीकरण $t^2 - 5t + 6 = 0$ के मूल हैं, जो कि 2 और 3 हैं।\nअतः शेष दो आइगेनमान 2 तथा 3 हैं।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q003",
+      "questionNumber": 3,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "questionText": "2×2 आव्यूह A = [[2, 1], [1, 2]] पर विचार कीजिए। केली-हैमिल्टन प्रमेय का उपयोग करके, व्युत्क्रम आव्यूह A⁻¹ को तत्समक आव्यूह I और A के पदों में किस प्रकार व्यक्त किया जा सकता है?",
+      "options": [
+        "A⁻¹ = (4/3)I - (1/3)A",
+        "A⁻¹ = (2/3)I - (1/3)A",
+        "A⁻¹ = -(4/3)I + (1/3)A",
+        "A⁻¹ = (4/3)I + (1/3)A"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "आव्यूह A का अभिलाक्षणिक समीकरण (characteristic equation) है:\n$$\\det(A - \\lambda I) = (2 - \\lambda)^2 - 1 = \\lambda^2 - 4\\lambda + 3 = 0$$\nकेली-हैमिल्टन प्रमेय के अनुसार, प्रत्येक वर्ग आव्यूह अपने अभिलाक्षणिक समीकरण को संतुष्ट करता है:\n$$A^2 - 4A + 3I = 0$$\nदोनों पक्षों में $A^{-1}$ से गुणा करने पर:\n$$A - 4I + 3A^{-1} = 0$$\n$$3A^{-1} = 4I - A \\implies A^{-1} = \\frac{4}{3}I - \\frac{1}{3}A$$\nअतः विकल्प A सही है।",
+      "questionTextEn": "Consider the 2×2 matrix A = [[2, 1], [1, 2]]. Using the Cayley-Hamilton theorem, the inverse matrix A⁻¹ can be expressed in terms of the identity matrix I and A as:",
+      "optionsEn": [
+        "A⁻¹ = (4/3)I - (1/3)A",
+        "A⁻¹ = (2/3)I - (1/3)A",
+        "A⁻¹ = -(4/3)I + (1/3)A",
+        "A⁻¹ = (4/3)I + (1/3)A"
+      ],
+      "explanationEn": "The characteristic equation of A is:\n$$\\det(A - \\lambda I) = (2 - \\lambda)^2 - 1 = \\lambda^2 - 4\\lambda + 3 = 0$$\nBy the Cayley-Hamilton theorem, every square matrix satisfies its own characteristic equation:\n$$A^2 - 4A + 3I = 0$$\nMultiplying the entire equation by $A^{-1}$:\n$$A - 4I + 3A^{-1} = 0$$\n$$3A^{-1} = 4I - A \\implies A^{-1} = \\frac{4}{3}I - \\frac{1}{3}A$$\nThus, option A is correct.",
+      "questionTextHi": "2×2 आव्यूह A = [[2, 1], [1, 2]] पर विचार कीजिए। केली-हैमिल्टन प्रमेय का उपयोग करके, व्युत्क्रम आव्यूह A⁻¹ को तत्समक आव्यूह I और A के पदों में किस प्रकार व्यक्त किया जा सकता है?",
+      "optionsHi": [
+        "A⁻¹ = (4/3)I - (1/3)A",
+        "A⁻¹ = (2/3)I - (1/3)A",
+        "A⁻¹ = -(4/3)I + (1/3)A",
+        "A⁻¹ = (4/3)I + (1/3)A"
+      ],
+      "explanationHi": "आव्यूह A का अभिलाक्षणिक समीकरण (characteristic equation) है:\n$$\\det(A - \\lambda I) = (2 - \\lambda)^2 - 1 = \\lambda^2 - 4\\lambda + 3 = 0$$\nकेली-हैमिल्टन प्रमेय के अनुसार, प्रत्येक वर्ग आव्यूह अपने अभिलाक्षणिक समीकरण को संतुष्ट करता है:\n$$A^2 - 4A + 3I = 0$$\nदोनों पक्षों में $A^{-1}$ से गुणा करने पर:\n$$A - 4I + 3A^{-1} = 0$$\n$$3A^{-1} = 4I - A \\implies A^{-1} = \\frac{4}{3}I - \\frac{1}{3}A$$\nअतः विकल्प A सही है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q004",
+      "questionNumber": 4,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "माना H एक n×n हर्मिटी आव्यूह (Hermitian matrix) है। यदि |v₁⟩ और |v₂⟩ दो भिन्न वास्तविक आइगेनमानों λ₁ ≠ λ₂ के संगत H के आइगेनसदिश हैं, तो आंतरिक गुणनफल ⟨v₁|v₂⟩ सदैव क्या होगा?",
+      "options": [
+        "1 के बराबर",
+        "0 के बराबर",
+        "विशुद्ध काल्पनिक",
+        "λ₁ / λ₂ के बराबर"
+      ],
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "हर्मिटी आव्यूह $H = H^\\dagger$ के लिए:\n$H|v_1\\rangle = \\lambda_1 |v_1\\rangle$ तथा $H|v_2\\rangle = \\lambda_2 |v_2\\rangle$, जहाँ $\\lambda_1, \\lambda_2$ वास्तविक संख्याएँ हैं।\nआंतरिक गुणनफल लेने पर:\n$\\langle v_1 | H | v_2 \\rangle = \\lambda_2 \\langle v_1 | v_2 \\rangle$\nतथा $\\langle v_1 | H | v_2 \\rangle = \\lambda_1 \\langle v_1 | v_2 \\rangle$।\nइनका अंतर लेने पर:\n$(\\lambda_1 - \\lambda_2) \\langle v_1 | v_2 \\rangle = 0$\nचूँकि $\\lambda_1 \\ne \\lambda_2$ दिया गया है, अतः $\\langle v_1 | v_2 \\rangle = 0$ होना अनिवार्य है।\nहर्मिटी आव्यूह के भिन्न आइगेनमानों के संगत आइगेनसदिश परस्पर लंबकोणीय (orthogonal) होते हैं।",
+      "questionTextEn": "Let H be an n×n Hermitian matrix. If |v₁⟩ and |v₂⟩ are eigenvectors of H corresponding to two distinct real eigenvalues λ₁ ≠ λ₂, then the inner product ⟨v₁|v₂⟩ is always:",
+      "optionsEn": [
+        "Equal to 1",
+        "Equal to 0",
+        "Purely imaginary",
+        "Equal to λ₁ / λ₂"
+      ],
+      "explanationEn": "For a Hermitian matrix $H = H^\\dagger$:\n$H|v_1\\rangle = \\lambda_1 |v_1\\rangle$ and $H|v_2\\rangle = \\lambda_2 |v_2\\rangle$ with $\\lambda_1, \\lambda_2 \\in \\mathbb{R}$.\nTaking the inner product:\n$\\langle v_1 | H | v_2 \\rangle = \\lambda_2 \\langle v_1 | v_2 \\rangle$\nAlso, $\\langle v_1 | H | v_2 \\rangle = (H|v_1\\rangle)^\\dagger |v_2\\rangle = \\lambda_1^* \\langle v_1 | v_2 \\rangle = \\lambda_1 \\langle v_1 | v_2 \\rangle$.\nSubtracting these two expressions:\n$(\\lambda_1 - \\lambda_2) \\langle v_1 | v_2 \\rangle = 0$\nSince $\\lambda_1 \\ne \\lambda_2$, we must have $\\langle v_1 | v_2 \\rangle = 0$.\nEigenvectors of a Hermitian matrix corresponding to distinct eigenvalues are mutually orthogonal.",
+      "questionTextHi": "माना H एक n×n हर्मिटी आव्यूह (Hermitian matrix) है। यदि |v₁⟩ और |v₂⟩ दो भिन्न वास्तविक आइगेनमानों λ₁ ≠ λ₂ के संगत H के आइगेनसदिश हैं, तो आंतरिक गुणनफल ⟨v₁|v₂⟩ सदैव क्या होगा?",
+      "optionsHi": [
+        "1 के बराबर",
+        "0 के बराबर",
+        "विशुद्ध काल्पनिक",
+        "λ₁ / λ₂ के बराबर"
+      ],
+      "explanationHi": "हर्मिटी आव्यूह $H = H^\\dagger$ के लिए:\n$H|v_1\\rangle = \\lambda_1 |v_1\\rangle$ तथा $H|v_2\\rangle = \\lambda_2 |v_2\\rangle$, जहाँ $\\lambda_1, \\lambda_2$ वास्तविक संख्याएँ हैं।\nआंतरिक गुणनफल लेने पर:\n$\\langle v_1 | H | v_2 \\rangle = \\lambda_2 \\langle v_1 | v_2 \\rangle$\nतथा $\\langle v_1 | H | v_2 \\rangle = \\lambda_1 \\langle v_1 | v_2 \\rangle$।\nइनका अंतर लेने पर:\n$(\\lambda_1 - \\lambda_2) \\langle v_1 | v_2 \\rangle = 0$\nचूँकि $\\lambda_1 \\ne \\lambda_2$ दिया गया है, अतः $\\langle v_1 | v_2 \\rangle = 0$ होना अनिवार्य है।\nहर्मिटी आव्यूह के भिन्न आइगेनमानों के संगत आइगेनसदिश परस्पर लंबकोणीय (orthogonal) होते हैं।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q005",
+      "questionNumber": 5,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "questionText": "रैखिक समीकरण निकाय:\nx + y + z = 1\nx + 2y + 3z = 2\nx + 2y + a z = b\nका कोई हल नहीं होगा (असंगत होगा) यदि और केवल यदि:",
+      "options": [
+        "a = 3 तथा b ≠ 2",
+        "a ≠ 3 तथा b = 2",
+        "a = 3 तथा b = 2",
+        "a ≠ 3 तथा b ≠ 2"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "संवर्धित आव्यूह (augmented matrix) $[A|B]$ लिखने पर:\n$$\\begin{pmatrix} 1 & 1 & 1 & | & 1 \\\\ 1 & 2 & 3 & | & 2 \\\\ 1 & 2 & a & | & b \\end{pmatrix}$$\nपंक्ति संक्रियाएँ (Row operations):\n$R_2 \\to R_2 - R_1$: $(0, 1, 2 | 1)$\n$R_3 \\to R_3 - R_2$: $(0, 0, a - 3 | b - 2)$\nनिकाय का कोई हल नहीं होता जब $\\text{rank}(A) < \\text{rank}([A|B])$ हो।\nयह तब घटित होता है जब $a - 3 = 0 \\implies a = 3$ (जिससे $\\text{rank}(A) = 2$) तथा $b - 2 \\ne 0 \\implies b \\ne 2$ (जिससे $\\text{rank}([A|B]) = 3$)।\nअतः असंगत होने की आवश्यक शर्त $a = 3$ तथा $b \\ne 2$ है।",
+      "questionTextEn": "The system of linear equations:\nx + y + z = 1\nx + 2y + 3z = 2\nx + 2y + a z = b\nhas NO solution (is inconsistent) if and only if:",
+      "optionsEn": [
+        "a = 3 and b ≠ 2",
+        "a ≠ 3 and b = 2",
+        "a = 3 and b = 2",
+        "a ≠ 3 and b ≠ 2"
+      ],
+      "explanationEn": "We write the augmented matrix $[A|B]$:\n$$\\begin{pmatrix} 1 & 1 & 1 & | & 1 \\\\ 1 & 2 & 3 & | & 2 \\\\ 1 & 2 & a & | & b \\end{pmatrix}$$\nRow operations:\n$R_2 \\to R_2 - R_1$: $(0, 1, 2 | 1)$\n$R_3 \\to R_3 - R_2$: $(0, 0, a - 3 | b - 2)$\nThe system has no solution when $\\text{rank}(A) < \\text{rank}([A|B])$.\nThis occurs when $a - 3 = 0 \\implies a = 3$ (so $\\text{rank}(A) = 2$), while $b - 2 \\ne 0 \\implies b \\ne 2$ (so $\\text{rank}([A|B]) = 3$).\nTherefore, the condition for inconsistency is $a = 3$ and $b \\ne 2$.",
+      "questionTextHi": "रैखिक समीकरण निकाय:\nx + y + z = 1\nx + 2y + 3z = 2\nx + 2y + a z = b\nका कोई हल नहीं होगा (असंगत होगा) यदि और केवल यदि:",
+      "optionsHi": [
+        "a = 3 तथा b ≠ 2",
+        "a ≠ 3 तथा b = 2",
+        "a = 3 तथा b = 2",
+        "a ≠ 3 तथा b ≠ 2"
+      ],
+      "explanationHi": "संवर्धित आव्यूह (augmented matrix) $[A|B]$ लिखने पर:\n$$\\begin{pmatrix} 1 & 1 & 1 & | & 1 \\\\ 1 & 2 & 3 & | & 2 \\\\ 1 & 2 & a & | & b \\end{pmatrix}$$\nपंक्ति संक्रियाएँ (Row operations):\n$R_2 \\to R_2 - R_1$: $(0, 1, 2 | 1)$\n$R_3 \\to R_3 - R_2$: $(0, 0, a - 3 | b - 2)$\nनिकाय का कोई हल नहीं होता जब $\\text{rank}(A) < \\text{rank}([A|B])$ हो।\nयह तब घटित होता है जब $a - 3 = 0 \\implies a = 3$ (जिससे $\\text{rank}(A) = 2$) तथा $b - 2 \\ne 0 \\implies b \\ne 2$ (जिससे $\\text{rank}([A|B]) = 3$)।\nअतः असंगत होने की आवश्यक शर्त $a = 3$ तथा $b \\ne 2$ है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q006",
+      "questionNumber": 6,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "माना σ⃗ = (σ_x, σ_y, σ_z) पाउली स्पिन आव्यूहों को निरुपित करते हैं, तथा a⃗ एवं b⃗ स्वेच्छ वास्तविक अचर 3-सदिश हैं। 2×2 आव्यूह (σ⃗ · a⃗)(σ⃗ · b⃗) का अनुरेख (trace) किसके बराबर है?",
+      "options": [
+        "2 (a⃗ · b⃗)",
+        "(a⃗ · b⃗)",
+        "i (a⃗ × b⃗)",
+        "0"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "पाउली सर्वसमिका का उपयोग करने पर:\n$$(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b}) = (\\vec{a} \\cdot \\vec{b}) I_2 + i \\vec{\\sigma} \\cdot (\\vec{a} \\times \\vec{b})$$\nदोनों पक्षों का अनुरेख (trace) लेने पर:\n$$\\text{Tr}\\left[(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b})\\right] = (\\vec{a} \\cdot \\vec{b}) \\text{Tr}(I_2) + i \\sum_k (\\vec{a} \\times \\vec{b})_k \\text{Tr}(\\sigma_k)$$\nचूँकि $\\text{Tr}(I_2) = 2$ तथा सभी पाउली आव्यूह अनुरेख-रहित होते हैं (अर्थात् $\\text{Tr}(\\sigma_k) = 0$), हमें प्राप्त होता है:\n$$\\text{Tr}\\left[(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b})\\right] = 2 (\\vec{a} \\cdot \\vec{b})$$",
+      "questionTextEn": "Let σ⃗ = (σ_x, σ_y, σ_z) denote the Pauli spin matrices, and let a⃗ and b⃗ be arbitrary real constant 3-vectors. The trace of the 2×2 matrix (σ⃗ · a⃗)(σ⃗ · b⃗) is equal to:",
+      "optionsEn": [
+        "2 (a⃗ · b⃗)",
+        "(a⃗ · b⃗)",
+        "i (a⃗ × b⃗)",
+        "0"
+      ],
+      "explanationEn": "Using the fundamental Pauli identity:\n$$(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b}) = (\\vec{a} \\cdot \\vec{b}) I_2 + i \\vec{\\sigma} \\cdot (\\vec{a} \\times \\vec{b})$$\nTaking the trace of both sides:\n$$\\text{Tr}\\left[(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b})\\right] = (\\vec{a} \\cdot \\vec{b}) \\text{Tr}(I_2) + i \\sum_k (\\vec{a} \\times \\vec{b})_k \\text{Tr}(\\sigma_k)$$\nSince $\\text{Tr}(I_2) = 2$ and the Pauli matrices are traceless $\\text{Tr}(\\sigma_k) = 0$ for all $k \\in \\{x, y, z\\}$, we get:\n$$\\text{Tr}\\left[(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b})\\right] = 2 (\\vec{a} \\cdot \\vec{b})$$",
+      "questionTextHi": "माना σ⃗ = (σ_x, σ_y, σ_z) पाउली स्पिन आव्यूहों को निरुपित करते हैं, तथा a⃗ एवं b⃗ स्वेच्छ वास्तविक अचर 3-सदिश हैं। 2×2 आव्यूह (σ⃗ · a⃗)(σ⃗ · b⃗) का अनुरेख (trace) किसके बराबर है?",
+      "optionsHi": [
+        "2 (a⃗ · b⃗)",
+        "(a⃗ · b⃗)",
+        "i (a⃗ × b⃗)",
+        "0"
+      ],
+      "explanationHi": "पाउली सर्वसमिका का उपयोग करने पर:\n$$(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b}) = (\\vec{a} \\cdot \\vec{b}) I_2 + i \\vec{\\sigma} \\cdot (\\vec{a} \\times \\vec{b})$$\nदोनों पक्षों का अनुरेख (trace) लेने पर:\n$$\\text{Tr}\\left[(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b})\\right] = (\\vec{a} \\cdot \\vec{b}) \\text{Tr}(I_2) + i \\sum_k (\\vec{a} \\times \\vec{b})_k \\text{Tr}(\\sigma_k)$$\nचूँकि $\\text{Tr}(I_2) = 2$ तथा सभी पाउली आव्यूह अनुरेख-रहित होते हैं (अर्थात् $\\text{Tr}(\\sigma_k) = 0$), हमें प्राप्त होता है:\n$$\\text{Tr}\\left[(\\vec{\\sigma} \\cdot \\vec{a})(\\vec{\\sigma} \\cdot \\vec{b})\\right] = 2 (\\vec{a} \\cdot \\vec{b})$$"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q007",
+      "questionNumber": 7,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "यदि U एक n×n ऐकिक आव्यूह (unitary matrix, U† U = I) है, तो इसके आइगेनमानों के संबंध में निम्नलिखित में से कौन सा कथन सदैव सत्य है?",
+      "options": [
+        "सभी आइगेनमान विशुद्ध वास्तविक संख्याएँ होने चाहिए",
+        "सभी आइगेनमानों का निरपेक्ष मान (मापांक) 1 के बराबर होना चाहिए",
+        "सभी आइगेनमान विशुद्ध काल्पनिक होने चाहिए",
+        "सभी आइगेनमानों का योग शून्य होना चाहिए"
+      ],
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "माना $|v\\rangle$ आव्यूह $U$ का आइगेनमान $\\lambda$ के संगत आइगेनसदिश है ($U|v\\rangle = \\lambda|v\\rangle$)।\nहर्मिटी संयुग्मी (adjoint) लेने पर: $\\langle v| U^\\dagger = \\lambda^* \\langle v|$।\nदोनों समीकरणों का गुणनफल लेने पर:\n$$\\langle v| U^\\dagger U | v \\rangle = \\lambda^* \\lambda \\langle v | v \\rangle$$\nचूँकि $U^\\dagger U = I$ है, अतः बायाँ पक्ष $\\langle v|v\\rangle$ बन जाता है:\n$$\\langle v|v\\rangle = |\\lambda|^2 \\langle v|v\\rangle$$\nचूँकि $|v\\rangle \\ne 0$ है, अतः दोनों पक्षों को $\\langle v|v\\rangle$ से विभाजित करने पर:\n$$|\\lambda|^2 = 1 \\implies |\\lambda| = 1$$\nअतः ऐकिक आव्यूह के प्रत्येक आइगेनमान का निरपेक्ष मान (मापांक) सदैव 1 होता है।",
+      "questionTextEn": "If U is an n×n unitary matrix (U† U = I), which of the following statements concerning its eigenvalues is always true?",
+      "optionsEn": [
+        "All eigenvalues must be purely real numbers",
+        "All eigenvalues must have absolute value equal to 1",
+        "All eigenvalues must be purely imaginary",
+        "The sum of all eigenvalues must be zero"
+      ],
+      "explanationEn": "Let $|v\\rangle$ be an eigenvector of $U$ with eigenvalue $\\lambda$ ($U|v\\rangle = \\lambda|v\\rangle$).\nTaking the Hermitian adjoint: $\\langle v| U^\\dagger = \\lambda^* \\langle v|$.\nMultiplying both equations:\n$$\\langle v| U^\\dagger U | v \\rangle = \\lambda^* \\lambda \\langle v | v \\rangle$$\nSince $U^\\dagger U = I$, the left side simplifies to $\\langle v|v\\rangle$:\n$$\\langle v|v\\rangle = |\\lambda|^2 \\langle v|v\\rangle$$\nSince $|v\\rangle \\ne 0$, we divide by $\\langle v|v\\rangle$ to get:\n$$|\\lambda|^2 = 1 \\implies |\\lambda| = 1$$\nThus, every eigenvalue of a unitary matrix lies on the unit circle in the complex plane, so its absolute value is always 1.",
+      "questionTextHi": "यदि U एक n×n ऐकिक आव्यूह (unitary matrix, U† U = I) है, तो इसके आइगेनमानों के संबंध में निम्नलिखित में से कौन सा कथन सदैव सत्य है?",
+      "optionsHi": [
+        "सभी आइगेनमान विशुद्ध वास्तविक संख्याएँ होने चाहिए",
+        "सभी आइगेनमानों का निरपेक्ष मान (मापांक) 1 के बराबर होना चाहिए",
+        "सभी आइगेनमान विशुद्ध काल्पनिक होने चाहिए",
+        "सभी आइगेनमानों का योग शून्य होना चाहिए"
+      ],
+      "explanationHi": "माना $|v\\rangle$ आव्यूह $U$ का आइगेनमान $\\lambda$ के संगत आइगेनसदिश है ($U|v\\rangle = \\lambda|v\\rangle$)।\nहर्मिटी संयुग्मी (adjoint) लेने पर: $\\langle v| U^\\dagger = \\lambda^* \\langle v|$।\nदोनों समीकरणों का गुणनफल लेने पर:\n$$\\langle v| U^\\dagger U | v \\rangle = \\lambda^* \\lambda \\langle v | v \\rangle$$\nचूँकि $U^\\dagger U = I$ है, अतः बायाँ पक्ष $\\langle v|v\\rangle$ बन जाता है:\n$$\\langle v|v\\rangle = |\\lambda|^2 \\langle v|v\\rangle$$\nचूँकि $|v\\rangle \\ne 0$ है, अतः दोनों पक्षों को $\\langle v|v\\rangle$ से विभाजित करने पर:\n$$|\\lambda|^2 = 1 \\implies |\\lambda| = 1$$\nअतः ऐकिक आव्यूह के प्रत्येक आइगेनमान का निरपेक्ष मान (मापांक) सदैव 1 होता है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q008",
+      "questionNumber": 8,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "एक n-विमीय हिल्बर्ट समष्टि पर कार्यरत एक रैखिक संकारक P एक लंबकोणीय प्रक्षेप संकारक (projection operator) है, जो P² = P तथा P† = P को संतुष्ट करता है। P के केवल संभावित आइगेनमान क्या हैं?",
+      "options": [
+        "केवल 0 तथा 1",
+        "केवल +1 तथा -1",
+        "कोई भी अऋणात्मक वास्तविक संख्या",
+        "विशुद्ध काल्पनिक संख्याएँ"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "माना $|v\\rangle$ संकारक $P$ का आइगेनमान $\\lambda$ के संगत आइगेनसदिश है, अतः $P|v\\rangle = \\lambda|v\\rangle$, जहाँ $|v\\rangle \\ne 0$।\nपुनः $P$ लागू करने पर:\n$$P^2 |v\\rangle = P(P|v\\rangle) = \\lambda^2 |v\\rangle$$\nचूँकि $P^2 = P$ है, अतः $P^2|v\\rangle = P|v\\rangle = \\lambda|v\\rangle$ भी सत्य है।\nअतः:\n$$\\lambda^2 |v\\rangle = \\lambda |v\\rangle \\implies (\\lambda^2 - \\lambda)|v\\rangle = 0$$\nचूँकि $|v\\rangle \\ne 0$ है, अतः अदिश समीकरण प्राप्त होता है:\n$$\\lambda(\\lambda - 1) = 0 \\implies \\lambda = 0 \\text{ अथवा } \\lambda = 1$$\nअतः प्रक्षेप संकारक के केवल संभावित आइगेनमान 0 और 1 हैं।",
+      "questionTextEn": "A linear operator P acting on an n-dimensional Hilbert space is an orthogonal projection operator, satisfying P² = P and P† = P. What are the only possible eigenvalues of P?",
+      "optionsEn": [
+        "0 and 1 only",
+        "+1 and -1 only",
+        "Any non-negative real number",
+        "Purely imaginary numbers"
+      ],
+      "explanationEn": "Let $|v\\rangle$ be an eigenvector of $P$ with eigenvalue $\\lambda$, so $P|v\\rangle = \\lambda|v\\rangle$ with $|v\\rangle \\ne 0$.\nApplying $P$ again:\n$$P^2 |v\\rangle = P(P|v\\rangle) = P(\\lambda|v\\rangle) = \\lambda^2 |v\\rangle$$\nSince $P^2 = P$, we also have $P^2|v\\rangle = P|v\\rangle = \\lambda|v\\rangle$.\nTherefore:\n$$\\lambda^2 |v\\rangle = \\lambda |v\\rangle \\implies (\\lambda^2 - \\lambda)|v\\rangle = 0$$\nSince $|v\\rangle \\ne 0$, the scalar equation is:\n$$\\lambda^2 - \\lambda = 0 \\implies \\lambda(\\lambda - 1) = 0$$\nThus, the only possible eigenvalues are $\\lambda = 0$ or $\\lambda = 1$.",
+      "questionTextHi": "एक n-विमीय हिल्बर्ट समष्टि पर कार्यरत एक रैखिक संकारक P एक लंबकोणीय प्रक्षेप संकारक (projection operator) है, जो P² = P तथा P† = P को संतुष्ट करता है। P के केवल संभावित आइगेनमान क्या हैं?",
+      "optionsHi": [
+        "केवल 0 तथा 1",
+        "केवल +1 तथा -1",
+        "कोई भी अऋणात्मक वास्तविक संख्या",
+        "विशुद्ध काल्पनिक संख्याएँ"
+      ],
+      "explanationHi": "माना $|v\\rangle$ संकारक $P$ का आइगेनमान $\\lambda$ के संगत आइगेनसदिश है, अतः $P|v\\rangle = \\lambda|v\\rangle$, जहाँ $|v\\rangle \\ne 0$।\nपुनः $P$ लागू करने पर:\n$$P^2 |v\\rangle = P(P|v\\rangle) = \\lambda^2 |v\\rangle$$\nचूँकि $P^2 = P$ है, अतः $P^2|v\\rangle = P|v\\rangle = \\lambda|v\\rangle$ भी सत्य है।\nअतः:\n$$\\lambda^2 |v\\rangle = \\lambda |v\\rangle \\implies (\\lambda^2 - \\lambda)|v\\rangle = 0$$\nचूँकि $|v\\rangle \\ne 0$ है, अतः अदिश समीकरण प्राप्त होता है:\n$$\\lambda(\\lambda - 1) = 0 \\implies \\lambda = 0 \\text{ अथवा } \\lambda = 1$$\nअतः प्रक्षेप संकारक के केवल संभावित आइगेनमान 0 और 1 हैं।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q009",
+      "questionNumber": 9,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "questionText": "माना K एक n×n विषम-हर्मिटी आव्यूह (skew-Hermitian matrix) है जो K† = -K को संतुष्ट करता है। निम्नलिखित में से कौन से कथन सदैव सत्य हैं? [MSQ — एक या अधिक सही]",
+      "options": [
+        "K के सभी आइगेनमान या तो विशुद्ध काल्पनिक होते हैं या शून्य",
+        "आव्यूह चरघातांक exp(K) एक ऐकिक आव्यूह (unitary matrix) होता है",
+        "आव्यूह (i K) एक हर्मिटी आव्यूह (Hermitian matrix) होता है",
+        "K का सारणिक सदैव एक धनात्मक वास्तविक संख्या होता है"
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "प्रत्येक कथन की जाँच करते हैं:\n1. यदि $K|v\\rangle = \\lambda|v\\rangle$ हो, तो $K^\\dagger = -K$ होने के कारण $\\lambda^* = -\\lambda$ प्राप्त होता है। इसका अर्थ है कि $\\lambda$ का वास्तविक भाग शून्य है, अतः यह विशुद्ध काल्पनिक या शून्य होगा। कथन A सत्य है।\n2. $U = e^K$ के लिए, $U^\\dagger = e^{K^\\dagger} = e^{-K}$ होता है। अतः $U^\\dagger U = e^{-K} e^K = I$। इसलिए $e^K$ एक ऐकिक आव्यूह है। कथन B सत्य है।\n3. $H = iK$ लेने पर, $H^\\dagger = (iK)^\\dagger = -i(-K) = iK = H$। अतः $iK$ हर्मिटी है। कथन C सत्य है।\n4. विषम विमा $n$ के लिए सारणिक काल्पनिक हो सकता है (जैसे $K = [i]$ के लिए $\\det(K) = i$)। अतः कथन D असत्य है।\nसही विकल्प: A, B, C।",
+      "questionTextEn": "Let K be an n×n skew-Hermitian matrix satisfying K† = -K. Which of the following statements are ALWAYS TRUE? [MSQ — One or More Correct]",
+      "optionsEn": [
+        "All eigenvalues of K are either purely imaginary or zero",
+        "The matrix exponential exp(K) is a unitary matrix",
+        "The matrix (i K) is a Hermitian matrix",
+        "The determinant of K is always a strictly positive real number"
+      ],
+      "explanationEn": "Let us check each statement:\n1. If $K|v\\rangle = \\lambda|v\\rangle$, then $\\langle v|K^\\dagger|v\\rangle = \\lambda^* \\langle v|v\\rangle$. Since $K^\\dagger = -K$, we have $-\\langle v|K|v\\rangle = -\\lambda\\langle v|v\\rangle = \\lambda^*\\langle v|v\\rangle \\implies \\lambda^* = -\\lambda$. This means $\\text{Re}(\\lambda) = 0$, so $\\lambda$ is purely imaginary or zero. Statement A is TRUE.\n2. Consider $U = e^K$. Then $U^\\dagger = (e^K)^\\dagger = e^{K^\\dagger} = e^{-K}$. Therefore $U^\\dagger U = e^{-K} e^K = e^0 = I$. Thus $e^K$ is unitary. Statement B is TRUE.\n3. Let $H = iK$. Then $H^\\dagger = (iK)^\\dagger = -i K^\\dagger = -i(-K) = iK = H$. Hence $iK$ is Hermitian. Statement C is TRUE.\n4. For odd dimension $n$, $\\det(K)$ can be purely imaginary (e.g., for $1\\times 1$ matrix $K = [i]$, $\\det(K) = i$). Thus Statement D is FALSE.\nCorrect options: A, B, C.",
+      "questionTextHi": "माना K एक n×n विषम-हर्मिटी आव्यूह (skew-Hermitian matrix) है जो K† = -K को संतुष्ट करता है। निम्नलिखित में से कौन से कथन सदैव सत्य हैं? [MSQ — एक या अधिक सही]",
+      "optionsHi": [
+        "K के सभी आइगेनमान या तो विशुद्ध काल्पनिक होते हैं या शून्य",
+        "आव्यूह चरघातांक exp(K) एक ऐकिक आव्यूह (unitary matrix) होता है",
+        "आव्यूह (i K) एक हर्मिटी आव्यूह (Hermitian matrix) होता है",
+        "K का सारणिक सदैव एक धनात्मक वास्तविक संख्या होता है"
+      ],
+      "explanationHi": "प्रत्येक कथन की जाँच करते हैं:\n1. यदि $K|v\\rangle = \\lambda|v\\rangle$ हो, तो $K^\\dagger = -K$ होने के कारण $\\lambda^* = -\\lambda$ प्राप्त होता है। इसका अर्थ है कि $\\lambda$ का वास्तविक भाग शून्य है, अतः यह विशुद्ध काल्पनिक या शून्य होगा। कथन A सत्य है।\n2. $U = e^K$ के लिए, $U^\\dagger = e^{K^\\dagger} = e^{-K}$ होता है। अतः $U^\\dagger U = e^{-K} e^K = I$। इसलिए $e^K$ एक ऐकिक आव्यूह है। कथन B सत्य है।\n3. $H = iK$ लेने पर, $H^\\dagger = (iK)^\\dagger = -i(-K) = iK = H$। अतः $iK$ हर्मिटी है। कथन C सत्य है।\n4. विषम विमा $n$ के लिए सारणिक काल्पनिक हो सकता है (जैसे $K = [i]$ के लिए $\\det(K) = i$)। अतः कथन D असत्य है।\nसही विकल्प: A, B, C।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q010",
+      "questionNumber": 10,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "questionText": "ऊपरी त्रिभुजाकार 2×2 आव्यूह A = [[1, 2], [0, 3]] पर विचार कीजिए। आव्यूह A³ का अनुरेख (trace) ________ के बराबर है (पूर्णांक में)।",
+      "options": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 28.0,
+      "natMax": 28.0,
+      "explanation": "ऊपरी त्रिभुजाकार आव्यूह के आइगेनमान सीधे उसके मुख्य विकर्ण के अवयव होते हैं:\n$$\\lambda_1 = 1, \\quad \\lambda_2 = 3$$\nयदि $\\lambda_i$ आव्यूह $A$ के आइगेनमान हैं, तो $A^3$ के आइगेनमान $\\lambda_i^3$ होंगे:\n$$\\lambda_1^3 = 1^3 = 1, \\quad \\lambda_2^3 = 3^3 = 27$$\n$A^3$ का अनुरेख इसके आइगेनमानों का योग होता है:\n$$\\text{Tr}(A^3) = \\lambda_1^3 + \\lambda_2^3 = 1 + 27 = 28$$\nअतः सही उत्तर 28 है।",
+      "questionTextEn": "Consider the upper triangular 2×2 matrix A = [[1, 2], [0, 3]]. The trace of the matrix A³ is equal to ________ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "For an upper triangular matrix, its eigenvalues are simply the diagonal entries:\n$$\\lambda_1 = 1, \\quad \\lambda_2 = 3$$\nIf $\\lambda_i$ are the eigenvalues of $A$, then the eigenvalues of $A^3$ are $\\lambda_i^3$:\n$$\\lambda_1^3 = 1^3 = 1, \\quad \\lambda_2^3 = 3^3 = 27$$\nThe trace of $A^3$ is the sum of its eigenvalues:\n$$\\text{Tr}(A^3) = \\lambda_1^3 + \\lambda_2^3 = 1 + 27 = 28$$\nHence, the correct answer is 28.",
+      "questionTextHi": "ऊपरी त्रिभुजाकार 2×2 आव्यूह A = [[1, 2], [0, 3]] पर विचार कीजिए। आव्यूह A³ का अनुरेख (trace) ________ के बराबर है (पूर्णांक में)।",
+      "optionsHi": [],
+      "explanationHi": "ऊपरी त्रिभुजाकार आव्यूह के आइगेनमान सीधे उसके मुख्य विकर्ण के अवयव होते हैं:\n$$\\lambda_1 = 1, \\quad \\lambda_2 = 3$$\nयदि $\\lambda_i$ आव्यूह $A$ के आइगेनमान हैं, तो $A^3$ के आइगेनमान $\\lambda_i^3$ होंगे:\n$$\\lambda_1^3 = 1^3 = 1, \\quad \\lambda_2^3 = 3^3 = 27$$\n$A^3$ का अनुरेख इसके आइगेनमानों का योग होता है:\n$$\\text{Tr}(A^3) = \\lambda_1^3 + \\lambda_2^3 = 1 + 27 = 28$$\nअतः सही उत्तर 28 है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q011",
+      "questionNumber": 11,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Hard",
+      "questionText": "माना A निम्नलिखित 2×2 अपरूपण आव्यूह (shear matrix) है:\n$$A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$$\nआव्यूह व्यंजक (A¹⁰ - 10A) का मान क्या होगा?",
+      "options": [
+        "-9 I",
+        "9 I",
+        "0 (शून्य आव्यूह)",
+        "10 I - A"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "आव्यूह $A$ की घातों का प्रेक्षण करते हैं:\n$$A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$$\n$$A^2 = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}, \\quad \\dots, \\quad A^n = \\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}$$\nअतः $n = 10$ के लिए:\n$$A^{10} = \\begin{pmatrix} 1 & 10 \\\\ 0 & 1 \\end{pmatrix}$$\nसाथ ही:\n$$10A = \\begin{pmatrix} 10 & 10 \\\\ 0 & 10 \\end{pmatrix}$$\nदोनों का अंतर निकालने पर:\n$$A^{10} - 10A = \\begin{pmatrix} 1 - 10 & 10 - 10 \\\\ 0 & 1 - 10 \\end{pmatrix} = \\begin{pmatrix} -9 & 0 \\\\ 0 & -9 \\end{pmatrix} = -9 I$$\nअतः परिणाम $-9I$ प्राप्त होता है।",
+      "questionTextEn": "Let A be the 2×2 shear matrix:\n$$A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$$\nThe matrix expression (A¹⁰ - 10A) evaluates to:",
+      "optionsEn": [
+        "-9 I",
+        "9 I",
+        "0 (Null matrix)",
+        "10 I - A"
+      ],
+      "explanationEn": "We observe the powers of the matrix $A$:\n$$A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$$\n$$A^2 = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}, \\quad A^3 = \\begin{pmatrix} 1 & 3 \\\\ 0 & 1 \\end{pmatrix}, \\quad \\dots, \\quad A^n = \\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}$$\nTherefore, for $n = 10$:\n$$A^{10} = \\begin{pmatrix} 1 & 10 \\\\ 0 & 1 \\end{pmatrix}$$\nAlso:\n$$10A = 10 \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix} 10 & 10 \\\\ 0 & 10 \\end{pmatrix}$$\nSubtracting the two matrices:\n$$A^{10} - 10A = \\begin{pmatrix} 1 - 10 & 10 - 10 \\\\ 0 - 0 & 1 - 10 \\end{pmatrix} = \\begin{pmatrix} -9 & 0 \\\\ 0 & -9 \\end{pmatrix} = -9 \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} = -9 I$$\nThus, the result is $-9I$.",
+      "questionTextHi": "माना A निम्नलिखित 2×2 अपरूपण आव्यूह (shear matrix) है:\n$$A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$$\nआव्यूह व्यंजक (A¹⁰ - 10A) का मान क्या होगा?",
+      "optionsHi": [
+        "-9 I",
+        "9 I",
+        "0 (शून्य आव्यूह)",
+        "10 I - A"
+      ],
+      "explanationHi": "आव्यूह $A$ की घातों का प्रेक्षण करते हैं:\n$$A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$$\n$$A^2 = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}, \\quad \\dots, \\quad A^n = \\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}$$\nअतः $n = 10$ के लिए:\n$$A^{10} = \\begin{pmatrix} 1 & 10 \\\\ 0 & 1 \\end{pmatrix}$$\nसाथ ही:\n$$10A = \\begin{pmatrix} 10 & 10 \\\\ 0 & 10 \\end{pmatrix}$$\nदोनों का अंतर निकालने पर:\n$$A^{10} - 10A = \\begin{pmatrix} 1 - 10 & 10 - 10 \\\\ 0 & 1 - 10 \\end{pmatrix} = \\begin{pmatrix} -9 & 0 \\\\ 0 & -9 \\end{pmatrix} = -9 I$$\nअतः परिणाम $-9I$ प्राप्त होता है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q012",
+      "questionNumber": 12,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Hard",
+      "questionText": "निम्नलिखित 3×3 क्रमचय (परिपथक) आव्यूह पर विचार कीजिए:\n$$P = \\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 1 & 0 & 0 \\end{pmatrix}$$\nयदि ω = exp(i 2π / 3) इकाई के सम्मिश्र घनमूल को दर्शाता है, तो आव्यूह P के आइगेनमान क्या हैं?",
+      "options": [
+        "1, ω, तथा ω²",
+        "1, -1, तथा 0",
+        "0, 1, तथा 2",
+        "i, -i, तथा 1"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "अभिलाक्षणिक समीकरण ज्ञात करने के लिए $\\det(P - \\lambda I) = 0$ हल करते हैं:\n$$\\det\\begin{pmatrix} -\\lambda & 1 & 0 \\\\ 0 & -\\lambda & 1 \\\\ 1 & 0 & -\\lambda \\end{pmatrix} = -\\lambda^3 + 1 = 0 \\implies \\lambda^3 = 1$$\n$\\lambda^3 = 1$ के तीन मूल इकाई के घनमूल होते हैं:\n$$\\lambda_1 = 1, \\quad \\lambda_2 = e^{i 2\\pi / 3} = \\omega, \\quad \\lambda_3 = e^{i 4\\pi / 3} = \\omega^2$$\nअतः आइगेनमान $1, \\omega, \\omega^2$ हैं।",
+      "questionTextEn": "Consider the 3×3 permutation (circulant) matrix:\n$$P = \\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 1 & 0 & 0 \\end{pmatrix}$$\nIf ω = exp(i 2π / 3) denotes the complex cube root of unity, the eigenvalues of the matrix P are:",
+      "optionsEn": [
+        "1, ω, and ω²",
+        "1, -1, and 0",
+        "0, 1, and 2",
+        "i, -i, and 1"
+      ],
+      "explanationEn": "The characteristic equation of $P$ is found from $\\det(P - \\lambda I) = 0$:\n$$\\det\\begin{pmatrix} -\\lambda & 1 & 0 \\\\ 0 & -\\lambda & 1 \\\\ 1 & 0 & -\\lambda \\end{pmatrix} = -\\lambda(\\lambda^2) - 1(-1) = -\\lambda^3 + 1 = 0$$\n$$\\lambda^3 = 1$$\nThe solutions to $\\lambda^3 = 1$ are the three cube roots of unity:\n$$\\lambda_1 = 1, \\quad \\lambda_2 = e^{i 2\\pi / 3} = \\omega, \\quad \\lambda_3 = e^{i 4\\pi / 3} = \\omega^2$$\nTherefore, the eigenvalues are $1, \\omega, \\omega^2$.",
+      "questionTextHi": "निम्नलिखित 3×3 क्रमचय (परिपथक) आव्यूह पर विचार कीजिए:\n$$P = \\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 1 & 0 & 0 \\end{pmatrix}$$\nयदि ω = exp(i 2π / 3) इकाई के सम्मिश्र घनमूल को दर्शाता है, तो आव्यूह P के आइगेनमान क्या हैं?",
+      "optionsHi": [
+        "1, ω, तथा ω²",
+        "1, -1, तथा 0",
+        "0, 1, तथा 2",
+        "i, -i, तथा 1"
+      ],
+      "explanationHi": "अभिलाक्षणिक समीकरण ज्ञात करने के लिए $\\det(P - \\lambda I) = 0$ हल करते हैं:\n$$\\det\\begin{pmatrix} -\\lambda & 1 & 0 \\\\ 0 & -\\lambda & 1 \\\\ 1 & 0 & -\\lambda \\end{pmatrix} = -\\lambda^3 + 1 = 0 \\implies \\lambda^3 = 1$$\n$\\lambda^3 = 1$ के तीन मूल इकाई के घनमूल होते हैं:\n$$\\lambda_1 = 1, \\quad \\lambda_2 = e^{i 2\\pi / 3} = \\omega, \\quad \\lambda_3 = e^{i 4\\pi / 3} = \\omega^2$$\nअतः आइगेनमान $1, \\omega, \\omega^2$ हैं।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q013",
+      "questionNumber": 13,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "questionText": "ℝ³ में, दो रैखिकतः स्वतंत्र सदिशों v⃗₁ = (1, 1, 0)ᵀ तथा v⃗₂ = (1, 0, 1)ᵀ पर विचार कीजिए। ग्राम-श्मिट लंबकोणीयकरण प्रक्रम का उपयोग करके, ê₁ = v⃗₁ / ||v⃗₁|| के लंबवत प्रसामान्यीकृत सदिश ê₂ क्या होगा?",
+      "options": [
+        "(1/√6) (1, -1, 2)ᵀ",
+        "(1/√3) (1, -1, 1)ᵀ",
+        "(1/√2) (0, -1, 1)ᵀ",
+        "(1/√6) (1, 2, -1)ᵀ"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "सर्वप्रथम प्रसामान्यीकृत सदिश $\\hat{e}_1$ प्राप्त करते हैं:\n$$\\hat{e}_1 = \\frac{1}{\\sqrt{2}} (1, 1, 0)^T$$\nसदिश $\\vec{v}_2$ का $\\hat{e}_1$ के अनुदिश प्रक्षेप:\n$$\\vec{v}_2 \\cdot \\hat{e}_1 = (1, 0, 1) \\cdot \\frac{1}{\\sqrt{2}}(1, 1, 0) = \\frac{1}{\\sqrt{2}}$$\nलंबवत सदिश $\\vec{u}_2$:\n$$\\vec{u}_2 = \\vec{v}_2 - (\\vec{v}_2 \\cdot \\hat{e}_1)\\hat{e}_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} - \\frac{1}{2} \\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 1/2 \\\\ -1/2 \\\\ 1 \\end{pmatrix}$$\n$\\vec{u}_2$ का परिमाण $\\|\\vec{u}_2\\| = \\sqrt{1/4 + 1/4 + 1} = \\frac{\\sqrt{6}}{2}$ है।\nअतः प्रसामान्यीकृत सदिश:\n$$\\hat{e}_2 = \\frac{1}{\\sqrt{6}} (1, -1, 2)^T$$\nअतः विकल्प A सही है।",
+      "questionTextEn": "In ℝ³, consider two linearly independent vectors v⃗₁ = (1, 1, 0)ᵀ and v⃗₂ = (1, 0, 1)ᵀ. Using the Gram-Schmidt orthogonalization process, the normalized vector ê₂ orthogonal to ê₁ = v⃗₁ / ||v⃗₁|| is:",
+      "optionsEn": [
+        "(1/√6) (1, -1, 2)ᵀ",
+        "(1/√3) (1, -1, 1)ᵀ",
+        "(1/√2) (0, -1, 1)ᵀ",
+        "(1/√6) (1, 2, -1)ᵀ"
+      ],
+      "explanationEn": "First, the normalized vector $\\hat{e}_1$ is:\n$$\\hat{e}_1 = \\frac{\\vec{v}_1}{\\|\\vec{v}_1\\|} = \\frac{1}{\\sqrt{1^2 + 1^2 + 0^2}} (1, 1, 0)^T = \\frac{1}{\\sqrt{2}} (1, 1, 0)^T$$\nNext, the component of $\\vec{v}_2$ along $\\hat{e}_1$ is:\n$$\\vec{v}_2 \\cdot \\hat{e}_1 = (1, 0, 1) \\cdot \\frac{1}{\\sqrt{2}}(1, 1, 0) = \\frac{1}{\\sqrt{2}}$$\nThe unnormalized orthogonal vector $\\vec{u}_2$ is:\n$$\\vec{u}_2 = \\vec{v}_2 - (\\vec{v}_2 \\cdot \\hat{e}_1)\\hat{e}_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} - \\frac{1}{\\sqrt{2}} \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} - \\begin{pmatrix} 1/2 \\\\ 1/2 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 1/2 \\\\ -1/2 \\\\ 1 \\end{pmatrix}$$\nNormalizing $\\vec{u}_2$:\n$$\\|\\vec{u}_2\\| = \\sqrt{(1/2)^2 + (-1/2)^2 + 1^2} = \\sqrt{1/4 + 1/4 + 1} = \\sqrt{6/4} = \\frac{\\sqrt{6}}{2}$$\n$$\\hat{e}_2 = \\frac{\\vec{u}_2}{\\|\\vec{u}_2\\|} = \\frac{2}{\\sqrt{6}} \\begin{pmatrix} 1/2 \\\\ -1/2 \\\\ 1 \\end{pmatrix} = \\frac{1}{\\sqrt{6}} \\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}$$\nThus, option A is correct.",
+      "questionTextHi": "ℝ³ में, दो रैखिकतः स्वतंत्र सदिशों v⃗₁ = (1, 1, 0)ᵀ तथा v⃗₂ = (1, 0, 1)ᵀ पर विचार कीजिए। ग्राम-श्मिट लंबकोणीयकरण प्रक्रम का उपयोग करके, ê₁ = v⃗₁ / ||v⃗₁|| के लंबवत प्रसामान्यीकृत सदिश ê₂ क्या होगा?",
+      "optionsHi": [
+        "(1/√6) (1, -1, 2)ᵀ",
+        "(1/√3) (1, -1, 1)ᵀ",
+        "(1/√2) (0, -1, 1)ᵀ",
+        "(1/√6) (1, 2, -1)ᵀ"
+      ],
+      "explanationHi": "सर्वप्रथम प्रसामान्यीकृत सदिश $\\hat{e}_1$ प्राप्त करते हैं:\n$$\\hat{e}_1 = \\frac{1}{\\sqrt{2}} (1, 1, 0)^T$$\nसदिश $\\vec{v}_2$ का $\\hat{e}_1$ के अनुदिश प्रक्षेप:\n$$\\vec{v}_2 \\cdot \\hat{e}_1 = (1, 0, 1) \\cdot \\frac{1}{\\sqrt{2}}(1, 1, 0) = \\frac{1}{\\sqrt{2}}$$\nलंबवत सदिश $\\vec{u}_2$:\n$$\\vec{u}_2 = \\vec{v}_2 - (\\vec{v}_2 \\cdot \\hat{e}_1)\\hat{e}_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} - \\frac{1}{2} \\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 1/2 \\\\ -1/2 \\\\ 1 \\end{pmatrix}$$\n$\\vec{u}_2$ का परिमाण $\\|\\vec{u}_2\\| = \\sqrt{1/4 + 1/4 + 1} = \\frac{\\sqrt{6}}{2}$ है।\nअतः प्रसामान्यीकृत सदिश:\n$$\\hat{e}_2 = \\frac{1}{\\sqrt{6}} (1, -1, 2)^T$$\nअतः विकल्प A सही है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q014",
+      "questionNumber": 14,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "questionText": "दो n×n आव्यूह A तथा B एक समरूपता रूपांतरण B = P⁻¹ A P द्वारा संबंधित हैं, जहाँ P एक व्युत्क्रमणीय आव्यूह है। निम्नलिखित में से कौन सी राशियाँ निश्चर (A और B दोनों के लिए समान) हैं? [MSQ — एक या अधिक सही]",
+      "options": [
+        "आव्यूह का अनुरेख: Tr(A) = Tr(B)",
+        "आव्यूह का सारणिक: det(A) = det(B)",
+        "अभिलाक्षणिक बहुपद एवं आइगेनमान",
+        "आव्यूहों के आइगेनसदिश"
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "समरूपता रूपांतरण $B = P^{-1} A P$ के अंतर्गत:\n1. अनुरेख के चक्रीय गुणधर्म से $\\text{Tr}(B) = \\text{Tr}(A)$ होता है। अतः कथन A सत्य है।\n2. सारणिक $\\det(B) = \\det(A)$ होता है। अतः कथन B सत्य है।\n3. अभिलाक्षणिक बहुपद $\\det(B - \\lambda I) = \\det(A - \\lambda I)$ समान रहता है, जिससे सभी आइगेनमान समान होते हैं। अतः कथन C सत्य है।\n4. यदि $|v\\rangle$, $A$ का आइगेनसदिश है, तो $B$ का आइगेनसदिश $P^{-1}|v\\rangle$ होता है, जो सामान्यतः $|v\\rangle$ से भिन्न होता है। अतः कथन D असत्य है।\nसही विकल्प: A, B, C।",
+      "questionTextEn": "Two n×n matrices A and B are related by a similarity transformation B = P⁻¹ A P, where P is an invertible matrix. Which of the following quantities are invariant (identical for A and B)? [MSQ — One or More Correct]",
+      "optionsEn": [
+        "The trace of the matrix: Tr(A) = Tr(B)",
+        "The determinant of the matrix: det(A) = det(B)",
+        "The characteristic polynomial and eigenvalues",
+        "The eigenvectors of the matrices"
+      ],
+      "explanationEn": "Under a similarity transformation $B = P^{-1} A P$:\n1. $\\text{Tr}(B) = \\text{Tr}(P^{-1} A P) = \\text{Tr}(A P P^{-1}) = \\text{Tr}(A)$ by the cyclic property of trace. Statement A is TRUE.\n2. $\\det(B) = \\det(P^{-1}) \\det(A) \\det(P) = \\frac{1}{\\det(P)} \\det(A) \\det(P) = \\det(A)$. Statement B is TRUE.\n3. Characteristic polynomial:\n$$\\det(B - \\lambda I) = \\det(P^{-1}(A - \\lambda I)P) = \\det(A - \\lambda I)$$\nThus the characteristic polynomial and all eigenvalues are strictly identical. Statement C is TRUE.\n4. If $A|v\\rangle = \\lambda|v\\rangle$, then $B(P^{-1}|v\\rangle) = P^{-1}AP(P^{-1}|v\\rangle) = P^{-1}A|v\\rangle = \\lambda(P^{-1}|v\\rangle)$. The eigenvector of $B$ is $P^{-1}|v\\rangle$, which in general differs from $|v\\rangle$. Statement D is FALSE.\nCorrect options: A, B, C.",
+      "questionTextHi": "दो n×n आव्यूह A तथा B एक समरूपता रूपांतरण B = P⁻¹ A P द्वारा संबंधित हैं, जहाँ P एक व्युत्क्रमणीय आव्यूह है। निम्नलिखित में से कौन सी राशियाँ निश्चर (A और B दोनों के लिए समान) हैं? [MSQ — एक या अधिक सही]",
+      "optionsHi": [
+        "आव्यूह का अनुरेख: Tr(A) = Tr(B)",
+        "आव्यूह का सारणिक: det(A) = det(B)",
+        "अभिलाक्षणिक बहुपद एवं आइगेनमान",
+        "आव्यूहों के आइगेनसदिश"
+      ],
+      "explanationHi": "समरूपता रूपांतरण $B = P^{-1} A P$ के अंतर्गत:\n1. अनुरेख के चक्रीय गुणधर्म से $\\text{Tr}(B) = \\text{Tr}(A)$ होता है। अतः कथन A सत्य है।\n2. सारणिक $\\det(B) = \\det(A)$ होता है। अतः कथन B सत्य है।\n3. अभिलाक्षणिक बहुपद $\\det(B - \\lambda I) = \\det(A - \\lambda I)$ समान रहता है, जिससे सभी आइगेनमान समान होते हैं। अतः कथन C सत्य है।\n4. यदि $|v\\rangle$, $A$ का आइगेनसदिश है, तो $B$ का आइगेनसदिश $P^{-1}|v\\rangle$ होता है, जो सामान्यतः $|v\\rangle$ से भिन्न होता है। अतः कथन D असत्य है।\nसही विकल्प: A, B, C।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q015",
+      "questionNumber": 15,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Hard",
+      "questionText": "निम्नलिखित 3×3 ऊपरी त्रिभुजाकार आव्यूह पर विचार कीजिए:\n$$A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 4 \\\\ 0 & 0 & -1 \\end{pmatrix}$$\nआव्यूह (A² + I) की सारणिक (determinant) का मान ________ है (पूर्णांक में)।",
+      "options": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 100.0,
+      "natMax": 100.0,
+      "explanation": "चूँकि $A$ एक ऊपरी त्रिभुजाकार आव्यूह है, अतः इसके आइगेनमान मुख्य विकर्ण के अवयव हैं:\n$$\\lambda_1 = 2, \\quad \\lambda_2 = 3, \\quad \\lambda_3 = -1$$\nस्पेक्ट्रल मैपिंग प्रमेय के अनुसार, आव्यूह फलन $f(A) = A^2 + I$ के आइगेनमान $f(\\lambda_i) = \\lambda_i^2 + 1$ होंगे:\n$$\\mu_1 = 2^2 + 1 = 5$$\n$$\\mu_2 = 3^2 + 1 = 10$$\n$$\\mu_3 = (-1)^2 + 1 = 2$$\nआव्यूह की सारणिक उसके आइगेनमानों का गुणनफल होती है:\n$$\\det(A^2 + I) = 5 \\times 10 \\times 2 = 100$$\nअतः अभीष्ट मान 100 है।",
+      "questionTextEn": "Consider the 3×3 upper triangular matrix:\n$$A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 4 \\\\ 0 & 0 & -1 \\end{pmatrix}$$\nThe determinant of the matrix (A² + I) is equal to ________ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "Since $A$ is an upper triangular matrix, its eigenvalues are simply the diagonal entries:\n$$\\lambda_1 = 2, \\quad \\lambda_2 = 3, \\quad \\lambda_3 = -1$$\nBy the spectral mapping theorem, the eigenvalues of the matrix function $f(A) = A^2 + I$ are given by $f(\\lambda_i) = \\lambda_i^2 + 1$:\n$$\\mu_1 = 2^2 + 1 = 4 + 1 = 5$$\n$$\\mu_2 = 3^2 + 1 = 9 + 1 = 10$$\n$$\\mu_3 = (-1)^2 + 1 = 1 + 1 = 2$$\nThe determinant of any matrix is the product of its eigenvalues:\n$$\\det(A^2 + I) = \\mu_1 \\cdot \\mu_2 \\cdot \\mu_3 = 5 \\times 10 \\times 2 = 100$$\nTherefore, the determinant is 100.",
+      "questionTextHi": "निम्नलिखित 3×3 ऊपरी त्रिभुजाकार आव्यूह पर विचार कीजिए:\n$$A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 4 \\\\ 0 & 0 & -1 \\end{pmatrix}$$\nआव्यूह (A² + I) की सारणिक (determinant) का मान ________ है (पूर्णांक में)।",
+      "optionsHi": [],
+      "explanationHi": "चूँकि $A$ एक ऊपरी त्रिभुजाकार आव्यूह है, अतः इसके आइगेनमान मुख्य विकर्ण के अवयव हैं:\n$$\\lambda_1 = 2, \\quad \\lambda_2 = 3, \\quad \\lambda_3 = -1$$\nस्पेक्ट्रल मैपिंग प्रमेय के अनुसार, आव्यूह फलन $f(A) = A^2 + I$ के आइगेनमान $f(\\lambda_i) = \\lambda_i^2 + 1$ होंगे:\n$$\\mu_1 = 2^2 + 1 = 5$$\n$$\\mu_2 = 3^2 + 1 = 10$$\n$$\\mu_3 = (-1)^2 + 1 = 2$$\nआव्यूह की सारणिक उसके आइगेनमानों का गुणनफल होती है:\n$$\\det(A^2 + I) = 5 \\times 10 \\times 2 = 100$$\nअतः अभीष्ट मान 100 है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q016",
+      "questionNumber": 16,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "questionText": "बिंदु P(1, 2, 1) पर अदिश क्षेत्र φ(x, y, z) = x² y + y z² का सदिश v⃗ = 2î - ĵ + 2k̂ की दिशा में दिक्-अवकलज (directional derivative) किसके बराबर है?",
+      "options": [
+        "14/3",
+        "10/3",
+        "4",
+        "6"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "अदिश क्षेत्र $\\phi$ की प्रवणता (gradient) है:\n$$\\nabla \\phi = (2xy)\\hat{i} + (x^2 + z^2)\\hat{j} + (2yz)\\hat{k}$$\nबिंदु $P(1, 2, 1)$ पर इसका मान:\n$$\\nabla \\phi(1, 2, 1) = 4\\hat{i} + 2\\hat{j} + 4\\hat{k}$$\nसदिश $\\vec{v}$ की दिशा में एकांक सदिश:\n$$\\hat{u} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{\\sqrt{4 + 1 + 4}} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{3}$$\nदिक्-अवकलज (directional derivative):\n$$D_{\\hat{u}}\\phi = \\nabla\\phi \\cdot \\hat{u} = \\frac{4(2) + 2(-1) + 4(2)}{3} = \\frac{14}{3}$$\nअतः विकल्प A सही है।",
+      "questionTextEn": "The directional derivative of the scalar field φ(x, y, z) = x² y + y z² at the point P(1, 2, 1) in the direction of the vector v⃗ = 2î - ĵ + 2k̂ is equal to:",
+      "optionsEn": [
+        "14/3",
+        "10/3",
+        "4",
+        "6"
+      ],
+      "explanationEn": "The gradient of $\\phi$ is:\n$$\\nabla \\phi = \\frac{\\partial \\phi}{\\partial x}\\hat{i} + \\frac{\\partial \\phi}{\\partial y}\\hat{j} + \\frac{\\partial \\phi}{\\partial z}\\hat{k} = (2xy)\\hat{i} + (x^2 + z^2)\\hat{j} + (2yz)\\hat{k}$$\nEvaluating at the point $P(1, 2, 1)$:\n$$\\nabla \\phi(1, 2, 1) = 2(1)(2)\\hat{i} + (1^2 + 1^2)\\hat{j} + 2(2)(1)\\hat{k} = 4\\hat{i} + 2\\hat{j} + 4\\hat{k}$$\nThe unit vector in the direction of $\\vec{v}$ is:\n$$\\hat{u} = \\frac{\\vec{v}}{\\|\\vec{v}\\|} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{\\sqrt{2^2 + (-1)^2 + 2^2}} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{\\sqrt{9}} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{3}$$\nThe directional derivative is given by the scalar product:\n$$D_{\\hat{u}}\\phi = \\nabla\\phi \\cdot \\hat{u} = \\frac{4(2) + 2(-1) + 4(2)}{3} = \\frac{8 - 2 + 8}{3} = \\frac{14}{3}$$\nThus, option A is correct.",
+      "questionTextHi": "बिंदु P(1, 2, 1) पर अदिश क्षेत्र φ(x, y, z) = x² y + y z² का सदिश v⃗ = 2î - ĵ + 2k̂ की दिशा में दिक्-अवकलज (directional derivative) किसके बराबर है?",
+      "optionsHi": [
+        "14/3",
+        "10/3",
+        "4",
+        "6"
+      ],
+      "explanationHi": "अदिश क्षेत्र $\\phi$ की प्रवणता (gradient) है:\n$$\\nabla \\phi = (2xy)\\hat{i} + (x^2 + z^2)\\hat{j} + (2yz)\\hat{k}$$\nबिंदु $P(1, 2, 1)$ पर इसका मान:\n$$\\nabla \\phi(1, 2, 1) = 4\\hat{i} + 2\\hat{j} + 4\\hat{k}$$\nसदिश $\\vec{v}$ की दिशा में एकांक सदिश:\n$$\\hat{u} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{\\sqrt{4 + 1 + 4}} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{3}$$\nदिक्-अवकलज (directional derivative):\n$$D_{\\hat{u}}\\phi = \\nabla\\phi \\cdot \\hat{u} = \\frac{4(2) + 2(-1) + 4(2)}{3} = \\frac{14}{3}$$\nअतः विकल्प A सही है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q017",
+      "questionNumber": 17,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "questionText": "माना r⃗ = x î + y ĵ + z k̂ जहाँ r = |r⃗| है। त्रिविमीय समष्टि में केंद्रीय सदिश क्षेत्र F⃗ = rⁿ r⃗ का अपसरण (divergence, r ≠ 0 के लिए) किसके द्वारा दिया जाता है?",
+      "options": [
+        "(n + 3) rⁿ",
+        "n rⁿ⁻¹",
+        "(n + 1) rⁿ",
+        "3 rⁿ"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "अदिश फलन $f(r) = r^n$ तथा स्थिति सदिश $\\vec{r}$ के लिए सदिश सर्वसमिका का उपयोग करने पर:\n$$\\nabla \\cdot (r^n \\vec{r}) = r^n (\\nabla \\cdot \\vec{r}) + (\\nabla r^n) \\cdot \\vec{r}$$\nत्रिविम में $\\nabla \\cdot \\vec{r} = 3$ होता है।\nसाथ ही:\n$$\\nabla (r^n) = n r^{n-1} \\frac{\\vec{r}}{r} = n r^{n-2} \\vec{r}$$\n$\\vec{r}$ के साथ अदिश गुणन करने पर:\n$$(n r^{n-2} \\vec{r}) \\cdot \\vec{r} = n r^{n-2} r^2 = n r^n$$\nदोनों पदों को जोड़ने पर:\n$$\\nabla \\cdot (r^n \\vec{r}) = 3 r^n + n r^n = (n + 3) r^n$$\nअतः सही विकल्प A है।",
+      "questionTextEn": "Let r⃗ = x î + y ĵ + z k̂ with r = |r⃗|. The divergence of the central vector field F⃗ = rⁿ r⃗ in three-dimensional space (for r ≠ 0) is given by:",
+      "optionsEn": [
+        "(n + 3) rⁿ",
+        "n rⁿ⁻¹",
+        "(n + 1) rⁿ",
+        "3 rⁿ"
+      ],
+      "explanationEn": "Using vector calculus identities for a scalar field $f(r) = r^n$ and position vector $\\vec{r}$:\n$$\\nabla \\cdot (f(r) \\vec{r}) = f(r)(\\nabla \\cdot \\vec{r}) + (\\nabla f(r)) \\cdot \\vec{r}$$\nWe know that in 3 dimensions:\n$$\\nabla \\cdot \\vec{r} = \\frac{\\partial x}{\\partial x} + \\frac{\\partial y}{\\partial y} + \\frac{\\partial z}{\\partial z} = 3$$\nAlso:\n$$\\nabla (r^n) = n r^{n-1} \\nabla r = n r^{n-1} \\frac{\\vec{r}}{r} = n r^{n-2} \\vec{r}$$\nTaking the dot product with $\\vec{r}$:\n$$(\\nabla (r^n)) \\cdot \\vec{r} = n r^{n-2} (\\vec{r} \\cdot \\vec{r}) = n r^{n-2} (r^2) = n r^n$$\nCombining both terms:\n$$\\nabla \\cdot (r^n \\vec{r}) = 3 r^n + n r^n = (n + 3) r^n$$\nNotice that for $n = -3$, $\\nabla \\cdot (\\vec{r}/r^3) = 0$ for $r \\ne 0$.\nTherefore, option A is correct.",
+      "questionTextHi": "माना r⃗ = x î + y ĵ + z k̂ जहाँ r = |r⃗| है। त्रिविमीय समष्टि में केंद्रीय सदिश क्षेत्र F⃗ = rⁿ r⃗ का अपसरण (divergence, r ≠ 0 के लिए) किसके द्वारा दिया जाता है?",
+      "optionsHi": [
+        "(n + 3) rⁿ",
+        "n rⁿ⁻¹",
+        "(n + 1) rⁿ",
+        "3 rⁿ"
+      ],
+      "explanationHi": "अदिश फलन $f(r) = r^n$ तथा स्थिति सदिश $\\vec{r}$ के लिए सदिश सर्वसमिका का उपयोग करने पर:\n$$\\nabla \\cdot (r^n \\vec{r}) = r^n (\\nabla \\cdot \\vec{r}) + (\\nabla r^n) \\cdot \\vec{r}$$\nत्रिविम में $\\nabla \\cdot \\vec{r} = 3$ होता है।\nसाथ ही:\n$$\\nabla (r^n) = n r^{n-1} \\frac{\\vec{r}}{r} = n r^{n-2} \\vec{r}$$\n$\\vec{r}$ के साथ अदिश गुणन करने पर:\n$$(n r^{n-2} \\vec{r}) \\cdot \\vec{r} = n r^{n-2} r^2 = n r^n$$\nदोनों पदों को जोड़ने पर:\n$$\\nabla \\cdot (r^n \\vec{r}) = 3 r^n + n r^n = (n + 3) r^n$$\nअतः सही विकल्प A है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q018",
+      "questionNumber": 18,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "questionText": "माना ω⃗ एक अचर एकसमान कोणीय वेग सदिश है, तथा r⃗ = (x, y, z) स्थिति सदिश है। वेग क्षेत्र v⃗ = ω⃗ × r⃗ का कुंतल (curl) क्या होगा?",
+      "options": [
+        "2 ω⃗",
+        "ω⃗",
+        "0 (शून्य सदिश)",
+        "-2 ω⃗"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "सदिश गुणनफल के कुंतल (curl) की मानक सर्वसमिका:\n$$\\nabla \\times (\\vec{A} \\times \\vec{B}) = \\vec{A}(\\nabla \\cdot \\vec{B}) - \\vec{B}(\\nabla \\cdot \\vec{A}) + (\\vec{B} \\cdot \\nabla)\\vec{A} - (\\vec{A} \\cdot \\nabla)\\vec{B}$$\nयहाँ $\\vec{\\omega}$ एक अचर सदिश है, अतः इसके सभी अवकलज शून्य होंगे:\n$$\\nabla \\cdot \\vec{\\omega} = 0, \\quad (\\vec{r} \\cdot \\nabla)\\vec{\\omega} = 0$$\nअतः व्यंजक सरल होकर प्राप्त होता है:\n$$\\nabla \\times (\\vec{\\omega} \\times \\vec{r}) = \\vec{\\omega}(\\nabla \\cdot \\vec{r}) - (\\vec{\\omega} \\cdot \\nabla)\\vec{r}$$\nचूँकि $\\nabla \\cdot \\vec{r} = 3$ तथा $(\\vec{\\omega} \\cdot \\nabla)\\vec{r} = \\vec{\\omega}$ है:\n$$\\nabla \\times (\\vec{\\omega} \\times \\vec{r}) = 3\\vec{\\omega} - \\vec{\\omega} = 2\\vec{\\omega}$$\nअतः विकल्प A सही है।",
+      "questionTextEn": "Let ω⃗ be a constant uniform angular velocity vector, and let r⃗ = (x, y, z) be the position vector. The curl of the velocity field v⃗ = ω⃗ × r⃗ is:",
+      "optionsEn": [
+        "2 ω⃗",
+        "ω⃗",
+        "0 (Zero vector)",
+        "-2 ω⃗"
+      ],
+      "explanationEn": "Using the standard vector identity for the curl of a cross product:\n$$\\nabla \\times (\\vec{A} \\times \\vec{B}) = \\vec{A}(\\nabla \\cdot \\vec{B}) - \\vec{B}(\\nabla \\cdot \\vec{A}) + (\\vec{B} \\cdot \\nabla)\\vec{A} - (\\vec{A} \\cdot \\nabla)\\vec{B}$$\nHere $\\vec{A} = \\vec{\\omega}$ is constant, so all derivatives of $\\vec{\\omega}$ vanish:\n$$\\nabla \\cdot \\vec{\\omega} = 0, \\quad (\\vec{B} \\cdot \\nabla)\\vec{\\omega} = 0$$\nTherefore:\n$$\\nabla \\times (\\vec{\\omega} \\times \\vec{r}) = \\vec{\\omega}(\\nabla \\cdot \\vec{r}) - (\\vec{\\omega} \\cdot \\nabla)\\vec{r}$$\nIn three dimensions, $\\nabla \\cdot \\vec{r} = 3$.\nAlso:\n$$(\\vec{\\omega} \\cdot \\nabla)\\vec{r} = \\left(\\omega_x \\frac{\\partial}{\\partial x} + \\omega_y \\frac{\\partial}{\\partial y} + \\omega_z \\frac{\\partial}{\\partial z}\\right)(x\\hat{i} + y\\hat{j} + z\\hat{k}) = \\omega_x\\hat{i} + \\omega_y\\hat{j} + \\omega_z\\hat{k} = \\vec{\\omega}$$\nSubtracting:\n$$\\nabla \\times (\\vec{\\omega} \\times \\vec{r}) = 3\\vec{\\omega} - \\vec{\\omega} = 2\\vec{\\omega}$$\nThus, option A is correct.",
+      "questionTextHi": "माना ω⃗ एक अचर एकसमान कोणीय वेग सदिश है, तथा r⃗ = (x, y, z) स्थिति सदिश है। वेग क्षेत्र v⃗ = ω⃗ × r⃗ का कुंतल (curl) क्या होगा?",
+      "optionsHi": [
+        "2 ω⃗",
+        "ω⃗",
+        "0 (शून्य सदिश)",
+        "-2 ω⃗"
+      ],
+      "explanationHi": "सदिश गुणनफल के कुंतल (curl) की मानक सर्वसमिका:\n$$\\nabla \\times (\\vec{A} \\times \\vec{B}) = \\vec{A}(\\nabla \\cdot \\vec{B}) - \\vec{B}(\\nabla \\cdot \\vec{A}) + (\\vec{B} \\cdot \\nabla)\\vec{A} - (\\vec{A} \\cdot \\nabla)\\vec{B}$$\nयहाँ $\\vec{\\omega}$ एक अचर सदिश है, अतः इसके सभी अवकलज शून्य होंगे:\n$$\\nabla \\cdot \\vec{\\omega} = 0, \\quad (\\vec{r} \\cdot \\nabla)\\vec{\\omega} = 0$$\nअतः व्यंजक सरल होकर प्राप्त होता है:\n$$\\nabla \\times (\\vec{\\omega} \\times \\vec{r}) = \\vec{\\omega}(\\nabla \\cdot \\vec{r}) - (\\vec{\\omega} \\cdot \\nabla)\\vec{r}$$\nचूँकि $\\nabla \\cdot \\vec{r} = 3$ तथा $(\\vec{\\omega} \\cdot \\nabla)\\vec{r} = \\vec{\\omega}$ है:\n$$\\nabla \\times (\\vec{\\omega} \\times \\vec{r}) = 3\\vec{\\omega} - \\vec{\\omega} = 2\\vec{\\omega}$$\nअतः विकल्प A सही है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q019",
+      "questionNumber": 19,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "questionText": "एक बल क्षेत्र F⃗ = (2xy + z³) î + x² ĵ + 3xz² k̂ द्वारा दिया गया है। किसी कण को मूलबिंदु (0, 0, 0) से बिंदु (1, 1, 1) तक किसी भी पथ के अनुदिश ले जाने में इस बल द्वारा किया गया कार्य क्या है?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "बल क्षेत्र के संरक्षी (conservative) होने की जाँच $\\nabla \\times \\vec{F}$ ज्ञात करके करते हैं:\n$$\\nabla \\times \\vec{F} = 0$$\nअतः यह एक संरक्षी बल क्षेत्र है तथा इसका एक अदिश विभव $U(x, y, z)$ विद्यमान है जहाँ $\\vec{F} = \\nabla U$:\n$$U(x, y, z) = x^2 y + x z^3 + C$$\nकिए गए कार्य का मान पथ-निरपेक्ष होता है:\n$$W = U(1, 1, 1) - U(0, 0, 0) = (1 + 1) - 0 = 2$$\nअतः किया गया कार्य 2 है।",
+      "questionTextEn": "A force field is given by F⃗ = (2xy + z³) î + x² ĵ + 3xz² k̂. The work done by this force in moving a particle from the origin (0, 0, 0) to the point (1, 1, 1) along any path is:",
+      "optionsEn": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "explanationEn": "We test whether the force field is conservative by computing $\\nabla \\times \\vec{F}$:\n$$\\nabla \\times \\vec{F} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ \\partial_x & \\partial_y & \\partial_z \\\\ 2xy + z^3 & x^2 & 3xz^2 \\end{vmatrix}$$\nComponents:\n- $(\\nabla \\times \\vec{F})_x = \\partial_y(3xz^2) - \\partial_z(x^2) = 0 - 0 = 0$\n- $(\\nabla \\times \\vec{F})_y = \\partial_z(2xy + z^3) - \\partial_x(3xz^2) = 3z^2 - 3z^2 = 0$\n- $(\\nabla \\times \\vec{F})_z = \\partial_x(x^2) - \\partial_y(2xy + z^3) = 2x - 2x = 0$\nSince $\\nabla \\times \\vec{F} = 0$, the field is conservative and possesses a scalar potential function $U(x, y, z)$ such that $\\vec{F} = \\nabla U$:\n$$U(x, y, z) = x^2 y + x z^3 + C$$\nChecking derivatives: $\\partial_x U = 2xy + z^3$, $\\partial_y U = x^2$, $\\partial_z U = 3xz^2$. This matches $\\vec{F}$.\nThe work done is path-independent:\n$$W = \\int_{(0,0,0)}^{(1,1,1)} \\vec{F} \\cdot d\\vec{r} = U(1, 1, 1) - U(0, 0, 0) = (1^2(1) + 1(1^3)) - 0 = 1 + 1 = 2$$\nTherefore, option A is correct.",
+      "questionTextHi": "एक बल क्षेत्र F⃗ = (2xy + z³) î + x² ĵ + 3xz² k̂ द्वारा दिया गया है। किसी कण को मूलबिंदु (0, 0, 0) से बिंदु (1, 1, 1) तक किसी भी पथ के अनुदिश ले जाने में इस बल द्वारा किया गया कार्य क्या है?",
+      "optionsHi": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "explanationHi": "बल क्षेत्र के संरक्षी (conservative) होने की जाँच $\\nabla \\times \\vec{F}$ ज्ञात करके करते हैं:\n$$\\nabla \\times \\vec{F} = 0$$\nअतः यह एक संरक्षी बल क्षेत्र है तथा इसका एक अदिश विभव $U(x, y, z)$ विद्यमान है जहाँ $\\vec{F} = \\nabla U$:\n$$U(x, y, z) = x^2 y + x z^3 + C$$\nकिए गए कार्य का मान पथ-निरपेक्ष होता है:\n$$W = U(1, 1, 1) - U(0, 0, 0) = (1 + 1) - 0 = 2$$\nअतः किया गया कार्य 2 है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q020",
+      "questionNumber": 20,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "सदिश क्षेत्र F⃗ = x³ î + y³ ĵ + z³ k̂ का बंद गोलीय पृष्ठ S (x² + y² + z² = R²) से होकर बहिर्मुखी फ्लक्स ∮_S F⃗ · dS⃗ का मान ज्ञात कीजिए।",
+      "options": [
+        "(12/5) π R⁵",
+        "(4/5) π R⁵",
+        "4 π R³",
+        "(8/3) π R⁵"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "गॉस के अपसरण प्रमेय के अनुसार, पृष्ठ समाकल परिबद्ध आयतन $V$ पर अपसरण के आयतन समाकल के बराबर होता है:\n$$\\oint_S \\vec{F} \\cdot d\\vec{S} = \\iiint_V (\\nabla \\cdot \\vec{F}) \\, dV$$\nअपसरण (divergence) ज्ञात करने पर:\n$$\\nabla \\cdot \\vec{F} = 3x^2 + 3y^2 + 3z^2 = 3r^2$$\nगोलीय ध्रुवीय निर्देशांकों में:\n$$\\iiint_V 3r^2 \\, dV = 4\\pi \\int_0^R 3r^4 \\, dr = 4\\pi \\left( \\frac{3R^5}{5} \\right) = \\frac{12}{5} \\pi R^5$$\nअतः सही विकल्प A है।",
+      "questionTextEn": "Evaluate the outward flux ∮_S F⃗ · dS⃗ of the vector field F⃗ = x³ î + y³ ĵ + z³ k̂ through the closed spherical surface S defined by x² + y² + z² = R².",
+      "optionsEn": [
+        "(12/5) π R⁵",
+        "(4/5) π R⁵",
+        "4 π R³",
+        "(8/3) π R⁵"
+      ],
+      "explanationEn": "By Gauss's Divergence Theorem, the surface integral equals the volume integral of the divergence over the enclosed sphere $V$:\n$$\\oint_S \\vec{F} \\cdot d\\vec{S} = \\iiint_V (\\nabla \\cdot \\vec{F}) \\, dV$$\nComputing the divergence:\n$$\\nabla \\cdot \\vec{F} = \\frac{\\partial(x^3)}{\\partial x} + \\frac{\\partial(y^3)}{\\partial y} + \\frac{\\partial(z^3)}{\\partial z} = 3x^2 + 3y^2 + 3z^2 = 3(x^2 + y^2 + z^2) = 3r^2$$\nUsing spherical polar coordinates where $dV = r^2 \\sin\\theta \\, dr \\, d\\theta \\, d\\phi$:\n$$\\iiint_V 3r^2 \\, dV = \\int_0^{2\\pi} d\\phi \\int_0^\\pi \\sin\\theta \\, d\\theta \\int_0^R 3r^2 \\cdot r^2 \\, dr$$\nThe angular integrals evaluate to $4\\pi$:\n$$\\oint_S \\vec{F} \\cdot d\\vec{S} = 4\\pi \\int_0^R 3r^4 \\, dr = 4\\pi \\left[ \\frac{3r^5}{5} \\right]_0^R = \\frac{12\\pi R^5}{5}$$\nThus, option A is correct.",
+      "questionTextHi": "सदिश क्षेत्र F⃗ = x³ î + y³ ĵ + z³ k̂ का बंद गोलीय पृष्ठ S (x² + y² + z² = R²) से होकर बहिर्मुखी फ्लक्स ∮_S F⃗ · dS⃗ का मान ज्ञात कीजिए।",
+      "optionsHi": [
+        "(12/5) π R⁵",
+        "(4/5) π R⁵",
+        "4 π R³",
+        "(8/3) π R⁵"
+      ],
+      "explanationHi": "गॉस के अपसरण प्रमेय के अनुसार, पृष्ठ समाकल परिबद्ध आयतन $V$ पर अपसरण के आयतन समाकल के बराबर होता है:\n$$\\oint_S \\vec{F} \\cdot d\\vec{S} = \\iiint_V (\\nabla \\cdot \\vec{F}) \\, dV$$\nअपसरण (divergence) ज्ञात करने पर:\n$$\\nabla \\cdot \\vec{F} = 3x^2 + 3y^2 + 3z^2 = 3r^2$$\nगोलीय ध्रुवीय निर्देशांकों में:\n$$\\iiint_V 3r^2 \\, dV = 4\\pi \\int_0^R 3r^4 \\, dr = 4\\pi \\left( \\frac{3R^5}{5} \\right) = \\frac{12}{5} \\pi R^5$$\nअतः सही विकल्प A है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q021",
+      "questionNumber": 21,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "त्रिभुजाकार परिरेखा C, जो शीर्षों (1, 0, 0), (0, 1, 0), तथा (0, 0, 1) द्वारा इसी क्रम में निर्मित होती है, के अनुदिश रेखा समाकल ∮_C (y î + z ĵ + x k̂) · dr⃗ का मान ज्ञात कीजिए।",
+      "options": [
+        "-3/2",
+        "3/2",
+        "-1/2",
+        "1"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "स्टोक्स के प्रमेय के अनुसार:\n$$\\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\nabla \\times \\vec{F}) \\cdot \\hat{n} \\, dS$$\nक्षेत्र $\\vec{F} = y\\hat{i} + z\\hat{j} + x\\hat{k}$ के लिए कुंतल (curl):\n$$\\nabla \\times \\vec{F} = -\\hat{i} - \\hat{j} - \\hat{k}$$\nदिए गए क्रम में भुजाओं के अनुदिश परिभ्रमण करने पर दाएँ हाथ के नियमानुसार तल $x + y + z = 1$ का अभिलंब एकांक सदिश $\\hat{n} = \\frac{\\hat{i} + \\hat{j} + \\hat{k}}{\\sqrt{3}}$ प्राप्त होता है।\nअतः:\n$$(\\nabla \\times \\vec{F}) \\cdot \\hat{n} = -\\sqrt{3}$$\nभुजा $a = \\sqrt{2}$ वाले समबाहु त्रिभुज का क्षेत्रफल $\\text{Area}(S) = \\frac{\\sqrt{3}}{4}(\\sqrt{2})^2 = \\frac{\\sqrt{3}}{2}$ है।\nसमाकल का मान:\n$$\\oint_C \\vec{F} \\cdot d\\vec{r} = -\\sqrt{3} \\times \\frac{\\sqrt{3}}{2} = -\\frac{3}{2}$$\nअतः सही विकल्प A है।",
+      "questionTextEn": "Evaluate the line integral ∮_C (y î + z ĵ + x k̂) · dr⃗ around the triangular contour C formed by the vertices (1, 0, 0), (0, 1, 0), and (0, 0, 1), traversed in that order.",
+      "optionsEn": [
+        "-3/2",
+        "3/2",
+        "-1/2",
+        "1"
+      ],
+      "explanationEn": "By Stokes's Theorem:\n$$\\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\nabla \\times \\vec{F}) \\cdot \\hat{n} \\, dS$$\nFor $\\vec{F} = y\\hat{i} + z\\hat{j} + x\\hat{k}$:\n$$\\nabla \\times \\vec{F} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ \\partial_x & \\partial_y & \\partial_z \\\\ y & z & x \\end{vmatrix} = \\hat{i}(0 - 1) - \\hat{j}(1 - 0) + \\hat{k}(0 - 1) = -\\hat{i} - \\hat{j} - \\hat{k}$$\nThe plane passing through $(1,0,0)$, $(0,1,0)$, and $(0,0,1)$ is $x + y + z = 1$.\nTraversing $(1,0,0) \\to (0,1,0) \\to (0,0,1)$ corresponds by the right-hand rule to a normal directed into the first octant towards origin or outwards? Let's check:\nVector along edge 1: $(0,1,0) - (1,0,0) = (-1, 1, 0)$.\nVector along edge 2: $(0,0,1) - (0,1,0) = (0, -1, 1)$.\nCross product: $(-1, 1, 0) \\times (0, -1, 1) = (1, 1, 1)$.\nSo the outward normal vector pointing away from origin is $\\vec{N} = \\hat{i} + \\hat{j} + \\hat{k}$.\nUnit normal is $\\hat{n} = \\frac{\\hat{i} + \\hat{j} + \\hat{k}}{\\sqrt{3}}$.\nThen:\n$$(\\nabla \\times \\vec{F}) \\cdot \\hat{n} = (-\\hat{i} - \\hat{j} - \\hat{k}) \\cdot \\frac{\\hat{i} + \\hat{j} + \\hat{k}}{\\sqrt{3}} = \\frac{-3}{\\sqrt{3}} = -\\sqrt{3}$$\nThe surface $S$ is an equilateral triangle with side length $a = \\sqrt{1^2 + 1^2} = \\sqrt{2}$.\nArea of equilateral triangle:\n$$\\text{Area}(S) = \\frac{\\sqrt{3}}{4} a^2 = \\frac{\\sqrt{3}}{4} (\\sqrt{2})^2 = \\frac{\\sqrt{3}}{4}(2) = \\frac{\\sqrt{3}}{2}$$\nTherefore:\n$$\\oint_C \\vec{F} \\cdot d\\vec{r} = (-\\sqrt{3}) \\left(\\frac{\\sqrt{3}}{2}\\right) = -\\frac{3}{2}$$\nThus, option A is correct.",
+      "questionTextHi": "त्रिभुजाकार परिरेखा C, जो शीर्षों (1, 0, 0), (0, 1, 0), तथा (0, 0, 1) द्वारा इसी क्रम में निर्मित होती है, के अनुदिश रेखा समाकल ∮_C (y î + z ĵ + x k̂) · dr⃗ का मान ज्ञात कीजिए।",
+      "optionsHi": [
+        "-3/2",
+        "3/2",
+        "-1/2",
+        "1"
+      ],
+      "explanationHi": "स्टोक्स के प्रमेय के अनुसार:\n$$\\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\nabla \\times \\vec{F}) \\cdot \\hat{n} \\, dS$$\nक्षेत्र $\\vec{F} = y\\hat{i} + z\\hat{j} + x\\hat{k}$ के लिए कुंतल (curl):\n$$\\nabla \\times \\vec{F} = -\\hat{i} - \\hat{j} - \\hat{k}$$\nदिए गए क्रम में भुजाओं के अनुदिश परिभ्रमण करने पर दाएँ हाथ के नियमानुसार तल $x + y + z = 1$ का अभिलंब एकांक सदिश $\\hat{n} = \\frac{\\hat{i} + \\hat{j} + \\hat{k}}{\\sqrt{3}}$ प्राप्त होता है।\nअतः:\n$$(\\nabla \\times \\vec{F}) \\cdot \\hat{n} = -\\sqrt{3}$$\nभुजा $a = \\sqrt{2}$ वाले समबाहु त्रिभुज का क्षेत्रफल $\\text{Area}(S) = \\frac{\\sqrt{3}}{4}(\\sqrt{2})^2 = \\frac{\\sqrt{3}}{2}$ है।\nसमाकल का मान:\n$$\\oint_C \\vec{F} \\cdot d\\vec{r} = -\\sqrt{3} \\times \\frac{\\sqrt{3}}{2} = -\\frac{3}{2}$$\nअतः सही विकल्प A है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q022",
+      "questionNumber": 22,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "समतल में ग्रीन के प्रमेय का उपयोग करके रेखा समाकल ∮_C [(x² - y²) dx + 2xy dy] का मूल्यांकन कीजिए, जहाँ C वक्रों y = x² तथा y = x द्वारा परिबद्ध क्षेत्र की धनात्मक दिशा में अभिविन्यस्त सीमा है।",
+      "options": [
+        "4/15",
+        "2/15",
+        "1/5",
+        "8/15"
+      ],
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "समतल में ग्रीन के प्रमेय के अनुसार:\n$$\\oint_C (P \\, dx + Q \\, dy) = \\iint_R \\left( \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} \\right) dx \\, dy$$\nयहाँ $P = x^2 - y^2$ तथा $Q = 2xy$ है।\n$$\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} = 2y - (-2y) = 4y$$\nक्षेत्र $R$ में $x$, 0 से 1 तक तथा $y$, $x^2$ से $x$ तक विस्तृत है:\n$$\\int_0^1 dx \\int_{x^2}^x 4y \\, dy = \\int_0^1 2(x^2 - x^4) \\, dx = 2\\left(\\frac{1}{3} - \\frac{1}{5}\\right) = 2\\left(\\frac{2}{15}\\right) = \\frac{4}{15}$$\nअतः सही विकल्प A है।",
+      "questionTextEn": "Use Green's theorem in the plane to evaluate the line integral ∮_C [(x² - y²) dx + 2xy dy], where C is the positively oriented boundary enclosing the region bounded by the curves y = x² and y = x.",
+      "optionsEn": [
+        "4/15",
+        "2/15",
+        "1/5",
+        "8/15"
+      ],
+      "explanationEn": "Green's Theorem in the plane states:\n$$\\oint_C (P \\, dx + Q \\, dy) = \\iint_R \\left( \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} \\right) dx \\, dy$$\nHere $P(x, y) = x^2 - y^2$ and $Q(x, y) = 2xy$.\nPartial derivatives:\n$$\\frac{\\partial Q}{\\partial x} = 2y, \\quad \\frac{\\partial P}{\\partial y} = -2y$$\n$$\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} = 2y - (-2y) = 4y$$\nThe region $R$ is bounded by $y = x^2$ below and $y = x$ above, intersecting at $x = 0$ and $x = 1$:\n$$\\iint_R 4y \\, dy \\, dx = \\int_0^1 dx \\int_{x^2}^x 4y \\, dy = \\int_0^1 \\left[ 2y^2 \\right]_{x^2}^x dx = 2 \\int_0^1 (x^2 - x^4) \\, dx$$\nEvaluating the polynomial integral:\n$$2 \\left[ \\frac{x^3}{3} - \\frac{x^5}{5} \\right]_0^1 = 2 \\left( \\frac{1}{3} - \\frac{1}{5} \\right) = 2 \\left( \\frac{5 - 3}{15} \\right) = 2 \\left( \\frac{2}{15} \\right) = \\frac{4}{15}$$\nTherefore, option A is correct.",
+      "questionTextHi": "समतल में ग्रीन के प्रमेय का उपयोग करके रेखा समाकल ∮_C [(x² - y²) dx + 2xy dy] का मूल्यांकन कीजिए, जहाँ C वक्रों y = x² तथा y = x द्वारा परिबद्ध क्षेत्र की धनात्मक दिशा में अभिविन्यस्त सीमा है।",
+      "optionsHi": [
+        "4/15",
+        "2/15",
+        "1/5",
+        "8/15"
+      ],
+      "explanationHi": "समतल में ग्रीन के प्रमेय के अनुसार:\n$$\\oint_C (P \\, dx + Q \\, dy) = \\iint_R \\left( \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} \\right) dx \\, dy$$\nयहाँ $P = x^2 - y^2$ तथा $Q = 2xy$ है।\n$$\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} = 2y - (-2y) = 4y$$\nक्षेत्र $R$ में $x$, 0 से 1 तक तथा $y$, $x^2$ से $x$ तक विस्तृत है:\n$$\\int_0^1 dx \\int_{x^2}^x 4y \\, dy = \\int_0^1 2(x^2 - x^4) \\, dx = 2\\left(\\frac{1}{3} - \\frac{1}{5}\\right) = 2\\left(\\frac{2}{15}\\right) = \\frac{4}{15}$$\nअतः सही विकल्प A है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q023",
+      "questionNumber": 23,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "questionText": "माना δ³(r⃗) त्रिविमीय डिराक डेल्टा फलन को निरुपित करता है, जहाँ r⃗ स्थिति सदिश है तथा r = |r⃗| है। निम्नलिखित में से कौन सी गणितीय सर्वसमिकाएँ सही हैं? [MSQ — एक या अधिक सही]",
+      "options": [
+        "∇² (1 / r) = -4π δ³(r⃗)",
+        "∇ · (r̂ / r²) = 4π δ³(r⃗)",
+        "किसी शून्येतर अचर अदिश c ≠ 0 के लिए, δ³(c r⃗) = (1 / |c|³) δ³(r⃗)",
+        "δ³(c r⃗) = c³ δ³(r⃗)"
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "प्रत्येक सर्वसमिका का विश्लेषण:\n1. स्थिरवैद्युतिकी में बिंदु आवेश का विभव पॉइसन समीकरण $\\nabla^2(1/r) = -4\\pi\\delta^3(\\vec{r})$ को संतुष्ट करता है। अतः सर्वसमिका A सत्य है।\n2. $\\nabla \\cdot (\\hat{r}/r^2) = 4\\pi\\delta^3(\\vec{r})$ होता है, क्योंकि मूलबिंदु के चारों ओर गोले पर फ्लक्स $4\\pi$ प्राप्त होता है। अतः सर्वसमिका B सत्य है।\n3. 3-विमा में $\\delta^3(c\\vec{r}) = \\frac{1}{|c|^3}\\delta^3(\\vec{r})$ होता है। अतः सर्वसमिका C सत्य है।\n4. सर्वसमिका D में स्केलिंग $c^3$ दी गई है जो कि गलत है (सही स्केलिंग $|c|^{-3}$ होती है)। अतः D असत्य है।\nसही विकल्प: A, B, C।",
+      "questionTextEn": "Let δ³(r⃗) denote the three-dimensional Dirac delta function, where r⃗ is the position vector and r = |r⃗|. Which of the following mathematical identities are CORRECT? [MSQ — One or More Correct]",
+      "optionsEn": [
+        "∇² (1 / r) = -4π δ³(r⃗)",
+        "∇ · (r̂ / r²) = 4π δ³(r⃗)",
+        "For any constant scalar c ≠ 0, δ³(c r⃗) = (1 / |c|³) δ³(r⃗)",
+        "δ³(c r⃗) = c³ δ³(r⃗)"
+      ],
+      "explanationEn": "Let us examine each identity:\n1. In electrostatics, the potential of a point charge satisfies Poisson's equation $\\nabla^2(1/r) = -4\\pi\\delta^3(\\vec{r})$. Since $\\nabla(1/r) = -\\hat{r}/r^2$, this is standard and rigorous. Identity A is TRUE.\n2. We have $\\nabla \\cdot (\\hat{r}/r^2) = -\\nabla^2(1/r) = 4\\pi\\delta^3(\\vec{r})$. Integrating over a sphere centered at the origin, $\\oint (\\hat{r}/r^2) \\cdot d\\vec{S} = 4\\pi$. Identity B is TRUE.\n3. In 3 dimensions, $\\delta^3(c\\vec{r}) = \\delta(cx)\\delta(cy)\\delta(cz) = \\frac{1}{|c|}\\delta(x) \\frac{1}{|c|}\\delta(y) \\frac{1}{|c|}\\delta(z) = \\frac{1}{|c|^3}\\delta^3(\\vec{r})$. Identity C is TRUE.\n4. Identity D states $\\delta^3(c\\vec{r}) = c^3\\delta^3(\\vec{r})$, which is incorrect because scaling requires $|c|^{-3}$, not $c^3$. Identity D is FALSE.\nCorrect options: A, B, C.",
+      "questionTextHi": "माना δ³(r⃗) त्रिविमीय डिराक डेल्टा फलन को निरुपित करता है, जहाँ r⃗ स्थिति सदिश है तथा r = |r⃗| है। निम्नलिखित में से कौन सी गणितीय सर्वसमिकाएँ सही हैं? [MSQ — एक या अधिक सही]",
+      "optionsHi": [
+        "∇² (1 / r) = -4π δ³(r⃗)",
+        "∇ · (r̂ / r²) = 4π δ³(r⃗)",
+        "किसी शून्येतर अचर अदिश c ≠ 0 के लिए, δ³(c r⃗) = (1 / |c|³) δ³(r⃗)",
+        "δ³(c r⃗) = c³ δ³(r⃗)"
+      ],
+      "explanationHi": "प्रत्येक सर्वसमिका का विश्लेषण:\n1. स्थिरवैद्युतिकी में बिंदु आवेश का विभव पॉइसन समीकरण $\\nabla^2(1/r) = -4\\pi\\delta^3(\\vec{r})$ को संतुष्ट करता है। अतः सर्वसमिका A सत्य है।\n2. $\\nabla \\cdot (\\hat{r}/r^2) = 4\\pi\\delta^3(\\vec{r})$ होता है, क्योंकि मूलबिंदु के चारों ओर गोले पर फ्लक्स $4\\pi$ प्राप्त होता है। अतः सर्वसमिका B सत्य है।\n3. 3-विमा में $\\delta^3(c\\vec{r}) = \\frac{1}{|c|^3}\\delta^3(\\vec{r})$ होता है। अतः सर्वसमिका C सत्य है।\n4. सर्वसमिका D में स्केलिंग $c^3$ दी गई है जो कि गलत है (सही स्केलिंग $|c|^{-3}$ होती है)। अतः D असत्य है।\nसही विकल्प: A, B, C।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q024",
+      "questionNumber": 24,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "questionText": "माना ε_ijk त्रिविमीय लेवी-सिविटा क्रमचय प्रतीक को तथा δ_ij क्रोनेकर डेल्टा को निरुपित करता है। निम्नलिखित में से कौन सी संकुचन सर्वसमिकाएँ (contraction identities) सही हैं? [MSQ — एक या अधिक सही]",
+      "options": [
+        "ε_ijk ε_imn = δ_jm δ_kn - δ_jn δ_km",
+        "ε_ijk ε_ijn = 2 δ_kn",
+        "ε_ijk ε_ijk = 6",
+        "सभी सूचकांकों i, j, k के लिए ε_ijk = ε_jik"
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "त्रिविम में लेवी-सिविटा प्रतीक के संकुचन गुणधर्म:\n1. एकल सूचकांक संकुचन:\n$$\\epsilon_{ijk}\\epsilon_{imn} = \\delta_{jm}\\delta_{kn} - \\delta_{jn}\\delta_{km}$$\nयह मूलभूत एप्सीलन-डेल्टा सर्वसमिका है। अतः A सत्य है।\n2. द्वि-सूचकांक संकुचन ($m = j$ रखने पर):\n$$\\epsilon_{ijk}\\epsilon_{ijn} = 3\\delta_{kn} - \\delta_{kn} = 2\\delta_{kn}$$\nअतः B सत्य है।\n3. पूर्ण संकुचन ($n = k$ रखने पर):\n$$\\epsilon_{ijk}\\epsilon_{ijk} = 2(3) = 6$$\nअतः C सत्य है।\n4. लेवी-सिविटा प्रतीक किन्हीं दो सूचकांकों के विनिमय पर पूर्णतः प्रति-सममित (antisymmetric) होता है: $\\epsilon_{ijk} = -\\epsilon_{jik}$। अतः D असत्य है।\nसही विकल्प: A, B, C।",
+      "questionTextEn": "Let ε_ijk denote the 3-dimensional Levi-Civita permutation symbol and δ_ij denote the Kronecker delta. Which of the following contraction identities are CORRECT? [MSQ — One or More Correct]",
+      "optionsEn": [
+        "ε_ijk ε_imn = δ_jm δ_kn - δ_jn δ_km",
+        "ε_ijk ε_ijn = 2 δ_kn",
+        "ε_ijk ε_ijk = 6",
+        "ε_ijk = ε_jik for all indices i, j, k"
+      ],
+      "explanationEn": "We verify the fundamental contraction properties of the Levi-Civita symbol in 3D:\n1. Single index contraction:\n$$\\epsilon_{ijk}\\epsilon_{imn} = \\delta_{jm}\\delta_{kn} - \\delta_{jn}\\delta_{km}$$\nThis is the epsilon-delta identity used to prove vector cross product identities like $\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C})\\vec{B} - (\\vec{A} \\cdot \\vec{B})\\vec{C}$. Identity A is TRUE.\n2. Contracting a second index (set $m = j$ in Identity A):\n$$\\epsilon_{ijk}\\epsilon_{ijn} = \\delta_{jj}\\delta_{kn} - \\delta_{jn}\\delta_{kj} = 3\\delta_{kn} - \\delta_{kn} = 2\\delta_{kn}$$\nIdentity B is TRUE.\n3. Fully contracting all three indices (set $n = k$ in Identity B):\n$$\\epsilon_{ijk}\\epsilon_{ijk} = 2\\delta_{kk} = 2(3) = 6$$\n(Alternatively, there are $3! = 6$ non-zero terms, each equal to $(+1)^2 = 1$ or $(-1)^2 = 1$, summing to 6). Identity C is TRUE.\n4. $\\epsilon_{ijk}$ is completely antisymmetric under the exchange of any two adjacent indices: $\\epsilon_{ijk} = -\\epsilon_{jik}$. Identity D states it is symmetric, which is FALSE.\nCorrect options: A, B, C.",
+      "questionTextHi": "माना ε_ijk त्रिविमीय लेवी-सिविटा क्रमचय प्रतीक को तथा δ_ij क्रोनेकर डेल्टा को निरुपित करता है। निम्नलिखित में से कौन सी संकुचन सर्वसमिकाएँ (contraction identities) सही हैं? [MSQ — एक या अधिक सही]",
+      "optionsHi": [
+        "ε_ijk ε_imn = δ_jm δ_kn - δ_jn δ_km",
+        "ε_ijk ε_ijn = 2 δ_kn",
+        "ε_ijk ε_ijk = 6",
+        "सभी सूचकांकों i, j, k के लिए ε_ijk = ε_jik"
+      ],
+      "explanationHi": "त्रिविम में लेवी-सिविटा प्रतीक के संकुचन गुणधर्म:\n1. एकल सूचकांक संकुचन:\n$$\\epsilon_{ijk}\\epsilon_{imn} = \\delta_{jm}\\delta_{kn} - \\delta_{jn}\\delta_{km}$$\nयह मूलभूत एप्सीलन-डेल्टा सर्वसमिका है। अतः A सत्य है।\n2. द्वि-सूचकांक संकुचन ($m = j$ रखने पर):\n$$\\epsilon_{ijk}\\epsilon_{ijn} = 3\\delta_{kn} - \\delta_{kn} = 2\\delta_{kn}$$\nअतः B सत्य है।\n3. पूर्ण संकुचन ($n = k$ रखने पर):\n$$\\epsilon_{ijk}\\epsilon_{ijk} = 2(3) = 6$$\nअतः C सत्य है।\n4. लेवी-सिविटा प्रतीक किन्हीं दो सूचकांकों के विनिमय पर पूर्णतः प्रति-सममित (antisymmetric) होता है: $\\epsilon_{ijk} = -\\epsilon_{jik}$। अतः D असत्य है।\nसही विकल्प: A, B, C।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q025",
+      "questionNumber": 25,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "सदिश क्षेत्र पर विचार कीजिए:\nv⃗ = (a x y + z³) î + (x² - b y z) ĵ + (3 x z² - y²) k̂\nजहाँ a तथा b वास्तविक अचर हैं। निम्नलिखित में से कौन से कथन सही हैं? [MSQ — एक या अधिक सही]",
+      "options": [
+        "सदिश क्षेत्र v⃗ अघूर्णी (curl v⃗ = 0) होगा यदि और केवल यदि a = 2 तथा b = 2",
+        "जब a = 2 तथा b = 2 हो, तब v⃗ का अदिश विभव φ(x, y, z) = x² y + x z³ - y² z + C है",
+        "सदिश क्षेत्र v⃗, a और b के सभी मानों के लिए सर्वत्र परिनालिकीय (div v⃗ = 0) है",
+        "जब a = 2 तथा b = 2 हो, तब किसी भी बंद लूप के अनुदिश v⃗ का रेखा समाकल शून्य होता है"
+      ],
+      "correctOption": "A,B,D",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "कुंतल $\\nabla \\times \\vec{v}$ के घटक ज्ञात करने पर:\n$$(\\nabla \\times \\vec{v})_x = (b - 2)y = 0 \\implies b = 2$$\n$$(\\nabla \\times \\vec{v})_y = 3z^2 - 3z^2 = 0$$\n$$(\\nabla \\times \\vec{v})_z = (2 - a)x = 0 \\implies a = 2$$\nअतः $a = 2$ तथा $b = 2$ होने पर ही क्षेत्र अघूर्णी होता है। कथन A सत्य है।\nइस स्थिति में अदिश विभव $\\phi = x^2 y + x z^3 - y^2 z + C$ प्राप्त होता है। कथन B सत्य है।\nअपसरण $\\nabla \\cdot \\vec{v} = ay - bz + 6xz \\ne 0$, अतः क्षेत्र परिनालिकीय नहीं है। कथन C असत्य है।\nसंरक्षी क्षेत्र का बंद लूप पर रेखा समाकल सदैव शून्य होता है। कथन D सत्य है।\nसही विकल्प: A, B, D।",
+      "questionTextEn": "Consider the vector field:\nv⃗ = (a x y + z³) î + (x² - b y z) ĵ + (3 x z² - y²) k̂\nwhere a and b are real constants. Which of the following statements are CORRECT? [MSQ — One or More Correct]",
+      "optionsEn": [
+        "The vector field v⃗ is irrotational (curl v⃗ = 0) if and only if a = 2 and b = 2",
+        "When a = 2 and b = 2, a scalar potential for v⃗ is φ(x, y, z) = x² y + x z³ - y² z + C",
+        "The vector field v⃗ is solenoidal (div v⃗ = 0) everywhere for all values of a and b",
+        "When a = 2 and b = 2, the line integral of v⃗ around any closed loop is zero"
+      ],
+      "explanationEn": "We compute the curl $\\nabla \\times \\vec{v}$:\n$$(\\nabla \\times \\vec{v})_x = \\frac{\\partial v_z}{\\partial y} - \\frac{\\partial v_y}{\\partial z} = -2y - (-by) = (b - 2)y$$\nSetting this to zero requires $b = 2$.\n$$(\\nabla \\times \\vec{v})_y = \\frac{\\partial v_x}{\\partial z} - \\frac{\\partial v_z}{\\partial x} = 3z^2 - 3z^2 = 0$$\n$$(\\nabla \\times \\vec{v})_z = \\frac{\\partial v_y}{\\partial x} - \\frac{\\partial v_x}{\\partial y} = 2x - ax = (2 - a)x$$\nSetting this to zero requires $a = 2$.\nThus $\\nabla \\times \\vec{v} = 0$ everywhere if and only if $a = 2$ and $b = 2$. Statement A is TRUE.\nWhen $a = 2, b = 2$, $\\vec{v} = \\nabla \\phi$:\n$$\\phi(x, y, z) = x^2 y + x z^3 - y^2 z + C$$\nChecking: $\\partial_x \\phi = 2xy + z^3 = v_x$, $\\partial_y \\phi = x^2 - 2yz = v_y$, $\\partial_z \\phi = 3xz^2 - y^2 = v_z$. Statement B is TRUE.\nNow check divergence:\n$$\\nabla \\cdot \\vec{v} = \\partial_x(axy + z^3) + \\partial_y(x^2 - byz) + \\partial_z(3xz^2 - y^2) = ay - bz + 6xz$$\nThis does not vanish identically for any $a, b$. Thus Statement C is FALSE.\nSince the field is conservative when $a = 2, b = 2$, its line integral around any closed loop is zero by Stokes's theorem. Statement D is TRUE.\nCorrect options: A, B, D.",
+      "questionTextHi": "सदिश क्षेत्र पर विचार कीजिए:\nv⃗ = (a x y + z³) î + (x² - b y z) ĵ + (3 x z² - y²) k̂\nजहाँ a तथा b वास्तविक अचर हैं। निम्नलिखित में से कौन से कथन सही हैं? [MSQ — एक या अधिक सही]",
+      "optionsHi": [
+        "सदिश क्षेत्र v⃗ अघूर्णी (curl v⃗ = 0) होगा यदि और केवल यदि a = 2 तथा b = 2",
+        "जब a = 2 तथा b = 2 हो, तब v⃗ का अदिश विभव φ(x, y, z) = x² y + x z³ - y² z + C है",
+        "सदिश क्षेत्र v⃗, a और b के सभी मानों के लिए सर्वत्र परिनालिकीय (div v⃗ = 0) है",
+        "जब a = 2 तथा b = 2 हो, तब किसी भी बंद लूप के अनुदिश v⃗ का रेखा समाकल शून्य होता है"
+      ],
+      "explanationHi": "कुंतल $\\nabla \\times \\vec{v}$ के घटक ज्ञात करने पर:\n$$(\\nabla \\times \\vec{v})_x = (b - 2)y = 0 \\implies b = 2$$\n$$(\\nabla \\times \\vec{v})_y = 3z^2 - 3z^2 = 0$$\n$$(\\nabla \\times \\vec{v})_z = (2 - a)x = 0 \\implies a = 2$$\nअतः $a = 2$ तथा $b = 2$ होने पर ही क्षेत्र अघूर्णी होता है। कथन A सत्य है।\nइस स्थिति में अदिश विभव $\\phi = x^2 y + x z^3 - y^2 z + C$ प्राप्त होता है। कथन B सत्य है।\nअपसरण $\\nabla \\cdot \\vec{v} = ay - bz + 6xz \\ne 0$, अतः क्षेत्र परिनालिकीय नहीं है। कथन C असत्य है।\nसंरक्षी क्षेत्र का बंद लूप पर रेखा समाकल सदैव शून्य होता है। कथन D सत्य है।\nसही विकल्प: A, B, D।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q026",
+      "questionNumber": 26,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "बेलनाकार निर्देशांकों (ρ, φ, z) में, अदिश विभव फलन Ψ(ρ, φ, z) = ρ² cos(2φ) पर विचार कीजिए। Ψ के संबंध में निम्नलिखित में से कौन से कथन सत्य हैं? [MSQ — एक या अधिक सही]",
+      "options": [
+        "Ψ लाप्लास समीकरण को संतुष्ट करता है: ∇²Ψ = 0",
+        "कार्तीय निर्देशांकों में, Ψ बहुपद (x² - y²) द्वारा निरुपित होता है",
+        "सदिश क्षेत्र E⃗ = -∇Ψ परिनालिकीय (∇ · E⃗ = 0) तथा अघूर्णी (∇ × E⃗ = 0) दोनों है",
+        "बेलनाकार निर्देशांकों में Ψ का लाप्लासियन 4 cos(2φ) के बराबर है"
+      ],
+      "correctOption": "A,B,C",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "explanation": "प्रत्येक कथन का मूल्यांकन:\n1. बेलनाकार निर्देशांकों में लाप्लासियन:\n$$\\nabla^2 \\Psi = \\frac{1}{\\rho}\\frac{\\partial}{\\partial \\rho}\\left(\\rho \\frac{\\partial \\Psi}{\\partial \\rho}\\right) + \\frac{1}{\\rho^2}\\frac{\\partial^2 \\Psi}{\\partial \\phi^2} + \\frac{\\partial^2 \\Psi}{\\partial z^2}$$\n$$\\nabla^2 \\Psi = 4\\cos(2\\phi) - 4\\cos(2\\phi) + 0 = 0$$\nअतः $\\Psi$ लाप्लास समीकरण को संतुष्ट करता है। कथन A सत्य है तथा कथन D असत्य है।\n2. कार्तीय निर्देशांकों में रूपांतरण:\n$$\\Psi = \\rho^2(\\cos^2\\phi - \\sin^2\\phi) = x^2 - y^2$$\nअतः कथन B सत्य है।\n3. $\\vec{E} = -\\nabla\\Psi$ होने से:\n$\\nabla \\cdot \\vec{E} = -\\nabla^2\\Psi = 0$ (परिनालिकीय) तथा $\\nabla \\times \\vec{E} = 0$ (अघूर्णी)।\nअतः कथन C सत्य है।\nसही विकल्प: A, B, C।",
+      "questionTextEn": "In cylindrical coordinates (ρ, φ, z), consider the scalar potential function Ψ(ρ, φ, z) = ρ² cos(2φ). Which of the following statements regarding Ψ are TRUE? [MSQ — One or More Correct]",
+      "optionsEn": [
+        "Ψ satisfies Laplace's equation: ∇²Ψ = 0",
+        "In Cartesian coordinates, Ψ is represented by the polynomial (x² - y²)",
+        "The vector field E⃗ = -∇Ψ is both solenoidal (∇ · E⃗ = 0) and irrotational (∇ × E⃗ = 0)",
+        "The Laplacian of Ψ in cylindrical coordinates is equal to 4 cos(2φ)"
+      ],
+      "explanationEn": "Let us evaluate the statements:\n1. The Laplacian in cylindrical coordinates is:\n$$\\nabla^2 \\Psi = \\frac{1}{\\rho}\\frac{\\partial}{\\partial \\rho}\\left(\\rho \\frac{\\partial \\Psi}{\\partial \\rho}\\right) + \\frac{1}{\\rho^2}\\frac{\\partial^2 \\Psi}{\\partial \\phi^2} + \\frac{\\partial^2 \\Psi}{\\partial z^2}$$\nHere $\\frac{\\partial \\Psi}{\\partial \\rho} = 2\\rho \\cos(2\\phi)$, so $\\rho \\frac{\\partial \\Psi}{\\partial \\rho} = 2\\rho^2 \\cos(2\\phi)$.\nThen $\\frac{1}{\\rho}\\frac{\\partial}{\\partial \\rho}(2\\rho^2 \\cos(2\\phi)) = \\frac{1}{\\rho}(4\\rho \\cos(2\\phi)) = 4\\cos(2\\phi)$.\nAlso, $\\frac{\\partial^2 \\Psi}{\\partial \\phi^2} = -4\\rho^2 \\cos(2\\phi)$, so $\\frac{1}{\\rho^2}(-4\\rho^2 \\cos(2\\phi)) = -4\\cos(2\\phi)$.\nSince $\\Psi$ does not depend on $z$, $\\partial^2 \\Psi / \\partial z^2 = 0$.\nAdding these: $\\nabla^2 \\Psi = 4\\cos(2\\phi) - 4\\cos(2\\phi) + 0 = 0$.\nThus $\\Psi$ is harmonic and satisfies Laplace's equation. Statement A is TRUE, Statement D is FALSE.\n2. In Cartesian coordinates: $x = \\rho\\cos\\phi$ and $y = \\rho\\sin\\phi$.\n$$\\Psi = \\rho^2 \\cos(2\\phi) = \\rho^2 (\\cos^2\\phi - \\sin^2\\phi) = (\\rho\\cos\\phi)^2 - (\\rho\\sin\\phi)^2 = x^2 - y^2$$\nStatement B is TRUE.\n3. Since $\\vec{E} = -\\nabla \\Psi$:\n- $\\nabla \\cdot \\vec{E} = -\\nabla^2 \\Psi = 0$, so $\\vec{E}$ is solenoidal.\n- $\\nabla \\times \\vec{E} = -\\nabla \\times (\\nabla \\Psi) = 0$, so $\\vec{E}$ is irrotational.\nStatement C is TRUE.\nCorrect options: A, B, C.",
+      "questionTextHi": "बेलनाकार निर्देशांकों (ρ, φ, z) में, अदिश विभव फलन Ψ(ρ, φ, z) = ρ² cos(2φ) पर विचार कीजिए। Ψ के संबंध में निम्नलिखित में से कौन से कथन सत्य हैं? [MSQ — एक या अधिक सही]",
+      "optionsHi": [
+        "Ψ लाप्लास समीकरण को संतुष्ट करता है: ∇²Ψ = 0",
+        "कार्तीय निर्देशांकों में, Ψ बहुपद (x² - y²) द्वारा निरुपित होता है",
+        "सदिश क्षेत्र E⃗ = -∇Ψ परिनालिकीय (∇ · E⃗ = 0) तथा अघूर्णी (∇ × E⃗ = 0) दोनों है",
+        "बेलनाकार निर्देशांकों में Ψ का लाप्लासियन 4 cos(2φ) के बराबर है"
+      ],
+      "explanationHi": "प्रत्येक कथन का मूल्यांकन:\n1. बेलनाकार निर्देशांकों में लाप्लासियन:\n$$\\nabla^2 \\Psi = \\frac{1}{\\rho}\\frac{\\partial}{\\partial \\rho}\\left(\\rho \\frac{\\partial \\Psi}{\\partial \\rho}\\right) + \\frac{1}{\\rho^2}\\frac{\\partial^2 \\Psi}{\\partial \\phi^2} + \\frac{\\partial^2 \\Psi}{\\partial z^2}$$\n$$\\nabla^2 \\Psi = 4\\cos(2\\phi) - 4\\cos(2\\phi) + 0 = 0$$\nअतः $\\Psi$ लाप्लास समीकरण को संतुष्ट करता है। कथन A सत्य है तथा कथन D असत्य है।\n2. कार्तीय निर्देशांकों में रूपांतरण:\n$$\\Psi = \\rho^2(\\cos^2\\phi - \\sin^2\\phi) = x^2 - y^2$$\nअतः कथन B सत्य है।\n3. $\\vec{E} = -\\nabla\\Psi$ होने से:\n$\\nabla \\cdot \\vec{E} = -\\nabla^2\\Psi = 0$ (परिनालिकीय) तथा $\\nabla \\times \\vec{E} = 0$ (अघूर्णी)।\nअतः कथन C सत्य है।\nसही विकल्प: A, B, C।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q027",
+      "questionNumber": 27,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "किसी क्षेत्र में विद्युत क्षेत्र E⃗ = (2x) î + (3y) ĵ + (5z) k̂ द्वारा दिया गया है। 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, तथा 0 ≤ z ≤ 1 द्वारा परिबद्ध इकाई घन के बंद पृष्ठ से होकर E⃗ का कुल बहिर्मुखी फ्लक्स ________ के बराबर है (पूर्णांक में)।",
+      "options": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "explanation": "गॉस के अपसरण प्रमेय के अनुसार, घन के बंद पृष्ठ $S$ से कुल बहिर्मुखी फ्लक्स:\n$$\\Phi = \\oint_S \\vec{E} \\cdot d\\vec{S} = \\iiint_V (\\nabla \\cdot \\vec{E}) \\, dV$$\nविद्युत क्षेत्र का अपसरण:\n$$\\nabla \\cdot \\vec{E} = 2 + 3 + 5 = 10$$\nचूँकि अपसरण एक अचर राशि (10) है:\n$$\\Phi = 10 \\times (\\text{इकाई घन का आयतन}) = 10 \\times 1 = 10$$\nअतः अभीष्ट फ्लक्स 10 है।",
+      "questionTextEn": "The electric field in a region is given by E⃗ = (2x) î + (3y) ĵ + (5z) k̂. The total outward flux of E⃗ through the closed surface of the unit cube bounded by 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, and 0 ≤ z ≤ 1 is equal to ________ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "By Gauss's Divergence Theorem, the net outward flux through the closed boundary surface $S$ of the cube $V$ is:\n$$\\Phi = \\oint_S \\vec{E} \\cdot d\\vec{S} = \\iiint_V (\\nabla \\cdot \\vec{E}) \\, dV$$\nComputing the divergence of $\\vec{E}$:\n$$\\nabla \\cdot \\vec{E} = \\frac{\\partial(2x)}{\\partial x} + \\frac{\\partial(3y)}{\\partial y} + \\frac{\\partial(5z)}{\\partial z} = 2 + 3 + 5 = 10$$\nSince the divergence is a constant ($10$), the integral simplifies to:\n$$\\Phi = 10 \\iiint_V dV = 10 \\times \\text{Volume of unit cube}$$\nThe volume of the unit cube is $1 \\times 1 \\times 1 = 1$.\n$$\\Phi = 10 \\times 1 = 10$$\nTherefore, the total flux is 10.",
+      "questionTextHi": "किसी क्षेत्र में विद्युत क्षेत्र E⃗ = (2x) î + (3y) ĵ + (5z) k̂ द्वारा दिया गया है। 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, तथा 0 ≤ z ≤ 1 द्वारा परिबद्ध इकाई घन के बंद पृष्ठ से होकर E⃗ का कुल बहिर्मुखी फ्लक्स ________ के बराबर है (पूर्णांक में)।",
+      "optionsHi": [],
+      "explanationHi": "गॉस के अपसरण प्रमेय के अनुसार, घन के बंद पृष्ठ $S$ से कुल बहिर्मुखी फ्लक्स:\n$$\\Phi = \\oint_S \\vec{E} \\cdot d\\vec{S} = \\iiint_V (\\nabla \\cdot \\vec{E}) \\, dV$$\nविद्युत क्षेत्र का अपसरण:\n$$\\nabla \\cdot \\vec{E} = 2 + 3 + 5 = 10$$\nचूँकि अपसरण एक अचर राशि (10) है:\n$$\\Phi = 10 \\times (\\text{इकाई घन का आयतन}) = 10 \\times 1 = 10$$\nअतः अभीष्ट फ्लक्स 10 है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q028",
+      "questionNumber": 28,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "एक कण बल क्षेत्र F⃗ = (2x + y) î + (x + 3y²) ĵ के अंतर्गत बिंदु (0, 0) से बिंदु (2, 3) तक गति करता है। बल क्षेत्र द्वारा किया गया कार्य ________ के बराबर है (पूर्णांक में)।",
+      "options": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 37.0,
+      "natMax": 37.0,
+      "explanation": "बल के संरक्षी होने की जाँच:\n$$\\frac{\\partial F_y}{\\partial x} = 1 = \\frac{\\partial F_x}{\\partial y}$$\nअतः यह एक संरक्षी बल क्षेत्र है।\nअदिश विभव $U(x, y)$ ज्ञात करते हैं जहाँ $\\vec{F} = \\nabla U$:\n$$U(x, y) = x^2 + xy + y^3$$\nकिया गया कार्य केवल प्रारंभिक व अंतिम बिंदुओं पर निर्भर करता है:\n$$W = U(2, 3) - U(0, 0) = (2^2 + 2 \\times 3 + 3^3) - 0 = 4 + 6 + 27 = 37$$\nअतः किया गया कार्य 37 है।",
+      "questionTextEn": "A particle moves under the force field F⃗ = (2x + y) î + (x + 3y²) ĵ from the point (0, 0) to the point (2, 3). The work done by the force field is equal to ________ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "We check if the force is conservative:\n$$\\frac{\\partial F_y}{\\partial x} = \\frac{\\partial(x + 3y^2)}{\\partial x} = 1$$\n$$\\frac{\\partial F_x}{\\partial y} = \\frac{\\partial(2x + y)}{\\partial y} = 1$$\nSince $\\frac{\\partial F_y}{\\partial x} = \\frac{\\partial F_x}{\\partial y}$, the curl vanishes and $\\vec{F}$ is a conservative force field.\nWe find the scalar potential function $U(x, y)$ such that $\\vec{F} = \\nabla U$:\n$$U(x, y) = \\int (2x + y) dx = x^2 + xy + g(y)$$\nDifferentiating with respect to $y$:\n$$\\frac{\\partial U}{\\partial y} = x + g'(y) = x + 3y^2 \\implies g'(y) = 3y^2 \\implies g(y) = y^3 + C$$\nThus:\n$$U(x, y) = x^2 + xy + y^3$$\nThe work done is:\n$$W = U(2, 3) - U(0, 0) = (2^2 + 2(3) + 3^3) - 0 = (4 + 6 + 27) = 37$$\nTherefore, the work done is 37.",
+      "questionTextHi": "एक कण बल क्षेत्र F⃗ = (2x + y) î + (x + 3y²) ĵ के अंतर्गत बिंदु (0, 0) से बिंदु (2, 3) तक गति करता है। बल क्षेत्र द्वारा किया गया कार्य ________ के बराबर है (पूर्णांक में)।",
+      "optionsHi": [],
+      "explanationHi": "बल के संरक्षी होने की जाँच:\n$$\\frac{\\partial F_y}{\\partial x} = 1 = \\frac{\\partial F_x}{\\partial y}$$\nअतः यह एक संरक्षी बल क्षेत्र है।\nअदिश विभव $U(x, y)$ ज्ञात करते हैं जहाँ $\\vec{F} = \\nabla U$:\n$$U(x, y) = x^2 + xy + y^3$$\nकिया गया कार्य केवल प्रारंभिक व अंतिम बिंदुओं पर निर्भर करता है:\n$$W = U(2, 3) - U(0, 0) = (2^2 + 2 \\times 3 + 3^3) - 0 = 4 + 6 + 27 = 37$$\nअतः किया गया कार्य 37 है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q029",
+      "questionNumber": 29,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "त्रिविमीय आयतन समाकल:\nI = ∭_V (x² + y² + z² + 7) δ³(r⃗ - r⃗₀) d³r\nका मान ज्ञात कीजिए, जहाँ V मूलबिंदु पर केंद्रित त्रिज्या R = 3 का एक गोला है, तथा r⃗₀ = (1, 1, 1) है। समाकल I का मान ________ के बराबर है (पूर्णांक में)।",
+      "options": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "explanation": "त्रिविमीय डिराक डेल्टा फलन के चालनी गुणधर्म (sifting property) के अनुसार:\n$$\\iiint_V f(\\vec{r}) \\delta^3(\\vec{r} - \\vec{r}_0) \\, d^3r = f(\\vec{r}_0) \\quad (\\text{यदि } \\vec{r}_0 \\in V)$$\nदिए गए गोले $V$ की त्रिज्या $R = 3$ है, अतः इसका समीकरण $x^2 + y^2 + z^2 \\le 9$ है।\nबिंदु $\\vec{r}_0 = (1, 1, 1)$ के लिए दूरी का वर्ग:\n$$|\\vec{r}_0|^2 = 1^2 + 1^2 + 1^2 = 3 < 9$$\nचूँकि $\\vec{r}_0$ पूर्णतः गोले के भीतर स्थित है, अतः समाकल का मान बिंदु $\\vec{r}_0$ पर फलन के मान के बराबर होगा:\n$$I = 1^2 + 1^2 + 1^2 + 7 = 3 + 7 = 10$$\nअतः सही उत्तर 10 है।",
+      "questionTextEn": "Evaluate the three-dimensional volume integral:\nI = ∭_V (x² + y² + z² + 7) δ³(r⃗ - r⃗₀) d³r\nwhere V is a sphere of radius R = 3 centered at the origin, and r⃗₀ = (1, 1, 1). The value of the integral I is equal to ________ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "The sifting property of the three-dimensional Dirac delta function states:\n$$\\iiint_V f(\\vec{r}) \\delta^3(\\vec{r} - \\vec{r}_0) \\, d^3r = \\begin{cases} f(\\vec{r}_0), & \\text{if } \\vec{r}_0 \\in V \\\\ 0, & \\text{if } \\vec{r}_0 \\notin V \\end{cases}$$\nHere, the volume $V$ is the solid sphere of radius 3 defined by $x^2 + y^2 + z^2 \\le 3^2 = 9$.\nFor the point $\\vec{r}_0 = (1, 1, 1)$:\n$$|\\vec{r}_0|^2 = 1^2 + 1^2 + 1^2 = 3$$\nSince $3 < 9$, the point $\\vec{r}_0$ lies strictly inside the integration volume $V$.\nTherefore, the integral evaluates to the integrand at $\\vec{r}_0$:\n$$I = f(1, 1, 1) = 1^2 + 1^2 + 1^2 + 7 = 3 + 7 = 10$$\nHence, the correct answer is 10.",
+      "questionTextHi": "त्रिविमीय आयतन समाकल:\nI = ∭_V (x² + y² + z² + 7) δ³(r⃗ - r⃗₀) d³r\nका मान ज्ञात कीजिए, जहाँ V मूलबिंदु पर केंद्रित त्रिज्या R = 3 का एक गोला है, तथा r⃗₀ = (1, 1, 1) है। समाकल I का मान ________ के बराबर है (पूर्णांक में)।",
+      "optionsHi": [],
+      "explanationHi": "त्रिविमीय डिराक डेल्टा फलन के चालनी गुणधर्म (sifting property) के अनुसार:\n$$\\iiint_V f(\\vec{r}) \\delta^3(\\vec{r} - \\vec{r}_0) \\, d^3r = f(\\vec{r}_0) \\quad (\\text{यदि } \\vec{r}_0 \\in V)$$\nदिए गए गोले $V$ की त्रिज्या $R = 3$ है, अतः इसका समीकरण $x^2 + y^2 + z^2 \\le 9$ है।\nबिंदु $\\vec{r}_0 = (1, 1, 1)$ के लिए दूरी का वर्ग:\n$$|\\vec{r}_0|^2 = 1^2 + 1^2 + 1^2 = 3 < 9$$\nचूँकि $\\vec{r}_0$ पूर्णतः गोले के भीतर स्थित है, अतः समाकल का मान बिंदु $\\vec{r}_0$ पर फलन के मान के बराबर होगा:\n$$I = 1^2 + 1^2 + 1^2 + 7 = 3 + 7 = 10$$\nअतः सही उत्तर 10 है।"
+    },
+    {
+      "questionId": "gate_ph_sub_01_q030",
+      "questionNumber": 30,
+      "sectionId": "sec_math_phys",
+      "sectionTitle": "गणितीय भौतिकी (Mathematical Physics)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH • Mathematical Physics",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Hard",
+      "questionText": "xy-समतल में सदिश क्षेत्र A⃗ = -y³ î + x³ ĵ पर विचार कीजिए। माना C वामावर्त दिशा में एक बार परिभ्रमण किया गया वृत्तीय पथ x² + y² = 4 है। (1 / π) ∮_C A⃗ · dr⃗ का मान ________ के बराबर है (पूर्णांक में)।",
+      "options": [],
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 24.0,
+      "natMax": 24.0,
+      "explanation": "समतल में ग्रीन के प्रमेय (या स्टोक्स प्रमेय) के अनुसार:\n$$\\oint_C \\vec{A} \\cdot d\\vec{r} = \\iint_R \\left( \\frac{\\partial A_y}{\\partial x} - \\frac{\\partial A_x}{\\partial y} \\right) dx \\, dy$$\nयहाँ $\\frac{\\partial A_y}{\\partial x} - \\frac{\\partial A_x}{\\partial y} = 3x^2 - (-3y^2) = 3(x^2 + y^2)$ है।\nध्रुवीय निर्देशांकों में परिवर्तित करने पर ($R = 2$):\n$$\\oint_C \\vec{A} \\cdot d\\vec{r} = \\int_0^{2\\pi} d\\theta \\int_0^2 3r^3 \\, dr = 2\\pi \\left[ \\frac{3r^4}{4} \\right]_0^2 = 2\\pi \\times 12 = 24\\pi$$\n$\\pi$ से विभाजित करने पर:\n$$\\frac{1}{\\pi} \\oint_C \\vec{A} \\cdot d\\vec{r} = 24$$\nअतः अभीष्ट मान 24 है।",
+      "questionTextEn": "Consider the vector field A⃗ = -y³ î + x³ ĵ in the xy-plane. Let C be the circular path x² + y² = 4 traversed once in the counter-clockwise direction. The value of (1 / π) ∮_C A⃗ · dr⃗ is equal to ________ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "By Green's Theorem (or Stokes's Theorem in the xy-plane):\n$$\\oint_C \\vec{A} \\cdot d\\vec{r} = \\iint_R \\left( \\frac{\\partial A_y}{\\partial x} - \\frac{\\partial A_x}{\\partial y} \\right) dx \\, dy$$\nHere $A_x = -y^3$ and $A_y = x^3$:\n$$\\frac{\\partial A_y}{\\partial x} = 3x^2, \\quad \\frac{\\partial A_x}{\\partial y} = -3y^2$$\n$$\\frac{\\partial A_y}{\\partial x} - \\frac{\\partial A_x}{\\partial y} = 3x^2 - (-3y^2) = 3(x^2 + y^2)$$\nTransforming to polar coordinates ($x^2 + y^2 = r^2$, $dx \\, dy = r \\, dr \\, d\\theta$) where $r$ goes from $0$ to $2$ (since $r^2 = 4 \\implies R = 2$) and $\\theta$ from $0$ to $2\\pi$:\n$$\\oint_C \\vec{A} \\cdot d\\vec{r} = \\int_0^{2\\pi} d\\theta \\int_0^2 3r^2 \\cdot r \\, dr = 2\\pi \\int_0^2 3r^3 \\, dr = 2\\pi \\left[ \\frac{3r^4}{4} \\right]_0^2 = 2\\pi \\left( \\frac{3 \\times 16}{4} \\right) = 2\\pi (12) = 24\\pi$$\nDividing by $\\pi$:\n$$\\frac{1}{\\pi} \\oint_C \\vec{A} \\cdot d\\vec{r} = \\frac{24\\pi}{\\pi} = 24$$\nTherefore, the value is 24.",
+      "questionTextHi": "xy-समतल में सदिश क्षेत्र A⃗ = -y³ î + x³ ĵ पर विचार कीजिए। माना C वामावर्त दिशा में एक बार परिभ्रमण किया गया वृत्तीय पथ x² + y² = 4 है। (1 / π) ∮_C A⃗ · dr⃗ का मान ________ के बराबर है (पूर्णांक में)।",
+      "optionsHi": [],
+      "explanationHi": "समतल में ग्रीन के प्रमेय (या स्टोक्स प्रमेय) के अनुसार:\n$$\\oint_C \\vec{A} \\cdot d\\vec{r} = \\iint_R \\left( \\frac{\\partial A_y}{\\partial x} - \\frac{\\partial A_x}{\\partial y} \\right) dx \\, dy$$\nयहाँ $\\frac{\\partial A_y}{\\partial x} - \\frac{\\partial A_x}{\\partial y} = 3x^2 - (-3y^2) = 3(x^2 + y^2)$ है।\nध्रुवीय निर्देशांकों में परिवर्तित करने पर ($R = 2$):\n$$\\oint_C \\vec{A} \\cdot d\\vec{r} = \\int_0^{2\\pi} d\\theta \\int_0^2 3r^3 \\, dr = 2\\pi \\left[ \\frac{3r^4}{4} \\right]_0^2 = 2\\pi \\times 12 = 24\\pi$$\n$\\pi$ से विभाजित करने पर:\n$$\\frac{1}{\\pi} \\oint_C \\vec{A} \\cdot d\\vec{r} = 24$$\nअतः अभीष्ट मान 24 है।"
+    }
+  ]
+}
