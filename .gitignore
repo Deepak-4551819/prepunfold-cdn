@@ -1,4 +1,19 @@
+# IDE & System
 .idea/
 *.iml
 .DS_Store
 Thumbs.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.cache
+
+# Scratch / temporary scripts
+scripts/scratch/
+scratch/
+
+# Translation caches & temp artifacts
+scripts/*translation_cache.json
+scripts/translation_cache.json
