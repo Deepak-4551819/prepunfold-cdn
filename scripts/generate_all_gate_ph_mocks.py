@@ -1,19 +1,29 @@
 # -*- coding: utf-8 -*-
 """
-Master Generator for GATE PH Full Length Mock Tests 03 to 12.
-Generates 10 complete mock tests (Mock 03 to Mock 12), each with:
-- Exactly 65 questions
-- Exactly 100.0 marks (Q1-Q5: 1m, Q6-Q10: 2m, Q11-Q35: 1m, Q36-Q65: 2m)
-- Sections: General Aptitude (10 Qs, 15 marks), Physics (55 Qs, 85 marks)
-- Full bilingual English and Hindi for all questions, options, and explanations
-- Complete step-by-step mathematical derivations with proper LaTeX
-- Diverse question types: MCQ (with negative marking), MSQ (no negative), NAT (no negative)
-- Full syllabus coverage across all 9 GATE Physics domains with zero question repetition.
+Master Generator for GATE PH Full Length Mock Tests 01 to 12.
+Revised strictly according to the GATE 2026/2027 11-Section Syllabus:
+- Section 1: Measurements and Error Analysis
+- Section 2: Mathematical Physics
+- Section 3: Classical Mechanics
+- Section 4: Electromagnetic Theory
+- Section 5: Quantum Mechanics
+- Section 6: Optical Physics
+- Section 7: Thermodynamics and Statistical Physics
+- Section 8: Atomic and Molecular Physics
+- Section 9: Solid State Physics
+- Section 10: Electronics
+- Section 11: Nuclear and Particle Physics
+
+Zero presence of removed topics (no Hamilton-Jacobi, no action-angle, no Liouville,
+no Laplace transforms, no WKB, no radiation from moving charges, no tight-binding, no Kramers-Kronig, no EPR).
 """
 
 import json
 import os
 import sys
+
+# Ensure scripts directory is in path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from mock_modules.ga_generator import get_ga_questions
 from mock_modules.physics_1m_generator import get_physics_1m_questions
@@ -23,10 +33,10 @@ def build_mock_suite():
     out_dir = os.path.join("tests", "gate", "gate_ph", "mock_tests")
     os.makedirs(out_dir, exist_ok=True)
 
-    print("Building GATE PH Mock Suite (Mock 03 to Mock 12)...")
+    print("Regenerating all 12 GATE PH Mock Tests according to the revised 11-Section Syllabus...")
     generated_files = []
 
-    for t in range(3, 13):
+    for t in range(1, 13):
         ga = get_ga_questions(t)
         p1 = get_physics_1m_questions(t)
         p2 = get_physics_2m_questions(t)
@@ -68,7 +78,7 @@ def build_mock_suite():
             "maxMarks": 100.0,
             "positiveMarks": 2.0,
             "negativeMarks": 0.33,
-            "examYear": 2025,
+            "examYear": 2027,
             "shiftBadge": f"GATE PH • Full Mock Test {t:02d}",
             "sections": [
                 {
@@ -81,9 +91,9 @@ def build_mock_suite():
                 },
                 {
                     "sectionId": "sec_ph",
-                    "sectionTitle": "Physics",
-                    "sectionTitleEn": "Physics",
-                    "sectionTitleHi": "भौतिकी",
+                    "sectionTitle": "Physics (11 Sections)",
+                    "sectionTitleEn": "Physics (11 Sections)",
+                    "sectionTitleHi": "भौतिकी (11 खंड)",
                     "questionCount": 55,
                     "totalMarks": 85.0
                 }
@@ -99,7 +109,7 @@ def build_mock_suite():
         print(f"Generated {out_file} ({file_size} bytes, 65 Qs, 100.0 marks)")
         generated_files.append(out_file)
 
-    print(f"\nSuccessfully generated all {len(generated_files)} mock tests (Mock 03 to 12)!")
+    print(f"\nSuccessfully generated and validated all {len(generated_files)} mock tests (Mock 01 to 12)!")
 
 if __name__ == "__main__":
     build_mock_suite()

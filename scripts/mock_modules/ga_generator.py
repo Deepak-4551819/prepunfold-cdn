@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-General Aptitude Generator for GATE PH Mock Tests 03 to 12.
+General Aptitude Generator for GATE PH Mock Tests 01 to 12.
 Generates 10 authentic, distinct, bilingual GA questions for each test:
 - Q1 to Q5: 1 mark each (MCQ / NAT) -> 5 marks
 - Q6 to Q10: 2 marks each (MCQ / NAT) -> 10 marks
@@ -12,9 +12,13 @@ def get_ga_questions(test_num):
     tag = f"GATE PH Full Mock {test_num:02d}"
     qs = []
 
-    # Bank of data for tests 3 to 12
+    # Bank of data for tests 1 to 12
     # Q1: Verbal (1m MCQ)
     v1_data = {
+        1: ("METICULOUS", "THOROUGH", ["CARELESS", "SLOPPY", "THOROUGH", "HASTY"], 2,
+            "अति सावधान / सूक्ष्म", "पूर्ण व सावधान", "सूक्ष्म (THOROUGH)", "लापरवाह"),
+        2: ("TACITURN", "RESERVED", ["LOQUACIOUS", "RESERVED", "ELOQUENT", "VOLUBLE"], 1,
+            "मितभाषी / अल्पभाषी", "कम बोलने वाला", "मितभाषी (RESERVED)", "वाचाल"),
         3: ("EPHEMERAL", "FLEETING", ["FLEETING", "PERMANENT", "SUBSTANTIAL", "IMMORTAL"], 0,
             "क्षणिक / अल्पकालिक", "अल्पकालिक", "अल्पकालिक (FLEETING)", "स्थायी"),
         4: ("PRAGMATIC", "PRACTICAL", ["THEORETICAL", "PRACTICAL", "IDEALISTIC", "VAGUE"], 1,
@@ -65,6 +69,8 @@ def get_ga_questions(test_num):
 
     # Q2: Grammar (1m MCQ)
     v2_data = {
+        1: ("The scientist, along with his assistants, ______ attending the conference.", ["is", "are", "were", "have been"], 0, "is", "'along with' takes singular verb agreeing with the main subject 'scientist'."),
+        2: ("Either the professor or the students ______ responsible for the experimental error.", ["are", "is", "was", "has been"], 0, "are", "When subjects are joined by 'or', the verb agrees with the nearer subject ('students')."),
         3: ("Neither of the two candidates ______ suitable for the research position.", ["is", "are", "were", "have been"], 0, "is", "Neither takes a singular verb 'is'."),
         4: ("The committee ______ divided in their opinions regarding the budget.", ["was", "were", "is", "has been"], 1, "were", "When members act individually, plural verb 'were' is used."),
         5: ("If he ______ harder, he would have cleared the fellowship exam.", ["studied", "had studied", "has studied", "was studying"], 1, "had studied", "Third conditional: If + had + V3, would have + V3."),
@@ -104,6 +110,8 @@ def get_ga_questions(test_num):
 
     # Q3: Quantitative (1m MCQ)
     q3_data = {
+        1: ("If $x : y = 2 : 3$ and $y : z = 4 : 5$, then $x : z$ is:", ["$8 : 15$", "$2 : 5$", "$3 : 5$", "$6 : 15$"], 0, "x/z = (x/y)(y/z) = (2/3)(4/5) = 8/15."),
+        2: ("A number when increased by $25\\%$ becomes 150. The original number is:", ["120", "125", "110", "130"], 0, "1.25 x = 150 -> x = 150 / 1.25 = 120."),
         3: ("If $A : B = 3 : 4$ and $B : C = 8 : 9$, then the ratio $A : C$ is:", ["$2 : 3$", "$1 : 2$", "$3 : 2$", "$4 : 3$"], 0, "A/C = (3/4)*(8/9) = 2/3."),
         4: ("If the radius of a circle is increased by $20\\%$, the percentage increase in its area is:", ["$20\\%$", "$40\\%$", "$44\\%$", "$48\\%$"], 2, "1.2^2 = 1.44 -> 44% increase."),
         5: ("The sum of the infinite geometric series $1 + \\frac{1}{3} + \\frac{1}{9} + \\dots$ is:", ["$3/2$", "$4/3$", "$2$", "$5/3$"], 0, "S = 1 / (1 - 1/3) = 3/2."),
@@ -143,16 +151,18 @@ def get_ga_questions(test_num):
 
     # Q4: Reasoning / Spatial (1m MCQ)
     r_data = {
+        1: ("Find the missing term in the sequence: $1, 4, 9, 16, 25, ?$", ["36", "49", "30", "32"], 0, "Squares of natural numbers: 6^2 = 36."),
+        2: ("If 'SOUTH' is called 'NORTH', 'WEST' is called 'EAST', then what is 'NORTH-EAST' called?", ["SOUTH-WEST", "NORTH-WEST", "SOUTH-EAST", "EAST-NORTH"], 0, "Direct inversion of direction gives SOUTH-WEST."),
         3: ("In a certain code, 'PHYSICS' is written as 'QIZTJDT'. In the same code, 'SCIENCE' will be written as:", ["TDJFOFD", "TDJFMDF", "TCJFOFD", "TDKFOFD"], 0, "Each letter is shifted by +1: S->T, C->D, I->J, E->F, N->O, C->D, E->F -> TDJFOFD."),
         4: ("Pointing to a photograph, a woman says: 'His mother is the only daughter of my mother.' How is the woman related to the boy in the photograph?", ["Aunt", "Mother", "Sister", "Grandmother"], 1, "Only daughter of woman's mother is the woman herself. So she is the mother."),
         5: ("Find the next number in the series: $2, 6, 12, 20, 30, \\dots$", ["40", "42", "44", "46"], 1, "Differences are +4, +6, +8, +10, +12 -> 30 + 12 = 42."),
         6: ("A person walks $10\\text{ m}$ North, turns right and walks $5\\text{ m}$, then turns right and walks $10\\text{ m}$. How far is he from his starting point?", ["$5\\text{ m}$", "$10\\text{ m}$", "$15\\text{ m}$", "$0\\text{ m}$"], 0, "Forms a rectangle: distance = 5 m East."),
         7: ("Which number replaces the question mark in the sequence: $3, 8, 15, 24, 35, ?$ ", ["46", "48", "50", "52"], 1, "$n^2 - 1$: 2^2-1=3, 3^2-1=8, ..., 7^2-1 = 48."),
-        8: ("If 'CLOCK' is coded as '34235', then 'LUCK' can be coded in the same system based on letter positions modulo 10. The sum of digits of the code for 'PHYS' is:", ["14", "16", "18", "20"], 0, "Direct standard code logic."),
-        9: ("In a dice, the numbers 1 to 6 are on the faces. If 1 is opposite to 6, 2 opposite to 5, and 3 opposite to 4, what is the sum of numbers on the faces adjacent to 1?", ["14", "15", "16", "17"], 0, "Opposite is 6. Adjacent are 2, 3, 4, 5. Sum = 2+3+4+5 = 14."),
-        10: ("Statements: All photons are bosons. Some bosons are mesons. Conclusion: Some photons are mesons.", ["Definitely True", "Definitely False", "Cannot be determined", "Both true and false"], 2, "A is B, some B is C -> relation between A and C cannot be determined."),
-        11: ("Find the odd one out from the following pairs:", ["$(2, 8)$", "$(3, 27)$", "$(4, 64)$", "$(5, 100)$"], 3, "All are $(n, n^3)$ except $(5, 100)$, which should be 125."),
-        12: ("If Tuesday falls on 1st January of a non-leap year, what day will it be on 31st December of the same year?", ["Monday", "Tuesday", "Wednesday", "Thursday"], 1, "In a normal year (365 days = 52 weeks + 1 day), Jan 1 and Dec 31 fall on the exact same day: Tuesday.")
+        8: ("In a dice, the numbers 1 to 6 are on the faces. If 1 is opposite to 6, 2 opposite to 5, and 3 opposite to 4, what is the sum of numbers on the faces adjacent to 1?", ["14", "15", "16", "17"], 0, "Opposite is 6. Adjacent are 2, 3, 4, 5. Sum = 2+3+4+5 = 14."),
+        9: ("Statements: All photons are bosons. Some bosons are mesons. Conclusion: Some photons are mesons.", ["Definitely True", "Definitely False", "Cannot be determined", "Both true and false"], 2, "A is B, some B is C -> relation between A and C cannot be determined."),
+        10: ("Find the odd one out from the following pairs:", ["$(2, 8)$", "$(3, 27)$", "$(4, 64)$", "$(5, 100)$"], 3, "All are $(n, n^3)$ except $(5, 100)$, which should be 125."),
+        11: ("If Tuesday falls on 1st January of a non-leap year, what day will it be on 31st December of the same year?", ["Monday", "Tuesday", "Wednesday", "Thursday"], 1, "In a normal year (365 days = 52 weeks + 1 day), Jan 1 and Dec 31 fall on the exact same day: Tuesday."),
+        12: ("In a row of 30 students, Amit is 10th from the left. What is his position from the right?", ["21st", "20th", "19th", "22nd"], 0, "30 - 10 + 1 = 21st.")
     }
     r_txt, r_opts, r_idx, r_expl = r_data[test_num]
     qs.append({
@@ -182,6 +192,8 @@ def get_ga_questions(test_num):
 
     # Q5: Quantitative (1m NAT)
     nat1_data = {
+        1: ("The average of 4 numbers is 20. If each number is multiplied by 3, the new average is ______ (answer in integer).", 60.0, 60.0, "60", "Multiplying each data point by a constant multiplies the mean by that constant: 20 * 3 = 60."),
+        2: ("If $5^x = 125$, the value of $x$ is ______ (answer in integer).", 3.0, 3.0, "3", "125 = 5^3 -> x = 3."),
         3: ("A shopkeeper marks an article $40\\%$ above the cost price and allows a discount of $20\\%$. The profit percentage is ______ (answer in integer).", 12.0, 12.0, "12", "CP=100 -> MP=140 -> SP=140*0.8=112 -> Profit = 12%."),
         4: ("The remainder when $2^{31}$ is divided by 7 is ______ (answer in integer).", 2.0, 2.0, "2", "2^3 = 8 = 1 mod 7. 2^31 = (2^3)^10 * 2 = 1^10 * 2 = 2 mod 7."),
         5: ("The sum of the roots of the quadratic equation $3x^2 - 15x + 7 = 0$ is ______ (answer in integer).", 5.0, 5.0, "5", "Sum of roots = -b/a = -(-15)/3 = 5."),
@@ -190,7 +202,7 @@ def get_ga_questions(test_num):
         8: ("The number of positive integral divisors of 360 is ______ (answer in integer).", 24.0, 24.0, "24", "360 = 2^3 * 3^2 * 5^1 -> (3+1)(2+1)(1+1) = 4*3*2 = 24."),
         9: ("The arithmetic mean of numbers 10, 15, 20, 25, $x$ is 20. The value of $x$ is ______ (answer in integer).", 30.0, 30.0, "30", "10+15+20+25+x = 5*20 = 100 -> 70+x=100 -> x=30."),
         10: ("A man walks at $4\\text{ km/h}$ and reaches his office 5 minutes late. If he walks at $5\\text{ km/h}$, he reaches on time. The distance to his office in km is ______ (answer in integer).", 1.66, 1.68, "1.67", "d/4 - d/5 = 5/60 -> d/20 = 1/12 -> d = 20/12 = 1.67 km."),
-        11: ("The value of $\\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$ in two decimal places is ______.", 0.98, 1.00, "0.99", "Telescoping sum = 1 - 1/100 = 0.99."),
+        11: ("The value of $\\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{99 \\cdot 100}$ in two decimal places is ______.", 0.98, 1.00, "0.99", "Telescoping sum = 1 - 1/100 = 0.99."),
         12: ("In a class of 50 students, 30 play football, 25 play cricket, and 10 play both. The number of students playing neither sport is ______ (answer in integer).", 5.0, 5.0, "5", "n(A U B) = 30 + 25 - 10 = 45 -> neither = 50 - 45 = 5.")
     }
     nat_txt, n_min, n_max, n_ans, n_expl = nat1_data[test_num]
@@ -221,6 +233,12 @@ def get_ga_questions(test_num):
 
     # Q6: Reading Comprehension / Deduction (2m MCQ)
     rc_data = {
+        1: ("Read the following statement:\n'Progress in experimental physics relies crucially on isolating variables, minimizing systematic errors through calibration, and reducing random noise via statistical averaging.'\nWhat is the primary role of calibration according to the text?",
+            ["Minimizing systematic errors", "Eliminating random thermal fluctuations completely", "Replacing theoretical derivations", "Increasing measurement speed"],
+            0, "Calibration directly addresses systematic errors by referencing measurements against standards."),
+        2: ("Consider the following excerpt:\n'A scientific hypothesis must be empirically falsifiable. A proposition that cannot be subjected to a potential experimental refutation lies outside the domain of empirical science.'\nAccording to the passage, an empirical scientific hypothesis must:",
+            ["Be capable of being tested and potentially refuted by experiment", "Be permanently proven beyond any future revision", "Depend entirely on purely philosophical reasoning", "Avoid all mathematical modeling"],
+            0, "The passage explicitly defines scientific validity through empirical falsifiability."),
         3: ("Read the following statement:\n'Scientific paradigms shift not merely when old theories are disproven, but when anomalies accumulate to the extent that a new, more comprehensive framework emerges that explains both the old successes and the novel failures.'\nWhich of the following is the most logically valid inference?",
             ["A paradigm shift occurs only through gradual minor modifications.", "Anomalies alone are sufficient to replace an established paradigm without a new framework.", "A new paradigm must account for both previous experimental successes and newly discovered anomalies.", "Old theories are completely abandoned without retaining any explanatory power."],
             2, "Statement directly asserts the new framework must explain both old successes and novel failures."),
@@ -280,6 +298,10 @@ def get_ga_questions(test_num):
 
     # Q7: Combinatorics / Probability (2m MCQ)
     p_data = {
+        1: ("A fair coin is tossed 3 times. The probability of getting exactly 2 heads is:",
+            ["$3/8$", "$1/2$", "$1/4$", "$1/8$"], 0, "Outcomes = 2^3 = 8. Ways to choose 2 heads = 3C2 = 3. P = 3/8."),
+        2: ("The probability of drawing a red ace from a standard deck of 52 cards is:",
+            ["$1/26$", "$1/13$", "$1/52$", "$2/13$"], 0, "There are 2 red aces (hearts, diamonds). P = 2/52 = 1/26."),
         3: ("Two fair six-sided dice are thrown simultaneously. The probability that the sum of the numbers appearing on top is at least 10 is:",
             ["$1/6$", "$5/36$", "$1/12$", "$1/4$"], 0, "Pairs with sum >= 10: (4,6), (5,5), (5,6), (6,4), (6,5), (6,6) = 6 outcomes. P = 6/36 = 1/6."),
         4: ("A bag contains 5 red balls and 4 blue balls. If two balls are drawn at random without replacement, the probability that both balls are of the same color is:",
@@ -329,6 +351,10 @@ def get_ga_questions(test_num):
 
     # Q8: Analytical / Logic (2m MCQ)
     l_data = {
+        1: ("If all physicists are mathematicians and some mathematicians are musicians, which conclusion is definite?",
+            ["Some musicians may be physicists", "All musicians are physicists", "No physicist is a musician", "All mathematicians are physicists"], 0, "Subset logic allows overlapping possibility."),
+        2: ("In a group of 5 people, A is older than B but younger than C. D is older than C. Who is the oldest?",
+            ["D", "C", "A", "B"], 0, "D > C > A > B -> D is oldest."),
         3: ("Five friends P, Q, R, S, T sit in a row facing North. S is between T and Q. Q is to the immediate left of R. P is to the immediate left of T. Who is sitting in the middle?",
             ["S", "Q", "T", "R"], 0, "Order from left: P, T, S, Q, R. Middle is S."),
         4: ("If 'A + B' means A is the father of B; 'A - B' means A is the sister of B; 'A * B' means A is the brother of B. Which expression means P is the nephew of Q?",
@@ -378,9 +404,11 @@ def get_ga_questions(test_num):
 
     # Q9: Advanced Quantitative (2m NAT)
     aq_data = {
+        1: ("A train $150\\text{ m}$ long passes a pole in 15 seconds. The speed of the train in $\\text{km/h}$ is ______ (answer in integer).", 36.0, 36.0, "36", "Speed = 150/15 = 10 m/s = 10 * 18/5 = 36 km/h."),
+        2: ("A tank can be filled by two pipes in 20 minutes and 30 minutes respectively. When both pipes are opened together, the time in minutes taken to fill the tank is ______ (answer in integer).", 12.0, 12.0, "12", "1/20 + 1/30 = 5/60 = 1/12 -> 12 minutes."),
         3: ("A boat can travel $24\\text{ km}$ downstream and $16\\text{ km}$ upstream in 5 hours. If the speed of the water stream is $2\\text{ km/h}$, the speed of the boat in still water in $\\text{km/h}$ is ______ (answer in integer).", 8.0, 8.0, "8", "24/(v+2) + 16/(v-2) = 5. For v=8: 24/10 + 16/6 = 2.4 + 2.667 = 5.06 -> exact 8 km/h."),
         4: ("A solid metallic cylinder of base radius $6\\text{ cm}$ and height $12\\text{ cm}$ is melted and recast into identical spheres each of radius $3\\text{ cm}$. The number of spheres formed is ______ (answer in integer).", 12.0, 12.0, "12", "Vol cylinder = pi * 36 * 12 = 432 pi. Vol sphere = (4/3)*pi*27 = 36 pi. Spheres = 432/36 = 12."),
-        5: ("Two trains of lengths $120\\text{ m}$ and $180\\text{ m}$ travel on parallel tracks in opposite directions with speeds of $54\\text{ km/h}$ and $72\\text{ km/h}$ respectively. The time in seconds taken by the trains to cross each other completely is ______ (answer in integer).", 8.0, 8.0, "8", "Total distance = 300 m. Relative speed = 54 + 72 = 126 km/h = 126 * 5/18 = 35 m/s. Wait: 300 / 35 = 8.57 s. Let's make speeds 54 and 36: sum = 90 km/h = 25 m/s -> 300/25 = 12 s! Answer: 12."),
+        5: ("Two trains of lengths $120\\text{ m}$ and $180\\text{ m}$ travel on parallel tracks in opposite directions with speeds of $54\\text{ km/h}$ and $36\\text{ km/h}$ respectively. The time in seconds taken by the trains to cross each other completely is ______ (answer in integer).", 12.0, 12.0, "12", "Total distance = 300 m. Relative speed = 54 + 36 = 90 km/h = 25 m/s. Time = 300 / 25 = 12 s."),
         6: ("The sum of the series $1 + 2 + 3 + \\dots + 50$ is ______ (answer in integer).", 1275.0, 1275.0, "1275", "50 * 51 / 2 = 1275."),
         7: ("A sum of money invested at compound interest doubles itself in 5 years. It will become 8 times itself in ______ years (answer in integer).", 15.0, 15.0, "15", "8 = 2^3 -> time = 3 * 5 = 15 years."),
         8: ("A wire is bent into the shape of a circle of radius $28\\text{ cm}$. If the same wire is rebent into a square, the length of each side of the square in cm is ______ (answer in integer, take $\\pi = 22/7$).", 44.0, 44.0, "44", "Circumference = 2 * (22/7) * 28 = 176 cm. Side of square = 176 / 4 = 44 cm."),
@@ -389,9 +417,6 @@ def get_ga_questions(test_num):
         11: ("A train running at $90\\text{ km/h}$ crosses a platform $250\\text{ m}$ long in 20 seconds. The length of the train in meters is ______ (answer in integer).", 250.0, 250.0, "250", "Speed = 90 * 5/18 = 25 m/s. Distance = 25 * 20 = 500 m. Train length = 500 - 250 = 250 m."),
         12: ("The internal angles of a convex polygon sum to $1440^\\circ$. The number of sides of the polygon is ______ (answer in integer).", 10.0, 10.0, "10", "(n - 2) * 180 = 1440 -> n - 2 = 8 -> n = 10.")
     }
-    # Adjust test 5 text to match 12 s calculation
-    if test_num == 5:
-        aq_data[5] = ("Two trains of lengths $120\\text{ m}$ and $180\\text{ m}$ travel on parallel tracks in opposite directions with speeds of $54\\text{ km/h}$ and $36\\text{ km/h}$ respectively. The time in seconds taken by the trains to cross each other completely is ______ (answer in integer).", 12.0, 12.0, "12", "Total distance = 300 m. Relative speed = 54 + 36 = 90 km/h = 25 m/s. Time = 300 / 25 = 12 s.")
     aq_txt, aq_min, aq_max, aq_ans, aq_expl = aq_data[test_num]
     qs.append({
         "questionId": f"{tid}_q009",
@@ -420,6 +445,8 @@ def get_ga_questions(test_num):
 
     # Q10: Mensuration / Algebra (2m NAT)
     m_data = {
+        1: ("The area of an equilateral triangle with side $4\\text{ cm}$ in $\\text{cm}^2$ (rounded off to one decimal place, take $\\sqrt{3} \\approx 1.732$) is ______.", 6.8, 7.0, "6.9", "Area = (sqrt(3)/4) * 16 = 4 * 1.732 = 6.928 cm^2."),
+        2: ("If $x + y = 7$ and $x y = 12$, the value of $x^2 + y^2$ is ______ (answer in integer).", 25.0, 25.0, "25", "x^2 + y^2 = (x+y)^2 - 2xy = 49 - 24 = 25."),
         3: ("The radius of the circumcircle of a right-angled triangle with sides $6\\text{ cm}, 8\\text{ cm}, 10\\text{ cm}$ in cm is ______ (answer in integer).", 5.0, 5.0, "5", "Circumradius of right triangle = Hypotenuse / 2 = 10 / 2 = 5 cm."),
         4: ("The minimum value of the quadratic function $f(x) = 2x^2 - 8x + 11$ is ______ (answer in integer).", 3.0, 3.0, "3", "Vertex at x = -(-8)/(2*2) = 2. f(2) = 2(4) - 8(2) + 11 = 8 - 16 + 11 = 3."),
         5: ("A sphere of radius $3\\text{ cm}$ is inscribed in a cube. The volume of the cube in $\\text{cm}^3$ is ______ (answer in integer).", 216.0, 216.0, "216", "Side of cube = 2 * radius = 6 cm. Volume = 6^3 = 216 cm^3."),
