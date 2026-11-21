@@ -156,9 +156,9 @@ def update_manifest():
                 "isFree": True,
                 "version": 1,
                 "path": rel_path,
-                "json_url": f"https://cdn.jsdelivr.net/gh/Yeddesh/prepunfold-cdn@main/{rel_path}",
-                "cdnUrl": f"https://cdn.jsdelivr.net/gh/Yeddesh/prepunfold-cdn@main/{rel_path}",
-                "altCdnUrl": f"https://cdn.jsdelivr.net/gh/Deepak-4551819/prepunfold-cdn@main/{rel_path}"
+                "json_url": f"https://cdn.jsdelivr.net/gh/Deepak-4551819/prepunfold-cdn@main/{rel_path}",
+                "cdnUrl": f"https://cdn.jsdelivr.net/gh/Deepak-4551819/prepunfold-cdn@main/{rel_path}",
+                "altCdnUrl": f"https://cdn.jsdelivr.net/gh/Yeddesh/prepunfold-cdn@main/{rel_path}"
             }
             all_test_entries.append(entry)
 
