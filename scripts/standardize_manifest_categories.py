@@ -19,15 +19,20 @@ for c in categories:
             "title": "TGT / PGT Civics (नागरिक शास्त्र)",
             "titleEn": "TGT / PGT Civics & Political Science (UPSESSB, KVS, NVS, DSSSB, RPSC)",
             "titleHi": "टीजीटी / पीजीटी नागरिक शास्त्र एवं राजनीति विज्ञान",
-            "subtitle": "20 Official Full PYQ Papers + 10 Subject Mock Tests (2,847 Solved Questions)",
-            "descriptionEn": "20 Official Full PYQ Papers (UP PGT/TGT, UKPSC, DSSSB, RPSC, MPPSC) + 10 Subject Mock Tests • 2,847 Solved Questions with Detailed Explanations",
+            "subtitle": "20 Official Full PYQ Papers + 10 Sectional Mock Tests (2,847 Solved Questions)",
+            "descriptionEn": "20 Official Full PYQ Papers (UP PGT/TGT, UKPSC, DSSSB, RPSC, MPPSC) + 10 Sectional Mock Tests • 2,847 Solved Questions with Detailed Explanations",
             "descriptionHi": "20 आधिकारिक विगत वर्ष प्रश्न-पत्र (UP PGT/TGT, UKPSC, DSSSB, RPSC, MPPSC) + 10 विषयवार मॉक टेस्ट • 2,847 हल प्रश्न विस्तृत व्याख्या सहित",
             "iconName": "account_balance",
             "is_active": True,
+            "exam_group": "teaching",
+            "examGroup": "teaching",
+            "unlocks_categories": ["tgt_pgt_civics"],
+            "pass_6m_sku": "tier_49",
             "pass_6m_product_id": "pass_tgt_pgt_civics_6m_49",
             "pass_6m_price": "₹49",
             "pass_6m_strike_price": "₹149",
             "pass_6m_days": 180,
+            "pass_1y_sku": "tier_89",
             "pass_1y_product_id": "pass_tgt_pgt_civics_1y_89",
             "pass_1y_price": "₹89",
             "pass_1y_strike_price": "₹249",
@@ -47,15 +52,20 @@ for c in categories:
             "title": "TGT / PGT History (इतिहास)",
             "titleEn": "TGT / PGT History (UPSESSB, KVS, NVS, DSSSB, RPSC, UKPSC)",
             "titleHi": "टीजीटी / पीजीटी इतिहास",
-            "subtitle": "20 Official Full PYQ Papers + 10 Subject Mock Tests (3,000 Solved Questions)",
-            "descriptionEn": "20 Official Full PYQ Papers (UP PGT/TGT, UKPSC, DSSSB, RPSC, MPPSC, KVS) + 10 Subject Mock Tests • 3,000 Solved Questions with Detailed Explanations",
+            "subtitle": "20 Official Full PYQ Papers + 10 Sectional Mock Tests (3,000 Solved Questions)",
+            "descriptionEn": "20 Official Full PYQ Papers (UP PGT/TGT, UKPSC, DSSSB, RPSC, MPPSC, KVS) + 10 Sectional Mock Tests • 3,000 Solved Questions with Detailed Explanations",
             "descriptionHi": "20 आधिकारिक विगत वर्ष प्रश्न-पत्र (UP PGT/TGT, UKPSC, DSSSB, RPSC, MPPSC, KVS) + 10 विषयवार मॉक टेस्ट • 3,000 हल प्रश्न विस्तृत व्याख्या सहित",
             "iconName": "menu_book",
             "is_active": True,
+            "exam_group": "teaching",
+            "examGroup": "teaching",
+            "unlocks_categories": ["tgt_pgt_history"],
+            "pass_6m_sku": "tier_49",
             "pass_6m_product_id": "pass_tgt_pgt_hist_6m_49",
             "pass_6m_price": "₹49",
             "pass_6m_strike_price": "₹149",
             "pass_6m_days": 180,
+            "pass_1y_sku": "tier_89",
             "pass_1y_product_id": "pass_tgt_pgt_hist_1y_89",
             "pass_1y_price": "₹89",
             "pass_1y_strike_price": "₹249",
@@ -65,7 +75,7 @@ for c in categories:
             "order": 20
         })
 
-manifest["manifest_version"] = manifest.get("manifest_version", 21) + 1
+manifest["manifest_version"] = manifest.get("manifest_version", 27) + 1
 manifest["updated_at"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
