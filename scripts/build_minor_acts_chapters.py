@@ -45,6 +45,7 @@ def translate_batch(texts, max_workers=10):
         return text, text
 
     if to_fetch:
+        print(f"Translating {len(to_fetch)} new phrases...")
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             for orig, trans in executor.map(fetch_one, to_fetch):
                 if is_hindi(trans):
@@ -57,55 +58,94 @@ def translate_batch(texts, max_workers=10):
 
     return [trans_cache.get(t, t) for t in texts]
 
-def split_en_hi(text_block):
-    if '/' in text_block:
-        return text_block.split('/')[0].strip()
-    lines = [l.strip() for l in text_block.split('\n') if l.strip()]
-    if not lines:
-        return text_block.strip()
-    en_lines = []
-    for line in lines:
-        has_akruti = any(ord(c) > 127 for c in line) or bool(re.search(r'(keâ|ef|me|ue|Je|Ce|Øe|›eâ|ne|le|Le|oe|Oe|ve|he|ye|Ye|ce|Ùe|Me|<e)', line))
-        words = re.findall(r'[a-zA-Z]+', line)
-        if len(words) > 0 and not has_akruti:
-            en_lines.append(line)
-        elif not en_lines:
-            en_lines.append(line)
+def cluster_spans_into_lines(spans):
+    if not spans: return []
+    sorted_spans = sorted(spans, key=lambda s: s['bbox'][1])
+    lines = []
+    current_line = []
+    for s in sorted_spans:
+        if not current_line:
+            current_line.append(s)
         else:
-            break
-    return ' '.join(en_lines).strip()
+            avg_y0 = sum(x['bbox'][1] for x in current_line) / len(current_line)
+            if abs(s['bbox'][1] - avg_y0) <= 4:
+                current_line.append(s)
+            else:
+                current_line.sort(key=lambda x: x['bbox'][0])
+                line_txt = "".join(x['text'] for x in current_line).strip()
+                if line_txt:
+                    lines.append(line_txt)
+                current_line = [s]
+    if current_line:
+        current_line.sort(key=lambda x: x['bbox'][0])
+        line_txt = "".join(x['text'] for x in current_line).strip()
+        if line_txt:
+            lines.append(line_txt)
+    return lines
 
-def find_options_sequential(s):
-    m_a = re.search(r'(?:^|\n|\s)\(a\)\s*', s, re.I)
+def extract_clean_page_en(page):
+    d = page.get_text("dict")
+    col1_spans = []
+    col2_spans = []
+
+    for b in d["blocks"]:
+        if "lines" not in b: continue
+        for l in b["lines"]:
+            full_line = " ".join(s["text"] for s in l["spans"]).strip()
+            if "Gòejceeuee" in full_line or "Answer Key" in full_line or re.match(r'^\d+\.\s*\([a-e]\)', full_line):
+                continue
+            for s in l["spans"]:
+                txt = s["text"]
+                if not txt.strip(): continue
+                font = s["font"]
+                if "Times" in font or "Arial" in font:
+                    x0, y0, x1, y1 = s["bbox"]
+                    if y0 < 50 or y1 > 730: continue
+                    if x0 < 308:
+                        col1_spans.append(s)
+                    else:
+                        col2_spans.append(s)
+
+    lines = cluster_spans_into_lines(col1_spans) + cluster_spans_into_lines(col2_spans)
+    return "\n".join(lines)
+
+def find_options_in_clean_en(s):
+    OPT_PAT = r'(?:^|\n|\s|/|\d|\))'
+    m_a = re.search(r'(?:^|\n|\s|/)\(a\)\s*', s, re.I)
     if not m_a: return None
-    m_b = re.search(r'(?:^|\n|\s)\(b\)\s*', s[m_a.end():], re.I)
+    m_b = re.search(OPT_PAT + r'\(b\)\s*', s[m_a.end():], re.I)
     if not m_b: return None
     b_start = m_a.end() + m_b.start()
     b_end = m_a.end() + m_b.end()
-    m_c = re.search(r'(?:^|\n|\s)\(c\)\s*', s[b_end:], re.I)
+
+    m_c = re.search(OPT_PAT + r'\(c\)\s*', s[b_end:], re.I)
     if not m_c: return None
     c_start = b_end + m_c.start()
     c_end = b_end + m_c.end()
-    m_d = re.search(r'(?:^|\n|\s)\(d\)\s*', s[c_end:], re.I)
+
+    m_d = re.search(OPT_PAT + r'\(d\)\s*', s[c_end:], re.I)
     if not m_d: return None
     d_start = c_end + m_d.start()
     d_end = c_end + m_d.end()
 
-    # Check for optional (e)
-    m_e = re.search(r'(?:^|\n|\s)\(e\)\s*', s[d_end:], re.I)
+    m_e = re.search(OPT_PAT + r'\(e\)\s*', s[d_end:], re.I)
     if m_e:
         e_start = d_end + m_e.start()
         e_end = d_end + m_e.end()
-        return [(m_a.start(), m_a.end()), (b_start, b_end), (c_start, c_end), (d_start, d_end), (e_start, e_end)]
+        return [
+            ("a", s[m_a.end():b_start].strip().rstrip("/").strip()),
+            ("b", s[b_end:c_start].strip().rstrip("/").strip()),
+            ("c", s[c_end:d_start].strip().rstrip("/").strip()),
+            ("d", s[d_end:e_start].strip().rstrip("/").strip()),
+            ("e", s[e_end:].strip().rstrip("/").strip()),
+        ]
 
-    return [(m_a.start(), m_a.end()), (b_start, b_end), (c_start, c_end), (d_start, d_end)]
-
-def is_ans_block(text):
-    lines = [l.strip() for l in text.strip().split('\n') if l.strip()]
-    if not lines:
-        return False
-    ans_lines = sum(1 for l in lines if re.match(r'^\d+\.\s*\([a-e]\)', l))
-    return ans_lines >= 1 and (ans_lines / len(lines) > 0.5)
+    return [
+        ("a", s[m_a.end():b_start].strip().rstrip("/").strip()),
+        ("b", s[b_end:c_start].strip().rstrip("/").strip()),
+        ("c", s[c_end:d_start].strip().rstrip("/").strip()),
+        ("d", s[d_end:].strip().rstrip("/").strip()),
+    ]
 
 MINOR_ACTS_CONFIG = [
     (1, 'minor_acts_pyq_t01_persons_with_disabilities', 'Rights of Persons with Disabilities Act, 2016', 'दिव्यांगजन अधिकार अधिनियम, 2016', 3, 11),
@@ -130,31 +170,14 @@ def build_minor_act(doc, t_num, test_id, title_en, title_hi, p_start, p_end):
             for m in re.finditer(r'(\d+)\.\s*\(([a-e])\)', b[4]):
                 ans_dict[int(m.group(1))] = m.group(2).lower()
 
-    # 2. Extract column-sorted text (skipping header, footer, ans blocks)
+    # 2. Extract clean English text using span clustering
     act_text = ""
     for p in range(p_start - 1, p_end):
-        page = doc[p]
-        col1 = []
-        col2 = []
-        for b in page.get_text("blocks"):
-            x0, y0, x1, y1, text, bno, btype = b
-            if btype != 0:
-                continue
-            if y0 < 50 or y1 > 730:
-                continue
-            if is_ans_block(text):
-                continue
-            if x0 < 308:
-                col1.append((y0, text))
-            else:
-                col2.append((y0, text))
-        col1.sort(key=lambda x: x[0])
-        col2.sort(key=lambda x: x[0])
-        p_text = "\n".join([t[1] for t in col1]) + "\n" + "\n".join([t[1] for t in col2])
-        act_text += "\n" + p_text
+        act_text += "\n" + extract_clean_page_en(doc[p])
 
-    # 3. Find question blocks
-    q_matches = list(re.finditer(r'\n\s*(\d+)\.\s+', act_text))
+    act_text = re.sub(r'\n(\d+)\.\s*\n', r'\n\1. ', act_text)
+    q_matches = list(re.finditer(r'(?:^|\n)\s*(\d+)\.\s*', act_text))
+
     valid_qs = []
     for i, m in enumerate(q_matches):
         q_num = int(m.group(1))
@@ -174,20 +197,15 @@ def build_minor_act(doc, t_num, test_id, title_en, title_hi, p_start, p_end):
         ans_letter = ans_dict[q_num]
         correct_idx = ans_map.get(ans_letter, 0)
 
-        opt_matches = find_options_sequential(block)
-        if opt_matches:
-            stem_raw = block[:opt_matches[0][0]].strip()
-            opts_raw = []
-            for j in range(len(opt_matches)):
-                start = opt_matches[j][1]
-                end = opt_matches[j+1][0] if j+1 < len(opt_matches) else len(block)
-                opts_raw.append(block[start:end].strip())
+        opts_parsed = find_options_in_clean_en(block)
+        if opts_parsed:
+            m_a = re.search(r'(?:^|\n|\s|/)\(a\)\s*', block, re.I)
+            stem_raw = block[:m_a.start()].strip() if m_a else block
+            stem_en = " ".join(stem_raw.split()).rstrip("/").strip()
+            opts_en = [" ".join(opt_txt.split()).rstrip("/").strip() for _, opt_txt in opts_parsed]
         else:
-            stem_raw = block
-            opts_raw = ["A", "B", "C", "D"]
-
-        stem_en = split_en_hi(stem_raw)
-        opts_en = [split_en_hi(o) for o in opts_raw]
+            stem_en = " ".join(block.split()).rstrip("/").strip()
+            opts_en = ["A", "B", "C", "D"]
 
         all_texts_to_trans.append(stem_en)
         all_texts_to_trans.extend(opts_en)
