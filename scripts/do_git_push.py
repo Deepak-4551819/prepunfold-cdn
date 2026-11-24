@@ -1,9 +1,13 @@
-import subprocess, sys
+import subprocess
+import sys
 
-print("Executing: git push origin main")
-p = subprocess.Popen(["git", "push", "origin", "main"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
-for line in p.stdout:
-    print(line, end='', flush=True)
-p.wait()
-print(f"\nExited with code {p.returncode}")
-sys.exit(p.returncode)
+print("Starting git push...")
+try:
+    res = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, timeout=120)
+    print("Return code:", res.returncode)
+    print("STDOUT:", res.stdout)
+    print("STDERR:", res.stderr)
+except subprocess.TimeoutExpired as e:
+    print("Timeout expired after 120s:", e)
+except Exception as e:
+    print("Exception:", e)
