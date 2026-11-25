@@ -1,0 +1,585 @@
+{
+  "testId": "gate_cs_topic_toc_02",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_toc_02",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Theory of Computation (Set 2)",
+  "titleEn": "GATE CS Topic Test — Theory of Computation (Set 2)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_07_toc",
+  "part_id": "part_07_toc",
+  "partTitle": "Theory of Computation",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "sectionTitleEn": "Theory of Computation",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_toc_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Post Correspondence Problem",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The Post Correspondence Problem (PCP) over a binary alphabet `{0, 1}` is:",
+      "optionsEn": [
+        "Decidable in polynomial time",
+        "Not Recursively Enumerable",
+        "NP-complete",
+        "Undecidable, but Recursively Enumerable (RE)"
+      ],
+      "explanationEn": "A TM can systematically search all finite index sequences and halt-accept if a match exists (making PCP RE), but no algorithm can decide in general whether a match exists (undecidable)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Context-Free Grammars",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following transformations preserve the language `L(G)` of a CFG (assuming `ε ∉ L(G)`)?",
+      "optionsEn": [
+        "Eliminating ε-productions",
+        "Eliminating unit productions `A -> B`",
+        "Converting G to Chomsky Normal Form",
+        "Eliminating useless symbols (non-generating and unreachable)"
+      ],
+      "explanationEn": "All four are standard equivalence-preserving grammar simplification steps when `ε ∉ L(G)`."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — CFG Parse Trees",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "For the ambiguous grammar `E -> E + E | a`, how many distinct parse trees exist for the string `a + a + a + a`?",
+      "optionsEn": [],
+      "explanationEn": "Each parse tree corresponds to a full parenthesization of 4 operands (3 binary `+` operators), counted by the Catalan number `C_3 = 5`."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Closure Properties (CFL)",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Context-Free Languages (CFLs) are CLOSED under which of the following operations?",
+      "optionsEn": [
+        "Set difference between two CFLs",
+        "Intersection with another CFL",
+        "Complementation",
+        "Intersection with a Regular language"
+      ],
+      "explanationEn": "CFLs are NOT closed under intersection or complementation in general, but the intersection of a CFL with a Regular language is always a CFL (via product construction of a PDA and a DFA)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Regular Grammar",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "How many strings of length 4 are generated by the regular expression `(ab + ba)*`?",
+      "optionsEn": [],
+      "explanationEn": "Strings of length 4 are concatenations of two 2-letter blocks from `{ab, ba}`: `abab, abba, baab, baba` — `2^2 = 4` strings."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — CYK Algorithm",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given a CFG in Chomsky Normal Form, what is the worst-case time complexity of the CYK (Cocke-Younger-Kasami) membership algorithm for an input string of length `n`?",
+      "optionsEn": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(2^n)"
+      ],
+      "explanationEn": "CYK fills an `n × n` upper-triangular dynamic programming table where each cell checks up to `n` split points, taking `O(n^3)` time (for a fixed grammar)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Decidable Problems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following decision problems are DECIDABLE?",
+      "optionsEn": [
+        "Given a DFA M and a string w, does M accept w?",
+        "Given a CFG G, is L(G) infinite?",
+        "Given a Turing Machine M, does M halt on empty input ε?",
+        "Given a Regular Expression R, is L(R) = ∅?"
+      ],
+      "explanationEn": "DFA membership (A), CFG finiteness/infiniteness (B), and regex emptiness (D) are all decidable. The blank-tape Halting Problem for TMs is undecidable (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Minimal DFA States",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "What is the minimum number of states in a DFA over `Σ = {a, b}` that accepts all strings of length divisible by 4?",
+      "optionsEn": [],
+      "explanationEn": "The DFA cycles through 4 states corresponding to `|w| mod 4 ∈ {0, 1, 2, 3}`, with state 0 accepting. Minimum = 4 states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Recursive & RE Languages",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A language `L` is Recursive (Decidable) if and only if:",
+      "optionsEn": [
+        "Both L and its complement L' are Recursively Enumerable (RE)",
+        "L is RE and L' is Context-Free",
+        "L is accepted by a deterministic PDA",
+        "L is finite or co-finite"
+      ],
+      "explanationEn": "By Post's Theorem, if both `L` and `L'` are RE, we can run their two semi-deciders in parallel (dovetailing); one must eventually halt, deciding membership in `L`."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Regular Expressions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following regular expression identities hold for all regular expressions `R` and `S`?",
+      "optionsEn": [
+        "(R*)* = R*",
+        "(R + S)* = (R* S*)*",
+        "R(SR)* = (RS)*R",
+        "(R + S)* = R* + S*"
+      ],
+      "explanationEn": "A, B, and C are classical Kleene algebra identities. D is false because `(a + b)*` contains `ab`, which is not in `a* + b*`."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Context-Free Grammar",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 64.0,
+      "natMax": 64.0,
+      "questionTextEn": "Consider the CFG `S -> aS | bS | ε`. How many strings of length 6 over `{a, b}` are generated by this grammar?",
+      "optionsEn": [],
+      "explanationEn": "This grammar generates all strings `{a, b}*`, so there are `2^6 = 64` strings of length 6."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Context-Free Grammars",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the CFG: `S -> aSb | bSa | SS | ε`. What language over `{a, b}` does this grammar generate?",
+      "optionsEn": [
+        "All strings of even length",
+        "All palindromes over {a, b}",
+        "All strings with an equal number of 'a's and 'b's",
+        "All strings of the form a^n b^n"
+      ],
+      "explanationEn": "Every production adds one `a` and one `b` (or concatenates two balanced strings), preserving `#a(w) = #b(w)`. Conversely, any non-empty string with equal `a`s and `b`s either starts and ends with opposite symbols (`aSb`/`bSa`) or splits into two non-empty balanced prefixes (`SS`)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Rice's Theorem Application",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following problems about an arbitrary Turing Machine `M` is DECIDABLE?",
+      "optionsEn": [
+        "Does L(M) contain at least 10 strings?",
+        "Does M accept its own encoding <M>?",
+        "Does M make at least 10 moves when run on empty input ε?",
+        "Is L(M) a regular language?"
+      ],
+      "explanationEn": "Simulating `M` on `ε` for up to 10 steps always terminates in finite time, so C is decidable (it is a bounded execution property, not a semantic language property). A, B, and D are all undecidable by Rice's Theorem / diagonalization."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Decidability of Turing Machines",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following languages are Recursively Enumerable (RE) but NOT Recursive (Decidable)?",
+      "optionsEn": [
+        "L1 = {<M, w> | TM M halts on input w}",
+        "L2 = {<M> | L(M) ≠ ∅}",
+        "L3 = {<M> | L(M) = ∅}",
+        "L4 = {<M> | M accepts at least two distinct strings}"
+      ],
+      "explanationEn": "For L1, simulate `M` on `w` and accept if it halts. For L2 and L4, dovetail `M` across all strings and accept once 1 (or 2) strings are accepted. All three are RE but undecidable. L3 is co-RE and NOT RE (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Minimal DFA States (Mod 3 & Mod 2)",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "What is the minimum number of states in a DFA over `{a}` (unary alphabet) that accepts `{a^n | n is divisible by 2 OR n is divisible by 3}`?",
+      "optionsEn": [],
+      "explanationEn": "The acceptance pattern repeats with period `lcm(2, 3) = 6`: residues `0, 2, 3, 4` accept and `1, 5` reject. Checking all 6 cyclic shifts shows no smaller period exists, so minimum = 6 states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Strings of Length 5 in CFL",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "How many strings of length 5 over `{a, b}` belong to the palindrome language `L = {w ∈ {a, b}* | w = w^R}`?",
+      "optionsEn": [],
+      "explanationEn": "A palindrome of length 5 is uniquely determined by its first 3 characters (positions 1, 2, 3), giving `2^3 = 8` strings."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — NFA to DFA Conversion",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An NFA over `{0, 1}` has states `{q0, q1, q2}` with start state `q0`, accepting state `q2`, and transitions: `δ(q0, 0) = {q0, q1}`, `δ(q0, 1) = {q0}`, `δ(q1, 1) = {q2}`. Which language does this NFA accept?",
+      "optionsEn": [
+        "All strings containing '01'",
+        "All strings ending with '10'",
+        "All strings ending with '01'",
+        "All strings starting with '01'"
+      ],
+      "explanationEn": "Since `q2` has no outgoing transitions, any accepting run must stay in `q0` until the second-to-last symbol (`0`), move to `q1`, and then read the final symbol (`1`) to reach `q2`. Thus it accepts all strings ending with `\"01\"`."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Kleene Closure",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "If `L = {aa, aaa}`, what is the largest integer `n` such that `a^n ∉ L*` (the Frobenius number of 2 and 3)?",
+      "optionsEn": [],
+      "explanationEn": "By the Chicken McNugget theorem for coprime `a=2, b=3`, the largest unrepresentable integer is `ab - a - b = 6 - 2 - 3 = 1` (`a^0 = ε ∈ L*`, `a^1 ∉ L*`, and every `n >= 2` is achievable)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — NFA to DFA Subset Construction",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Consider an NFA over `{a}` with states `{q0, q1, q2}` where `q0` is start, `q2` is accepting, and `δ(q0, a) = {q0, q1}`, `δ(q1, a) = {q2}`, `δ(q2, a) = ∅`. How many reachable states are in the DFA obtained by subset construction?",
+      "optionsEn": [],
+      "explanationEn": "Start: `{q0}`. On `a`: `{q0, q1}`. On `a`: `{q0, q1, q2}`. On `a`: `{q0, q1, q2}` (self-loop). Thus there are 3 reachable DFA states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 2)",
+      "topicTag": "TOC — Countability & Diagonalization",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following sets are COUNTABLY INFINITE?",
+      "optionsEn": [
+        "The set of all valid C programs",
+        "The set of all Turing Machines",
+        "The set of all Regular languages over {0, 1}",
+        "The set of all languages over {0, 1} that are NOT Recursively Enumerable"
+      ],
+      "explanationEn": "C programs, TMs, and Regular expressions/DFAs are all finite strings over a finite alphabet, hence countably infinite (A, B, C). Since all languages are uncountable and RE languages are countable, non-RE languages are uncountable (D is false)."
+    }
+  ]
+}

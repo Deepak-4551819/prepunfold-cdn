@@ -1,0 +1,549 @@
+{
+  "testId": "gate_cs_topic_toc_01",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_toc_01",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Theory of Computation (Set 1)",
+  "titleEn": "GATE CS Topic Test — Theory of Computation (Set 1)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_07_toc",
+  "part_id": "part_07_toc",
+  "partTitle": "Theory of Computation",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "sectionTitleEn": "Theory of Computation",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_toc_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Pushdown Automata",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which statement accurately compares Deterministic Pushdown Automata (DPDA) and Nondeterministic Pushdown Automata (NPDA)?",
+      "optionsEn": [
+        "DPDA and NPDA accept the exact same class of languages",
+        "NPDA accepts a strictly larger class of languages than DPDA",
+        "DPDA accepts a strictly larger class of languages than NPDA",
+        "Neither can accept `{a^n b^n | n >= 0}`"
+      ],
+      "explanationEn": "Unlike finite automata, nondeterminism strictly increases the power of PDAs: for instance, even-length palindromes `{w w^R | w ∈ {a, b}*}` are accepted by an NPDA but not by any DPDA."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Countability",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Over the binary alphabet `Σ = {0, 1}`, what are the cardinalities of (i) the set of all finite strings `Σ*` and (ii) the set of all languages `P(Σ*)`?",
+      "optionsEn": [
+        "(i) Countably infinite, (ii) Uncountable",
+        "(i) Countably infinite, (ii) Countably infinite",
+        "(i) Finite, (ii) Countably infinite",
+        "(i) Uncountable, (ii) Uncountable"
+      ],
+      "explanationEn": "Finite strings can be enumerated by length and lexicographic order (countably infinite, `ℵ_0`). The power set of all languages has cardinality `2^(ℵ_0)` (uncountable by Cantor's theorem)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Minimal DFA States",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "What is the minimum number of states in a DFA over `Σ = {a, b}` that accepts all strings where the 3rd symbol from the right end is `'a'`?",
+      "optionsEn": [],
+      "explanationEn": "The DFA must remember the last 3 symbols read (`2^3 = 8` combinations from `bbb` to `aaa`), and all 8 are pairwise distinguishable by suffixes of length <= 2. Minimum = 8 states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Strings Accepted",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "How many distinct strings of length 5 over `{0, 1}` are accepted by the regular expression `0(0 + 1)*1`?",
+      "optionsEn": [],
+      "explanationEn": "The first bit is fixed as `0` and the 5th bit is fixed as `1`. The middle 3 bits can be anything in `{0, 1}`, giving `2^3 = 8` strings."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — NFA Transitions",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 32.0,
+      "natMax": 32.0,
+      "questionTextEn": "An NFA (without ε-transitions) has 4 states over a 2-symbol alphabet. What is the maximum number of transitions `(q, a) -> q'` it can have?",
+      "optionsEn": [],
+      "explanationEn": "For each of the 4 states and 2 input symbols (`4 × 2 = 8` pairs), transitions can go to any of the 4 states, giving at most `8 × 4 = 32` transitions."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Minimal DFA States",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "What is the minimum number of states in a DFA over `Σ = {a, b}` that accepts the language of all strings ending with the substring `\"aba\"`?",
+      "optionsEn": [],
+      "explanationEn": "The states track the longest matched prefix of `\"aba\"`: `q0` (none), `q1` (`a`), `q2` (`ab`), and `q3` (`aba`, accepting). All 4 states are distinguishable, so 4 states are minimal."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Context-Free Languages",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following languages over `Σ = {a, b, c}` is NOT context-free?",
+      "optionsEn": [
+        "{a^n b^n c^n | n >= 0}",
+        "{a^n b^m c^m | n, m >= 0}",
+        "{w w^R | w ∈ {a, b}*}",
+        "{a^n b^n | n >= 0}"
+      ],
+      "explanationEn": "A pushdown automaton has only one stack and can match at most two interdependent counts at once. `{a^n b^n c^n}` fails the CFL Pumping Lemma and is context-sensitive, not context-free."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Decidability",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following decision problems is DECIDABLE for Context-Free Grammars (CFGs)?",
+      "optionsEn": [
+        "Whether L(G) = ∅ (emptiness) for an arbitrary CFG",
+        "Whether L(G) = Σ* for an arbitrary CFG",
+        "Whether an arbitrary CFG is ambiguous",
+        "Whether L(G1) = L(G2) for two arbitrary CFGs"
+      ],
+      "explanationEn": "Emptiness (and finiteness and membership) are decidable for CFGs by marking generating non-terminals. Equivalence, universality (`Σ*`), and ambiguity are all undecidable for CFGs."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Product DFA Upper Bound",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 20.0,
+      "natMax": 20.0,
+      "questionTextEn": "DFA `M1` has 4 states and DFA `M2` has 5 states over the same alphabet. What is the number of states in the standard Cartesian product DFA constructed for `L(M1) ∩ L(M2)`?",
+      "optionsEn": [],
+      "explanationEn": "The product construction forms state pairs `(q1, q2) ∈ Q1 × Q2`, yielding `4 × 5 = 20` states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Finite Automata",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Every Nondeterministic Finite Automaton (NFA) with `n` states can be converted into an equivalent Deterministic Finite Automaton (DFA) with at most how many states?",
+      "optionsEn": [
+        "n^2",
+        "n",
+        "n!",
+        "2^n"
+      ],
+      "explanationEn": "By the subset construction, each DFA state corresponds to a subset of the `n` NFA states, yielding at most `2^n` DFA states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — CFG Non-Terminals in CNF",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Given the grammar `S -> aSb | ab`, if we convert it to Chomsky Normal Form using standard rules (`A -> a, B -> b, S -> AC | AB, C -> SB`), how many total non-terminal symbols are used?",
+      "optionsEn": [],
+      "explanationEn": "The non-terminals are `S, A, B, C` — a total of 4 non-terminals."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Pumping Lemma for Regular Languages",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following languages over `Σ = {a}` (a unary alphabet) is REGULAR?",
+      "optionsEn": [
+        "{a^(3n + 2) | n >= 0}",
+        "{a^(2^n) | n >= 0}",
+        "{a^(n^2) | n >= 1}",
+        "{a^p | p is prime}"
+      ],
+      "explanationEn": "`{a^(3n+2) | n >= 0}` is denoted by the regular expression `aa(aaa)*`. Squares, primes, and powers of 2 have unbounded gaps between consecutive lengths and fail the Pumping Lemma."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Minimal DFA for Modular / Pattern",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the language `L = {w ∈ {a, b}* | w starts and ends with the same symbol}` (assuming `|w| >= 1`). What is the minimum number of states in a DFA accepting `L`?",
+      "optionsEn": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "explanationEn": "States: `q0` (start, ε), `q_a1` (started with `a`, last=`a`, accept), `q_a2` (started with `a`, last=`b`), `q_b1` (started with `b`, last=`b`, accept), `q_b2` (started with `b`, last=`a`). All 5 states are pairwise distinguishable."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Minimal DFA for Binary Divisibility",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "What is the minimum number of states in a DFA over `{0, 1}` that accepts all non-empty binary strings whose value is divisible by 6 (reading MSB first)?",
+      "optionsEn": [],
+      "explanationEn": "Because the empty string ε is rejected, the start state must be non-accepting (transitioning on `0` to `r0` and on `1` to `r1`), in addition to the 6 remainder states `r0..r5` (with `r0` accepting). Total = 7 states."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Balanced Parentheses",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "How many valid strings of balanced parentheses of total length 8 (4 pairs of `(` and `)`) exist?",
+      "optionsEn": [],
+      "explanationEn": "The number of valid sequences of `n` pairs of balanced parentheses is the `n`th Catalan number `C_n`. For `n = 4`, `C_4 = C(8, 4)/5 = 14`."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Language Classification",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the two languages over `Σ = {a, b, c}`:\n`L1 = {a^i b^j c^k | i = j or j = k}`\n`L2 = {a^i b^j c^k | i = j and j = k}`\nWhich of the following is TRUE?",
+      "optionsEn": [
+        "L1 is context-free and L2 is not context-free",
+        "Both L1 and L2 are context-free",
+        "Neither L1 nor L2 is context-free",
+        "L1 is regular and L2 is context-free"
+      ],
+      "explanationEn": "`L1 = {a^i b^i c^k} ∪ {a^i b^j c^j}` is the union of two CFLs, hence context-free (and inherently ambiguous). `L2 = {a^n b^n c^n}` is not context-free."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Recursive & RE Closure",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Recursive and RE languages are ALWAYS TRUE?",
+      "optionsEn": [
+        "Every context-sensitive language is Recursive (decidable)",
+        "The union of two Recursive languages is Recursive",
+        "If L is infinite and RE, then L contains an infinite Recursive subset",
+        "The complement of every RE language is RE"
+      ],
+      "explanationEn": "CSLs are decided by LBAs (A); Recursive languages are closed under union (B); any infinite RE language has an enumerator from which an increasing-length infinite decidable subset can be extracted (C). RE is not closed under complement (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Turing Machine Tape Moves",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "A single-tape Turing Machine scans an input string of length 8 from left to right (starting on cell 1, moving right until the blank on cell 9), then moves left back to cell 1 and halts. How many total transitions (steps) does it execute?",
+      "optionsEn": [],
+      "explanationEn": "Moving from cell 1 to cell 9 takes 8 right moves, and returning from cell 9 to cell 1 takes 8 left moves: `8 + 8 = 16` transitions."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — Quotient & Homomorphism",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If `L` is a regular language and `h` is a homomorphism, which of the following statements is TRUE?",
+      "optionsEn": [
+        "Both h(L) and h^-1(L) are guaranteed to be regular",
+        "h(L) is regular, but h^-1(L) need not be regular",
+        "h^-1(L) is regular, but h(L) need not be regular",
+        "Neither h(L) nor h^-1(L) is guaranteed to be regular"
+      ],
+      "explanationEn": "Regular languages are closed under both homomorphism `h(L)` (substitute regex symbols) and inverse homomorphism `h^-1(L)` (simulate DFA on `h(a)`)."
+    },
+    {
+      "questionId": "gate_cs_topic_toc_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_toc",
+      "sectionTitle": "Theory of Computation",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Theory of Computation (Set 1)",
+      "topicTag": "TOC — String Counting in Regular Language",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "How many strings of length 4 over `{a, b}` do NOT contain the substring `\"aa\"`?",
+      "optionsEn": [],
+      "explanationEn": "Count follows Fibonacci `F(n+2)`: `n=1: 2`, `n=2: 3`, `n=3: 5`, `n=4: 8` (`abab, abba, abbb, baba, babb, bbab, bbba, bbbb`)."
+    }
+  ]
+}

@@ -1,0 +1,1906 @@
+{
+  "testId": "gate_cs_pyq_2026_set1",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_pyq_2026_set1",
+  "category_id": "gate_cs",
+  "title": "GATE 2026 Computer Science (CS) Set 1 Official Solved Paper",
+  "titleEn": "GATE 2026 Computer Science (CS) Set 1 Official Solved Paper",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 65,
+  "total_questions": 65,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2026,
+  "shiftBadge": "GATE CS • 2026 Set 1 Official Paper",
+  "questions": [
+    {
+      "questionId": "gate_cs_2026_s1_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Verbal Aptitude — Vocabulary",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The antonym of the word protagonist is ________.",
+      "optionsEn": [
+        "agnostic",
+        "antagonist",
+        "arsonist",
+        "anarchist"
+      ],
+      "explanationEn": "A 'protagonist' is the leading or main character in a story or cause, whereas an 'antagonist' is the principal opponent or adversary. Thus 'antagonist' is the exact antonym."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Spatial Aptitude — Visual Reasoning",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The figure shows two 4-tile patterns.\nEither one or both of the patterns can be used any number of times and in any\norientation to construct a new pattern. Which one of the options below cannot be\nconstructed by using only these two 4-tile patterns assuming there are no overlaps\namong them?",
+      "optionsEn": [
+        "Figure (A) — (Refer to official question paper)",
+        "Figure (B) — (Refer to official question paper)",
+        "Figure (C) — (Refer to official question paper)",
+        "Figure (D) — (Refer to official question paper)"
+      ],
+      "explanationEn": "Counting or matching the parity, color/shape adjacencies, and orientations of the two given 4-tile building blocks shows that Option (C) cannot be tiled without overlapping or altering the two 4-tile patterns (refer to the official figure)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Quantitative Aptitude — Combinatorics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a knock-out women’s badminton singles tournament where there are no\nties. The loser in each game is eliminated from the tournament. Every player\nplays until she is defeated or remains the last undefeated player. The last\nundefeated player is declared the winner of the tournament. If there are 64 players\nin the beginning of the tournament, how many games should be played in total to\ndeclare the winner of the tournament?",
+      "optionsEn": [
+        "127",
+        "64",
+        "63",
+        "32"
+      ],
+      "explanationEn": "In a single-elimination knock-out tournament with 64 players and no ties, each game eliminates exactly one player. To leave 1 undefeated winner, 64 - 1 = 63 players must be eliminated, requiring exactly 63 games."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Quantitative Aptitude — Arithmetic",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A student needs to enroll for a minimum of 60 credits. A student cannot enroll for\nmore than 70 credits. The credits are divided amongst project and three distinct\nsets of courses namely, core courses, specialization courses, and elective courses.\nIt is compulsory for a student to enroll for exactly 15 credits of core courses and\nexactly 20 credits of project. In addition, a student has to enroll for a minimum of\n10 credits of specialization courses. The maximum credits of elective courses that\na student can enroll for is ______",
+      "optionsEn": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "explanationEn": "The total credit cap is 70. Mandatory credits are 15 (core) + 20 (project) + at least 10 (specialization) = 45 credits minimum, leaving at most 70 - 45 = 25 credits for elective courses."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Analytical Aptitude — Logical Deduction",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "‘When the teacher is in the room, all students stand silently.’\nIf the above statement is true, which one of the following statements is not\nnecessarily true?",
+      "optionsEn": [
+        "If any student is not standing silently, then the teacher is not in the room.",
+        "When the teacher is in the room, all students are silent.",
+        "If all students are standing, then the teacher is in the room.",
+        "When the teacher is in the room, all students are standing."
+      ],
+      "explanationEn": "The given statement is T -> (S and Q) ('teacher in room -> all students stand silently'). Option (A) is its contrapositive, while (B) and (D) weaken the consequent. Option (C) asserts the converse (standing -> teacher in room), which does not necessarily follow."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Verbal Aptitude — Reading Comprehension",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Combinatorics deals with problems involving counting. For example, “How many\ndistinct arrangements of N distinct objects in M spaces on a circle are possible?”\nis a typical problem in combinatorics. This kind of counting is sometimes used in\nthe modeling of several physical phenomena. Often, in such models, the different\ncombinatorial possibilities are assigned probability values. Assigning probabilities\nenables the computation of the average values of physical quantities.\nConsider the following statements:\nP: Combinatorics is always invoked in the modeling of physical phenomena.\nQ: Modeling some physical phenomena involves assigning probabilities to\ncombinatorial possibilities in order to compute average values of physical\nquantities.\nBased on the passage above, what can be inferred about statements P and Q?",
+      "optionsEn": [
+        "P is False and Q is False",
+        "P is False and Q is True",
+        "P is True and Q is False",
+        "P is True and Q is True"
+      ],
+      "explanationEn": "The passage says combinatorics is 'sometimes' used in modeling physical phenomena, making P ('always invoked') False. The passage explicitly states that assigning probabilities to combinatorial possibilities enables computing average values of physical quantities, making Q True."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Spatial Aptitude — 3D Views",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In Panel I of the figure below, the front view and top view of a structure are\nshown. Which one of the 3D structures shown in Panel II possesses the views\nshown in Panel I?",
+      "optionsEn": [
+        "(i)",
+        "(ii)",
+        "(iii)",
+        "(iv)"
+      ],
+      "explanationEn": "Comparing the heights, widths, and recessed/protruding block positions in the front view and top view of Panel I against the four 3D candidates in Panel II matches structure (iv) (Option D; refer to the official figure)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Interpretation — Line Graphs",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For positive real numbers S and K, the function HK(S) is defined as:\nHK(S) = max(S−K, 0). The max function is defined as:\nmax(a, b) = {a,\nwhen a> b\nb,\nwhen a≤b\nThe graph below shows the plot of a function N(S) versus S.\nN(S) can be expressed as _____.",
+      "optionsEn": [
+        "H10(S) −H20(S)",
+        "H10(S) −2H20(S)",
+        "−H10(S) + H20(S)",
+        "H15(S) −H20(S)"
+      ],
+      "explanationEn": "For S <= 10, H10(S) - H20(S) = 0 - 0 = 0; for 10 < S <= 20, it equals S - 10 (linear slope +1); and for S > 20, it equals (S - 10) - (S - 20) = 10 (constant). This matches the capped ramp plot of N(S) in the figure."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Analytical Aptitude — Logical Puzzle",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the 2020 summer Olympics’ Javelin throw finals, Neeraj Chopra exhibited a\nspectacular performance to win the gold medal. The silver medal was won by\nJakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were\nsix rounds of throws with each athlete having one throw per round. The best of\nall the throws of each athlete is considered for the medal. Following were the\nobservations about the throws:\ni.\nThe first and second rounds were dominated by Neeraj Chopra with a gold\nmedal performance in his second throw, while the other two athletes did\nnot have any medal winning throws in these rounds.\nii.\nThe throws in the last round by both Jakub Vadlejch and Vitezlav Vesely\nwere fouls and were not considered for scoring.\niii.\nAfter four rounds, Vitezlav Vesely was in the second position and could\nnot improve upon his best throw in the succeeding rounds.\niv.\nIn the fourth round, the throw by Jakub Vadlejch was the best in that\nround.\nIn which round did Vitezlav Vesely have his best throw?",
+      "optionsEn": [
+        "Third",
+        "Fourth",
+        "Fifth",
+        "Sixth"
+      ],
+      "explanationEn": "Vadlejch won silver (best overall after Chopra) and his best throw was not in rounds 1–2 (i) or round 6 (ii), while his round 4 throw was the best of round 4 (iv). Meanwhile, Vesely was 2nd after round 4 and never improved in rounds 5–6 (iii), and did not have a medal-winning throw in rounds 1–2 (i), so Vesely's best throw must have occurred in the Third round."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Quantitative Aptitude — Probability",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5,\nand 6 is rolled twice in succession and the number on the top face is recorded\neach time. The probability that the number appearing in the second roll is an\ninteger multiple of the number appearing in the first roll is __________",
+      "optionsEn": [
+        "1 6",
+        "5 18",
+        "7 18",
+        "5 6"
+      ],
+      "explanationEn": "Counting pairs (d1, d2) where d2 is an integer multiple of d1: for d1=1 (6 pairs: 1..6), d1=2 (3 pairs: 2,4,6), d1=3 (2 pairs: 3,6), d1=4 (1 pair: 4), d1=5 (1 pair: 5), d1=6 (1 pair: 6). Total favorable outcomes = 6 + 3 + 2 + 1 + 1 + 1 = 14 out of 36, giving probability 14/36 = 7/18."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An urn contains one red ball and one blue ball. At each step, a ball is picked\nuniformly at random from the urn, and this ball together with another ball of the\nsame color is put back in the urn. The probability that there are equal number of red\nand blue balls after two steps is",
+      "optionsEn": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "explanationEn": "Initially the urn has 1 Red and 1 Blue ball. In step 1, whichever color is picked (probability 1/2 each), the urn ends up with 2 balls of that color and 1 of the other (3 balls total). To equalize the counts after step 2, step 2 must pick the minority color, which has probability 1/3 regardless of step 1, giving total probability 1/3."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Discrete Mathematics — Combinatorics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider 4 × 4 matrices with their elements from {0, 1}. The number of such\nmatrices with even number of 1s in every row and every column is",
+      "optionsEn": [
+        "512",
+        "1025",
+        "1023",
+        "255"
+      ],
+      "explanationEn": "The top-left 3 x 3 entries in {0, 1} can be chosen freely in 2^9 = 512 ways. Each row's 4th entry and each column's 4th entry are then uniquely fixed to make the parity even (and the bottom-right entry automatically satisfies both row 4 and column 4 parity since total 1s in the 3x3 block fixes both), yielding 512 matrices."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Engineering Mathematics — Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For n > 1, the maximum multiplicity of any eigenvalue of an n× n matrix with\nelements from R is",
+      "optionsEn": [
+        "n",
+        "n−1",
+        "1",
+        "n+ 1"
+      ],
+      "explanationEn": "An n x n real matrix has a characteristic polynomial of degree n, so the algebraic (and geometric) multiplicity of any eigenvalue can be at most n. For example, the n x n identity matrix I_n has eigenvalue 1 with multiplicity n."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Organization — Addressing Modes",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Match each addressing mode in List I with a data element or an element of a data\nstructure (in a high-level language) in List II:\nList I\nList II\nP. Immediate\n1. Element of an array\nQ. Indirect\n2. Pointer\nR. Base with index\n3. Element of a record\nS. Base with offset/displacement 4. Constant",
+      "optionsEn": [
+        "P–4, Q–3, R–1, S–2",
+        "P–4, Q–2, R–1, S–3",
+        "P–1, Q–4, R–3, S–2",
+        "P–2, Q–3, R–1, S–4"
+      ],
+      "explanationEn": "Immediate addressing encodes a Constant directly in the instruction (P-4), Indirect addressing dereferences a Pointer (Q-2), Base with index accesses an Array element A[i] (R-1), and Base with offset/displacement accesses a field of a Record/struct (S-3)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Organization — ISA Basics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a processor P whose instruction set architecture is the load-store\narchitecture. The instruction format is such that the first operand of any instruction\nis the destination operand.\nWhich one of the following sequences of instructions corresponds to the high-level\nlanguage statement Z = X + Y ?\nNote: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+      "optionsEn": [
+        "ADD Z, X, Y",
+        "LOAD R0, X ADD Z, R0, Y",
+        "ADD R0, X, Y STORE Z, R0",
+        "LOAD R0, X LOAD R1, Y ADD R2, R0, R1 STORE Z, R2"
+      ],
+      "explanationEn": "In a load-store architecture, ALU instructions operate only on registers while memory is accessed exclusively via LOAD and STORE instructions. Thus X and Y must first be loaded into R0 and R1, added into R2, and stored back to Z (Option D)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Organization — Pipelining & Hazards",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following dependencies among the register operands of different\ninstructions can cause a data hazard in a pipelined processor?",
+      "optionsEn": [
+        "Read-after-read",
+        "Read-after-write",
+        "Write-after-read",
+        "Write-after-write"
+      ],
+      "explanationEn": "A Read-After-Write (RAW, true dependency) hazard occurs when a later instruction needs a value written by an earlier instruction before it is ready in the pipeline. WAR and WAW are name (anti/output) dependencies in out-of-order execution, and Read-After-Read is never a hazard."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Algorithms — Recurrence Relations",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following recurrence relations:\nFor all n> 1,\nT1(n) = 4T1 (n\n2) + T2(n)\nT2(n) = 5T2 (n\n4) + Θ(log2 n)\nAssume that for all n≤1, T1(n) = 1 and T2(n) = 1.\nWhich one of the following options is correct?",
+      "optionsEn": [
+        "T1(n) = Θ(n2)",
+        "T1(n) = Θ(n2 log2 n)",
+        "T1(n) = Θ(nlog4 5)",
+        "T1(n) = Θ(nlog4 5 log2 n)"
+      ],
+      "explanationEn": "For T2(n) = 5*T2(n/4) + Theta(log^2 n), n^(log_4 5) dominates log^2 n, so by Master Theorem Case 1, T2(n) = Theta(n^(log_4 5)) (~ n^1.161). Substituting into T1(n) = 4*T1(n/2) + T2(n), n^(log_2 4) = n^2 dominates n^(log_4 5), so again by Master Theorem Case 1, T1(n) = Theta(n^2)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Networks — Transport Layer (TCP)",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "With respect to a TCP connection between a client and a server, which one of the\nfollowing statements is true?",
+      "optionsEn": [
+        "The client and server use a two-way handshake mechanism before the start of data transmission",
+        "The server cannot initiate closing of the connection before the client initiates closing of the connection",
+        "The TCP connection is half-duplex",
+        "The client and server can initiate closing of the connection at the same time"
+      ],
+      "explanationEn": "TCP is full-duplex (C false), uses a three-way handshake (A false), and allows either endpoint to initiate teardown (B false). Both client and server can send FIN segments simultaneously (simultaneous close), so Option (D) is true."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Networks — Application Layer (HTTP)",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements is/are true with respect to the interaction of a\nweb browser with a web server using HTTP 1.1?",
+      "optionsEn": [
+        "HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, if the objects are stored in the same server",
+        "HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, even if they are stored in different servers",
+        "HTTP 1.1 facilitates sending a request for downloading one object without waiting for a previously requested object to be downloaded completely",
+        "HTTP 1.1 facilitates downloading multiple webpages on the same server to be downloaded over a single TCP connection"
+      ],
+      "explanationEn": "HTTP/1.1 uses persistent TCP connections by default, allowing multiple objects of the same webpage (A) or multiple webpages on the same server (D) to reuse one TCP connection, and supports pipelining requests without waiting for earlier responses (C). A single TCP connection cannot span different origin servers (B false)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Engineering Mathematics — Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let n > 1. Consider an n× n matrix M with its elements from R. Let the vector\n(0, 1, 0, 0, ... , 0) ∈Rn be in the null space of M.\nWhich of the following options is/are always correct?",
+      "optionsEn": [
+        "Determinant of M is 1",
+        "Determinant of M is 0",
+        "Rank of M is 1",
+        "There are at least two non-zero vectors in the null space of M"
+      ],
+      "explanationEn": "Because M has a non-zero vector v = (0, 1, 0, ..., 0) in its null space, M is singular, so det(M) = 0 (B). Since the null space is a vector subspace, every scalar multiple c*v (for all nonzero real c) is also in the null space, guaranteeing infinitely many (at least two) non-zero vectors (D)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Digital Logic — Boolean Algebra",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following Boolean expression of a function F :\nF(P, Q) = (P̅ + Q) ⊕(P̅Q)\nWhich of the following expressions is/are equivalent to F ?",
+      "optionsEn": [
+        "P⊕Q̅̅̅̅̅̅̅̅",
+        "P⊕Q",
+        "P̅ ⊕Q",
+        "P̅ ⊕Q̅"
+      ],
+      "explanationEn": "Evaluating F(P, Q) = (P' + Q) XOR (P'Q): for (P,Q) = (0,0), 1 XOR 0 = 1; for (0,1), 1 XOR 1 = 0; for (1,0), 0 XOR 0 = 0; for (1,1), 1 XOR 0 = 1. This is the XNOR truth table, which equals (P XOR Q)' (A) and equivalently P' XOR Q (C)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Digital Logic — Number Representation",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the 8-bit signed integers X, Y and Z represented using the sign-magnitude\nform. The binary representations of X and Y are as follows:\nX: 10110100 Y: 01001100\nWhich of the following operations to compute Z result(s) in an arithmetic\noverflow?",
+      "optionsEn": [
+        "Z= X+ Y",
+        "Z= X−Y",
+        "Z= −X+ Y",
+        "Z= −X−Y"
+      ],
+      "explanationEn": "In 8-bit sign-magnitude form, valid values span [-127, +127]. Here X = -0110100_2 = -52 and Y = +1001100_2 = +76. Computing Z = X - Y = -128 (B) and Z = -X + Y = +128 (C) both fall outside [-127, +127], causing arithmetic overflow, while X + Y = +24 and -X - Y = -24 fit in range."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Structures — Heaps",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let n be an odd number greater than 100. Consider a binary minheap with\nn elements stored in an array P whose index starts from 1.\nWhich of the following indices of P do/does NOT correspond to any leaf node of\nthe minheap?",
+      "optionsEn": [
+        "n+ 1 2",
+        "n−1 2",
+        "n−3 2",
+        "n"
+      ],
+      "explanationEn": "In a 1-indexed binary heap of n elements, the internal (non-leaf) nodes are indices 1 through floor(n/2), and the leaves are floor(n/2) + 1 through n. Since n is odd, floor(n/2) = (n - 1)/2, so (n + 1)/2 and n are leaves while (n - 1)/2 (B) and (n - 3)/2 (C) are internal nodes (not leaves)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Structures — Hashing",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a hash table P[0, 1, ... , 10] that is initially empty. The hash table is\nmaintained using open addressing with linear probing. The hash function used is\nh(x) = (x+ 7) mod 11.\nConsider the following sequence of insertions performed on P:\n1, 13, 22, 15, 11, 24\nWhich of the following positions in the hash table is/are empty after these insertions\nare performed?",
+      "optionsEn": [
+        "0",
+        "10",
+        "2",
+        "1"
+      ],
+      "explanationEn": "Inserting with h(x) = (x + 7) mod 11 and linear probing: 1 -> 8, 13 -> 9, 22 -> 7, 15 -> 0, 11 -> 7 (occupied at 7,8,9 -> placed at 10), and 24 -> 9 (occupied at 9,10,0 -> placed at 1). Among {0, 10, 2, 1}, only position 2 remains empty."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Theory of Computation — Context-Free Grammars",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following grammar where S is the start symbol, and a and b are\nterminal symbols.\nS →aSbS ∣ bS ∣ ε\nWhich of the following statements is/are true?",
+      "optionsEn": [
+        "The grammar is ambiguous",
+        "The string abb has two distinct derivations in this grammar",
+        "The string abab has only one rightmost derivation",
+        "The language generated by the grammar is undecidable"
+      ],
+      "explanationEn": "Because S -> aSbS | bS | eps allows deriving 'b' via S -> bS -> b and also allows multiple parses when 'b' can be matched inside S or outside (e.g., 'abb' can be derived as a(b)bS -> abb or aS(bS) -> a(b)b -> ab? Specifically 'abb' has S -> aSbS -> abS -> abbS -> abb and S -> aSbS -> a(bS)bS -> abb, so A and B are true). For 'abab', the first 'a' must match the first 'b' via S -> aSbS and the second 'a' must match the second 'b', forcing a unique rightmost derivation (C)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Theory of Computation — Finite Automata",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let M be a nondeterministic finite automaton (NFA) with 6 states over a finite\nalphabet.\nWhich of the following options CANNOT be the number of states in the minimal\ndeterministic finite automaton (DFA) that is equivalent to M ?",
+      "optionsEn": [
+        "32",
+        "65",
+        "1",
+        "128"
+      ],
+      "explanationEn": "By subset construction, an NFA with 6 states has at most 2^6 = 64 subsets, so any equivalent minimal DFA can have at most 64 states. Therefore 65 (B) and 128 (D) states are impossible, while 32 and 1 are possible."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Compiler Design — Compiler Phases",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following C statements:\nchar *str1 = \"Hello; /* Statement S1 */\nchar *str2 = \"Hello;\"; /* Statement S2 */\nint *str3 = \"Hello\"; /* Statement S3 */\nWhich of the following options is/are correct?",
+      "optionsEn": [
+        "S1 and S2 have syntactic errors",
+        "S2 has a lexical error and S3 has a syntactic error",
+        "S1 has a lexical error and S3 has a semantic error",
+        "S1 has a syntactic error and S3 has a semantic error"
+      ],
+      "explanationEn": "In S1, the string literal \"Hello; lacks a closing double quote, causing an unterminated string token (lexical error). In S3, assigning a char* string literal \"Hello\" to an int* variable causes a type mismatch (semantic error). S2 is valid C."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Compiler Design — LL(1) Parsing",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements is/are true?",
+      "optionsEn": [
+        "LL(1) parser uses backtracking",
+        "For a grammar to be LL(1), it must be left-recursive",
+        "For a grammar to be LL(1), it must be left-factored",
+        "The LL(1) parsers are more powerful than the SLR parsers"
+      ],
+      "explanationEn": "An LL(1) grammar must be free of left recursion and must be left-factored so that FIRST sets of alternative productions for the same non-terminal are disjoint (C). LL(1) is predictive without backtracking (A false), cannot be left-recursive (B false), and is strictly less powerful than SLR(1)/LR(1) on grammars (D false)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Operating Systems — Deadlocks",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "With respect to deadlocks in an operating system, which of the following\nstatements is/are FALSE?",
+      "optionsEn": [
+        "Banker’s algorithm is used to prevent deadlocks",
+        "Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed",
+        "An assignment edge in a resource allocation graph is marked from a process to a resource",
+        "A safe state guarantees that all processes can finish without formation of a deadlock"
+      ],
+      "explanationEn": "Banker's algorithm is used for deadlock AVOIDANCE rather than deadlock prevention (so A is FALSE). In a resource allocation graph, an assignment edge points from a resource to the process holding it (process-to-resource is a request edge, so C is FALSE). Statements B and D are true."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Databases — Functional Dependencies",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let P, Q, R and S be the attributes of a relation in a relational schema. Let X ⟶Y\nindicate functional dependency in the context of a relational database, where\nX, Y ⊆{P, Q, R, S}.\nWhich of the following options is/are always true?",
+      "optionsEn": [
+        "If ( {P, Q} ⟶{R} and {P} ⟶{R} ), then {Q} ⟶{R}",
+        "If {P, Q} ⟶{R}, then ( {P} ⟶{R} or {Q} ⟶{R} )",
+        "If ( {P} ⟶{R} and {Q} ⟶{S} ), then {P, Q} ⟶{R, S}",
+        "If {P} ⟶{R}, then {P, Q} ⟶{R}"
+      ],
+      "explanationEn": "If P -> R and Q -> S, then by augmentation and union (Armstrong's axioms), PQ -> RS holds (C). If P -> R, then by augmentation PQ -> R holds (D). Options (A) and (B) are invalid FD inferences (e.g., if P -> R holds, Q need not determine R)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Databases — Normalization",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the context of relational database normalization, which of the following\nstatements is/are true?",
+      "optionsEn": [
+        "It is always possible to obtain a dependency-preserving 3NF decomposition of a relation",
+        "It is always possible to obtain a dependency-preserving 1NF decomposition of a relation",
+        "It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation",
+        "It is not always possible to obtain a dependency-preserving 2NF decomposition of a relation"
+      ],
+      "explanationEn": "A dependency-preserving 3NF decomposition always exists via Bernstein's synthesis algorithm (A), and every relation with atomic domains is already in 1NF (B). However, BCNF decompositions cannot always preserve all functional dependencies (C; e.g., R(A,B,C) with AB -> C, C -> B), whereas 2NF decompositions can always be made dependency-preserving (D false)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Engineering Mathematics — Calculus",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Consider the function f: R→R defined as follows:\nf(x) = {c1ex−c2 loge (1\nx) , if x> 0\n3 otherwise\nwhere c1 , c2 ∈R.\nIf f is continuous at x = 0, then c1 + c2 = _________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "As x -> 0+, log_e(1/x) -> +infinity while c1*e^x -> c1. For the right-hand limit lim_{x->0+} f(x) to be finite and equal f(0) = 3, the coefficient c2 must be 0; then c1*e^0 = c1 = 3, giving c1 + c2 = 3."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Structures — Binary Trees",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 11.0,
+      "natMax": 11.0,
+      "questionTextEn": "The height of a binary tree is the number of edges in the longest path from the root\nto a leaf in the tree. The maximum possible height of a full binary tree with\n23 nodes is _________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "In a full binary tree (every internal node has 2 children) with n = 23 nodes, total internal nodes = (23 - 1)/2 = 11. Maximum height is achieved by a skewed full tree where each level adds 1 internal node and 1 leaf, giving height equal to the number of internal nodes = 11 edges."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Programming in C — Scope & Variables",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "Consider the following program in C:\n#include <stdio.h>\nvoid func(int i, int j) {\nif(i < j) {\nint i = 0;\nwhile (i < 10) {\nj += 2;\ni++;\n}\n}\nprintf(\"%d\", i);\n}\nint main() {\nint i = 9, j = 10;\nfunc(i, j);\nreturn 0;\n}\nThe output of the program is _________. (answer in integer)\nNote: Assume that the program compiles and runs successfully.",
+      "optionsEn": [],
+      "explanationEn": "Inside the if (i < j) block, 'int i = 0;' declares a new local variable that shadows the parameter i. The parameter i remains 9 when printf(\"%d\", i) runs outside the if block, so the output is 9."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Operating Systems — Deadlocks",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Consider a system consisting of k instances of a resource R, being shared by\n5 processes. Assume that each process requires a maximum of two instances of\nresource R and a process can request or release only one instance at a time. Further,\na process can request the second instance of the resource only after acquiring the\nfirst instance.\nThe minimum value of k for the system to be deadlock-free is ________. (answer\nin integer)",
+      "optionsEn": [],
+      "explanationEn": "Each of the 5 processes needs at most 2 instances of R. Deadlock occurs if every process holds 1 instance and waits for 1 more (5 instances). With k = 5 + 1 = 6 instances, by the pigeonhole principle at least one process can obtain its 2nd instance, finish, and release both, guaranteeing deadlock freedom."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Digital Logic — Floating Point Representation",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the real valued variables X, Y and Z represented using the IEEE 754 single-\nprecision floating-point format. The binary representations of X and Y in hexadecimal\nnotation are as follows:\nX: 35C00000 Y: 34A00000\nLet Z = X+ Y.\nWhich one of the following is the binary representation of Z, in hexadecimal\nnotation?",
+      "optionsEn": [
+        "35C80000",
+        "35CC0000",
+        "35E80000",
+        "35EC0000"
+      ],
+      "explanationEn": "Decoding IEEE 754 single precision: X = 0x35C00000 has biased exp 107 (2^(-20)) and significand 1.5, so X = 1.5 * 2^(-20). Y = 0x34A00000 has biased exp 105 (2^(-22)) and significand 1.25, so Y = 1.25 * 2^(-22) = 0.3125 * 2^(-20). Adding gives Z = 1.8125 * 2^(-20) = 1.1101_2 * 2^(-20), which encodes as 0x35E80000."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Digital Logic — Sequential Circuits",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a 2-bit saturating up/down counter that performs the saturating up count\nwhen the input P is 0, and the saturating down count when P is 1. The Next State\ntable of the counter is as shown. The counter is built as a synchronous sequential\ncircuit using D flip-flops.\nInput\nCurrent\nNext\nState\nP\nQ1\nQ0\nQ1\nState\n+\n+\nQ0\n0\n0\n0\n0\n1\n0\n0\n1\n1\n0\n0\n1\n0\n1\n1\n0\n1\n1\n1\n1\n1\n0\n0\n0\n0\n1\n0\n1\n0\n0\n1\n1\n0\n0\n1\n1\n1\n1\n1\n0\nWhich one of the following options corresponds to the expressions for the inputs of\nthe D flip-flops, D1 and D0?",
+      "optionsEn": [
+        "D1 = P Q1 + P̅Q0 + Q1Q0 D0 = P Q0 + P̅ Q1 + Q1 Q0̅̅̅",
+        "D1 = P̅ Q1 + P̅Q0 + Q1Q0 D0 = P̅ Q0̅̅̅ + P ̅Q1 + Q1 Q0̅̅̅",
+        "D1 = P̅ Q1̅̅̅ + P ̅Q0 + Q1 Q0 D0 = P̅ Q0 + P̅ Q1 + Q1 Q0̅̅̅",
+        "D1 = P Q1̅̅̅ + P̅ Q0 + Q1 Q0 D0 = P Q0̅̅̅ + P̅ Q1 + Q1 Q0̅̅̅"
+      ],
+      "explanationEn": "Since D flip-flops satisfy D1 = Q1+ and D0 = Q0+, building the 3-variable Karnaugh maps for Q1+ and Q0+ from the 8-row next-state table directly yields the minimal SOP expressions in Option (B): D1 = P'Q1 + P'Q0 + Q1Q0 and D0 = P'Q0' + P'Q1 + Q1Q0'."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Organization — Cache Memory",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The size of the physical address space of a processor is 232 bytes. The capacity of a\ncache memory unit is 223 bytes. The cache block size is 128 bytes. The cache\nmemory unit can be built as a direct mapped cache or as a K-way set-associative\ncache, where K= 2L and L∈{1, 2, 3}. Let the length of the TAG field be M bits\nfor the direct mapped cache, and N bits for the set-associative cache.\nWhich one of the following options is true?",
+      "optionsEn": [
+        "N= M+ L",
+        "N= M−L",
+        "N= M+ K",
+        "N= M−K"
+      ],
+      "explanationEn": "The cache size (2^23 bytes) and block size (128 = 2^7 bytes) are fixed, giving 2^16 total blocks. In direct-mapped cache, all 16 bits form the index, so M = 32 - 16 - 7 = 9 tag bits. In K-way set-associative cache (K = 2^L), the number of sets drops by a factor of 2^L, reducing index bits by L and increasing tag bits by L, so N = M + L."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Structures — Linked Lists",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following code snippet in C language that computes the number of\nnodes in a non-empty singly linked list pointed to by the pointer variable head.\nstruct node{\nint elt;\nstruct node *next;\n};\nint getListSize (struct node *head)\n{\nif( E1 ) return 1;\nreturn E2;\n}\nWhich one of the following options gives the correct replacements for the\nexpressions E1 and E2?",
+      "optionsEn": [
+        "E1: head == NULL E2: 1 + getListSize(head)",
+        "E1: head->next == NULL E2: 1 + getListSize(head->next)",
+        "E1: head == NULL E2: 1 + getListSize(head->next)",
+        "E1: head->next == NULL E2: 1 + getListSize(head)"
+      ],
+      "explanationEn": "Since the list is guaranteed to be non-empty, the base case is a single-node list where head->next == NULL (returning 1), and the recursive step returns 1 + getListSize(head->next). Using head == NULL as base case would return 1 instead of 0 for the empty tail."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Structures — Binary Search Trees",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let P be the set of all integers from 1 to 15. Consider any order of insertion of the\nelements of P into a binary search tree that creates a complete binary tree.\nWhich one of the following elements can NEVER be the third element that is\ninserted?",
+      "optionsEn": [
+        "4",
+        "2",
+        "10",
+        "5"
+      ],
+      "explanationEn": "A complete binary search tree on {1..15} is a perfect binary tree of height 3, so its root must be the median 8, and its root's left and right children must be 4 and 12 (the medians of 1..7 and 9..15). The third inserted element can be 12 (if 4 was 2nd), or a child of 4 (2 or 6) or a child of 12 (10 or 14) if inserted after 4 or 12, but 5 is at depth 3 (child of 6) and cannot be inserted as the 3rd element."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Algorithms — Shortest Paths",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let G(V, E) be an undirected, edge-weighted graph with integer weights. The weight\nof a path is the sum of the weights of the edges in that path. The length of a path is\nthe number of edges in that path.\nLet s∈V be a vertex in G. For every u∈V and for every k ≥0, let dk(u) denote\nthe weight of a shortest path (in terms of weight) from s to u of length at most k. If\nthere is no path from s to u of length at most k, then dk(u) = ∞.\nConsider the statements:\nS1:\nFor every k ≥0 and u ∈V, dk+1(u) ≤dk(u).\nS2:\nFor every (u, v) ∈E, if (u, v) is part of a shortest path (in terms of\nweight) from s to v, then for every k≥ 0, dk(u) ≤dk(v).\nWhich one of the following options is correct?",
+      "optionsEn": [
+        "Only S1 is true",
+        "Only S2 is true",
+        "Both S1 and S2 are true",
+        "Neither S1 nor S2 is true"
+      ],
+      "explanationEn": "Every path of length at most k is also a path of length at most k + 1, so the minimum weight over the larger set cannot exceed the previous minimum, making S1 true. However, edge weights can be negative, so along a shortest path from s to v using (u, v) with w(u, v) < 0, we can have dk(u) > dk(v), making S2 false."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Compiler Design — Data Flow Analysis",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the control flow graph shown in the figure.\nWhich one of the following options correctly lists the set of redundant expressions\n(common subexpressions) in the basic blocks B4 and B5?\nNote: All the variables are integers.",
+      "optionsEn": [
+        "B4: { b+ i } B5: { c+ m }",
+        "B4: { g∗k } B5: { c+ m }",
+        "B4: { g∗k, b+ i } B5: { }",
+        "B4: { g∗k } B5: { }"
+      ],
+      "explanationEn": "Performing available-expressions data-flow analysis across the edges of the control flow graph in the official figure shows that g*k is available along all incoming paths to B4 (while b+i is not available or killed on one path), and no expression is available on all incoming paths to B5, giving B4: {g*k}, B5: {}."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Databases — Relational Algebra & Calculus",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a relational database schema with two relations R(P, Q) and S(X, Y).\nLet E = {⟨u⟩∣∃v ∃w ⟨u, v⟩∈R ∧ ⟨v, w⟩ ∈S} be a tuple relational calculus\nexpression.\nWhich one of the following relational algebraic expressions is equivalent to E ?",
+      "optionsEn": [
+        "ΠP(R⋈R.P=S.XS)",
+        "ΠP(S⋈S.X=R.QR)",
+        "ΠP(R⋈R.P=S.YS)",
+        "ΠP(S⋈S.Y=R.QR)"
+      ],
+      "explanationEn": "In E = {<u> | exists v, exists w (<u, v> in R and <v, w> in S)}, the second attribute of R (R.Q) equals the first attribute of S (S.X), and the first attribute of R (R.P) is projected out. Joining S and R on S.X = R.Q and projecting P yields Option (B)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Networks — Transport Layer (TCP)",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A TCP sender successfully establishes a connection with a TCP receiver and starts\nthe transmission of segments. The TCP congestion control mechanism’s slow-start\nthreshold is set to 10000 segments. Assume that the round-trip time is fixed at\n1 millisecond. Assume that the sender always has data to send, the segments are\nnumbered from 1, and no segment is lost. Let t denote the time (in milliseconds) at\nwhich the transmission of segment number 2000 starts.\nWhich one of the following options is correct?",
+      "optionsEn": [
+        "9 ≤ t < 10",
+        "10 ≤ t < 11",
+        "11 ≤ t < 12",
+        "12 ≤ t < 13"
+      ],
+      "explanationEn": "During TCP slow start (ssthresh = 10000), the sender transmits 2^k segments in round k (at t = k ms): 1 segment in round 0 (t=0), 2 in round 1 (t=1), ..., cumulatively 2^(k+1) - 1 segments through round k. After round 9 (t = 9 ms), 2^10 - 1 = 1023 segments have been sent, and segment 2000 falls in round 10 (1024 to 2047), so transmission starts at 10 <= t < 11 ms."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Networks — Data Link Layer",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the implementation of sliding window protocol over a lossless link, with a\nwindow size of W frames, where each frame is of size 1000 bits (including header).\nThe bandwidth of the link is 100 kbps (1k = 103) and the one-way propagation delay\nis 100 milliseconds. Assume that processing times at the sender and receiver are zero\nand the transmission time of acknowledgements is also zero. Which one of the\nfollowing options gives the minimum size of W (in number of frames) required to\nachieve 100% link utilization?",
+      "optionsEn": [
+        "10",
+        "21",
+        "20",
+        "11"
+      ],
+      "explanationEn": "Transmission time per frame T_t = 1000 bits / 100 kbps = 10 ms, and one-way propagation delay T_p = 100 ms (RTT = 200 ms). For 100% link utilization, W >= 1 + 2*(T_p / T_t) = 1 + 2*(100 / 10) = 21 frames."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Engineering Mathematics — Calculus",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let f: R→R be defined as follows:\nf(x) = (|x|\n2 −x) (x−|x|\n2 )\nWhich of the following statements is/are true?",
+      "optionsEn": [
+        "f has a local maximum",
+        "f has a local minimum",
+        "f′ is continuous over R",
+        "f′ is not differentiable over R"
+      ],
+      "explanationEn": "For x >= 0, |x|/2 - x = -x/2 and x - |x|/2 = x/2, so f(x) = -x^2 / 4. For x < 0, |x|/2 - x = -3x/2 and x - |x|/2 = 3x/2, so f(x) = -9x^2 / 4. Thus f(x) <= 0 everywhere with global/local maximum 0 at x = 0 (A, no local minimum so B false); f'(x) = -x/2 (x >= 0) and -9x/2 (x < 0) matches 0 at x = 0 so f' is continuous over R (C), but its left and right slopes at 0 are -9/2 != -1/2 so f' is not differentiable at 0 (D)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Algorithms — Graph Algorithms",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let G(V, E) be a simple, undirected graph. A vertex cover of G is a subset\nV′ ⊆V such that for every (u, v) ∈E, u∈V′or v∈V′. Let the size of the smallest\nvertex cover in G be k. Let S be any vertex cover of size k.\nFor a vertex v∈V, which of the following constraints will always ensure that\nv∈S ?",
+      "optionsEn": [
+        "The degree of v is at least k+ 1",
+        "The vertex v is on a path of length k+ 1",
+        "The vertex v is on a cycle of length k+ 1",
+        "The vertex v is a part of a clique of size k"
+      ],
+      "explanationEn": "If deg(v) >= k + 1 and v were NOT in S, then S would have to include all >= k + 1 neighbors of v to cover its incident edges, contradicting |S| = k; hence deg(v) >= k + 1 guarantees v in S (A). Being on a path/cycle of length k+1 or a clique of size k does not force v into every minimum vertex cover (e.g., K_k has a cover of size k-1)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Digital Logic — K-Map Minimization",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a Boolean function F with the following minterm expression:\nF(P, Q, R, S) = ∑m (1, 2, 3, 4, 5, 7, 10, 12, 13, 14)\nWhich of the following options is/are the minimal sum-of-products expression(s)\nof F ?",
+      "optionsEn": [
+        "P̅S+ QR̅ + P̅Q̅R+ Q̅RS̅",
+        "P̅S+ QR̅ + P̅Q̅R+ PRS̅",
+        "P̅S+ QR̅ + PQS̅ + PRS̅",
+        "P̅S+ QR̅ + PQS̅ + Q̅RS̅"
+      ],
+      "explanationEn": "Plotting the 10 minterms {1,2,3,4,5,7,10,12,13,14} on a 4-variable K-map gives essential prime implicants P'S (covering 1,3,5,7) and QR' (covering 4,5,12,13). The remaining minterms 2, 10, 14 are minimally covered by either {P'Q'R, PRS'} (Option B) or {PQS', Q'RS'} (Option D)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Algorithms — Minimum Spanning Trees",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let G(V, E) be a simple, undirected, edge-weighted graph with unique edge weights.\nWhich of the following statements about the minimum spanning trees (MST)\nof G is/are true?",
+      "optionsEn": [
+        "In every cycle C of G, the edge with the largest weight in C is not in any MST",
+        "In every cycle C of G, the edge with the smallest weight in C is in every MST",
+        "For every vertex v ∈V, the edge with the largest weight incident on v is not in any MST",
+        "For every vertex v ∈V, the edge with the smallest weight incident on v is in every MST"
+      ],
+      "explanationEn": "By the cycle property of MSTs with distinct weights, the heaviest edge in any cycle C can never belong to the MST (A). By the cut property applied to the cut ({v}, V\\{v}), the lightest edge incident on any vertex v must belong to every MST (D). Counterexamples exist for (B) (lightest edge of a cycle may not be in MST if lighter paths exist) and (C)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Algorithms — Graph Traversal (DFS)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following pseudocode for depth-first search (DFS) algorithm which\ntakes a directed graph G(V, E) as input, where d[v] and f[v] are the discovery time\nand finishing time, respectively, of the vertex v ∈V.\nDFS(G):\nunmark all v∈V\nt ←0\nfor each v∈V\nif v is unmarked\nt←Explore(G, v, t)\nend if\nend for\nExplore(G, v, t):\nmark v\nt ←t+ 1\nd[v] ←t\nfor each (v, w) ∈E\nif w is unmarked\nt←Explore(G, w, t)\nend if\nend for\nt ←t + 1\nf[v] ←t\nreturn t\nSuppose that the input directed graph G(V, E) is a directed acyclic graph (DAG).\nFor an edge (u, v) ∈E, which of the following options will NEVER be correct?",
+      "optionsEn": [
+        "d[u] < d[v] < f[v] < f[u]",
+        "d[v] < d[u] < f[u] < f[v]",
+        "d[v] < f[v] < d[u] < f[u]",
+        "d[u] < d[v] < f[u] < f[v]"
+      ],
+      "explanationEn": "In a DAG, there are no back edges, so for any edge (u, v) we can have a tree/forward edge where u discovers and finishes around v (d[u] < d[v] < f[v] < f[u], A) or a cross edge where v is completely finished before u is discovered (d[v] < f[v] < d[u] < f[u], C). Option (B) corresponds to a back edge (impossible in a DAG), and Option (D) violates the parenthesis theorem of DFS timestamps."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Theory of Computation — Formal Languages",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let L1 and L2 be two languages over a finite alphabet, such that L1 ∩L2 and L2 are\nregular languages.\nWhich of the following statements is/are always true?",
+      "optionsEn": [
+        "L1 is regular",
+        "L1 ∪L2 is regular",
+        "L2 is context-free",
+        "L1 is context-free"
+      ],
+      "explanationEn": "Every regular language is context-free, so L2 being regular guarantees L2 is context-free (C). L1 itself can be any arbitrary non-regular or even undecidable language (for example, if L2 = empty set, L1 intersect L2 = empty set is regular regardless of L1), making A, B, and D false in general."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Theory of Computation — Context-Free Grammars",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following context-free grammar G.\nS→abaABAbba\nA→aaBBAb | bBabaa\nB→aBb | ab\nIn the above grammar, S is the start symbol, a and b are terminal symbols, and A and\nB are non-terminal symbols.\nLet L(G) be the language generated by the grammar G. For a string s∈L(G), let\nn1(s) be the number of a’s in s and n2(s) be the number of b’s in s.\nWhich of the following statements is/are true?",
+      "optionsEn": [
+        "There is a string s∈L(G) such that n1(s) < n2(s)",
+        "For every string s∈L(G), n1(s) ≥n2(s)",
+        "There is a string s∈L(G) such that n1(s) > 2n2(s)",
+        "For every string s∈L(G), n1(s) ≤2n2(s)"
+      ],
+      "explanationEn": "In B -> aBb | ab, every step adds 1 'a' and 1 'b' (n_a = n_b). Accounting for the terminals in S -> abaABAbba and A -> aaBBAb | bBabaa, every derived string satisfies n1(s) >= n2(s) (B) and n1(s) <= 2*n2(s) (D)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Compiler Design — Syntax Directed Translation",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following two syntax-directed definitions SDD1 and SDD2 for type\ndeclarations.\nSDD1\nGrammar\nSDD2\nGrammar\nSemantic Rules\nSemantic Rules\n(G1)\n(G2)\nD→D1 id\nD →T V\nD. type = T. type\nV. type = T. type\nT → int\nT. type = int\nT → float\nT. type = float\nV→V1 id\nD. type= D1. type\nput(id. entry, D1. type)\nD. type = T. type\nput(id. entry, T. type)\nD → T id\nV1. type= V. type\nput(id. entry, V. type)\nT →int\nT. type = int\nT → float\nT. type = float\nV → id\nput(id. entry, V. type)\nD is the start symbol, and int, float and id are the three terminals. The non-terminal\nV1 is the same as V and the non-terminal D1 is the same as D. Here, the subscript is\nused to differentiate the grammar symbols on the two sides of a production. The\nfunction put updates the symbol table with the type information for an identifier.\nLet P and Q be the languages specified by grammars G1 and G2, respectively.\nWhich of the following statements is/are true?",
+      "optionsEn": [
+        "The languages P and Q are the same",
+        "SDD2 is S-attributed and contains only synthesized attributes",
+        "SDD1 is L-attributed and contains only inherited attributes",
+        "The specifications of SDD1 and SDD2 are such that the same entries get added to the symbol table"
+      ],
+      "explanationEn": "Both grammars generate '(int | float) id+' (so P = Q, A is true) and populate identical symbol table entries (D). SDD2 (D -> D1 id | T id) uses only bottom-up synthesized attributes and is S-attributed (B), whereas SDD1 passes inherited V.type down."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Operating Systems — Virtual Memory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a system that has a cache memory unit and a memory management unit\n(MMU). The address input to the cache memory is a physical address. The MMU\nhas a translation lookaside buffer (TLB). Assume that when a page is evicted from\nthe main memory, the corresponding blocks in the cache are marked as invalid.\nFor a given memory reference, which of the following sequences of events can\nNEVER happen?",
+      "optionsEn": [
+        "TLB miss, Page table hit, Cache hit",
+        "TLB hit, Page table miss, Cache hit",
+        "TLB miss, Page table miss, Cache hit",
+        "TLB miss, Page table miss, Cache miss"
+      ],
+      "explanationEn": "A TLB caches page-table translations for pages present in main memory, and evicting a page invalidates its TLB/cache entries. Thus if a page table miss occurs (page fault, page not in main memory), neither a TLB hit (B) nor a physical-address cache hit (C) is possible."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Discrete Mathematics — Graph Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An undirected, unweighted, simple graph G(V, E) is said to be 2-colorable if there\nexists a function c: V→{0, 1} such that for every (u, v) ∈E, c(u) ≠c(v).\nWhich of the following statements about 2-colorable graphs is/are true?",
+      "optionsEn": [
+        "If G is 2-colorable, then G may contain cycles of odd length",
+        "If G is 2-colorable, then G may contain cycles of even length",
+        "An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|V| + |E|), if G is represented as an adjacency list",
+        "An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|E| log|V|), if G is represented as an adjacency list"
+      ],
+      "explanationEn": "A graph is 2-colorable if and only if it is bipartite, which is equivalent to containing NO odd-length cycles (so it may contain even cycles, B, while A is false). Bipartiteness is tested via BFS/DFS 2-coloring in Theta(|V| + |E|) time using adjacency lists (C)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Networks — IP Addressing & Subnets",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An ISP having an address block 202.16.0.0/15 assigns a block of 6000 IP addresses\nto a client, using the classless internet domain routing (CIDR) super-netting\napproach. Which of the following address blocks can be assigned by the ISP?",
+      "optionsEn": [
+        "202.16.0.0/19",
+        "202.17.64.0/19",
+        "202.16.32.0/19",
+        "202.17.24.0/19"
+      ],
+      "explanationEn": "To assign at least 6000 IP addresses using CIDR, we need 2^13 = 8192 addresses, corresponding to a /19 prefix (32 - 13 = 19). A valid /19 block inside 202.16.0.0/15 must have its 3rd octet divisible by 2^5 = 32 (i.e., 0, 32, 64, 96, ...). Thus 202.16.0.0/19 (A), 202.17.64.0/19 (B), and 202.16.32.0/19 (C) are valid, while 202.17.24.0/19 (24 not divisible by 32) is invalid."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Discrete Mathematics — Combinatorics",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 34.0,
+      "natMax": 34.0,
+      "questionTextEn": "Let G be an undirected graph, which is a path on 8 vertices. The number of matchings\nin G is ______. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Let M(n) be the number of matchings (including the empty matching) in a path P_n on n vertices. Either vertex n is unmatched (M(n-1) ways) or matched with vertex n-1 (M(n-2) ways), giving the Fibonacci recurrence M(n) = M(n-1) + M(n-2) with M(1) = 1, M(2) = 2: M(3)=3, M(4)=5, M(5)=8, M(6)=13, M(7)=21, and M(8)=34."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.24,
+      "natMax": 4.26,
+      "questionTextEn": "Let X be a random variable which takes values in the set {1, 2, 3, 4, 5, 6, 7, 8}.\nFurther, Pr(X= 1) = Pr(X= 2) = Pr(X= 5) = Pr(X= 7) =\n1\n6 and\n1\nPr(X= 3) = Pr(X= 4) = Pr(X= 6) = Pr(X= 8) =\n12 .\nThe expected value of X, denoted by E[X], is equal to ___________. (rounded off\nto two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "E[X] = (1/6)*(1 + 2 + 5 + 7) + (1/12)*(3 + 4 + 6 + 8) = 15/6 + 21/12 = 5/2 + 7/4 = 17/4 = 4.25 (within 4.24 to 4.26)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Operating Systems — Disk Scheduling & I/O",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 77.3,
+      "natMax": 77.3,
+      "questionTextEn": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the\nread/write head from a track to its adjacent track is 1 millisecond. Initially, the head\nis on track 0. The number of sectors per track is 400. The sector size is 1024 bytes.\nIt is necessary to transfer data from 10 randomly located sectors in each of the\nfollowing tracks in the order: 5, 12 and 7.\nThe total time for the data transfer (in milliseconds) from the hard disk is _________.\n(rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "At 15000 rpm (250 rps), 1 rotation = 4 ms, average rotational latency = 2 ms, and 1-sector transfer time = 4/400 = 0.01 ms. Head movement across tracks 0 -> 5 -> 12 -> 7 takes 5 + 7 + 5 = 17 ms. Reading 30 random sectors (10 per track) takes 30 * (2 + 0.01) = 60.3 ms, for a total of 17 + 60.3 = 77.3 ms."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Computer Organization — Pipelining",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 95.0,
+      "natMax": 95.0,
+      "questionTextEn": "The EX stage of a pipelined processor performs the memory read operations for\nLOAD instructions, and the operations for the arithmetic and logic instructions. Let\ntEX denote the time taken by the EX stage to perform the operation for an instruction.\nFor each instruction type, the values of tEX and M (the number of instructions of that\ntype in a sequence of 100 instructions for a program P), are given in the table below.\nThe duration of the pipeline clock cycle is 1 nanosecond. Assume that the latch time\nfor the interstage buffers in the pipeline is negligible.\nInstruction\ntEX in\nnanoseconds\nM\nLOAD\n1.8\n15\nIMUL\n1.5\n10\nIDIV\n2.5\n5\nFADD\n1.7\n10\nFSUB\n1.7\n5\nFMUL\n2.8\n15\nFDIV\n3.2\n5\nAll other\ninstructions\nLess than\n1.0\n35\nWhen program P is executed, the number of clock cycles for which the pipeline is\nstalled due to structural hazards in the EX stage is ______. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "With a 1 ns clock cycle, an instruction needing t_EX ns occupies the EX stage for ceil(t_EX) cycles, stalling subsequent instructions by ceil(t_EX) - 1 cycles. Summing stalls: LOAD (1*15) + IMUL (1*10) + IDIV (2*5) + FADD (1*10) + FSUB (1*5) + FMUL (2*15) + FDIV (3*5) + Others (0*35) = 15 + 10 + 10 + 10 + 5 + 30 + 15 = 95 cycles."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q61",
+      "questionNumber": 61,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Programming in C — Recursion",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 65536.0,
+      "natMax": 65536.0,
+      "questionTextEn": "Consider the recursive functions represented by the following code segment:\nint bar(int n){\nif (n == 1) return 0;\nelse return 1 + bar(n/2);\n}\nint foo(int n){\nif (n == 1) return 1;\nelse return 1 + foo(bar(n));\n}\nThe smallest positive integer n for which foo(n) returns 5 is ______. (answer in\ninteger)\nNote: Ignore syntax errors (if any) in the function.",
+      "optionsEn": [],
+      "explanationEn": "bar(n) computes floor(log2(n)) for n >= 1. foo(n) counts repeated applications of floor(log2) until reaching 1 plus 1: foo(1)=1, foo(2)=2 (bar(2)=1), foo(4)=3 (bar(4)=2), foo(16)=4 (bar(16)=4), and foo(65536)=5 (bar(65536)=16). Thus the smallest such n is 2^16 = 65536."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q62",
+      "questionNumber": 62,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Data Structures — Binary Search Trees",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "The following sequence corresponds to the preorder traversal of a binary search\ntree T:\n50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77\nThe position of the element 60 in the postorder traversal of T is ______. (answer in\ninteger)\nNote: The position begins with 1.",
+      "optionsEn": [],
+      "explanationEn": "Reconstructing the BST from preorder [50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77]: left subtree of 50 has [25, 13, 40, 30, 47] (5 nodes, postorder: 13, 30, 47, 40, 25); right subtree of 50 has root 75, whose left subtree is 60 with right child 70. Postorder of the right subtree starts with 70 (position 6) followed by 60 (position 7)."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q63",
+      "questionNumber": 63,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Operating Systems — Process Management",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Consider the following program snippet. Assume that the program compiles and runs\nsuccessfully. Further, assume that the fork() system call is always successful in\ncreating a process.\nint main () {\nint i;\nfor (i = 0; i < 3; i++){\nif (fork() == 0){\ncontinue;\n}\nbreak;\n}\nprintf(\"Hello!\");\nreturn 0;\n}\nThe total number of times that the printf statement gets executed is ________.\n(answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "In each iteration i = 0, 1, 2, the parent breaks out of the loop and calls printf, while the newly forked child continues to the next iteration. After 3 iterations, the original process plus 2 intermediate children and 1 final child (when i reaches 3) reach printf, executing printf 4 times in total."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q64",
+      "questionNumber": 64,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Operating Systems — CPU Scheduling",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.5,
+      "natMax": 9.5,
+      "questionTextEn": "Consider a CPU that has to execute two types of processes. The first type,\nActuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C),\nrequires a CPU burst of 8 seconds. A new process of type A arrives at time t = 10,\n20, 30, 40, and 50 (in seconds). Similarly, a new process of type C arrives at time t =\n11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First\nServe (FCFS). The first process of type A starts running at t = 10 seconds. The\naverage waiting time (in seconds) for the 10 processes is ___________. (rounded off\nto one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "Simulating FCFS (A takes 6s, C takes 8s): A1(10->10..16, WT=0), C1(11->16..24, WT=5), A2(20->24..30, WT=4), C2(22->30..38, WT=8), A3(30->38..44, WT=8), C3(33->44..52, WT=11), A4(40->52..58, WT=12), C4(44->58..66, WT=14), A5(50->66..72, WT=16), C5(55->72..80, WT=17). Total WT = 0+5+4+8+8+11+12+14+16+17 = 95 s, so average WT = 95 / 10 = 9.5 s."
+    },
+    {
+      "questionId": "gate_cs_2026_s1_q65",
+      "questionNumber": 65,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE Computer Science (CS) • 2026 Set 1 Official Paper",
+      "topicTag": "Databases — Functional Dependencies & Keys",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Consider a relational database schema with a relation R(A, B, C, D). If {A, B} and\n{A, C} are the only two candidate keys of the relation R, then the number of superkeys\nof relation R is ______. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The candidate keys are AB and AC. Using inclusion-exclusion on subsets of {A, B, C, D}: superkeys containing AB = 2^2 = 4, superkeys containing AC = 2^2 = 4, and superkeys containing ABC = 2^1 = 2. Total superkeys = 4 + 4 - 2 = 6."
+    }
+  ]
+}

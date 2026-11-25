@@ -1,0 +1,574 @@
+{
+  "testId": "gate_cs_topic_algo_01",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_algo_01",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Algorithms (Set 1)",
+  "titleEn": "GATE CS Topic Test — Algorithms (Set 1)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_06_algo",
+  "part_id": "part_06_algo",
+  "partTitle": "Algorithms",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "sectionTitleEn": "Algorithms",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_algo_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Matrix Chain Order",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "How many ways can a product of 4 matrices `A1 · A2 · A3 · A4` be fully parenthesized?",
+      "optionsEn": [],
+      "explanationEn": "The number of full parenthesizations of n matrices is the Catalan number `C_{n-1}`. For n = 4, `C_3 = 5`."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Topological Sort",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A valid topological ordering of a DAG can be obtained by running DFS and ordering the vertices in:",
+      "optionsEn": [
+        "Increasing order of discovery time",
+        "Increasing order of finish time",
+        "Decreasing order of finish time",
+        "Decreasing order of discovery time"
+      ],
+      "explanationEn": "In a DAG, for every directed edge u -> v, vertex v finishes before u. Sorting vertices by decreasing finish time guarantees u appears before v."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Sorting",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following sorting algorithms has O(n log n) worst-case time complexity AND is in-place (O(1) auxiliary space)?",
+      "optionsEn": [
+        "Insertion Sort",
+        "Heap Sort",
+        "Merge Sort",
+        "Quick Sort"
+      ],
+      "explanationEn": "Heap Sort runs in O(n log n) worst-case time and uses O(1) extra space. Merge Sort requires O(n) extra space, Quick Sort has O(n^2) worst case, and Insertion Sort is O(n^2)."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Huffman Coding",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Huffman coding produces an optimal prefix-free binary code. What is the time complexity to build a Huffman tree for `n` characters using a binary min-heap?",
+      "optionsEn": [
+        "O(n log n)",
+        "O(n)",
+        "O(2^n)",
+        "O(n^2)"
+      ],
+      "explanationEn": "Building the initial heap takes O(n), followed by n - 1 iterations each doing two Extract-Min and one Insert operation in O(log n), totaling O(n log n)."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Asymptotic Analysis",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following correctly orders the functions in strictly increasing order of asymptotic growth rate?",
+      "optionsEn": [
+        "n log n < n^1.5 < n! < 2^n",
+        "n log n < 2^n < n^1.5 < n!",
+        "n log n < n^1.5 < 2^n < n!",
+        "n^1.5 < n log n < 2^n < n!"
+      ],
+      "explanationEn": "Polynomial `n^1.5` dominates `n log n`, exponential `2^n` dominates any polynomial, and factorial `n!` (by Stirling's approximation ~`(n/e)^n`) dominates `2^n`."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Inversions",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "How many inversions (pairs `(i, j)` with `i < j` and `A[i] > A[j]`) exist in the array `[4, 1, 3, 2]`?",
+      "optionsEn": [],
+      "explanationEn": "Inversion pairs are `(4, 1)`, `(4, 3)`, `(4, 2)`, and `(3, 2)` — a total of 4 inversions."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Complexity Classes",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If problem A is NP-complete and problem B is in NP such that A is polynomial-time reducible to B (A <=_p B), then:",
+      "optionsEn": [
+        "B is in P",
+        "B is NP-complete",
+        "B is undecidable",
+        "P = NP"
+      ],
+      "explanationEn": "Since every problem in NP reduces to A and A <=_p B, by transitivity every problem in NP reduces to B (so B is NP-hard). Together with B in NP, B is NP-complete."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Spanning Trees",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "How many edges are in a Minimum Spanning Tree of a connected weighted undirected graph with 15 vertices and 42 edges?",
+      "optionsEn": [],
+      "explanationEn": "Every spanning tree of a connected graph on V vertices has exactly V - 1 = 15 - 1 = 14 edges."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — LCS Length",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "What is the length of the Longest Common Subsequence (LCS) of the strings `\"ABCBDAB\"` and `\"BDCABA\"`?",
+      "optionsEn": [],
+      "explanationEn": "Common subsequences of maximum length 4 include `\"BCBA\"`, `\"BDAB\"`, and `\"BCAB\"`. No common subsequence of length 5 exists."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — NP-Completeness",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Assuming P != NP, which of the following statements are TRUE?",
+      "optionsEn": [
+        "No NP-complete problem can be solved in polynomial time",
+        "Every problem in P is also in NP",
+        "Every NP-hard problem belongs to NP",
+        "If any NP-complete problem has a polynomial-time algorithm, then P = NP"
+      ],
+      "explanationEn": "P is a subset of NP (B). If P != NP, no NP-complete problem is in P (A), and solving any NP-complete problem in P would collapse P = NP (D). NP-hard problems need not be in NP — e.g., the Halting Problem (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Shortest Paths",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about shortest-path algorithms are TRUE?",
+      "optionsEn": [
+        "BFS computes single-source shortest paths in an unweighted graph in O(V + E) time",
+        "Bellman-Ford correctly handles graphs with negative edge weights provided there is no reachable negative cycle",
+        "Floyd-Warshall can detect a negative-weight cycle by checking if any diagonal entry `dist[i][i] < 0` after completion",
+        "Dijkstra's algorithm always fails whenever a graph has a cycle"
+      ],
+      "explanationEn": "BFS finds unweighted shortest paths in O(V + E) (A), Bellman-Ford handles negative edges without negative cycles (B), and Floyd-Warshall flags negative cycles via `dist[i][i] < 0` (C). Dijkstra handles positive-weight cycles without issue (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Subset Sum Count",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "How many subsets of `{2, 3, 5, 6, 8, 10}` have elements that sum to exactly 10?",
+      "optionsEn": [],
+      "explanationEn": "The subsets summing to 10 are `{10}`, `{2, 8}`, and `{2, 3, 5}` — a total of 3 subsets."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Recurrences",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following recurrences have the tight asymptotic solution `Θ(n log n)`?",
+      "optionsEn": [
+        "T(n) = 2T(n/2) + n",
+        "T(n) = T(n/3) + T(2n/3) + n",
+        "T(n) = 4T(n/2) + n",
+        "T(n) = 3T(n/3) + n"
+      ],
+      "explanationEn": "A and D match Master Theorem Case 2 -> `Θ(n log n)`. In B, every level of the recursion tree sums to `n` and depth is `O(log n)` -> `Θ(n log n)`. In C, `n^(log2 4) = n^2` dominates `n`, giving `Θ(n^2)` (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Longest Palindromic Subsequence",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "What is the length of the Longest Palindromic Subsequence (LPS) of the string `\"BBABCBCAB\"`?",
+      "optionsEn": [],
+      "explanationEn": "One longest palindromic subsequence is `\"BABCBAB\"`, which has length 7."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Master Theorem Exponent",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Consider the recurrence `T(n) = 8T(n/2) + n^2`. Its tight solution is `Θ(n^k)`. What is the value of `k`?",
+      "optionsEn": [],
+      "explanationEn": "Here `a = 8, b = 2`, so `n^(log_2 8) = n^3`. Since `f(n) = n^2 = O(n^(3 - 1))`, Case 1 of Master Theorem gives `T(n) = Θ(n^3)`, so `k = 3`."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Huffman Coding",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Six characters have frequencies: a: 5, b: 9, c: 12, d: 13, e: 16, f: 45. What is the total number of bits required to encode a 100-character message with these exact frequencies using an optimal Huffman code?",
+      "optionsEn": [
+        "224",
+        "256",
+        "240",
+        "200"
+      ],
+      "explanationEn": "Merges: (5+9=14), (12+13=25), (14+16=30), (25+30=55), (45+55=100). Code lengths: f=1, c=3, d=3, e=3, a=4, b=4. Total bits = 45(1) + (12+13+16)(3) + (5+9)(4) = 45 + 123 + 56 = 224."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Graph Algorithms",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Breadth-First Search (BFS) on an undirected graph G starting from vertex `s` are TRUE?",
+      "optionsEn": [
+        "Every edge `(u, v)` in G connects vertices whose BFS distances from `s` differ by at most 1",
+        "G is bipartite if and only if no edge connects two vertices at the same BFS level",
+        "BFS always produces a Minimum Spanning Tree on a weighted graph",
+        "The BFS tree contains a shortest path (in number of edges) from `s` to every reachable vertex"
+      ],
+      "explanationEn": "In undirected BFS, edges only connect same-level or adjacent-level vertices (A); same-level edges create odd cycles, obstructing bipartiteness (B); and BFS trees capture unweighted shortest paths (D). BFS ignores edge weights, so C is false."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Binary Search Comparisons",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "A sorted array of 31 elements is searched using binary search. What is the maximum number of key comparisons required to find an element (assuming 1 equality/ordering check per probe)?",
+      "optionsEn": [],
+      "explanationEn": "31 = 2^5 - 1 forms a perfect binary search tree of 5 levels, so at most `floor(log2(31)) + 1 = 4 + 1 = 5` probes are needed."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Maximum Subarray (Kadane's)",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "What is the maximum sum of any non-empty contiguous subarray of `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`?",
+      "optionsEn": [],
+      "explanationEn": "The contiguous subarray `[4, -1, 2, 1]` has sum `4 - 1 + 2 + 1 = 6`, which is the maximum."
+    },
+    {
+      "questionId": "gate_cs_topic_algo_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_algo",
+      "sectionTitle": "Algorithms",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Algorithms (Set 1)",
+      "topicTag": "Algorithms — Dynamic Programming",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Dynamic Programming (DP) are TRUE?",
+      "optionsEn": [
+        "DP is effective when a problem exhibits both optimal substructure and overlapping subproblems",
+        "Top-down memoization computes only the subproblems actually needed for the given input",
+        "Bottom-up tabulation avoids recursion call-stack overhead",
+        "DP always achieves a strictly faster worst-case time complexity than greedy algorithms on the same problem"
+      ],
+      "explanationEn": "A, B, and C accurately describe DP. When a greedy choice property holds (e.g., Activity Selection or Fractional Knapsack), greedy algorithms are typically faster than DP (D is false)."
+    }
+  ]
+}

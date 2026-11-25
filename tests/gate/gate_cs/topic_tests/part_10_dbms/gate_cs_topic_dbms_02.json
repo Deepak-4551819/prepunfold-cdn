@@ -1,0 +1,575 @@
+{
+  "testId": "gate_cs_topic_dbms_02",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_dbms_02",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Databases (DBMS) (Set 2)",
+  "titleEn": "GATE CS Topic Test — Databases (DBMS) (Set 2)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_10_dbms",
+  "part_id": "part_10_dbms",
+  "partTitle": "Databases (DBMS)",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "sectionTitleEn": "Databases (DBMS)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_dbms_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Indexing",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A secondary index on a non-ordering field of a data file MUST be:",
+      "optionsEn": [
+        "Sparse",
+        "Dense",
+        "Single-level only",
+        "Clustering"
+      ],
+      "explanationEn": "Because records are not physically ordered by the secondary search key, every search key value (or record) must have an entry in the index (dense index)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Prime Attributes Count",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Relation `R(A, B, C, D, E)` has candidate keys `{A, B}` and `{B, C}`. How many PRIME attributes does `R` have?",
+      "optionsEn": [],
+      "explanationEn": "Prime attributes are those appearing in at least one candidate key: `{A, B} ∪ {B, C} = {A, B, C}` — 3 prime attributes."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Normalization",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A relation schema `R` is in Boyce-Codd Normal Form (BCNF) if and only if for every non-trivial functional dependency `X -> Y` that holds on `R`:",
+      "optionsEn": [
+        "Y is a prime attribute",
+        "R has only one candidate key",
+        "X is a superkey of R",
+        "X is a proper subset of a candidate key"
+      ],
+      "explanationEn": "BCNF requires the left-hand side `X` of every non-trivial FD `X -> Y` to be a superkey (removing the 3NF exception that allows `Y` to be prime)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Serializability",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which inclusion relationship holds among schedule classes?",
+      "optionsEn": [
+        "Recoverable ⊂ Conflict-Serializable",
+        "View-Serializable ⊂ Conflict-Serializable",
+        "Conflict-Serializable ⊂ View-Serializable",
+        "Conflict-Serializable = View-Serializable"
+      ],
+      "explanationEn": "Every conflict-serializable schedule is view-serializable, but schedules with blind writes can be view-serializable without being conflict-serializable."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Relational Algebra",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which relational algebra operator is used to answer 'for all' queries (such as 'find students who have enrolled in ALL courses offered by CS')?",
+      "optionsEn": [
+        "Natural Join (⋈)",
+        "Cartesian Product (×)",
+        "Set Difference (−)",
+        "Division (÷)"
+      ],
+      "explanationEn": "Relational division `R ÷ S` returns tuples from `R` whose associated values match *every* tuple in `S`, directly expressing universal quantification."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Minimum Tables from ER Diagram",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "An ER diagram has two strong entity sets `E1` and `E2` connected by a Many-to-Many (M:N) relationship `R` (with no multivalued attributes). What is the minimum number of relational tables required?",
+      "optionsEn": [],
+      "explanationEn": "One table for `E1`, one table for `E2`, and one junction table for the M:N relationship `R` = 3 tables."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Transactions (ACID)",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which ACID property ensures that once a transaction commits, its updates survive subsequent power failures or system crashes?",
+      "optionsEn": [
+        "Atomicity",
+        "Isolation",
+        "Durability",
+        "Consistency"
+      ],
+      "explanationEn": "Durability guarantees that committed transaction effects are permanently recorded (typically via write-ahead logging to non-volatile storage) even after crashes."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — SQL Aggregation & Grouping",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a table `Emp(eid, dept, salary)`. Which of the following SQL queries are syntactically valid in strict ANSI SQL?",
+      "optionsEn": [
+        "`SELECT dept, AVG(salary) FROM Emp GROUP BY dept;`",
+        "`SELECT dept, COUNT(*) FROM Emp GROUP BY dept HAVING COUNT(*) > 5;`",
+        "`SELECT eid, dept, AVG(salary) FROM Emp GROUP BY dept;`",
+        "`SELECT MAX(salary) FROM Emp;`"
+      ],
+      "explanationEn": "In strict ANSI SQL, every non-aggregated column in `SELECT` must appear in `GROUP BY`. In C, `eid` is neither aggregated nor in `GROUP BY`, making C invalid."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Superkeys with Two Keys",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "A relation `R(A, B, C, D)` has two candidate keys: `{A}` and `{B}`. How many total superkeys does `R` have?",
+      "optionsEn": [],
+      "explanationEn": "By inclusion-exclusion: superkeys containing `A` = `2^3 = 8`; containing `B` = `2^3 = 8`; containing both `A` and `B` = `2^2 = 4`. Total = `8 + 8 - 4 = 12`."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Normalization",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Every binary relation (a relation with only 2 attributes) is ALWAYS guaranteed to be in:",
+      "optionsEn": [
+        "1NF only",
+        "2NF only",
+        "3NF only",
+        "BCNF"
+      ],
+      "explanationEn": "In a 2-attribute relation `R(A, B)`, any non-trivial FD is either `A -> B` (making `A` a superkey) or `B -> A` (making `B` a superkey). Thus every non-trivial FD has a superkey on its LHS, guaranteeing BCNF."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — B+ Tree Maximum Keys (3 Levels)",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 100.0,
+      "natMax": 100.0,
+      "questionTextEn": "A B+ tree has internal node order `p = 5` (max 5 children) and leaf nodes that hold at most 4 keys each. What is the MAXIMUM number of keys that can be stored in a 3-level B+ tree (root at level 1, internal nodes at level 2, leaves at level 3)?",
+      "optionsEn": [],
+      "explanationEn": "Root has at most 5 children (level 2). Each of the 5 level-2 nodes has at most 5 leaf children = `25` leaves. Each leaf holds at most 4 keys -> `25 × 4 = 100` keys."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Transactions & Recovery",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In Deferred Database Modification (No-Undo / Redo) log-based recovery, which of the following statements are TRUE?",
+      "optionsEn": [
+        "Updates are written to the database on disk only after the transaction reaches its commit point",
+        "After a crash, committed transactions recorded in the log must be REDONE",
+        "After a crash, uncommitted transactions require UNDO operations on disk",
+        "Log records only need to store the new value (`<T_i, X, V_new>`), not the old value"
+      ],
+      "explanationEn": "Deferred update never writes uncommitted changes to disk (A), so uncommitted transactions need no UNDO (C is false) and log records omit old values (D), while committed transactions are REDONE after a crash (B)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Conflict & View Serializability",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the schedule `S: R1(X), W2(X), W1(X), W3(X)`. Which of the following statements is TRUE about `S`?",
+      "optionsEn": [
+        "S is both conflict-serializable and view-serializable",
+        "S is view-serializable (equivalent to T1, T2, T3) but NOT conflict-serializable",
+        "S is conflict-serializable but NOT view-serializable",
+        "S is neither conflict-serializable nor view-serializable"
+      ],
+      "explanationEn": "Precedence graph has `T1 -> T2` (`R1(X)` before `W2(X)`) and `T2 -> T1` (`W2(X)` before `W1(X)`), forming a cycle -> NOT conflict-serializable. However, `S` has the same initial read (`T1`), no read-from-write dependencies, and same final write (`T3`) as serial schedule `T1 -> T2 -> T3` -> view-serializable!"
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — SQL `NOT IN` with NULL",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Table `R(a)` has rows `{1, 2, 3}` and table `S(a)` has rows `{2, NULL}`. How many rows are returned by:\n```sql\nSELECT a FROM R WHERE a NOT IN (SELECT a FROM S);\n```",
+      "optionsEn": [
+        "1",
+        "0",
+        "3",
+        "2"
+      ],
+      "explanationEn": "`a NOT IN (2, NULL)` expands to `a <> 2 AND a <> NULL`. Since `a <> NULL` evaluates to `UNKNOWN`, the `AND` never evaluates to `TRUE` for any row, returning 0 rows."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Strict vs Cascadeless Schedules",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the schedule `S: W1(X), W2(X), C2, C1` (where `C_i` denotes commit of `T_i`). Which statement is TRUE about `S`?",
+      "optionsEn": [
+        "S is both Strict and Cascadeless",
+        "S is Cascadeless and Recoverable, but NOT Strict",
+        "S is NOT Recoverable",
+        "S is Recoverable, but NOT Cascadeless"
+      ],
+      "explanationEn": "No transaction reads an uncommitted value, so `S` is trivially Cascadeless and Recoverable. However, `T2` overwrites `X` written by uncommitted `T1` (dirty write), violating Strictness (if `T1` aborts and restores `X`'s old value, `T2`'s committed write is lost)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Number of Non-Serial Schedules",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Two transactions `T1` (2 operations) and `T2` (2 operations) run concurrently. How many NON-SERIAL concurrent schedules exist?",
+      "optionsEn": [],
+      "explanationEn": "Total schedules = `4! / (2! × 2!) = 6`. Subtracting the 2 serial schedules (`T1;T2` and `T2;T1`) leaves `6 - 2 = 4` non-serial schedules."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Conflict-Equivalent Serial Schedules",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Consider the schedule `S: R1(A), R2(A), W3(B), W1(B), R2(C)`. How many distinct serial schedules of `{T1, T2, T3}` are conflict-equivalent to `S`?",
+      "optionsEn": [],
+      "explanationEn": "The only conflicting pair is `(W3(B), W1(B))`, creating a single precedence edge `T3 -> T1`. `T2` has no conflicts with `T1` or `T3`. Out of `3! = 6` permutations, half have `T3` before `T1`: `(T3,T1,T2)`, `(T3,T2,T1)`, `(T2,T3,T1)` — 3 serial schedules."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — Schedules & Concurrency",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about database transaction schedules are TRUE?",
+      "optionsEn": [
+        "Every Strict schedule is Cascadeless",
+        "Every Cascadeless schedule is Recoverable",
+        "Every Conflict-Serializable schedule is Strict",
+        "Strict 2PL guarantees that all generated schedules are both Conflict-Serializable and Strict"
+      ],
+      "explanationEn": "Strict ⊂ Cascadeless ⊂ Recoverable (A, B), and Strict 2PL guarantees both conflict serializability and strictness (D). Conflict-serializable schedules can still perform dirty reads or commit out of order, so they need not be strict (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — SQL Aggregate Evaluation",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 500.0,
+      "natMax": 500.0,
+      "questionTextEn": "Table `Sales(dept, amt)` has rows: `('A', 100), ('A', 200), ('B', 50), ('B', 150), ('C', 80)`. What integer is returned by:\n```sql\nSELECT SUM(total) FROM (SELECT dept, SUM(amt) AS total FROM Sales GROUP BY dept HAVING SUM(amt) >= 200) AS sub;\n```",
+      "optionsEn": [],
+      "explanationEn": "Group sums: A = 300 (>= 200), B = 200 (>= 200), C = 80 (excluded). Outer `SUM(total)` = `300 + 200 = 500`."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 2)",
+      "topicTag": "DBMS — SQL `HAVING` Evaluation",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "Table `Scores(team, pts)` has rows: `('T1', 10), ('T1', 20), ('T2', 30), ('T3', 5), ('T3', 15), ('T3', 25)`. How many rows are returned by `SELECT team FROM Scores GROUP BY team HAVING AVG(pts) > 15;`?",
+      "optionsEn": [],
+      "explanationEn": "Averages: T1 = `(10+20)/2 = 15` (not > 15), T2 = `30` (> 15), T3 = `(5+15+25)/3 = 15` (not > 15). Only 1 team (`T2`) is returned."
+    }
+  ]
+}

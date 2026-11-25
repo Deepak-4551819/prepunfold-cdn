@@ -1,0 +1,1850 @@
+{
+  "testId": "gate_cs_mock_05",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_mock_05",
+  "category_id": "gate_cs",
+  "title": "GATE CS Full-Length Mock Test 05",
+  "titleEn": "GATE CS Full-Length Mock Test 05",
+  "testType": "FULL_MOCK",
+  "test_type": "FULL_MOCK",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 65,
+  "total_questions": 65,
+  "maxMarks": 100.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE CS • Full Mock Test 05",
+  "sections": [
+    {
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "sectionTitleEn": "General Aptitude",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "sectionTitleEn": "Computer Science and Information Technology",
+      "questionCount": 55,
+      "totalMarks": 85.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_mock_05_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Quantitative Aptitude — Exponents",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If 2^(x+3) = 32^(x-1), what is the value of x?",
+      "optionsEn": [
+        "4",
+        "1.5",
+        "2",
+        "3"
+      ],
+      "explanationEn": "Write 32 as 2^5: 2^(x+3) = 2^(5x-5). Equating exponents: x + 3 = 5x - 5 => 4x = 8 => x = 2."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Quantitative Aptitude — Sets",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If a set S has 6 elements, how many proper non-empty subsets does S have?",
+      "optionsEn": [
+        "62",
+        "63",
+        "64",
+        "60"
+      ],
+      "explanationEn": "Total subsets = 2^6 = 64. Excluding the empty set and the set S itself leaves 64 - 2 = 62 proper non-empty subsets."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Quantitative Aptitude — Averages",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The average of 8 consecutive even integers is 25. What is the largest of these 8 integers?",
+      "optionsEn": [
+        "34",
+        "28",
+        "32",
+        "30"
+      ],
+      "explanationEn": "For 8 consecutive even integers centered at 25, the four below 25 are 18, 20, 22, 24 and the four above are 26, 28, 30, 32. The largest is 32."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Quantitative Aptitude — Sets",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a group of 70 developers, 45 know Python, 35 know Java, and 10 know neither. How many developers know both Python and Java?",
+      "optionsEn": [
+        "25",
+        "20",
+        "15",
+        "10"
+      ],
+      "explanationEn": "Developers knowing at least one language = 70 - 10 = 60. By inclusion-exclusion, |P ∩ J| = 45 + 35 - 60 = 20."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Analytical Reasoning — Ranking",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a row of 40 students, Rohan is 14th from the left end and Priya is 18th from the right end. How many students sit strictly between Rohan and Priya?",
+      "optionsEn": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "explanationEn": "Priya's position from the left = 40 - 18 + 1 = 23rd. Students strictly between 14th and 23rd = 23 - 14 - 1 = 8."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Verbal Aptitude — Inference",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Passage: 'Although solid-state drives (SSDs) deliver orders-of-magnitude faster random read speeds than spinning hard disk drives (HDDs), enterprise archival storage still relies heavily on HDDs and magnetic tape because their cost per terabyte remains substantially lower for cold data.' Which statement is best supported?",
+      "optionsEn": [
+        "Cost-efficiency keeps HDDs and tape relevant for cold archival workloads despite SSD speed advantages.",
+        "Magnetic tape will soon replace SSDs in laptops.",
+        "Enterprise data centers do not use SSDs.",
+        "HDDs are faster than SSDs for random reads."
+      ],
+      "explanationEn": "The passage explicitly explains that despite SSD random-read speed advantages, lower cost per terabyte keeps HDDs and tape dominant for cold archival storage."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Quantitative Aptitude — Functions",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If f(x) + 2*f(1 - x) = x^2 + 2 for all real x, what is the value of f(1)?",
+      "optionsEn": [
+        "1",
+        "4/3",
+        "2/3",
+        "1/3"
+      ],
+      "explanationEn": "Plug in x = 1: f(1) + 2f(0) = 3. Plug in x = 0: f(0) + 2f(1) = 2 => f(0) = 2 - 2f(1). Substituting into the first equation: f(1) + 2(2 - 2f(1)) = 3 => 4 - 3f(1) = 3 => f(1) = 1/3."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Analytical Reasoning — Blood Relations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Pointing to a photograph, Arjun says, 'She is the only daughter of my grandfather's only son.' If Arjun is male and has no brothers, how is the woman in the photograph related to Arjun?",
+      "optionsEn": [
+        "Cousin",
+        "Sister",
+        "Aunt",
+        "Mother"
+      ],
+      "explanationEn": "Arjun's grandfather's only son is Arjun's father. The only daughter of Arjun's father is Arjun's sister."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Data Interpretation — Weighted Averages",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a university department, Section A has 40 students with an average score of 72, and Section B has 60 students with an average score of 82. What is the combined average score of both sections?",
+      "optionsEn": [
+        "76",
+        "79",
+        "77",
+        "78"
+      ],
+      "explanationEn": "Combined average = (40*72 + 60*82) / (40 + 60) = (2880 + 4920) / 100 = 7800 / 100 = 78."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Analytical Reasoning — Tournaments",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a round-robin chess tournament, every player plays every other player exactly once. If a total of 66 games were played, how many players participated?",
+      "optionsEn": [
+        "11",
+        "12",
+        "13",
+        "10"
+      ],
+      "explanationEn": "Total games = n(n - 1)/2 = 66 => n(n - 1) = 132 = 12 * 11. Thus n = 12 players."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Engineering Mathematics — Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider f(x) = |x - 2| on the real line R. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "f is continuous everywhere on R.",
+        "f is differentiable at x = 2.",
+        "f achieves its global minimum at x = 2.",
+        "f'(x) = 1 for all x > 2."
+      ],
+      "explanationEn": "|x - 2| is continuous everywhere (A), has global minimum 0 at x = 2 (C), and equals x - 2 for x > 2 so f'(x) = 1 (D). At x = 2, LHD = -1 != RHD = +1, so it is not differentiable there."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Engineering Mathematics — Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If A is a 3×3 orthogonal matrix (A^T A = I), what are the possible values of det(A)?",
+      "optionsEn": [
+        "0 or 1",
+        "1 or -1",
+        "Any non-zero real number",
+        "1 only"
+      ],
+      "explanationEn": "Taking determinants of A^T A = I gives det(A^T) * det(A) = (det(A))^2 = 1 => det(A) = +1 or -1."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Discrete Mathematics — Graph Theory",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A simple undirected graph has 12 vertices and every vertex has degree 5. How many edges does the graph have?",
+      "optionsEn": [
+        "36",
+        "30",
+        "24",
+        "60"
+      ],
+      "explanationEn": "By the Handshaking Lemma, sum of degrees = 2|E|. Thus 12 * 5 = 2|E| => |E| = 30."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Discrete Mathematics — Combinatorics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 35.0,
+      "natMax": 35.0,
+      "questionTextEn": "In how many ways can 8 identical balls be distributed into 4 distinct boxes such that every box receives at least one ball? (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "By stars and bars for positive integer solutions (x1+x2+x3+x4 = 8, xi >= 1), the count is C(n-1, k-1) = C(7, 3) = (7*6*5)/6 = 35."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Digital Logic — Binary Codes",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the 4-bit Gray code equivalent of the binary number 1011?",
+      "optionsEn": [
+        "1100",
+        "1010",
+        "1101",
+        "1110"
+      ],
+      "explanationEn": "Gray bits are G3 = B3 = 1, G2 = B3 ⊕ B2 = 1 ⊕ 0 = 1, G1 = B2 ⊕ B1 = 0 ⊕ 1 = 1, G0 = B1 ⊕ B0 = 1 ⊕ 1 = 0, giving 1110."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Digital Logic — IEEE 754 Floating Point",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In IEEE 754 single-precision format, a 32-bit word with sign bit = 1, exponent field = 11111111 (all 1s), and fraction field = 000...000 (all 0s) represents:",
+      "optionsEn": [
+        "-0.0",
+        "-Infinity",
+        "Smallest denormalized negative number",
+        "NaN (Not a Number)"
+      ],
+      "explanationEn": "In IEEE 754, an all-1s exponent with an all-0s fraction denotes infinity; with sign bit = 1, it represents -Infinity."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "COA — Control Memory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "A microprogrammed control unit has 512 microinstructions, each 36 bits wide. What is the size of the control memory in kilobits (1 Kb = 1024 bits)?",
+      "optionsEn": [],
+      "explanationEn": "Total bits = 512 × 36 = 18,432 bits. Dividing by 1024 bits/Kb gives 18 Kb."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "COA — Memory Interleaving",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following are benefits of low-order interleaved main memory (where consecutive word addresses reside in different memory banks)?",
+      "optionsEn": [
+        "Higher effective memory bandwidth for sequential block transfers (such as cache line fills)",
+        "Ability to overlap access times across multiple memory banks",
+        "Reduced latency for a single isolated random word access",
+        "Well suited for burst-mode DMA transfers"
+      ],
+      "explanationEn": "Low-order interleaving spreads sequential addresses across banks, overlapping accesses and boosting burst/block throughput (A, B, D). It does not reduce the latency of a single isolated word access (C is false)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — Binary Heaps",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a binary max-heap containing `n` distinct elements, where can the minimum element reside?",
+      "optionsEn": [
+        "At the root or its children",
+        "At any leaf node",
+        "At depth 1",
+        "Only at the last array index"
+      ],
+      "explanationEn": "Any internal node is greater than its children, so it cannot be the minimum. The minimum element can be at any leaf node (indices floor(n/2) to n - 1 in 0-based indexing)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — Queues",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A circular queue is implemented in an array of size `N` using indices `front` and `rear` (initially -1). If one slot is kept empty to distinguish full from empty, what is the maximum number of elements the queue can hold?",
+      "optionsEn": [
+        "N - 1",
+        "N",
+        "N + 1",
+        "N / 2"
+      ],
+      "explanationEn": "When using `(rear + 1) % N == front` as the full condition and `front == rear` as the empty condition, one array slot remains unused, yielding a capacity of N - 1 elements."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — C Programming (Output)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "What integer is printed by the following C program?\n```c\n#include <stdio.h>\nint fun(int n) {\n    static int c = 0;\n    c += n;\n    return c;\n}\nint main() {\n    int s = 0;\n    for (int i = 1; i <= 4; i++) s = fun(i);\n    printf(\"%d\", s);\n    return 0;\n}\n```",
+      "optionsEn": [],
+      "explanationEn": "Because `c` is `static`, it accumulates `1 + 2 + 3 + 4 = 10` across the four calls, so `s` becomes 10."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Algorithms — Minimum Spanning Tree",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the time complexity of Kruskal's MST algorithm on a connected graph with V vertices and E edges using Union-Find with path compression and union by rank?",
+      "optionsEn": [
+        "O(E log V)",
+        "O(VE)",
+        "O(V log E + E^2)",
+        "O(V^2)"
+      ],
+      "explanationEn": "Sorting the E edges takes O(E log E) = O(E log V) time (since E <= V^2), and the Union-Find operations take O(E α(V)), so sorting dominates at O(E log V)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Algorithms — Sorting",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the worst-case time complexity of Insertion Sort when the input array of size `n` is ALREADY sorted in ascending order?",
+      "optionsEn": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "explanationEn": "On an already-sorted array, each of the n - 1 elements is compared only once with its immediate predecessor and never shifted, taking O(n) time."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Algorithms — Divide and Conquer",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Strassen's matrix multiplication algorithm multiplies two n × n matrices by making how many recursive multiplications of (n/2) × (n/2) submatrices?",
+      "optionsEn": [
+        "7",
+        "8",
+        "4",
+        "6"
+      ],
+      "explanationEn": "Strassen reduces the 8 recursive submatrix multiplications of naive divide-and-conquer to 7, yielding T(n) = 7T(n/2) + Θ(n^2) = Θ(n^(log2 7)) ≈ Θ(n^2.807)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "TOC — Turing Machine Variants",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following modifications to a standard single-tape deterministic Turing Machine strictly INCREASES the class of languages it can recognize?",
+      "optionsEn": [
+        "Adding 3 extra tapes",
+        "Allowing nondeterministic transitions",
+        "Allowing a two-way infinite tape",
+        "None of the above — all recognize the exact same class of RE languages"
+      ],
+      "explanationEn": "Multi-tape, nondeterministic, and two-way infinite-tape Turing Machines can all be simulated by a standard single-tape deterministic TM, so they all recognize the exact same class of RE languages."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "TOC — Chomsky Hierarchy",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Chomsky hierarchy, which class of grammars corresponds directly to Context-Free Languages (Type-2)?",
+      "optionsEn": [
+        "Unrestricted productions α -> β",
+        "Productions of the form A -> aB or A -> a only",
+        "Productions of the form α -> β where |α| <= |β|",
+        "Productions of the form A -> α where A is a single non-terminal and α ∈ (V ∪ Σ)*"
+      ],
+      "explanationEn": "Type-2 (Context-Free) grammars restrict the left-hand side of every production to a single non-terminal symbol `A`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Compiler Design — LR Parsers Hierarchy",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following correctly represents the strict inclusion hierarchy of grammar classes?",
+      "optionsEn": [
+        "LR(0) ⊂ SLR(1) ⊂ LALR(1) ⊂ CLR(1)",
+        "LR(0) ⊂ LALR(1) ⊂ SLR(1) ⊂ CLR(1)",
+        "SLR(1) ⊂ LR(0) ⊂ LALR(1) ⊂ CLR(1)",
+        "CLR(1) ⊂ LALR(1) ⊂ SLR(1) ⊂ LR(0)"
+      ],
+      "explanationEn": "Every LR(0) grammar is SLR(1), every SLR(1) grammar is LALR(1), and every LALR(1) grammar is CLR(1) (Canonical LR(1))."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Compiler Design — Lexical Analysis (Token Count)",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "How many tokens does a standard C lexical analyzer produce for the statement: `int sum = a + 10;`?",
+      "optionsEn": [],
+      "explanationEn": "Tokens: `int` (1), `sum` (2), `=` (3), `a` (4), `+` (5), `10` (6), `;` (7) — a total of 7 tokens."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "OS — Deadlocks",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following is NOT one of the four necessary (Coffman) conditions for a deadlock to occur?",
+      "optionsEn": [
+        "Starvation",
+        "Hold and Wait",
+        "Mutual Exclusion",
+        "Circular Wait"
+      ],
+      "explanationEn": "The four Coffman conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Starvation is indefinite postponement, not a necessary condition for deadlock."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "OS — Page Table Size",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "A 32-bit virtual address space uses 4 KB pages and each Page Table Entry (PTE) is 4 bytes. What is the maximum size of a single-level page table for one process in megabytes (1 MB = 2^20 bytes)?",
+      "optionsEn": [],
+      "explanationEn": "Number of pages = `2^32 / 2^12 = 2^20` entries. Page table size = `2^20 × 4 bytes = 4 MB`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "DBMS — Indexing",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A sparse index can ONLY be constructed on a file that is:",
+      "optionsEn": [
+        "Unsorted (heap file)",
+        "Hashed on a non-key attribute",
+        "Physically ordered (sorted) on the search key attribute",
+        "Stored entirely in RAM"
+      ],
+      "explanationEn": "A sparse index stores only one entry per disk block (typically the first key of the block), which relies on records being physically sorted by the search key to locate keys within a block."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "DBMS — Binary Search on Ordered File",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "An ordered data file occupies 1000 disk blocks (without an index). What is the maximum number of block accesses needed by binary search to find a record by its ordering key?",
+      "optionsEn": [],
+      "explanationEn": "Worst-case block reads = `ceil(log2(1000)) = 10` (since `2^9 = 512 < 1000 <= 1024 = 2^10`)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "DBMS — Timestamp Ordering",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Wait-Die deadlock prevention scheme using transaction timestamps (older = smaller timestamp), when an OLDER transaction `T_old` requests a lock held by a YOUNGER transaction `T_young`:",
+      "optionsEn": [
+        "T_young is immediately aborted (wounded)",
+        "Both transactions abort",
+        "T_old aborts (dies)",
+        "T_old waits for T_young"
+      ],
+      "explanationEn": "Wait-Die is non-preemptive: older waits for younger, while younger dies (aborts and restarts with the same timestamp) if requesting from older."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "CN — Application Layer",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which application-layer protocol is used to push email from a mail client to a mail server and between mail servers?",
+      "optionsEn": [
+        "SMTP",
+        "SNMP",
+        "POP3",
+        "IMAP"
+      ],
+      "explanationEn": "Simple Mail Transfer Protocol (SMTP) is a push protocol for sending/relaying email, whereas POP3 and IMAP are pull protocols for retrieving email from a mailbox."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "CN — IPv4 Header Length",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 500.0,
+      "natMax": 500.0,
+      "questionTextEn": "An IPv4 packet has the `IHL` (Internet Header Length) field set to decimal `7` and the `Total Length` field set to `528` bytes. How many bytes of payload (data) does the packet carry?",
+      "optionsEn": [],
+      "explanationEn": "`IHL` counts 32-bit (4-byte) words, so header length = `7 × 4 = 28` bytes. Payload = `528 - 28 = 500` bytes."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Engineering Mathematics — Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let A = [[1, 2], [2, 1]]. What is the eigenvector corresponding to the eigenvalue λ = -1?",
+      "optionsEn": [
+        "[1, 1]^T",
+        "[1, -1]^T",
+        "[1, 0]^T",
+        "[2, 1]^T"
+      ],
+      "explanationEn": "Solve (A - (-1)I)v = 0: [[2, 2], [2, 2]] [x, y]^T = 0 => x + y = 0 => v = [1, -1]^T."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Discrete Mathematics — Combinatorics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Catalan numbers C_n = (1/(n+1)) * C(2n, n) is/are TRUE?",
+      "optionsEn": [
+        "C_3 = 5",
+        "C_n counts the number of structurally distinct binary trees with n unlabeled nodes.",
+        "C_n counts the number of valid parenthesizations of n pairs of parentheses.",
+        "C_4 = 12"
+      ],
+      "explanationEn": "C_3 = (1/4)*C(6,3) = 20/4 = 5 (A). C_n counts unlabeled binary trees (B) and valid balanced parentheses (C). C_4 = (1/5)*C(8,4) = 70/5 = 14, not 12 (D false)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.47,
+      "natMax": 4.48,
+      "questionTextEn": "Two fair 6-sided dice are rolled. What is the expected value of the MAXIMUM of the two numbers shown? (Rounded to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "P(M = k) = (2k - 1)/36 for k = 1..6. E[M] = (1*1 + 2*3 + 3*5 + 4*7 + 5*9 + 6*11)/36 = (1 + 6 + 15 + 28 + 45 + 66)/36 = 161/36 ≈ 4.47."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Discrete Mathematics — Graph Theory",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the maximum number of edges in a simple bipartite graph with 11 vertices?",
+      "optionsEn": [
+        "30",
+        "25",
+        "36",
+        "55"
+      ],
+      "explanationEn": "A complete bipartite graph K_{a, b} with a + b = 11 has a*b edges, maximized when a and b are as equal as possible: a = 5, b = 6 => 5 * 6 = 30 edges."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.992,
+      "natMax": 0.992,
+      "questionTextEn": "In a system with 3 independent components connected in parallel, the system works if at least one component works. Each component fails independently with probability 0.2. What is the probability that the system works? (Rounded to three decimal places)",
+      "optionsEn": [],
+      "explanationEn": "P(system fails) = P(all 3 fail) = (0.2)^3 = 0.008. Thus P(system works) = 1 - 0.008 = 0.992."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Digital Logic — Timing Analysis",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two positive-edge-triggered D flip-flops FF1 and FF2 are connected in series with combinational logic between Q1 and D2. Each flip-flop has clock-to-Q delay t_cq = 2 ns, setup time t_su = 1.5 ns, and hold time t_h = 1.0 ns. The combinational logic has maximum delay 6.5 ns and minimum delay 0.5 ns. Clock skew from FF1 to FF2 is 0 ns. Which of the following is TRUE?",
+      "optionsEn": [
+        "Minimum clock period is 10.0 ns and there is a hold violation",
+        "Minimum clock period is 10.0 ns and there is no hold violation",
+        "Minimum clock period is 8.5 ns and there is no hold violation",
+        "Minimum clock period is 9.0 ns and there is a hold violation"
+      ],
+      "explanationEn": "Setup constraint: T >= t_cq + t_comb_max + t_su = 2 + 6.5 + 1.5 = 10.0 ns. Hold constraint: t_cq + t_comb_min >= t_h => 2 + 0.5 = 2.5 ns >= 1.0 ns, so there is no hold violation."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Digital Logic — MUX Implementation",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 4-to-1 MUX has select lines S1 = A, S0 = B and inputs I0 = C, I1 = C', I2 = C', I3 = C. Which Boolean function F(A, B, C) does the MUX implement?",
+      "optionsEn": [
+        "A ⊕ B ⊕ C",
+        "(A ⊕ B ⊕ C)'",
+        "A·B + B·C + C·A",
+        "A ⊕ B + C"
+      ],
+      "explanationEn": "For (A,B)=(0,0) -> C; (0,1) -> C'; (1,0) -> C'; (1,1) -> C. Checking: when A⊕B = 0 (00 or 11), output is C; when A⊕B = 1 (01 or 10), output is C'. Thus output = (A ⊕ B) ⊕ C = A ⊕ B ⊕ C."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "COA — Control Unit & Micro-operations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following micro-operations are part of a standard instruction fetch cycle?",
+      "optionsEn": [
+        "IR <- MDR",
+        "MDR <- M[MAR]",
+        "MAR <- PC",
+        "PC <- PC + instruction_length"
+      ],
+      "explanationEn": "Fetching an instruction transfers PC to MAR, reads memory into MDR, loads MDR into IR, and increments PC to the next instruction address."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "COA — Cache Tag Array Size",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 32-bit byte-addressable CPU has a 64 KB 4-way set-associative write-back cache with 32-byte blocks. Each cache entry stores a tag, 1 valid bit, and 1 dirty bit. What is the total size (in KB) of the tag+metadata directory (excluding LRU bits and data array)?",
+      "optionsEn": [
+        "4.75 KB",
+        "4.50 KB",
+        "5.00 KB",
+        "5.25 KB"
+      ],
+      "explanationEn": "Lines = 64 KB / 32 B = 2048. Sets = 2048 / 4 = 512 (9 index bits) and offset = 5 bits, so tag = 32 - 9 - 5 = 18 bits. Metadata per line = 18 + 1 + 1 = 20 bits. Total = 2048 × 20 / 8 = 5,120 bytes = 5.00 KB."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — Graph Adjacency Matrix Powers",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let `A` be the adjacency matrix of an undirected cycle graph `C_4` (vertices 0-1-2-3-0). What is the value of the diagonal entry `(A^2)[0][0]`?",
+      "optionsEn": [],
+      "explanationEn": "`(A^2)[i][j]` counts the number of walks of length 2 from `i` to `j`. For any vertex `i` in an undirected simple graph, `(A^2)[i][i]` equals `deg(i)`. In `C_4`, `deg(0) = 2`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — C Programming (Recursion Trace)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "What integer is printed by the following C program?\n```c\n#include <stdio.h>\nint f(int x, int y) {\n    if (y == 0) return x;\n    return f(x + y, y - 1);\n}\nint main() {\n    printf(\"%d\", f(3, 5));\n    return 0;\n}\n```",
+      "optionsEn": [],
+      "explanationEn": "`f(3, 5)` adds `5 + 4 + 3 + 2 + 1 = 15` to initial `x = 3`, returning `3 + 15 = 18`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — Stack Operations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "Consider a stack initially empty. An algorithm pushes integers `1` through `8` in order. Whenever the top of the stack is divisible by 3, it immediately pops two elements (or one if only one is on the stack) and adds them to `sum`. After processing `8`, what is the value of `sum`?",
+      "optionsEn": [],
+      "explanationEn": "Push 1, 2, 3 (top=3 div by 3): pop 3 and 2 (`sum = 5`, stack: `[1]`). Push 4, 5, 6 (top=6 div by 3): pop 6 and 5 (`sum = 5 + 11 = 16`, stack: `[1, 4]`). Push 7, 8 (neither div by 3). Final `sum = 16`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "PDS — C Programming (Recursion & Arrays)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about C arrays and pointers are TRUE?",
+      "optionsEn": [
+        "For an array `int a[10]`, `a[i]` is strictly equivalent to `*(a + i)` and `i[a]`",
+        "Passing an array `a` to a function passes a copy of the pointer to `a[0]`, not a copy of the entire array",
+        "`sizeof(a)` inside the function where `int a[10]` is declared returns `10 * sizeof(int)`",
+        "`a++` is a valid operation on an array name `int a[10]`"
+      ],
+      "explanationEn": "Array indexing is commutative via pointer addition (A), arrays decay to pointers when passed to functions (B), and `sizeof` on the original array returns total bytes (C). An array name is a non-modifiable lvalue, so `a++` is a compile error (D is false)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Algorithms — Master Theorem Applicability",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Why does the standard 3-case Master Theorem NOT apply directly to the recurrence `T(n) = 2T(n/2) + n / log n`?",
+      "optionsEn": [
+        "Because the recurrence has no asymptotic solution",
+        "Because b is not an integer",
+        "Because a < 1",
+        "Because f(n) = n / log n is smaller than n^(log2 2) = n, but NOT polynomially smaller (no ε > 0 satisfies n/log n = O(n^(1-ε)))"
+      ],
+      "explanationEn": "Case 1 requires `f(n) = O(n^(log_b a - ε))` for some constant `ε > 0`. Here `n / log n` differs from `n` only by a logarithmic factor, falling in the gap between Cases 1 and 2 (its solution is `Θ(n log log n)` by recursion tree)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Algorithms — Dijkstra with Binary Heap vs Adjacency Matrix",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a dense graph with `E = Θ(V^2)`, what are the time complexities of Dijkstra's algorithm implemented with (i) an array/adjacency matrix and (ii) a binary min-heap?",
+      "optionsEn": [
+        "(i) O(V^2), (ii) O(V^2 log V)",
+        "(i) O(V^3), (ii) O(V^2)",
+        "(i) O(V^2), (ii) O(V log V)",
+        "(i) O(V^2 log V), (ii) O(V^2)"
+      ],
+      "explanationEn": "Array implementation takes `O(V^2 + E) = O(V^2)`. Binary heap takes `O((V + E) log V) = O(V^2 log V)` when `E = Θ(V^2)`, making the simple array faster on dense graphs."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Algorithms — 0/1 Knapsack",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 28.0,
+      "natMax": 28.0,
+      "questionTextEn": "A 0/1 knapsack has capacity W = 10. Five items have (weight, value): (2, 6), (3, 8), (4, 12), (5, 14), (6, 16). What is the maximum total value that can be packed?",
+      "optionsEn": [],
+      "explanationEn": "Check combinations summing to <= 10: (2,6)+(3,8)+(5,14) = weight 10, value 28; (2,6)+(4,12)+(3,8) = weight 9, value 26; (4,12)+(6,16) = weight 10, value 28. Maximum achievable value is 28."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "TOC — Minimal DFA for Intersection",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Let `L1` be the set of all strings over `{a, b}` of length divisible by 2, and `L2` be the set of all strings over `{a, b}` of length divisible by 3. What is the minimum number of states in a DFA accepting `L1 ∩ L2`?",
+      "optionsEn": [],
+      "explanationEn": "`L1 ∩ L2` consists of all strings whose length is divisible by `lcm(2, 3) = 6`, requiring 6 states (`|w| mod 6`)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "TOC — Closure & Hierarchy",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let `L1` be a regular language, `L2` be a context-free language, and `L3` be a recursive language. Which of the following is ALWAYS a Context-Free Language?",
+      "optionsEn": [
+        "(L1 ∩ L2)'",
+        "L2 ∩ L3",
+        "(L2 ∩ L1) ∪ L1'",
+        "L2' ∩ L1"
+      ],
+      "explanationEn": "Since `L1` is regular, `L1'` is regular and `L2 ∩ L1` is a CFL. The union of a CFL and a regular language is always a CFL. Complements of CFLs (A, D) and intersections with recursive languages (B) need not be CFLs."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "TOC — Greibach Normal Form",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In Greibach Normal Form (GNF), every production of a CFG (without ε) has the form:",
+      "optionsEn": [
+        "A -> BC or A -> a",
+        "A -> aB or A -> ε",
+        "A -> aα where a ∈ Σ is a single terminal and α ∈ V* is a string of zero or more non-terminals",
+        "A -> αa where α ∈ V*"
+      ],
+      "explanationEn": "GNF requires every production right-hand side to begin with a single terminal followed by zero or more non-terminals, guaranteeing that every derivation step consumes one input symbol."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Compiler Design — Left Factoring Productions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "After left factoring the grammar `S -> a b c | a b d | a e`, how many total non-terminal symbols are needed (including `S`)?",
+      "optionsEn": [],
+      "explanationEn": "Factor `a`: `S -> a S1`, `S1 -> b S2 | e`, `S2 -> c | d`. Total non-terminals = 3 (`S, S1, S2`)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "Compiler Design — Shift-Reduce Parsing",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a Shift-Reduce parser, which of the following actions can appear in the `ACTION` table?",
+      "optionsEn": [
+        "Error",
+        "Shift `s_j` (push lookahead and state `j`)",
+        "Reduce `r_k` (pop RHS of production `k` and push LHS via GOTO)",
+        "Accept"
+      ],
+      "explanationEn": "The LR `ACTION[state, terminal]` table contains exactly these four types of entries: Shift, Reduce, Accept, and Error."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "OS — Multi-Level Paging Memory Accesses",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A system uses a 3-level page table and a TLB with an 80% hit rate. TLB lookup takes 5 ns and each main memory access takes 50 ns. What is the Effective Memory Access Time (EMAT) in nanoseconds (assuming no page faults)?",
+      "optionsEn": [
+        "85 ns",
+        "105 ns",
+        "95 ns",
+        "75 ns"
+      ],
+      "explanationEn": "TLB hit: `5 + 50 = 55 ns`. TLB miss: `5 + 3×50 (3 page-table levels) + 50 (data) = 205 ns`. EMAT = `0.80(55) + 0.20(205) = 44 + 41 = 85 ns`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "OS — Unix Inode Max File Size",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A Unix-style inode has 10 direct block pointers, 1 single-indirect pointer, and 1 double-indirect pointer. Disk block size is 1 KB (1024 bytes) and each block pointer is 4 bytes. What is the maximum file size?",
+      "optionsEn": [
+        "10 KB + 256 KB + 16 MB",
+        "12 KB + 256 KB + 64 MB",
+        "10 KB + 512 KB + 128 MB",
+        "10 KB + 256 KB + 64 MB"
+      ],
+      "explanationEn": "Pointers per block = `1024 / 4 = 256`. Direct = `10 × 1 KB = 10 KB`. Single indirect = `256 × 1 KB = 256 KB`. Double indirect = `256 × 256 × 1 KB = 65,536 KB = 64 MB`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "OS — Shortest Job First with Arrival Times",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "Four processes have (Arrival, Burst): P1(0, 6), P2(1, 3), P3(2, 1), P4(3, 2). Under NON-PREEMPTIVE SJF, what is the completion time of P4?",
+      "optionsEn": [],
+      "explanationEn": "At t=0 only P1 is present, so P1 runs `0..6`. At t=6, P2(3), P3(1), P4(2) have all arrived; shortest is P3 (`6..7`), next is P4 (`7..9`), then P2 (`9..12`). P4 completes at t = 9."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "DBMS — Minimal Cover (Canonical Cover)",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given the set of FDs `F = {A -> B, B -> C, A -> C, AB -> D}`, what is a minimal (canonical) cover of `F`?",
+      "optionsEn": [
+        "{A -> B, B -> C, A -> D}",
+        "{A -> B, B -> C, AB -> D}",
+        "{A -> B, A -> C, A -> D}",
+        "{A -> B, B -> C, C -> D}"
+      ],
+      "explanationEn": "`A -> C` is redundant (implied by `A -> B` and `B -> C`). In `AB -> D`, `B` is extraneous on the LHS because `A -> B`, simplifying `AB -> D` to `A -> D`. Thus minimal cover is `{A -> B, B -> C, A -> D}`."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q61",
+      "questionNumber": 61,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "DBMS — Concurrency Control Protocols",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following concurrency control protocols are GUARANTEED to be deadlock-free?",
+      "optionsEn": [
+        "Basic Timestamp Ordering (BTO)",
+        "Wait-Die",
+        "Wound-Wait",
+        "Basic Two-Phase Locking (Basic 2PL)"
+      ],
+      "explanationEn": "Timestamp ordering, Wait-Die, and Wound-Wait prevent wait cycles using timestamps (deadlock-free, though they may abort/restart transactions). Basic 2PL can deadlock (D is false)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q62",
+      "questionNumber": 62,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "DBMS — Dense vs Sparse Index Search",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A sorted file has 10,000 records stored across 1,000 disk blocks (10 records/block). A single-level index block holds 100 entries. How many index blocks are needed for a sparse primary index vs. a dense secondary index?",
+      "optionsEn": [
+        "Sparse: 100 blocks; Dense: 10 blocks",
+        "Sparse: 100 blocks; Dense: 100 blocks",
+        "Sparse: 10 blocks; Dense: 10 blocks",
+        "Sparse: 10 blocks; Dense: 100 blocks"
+      ],
+      "explanationEn": "Sparse index has 1 entry per data block = 1,000 entries -> `1000 / 100 = 10` blocks. Dense index has 1 entry per record = 10,000 entries -> `10000 / 100 = 100` blocks."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q63",
+      "questionNumber": 63,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "CN — TCP Sequence Number Wrap-Around Time",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 34.2,
+      "natMax": 34.5,
+      "questionTextEn": "A TCP connection transmits continuously at 1 Gbps (`10^9` bits/s) using 32-bit sequence numbers (`2^32` bytes). Approximately how many seconds does it take for the TCP sequence number space to wrap around once? (Round to 1 decimal place.)",
+      "optionsEn": [],
+      "explanationEn": "`2^32 bytes = 4,294,967,296 bytes = 34,359,738,368 bits`. At `10^9` bits/s, wrap-around time = `34.3597... ≈ 34.4` seconds."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q64",
+      "questionNumber": 64,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "CN — Distance Vector Hop Limit",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "In Routing Information Protocol (RIP), what hop count value represents 'infinity' (unreachable destination)?",
+      "optionsEn": [],
+      "explanationEn": "RIP limits valid paths to 15 hops and reserves hop count `16` to represent infinity (unreachable)."
+    },
+    {
+      "questionId": "gate_cs_mock_05_q65",
+      "questionNumber": 65,
+      "sectionId": "sec_cs",
+      "sectionTitle": "Computer Science and Information Technology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS • Full Mock 05",
+      "topicTag": "CN — Selective Repeat Throughput with Loss",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.25,
+      "natMax": 1.25,
+      "questionTextEn": "A Selective Repeat sender sends frames continuously over a channel where each frame has an independent loss probability of `p = 0.2`. On average, how many total transmissions (original + retransmissions) are required per successfully delivered frame?",
+      "optionsEn": [],
+      "explanationEn": "Number of attempts follows a geometric distribution with success probability `1 - p = 0.8`, so expected transmissions per frame = `1 / (1 - p) = 1 / 0.8 = 1.25`."
+    }
+  ]
+}

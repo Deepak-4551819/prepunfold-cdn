@@ -1,0 +1,572 @@
+{
+  "testId": "gate_cs_topic_dl_02",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_dl_02",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Digital Logic (Set 2)",
+  "titleEn": "GATE CS Topic Test — Digital Logic (Set 2)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_03_dl",
+  "part_id": "part_03_dl",
+  "partTitle": "Digital Logic",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "sectionTitleEn": "Digital Logic",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_dl_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Carry Lookahead Adder",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 4-bit Carry Lookahead Adder (CLA), the carry generate signal Gi and carry propagate signal Pi for bit position i with inputs Ai, Bi are defined as:",
+      "optionsEn": [
+        "Gi = Ai · Bi, Pi = (Ai ⊕ Bi)'",
+        "Gi = Ai ⊕ Bi, Pi = Ai · Bi",
+        "Gi = Ai · Bi, Pi = Ai ⊕ Bi",
+        "Gi = Ai + Bi, Pi = Ai · Bi"
+      ],
+      "explanationEn": "A bit position generates a carry independently of Cin when both inputs are 1 (Gi = Ai · Bi), and propagates an incoming carry when at least one (or exactly one) input is 1 (Pi = Ai ⊕ Bi, or Ai + Bi)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Combinational Circuits",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 4-to-1 multiplexer has select lines S1 and S0 connected to A and B respectively, and data inputs I0 = 0, I1 = 1, I2 = 1, I3 = 0. Which Boolean function does the MUX output realize?",
+      "optionsEn": [
+        "A · B",
+        "A ⊕ B",
+        "A + B",
+        "A ⊙ B (XNOR)"
+      ],
+      "explanationEn": "The output is A'B'(0) + A'B(1) + AB'(1) + AB(0) = A'B + AB' = A ⊕ B."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Propagation Delay",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 34.0,
+      "natMax": 34.0,
+      "questionTextEn": "An 8-bit ripple-carry adder is built from 8 full adders. Each full adder takes 4 ns to produce its carry-out (Cout) and 6 ns to produce its sum (S) after all inputs are valid. Assuming all A_i, B_i, and C_0 arrive at t = 0, at what time (in ns) is the final sum bit S_7 guaranteed to be valid?",
+      "optionsEn": [],
+      "explanationEn": "Carry C_7 arrives at the 8th full adder after 7 carry stages: 7 × 4 ns = 28 ns. Then the 8th full adder takes 6 ns to compute S_7, so S_7 is valid at 28 + 6 = 34 ns."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Number Representation",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The range of integers representable in n-bit 1's complement representation is:",
+      "optionsEn": [
+        "0 to 2^n - 1",
+        "-(2^n - 1) to +(2^n - 1)",
+        "-(2^(n-1) - 1) to +(2^(n-1) - 1)",
+        "-(2^(n-1)) to +(2^(n-1) - 1)"
+      ],
+      "explanationEn": "1's complement has two representations for zero (+0 and -0), leaving symmetric positive and negative ranges from -(2^(n-1) - 1) to +(2^(n-1) - 1)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Sequential Circuits",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the characteristic equation of a T (Toggle) flip-flop?",
+      "optionsEn": [
+        "Q(t+1) = T + Q(t)",
+        "Q(t+1) = T · Q(t)'",
+        "Q(t+1) = T",
+        "Q(t+1) = T ⊕ Q(t)"
+      ],
+      "explanationEn": "When T = 0, Q(t+1) = Q(t); when T = 1, Q(t+1) = Q(t)'. This matches Q(t+1) = T·Q(t)' + T'·Q(t) = T ⊕ Q(t)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Hexadecimal Arithmetic",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 105.0,
+      "natMax": 105.0,
+      "questionTextEn": "In 8-bit unsigned hexadecimal arithmetic, what is the decimal value of the sum (3A)_16 + (2F)_16?",
+      "optionsEn": [],
+      "explanationEn": "(3A)_16 = 3×16 + 10 = 58 and (2F)_16 = 2×16 + 15 = 47. Their sum is 58 + 47 = 105 (which is 69_16)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Finite State Machines",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a Mealy finite state machine, the output depends on:",
+      "optionsEn": [
+        "Both the present state and the present inputs",
+        "Only the present state",
+        "Only the previous outputs",
+        "Only the present inputs"
+      ],
+      "explanationEn": "A Mealy machine's output is a function of both its current state and current external inputs, whereas a Moore machine's output depends solely on its current state."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Universal Gates",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the minimum number of 2-input NOR gates required to implement a 2-input XOR gate (assuming complemented inputs are not available)?",
+      "optionsEn": [
+        "4",
+        "7",
+        "5",
+        "6"
+      ],
+      "explanationEn": "An XNOR gate takes 4 two-input NOR gates, and adding one more NOR gate wired as an inverter produces XOR, giving a minimum of 5 two-input NOR gates."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Logic Gates",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "A logic circuit implements F = ((A ⊕ B) ⊕ C) ⊕ D. For how many of the 16 possible 4-bit input combinations (A, B, C, D) does F evaluate to 1?",
+      "optionsEn": [],
+      "explanationEn": "The 4-variable XOR function outputs 1 whenever the number of 1s in (A, B, C, D) is odd. Exactly half of all 2^4 = 16 input combinations have odd parity, which is 8."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — K-Maps",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "For the 3-variable Boolean function F(A, B, C) = Σm(0, 2, 4, 6), what is the minimum number of literals required in its simplified SOP expression?",
+      "optionsEn": [],
+      "explanationEn": "Minterms 0, 2, 4, 6 correspond to all combinations where C = 0. Thus F(A, B, C) = C', which uses just 1 literal."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Number Representation",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In IEEE 754 single-precision floating-point arithmetic, what is the spacing (ULP, unit in the last place) between consecutive representable floating-point numbers in the interval [16.0, 32.0)?",
+      "optionsEn": [
+        "2^-23",
+        "2^-20",
+        "2^-18",
+        "2^-19"
+      ],
+      "explanationEn": "For numbers in [2^4, 2^5), the exponent is e = 4 and there are 23 fraction bits. The spacing between adjacent representable numbers is 2^(e - 23) = 2^(4 - 23) = 2^-19."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Sequential Circuits",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A JK flip-flop has J = Q' and K = 1. If Q = 0 initially, what is the sequence of Q after 1, 2, 3, and 4 clock pulses?",
+      "optionsEn": [
+        "1, 0, 0, 0",
+        "1, 0, 1, 0",
+        "0, 1, 0, 1",
+        "1, 1, 1, 1"
+      ],
+      "explanationEn": "When Q=0: J=1, K=1 (toggle) -> Q_next = 1. When Q=1: J=0, K=1 (reset) -> Q_next = 0. Thus Q alternates 1, 0, 1, 0 on successive clock edges."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — K-Maps with Don't Cares",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the Boolean function F(A, B, C, D) = Σm(0, 1, 2, 5, 8, 9, 10) + Σd(4, 14). What is the minimal SOP expression for F?",
+      "optionsEn": [
+        "B'D' + A'C' + B'C'",
+        "B'D' + B'C' + A'C'D",
+        "B'D' + B'C' + C'D",
+        "B'D' + A'B' + A'C'D"
+      ],
+      "explanationEn": "Grouping (0, 2, 8, 10) gives B'D'; grouping (0, 1, 8, 9) gives B'C'; and using don't-care m4, grouping (0, 1, 4, 5) forms a quad giving A'C'. Thus the minimal SOP is B'D' + A'C' + B'C'."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Ripple vs CLA Adder",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 4-bit Carry Lookahead Adder, the Boolean expression for the carry-out C4 in terms of P0..P3, G0..G3, and C0 contains how many product terms when expanded in standard SOP form?",
+      "optionsEn": [
+        "8",
+        "5",
+        "16",
+        "4"
+      ],
+      "explanationEn": "C4 = G3 + P3G2 + P3P2G1 + P3P2P1G0 + P3P2P1P0C0, which has exactly 5 product terms."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Synchronous Counter Timing",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 43.45,
+      "natMax": 43.5,
+      "questionTextEn": "A 4-bit synchronous binary counter is built using JK flip-flops with t_cq = 10 ns and t_su = 5 ns. The combinational AND gates feeding the J and K inputs have a worst-case path delay of 8 ns. What is the maximum clock frequency (in MHz, rounded to 2 decimal places) of this counter?",
+      "optionsEn": [],
+      "explanationEn": "Minimum clock period T_min = t_cq + t_comb + t_su = 10 + 8 + 5 = 23 ns. Maximum frequency f_max = 1 / (23 × 10^-9 s) = 43.478... MHz."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Multiplexer Tree",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 21.0,
+      "natMax": 21.0,
+      "questionTextEn": "What is the minimum number of 4-to-1 multiplexers required to build a 64-to-1 multiplexer?",
+      "optionsEn": [],
+      "explanationEn": "Level 1 needs 64/4 = 16 MUXes, Level 2 needs 16/4 = 4 MUXes, and Level 3 needs 4/4 = 1 MUX. Total = 16 + 4 + 1 = 21."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Combinational Hazards",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the SOP circuit F = A·B + A'·C. When B = 1, C = 1, and A transitions from 1 to 0, a static-1 hazard can occur. Adding which consensus term eliminates this static-1 hazard?",
+      "optionsEn": [
+        "B · C",
+        "B' · C'",
+        "A · C",
+        "A' · B"
+      ],
+      "explanationEn": "When B = C = 1, F should stay 1 across A: 1 -> 0, but inverter delay on A' can momentarily make both A·B and A'·C equal 0. Adding the consensus term B·C holds F = 1 throughout the transition."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Propagation Delay in MUX",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 13.0,
+      "natMax": 13.0,
+      "questionTextEn": "A 16-to-1 MUX is constructed as a balanced binary tree of 2-to-1 MUXes. Each 2-to-1 MUX has a propagation delay of 3 ns from data input to output and 4 ns from select input to output. If all data and select inputs arrive simultaneously at t = 0, what is the worst-case propagation delay (in ns) from input to final output?",
+      "optionsEn": [],
+      "explanationEn": "There are 4 levels of 2-to-1 MUXes. At Level 1, the output settles at max(3, 4) = 4 ns. Each of the remaining 3 levels adds 3 ns along the data path (since select lines are already valid at t = 0). Total delay = 4 + 3×3 = 13 ns."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Fixed-Point Arithmetic",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two 5-bit 2's complement numbers A = 10110 and B = 10101 are added. What are the 5-bit sum and the signed overflow status?",
+      "optionsEn": [
+        "Sum = 01011, Overflow = Yes",
+        "Sum = 11011, Overflow = No",
+        "Sum = 01011, Overflow = No",
+        "Sum = 11011, Overflow = Yes"
+      ],
+      "explanationEn": "A = -10 and B = -11. Their true sum is -21, which is outside the 5-bit signed range [-16, +15]. Binary addition gives 10110 + 10101 = (1)01011 (positive result from two negative operands), so signed overflow occurs."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 2)",
+      "topicTag": "Digital Logic — Canonical Forms",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let F(A, B, C) = ΠM(1, 3, 5, 7). What is the simplified expression for F?",
+      "optionsEn": [
+        "C'",
+        "C",
+        "A' + B'",
+        "A · B"
+      ],
+      "explanationEn": "The maxterms 1, 3, 5, 7 are all combinations where C = 1, meaning F = 0 whenever C = 1 and F = 1 whenever C = 0. Hence F(A, B, C) = C'."
+    }
+  ]
+}

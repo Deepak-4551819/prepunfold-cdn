@@ -1,0 +1,571 @@
+{
+  "testId": "gate_cs_topic_dbms_01",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_dbms_01",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Databases (DBMS) (Set 1)",
+  "titleEn": "GATE CS Topic Test — Databases (DBMS) (Set 1)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_10_dbms",
+  "part_id": "part_10_dbms",
+  "partTitle": "Databases (DBMS)",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "sectionTitleEn": "Databases (DBMS)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_dbms_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — SQL Joins",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What does a `LEFT OUTER JOIN` between tables `A` and `B` return?",
+      "optionsEn": [
+        "The Cartesian product of A and B",
+        "All rows from B, with matching rows from A",
+        "All rows from A, with matching rows from B (or NULLs for B's columns when no match exists)",
+        "Only rows that match in both A and B"
+      ],
+      "explanationEn": "A `LEFT OUTER JOIN` preserves every tuple of the left relation `A`, padding unmatched tuples with `NULL`s for attributes of `B`."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Locking Protocols",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Strict Two-Phase Locking (Strict 2PL) guarantees:",
+      "optionsEn": [
+        "Conflict serializability and strictness (cascadeless + recoverable), but NOT freedom from deadlock",
+        "Freedom from deadlock, but not conflict serializability",
+        "Neither serializability nor recoverability",
+        "Both conflict serializability and complete freedom from deadlock"
+      ],
+      "explanationEn": "Holding all exclusive locks until commit/abort guarantees conflict serializability and strict schedules, but two transactions can still wait on each other's locks (deadlock)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — ER to Relational Mapping",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "When mapping an ER diagram to relational tables, which of the following rules are CORRECT?",
+      "optionsEn": [
+        "A Many-to-Many (M:N) binary relationship MUST be mapped to a separate junction table containing the primary keys of both entities",
+        "A multivalued attribute of an entity is mapped to a separate table containing the entity's primary key and the attribute",
+        "A 1:N binary relationship with total participation on the N-side can be merged into the N-side entity's table without creating a separate relationship table",
+        "A weak entity set is always merged into its owner's table"
+      ],
+      "explanationEn": "M:N relationships and multivalued attributes require separate tables (A, B), and 1:N relationships merge cleanly into the N-side table (C). A weak entity gets its OWN table containing its partial key + owner's primary key (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — SQL Query Result",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Table `T(x)` contains values `{10, 20, 20, 30, NULL}`. What integer is returned by `SELECT COUNT(DISTINCT x) FROM T;`?",
+      "optionsEn": [],
+      "explanationEn": "`COUNT(DISTINCT x)` ignores `NULL` and counts unique non-null values `{10, 20, 30}` -> 3."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Concurrent Schedules Count",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "Two transactions `T1` (with 2 operations) and `T2` (with 3 operations) execute concurrently. How many total distinct concurrent schedules (including serial schedules) can be formed?",
+      "optionsEn": [],
+      "explanationEn": "Number of interleavings = `(2 + 3)! / (2! × 3!) = 120 / 12 = 10` schedules."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — SQL (NULL Semantics)",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In standard SQL three-valued logic, what does the expression `COUNT(*)` vs `COUNT(salary)` return on a table with 5 rows where 2 rows have `salary = NULL`?",
+      "optionsEn": [
+        "COUNT(*) = 5, COUNT(salary) = 5",
+        "COUNT(*) = 5, COUNT(salary) = 3",
+        "COUNT(*) = 5, COUNT(salary) = NULL",
+        "COUNT(*) = 3, COUNT(salary) = 3"
+      ],
+      "explanationEn": "`COUNT(*)` counts all rows regardless of NULLs (5), whereas `COUNT(col)` ignores NULL values in `col`, returning 3."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Functional Dependencies & Armstrong's Axioms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following inference rules for Functional Dependencies are SOUND (always valid)?",
+      "optionsEn": [
+        "If X -> Y and Y -> Z, then X -> Z (Transitivity)",
+        "If X -> YZ, then X -> Y and X -> Z (Decomposition)",
+        "If X -> Y, then XZ -> YZ (Augmentation)",
+        "If XY -> Z, then X -> Z and Y -> Z"
+      ],
+      "explanationEn": "Transitivity, Decomposition, and Augmentation are sound rules derived from Armstrong's axioms. Decomposing the LHS (`XY -> Z` implying `X -> Z`) is UNSOUND (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Decomposition Properties",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which statement accurately compares 3NF and BCNF decompositions of an arbitrary relation schema?",
+      "optionsEn": [
+        "Every relation has a lossless-join, dependency-preserving decomposition into 3NF, whereas BCNF always has a lossless-join decomposition but may NOT preserve all dependencies",
+        "BCNF always preserves all dependencies, whereas 3NF may not",
+        "Neither 3NF nor BCNF guarantees a lossless join",
+        "3NF eliminates all redundancy caused by functional dependencies"
+      ],
+      "explanationEn": "3NF synthesis guarantees both lossless join and dependency preservation; BCNF guarantees lossless join and eliminates FD-based redundancy, but sometimes sacrifices dependency preservation."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Cartesian Product",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 30.0,
+      "natMax": 30.0,
+      "questionTextEn": "Relation `R` has 4 attributes and 6 tuples; relation `S` has 3 attributes and 5 tuples. How many tuples are in `R × S`?",
+      "optionsEn": [],
+      "explanationEn": "Cardinality of Cartesian product = `|R| × |S| = 6 × 5 = 30` tuples."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — SQL",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In SQL, what is the difference between the `WHERE` clause and the `HAVING` clause?",
+      "optionsEn": [
+        "They are completely interchangeable in all queries",
+        "`WHERE` filters rows before grouping; `HAVING` filters groups after `GROUP BY`",
+        "`HAVING` filters rows before grouping; `WHERE` filters groups after `GROUP BY`",
+        "`WHERE` can use aggregate functions like `SUM()`, while `HAVING` cannot"
+      ],
+      "explanationEn": "`WHERE` applies predicates to individual tuples before aggregation, whereas `HAVING` applies predicates (often involving aggregate functions) to the grouped results produced by `GROUP BY`."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Precedence Graph Edges",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Consider schedule `S: R1(X), W2(X), R3(X), W1(Y), R2(Y)`. How many distinct directed edges exist in the conflict precedence graph of `S`?",
+      "optionsEn": [],
+      "explanationEn": "Conflicts on X: (R1(X), W2(X)) gives T1 -> T2 and (W2(X), R3(X)) gives T2 -> T3. Conflict on Y: (W1(Y), R2(Y)) also gives T1 -> T2. Thus there are exactly 2 distinct directed edges: T1 -> T2 and T2 -> T3."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — SQL `GROUP BY` Output Rows",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Table `Orders(oid, cid, status)` has 6 rows: `(1, 10, 'OPEN'), (2, 10, 'CLOSED'), (3, 10, 'OPEN'), (4, 20, 'OPEN'), (5, 20, 'OPEN'), (6, 30, 'CLOSED')`. How many rows are returned by `SELECT cid, status, COUNT(*) FROM Orders GROUP BY cid, status;`?",
+      "optionsEn": [],
+      "explanationEn": "Distinct `(cid, status)` groups are `(10, OPEN)`, `(10, CLOSED)`, `(20, OPEN)`, and `(30, CLOSED)` — 4 rows."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — B+ Tree Minimum Keys in Non-Root Node",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "A B+ tree internal node has order `p = 11` (maximum 11 child pointers and 10 search keys). What is the MINIMUM number of search keys a non-root internal node must contain?",
+      "optionsEn": [],
+      "explanationEn": "Minimum child pointers in a non-root internal node = `ceil(p / 2) = ceil(11 / 2) = 6`. Minimum keys = `6 - 1 = 5`."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Minimal Cover FDs Count",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Given `F = {A -> B, B -> C, C -> A, A -> C, B -> A, C -> B}`, what is the MINIMUM number of functional dependencies (with single attributes on the RHS) required in an equivalent minimal cover?",
+      "optionsEn": [],
+      "explanationEn": "A cycle of 3 single-attribute FDs `{A -> B, B -> C, C -> A}` implies all 6 FDs by transitivity, and removing any one breaks the cycle. Minimum = 3 FDs."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Log-Based Recovery (Checkpoint)",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A system uses immediate-update (Undo/Redo) logging with checkpointing. At the time of a crash, the log contains:\n`<T1 start>, <T1, X, 10, 20>, <T1 commit>, <T2 start>, <T2, Y, 5, 15>, <CHECKPOINT {T2}>, <T3 start>, <T3, Z, 1, 2>, <T2 commit>, <T4 start>, <T4, W, 3, 4>` (crash).\nWhich transactions must be REDONE and which must be UNDONE during recovery?",
+      "optionsEn": [
+        "REDO: {T2, T3}; UNDO: {T4}",
+        "REDO: {T1, T2}; UNDO: {T3, T4}",
+        "REDO: {T2}; UNDO: {T3, T4}",
+        "REDO: {T2}; UNDO: {T4}"
+      ],
+      "explanationEn": "`T1` committed before the checkpoint (already flushed to disk -> no action). `T2` was active at the checkpoint and committed before crash -> REDO. `T3` and `T4` started after checkpoint and never committed -> UNDO."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Relational Algebra Equivalence",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following relational algebra expressions is ALWAYS equivalent to `σ_{P1 ∧ P2}(R ⋈ S)` when predicate `P1` references only attributes of `R` and `P2` references only attributes of `S`?",
+      "optionsEn": [
+        "σ_{P1}(R) ⋈ σ_{P2}(S)",
+        "σ_{P1}(R) ∪ σ_{P2}(S)",
+        "σ_{P1}(R) × σ_{P2}(S)",
+        "σ_{P2}(R) ⋈ σ_{P1}(S)"
+      ],
+      "explanationEn": "Pushing selections down before joins (`σ_{P1}(R) ⋈ σ_{P2}(S)`) yields the exact same result while dramatically reducing intermediate tuple sizes in query optimization."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Highest Normal Form",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider relation `R(A, B, C, D)` with functional dependencies `{AB -> C, C -> D, D -> A}`. What is the HIGHEST normal form satisfied by `R`?",
+      "optionsEn": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "explanationEn": "Candidate keys: `AB`, `BC`, `BD` (check: `BC+ = BCDA`, `BD+ = BDAC`, `AB+ = ABCD`). Prime attributes are `{A, B, C, D}` — ALL attributes are prime! Since every RHS is prime, `R` satisfies 3NF. However, `C -> D` and `D -> A` do not have superkeys on their LHS, so `R` is NOT in BCNF. Highest normal form = 3NF."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Wound-Wait Protocol",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Wound-Wait deadlock prevention scheme, when an OLDER transaction `T_old` requests a lock currently held by a YOUNGER transaction `T_young`:",
+      "optionsEn": [
+        "T_old is aborted and restarted with a newer timestamp",
+        "T_young is preempted (aborted/wounded) and restarted with its original timestamp",
+        "T_old waits for T_young",
+        "Both transactions wait"
+      ],
+      "explanationEn": "Wound-Wait is preemptive: older wounds (aborts) younger, while younger waits for older. Restarting aborted transactions with their original timestamp prevents starvation."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — Recovery Undo/Redo Count",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "In an Undo/Redo recovery log after a crash, 5 transactions were active at the last checkpoint: 2 of them committed before the crash and 3 never committed. Additionally, 4 new transactions started after the checkpoint: 3 committed and 1 did not. How many total transactions must be REDONE during recovery?",
+      "optionsEn": [],
+      "explanationEn": "All transactions active at or started after the checkpoint that committed before the crash must be REDONE: `2 + 3 = 5` transactions."
+    },
+    {
+      "questionId": "gate_cs_topic_dbms_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_dbms",
+      "sectionTitle": "Databases (DBMS)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Databases (DBMS) (Set 1)",
+      "topicTag": "DBMS — SQL `EXISTS` vs `IN`",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which SQL query finds all departments in `Dept(dno, dname)` that have NO employees in `Emp(eid, dno)`?",
+      "optionsEn": [
+        "`SELECT dno FROM Dept d WHERE NOT EXISTS (SELECT 1 FROM Emp e WHERE e.dno = d.dno);`",
+        "`SELECT d.dno FROM Dept d JOIN Emp e ON d.dno <> e.dno;`",
+        "`SELECT dno FROM Dept d WHERE EXISTS (SELECT 1 FROM Emp e WHERE e.dno <> d.dno);`",
+        "`SELECT dno FROM Dept INTERSECT SELECT dno FROM Emp;`"
+      ],
+      "explanationEn": "`NOT EXISTS` checks that no matching row exists in `Emp` for `d.dno` (and safely handles `NULL`s in `Emp.dno`, unlike `NOT IN`)."
+    }
+  ]
+}

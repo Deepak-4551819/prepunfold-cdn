@@ -1,0 +1,616 @@
+{
+  "testId": "gate_cs_topic_dl_01",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_dl_01",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Digital Logic (Set 1)",
+  "titleEn": "GATE CS Topic Test — Digital Logic (Set 1)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_03_dl",
+  "part_id": "part_03_dl",
+  "partTitle": "Digital Logic",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "sectionTitleEn": "Digital Logic",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_dl_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Combinational Circuits",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about decoders and multiplexers are TRUE?",
+      "optionsEn": [
+        "A 3-to-8 decoder has 8 select lines and 3 outputs",
+        "Any Boolean function of n variables can be implemented using a 2^(n-1)-to-1 MUX and at most one inverter",
+        "A demultiplexer with its data input tied to logic 1 functions as a decoder",
+        "An n-to-2^n active-high decoder generates all 2^n minterms of its n input variables"
+      ],
+      "explanationEn": "An n-to-2^n decoder outputs all minterms, a 2^(n-1)-to-1 MUX can realize any n-variable function using Shannon expansion, and a 1-to-2^n DEMUX with data=1 acts as an n-to-2^n decoder. A 3-to-8 decoder has 3 inputs and 8 outputs, making C false."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Sequential Circuits",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which flip-flop eliminates the invalid/forbidden input state present in an SR flip-flop by toggling its output when both inputs are 1?",
+      "optionsEn": [
+        "Gated SR latch",
+        "JK flip-flop",
+        "D flip-flop",
+        "T flip-flop"
+      ],
+      "explanationEn": "A JK flip-flop behaves like an SR flip-flop for (0,0), (0,1), and (1,0), and toggles Q -> Q' when J = 1 and K = 1, removing the indeterminate state."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — IEEE 754 Floating Point",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In IEEE 754 single-precision (32-bit) floating-point format, what is the exponent bias and how many bits are allocated to the mantissa (fraction) field?",
+      "optionsEn": [
+        "Bias = 1023, Mantissa = 52 bits",
+        "Bias = 127, Mantissa = 24 bits",
+        "Bias = 128, Mantissa = 23 bits",
+        "Bias = 127, Mantissa = 23 bits"
+      ],
+      "explanationEn": "IEEE 754 binary32 uses 1 sign bit, 8 exponent bits (bias = 2^7 - 1 = 127), and 23 explicit fraction/mantissa bits (with 1 implicit leading bit for normalized numbers)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Combinational Circuits",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A half-adder can be implemented using:",
+      "optionsEn": [
+        "One XOR gate and one AND gate",
+        "One XOR gate and one OR gate",
+        "Two AND gates and one OR gate",
+        "One XNOR gate and one NAND gate"
+      ],
+      "explanationEn": "For inputs A and B, a half-adder produces Sum = A ⊕ B (XOR) and Carry = A · B (AND)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — 2's Complement Arithmetic",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider addition of two n-bit signed integers in 2's complement representation. Which of the following statements are ALWAYS TRUE?",
+      "optionsEn": [
+        "Overflow can never occur when adding two numbers of opposite signs",
+        "Overflow occurs if and only if the carry into the MSB differs from the carry out of the MSB",
+        "A carry out of the MSB always indicates signed overflow",
+        "Negating the most negative n-bit number (-2^(n-1)) causes overflow"
+      ],
+      "explanationEn": "Adding opposite-signed numbers stays within bounds (A is true). Signed overflow is detected by Cin_MSB ⊕ Cout_MSB = 1 (B is true). Negating -2^(n-1) gives +2^(n-1), which exceeds 2^(n-1)-1 (D is true). Carry-out alone indicates unsigned overflow, not signed overflow (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Number Representation",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the decimal value of the 8-bit 2's complement signed binary number 11101011?",
+      "optionsEn": [
+        "-20",
+        "-43",
+        "-21",
+        "-19"
+      ],
+      "explanationEn": "Since the MSB is 1, the number is negative. Taking the 2's complement: invert bits to 00010100 (20) and add 1 to get 00010101 (21). Hence the signed value is -21."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Combinational Circuits",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the minimum number of 2-to-1 multiplexers required to construct a 16-to-1 multiplexer?",
+      "optionsEn": [
+        "14",
+        "16",
+        "15",
+        "8"
+      ],
+      "explanationEn": "Building an N-to-1 MUX tree from 2-to-1 MUXes requires N - 1 units: 8 + 4 + 2 + 1 = 15."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Decoders",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "What is the minimum number of 2-to-4 decoders (with enable input) required to construct a 4-to-16 decoder?",
+      "optionsEn": [],
+      "explanationEn": "Four 2-to-4 decoders generate the 16 outputs (controlled by the lower 2 bits), and one 2-to-4 decoder decodes the upper 2 bits to drive their enable lines, totaling 4 + 1 = 5 decoders."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Number Systems",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the hexadecimal equivalent of the octal number (357)_8?",
+      "optionsEn": [
+        "F7",
+        "DF",
+        "EF",
+        "EE"
+      ],
+      "explanationEn": "Convert (357)_8 to binary: 011 101 111 = 011101111. Group in 4 bits from right: 1110 1111 = (EF)_16."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Sequential Circuits",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following are valid differences between synchronous and asynchronous (ripple) counters?",
+      "optionsEn": [
+        "All flip-flops in a synchronous counter share the same clock signal",
+        "Ripple counters suffer from cumulative propagation delay across stages",
+        "Synchronous counters generally support higher maximum clock frequencies than ripple counters of the same bit-width",
+        "Ripple counters always require more flip-flops than synchronous counters for the same modulus"
+      ],
+      "explanationEn": "Synchronous counters clock all flip-flops simultaneously, avoiding ripple delay and enabling higher clock speeds. Both counter types use the same minimum number of flip-flops ceil(log2(M)) for modulus M, so D is false."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Counter Decoding",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "A 4-bit ripple counter counts from 0000 to 1111 continuously. An AND gate with inputs Q3 and Q1 (MSB is Q3) is connected to the asynchronous active-high CLEAR input of all flip-flops. What is the modulus (number of stable states) of this counter?",
+      "optionsEn": [],
+      "explanationEn": "Q3 and Q1 are both 1 for the first time at binary 1010 (decimal 10), which immediately clears the counter to 0000. Thus the counter cycles through stable states 0 to 9 (modulus = 10, a decade counter)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Sequential Circuit Cycle",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "A 3-bit Linear Feedback Shift Register (LFSR) with state (Q2, Q1, Q0) updates according to Q2_next = Q1 ⊕ Q0, Q1_next = Q2, Q0_next = Q1. Starting from (1, 0, 0), after how many clock pulses does the state (1, 0, 0) repeat for the first time?",
+      "optionsEn": [],
+      "explanationEn": "Trace: 100 -> 010 -> 101 -> 110 -> 111 -> 011 -> 001 -> 100. This primitive polynomial x^3 + x + 1 generates a maximal-length sequence of 2^3 - 1 = 7 states."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Flip-Flop Conversion",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "To convert a D flip-flop into a JK flip-flop, what Boolean expression must be connected to the D input?",
+      "optionsEn": [
+        "D = J·Q + K'·Q'",
+        "D = J'·Q' + K·Q",
+        "D = J ⊕ K ⊕ Q",
+        "D = J·Q' + K'·Q"
+      ],
+      "explanationEn": "The next state of a JK flip-flop is Q(t+1) = J·Q' + K'·Q. Since a D flip-flop satisfies Q(t+1) = D, setting D = J·Q' + K'·Q directly realizes JK behavior."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — State Minimization",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A Moore machine has 5 states (S0, S1, S2, S3, S4) over binary input {0, 1}. S0 and S2 both output 0 and transition on 0 to S1, on 1 to S3. S1 and S4 both output 1 and transition on 0 to S0, on 1 to S2. S3 outputs 0 and transitions on 0 to S3, on 1 to S1. What is the minimum number of states in an equivalent minimized Moore machine?",
+      "optionsEn": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ],
+      "explanationEn": "S0 and S2 have identical output (0) and identical next states (S1, S3), so {S0, S2} are equivalent. S1 and S4 have identical output (1) and transition to {S0, S2}, so {S1, S4} are equivalent. S3 transitions to S3 on 0 (output 0) whereas S0 transitions to S1 (output 1), so S3 is distinct. Minimized count = 3 states."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Number Systems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "How many 1s appear in the binary representation of the expression 3 × 2^9 + 5 × 2^5 + 7 × 2^1 + 1?",
+      "optionsEn": [],
+      "explanationEn": "3 = 11_2 (2 ones at bits 10,9), 5 = 101_2 (2 ones at bits 7,5), 7 = 111_2 (3 ones at bits 3,2,1), and 1 = 1_2 (1 one at bit 0). None of the bit positions overlap (10,9,7,5,3,2,1,0), so total 1s = 2 + 2 + 3 + 1 = 8."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Combinational Circuits",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following circuits can be used to implement ANY 3-variable Boolean function F(A, B, C) without needing any additional logic gates (assuming true and complemented inputs are available)?",
+      "optionsEn": [
+        "An 8-to-1 multiplexer",
+        "A 4-to-1 multiplexer",
+        "A 3-to-8 decoder alone (with no OR gate)",
+        "An 8 × 1 ROM"
+      ],
+      "explanationEn": "An 8-to-1 MUX (tie inputs to 0/1), a 4-to-1 MUX (use C/C'/0/1 on data inputs), and an 8×1 ROM can each realize any 3-variable function without extra gates. A 3-to-8 decoder requires an external OR gate to sum minterms (C is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Boolean Algebra",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let f(x, y, z) = (x ⊕ y) · (y ⊕ z). For how many input combinations (x, y, z) in {0, 1}^3 does f evaluate to 1?",
+      "optionsEn": [],
+      "explanationEn": "f = 1 requires x != y and y != z, which implies x = z != y. The only two 3-bit tuples satisfying this are (0, 1, 0) and (1, 0, 1), so the count is 2."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — Number Systems",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following representations correspond to the same signed decimal value -13 in an 8-bit system?",
+      "optionsEn": [
+        "Excess-128 (biased by 128): 01110011",
+        "2's complement: 11110011",
+        "1's complement: 11110010",
+        "Sign-magnitude: 10001101"
+      ],
+      "explanationEn": "+13 is 00001101. Sign-magnitude sets MSB=1: 10001101. 1's complement inverts all bits: 11110010. 2's complement adds 1: 11110011. Excess-128 stores -13 + 128 = 115 = 01110011. All four are correct."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — PLA & ROM",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 256 × 8 ROM is used as a combinational lookup table. How many input variables and how many independent Boolean functions of those variables can it simultaneously implement?",
+      "optionsEn": [
+        "8 input variables, 256 Boolean functions",
+        "8 input variables, 8 Boolean functions",
+        "256 input variables, 8 Boolean functions",
+        "16 input variables, 8 Boolean functions"
+      ],
+      "explanationEn": "256 = 2^8 address locations correspond to 8 input variables, and an 8-bit word width provides 8 output lines, each realizing an arbitrary Boolean function of those 8 variables."
+    },
+    {
+      "questionId": "gate_cs_topic_dl_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_dl",
+      "sectionTitle": "Digital Logic",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Digital Logic (Set 1)",
+      "topicTag": "Digital Logic — K-Maps & Prime Implicants",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements regarding prime implicants (PIs) and essential prime implicants (EPIs) of a Boolean function are TRUE?",
+      "optionsEn": [
+        "Every essential prime implicant must appear in every minimal SOP expression",
+        "A Boolean function can have zero essential prime implicants",
+        "Every minterm of a function is covered by at least one essential prime implicant",
+        "Removing a single literal from a prime implicant causes it to cover at least one 0-cell (maxterm) of the function"
+      ],
+      "explanationEn": "EPIs are mandatory in every minimal SOP (A). Cyclic K-maps can have zero EPIs (B). By maximality, dropping any literal from a PI expands it to cover a 0 (D). Not every minterm needs an EPI (C is false)."
+    }
+  ]
+}

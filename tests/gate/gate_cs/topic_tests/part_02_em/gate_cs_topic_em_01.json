@@ -1,0 +1,634 @@
+{
+  "testId": "gate_cs_topic_em_01",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_em_01",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Engineering & Discrete Mathematics (Set 1)",
+  "titleEn": "GATE CS Topic Test — Engineering & Discrete Mathematics (Set 1)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_02_em",
+  "part_id": "part_02_em",
+  "partTitle": "Engineering & Discrete Mathematics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "sectionTitleEn": "Engineering & Discrete Mathematics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_em_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Functions",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let |A| = 4 and |B| = 3. How many onto (surjective) functions exist from A to B?",
+      "optionsEn": [
+        "24",
+        "64",
+        "81",
+        "36"
+      ],
+      "explanationEn": "By inclusion-exclusion, onto functions from m=4 to n=3 elements = 3^4 - C(3,1)*2^4 + C(3,2)*1^4 = 81 - 48 + 3 = 36."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a Binomial random variable X ~ B(n = 20, p = 0.3), what is the variance of X?",
+      "optionsEn": [
+        "2.1",
+        "4.2",
+        "6.0",
+        "3.6"
+      ],
+      "explanationEn": "For Binomial(n, p), Var(X) = n * p * (1 - p) = 20 * 0.3 * 0.7 = 4.2."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Planar Graphs",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A connected simple planar graph has 10 vertices and 16 edges. Into how many regions (including the unbounded outer region) does a planar embedding divide the plane?",
+      "optionsEn": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "explanationEn": "By Euler's formula for connected planar graphs, V - E + F = 2 => 10 - 16 + F = 2 => F = 8 regions."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the order of the element 4 in the additive group (Z_10, +_10)?",
+      "optionsEn": [
+        "5",
+        "2",
+        "4",
+        "10"
+      ],
+      "explanationEn": "The order of k in Z_n is n / gcd(k, n) = 10 / gcd(4, 10) = 10 / 2 = 5. Indeed, 5 * 4 = 20 ≡ 0 (mod 10)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Calculus",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the value of lim_{x -> 0} (sin(5x) / tan(2x))?",
+      "optionsEn": [
+        "5/2",
+        "1",
+        "2/5",
+        "0"
+      ],
+      "explanationEn": "Rewrite as (sin(5x)/(5x)) * (2x/tan(2x)) * (5/2). As x -> 0, both trigonometric ratios approach 1, yielding 5/2."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following functions is/are continuous at x = 0?",
+      "optionsEn": [
+        "f(x) = x * sin(1/x) for x != 0, and f(0) = 0",
+        "g(x) = sin(x)/x for x != 0, and g(0) = 1",
+        "h(x) = 1/x for x != 0, and h(0) = 0",
+        "p(x) = |x|"
+      ],
+      "explanationEn": "By squeeze theorem, lim_{x->0} x*sin(1/x) = 0 = f(0) (A). Also lim_{x->0} sin(x)/x = 1 = g(0) (B), and |x| is continuous everywhere (D). 1/x diverges at 0 (C false)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Groups",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let G be a finite group of prime order p. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "G must be cyclic.",
+        "G must be Abelian.",
+        "G has exactly two subgroups (the trivial subgroup and G itself).",
+        "Every non-identity element of G is a generator of G."
+      ],
+      "explanationEn": "By Lagrange's theorem, subgroup orders divide p, so only orders 1 and p exist (C). Any non-identity element generates a subgroup of order > 1, hence all of G (D), making G cyclic (A) and thus Abelian (B)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Logic",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following sets of logical connectives is NOT functionally complete?",
+      "optionsEn": [
+        "{¬, ->}",
+        "{∧, ∨}",
+        "{NOR}",
+        "{NAND}"
+      ],
+      "explanationEn": "Using only {∧, ∨}, any formula evaluates to True when all inputs are True (monotonicity), so negation ¬p cannot be expressed. Thus {∧, ∨} is not functionally complete."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Graph Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following graphs is/are planar?",
+      "optionsEn": [
+        "K_4",
+        "K_5",
+        "K_{3,3}",
+        "K_{2,5}"
+      ],
+      "explanationEn": "By Kuratowski's theorem, K_5 and K_{3,3} are the minimal non-planar graphs. K_4 and every K_{2,n} (such as K_{2,5}) are planar."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -30.0,
+      "natMax": -30.0,
+      "questionTextEn": "What is the determinant of the upper triangular matrix [[2, 5, 7], [0, -3, 4], [0, 0, 5]]?",
+      "optionsEn": [],
+      "explanationEn": "The determinant of a triangular matrix is the product of its main diagonal entries: 2 * (-3) * 5 = -30."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Logic",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let S = {p -> q, q -> r, ¬r}. Which of the following formulas can be validly inferred from S?",
+      "optionsEn": [
+        "¬q",
+        "¬p",
+        "p -> r",
+        "q"
+      ],
+      "explanationEn": "From q -> r and ¬r, Modus Tollens gives ¬q (A). From p -> q and ¬q, Modus Tollens gives ¬p (B). From p -> q and q -> r, Hypothetical Syllogism gives p -> r (C)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a group of 4 people, assuming 365 equally likely birthdays and independence, what is the probability that ALL 4 people have distinct birthdays?",
+      "optionsEn": [
+        "(365 * 364 * 363 * 362) / 365^4",
+        "(364 / 365)^4",
+        "1 - (4 / 365)",
+        "C(365, 4) / 365^4"
+      ],
+      "explanationEn": "The 1st person has 365/365 choices, 2nd has 364/365, 3rd has 363/365, 4th has 362/365. Product = (365 * 364 * 363 * 362) / 365^4."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Probability",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let X ~ Normal(μ = 10, σ^2 = 16). Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The standard deviation of X is 4.",
+        "P(X > 10) = 0.5.",
+        "Z = (X - 10)/4 follows the standard normal distribution N(0, 1).",
+        "E[(X - 10)^2] = 4."
+      ],
+      "explanationEn": "σ = sqrt(16) = 4 (A). A normal distribution is symmetric about its mean μ = 10, so P(X > 10) = 0.5 (B). Standardizing gives Z ~ N(0, 1) (C). E[(X - 10)^2] = Var(X) = 16, not 4 (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Generating Functions",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which closed-form generating function generates the sequence a_n = 3^n for n >= 0?",
+      "optionsEn": [
+        "1 / (1 + 3x)",
+        "1 / (1 - x)^3",
+        "1 / (1 - 3x)",
+        "3 / (1 - x)"
+      ],
+      "explanationEn": "The geometric series Σ_{n=0}^∞ (3x)^n converges to 1 / (1 - 3x) for |x| < 1/3."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Recurrence Relations",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the closed-form solution of the recurrence a_n = 4 a_{n-1} - 4 a_{n-2} for n >= 2, with initial conditions a_0 = 1 and a_1 = 6?",
+      "optionsEn": [
+        "(2 + n) * 2^n",
+        "(1 + 3n) * 2^n",
+        "(1 + 2n) * 2^n",
+        "(1 + n) * 2^n"
+      ],
+      "explanationEn": "Characteristic equation: r^2 - 4r + 4 = (r - 2)^2 = 0 (repeated root r = 2). General form: a_n = (A + Bn)*2^n. From a_0 = 1 => A = 1. From a_1 = (1 + B)*2 = 6 => B = 2. Hence a_n = (1 + 2n)*2^n."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Linear Algebra",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For an n×n matrix A with all entries equal to 1 (i.e., A = J_n), what are the eigenvalues of A?",
+      "optionsEn": [
+        "1 with multiplicity 1, and 0 with multiplicity n - 1",
+        "1 with multiplicity n",
+        "n with multiplicity 1, and 0 with multiplicity n - 1",
+        "n with multiplicity n"
+      ],
+      "explanationEn": "Since all rows of J_n are identical, rank(J_n) = 1, so 0 is an eigenvalue of multiplicity n - 1. The remaining eigenvalue equals trace(J_n) = n (with eigenvector [1, 1, ..., 1]^T)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Graph Theory",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 21.0,
+      "natMax": 21.0,
+      "questionTextEn": "What is the maximum number of edges in a simple disconnected graph on 8 vertices?",
+      "optionsEn": [],
+      "explanationEn": "A disconnected graph on n vertices has maximum edges when it consists of K_{n-1} plus 1 isolated vertex: C(n-1, 2) = C(7, 2) = 7*6/2 = 21 edges."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Graph Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let G be a simple undirected graph with n vertices and adjacency matrix A. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The (i, j)-th entry of A^k equals the number of walks of length k from vertex i to vertex j.",
+        "A is always a symmetric matrix.",
+        "The trace of A is always 0.",
+        "The sum of entries in row i of A equals the degree of vertex i."
+      ],
+      "explanationEn": "For a simple undirected graph, A is symmetric (B) with 0s on the diagonal so trace(A) = 0 (C), row i sums to deg(i) (D), and (A^k)_{ij} counts walks of length k between i and j (A)."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Discrete Mathematics — Derangements",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 44.0,
+      "natMax": 44.0,
+      "questionTextEn": "Five letters are placed randomly into 5 addressed envelopes, one letter per envelope. In how many ways can ALL 5 letters be placed into WRONG envelopes (derangements D_5)?",
+      "optionsEn": [],
+      "explanationEn": "D_n = n! * Σ_{k=0}^n (-1)^k / k!. For n = 5: 120 * (1 - 1 + 1/2 - 1/6 + 1/24 - 1/120) = 60 - 20 + 5 - 1 = 44."
+    },
+    {
+      "questionId": "gate_cs_topic_em_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_em",
+      "sectionTitle": "Engineering & Discrete Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Engineering & Discrete Mathematics (Set 1)",
+      "topicTag": "Engineering Mathematics — Calculus",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Using Taylor series expansion around x = 0, what is the coefficient of x^3 in f(x) = e^x * sin(x)?",
+      "optionsEn": [
+        "1/3",
+        "1/2",
+        "1/6",
+        "-1/6"
+      ],
+      "explanationEn": "e^x = 1 + x + x^2/2 + x^3/6 + ... and sin(x) = x - x^3/6 + ... Multiplying up to x^3: 1*(-x^3/6) + (x^2/2)*(x) = (-1/6 + 1/2)x^3 = (1/3)x^3."
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "testId": "gate_cs_topic_pds_02",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_pds_02",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Programming & Data Structures (Set 2)",
+  "titleEn": "GATE CS Topic Test — Programming & Data Structures (Set 2)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_05_pds",
+  "part_id": "part_05_pds",
+  "partTitle": "Programming & Data Structures",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "sectionTitleEn": "Programming & Data Structures",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_pds_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Operators)",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the C code:\n```c\nint x = 5, y = 10;\nif (x > 10 && ++y > 10)\n    x = 20;\nprintf(\"%d %d\", x, y);\n```\nWhat is the output?",
+      "optionsEn": [
+        "20 11",
+        "5 11",
+        "5 10",
+        "20 10"
+      ],
+      "explanationEn": "The logical AND operator `&&` uses short-circuit evaluation. Since `x > 10` is false (5 > 10 is 0), `++y > 10` is never evaluated, leaving `x = 5` and `y = 10`."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Trees (N-ary)",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 22.0,
+      "natMax": 22.0,
+      "questionTextEn": "In a full 4-ary tree (every internal node has exactly 4 children) with 7 internal nodes, how many leaf nodes are there?",
+      "optionsEn": [],
+      "explanationEn": "For a full k-ary tree with I internal nodes, the number of leaves is L = (k - 1)I + 1 = (4 - 1)(7) + 1 = 22."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Stacks",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which data structure is used internally by a runtime system to manage function call activation records (return addresses and local variables)?",
+      "optionsEn": [
+        "Queue",
+        "Stack",
+        "Binary Search Tree",
+        "Hash Table"
+      ],
+      "explanationEn": "Function calls follow Last-In, First-Out (LIFO) semantics: the most recently called function must finish and return before its caller resumes, matching a call stack."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Hashing",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about open addressing in hash tables are TRUE?",
+      "optionsEn": [
+        "The load factor α = n/m can never exceed 1",
+        "Deleting an element requires placing a special tombstone (deleted) marker rather than simply marking the slot empty",
+        "Double hashing eliminates primary clustering",
+        "Quadratic probing always guarantees visiting every slot in the table for any table size m"
+      ],
+      "explanationEn": "Open addressing stores all keys inside the table so α <= 1 (A), lazy deletion uses tombstones so probe chains don't break (B), and double hashing varies step sizes per key to avoid primary clustering (C). Quadratic probing only visits all slots under specific table sizes/constants (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Linked Lists",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a singly linked list with only a `head` pointer (no `tail` pointer), what is the worst-case time complexity to delete the last node of a list with `n` nodes?",
+      "optionsEn": [
+        "O(1)",
+        "O(n)",
+        "O(n log n)",
+        "O(log n)"
+      ],
+      "explanationEn": "Deleting the last node requires updating the `next` pointer of the second-to-last node to `NULL`, which requires traversing all n - 1 nodes from `head` in O(n) time."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Linked Lists",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given a pointer `p` directly to a middle node of a doubly linked list, what is the time complexity to delete node `p`?",
+      "optionsEn": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n^2)"
+      ],
+      "explanationEn": "In a doubly linked list, `p->prev` and `p->next` are directly accessible, so unlinking `p` takes just two pointer updates in O(1) time."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Hashing (Linear Probing)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Keys 22, 33, 44, 55, 12 are inserted in that order into an empty hash table of size 11 using hash function h(k) = k mod 11 and linear probing. At which slot index (0 to 10) is key 12 placed?",
+      "optionsEn": [],
+      "explanationEn": "22 mod 11 = 0 -> slot 0. 33 mod 11 = 0 -> probe to slot 1. 44 mod 11 = 0 -> probe to slot 2. 55 mod 11 = 0 -> probe to slot 3. 12 mod 11 = 1 -> slots 1, 2, 3 are occupied, so 12 is placed at slot 4."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Recursion)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 22.0,
+      "natMax": 22.0,
+      "questionTextEn": "What integer is printed by the following C program?\n```c\n#include <stdio.h>\nint g(int n) {\n    if (n == 0) return 0;\n    return (n % 10) + g(n / 10);\n}\nint main() {\n    printf(\"%d\", g(4729));\n    return 0;\n}\n```",
+      "optionsEn": [],
+      "explanationEn": "`g(n)` recursively sums the decimal digits of `n`: 9 + 2 + 7 + 4 = 22."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Sparse Matrix",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 55.0,
+      "natMax": 55.0,
+      "questionTextEn": "A 10 × 10 lower-triangular matrix stores only elements `A[i][j]` with `i >= j` consecutively in a 1D array. How many elements are stored in the 1D array?",
+      "optionsEn": [],
+      "explanationEn": "Number of stored elements = 1 + 2 + ... + 10 = 10 × 11 / 2 = 55."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Data Structure Complexities",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following operations can be performed in O(1) worst-case time?",
+      "optionsEn": [
+        "Inserting a node at the head of a singly linked list",
+        "Finding the maximum element in a binary max-heap",
+        "Checking if an edge (u, v) exists in an adjacency matrix",
+        "Deleting the maximum element from a binary max-heap"
+      ],
+      "explanationEn": "Head insertion in a linked list, reading `heap[0]` in a max-heap, and indexing `M[u][v]` in an adjacency matrix are all O(1). Deleting the max from a heap requires `Heapify`, taking O(log n) (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Struct Padding)",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "On a system where `char` is 1 byte (1-byte aligned), `short` is 2 bytes (2-byte aligned), and `int` is 4 bytes (4-byte aligned), what are `sizeof(struct A)` and `sizeof(struct B)`?\n```c\nstruct A { char c1; int x; char c2; };\nstruct B { int x; char c1; char c2; };\n```",
+      "optionsEn": [
+        "sizeof(A) = 12, sizeof(B) = 6",
+        "sizeof(A) = 8, sizeof(B) = 8",
+        "sizeof(A) = 12, sizeof(B) = 8",
+        "sizeof(A) = 6, sizeof(B) = 6"
+      ],
+      "explanationEn": "In `A`: `c1`(0), 3 bytes pad, `x`(4..7), `c2`(8), 3 bytes tail pad for 4-byte alignment -> 12 bytes. In `B`: `x`(0..3), `c1`(4), `c2`(5), 2 bytes tail pad -> 8 bytes."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Recursion Output)",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is printed by the following C program?\n```c\n#include <stdio.h>\nvoid p(int n) {\n    if (n <= 0) return;\n    p(n - 1);\n    printf(\"%d \", n);\n    p(n - 2);\n}\nint main() { p(3); return 0; }\n```",
+      "optionsEn": [
+        "1 2 1 3 1",
+        "1 2 3 1",
+        "3 2 1 1",
+        "1 3 2 1"
+      ],
+      "explanationEn": "Trace `p(3)`: calls `p(2)` -> calls `p(1)` -> prints `1`, then `p(2)` prints `2`, calls `p(0)` (returns); then `p(3)` prints `3`, calls `p(1)` -> prints `1`. Output: `1 2 3 1`."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Recursion & Strings)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "What integer is printed by the following C program?\n```c\n#include <stdio.h>\nint len(char *s) {\n    if (*s == '\\0') return 0;\n    return 1 + len(s + 1);\n}\nint main() {\n    char str[] = \"DATA\\0STRUCT\";\n    printf(\"%d\", len(str));\n    return 0;\n}\n```",
+      "optionsEn": [],
+      "explanationEn": "The embedded `'\\0'` after `\"DATA\"` terminates the C string immediately, so `len(str)` stops at index 4 and returns 4."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Hashing (Chaining)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "A hash table has 12 buckets using separate chaining. If 60 keys are inserted into the table, what is the average chain length (load factor)?",
+      "optionsEn": [],
+      "explanationEn": "Load factor α = n / m = 60 / 12 = 5."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — B-Tree Order & Capacity",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 17.0,
+      "natMax": 17.0,
+      "questionTextEn": "A B-tree of order `m = 5` (maximum 5 children and 4 keys per node) has height `h = 2` (root at level 0, internal nodes at level 1, leaves at level 2). What is the MINIMUM number of keys in this B-tree?",
+      "optionsEn": [],
+      "explanationEn": "Minimum keys: Root has at least 1 key (2 children at level 1). Each level-1 node has at least `ceil(5/2) - 1 = 2` keys and `ceil(5/2) = 3` children -> `2 × 3 = 6` leaves at level 2. Each leaf has at least 2 keys -> `6 × 2 = 12` keys. Total = `1 + (2×2) + 12 = 1 + 4 + 12 = 17` keys."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — BST Postorder Reconstruction",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The preorder traversal of a Binary Search Tree is: `30, 20, 10, 25, 40, 35, 50`. What is its postorder traversal?",
+      "optionsEn": [
+        "10, 20, 25, 35, 40, 50, 30",
+        "25, 10, 20, 50, 35, 40, 30",
+        "10, 25, 20, 35, 50, 40, 30",
+        "10, 25, 35, 50, 20, 40, 30"
+      ],
+      "explanationEn": "Root is 30. Left subtree has `{20, 10, 25}` -> root 20, left 10, right 25 -> postorder `10, 25, 20`. Right subtree has `{40, 35, 50}` -> root 40, left 35, right 50 -> postorder `35, 50, 40`. Combined postorder: `10, 25, 20, 35, 50, 40, 30`."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — Binary Heap Deletion",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the max-heap stored in array `[90, 75, 80, 50, 60, 40, 70]`. After performing one `Extract-Max` operation, what is the resulting array?",
+      "optionsEn": [
+        "[80, 75, 70, 50, 60, 40]",
+        "[80, 75, 40, 50, 60, 70]",
+        "[80, 70, 75, 50, 60, 40]",
+        "[75, 70, 80, 50, 60, 40]"
+      ],
+      "explanationEn": "Replace root 90 with last element 70: `[70, 75, 80, 50, 60, 40]`. Children of 70 are 75 and 80; swap 70 with larger child 80 -> `[80, 75, 70, 50, 60, 40]`. Now 70's only child is 40 (< 70), so heap property is restored."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Bitwise Shift)",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 45.0,
+      "natMax": 45.0,
+      "questionTextEn": "What integer is printed by the following C program?\n```c\n#include <stdio.h>\nint main() {\n    int n = 45, ans = 0;\n    while (n > 0) {\n        ans = (ans << 1) | (n & 1);\n        n >>= 1;\n    }\n    printf(\"%d\", ans);\n    return 0;\n}\n```",
+      "optionsEn": [],
+      "explanationEn": "`45` in binary is `101101_2`, which is a 6-bit palindrome! Reversing its 6 bits produces `101101_2 = 45`."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — AVL & Red-Black Trees",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements comparing AVL trees and Red-Black trees are TRUE?",
+      "optionsEn": [
+        "Both AVL trees and Red-Black trees guarantee O(log n) worst-case height",
+        "AVL trees are more strictly balanced than Red-Black trees, resulting in faster lookups on average",
+        "Inserting a key into an AVL tree requires at most one single or double rotation to restore balance",
+        "Deleting a key from an AVL tree always requires at most one rotation"
+      ],
+      "explanationEn": "Both have O(log n) height (A), AVL has tighter height bound (~1.44 log n vs 2 log n) aiding lookups (B), and AVL insertion fixes imbalance with at most 1 rotation (single or double) (C). Deletion in an AVL tree may propagate up the root requiring O(log n) rotations (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_pds_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_pds",
+      "sectionTitle": "Programming & Data Structures",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Programming & Data Structures (Set 2)",
+      "topicTag": "PDS — C Programming (Function Pointers & Arrays)",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the output of the following C program?\n```c\n#include <stdio.h>\nvoid swap_ptr(int **a, int **b) {\n    int *t = *a;\n    *a = *b;\n    *b = t;\n}\nint main() {\n    int x = 10, y = 20;\n    int *p = &x, *q = &y;\n    swap_ptr(&p, &q);\n    printf(\"%d %d %d %d\", x, y, *p, *q);\n    return 0;\n}\n```",
+      "optionsEn": [
+        "20 10 10 20",
+        "20 10 20 10",
+        "10 20 20 10",
+        "10 20 10 20"
+      ],
+      "explanationEn": "`swap_ptr` swaps the pointer variables `p` and `q` themselves (so `p` now points to `y` and `q` points to `x`) without modifying `x` or `y`. Hence `x=10, y=20, *p=20, *q=10`."
+    }
+  ]
+}

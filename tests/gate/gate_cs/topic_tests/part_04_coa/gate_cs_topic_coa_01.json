@@ -1,0 +1,576 @@
+{
+  "testId": "gate_cs_topic_coa_01",
+  "categoryId": "gate_cs",
+  "test_id": "gate_cs_topic_coa_01",
+  "category_id": "gate_cs",
+  "title": "GATE CS Topic Test — Computer Organization & Architecture (Set 1)",
+  "titleEn": "GATE CS Topic Test — Computer Organization & Architecture (Set 1)",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_04_coa",
+  "part_id": "part_04_coa",
+  "partTitle": "Computer Organization & Architecture",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 1.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "Topic Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "sectionTitleEn": "Computer Organization & Architecture",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cs_topic_coa_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Endianness",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 32-bit word 0x12345678 is stored at byte address 0x1000 in a little-endian byte-addressable machine. What byte value is stored at address 0x1000?",
+      "optionsEn": [
+        "0x12",
+        "0x34",
+        "0x56",
+        "0x78"
+      ],
+      "explanationEn": "In little-endian format, the least significant byte (0x78) is stored at the lowest memory address (0x1000), and the most significant byte (0x12) at the highest (0x1003)."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Cache Memory",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Spatial locality in program execution is exploited by caches primarily through:",
+      "optionsEn": [
+        "Using write-back instead of write-through",
+        "Increasing the number of pipeline stages",
+        "Using a random replacement policy",
+        "Increasing the cache block (line) size"
+      ],
+      "explanationEn": "Fetching a larger cache block brings neighboring memory words into the cache together, directly exploiting spatial locality."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Memory Hierarchy",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following correctly orders memory types from fastest access time to slowest access time?",
+      "optionsEn": [
+        "CPU Registers < Main Memory (DRAM) < L1 Cache < SSD",
+        "SSD < Main Memory (DRAM) < L1 Cache < CPU Registers",
+        "CPU Registers < L1 Cache < Main Memory (DRAM) < SSD",
+        "L1 Cache < CPU Registers < Main Memory (DRAM) < SSD"
+      ],
+      "explanationEn": "Registers are fastest (~sub-nanosecond), followed by SRAM-based L1 cache (~1 ns), DRAM main memory (~50-100 ns), and flash-based SSDs (~tens of microseconds)."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Pipelining",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Register renaming in modern out-of-order processors is primarily used to eliminate:",
+      "optionsEn": [
+        "RAW hazards",
+        "Control hazards",
+        "Structural hazards",
+        "WAR and WAW hazards"
+      ],
+      "explanationEn": "Register renaming assigns distinct physical registers to independent writes, eliminating false name dependencies (WAR and WAW) while preserving true RAW dependencies."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Cache Replacement",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 2-way set-associative cache uses LRU replacement. For a single set initially empty, the block reference sequence is: A, B, A, C, B, D. How many cache misses occur?",
+      "optionsEn": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "explanationEn": "Trace: A(miss:{A}), B(miss:{A,B}), A(hit:{B,A}), C(miss, evict B:{A,C}), B(miss, evict A:{C,B}), D(miss, evict C:{B,D}). Total = 5 misses."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Memory Addressing",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 35.0,
+      "natMax": 35.0,
+      "questionTextEn": "A byte-addressable computer has a 32 GB main memory. How many bits are required for a physical memory address?",
+      "optionsEn": [],
+      "explanationEn": "32 GB = 2^5 × 2^30 bytes = 2^35 bytes. Hence 35 bits are required to address every byte uniquely."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Microprogramming",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In horizontal microprogramming, compared to vertical microprogramming:",
+      "optionsEn": [
+        "Only one micro-operation can be executed per clock cycle",
+        "Microinstructions are shorter and require more decoding hardware",
+        "Microinstructions are wider, allow higher parallelism, and require minimal decoding",
+        "Control memory requires fewer bits per word"
+      ],
+      "explanationEn": "Horizontal microprogramming allocates dedicated bits to individual control signals, yielding wide microinstructions with minimal decoding overhead and high micro-operation parallelism."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — CPU Datapath",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "During the instruction fetch cycle, which register holds the address of the next instruction to be fetched from memory?",
+      "optionsEn": [
+        "Stack Pointer (SP)",
+        "Program Counter (PC)",
+        "Memory Data Register (MDR)",
+        "Instruction Register (IR)"
+      ],
+      "explanationEn": "The Program Counter (PC) holds the memory address of the next instruction to fetch; the fetched instruction is then loaded into the IR."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Memory Chips",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "How many 16K × 4 RAM chips are required to build a 128K × 8 memory system?",
+      "optionsEn": [],
+      "explanationEn": "Number of chips = (128K / 16K) × (8 / 4) = 8 × 2 = 16 chips."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Cache Tag Bits",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 19.0,
+      "natMax": 19.0,
+      "questionTextEn": "A 32-bit byte-addressable CPU uses a 32 KB 4-way set-associative cache with 64-byte blocks. How many bits are used for the tag field?",
+      "optionsEn": [],
+      "explanationEn": "Block offset = log2(64) = 6 bits. Number of lines = 32 KB / 64 B = 512. Number of sets = 512 / 4 = 128, so set index = log2(128) = 7 bits. Tag bits = 32 - 7 - 6 = 19 bits."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Pipeline Execution Cycles",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 11.0,
+      "natMax": 11.0,
+      "questionTextEn": "A 5-stage pipeline (IF, ID, EX, MEM, WB) has NO operand forwarding; register writes happen in the first half of WB and reads in the second half of ID. Consider:\nI1: ADD R1, R2, R3\nI2: SUB R4, R1, R5\nI3: AND R6, R4, R1\nHow many total clock cycles are required to execute all 3 instructions?",
+      "optionsEn": [],
+      "explanationEn": "I1: IF(1) ID(2) EX(3) MEM(4) WB(5). Since I2 reads R1 in ID during WB(5) (write first half, read second half), I2 enters ID in cycle 5: IF(2) stall(3,4) ID(5) EX(6) MEM(7) WB(8). Similarly, I3 needs R4 from I2's WB(8), so I3 enters ID in cycle 8: IF(5) stall(6,7) ID(8) EX(9) MEM(10) WB(11). Total = 11 cycles."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Pipeline Stalls with Forwarding",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following RISC instruction sequence running on a 5-stage pipeline (IF, ID, EX, MEM, WB) with full operand forwarding (EX->EX and MEM->EX), where branch outcomes are resolved in ID and no branch prediction is used (not relevant here as there are no branches):\nI1: LW R1, 0(R2)\nI2: ADD R3, R1, R4\nI3: SUB R5, R3, R1\nI4: LW R6, 4(R5)\nI5: OR R7, R6, R3\nHow many total clock cycles are required to complete all 5 instructions?",
+      "optionsEn": [
+        "9",
+        "12",
+        "10",
+        "11"
+      ],
+      "explanationEn": "Base cycles for 5 instructions in a 5-stage pipeline = 5 + 5 - 1 = 9 cycles. Load-use hazards: I1(LW R1)->I2(ADD uses R1) adds 1 stall; I2->I3 is forwarded (0 stalls); I3->I4 is forwarded (0 stalls); I4(LW R6)->I5(OR uses R6) adds 1 stall. Total = 9 + 2 = 11 cycles."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Register File Read/Write",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "A 64-register file has 2 read ports and 1 write port. Each instruction specifies two source registers and one destination register. How many total bits in an instruction word are dedicated to register specifiers?",
+      "optionsEn": [],
+      "explanationEn": "64 registers require log2(64) = 6 bits per specifier. With 3 specifiers (2 source + 1 destination), total bits = 3 × 6 = 18 bits."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Memory Chip Decoding",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 13.0,
+      "natMax": 13.0,
+      "questionTextEn": "A 64 KB byte-addressable memory is built using 8K × 8 RAM chips. How many address lines are connected directly to each individual RAM chip?",
+      "optionsEn": [],
+      "explanationEn": "Each chip has 8K = 2^13 locations, so 13 address lines connect to each chip (while the upper 3 address lines feed a 3-to-8 chip-select decoder)."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Instruction Pipeline Branch Stall",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 5-stage pipeline (IF, ID, EX, MEM, WB) resolves branch outcomes at the end of the EX stage and uses static 'predict-not-taken'. If 20% of instructions are branches and 60% of branches are taken, what is the effective CPI (assuming no other hazards)?",
+      "optionsEn": [
+        "1.24",
+        "1.40",
+        "1.36",
+        "1.12"
+      ],
+      "explanationEn": "When a branch is taken, 2 speculatively fetched instructions (in IF and ID while branch is in EX) must be flushed, giving a 2-cycle penalty. Effective CPI = 1 + 0.20 × 0.60 × 2 = 1 + 0.24 = 1.24."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Disk Sector Transfer",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 51.2,
+      "natMax": 51.2,
+      "questionTextEn": "A disk rotates at 12,000 RPM and has 500 sectors per track, each sector storing 512 bytes. What is the sustained data transfer rate of a track in MB/s (1 MB = 10^6 bytes)?",
+      "optionsEn": [],
+      "explanationEn": "12,000 RPM = 200 revolutions/second. Bytes per track = 500 × 512 = 256,000 bytes. Transfer rate = 200 × 256,000 = 51,200,000 B/s = 51.2 MB/s."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Pipeline Speedup with Stalls",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An unpipelined CPU runs at 10 ns per instruction (CPI = 1). A 5-stage pipelined version has a 2.5 ns clock cycle. Due to hazards, 20% of instructions incur 1 stall cycle and 10% incur 2 stall cycles. What is the speedup of the pipelined CPU over the unpipelined CPU?",
+      "optionsEn": [
+        "2.86",
+        "2.50",
+        "4.00",
+        "3.20"
+      ],
+      "explanationEn": "Pipelined CPI = 1 + 0.20(1) + 0.10(2) = 1.40. Pipelined time per instruction = 1.40 × 2.5 ns = 3.5 ns. Speedup = 10 / 3.5 = 2.857 ≈ 2.86."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Addressing Modes",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about addressing modes are TRUE?",
+      "optionsEn": [
+        "Auto-increment addressing is useful for stepping sequentially through tables or popping from a stack",
+        "Indirect addressing requires an extra memory reference compared to direct addressing",
+        "Register addressing requires zero main memory accesses to fetch the operand",
+        "Immediate addressing can be used as the destination operand of a STORE instruction"
+      ],
+      "explanationEn": "Auto-increment simplifies sequential/stack access (A), indirect fetches the pointer from memory first (B), and register operands reside inside the CPU (C). Immediate constants cannot be written to as destinations (D is false)."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Memory Bandwidth",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A synchronous memory bus operates at 400 MHz with a 64-bit data bus width and transfers one 64-bit word per clock cycle. What is its peak data transfer rate in GB/s (1 GB = 10^9 bytes)?",
+      "optionsEn": [
+        "1.6 GB/s",
+        "6.4 GB/s",
+        "25.6 GB/s",
+        "3.2 GB/s"
+      ],
+      "explanationEn": "64 bits = 8 bytes per transfer. Peak bandwidth = 400 × 10^6 transfers/s × 8 bytes = 3.2 × 10^9 B/s = 3.2 GB/s."
+    },
+    {
+      "questionId": "gate_cs_topic_coa_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_coa",
+      "sectionTitle": "Computer Organization & Architecture",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.66,
+      "pyqTag": "GATE CS Topic • Computer Organization & Architecture (Set 1)",
+      "topicTag": "COA — Write-Through vs Write-Back Bandwidth",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A processor executes 100 memory references: 70% reads and 30% writes. Cache hit rate is 90% for both reads and writes, block size is 32 bytes, and 50% of evicted blocks are dirty. Compare the total main memory traffic (in bytes) of a write-back write-allocate cache vs a write-through no-write-allocate cache (assuming 4-byte writes).",
+      "optionsEn": [
+        "Write-back: 480 bytes; Write-through: 440 bytes",
+        "Write-back: 480 bytes; Write-through: 344 bytes",
+        "Write-back: 320 bytes; Write-through: 344 bytes",
+        "Write-back: 480 bytes; Write-through: 400 bytes"
+      ],
+      "explanationEn": "Write-back (write-allocate): 10 misses (7 read + 3 write) each fetch 32 B = 320 B; 50% of 10 evictions are dirty -> 5 × 32 B = 160 B written back. Total = 480 B. Write-through (no-write-allocate): 7 read misses × 32 B = 224 B; all 30 writes go to memory (30 × 4 B = 120 B). Total = 344 B."
+    }
+  ]
+}
