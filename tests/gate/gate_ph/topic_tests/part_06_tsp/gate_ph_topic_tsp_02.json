@@ -1,0 +1,562 @@
+{
+  "testId": "gate_ph_topic_tsp_02",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_tsp_02",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Thermodynamics and Statistical Physics — Set 2",
+  "titleEn": "GATE Physics Topic Test: Thermodynamics and Statistical Physics — Set 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_06_tsp",
+  "part_id": "part_06_tsp",
+  "partTitle": "Thermodynamics and Statistical Physics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Thermodynamics and Statistical Physics • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "sectionTitleEn": "Thermodynamics and Statistical Physics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_tsp_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a reversible Carnot cycle operating between hot reservoir $T_H$ and cold reservoir $T_C$, the efficiency $\\eta$ is:",
+      "optionsEn": [
+        "$1 - \\frac{T_H}{T_C}$",
+        "$\\frac{T_H}{T_H + T_C}$",
+        "$1 - \\frac{T_C}{T_H}$",
+        "$\\frac{T_C}{T_H - T_C}$"
+      ],
+      "explanationEn": "For an ideal reversible Carnot engine, $\\eta = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For blackbody radiation in a cavity of volume $V$ at temperature $T$, how does the total entropy $S$ scale with $T$?",
+      "optionsEn": [
+        "$S \\propto T^3$",
+        "$S \\propto T^2$",
+        "$S \\propto T$",
+        "$S \\propto T^4$"
+      ],
+      "explanationEn": "Since $U = a V T^4$ and $dS = dU/T$ at constant $V$, integrating gives $S = \\frac{4}{3} a V T^3 \\propto T^3$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The Gibbs paradox (non-extensivity of classical ideal gas entropy upon mixing identical gases) is resolved by dividing the classical $N$-particle partition function by:",
+      "optionsEn": [
+        "$2^N$",
+        "$N^2$",
+        "$N$",
+        "$N!$"
+      ],
+      "explanationEn": "Dividing by $N!$ accounts for the quantum indistinguishability of identical particles, yielding the extensive Sackur-Tetrode entropy."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the canonical ensemble, the variance of energy fluctuations $\\langle (\\Delta E)^2 \\rangle = \\langle E^2 \\rangle - \\langle E \\rangle^2$ is related to the heat capacity $C_V$ by:",
+      "optionsEn": [
+        "$k_B T^2 C_V$",
+        "$k_B T^2 / C_V$",
+        "$k_B T C_V$",
+        "$C_V / (k_B T^2)$"
+      ],
+      "explanationEn": "$\\langle (\\Delta E)^2 \\rangle = \\frac{\\partial^2 \\ln Z}{\\partial \\beta^2} = -\\frac{\\partial \\langle E \\rangle}{\\partial \\beta} = k_B T^2 \\left(\\frac{\\partial \\langle E \\rangle}{\\partial T}\\right)_V = k_B T^2 C_V$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the grand canonical ensemble (fixed $\\mu, V, T$), the grand partition function $\\mathcal{Z}$ is related to the pressure $P$ and volume $V$ by:",
+      "optionsEn": [
+        "$P = \\frac{\\partial \\mathcal{Z}}{\\partial V}$",
+        "$PV = -k_B T \\ln \\mathcal{Z}$",
+        "$PV = k_B T \\ln \\mathcal{Z}$",
+        "$PV = \\mathcal{Z}$"
+      ],
+      "explanationEn": "The grand potential is $\\Phi_G = -k_B T \\ln \\mathcal{Z} = -PV$, giving $PV = k_B T \\ln \\mathcal{Z}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following are EXTENSIVE thermodynamic state variables?",
+      "optionsEn": [
+        "Chemical potential $\\mu$",
+        "Entropy $S$",
+        "Volume $V$",
+        "Internal energy $U$"
+      ],
+      "explanationEn": "$U$, $S$, and $V$ scale linearly with system size (extensive). Chemical potential $\\mu$ (like $T$ and $P$) is intensive (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "A 3D ideal Fermi gas of electrons has Fermi energy $E_F = 10\\text{ eV}$ at $T = 0$. What is the average kinetic energy per electron at $T = 0$ (in eV)?",
+      "optionsEn": [],
+      "explanationEn": "In 3D, $\\langle E \\rangle = \\frac{3}{5} E_F = 0.6 \\times 10 = 6\\text{ eV}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "A Carnot refrigerator operates between a cold space at $250\\text{ K}$ and a hot room at $300\\text{ K}$. What is its Coefficient of Performance (COP)?",
+      "optionsEn": [],
+      "explanationEn": "$\\text{COP} = \\frac{T_C}{T_H - T_C} = \\frac{250}{300 - 250} = \\frac{250}{50} = 5$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "280",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 280.0,
+      "natMax": 280.0,
+      "questionTextEn": "In a cyclic process, a gas absorbs $800\\text{ J}$ of heat and rejects $520\\text{ J}$ of heat. What is the net work done by the gas per cycle (in Joules)?",
+      "optionsEn": [],
+      "explanationEn": "For a complete cycle $\\Delta U = 0$, so $W = Q_{\\text{in}} - Q_{\\text{out}} = 800 - 520 = 280\\text{ J}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "0.875",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.874,
+      "natMax": 0.876,
+      "questionTextEn": "A 3D ideal Bose gas has BEC transition temperature $T_c = 200\\text{ nK}$. At temperature $T = 50\\text{ nK}$, what fraction of the bosons is in the ground state ($N_0 / N$)? (Round to 3 decimal places.)",
+      "optionsEn": [],
+      "explanationEn": "$N_0 / N = 1 - (T/T_c)^{3/2} = 1 - (1/4)^{3/2} = 1 - 1/8 = 0.875$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 3D gas of non-interacting relativistic massless fermions ($\\epsilon = c p$, spin $1/2$), how does the Fermi energy $E_F$ at $T = 0$ scale with number density $n$?",
+      "optionsEn": [
+        "$E_F \\propto n^{2/3}$",
+        "$E_F \\propto n^{4/3}$",
+        "$E_F \\propto n$",
+        "$E_F \\propto n^{1/3}$"
+      ],
+      "explanationEn": "The Fermi wavevector is always $k_F = (3\\pi^2 n)^{1/3}$ (geometry of $k$-space). For ultra-relativistic fermions, $E_F = \\hbar c k_F \\propto n^{1/3}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the efficiency of an ideal Otto cycle (two adiabats and two isochores) with compression ratio $r = V_1 / V_2$ and adiabatic index $\\gamma$?",
+      "optionsEn": [
+        "$1 - 1/r$",
+        "$1 - r^{\\gamma - 1}$",
+        "$1 - r^{1 - \\gamma}$",
+        "$1 - r^{-\\gamma}$"
+      ],
+      "explanationEn": "In an Otto cycle, $\\eta = 1 - \\frac{T_4 - T_1}{T_3 - T_2} = 1 - \\left(\\frac{V_2}{V_1}\\right)^{\\gamma - 1} = 1 - r^{1 - \\gamma}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two identical blocks of heat capacity $C$ (constant) at initial temperatures $T_1$ and $T_2$ are brought into thermal contact inside an isolated enclosure until they reach equilibrium at $T_f = (T_1 + T_2)/2$. What is the total change in entropy $\\Delta S_{\\text{total}}$?",
+      "optionsEn": [
+        "$C \\ln\\left(\\frac{T_2}{T_1}\\right)$",
+        "$C \\ln\\left(\\frac{(T_1 + T_2)^2}{4 T_1 T_2}\\right)$",
+        "$0$",
+        "$C \\ln\\left(\\frac{T_1 + T_2}{2\\sqrt{T_1 T_2}}\\right)$"
+      ],
+      "explanationEn": "$\\Delta S = C\\ln(T_f/T_1) + C\\ln(T_f/T_2) = C\\ln\\left(\\frac{T_f^2}{T_1 T_2}\\right) = C\\ln\\left(\\frac{(T_1 + T_2)^2}{4 T_1 T_2}\\right) \\ge 0$ (by AM-GM)."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A system has three non-degenerate energy levels $0, \\epsilon, 2\\epsilon$ in thermal equilibrium at temperature $T = 1/(k_B \\beta)$. What is the average energy $\\langle E \\rangle$ in the high-temperature limit ($\\beta\\epsilon \\ll 1$)?",
+      "optionsEn": [
+        "$\\epsilon$",
+        "$\\frac{3}{2}\\epsilon$",
+        "$2\\epsilon$",
+        "$\\frac{2}{3}\\epsilon$"
+      ],
+      "explanationEn": "At high $T$, all three levels are equally populated ($1/3$ each), so $\\langle E \\rangle = \\frac{0 + \\epsilon + 2\\epsilon}{3} = \\epsilon$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about the Maxwell-Boltzmann speed distribution $f(v) = 4\\pi \\left(\\frac{m}{2\\pi k_B T}\\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}$ in 3D are TRUE?",
+      "optionsEn": [
+        "As temperature $T$ increases, the peak shifts to higher speeds and the distribution broadens",
+        "$f(v)$ attains its maximum at $v = 0$",
+        "The area under $f(v)$ from $v = 0$ to $\\infty$ is always equal to 1 regardless of $T$",
+        "$v_{\\text{mp}} < \\langle v \\rangle < v_{\\text{rms}}$"
+      ],
+      "explanationEn": "A, B, and C are exact properties ($\\sqrt{2} < \\sqrt{8/\\pi} < \\sqrt{3}$). Because of the $v^2$ spherical phase-space factor, $f(0) = 0$, not maximum (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Hard",
+      "correctOption": "4.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.5,
+      "natMax": 4.5,
+      "questionTextEn": "A system of $N$ classical non-interacting particles in 3D has single-particle Hamiltonian $H = c|\\mathbf{p}| + \\alpha r^2$. By the generalized equipartition theorem, what is the average total energy per particle in units of $k_B T$?",
+      "optionsEn": [],
+      "explanationEn": "In 3D, $c|\\mathbf{p}|$ (homogeneous of degree 1 in 3 momentum components) contributes $3 k_B T$, and $\\alpha r^2 = \\alpha(x^2 + y^2 + z^2)$ (quadratic in 3 position components) contributes $\\frac{3}{2} k_B T$. Total = $3 + 1.5 = 4.5\\,k_B T$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Hard",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Consider a grand canonical system of fermions on a SINGLE non-degenerate orbital of energy $\\epsilon$ at chemical potential $\\mu = \\epsilon$. What is the grand partition function $\\mathcal{Z} = 1 + e^{-\\beta(\\epsilon - \\mu)}$?",
+      "optionsEn": [],
+      "explanationEn": "When $\\epsilon = \\mu$, $\\mathcal{Z} = 1 + e^0 = 2$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Hard",
+      "correctOption": "9.13",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.12,
+      "natMax": 9.15,
+      "questionTextEn": "One mole of an ideal gas expands freely into an evacuated chamber (Joule free expansion), tripling its volume from $V$ to $3V$. Taking $R = 8.314\\text{ J/(mol}\\cdot\\text{K)}$, what is the entropy change $\\Delta S$ of the universe (in J/K, rounded to 2 decimal places)?",
+      "optionsEn": [],
+      "explanationEn": "Since $Q = 0$ for the surroundings ($\\Delta S_{\\text{surr}} = 0$) and $T$ is unchanged for an ideal gas, $\\Delta S_{\\text{univ}} = R\\ln(3) = 8.314 \\times 1.0986 = 9.13\\text{ J/K}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "810.4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 810.0,
+      "natMax": 811.0,
+      "questionTextEn": "An ideal gas at $P = 2\\text{ atm}$ and $V = 5\\text{ L}$ expands isobarically to $V = 9\\text{ L}$. Taking $1\\text{ L}\\cdot\\text{atm} = 101.3\\text{ J}$, what work (in Joules, rounded to 1 decimal place) is done by the gas?",
+      "optionsEn": [],
+      "explanationEn": "$W = P\\Delta V = 2(9 - 5) = 8\\text{ L}\\cdot\\text{atm} = 8 \\times 101.3 = 810.4\\text{ J}$."
+    },
+    {
+      "questionId": "gate_ph_topic_tsp_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Thermodynamics and Statistical Physics (Set 2)",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "500",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 500.0,
+      "natMax": 500.0,
+      "questionTextEn": "A reversible Carnot engine operates between $T_1 = 800\\text{ K}$ and $T_2 = 400\\text{ K}$, absorbing $1000\\text{ J}$ of heat from the hot reservoir per cycle. How much heat (in Joules) is rejected to the cold reservoir per cycle?",
+      "optionsEn": [],
+      "explanationEn": "$Q_C / Q_H = T_C / T_H = 400 / 800 = 0.5$, so $Q_C = 0.5 \\times 1000 = 500\\text{ J}$."
+    }
+  ]
+}

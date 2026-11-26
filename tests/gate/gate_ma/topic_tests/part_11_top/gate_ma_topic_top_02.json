@@ -1,0 +1,632 @@
+{
+  "testId": "gate_ma_topic_top_02",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_top_02",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Topology — Set 2",
+  "titleEn": "GATE Mathematics Topic Test: Topology — Set 2",
+  "partId": "part_11_top",
+  "part_id": "part_11_top",
+  "partTitle": "Topology",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: संस्थिति विज्ञान (टोपोलॉजी) — सेट 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Topology • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "sectionTitleEn": "Topology",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_top_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Connectedness",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What are the connected components of the Sorgenfrey line $\\mathbb{R}_l$ (the real line with the lower limit topology)?",
+      "optionsEn": [
+        "All intervals of the form $[a, \\infty)$",
+        "Only the entire space $\\mathbb{R}_l$",
+        "All intervals of the form $[a, b)$ with $a < b$",
+        "All singleton sets $\\{x\\}$ for $x \\in \\mathbb{R}$"
+      ],
+      "explanationEn": "Every subset $A \\subseteq \\mathbb{R}_l$ containing two distinct points $x < y$ is disconnected because $(-\\infty, y)$ and $[y, \\infty)$ are disjoint open sets in $\\mathbb{R}_l$ covering $A$ and meeting $A$ at $x$ and $y$, respectively. Hence $\\mathbb{R}_l$ is totally disconnected, and its connected components are the singletons $\\{x\\}$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Subspace Topology",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $Y = [0, 1) \\cup \\{2\\}$ carry the subspace topology inherited from the standard topology on $\\mathbb{R}$. Which of the following subsets of $Y$ is both open and closed in $Y$?",
+      "optionsEn": [
+        "$\\{0\\}$",
+        "$(0, 1)$",
+        "$[0, 1/2)$",
+        "$[0, 1)$"
+      ],
+      "explanationEn": "In $Y$, $[0, 1) = (-1, 1) \\cap Y$ is open, and its complement in $Y$ is $\\{2\\} = (3/2, 5/2) \\cap Y$, which is also open in $Y$. Therefore $[0, 1)$ is both open and closed (clopen) in $Y$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Sequential and Limit Point Compactness",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $Y = \\{0, 1\\}$ carry the indiscrete topology $\\{\\emptyset, Y\\}$, and let $\\mathbb{Z}_+$ carry the discrete topology. Consider the product space $X = \\mathbb{Z}_+ \\times Y$. Which of the following statements is TRUE?",
+      "optionsEn": [
+        "$X$ is compact and limit point compact",
+        "$X$ is not limit point compact",
+        "$X$ is limit point compact, but neither compact nor sequentially compact",
+        "$X$ is sequentially compact, but not limit point compact"
+      ],
+      "explanationEn": "Every nonempty subset $A \\subseteq X$ contains some point $(n, i)$; then $(n, 1-i)$ is a limit point of $A$ because every open neighborhood of $(n, 1-i)$ contains $\\{n\\} \\times Y$ and hence meets $A \\setminus \\{(n, 1-i)\\}$. Thus $X$ is limit point compact. However, the open cover $\\{\\{n\\} \\times Y : n \\in \\mathbb{Z}_+\\}$ has no finite subcover (so $X$ is not compact), and the sequence $((n, 0))_{n=1}^\\infty$ has no convergent subsequence (so $X$ is not sequentially compact)."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Path Connectedness",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X = \\{(x, \\sin(1/x)) : x \\in (0, 1]\\} \\cup (\\{0\\} \\times [-1, 1]) \\subseteq \\mathbb{R}^2$ be the closed topologist's sine curve with the subspace topology. Which of the following is TRUE about $X$?",
+      "optionsEn": [
+        "$X$ is connected and path-connected",
+        "$X$ is neither connected nor path-connected",
+        "$X$ is connected, has exactly two path components, and is not path-connected",
+        "$X$ is path-connected but not connected"
+      ],
+      "explanationEn": "The graph $S = \\{(x, \\sin(1/x)) : x \\in (0, 1]\\}$ is the continuous image of $(0, 1]$ and hence connected and path-connected. Since $X = \\overline{S}$, $X$ is connected. However, no continuous path in $X$ can connect $(0, 0)$ to $(1, \\sin 1)$ due to the oscillation of $\\sin(1/x)$ as $x \\to 0^+$. Thus $X$ has exactly two path components: $S$ and $\\{0\\} \\times [-1, 1]$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Basic Concepts of Topology",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(X, \\tau)$ be a topological space and let $A, B \\subseteq X$. Which of the following identities ALWAYS hold in every topological space?",
+      "optionsEn": [
+        "$\\overline{A \\cup B} = \\overline{A} \\cup \\overline{B}$",
+        "$\\overline{A \\cap B} = \\overline{A} \\cap \\overline{B}$",
+        "$\\operatorname{int}(A \\cap B) = \\operatorname{int}(A) \\cap \\operatorname{int}(B)$",
+        "$\\operatorname{int}(A \\cup B) = \\operatorname{int}(A) \\cup \\operatorname{int}(B)$"
+      ],
+      "explanationEn": "Closure distributes over finite unions ($\\overline{A \\cup B} = \\overline{A} \\cup \\overline{B}$) and interior distributes over finite intersections ($\\operatorname{int}(A \\cap B) = \\operatorname{int}(A) \\cap \\operatorname{int}(B)$). For counterexamples to (B) and (D) in $\\mathbb{R}$, take $A = (0, 1)$ and $B = (1, 2)$ for (B), and $A = \\mathbb{Q}$, $B = \\mathbb{R} \\setminus \\mathbb{Q}$ for (D)."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Product Topology",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\{X_\\alpha\\}_{\\alpha \\in J}$ be an arbitrary nonempty family of nonempty topological spaces, and let $X = \\prod_{\\alpha \\in J} X_\\alpha$ have the product topology. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "Every projection map $\\pi_\\beta : X \\to X_\\beta$ is continuous and open",
+        "Every projection map $\\pi_\\beta : X \\to X_\\beta$ is a closed map",
+        "If $A_\\alpha \\subseteq X_\\alpha$ for each $\\alpha \\in J$, then $\\overline{\\prod_{\\alpha} A_\\alpha} = \\prod_{\\alpha} \\overline{A_\\alpha}$",
+        "If every $X_\\alpha$ is Hausdorff, then $X$ is Hausdorff"
+      ],
+      "explanationEn": "Projections in the product topology are always continuous and open (A), closure commutes with arbitrary products (C), and arbitrary products of Hausdorff spaces are Hausdorff (D). Projections need not be closed (B): in $\\mathbb{R}^2$, the hyperbola $\\{(x, y) : xy = 1\\}$ is closed, but its projection onto the $x$-axis is $\\mathbb{R} \\setminus \\{0\\}$, which is not closed."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Bases and Subbases",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following collections of subsets of $\\mathbb{R}$ form a basis for SOME topology on $\\mathbb{R}$?",
+      "optionsEn": [
+        "$\\mathcal{B}_1 = \\{[a, b] : a, b \\in \\mathbb{R},\\; a < b\\}$",
+        "$\\mathcal{B}_2 = \\{(a, b) : a, b \\in \\mathbb{Q},\\; a < b\\}$",
+        "$\\mathcal{B}_3 = \\{[a, b) : a, b \\in \\mathbb{R},\\; a < b\\}$",
+        "$\\mathcal{B}_4 = \\{A \\subseteq \\mathbb{R} : A \\text{ is finite}\\}$"
+      ],
+      "explanationEn": "A collection $\\mathcal{B}$ is a basis for some topology on $\\mathbb{R}$ iff it covers $\\mathbb{R}$ and for $x \\in B_1 \\cap B_2$, there is $B_3 \\in \\mathcal{B}$ with $x \\in B_3 \\subseteq B_1 \\cap B_2$. This fails for $\\mathcal{B}_1$ since $[0, 1] \\cap [1, 2] = \\{1\\}$ contains no nondegenerate closed interval $[a, b]$ with $a < b$. It holds for $\\mathcal{B}_2$ (usual topology), $\\mathcal{B}_3$ (lower limit topology), and $\\mathcal{B}_4$ (discrete topology, since $\\{x\\} \\in \\mathcal{B}_4$)."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Connectedness",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "With respect to the standard Euclidean topology on $\\mathbb{R}^2$, which of the following subspaces are connected?",
+      "optionsEn": [
+        "$\\mathbb{R}^2 \\setminus \\mathbb{Q}^2$",
+        "$\\{(x, y) \\in \\mathbb{R}^2 : x^2 - y^2 = 1\\}$",
+        "$\\{(x, y) \\in \\mathbb{R}^2 : x \\in \\mathbb{Q} \\text{ or } y \\in \\mathbb{Q}\\}$",
+        "$\\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 < 1\\} \\cup \\{(1, 0)\\}$"
+      ],
+      "explanationEn": "(A) $\\mathbb{Q}^2$ is countable, so any two points in $\\mathbb{R}^2 \\setminus \\mathbb{Q}^2$ can be joined by a polygonal path of two segments avoiding $\\mathbb{Q}^2$; thus it is path-connected and connected. (B) The hyperbola $x^2 - y^2 = 1$ has two separated branches ($x \\ge 1$ and $x \\le -1$), so it is disconnected. (C) Any two points in the rational grid can be joined by a horizontal and vertical line segment along rational coordinates, so it is path-connected and connected. (D) It lies between the connected open unit disk $D$ and its closure $\\overline{D}$, hence is connected."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Separation Axioms",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "How many distinct Hausdorff ($T_2$) topologies can be defined on a 5-element set $X = \\{1, 2, 3, 4, 5\\}$?",
+      "optionsEn": [],
+      "explanationEn": "In any $T_1$ (and in particular Hausdorff) space, every singleton is closed. Since $X$ is finite, every subset of $X$ is a finite union of singletons and hence closed; therefore every subset is open. Thus the discrete topology is the unique Hausdorff topology on $X$, giving $1$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Basic Concepts of Topology",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "How many distinct $T_0$ topologies can be defined on a 2-element set $X = \\{a, b\\}$?",
+      "optionsEn": [],
+      "explanationEn": "Of the $4$ topologies on $X = \\{a, b\\}$, the indiscrete topology $\\{\\emptyset, X\\}$ fails $T_0$ because no open set separates $a$ and $b$. The other $3$ topologies—$\\{\\emptyset, \\{a\\}, X\\}$, $\\{\\emptyset, \\{b\\}, X\\}$, and the discrete topology—all satisfy the $T_0$ axiom. Hence there are $3$ distinct $T_0$ topologies."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Product Topology",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $\\mathbb{R}^\\omega$ with the product topology and let $A = \\{(x_n) \\in \\mathbb{R}^\\omega : x_n > 0 \\text{ for all } n \\in \\mathbb{N}\\}$. Let $\\mathbf{0} = (0, 0, 0, \\dots) \\in \\mathbb{R}^\\omega$. Which of the following statements is TRUE?",
+      "optionsEn": [
+        "$\\mathbf{0} \\in \\overline{A}$ in the product topology, and $\\mathbf{0} \\in \\overline{A}$ in the box topology",
+        "There exists a sequence in $A$ converging to $\\mathbf{0}$ in the box topology",
+        "$\\mathbf{0} \\in \\overline{A}$ in the product topology, and $\\mathbf{0} \\notin \\overline{A}$ in the box topology",
+        "$\\mathbf{0} \\notin \\overline{A}$ in the product topology, and $\\mathbf{0} \\in \\overline{A}$ in the box topology"
+      ],
+      "explanationEn": "In the box topology, every basis neighborhood of $\\mathbf{0}$ has the form $B = \\prod_{n=1}^{\\infty} (a_n, b_n)$ with $a_n < 0 < b_n$ for all $n$. Choosing $x_n = b_n / 2 > 0$ yields a point $(x_n) \\in A \\cap B$, so $\\mathbf{0} \\in \\overline{A}$ in the box topology, and hence also in the coarser product topology. However, no sequence in $A$ converges to $\\mathbf{0}$ in the box topology (by a diagonal argument: for $(x^{(k)})$, the box neighborhood $\\prod_k (-x^{(k)}_k, x^{(k)}_k)$ excludes every $x^{(k)}$)."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Separation Axioms",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be an uncountable set with the cocountable topology $\\tau_{\\text{cc}}$. Which of the following statements about $(X, \\tau_{\\text{cc}})$ is TRUE?",
+      "optionsEn": [
+        "$X$ is Hausdorff and first countable",
+        "$X$ is $T_1$, connected, and every convergent sequence in $X$ is eventually constant",
+        "$X$ is metrizable",
+        "$X$ is compact and separable"
+      ],
+      "explanationEn": "In $(X, \\tau_{\\text{cc}})$, every singleton is closed (so $X$ is $T_1$). Any two nonempty open sets intersect (since the union of two countable sets is countable, hence proper in $X$), so $X$ is connected and not Hausdorff. If $x_n \\to x$, let $S = \\{x_n : x_n \\neq x\\}$; then $X \\setminus S$ is an open neighborhood of $x$, so $x_n \\in X \\setminus S$ eventually, forcing $x_n = x$ eventually. Also $X$ is neither compact nor separable nor first countable."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Subspace Topology",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X = \\mathbb{R}_l$ be the Sorgenfrey line and $Y = \\{0\\} \\cup \\{1/n : n \\in \\mathbb{N}\\}$ be a subspace of $\\mathbb{R}_l$. Which of the following statements about $Y$ is TRUE?",
+      "optionsEn": [
+        "Every subset of $Y$ is closed in $Y$",
+        "$Y$ is compact in $\\mathbb{R}_l$",
+        "$Y$ has the discrete topology",
+        "$0$ is an isolated point of $Y$"
+      ],
+      "explanationEn": "Every open neighborhood of $0$ in $\\mathbb{R}_l$ contains $[0, \\varepsilon)$ for some $\\varepsilon > 0$, which contains $1/n$ for all $n > 1/\\varepsilon$. Thus $0$ is a limit point of $Y$ (not isolated), so $Y$ is not discrete and $\\{1/n : n \\in \\mathbb{N}\\}$ is not closed in $Y$. Moreover, any open cover of $Y$ in $\\mathbb{R}_l$ includes a set containing $[0, \\varepsilon)$, which covers all but finitely many points of $Y$, so $Y$ is compact."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Separation Axioms",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "By Urysohn's Metrization Theorem, every topological space $X$ that satisfies which of the following combinations of axioms is guaranteed to be metrizable?",
+      "optionsEn": [
+        "Regular ($T_3$) and first countable",
+        "Hausdorff ($T_2$) and second countable",
+        "Regular ($T_3$) and second countable",
+        "Normal ($T_4$) and separable"
+      ],
+      "explanationEn": "Urysohn's Metrization Theorem states that every regular ($T_3$, i.e., $T_1$ and regular) second countable space is metrizable (in fact, embeds in the Hilbert cube $[0, 1]^\\omega$). Counterexamples to the other options: $\\mathbb{R}_K$ is $T_2$ and second countable but not regular (hence not metrizable); $\\mathbb{R}_l$ is $T_4$, first countable, and separable, yet not second countable and not metrizable."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Urysohn's Lemma and Tietze Extension",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements involving Urysohn's Lemma and the Tietze Extension Theorem are TRUE?",
+      "optionsEn": [
+        "If $X$ is a normal space and $A, B \\subseteq X$ are disjoint closed sets, there exists a continuous function $f : X \\to [-5, 7]$ with $f(A) \\subseteq \\{-5\\}$ and $f(B) \\subseteq \\{7\\}$",
+        "If $X$ is a Tychonoff ($T_{3\\frac{1}{2}}$) space, then every continuous function $f : A \\to [0, 1]$ from a closed subset $A \\subseteq X$ extends continuously to $X$",
+        "If $X$ is a $T_1$ space in which every continuous function $f : A \\to [0, 1]$ from any closed subset $A \\subseteq X$ extends continuously to $X$, then $X$ is normal",
+        "For every closed subset $A$ of $\\mathbb{R}^n$, every continuous map $f : A \\to \\mathbb{R}^m$ extends to a continuous map $F : \\mathbb{R}^n \\to \\mathbb{R}^m$"
+      ],
+      "explanationEn": "(A) Rescaling a Urysohn function $g : X \\to [0, 1]$ via $f(x) = 12g(x) - 5$ gives the required function. (C) Given disjoint closed $C, D \\subseteq X$, define $f : C \\cup D \\to [0, 1]$ by $0$ on $C$ and $1$ on $D$; extending $f$ to $X$ yields disjoint open neighborhoods $F^{-1}([0, 1/3))$ and $F^{-1}((2/3, 1])$ of $C$ and $D$, proving normality. (D) $\\mathbb{R}^n$ is metric (hence normal), so applying Tietze to each of the $m$ coordinate functions extends $f$ to $\\mathbb{R}^n$. (B) is false since Tychonoff spaces need not be normal (e.g., $\\mathbb{R}_l^2$ is Tychonoff but not normal)."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Quotient Topology",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a topological space and $\\sim$ be an equivalence relation on $X$ with quotient map $q : X \\to X/{\\sim}$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "If $X$ is connected, then $X/{\\sim}$ is connected",
+        "If $X$ is compact, then $X/{\\sim}$ is compact",
+        "If $X$ is Hausdorff, then $X/{\\sim}$ is Hausdorff",
+        "If $q$ is an open map, then $X/{\\sim}$ is Hausdorff if and only if the relation $R = \\{(x, y) \\in X \\times X : x \\sim y\\}$ is closed in $X \\times X$"
+      ],
+      "explanationEn": "Since $q$ is a continuous surjection, connectedness (A) and compactness (B) pass to $X/{\\sim}$. Statement (C) is false (e.g., $\\mathbb{R}/\\mathbb{Q}$ is indiscrete). For (D), $X/{\\sim}$ is Hausdorff iff its diagonal $\\Delta$ is closed in $(X/{\\sim}) \\times (X/{\\sim})$. When $q$ is open, $q \\times q$ is an open quotient map with $(q \\times q)^{-1}(\\Delta) = R$, so $\\Delta$ is closed iff $R$ is closed in $X \\times X$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Connectedness",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a topological space. Which of the following statements about connected subsets of $X$ are ALWAYS true?",
+      "optionsEn": [
+        "If $\\{C_\\alpha\\}$ is a family of connected subsets of $X$ with $\\bigcap_\\alpha C_\\alpha \\neq \\emptyset$, then $\\bigcup_\\alpha C_\\alpha$ is connected",
+        "If $C$ is connected and $C \\subseteq D \\subseteq \\overline{C}$, then $D$ is connected",
+        "Every connected component of $X$ is closed in $X$",
+        "Every connected component of $X$ is open in $X$"
+      ],
+      "explanationEn": "(A), (B), and (C) are standard theorems (since the closure of a connected component is connected, maximality forces each component to be closed). Statement (D) is false in general: in $\\mathbb{Q}$, the connected components are singletons $\\{q\\}$, which are not open in $\\mathbb{Q}$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Countability Axioms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about countability axioms are ALWAYS true?",
+      "optionsEn": [
+        "Every second countable space is separable and Lindel\\\"of",
+        "Every separable metrizable space is second countable",
+        "Every Lindel\\\"of metrizable space is second countable",
+        "Every first countable separable space is second countable"
+      ],
+      "explanationEn": "(A) Selecting one point from each nonempty basis set yields a countable dense subset, and any open cover can be refined to a countable subcollection of basis sets. In metrizable spaces, second countability, separability (B), and the Lindel\\\"of property (C) are all equivalent. (D) is false: the Sorgenfrey line $\\mathbb{R}_l$ is first countable and separable, but not second countable."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Metric Topology",
+      "difficulty": "Medium",
+      "correctOption": "64",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 64.0,
+      "natMax": 64.0,
+      "questionTextEn": "In $\\mathbb{R}^3$ equipped with the maximum metric $d_\\infty(x, y) = \\max\\{|x_1 - y_1|, |x_2 - y_2|, |x_3 - y_3|\\}$, what is the Euclidean volume of the open ball $B_{d_\\infty}((1, -2, 3), 2)$?",
+      "optionsEn": [],
+      "explanationEn": "The open ball $B_{d_\\infty}((1, -2, 3), 2)$ is the open cube $(-1, 3) \\times (-4, 0) \\times (1, 5)$. Each side has length $4$, so its Euclidean volume is $4^3 = 64$."
+    },
+    {
+      "questionId": "gate_ma_topic_top_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Topology (Set 2)",
+      "topicTag": "Metric Topology",
+      "difficulty": "Medium",
+      "correctOption": "0.6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.6,
+      "natMax": 0.6,
+      "questionTextEn": "Let $X = [0, 2]$ with the usual metric $d(x, y) = |x - y|$, and consider the open cover $\\mathcal{U} = \\{[0, 1.3),\\; (0.7, 2]\\}$ of $X$. What is the supremum (largest possible value) of all Lebesgue numbers $\\delta > 0$ for the open cover $\\mathcal{U}$?",
+      "optionsEn": [],
+      "explanationEn": "A number $\\delta > 0$ is a Lebesgue number for $\\mathcal{U}$ iff every subset $A \\subseteq [0, 2]$ with $\\operatorname{diam}(A) < \\delta$ lies in $[0, 1.3)$ or $(0.7, 2]$. A subset fails to lie in either set iff it contains a point $\\le 0.7$ and a point $\\ge 1.3$, which requires diameter at least $1.3 - 0.7 = 0.6$. For any $\\delta \\le 0.6$, every subset of diameter $< \\delta$ cannot span $[0.7, 1.3]$ and hence lies in one of the two open sets. For $\\delta > 0.6$, the set $\\{0.7, 1.3\\}$ has diameter $0.6 < \\delta$ and is not contained in either set. Thus the supremum of all Lebesgue numbers is $0.6$."
+    }
+  ]
+}

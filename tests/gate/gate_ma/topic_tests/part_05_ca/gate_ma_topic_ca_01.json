@@ -1,0 +1,602 @@
+{
+  "testId": "gate_ma_topic_ca_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_ca_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Complex Analysis — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Complex Analysis — Set 1",
+  "partId": "part_05_ca",
+  "part_id": "part_05_ca",
+  "partTitle": "Complex Analysis",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: सम्मिश्र विश्लेषण — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Complex Analysis • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "sectionTitleEn": "Complex Analysis",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_ca_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Möbius Transformations",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The Möbius transformation $T(z) = \\frac{3z - 4}{z - 1}$ on the extended complex plane $\\widehat{\\mathbb{C}}$ has:",
+      "optionsEn": [
+        "two distinct fixed points at $z = 1$ and $z = 4$",
+        "no fixed points in $\\widehat{\\mathbb{C}}$",
+        "a unique fixed point at $z = 2$",
+        "two distinct fixed points at $z = 2$ and $z = \\infty$"
+      ],
+      "explanationEn": "Setting $T(z) = z$ gives $\\frac{3z - 4}{z - 1} = z \\implies z^2 - 4z + 4 = 0 \\implies (z - 2)^2 = 0$, so $z = 2$ is the only finite fixed point. Moreover, $T(\\infty) = 3 \\neq \\infty$, so $z = 2$ is the unique fixed point in $\\widehat{\\mathbb{C}}$ (making $T$ parabolic)."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Morera's Theorem",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\Omega \\subset \\mathbb{C}$ be an open connected set and $f: \\Omega \\to \\mathbb{C}$ be a continuous function. By Morera's theorem, $f$ is analytic on $\\Omega$ if $\\oint_T f(z)\\,dz = 0$ for:",
+      "optionsEn": [
+        "every closed triangle $T$ whose interior is contained in $\\Omega$",
+        "at least one rectangle $T$ contained in $\\Omega$",
+        "every circle $T$ centered at the origin",
+        "at least one circle $T$ contained in $\\Omega$"
+      ],
+      "explanationEn": "Morera's theorem states that if $f$ is continuous on an open set $\\Omega$ and $\\oint_T f(z)\\,dz = 0$ for every closed triangular contour $T$ with its interior in $\\Omega$, then $f$ locally admits an analytic antiderivative and is therefore analytic on $\\Omega$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The radius of convergence of the power series $\\sum_{n=1}^{\\infty} \\frac{3^n + (-2)^n}{n^2}\\,z^n$ is:",
+      "optionsEn": [
+        "$\\frac{1}{5}$",
+        "$3$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$"
+      ],
+      "explanationEn": "By the Cauchy-Hadamard formula, $\\frac{1}{R} = \\limsup_{n \\to \\infty} \\left|\\frac{3^n + (-2)^n}{n^2}\\right|^{1/n} = \\lim_{n \\to \\infty} \\frac{3\\left(1 + (-2/3)^n\\right)^{1/n}}{n^{2/n}} = 3$. Therefore, $R = \\frac{1}{3}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Schwarz Lemma",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{D} \\to \\mathbb{D}$ be an analytic function on the open unit disk $\\mathbb{D} = \\{z \\in \\mathbb{C} : |z| < 1\\}$ with $f(0) = 0$ and $f\\left(\\frac{1}{2}\\right) = \\frac{i}{2}$. Then $f\\left(\\frac{i}{3}\\right)$ equals:",
+      "optionsEn": [
+        "$-\\frac{1}{3}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{i}{3}$",
+        "$-\\frac{i}{3}$"
+      ],
+      "explanationEn": "Since $f(0) = 0$, $|f(z)| < 1$ on $\\mathbb{D}$, and $\\left|f\\left(\\frac{1}{2}\\right)\\right| = \\frac{1}{2}$, the equality case of the Schwarz lemma implies $f(z) = c z$ for a unimodular constant $c$ ($|c| = 1$). From $f\\left(\\frac{1}{2}\\right) = \\frac{i}{2}$, we get $c = i$, so $f(z) = iz$. Therefore, $f\\left(\\frac{i}{3}\\right) = i\\left(\\frac{i}{3}\\right) = -\\frac{1}{3}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Laurent's Series",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Laurent series expansion of $f(z) = \\frac{1}{(z - 1)(z - 4)}$ valid in the annulus $1 < |z| < 4$, the coefficient of $z^{-2}$ is:",
+      "optionsEn": [
+        "$-\\frac{1}{12}$",
+        "$-\\frac{1}{3}$",
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{3}$"
+      ],
+      "explanationEn": "Using partial fractions, $f(z) = \\frac{1}{3}\\left(\\frac{1}{z - 4} - \\frac{1}{z - 1}\\right)$. In $1 < |z| < 4$, we have $|z/4| < 1$ and $|1/z| < 1$, so $\\frac{1}{z - 4} = -\\frac{1}{4}\\sum_{n=0}^{\\infty} \\left(\\frac{z}{4}\\right)^n$ contributes only non-negative powers, while $-\\frac{1}{z - 1} = -\\frac{1}{z}\\sum_{n=0}^{\\infty} z^{-n} = -\\sum_{k=1}^{\\infty} z^{-k}$. Hence the coefficient of $z^{-2}$ is $-\\frac{1}{3}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Entire Functions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{C} \\to \\mathbb{C}$ be an entire function. Which of the following conditions forces $f$ to be a polynomial?",
+      "optionsEn": [
+        "$|f(z)| \\le 5|z|^3 + 10$ for all $z \\in \\mathbb{C}$",
+        "$\\lim_{|z| \\to \\infty} |f(z)| = \\infty$",
+        "$f(z)$ has only finitely many zeros in $\\mathbb{C}$",
+        "$f(1/n) = 0$ for all positive integers $n$"
+      ],
+      "explanationEn": "(A) True: By Cauchy's estimates, $f^{(k)}(0) = 0$ for all $k > 3$, so $f$ is a polynomial of degree at most $3$. (B) True: $\\lim_{|z|\\to\\infty}|f(z)| = \\infty$ implies $\\infty$ is a pole of $f$, so $f$ is a non-constant polynomial. (C) False: $f(z) = e^z$ has no zeros in $\\mathbb{C}$ but is not a polynomial. (D) True: The zero set has an accumulation point at $0 \\in \\mathbb{C}$, so by the Identity Theorem $f \\equiv 0$, which is the zero polynomial."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Laurent's Series",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(z) = \\frac{1}{(z - 2)(z + 5)}$. Which of the following statements about Laurent series expansions of $f$ centered at $z_0 = 0$ is/are TRUE?",
+      "optionsEn": [
+        "The expansion valid for $|z| < 2$ contains no negative powers of $z$.",
+        "The expansion valid for $2 < |z| < 5$ contains infinitely many positive and infinitely many negative powers of $z$.",
+        "The expansion valid for $|z| > 5$ contains no positive powers of $z$.",
+        "The coefficient of $z^{-1}$ is identical in all three regions $|z| < 2$, $2 < |z| < 5$, and $|z| > 5$."
+      ],
+      "explanationEn": "Write $f(z) = \\frac{1}{7}\\left(\\frac{1}{z - 2} - \\frac{1}{z + 5}\\right)$. (A) True: $f$ is analytic in $|z| < 2$, so the Laurent series is a Taylor series. (B) True: in $2 < |z| < 5$, $\\frac{1}{z-2}$ gives infinitely many negative powers and $-\\frac{1}{z+5}$ gives infinitely many non-negative powers. (C) True: in $|z| > 5$, both terms expand in negative powers $z^{-k}$ ($k \\ge 1$). (D) False: the coefficient of $z^{-1}$ is $0$ in $|z|<2$, $\\frac{1}{7}$ in $2<|z|<5$, and $0$ in $|z|>5$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Analytic Functions",
+      "difficulty": "Easy",
+      "correctOption": "52",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 52.0,
+      "natMax": 52.0,
+      "questionTextEn": "Let $f(z) = u(x, y) + i v(x, y)$ be an analytic function whose real part is $u(x, y) = x^2 - y^2 + 4x - 2y$. The value of $|f'(1 + i)|^2$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "By the Cauchy-Riemann equations, $f'(z) = u_x + i v_x = u_x - i u_y$. Here $u_x = 2x + 4$ and $u_y = -2y - 2$. At $(x, y) = (1, 1)$, $f'(1 + i) = 6 - i(-4) = 6 + 4i$, so $|f'(1 + i)|^2 = 6^2 + 4^2 = 52$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Harmonic Functions",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "If $u(x, y) = a x^3 + 3x^2 y - 6x y^2 - y^3$ is a harmonic function on $\\mathbb{R}^2$, then the value of the real constant $a$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Compute the Laplacian: $u_{xx} = 6ax + 6y$ and $u_{yy} = -12x - 6y$. Setting $u_{xx} + u_{yy} = (6a - 12)x = 0$ for all $x \\in \\mathbb{R}$ gives $a = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Rouché's Theorem",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The number of roots of the equation $z^4 - 6z + 3 = 0$ lying in the annulus $1 < |z| < 2$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "On $|z| = 1$, $|-6z| = 6 > 4 \\ge |z^4 + 3|$, so by Rouché's theorem there is $1$ root in $|z| < 1$ (and none on $|z|=1$). On $|z| = 2$, $|z^4| = 16 > 15 \\ge |-6z + 3|$, so there are $4$ roots in $|z| < 2$. Hence there are $4 - 1 = 3$ roots in $1 < |z| < 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Residue Theorem",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $C$ be the positively oriented circle $|z| = 2$. The value of $\\oint_C \\frac{e^{2/z}}{z - 1}\\,dz$ is:",
+      "optionsEn": [
+        "$2\\pi i$",
+        "$0$",
+        "$2\\pi i e^2$",
+        "$2\\pi i (e^2 - 1)$"
+      ],
+      "explanationEn": "All finite singularities of $f(z) = \\frac{e^{2/z}}{z - 1}$ (namely $z = 0$ and $z = 1$) lie inside $|z| = 2$. Hence $\\oint_C f(z)\\,dz = -2\\pi i \\operatorname{Res}(f, \\infty)$. Setting $w = 1/z$, $\\frac{1}{w^2}f(1/w) = \\frac{e^{2w}}{w(1 - w)}$, which has a simple pole at $w = 0$ with residue $1$. Thus $\\operatorname{Res}(f, \\infty) = -1$ and the integral equals $2\\pi i$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Real Integrals via Residues",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the improper integral $\\int_0^{\\infty} \\frac{x^{-1/3}}{1 + x}\\,dx$ is:",
+      "optionsEn": [
+        "$\\frac{\\pi}{\\sqrt{3}}$",
+        "$\\frac{4\\pi}{\\sqrt{3}}$",
+        "$\\pi\\sqrt{3}$",
+        "$\\frac{2\\pi}{\\sqrt{3}}$"
+      ],
+      "explanationEn": "Using a keyhole contour around the positive real axis with the branch $z^{-1/3} = r^{-1/3}e^{-i\\theta/3}$ ($0 < \\theta < 2\\pi$), the integral satisfies $(1 - e^{-2\\pi i/3})I = 2\\pi i \\operatorname{Res}_{z=-1}\\frac{z^{-1/3}}{1 + z} = 2\\pi i e^{-i\\pi/3}$. Dividing gives $I = \\frac{2\\pi i}{e^{i\\pi/3} - e^{-i\\pi/3}} = \\frac{\\pi}{\\sin(\\pi/3)} = \\frac{2\\pi}{\\sqrt{3}}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Schwarz Lemma",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{D} \\to \\mathbb{D}$ be analytic with $f(0) = f'(0) = 0$. Which of the following inequalities MUST hold for all $z \\in \\mathbb{D}$?",
+      "optionsEn": [
+        "$|f(z)| \\le \\frac{1}{2}|z|^2$ and $|f''(0)| \\le 1$",
+        "$|f(z)| \\le |z|^2$ and $|f''(0)| \\le 2$",
+        "$|f(z)| \\le |z|$ only, with no upper bound on $|f''(0)|$",
+        "$|f(z)| \\le |z|^3$ and $|f''(0)| \\le 1$"
+      ],
+      "explanationEn": "Since $f(0) = f'(0) = 0$, the function $h(z) = f(z)/z^2$ (with $h(0) = f''(0)/2$) is analytic on $\\mathbb{D}$. For any $0 < r < 1$, on $|z| = r$ we have $|h(z)| = |f(z)|/r^2 \\le 1/r^2$. By the Maximum Modulus Principle, $|h(z)| \\le 1/r^2$ for $|z| \\le r$. Letting $r \\to 1^-$ gives $|h(z)| \\le 1$, so $|f(z)| \\le |z|^2$ and $|f''(0)| = 2|h(0)| \\le 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Zeros and Singularities",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "At $z = 0$, the function $f(z) = \\frac{1}{e^z - 1} - \\frac{1}{z}$ has a removable singularity, and $\\lim_{z \\to 0} f(z)$ equals:",
+      "optionsEn": [
+        "$-1$",
+        "$-\\frac{1}{2}$",
+        "$\\frac{1}{2}$",
+        "$0$"
+      ],
+      "explanationEn": "Combine over a common denominator: $f(z) = \\frac{z - (e^z - 1)}{z(e^z - 1)} = \\frac{-z^2/2 - z^3/6 - \\cdots}{z^2 + z^3/2 + \\cdots}$. Dividing numerator and denominator by $z^2$ and letting $z \\to 0$ yields $\\lim_{z \\to 0} f(z) = -\\frac{1}{2}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Residue Theorem",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $C$ be the positively oriented unit circle $|z| = 1$. The value of $\\oint_C z^2 \\sin\\left(\\frac{1}{z}\\right)\\,dz$ is:",
+      "optionsEn": [
+        "$2\\pi i$",
+        "$-\\frac{\\pi i}{3}$",
+        "$-\\frac{\\pi i}{6}$",
+        "$\\frac{\\pi i}{3}$"
+      ],
+      "explanationEn": "Expanding $\\sin(1/z)$ in a Laurent series about $z = 0$: $z^2\\sin\\left(\\frac{1}{z}\\right) = z^2\\left(\\frac{1}{z} - \\frac{1}{3! z^3} + \\frac{1}{5! z^5} - \\cdots\\right) = z - \\frac{1}{6z} + \\frac{1}{120z^3} - \\cdots$. The residue at $z = 0$ is $-\\frac{1}{6}$, so by the residue theorem the integral equals $2\\pi i\\left(-\\frac{1}{6}\\right) = -\\frac{\\pi i}{3}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Conformal Mappings",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the analytic map $f(z) = z^3$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$f$ is conformal at every point $z \\in \\mathbb{C} \\setminus \\{0\\}$.",
+        "At $z = 0$, $f$ triples the angle between any two smooth curves intersecting at $0$.",
+        "$f$ maps the sector $\\{z : 0 < \\arg(z) < \\frac{\\pi}{3}\\}$ bijectively onto the upper half-plane $\\{w : \\operatorname{Im}(w) > 0\\}$.",
+        "$f$ is injective on the disk $|z - 2| < 1$."
+      ],
+      "explanationEn": "(A) True: $f'(z) = 3z^2 \\neq 0$ for all $z \\neq 0$. (B) True: $f(re^{i\\theta}) = r^3 e^{3i\\theta}$ multiplies angles at the origin by $3$. (C) True: $0 < \\theta < \\frac{\\pi}{3} \\iff 0 < 3\\theta < \\pi$. (D) True: in the disk $|z - 2| < 1$, every point satisfies $|\\arg(z)| < \\arcsin(1/2) = \\frac{\\pi}{6}$, so the total angular span is less than $\\frac{\\pi}{3} < \\frac{2\\pi}{3}$; hence $z_1^3 = z_2^3$ forces $z_1 = z_2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Complex Integration",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\Gamma_R$ be the upper semicircular arc $z = Re^{i\\theta}$ ($0 \\le \\theta \\le \\pi$) of radius $R > 2$. Which of the following limits is/are equal to $0$?",
+      "optionsEn": [
+        "$\\lim_{R \\to \\infty} \\int_{\\Gamma_R} \\frac{z}{z^3 + 1}\\,dz$",
+        "$\\lim_{R \\to \\infty} \\int_{\\Gamma_R} \\frac{e^{iz}}{z^2 + 1}\\,dz$",
+        "$\\lim_{R \\to \\infty} \\int_{\\Gamma_R} \\frac{e^{iz}}{z}\\,dz$",
+        "$\\lim_{R \\to \\infty} \\int_{\\Gamma_R} \\frac{e^{-iz}}{z^2 + 1}\\,dz$"
+      ],
+      "explanationEn": "(A) By the ML-inequality, $\\left|\\int_{\\Gamma_R} \\frac{z}{z^3+1}\\,dz\\right| \\le \\frac{R}{R^3 - 1} \\cdot \\pi R \\to 0$. (B) On $\\Gamma_R$, $|e^{iz}| = e^{-R\\sin\\theta} \\le 1$, so the integral is bounded by $\\frac{\\pi R}{R^2 - 1} \\to 0$. (C) By Jordan's lemma, $\\left|\\int_{\\Gamma_R} \\frac{e^{iz}}{z}\\,dz\\right| \\le \\frac{\\pi}{R} \\to 0$. (D) On $\\Gamma_R$, $|e^{-iz}| = e^{+R\\sin\\theta}$, which grows exponentially as $R \\to \\infty$ (the limit does not tend to $0$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Zeros and Singularities",
+      "difficulty": "Hard",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The residue of $f(z) = \\frac{3z(z^2 - \\sin^2 z)}{(1 - \\cos z)^3}$ at $z = 0$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Near $z = 0$, $z^2 - \\sin^2 z = (z - \\sin z)(z + \\sin z) = \\left(\\frac{z^3}{6} + O(z^5)\\right)(2z + O(z^3)) = \\frac{z^4}{3} + O(z^6)$, so the numerator is $3z\\left(\\frac{z^4}{3} + O(z^6)\\right) = z^5 + O(z^7)$. The denominator is $(1 - \\cos z)^3 = \\left(\\frac{z^2}{2} + O(z^4)\\right)^3 = \\frac{z^6}{8} + O(z^8)$. Thus $f(z) = \\frac{8}{z} + O(z)$ has a simple pole at $z = 0$ with residue $8$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Residue Theorem",
+      "difficulty": "Medium",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "Let $C$ be the positively oriented circle $|z| = 3$. The value of $\\frac{1}{2\\pi i} \\oint_C \\frac{z^5 + 2z^3}{(z - 1)^3(z - 2)}\\,dz$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "All finite poles of $f(z) = \\frac{z^5 + 2z^3}{(z - 1)^3(z - 2)}$ ($z = 1$ and $z = 2$) lie inside $|z| = 3$, so the integral equals $-\\operatorname{Res}(f, \\infty)$, which is the coefficient of $z^{-1}$ in the Laurent expansion for $|z| > 2$. Writing $f(z) = \\left(z + \\frac{2}{z}\\right)(1 - z^{-1})^{-3}(1 - 2z^{-1})^{-1} = \\left(z + \\frac{2}{z}\\right)(1 + 3z^{-1} + 6z^{-2} + \\cdots)(1 + 2z^{-1} + 4z^{-2} + \\cdots)$, the $z^{-1}$ coefficient is $(4 + 6 + 6) + 2 = 18$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 1)",
+      "topicTag": "Liouville's Theorem",
+      "difficulty": "Medium",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "Let $f: \\mathbb{C} \\to \\mathbb{C}$ be an entire function satisfying $|f(z)| \\le 10(1 + |z|^2)$ for all $z \\in \\mathbb{C}$. If $f(0) = 2$, $f(1) = 5$, and $f(-1) = 3$, then $f(2)$ is equal to ______.",
+      "optionsEn": [],
+      "explanationEn": "By the generalized Liouville theorem, $|f(z)| \\le 10(1 + |z|^2)$ forces $f$ to be a polynomial of degree at most $2$: $f(z) = c_0 + c_1 z + c_2 z^2$. From $f(0) = 2$, $c_0 = 2$. From $f(1) = 5$ and $f(-1) = 3$, we get $c_1 + c_2 = 3$ and $-c_1 + c_2 = 1$, yielding $c_1 = 1$ and $c_2 = 2$. Thus $f(z) = 2 + z + 2z^2$, and $f(2) = 2 + 2 + 8 = 12$."
+    }
+  ]
+}

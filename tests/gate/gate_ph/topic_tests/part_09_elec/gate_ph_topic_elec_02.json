@@ -1,0 +1,551 @@
+{
+  "testId": "gate_ph_topic_elec_02",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_elec_02",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Electronics — Set 2",
+  "titleEn": "GATE Physics Topic Test: Electronics — Set 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_09_elec",
+  "part_id": "part_09_elec",
+  "partTitle": "Electronics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Electronics • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "sectionTitleEn": "Electronics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_elec_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An ideal op-amp configured with a resistor $R$ at the inverting input and a capacitor $C$ in the feedback path (non-inverting input grounded) functions as a:",
+      "optionsEn": [
+        "Integrator",
+        "Voltage follower",
+        "Differentiator",
+        "Logarithmic amplifier"
+      ],
+      "explanationEn": "With $R$ at the input and $C$ in feedback, $V_{\\text{out}}(t) = -\\frac{1}{RC}\\int V_{\\text{in}}(t)\\,dt$, forming an inverting integrator."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For an n-channel enhancement MOSFET in the saturation region ($V_{GS} > V_T$ and $V_{DS} \\ge V_{GS} - V_T$), the drain current $I_D$ (ignoring channel-length modulation) varies with $(V_{GS} - V_T)$ as:",
+      "optionsEn": [
+        "$I_D \\propto \\sqrt{V_{GS} - V_T}$",
+        "$I_D \\propto (V_{GS} - V_T)$",
+        "$I_D \\propto (V_{GS} - V_T)^2$",
+        "$I_D \\propto e^{V_{GS}/V_T}$"
+      ],
+      "explanationEn": "In saturation, the square-law model gives $I_D = \\frac{1}{2}\\mu_n C_{ox}\\frac{W}{L}(V_{GS} - V_T)^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following is the main cause of thermal runaway in a BJT amplifier?",
+      "optionsEn": [
+        "Excessive negative feedback",
+        "Increasing temperature raises reverse saturation current $I_{CBO}$ and collector current $I_C$, which increases power dissipation and raises temperature further",
+        "Decrease in supply voltage $V_{CC}$",
+        "Increasing temperature decreases $I_C$"
+      ],
+      "explanationEn": "Positive thermal feedback ($T \\uparrow \\implies I_{CBO} \\uparrow \\implies I_C \\uparrow \\implies P_D \\uparrow \\implies T \\uparrow$) causes thermal runaway if biasing is not stabilized."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which BJT configuration is primarily used as a unity-gain voltage buffer (high input impedance, low output impedance, voltage gain $\\approx +1$)?",
+      "optionsEn": [
+        "Common-Collector (Emitter Follower)",
+        "Cascode",
+        "Common-Emitter",
+        "Common-Base"
+      ],
+      "explanationEn": "The Emitter Follower (Common-Collector) has voltage gain $\\approx +1$, high input impedance, and low output impedance, making it ideal for impedance matching."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 3-section RC phase-shift oscillator using an inverting amplifier, each RC section provides a phase shift of $60^\\circ$ at $f_0 = \\frac{1}{2\\pi\\sqrt{6}RC}$. What is the minimum inverting voltage gain magnitude $|A_v|$ required?",
+      "optionsEn": [
+        "3",
+        "10",
+        "29",
+        "100"
+      ],
+      "explanationEn": "At $f_0 = \\frac{1}{2\\pi\\sqrt{6}RC}$, the 3-stage RC ladder attenuates the signal by $1/29$ with $180^\\circ$ phase shift, so the inverting amplifier needs $|A_v| \\ge 29$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following Boolean expressions are equivalent to the NOR function $(A + B)'$?",
+      "optionsEn": [
+        "$A' + B'$",
+        "$(A' + B')'$",
+        "$A' \\cdot B'$",
+        "Output is 1 only when $A = 0$ and $B = 0$"
+      ],
+      "explanationEn": "By De Morgan's law, $(A + B)' = A' \\cdot B'$, which equals 1 iff $A = 0$ and $B = 0$. $(A' + B')' = AB$ (B false) and $A' + B' = (AB)'$ (D false)."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "A BJT in the active region has $\\beta = 99$ and base current $I_B = 20\\,\\mu\\text{A}$. What is the emitter current $I_E$ (in mA)?",
+      "optionsEn": [],
+      "explanationEn": "$I_E = (\\beta + 1)I_B = 100 \\times 20\\,\\mu\\text{A} = 2000\\,\\mu\\text{A} = 2.0\\text{ mA}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "A 4-stage binary ripple counter is clocked by a $32\\text{ kHz}$ square wave. What is the output frequency at the 4th flip-flop (MSB) in kHz?",
+      "optionsEn": [],
+      "explanationEn": "$f_{\\text{out}} = f_{\\text{clk}} / 2^4 = 32 / 16 = 2\\text{ kHz}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "159.2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 159.0,
+      "natMax": 159.3,
+      "questionTextEn": "A first-order low-pass RC filter has $R = 1\\,\\text{k}\\Omega$ and $C = 1\\,\\mu\\text{F}$. What is its $-3\\text{ dB}$ cutoff frequency $f_c = \\frac{1}{2\\pi RC}$ (in Hz, rounded to 1 decimal place)?",
+      "optionsEn": [],
+      "explanationEn": "$f_c = \\frac{1}{2\\pi(10^3)(10^{-6})} = \\frac{1000}{2\\pi} \\approx 159.15 \\approx 159.2\\text{ Hz}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "63",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 63.0,
+      "natMax": 63.0,
+      "questionTextEn": "A 6-bit Flash ADC requires how many analog voltage comparators?",
+      "optionsEn": [],
+      "explanationEn": "An $n$-bit Flash ADC requires $2^n - 1 = 2^6 - 1 = 63$ comparators."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 555 timer configured as an astable multivibrator with $R_A = 10\\,\\text{k}\\Omega$, $R_B = 10\\,\\text{k}\\Omega$, and capacitor $C$, what is the duty cycle $\\frac{T_{\\text{high}}}{T_{\\text{high}} + T_{\\text{low}}}$?",
+      "optionsEn": [
+        "33.3%",
+        "66.7%",
+        "75%",
+        "50%"
+      ],
+      "explanationEn": "$T_{\\text{high}} = 0.693(R_A + R_B)C$ and $T_{\\text{low}} = 0.693 R_B C$. Duty cycle = $\\frac{R_A + R_B}{R_A + 2R_B} = \\frac{20}{30} = 66.7\\%$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An n-channel enhancement MOSFET has threshold voltage $V_T = 1\\text{ V}$ and transconductance parameter $k_n = \\mu_n C_{ox}(W/L) = 2\\text{ mA/V}^2$. If $V_{GS} = 3\\text{ V}$ and $V_{DS} = 4\\text{ V}$, what is the drain current $I_D$?",
+      "optionsEn": [
+        "$2\\text{ mA}$",
+        "$8\\text{ mA}$",
+        "$4\\text{ mA}$",
+        "$6\\text{ mA}$"
+      ],
+      "explanationEn": "Since $V_{DS} = 4\\text{ V} \\ge V_{GS} - V_T = 2\\text{ V}$, the MOSFET is in saturation: $I_D = \\frac{1}{2}k_n(V_{GS} - V_T)^2 = \\frac{1}{2}(2)(3 - 1)^2 = 4\\text{ mA}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A silicon p-n junction at $300\\text{ K}$ ($V_T = 25.9\\text{ mV}$, $n_i = 1.5 \\times 10^{10}\\text{ cm}^{-3}$) has doping $N_A = 1.5 \\times 10^{16}\\text{ cm}^{-3}$ and $N_D = 1.5 \\times 10^{16}\\text{ cm}^{-3}$. What is its built-in potential $V_{\\text{bi}} = V_T \\ln\\left(\\frac{N_A N_D}{n_i^2}\\right)$?",
+      "optionsEn": [
+        "$0.500\\text{ V}$",
+        "$0.358\\text{ V}$",
+        "$1.12\\text{ V}$",
+        "$0.716\\text{ V}$"
+      ],
+      "explanationEn": "$\\frac{N_A N_D}{n_i^2} = 10^{12}$. $V_{\\text{bi}} = 0.0259 \\times 12\\ln(10) = 0.0259 \\times 27.631 = 0.716\\text{ V}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about CMOS digital logic inverters (one PMOS + one NMOS) are TRUE?",
+      "optionsEn": [
+        "CMOS inverters require a pull-up resistor to operate",
+        "Static power dissipation is nearly zero because in either steady logic state (0 or 1), one transistor is OFF",
+        "Dynamic power dissipation scales as $P_{\\text{dyn}} = C_L V_{DD}^2 f$",
+        "The NMOS pulls the output LOW when input is HIGH, and the PMOS pulls the output HIGH when input is LOW"
+      ],
+      "explanationEn": "A, B, and C are defining advantages of CMOS logic. CMOS uses a complementary PMOS pull-up transistor rather than a static resistor (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "-10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -10.0,
+      "natMax": -10.0,
+      "questionTextEn": "In a 2's complement 8-bit signed binary system, what is the decimal value of `11110110`?",
+      "optionsEn": [],
+      "explanationEn": "MSB is 1 (negative). Invert bits to `00001001` (9) and add 1 -> `00001010` (10), so the value is $-10$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "A silicon diode has reverse saturation current $I_0 = 1\\text{ nA}$ at $27^\\circ\\text{C}$. Using the rule of thumb that $I_0$ doubles for every $10^\\circ\\text{C}$ rise in temperature, what is $I_0$ (in nA) at $67^\\circ\\text{C}$?",
+      "optionsEn": [],
+      "explanationEn": "Temperature rise is $67 - 27 = 40^\\circ\\text{C}$ (four $10^\\circ\\text{C}$ steps), so $I_0 = 1 \\times 2^4 = 16\\text{ nA}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "How many 2-input NAND gates are minimally needed to implement a 2-input OR gate?",
+      "optionsEn": [],
+      "explanationEn": "By De Morgan's law, $A + B = (A' \\cdot B')'$. Two NAND gates invert $A$ and $B$, and a third NAND combines them: 3 NAND gates."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "40",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 40.0,
+      "natMax": 40.0,
+      "questionTextEn": "A low-pass filter has a voltage transfer magnitude that drops at $-20\\text{ dB/decade}$ above its cutoff frequency $f_c = 1\\text{ kHz}$. What is the attenuation in dB at $f = 100\\text{ kHz}$?",
+      "optionsEn": [],
+      "explanationEn": "From $1\\text{ kHz}$ to $100\\text{ kHz}$ is 2 decades ($10^2$), giving $2 \\times 20 = 40\\text{ dB}$ attenuation."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "12.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.5,
+      "natMax": 12.5,
+      "questionTextEn": "A 4-bit ripple counter is built using flip-flops with propagation delay $20\\text{ ns}$ each. What is the maximum safe clock frequency (in MHz)?",
+      "optionsEn": [],
+      "explanationEn": "Total ripple delay = $4 \\times 20\\text{ ns} = 80\\text{ ns}$. $f_{\\max} = 1 / (80 \\times 10^{-9}) = 12.5\\text{ MHz}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 2)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "-5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -5.0,
+      "natMax": -5.0,
+      "questionTextEn": "An ideal op-amp has a $10\\,\\text{k}\\Omega$ resistor from $V_{\\text{in}} = 4\\text{ V}$ to the inverting input, and a $20\\,\\text{k}\\Omega$ feedback resistor. If the non-inverting input is held at $V_+ = 1\\text{ V}$ (instead of ground), what is the output voltage $V_{\\text{out}}$ (in Volts)?",
+      "optionsEn": [],
+      "explanationEn": "By superposition (or KCL at $V_- = V_+ = 1\\text{ V}$): $\\frac{4 - 1}{10} = \\frac{1 - V_{\\text{out}}}{20} \\implies 0.3 = \\frac{1 - V_{\\text{out}}}{20} \\implies 1 - V_{\\text{out}} = 6 \\implies V_{\\text{out}} = -5\\text{ V}$."
+    }
+  ]
+}

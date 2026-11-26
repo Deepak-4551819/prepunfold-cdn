@@ -1,0 +1,553 @@
+{
+  "testId": "gate_ph_topic_qm_02",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_qm_02",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Quantum Mechanics — Set 2",
+  "titleEn": "GATE Physics Topic Test: Quantum Mechanics — Set 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_05_qm",
+  "part_id": "part_05_qm",
+  "partTitle": "Quantum Mechanics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Quantum Mechanics • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "sectionTitleEn": "Quantum Mechanics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_qm_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the total number of nodes (radial + angular) in the $3p$ wavefunction of a hydrogen atom?",
+      "optionsEn": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "explanationEn": "Total nodes in hydrogen state $(n, l)$ is $n - 1 = 3 - 1 = 2$ (specifically $n - l - 1 = 1$ radial node and $l = 1$ angular node)."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a particle with orbital angular momentum $l = 2$ and spin $s = 1/2$, what are the possible values of the total angular momentum quantum number $j$?",
+      "optionsEn": [
+        "$2$ only",
+        "$1/2, 3/2, 5/2$",
+        "$1, 2, 3$",
+        "$3/2$ and $5/2$"
+      ],
+      "explanationEn": "By angular momentum addition, $j$ ranges from $|l - s|$ to $l + s$ in integer steps: $|2 - 1/2| = 3/2$ and $2 + 1/2 = 5/2$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The eigenvalues of the parity operator $\\hat{\\Pi}$ (where $\\hat{\\Pi}\\psi(\\mathbf{r}) = \\psi(-\\mathbf{r})$) are:",
+      "optionsEn": [
+        "$+i$ and $-i$",
+        "$0$ and $1$",
+        "$+1$ and $-1$",
+        "All real numbers"
+      ],
+      "explanationEn": "Since $\\hat{\\Pi}^2 = \\hat{I}$, its eigenvalues satisfy $\\lambda^2 = 1 \\implies \\lambda = \\pm 1$ (even and odd parity)."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In 2nd-order time-independent perturbation theory, the second-order energy correction $E_0^{(2)}$ to a non-degenerate GROUND state is ALWAYS:",
+      "optionsEn": [
+        "Greater than $E_0^{(1)}$",
+        "Less than or equal to zero ($E_0^{(2)} \\le 0$)",
+        "Strictly positive",
+        "Equal to zero"
+      ],
+      "explanationEn": "$E_0^{(2)} = \\sum_{n \\neq 0} \\frac{|\\langle n | H' | 0 \\rangle|^2}{E_0^{(0)} - E_n^{(0)}}$. Since $E_0^{(0)} < E_n^{(0)}$ for all $n \\neq 0$, every denominator is negative while numerators are $\\ge 0$, so $E_0^{(2)} \\le 0$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the angular momentum operators $\\hat{L}_x, \\hat{L}_y, \\hat{L}_z$, what is the commutator $[\\hat{L}_x, \\hat{L}_y]$?",
+      "optionsEn": [
+        "$i\\hbar\\hat{L}_z$",
+        "$-i\\hbar\\hat{L}_z$",
+        "$\\hbar\\hat{L}_z$",
+        "$0$"
+      ],
+      "explanationEn": "Angular momentum components satisfy the cyclic $SU(2)$ Lie algebra $[\\hat{L}_i, \\hat{L}_j] = i\\hbar\\varepsilon_{ijk}\\hat{L}_k$, so $[\\hat{L}_x, \\hat{L}_y] = i\\hbar\\hat{L}_z$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Hermitian operators and observables in quantum mechanics are TRUE?",
+      "optionsEn": [
+        "The expectation value of a Hermitian operator in any state is always real",
+        "The product $\\hat{A}\\hat{B}$ of two Hermitian operators is always Hermitian",
+        "The time-evolution operator $\\hat{U}(t) = e^{-i\\hat{H}t/\\hbar}$ (for time-independent $\\hat{H}$) is unitary",
+        "Every physical observable is represented by a Hermitian operator"
+      ],
+      "explanationEn": "A, B, and D are exact postulates/theorems. $(\\hat{A}\\hat{B})^\\dagger = \\hat{B}^\\dagger\\hat{A}^\\dagger = \\hat{B}\\hat{A}$, which equals $\\hat{A}\\hat{B}$ ONLY if $\\hat{A}$ and $\\hat{B}$ commute (C is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "If two operators satisfy $[\\hat{A}, \\hat{B}] = 3$ (a scalar constant), then $[\\hat{A}, \\hat{B}^2] = c\\hat{B}$. What is the numerical value of $c$?",
+      "optionsEn": [],
+      "explanationEn": "Using the commutator identity $[\\hat{A}, \\hat{B}^2] = [\\hat{A}, \\hat{B}]\\hat{B} + \\hat{B}[\\hat{A}, \\hat{B}] = 3\\hat{B} + 3\\hat{B} = 6\\hat{B}$, so $c = 6$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "15",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 15.0,
+      "natMax": 15.0,
+      "questionTextEn": "For two angular momenta $j_1 = 2$ and $j_2 = 1$, what is the total number of combined $(j, m)$ states in the coupled basis?",
+      "optionsEn": [],
+      "explanationEn": "Total states = $(2j_1 + 1)(2j_2 + 1) = 5 \\times 3 = 15$ (equivalently $j \\in \\{1, 2, 3\\} \\implies 3 + 5 + 7 = 15$)."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.0,
+      "natMax": 0.0,
+      "questionTextEn": "What is the expectation value of $\\hat{L}_z$ (in units of $\\hbar$) in the state $\\frac{1}{\\sqrt{2}}|l=1, m=+1\\rangle + \\frac{1}{\\sqrt{2}}|l=1, m=-1\\rangle$?",
+      "optionsEn": [],
+      "explanationEn": "$\\langle \\hat{L}_z \\rangle = \\frac{1}{2}(+\\hbar) + \\frac{1}{2}(-\\hbar) = 0$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "How many radial nodes does the $4s$ orbital of a hydrogen atom have?",
+      "optionsEn": [],
+      "explanationEn": "Number of radial nodes = $n - l - 1 = 4 - 0 - 1 = 3$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the commutator $[\\hat{x}, \\hat{p}_x^3]$?",
+      "optionsEn": [
+        "$3\\hbar \\hat{p}_x^2$",
+        "$-3i\\hbar \\hat{p}_x^2$",
+        "$3i\\hbar \\hat{p}_x^2$",
+        "$i\\hbar \\hat{p}_x^2$"
+      ],
+      "explanationEn": "Using $[\\hat{x}, f(\\hat{p}_x)] = i\\hbar f'(\\hat{p}_x)$: $[\\hat{x}, \\hat{p}_x^3] = 3i\\hbar \\hat{p}_x^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 1D quantum harmonic oscillator is perturbed by $H' = \\lambda x^4$. What is the first-order energy correction $E_0^{(1)}$ to the ground state $|0\\rangle$?",
+      "optionsEn": [
+        "$\\frac{3\\lambda}{2}\\left(\\frac{\\hbar}{m\\omega}\\right)^2$",
+        "$\\frac{\\lambda}{4}\\left(\\frac{\\hbar}{m\\omega}\\right)^2$",
+        "$\\frac{3\\lambda}{4}\\left(\\frac{\\hbar}{m\\omega}\\right)^2$",
+        "$0$"
+      ],
+      "explanationEn": "Writing $x = \\sqrt{\\frac{\\hbar}{2m\\omega}}(a + a^\\dagger)$, $\\langle 0 | (a + a^\\dagger)^4 | 0 \\rangle = \\langle 0 | a^2 (a^\\dagger)^2 + a a^\\dagger a a^\\dagger | 0 \\rangle = 2 + 1 = 3$. Thus $E_0^{(1)} = 3\\lambda \\left(\\frac{\\hbar}{2m\\omega}\\right)^2 = \\frac{3\\lambda}{4}\\left(\\frac{\\hbar}{m\\omega}\\right)^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the commutator $[\\hat{L}_z, \\hat{x}]$?",
+      "optionsEn": [
+        "$i\\hbar \\hat{p}_y$",
+        "$i\\hbar \\hat{y}$",
+        "$-i\\hbar \\hat{y}$",
+        "$0$"
+      ],
+      "explanationEn": "$\\hat{L}_z = \\hat{x}\\hat{p}_y - \\hat{y}\\hat{p}_x$, so $[\\hat{L}_z, \\hat{x}] = -\\hat{y}[\\hat{p}_x, \\hat{x}] = -\\hat{y}(-i\\hbar) = i\\hbar \\hat{y}$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about quantum tunneling through a 1D rectangular barrier of height $V_0 > E$ and width $a$ are TRUE?",
+      "optionsEn": [
+        "In the thick-barrier limit ($\\kappa a \\gg 1$), transmission $T \\propto e^{-2\\kappa a}$ where $\\kappa = \\frac{\\sqrt{2m(V_0 - E)}}{\\hbar}$",
+        "Inside the barrier, the wavefunction is a linear combination of $e^{+\\kappa x}$ and $e^{-\\kappa x}$",
+        "The probability current inside the barrier is identically zero",
+        "Tunneling probability decreases exponentially as particle mass $m$ increases"
+      ],
+      "explanationEn": "A, B, and C are exact. Because both $e^{\\kappa x}$ and $e^{-\\kappa x}$ are present with complex relative phase, the probability current inside the barrier is constant and non-zero, equal to the transmitted flux (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "207",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 207.0,
+      "natMax": 207.0,
+      "questionTextEn": "A muon ($m_\\mu \\approx 207 m_e$) replaces the electron in a hydrogen atom (neglecting reduced-mass correction). By what factor does the Bohr radius shrink?",
+      "optionsEn": [],
+      "explanationEn": "Bohr radius $a = \\frac{4\\pi\\varepsilon_0 \\hbar^2}{m e^2} \\propto 1/m$, so replacing $m_e$ by $207 m_e$ shrinks the Bohr radius by a factor of 207."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "0.04",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.04,
+      "natMax": 0.04,
+      "questionTextEn": "A free quantum particle of energy $E = 9\\text{ eV}$ encounters a 1D potential step of height $V_0 = 5\\text{ eV}$ ($E > V_0$). What is the reflection coefficient $R = \\left(\\frac{k_1 - k_2}{k_1 + k_2}\\right)^2$? (Round to 2 decimal places.)",
+      "optionsEn": [],
+      "explanationEn": "$k_1 \\propto \\sqrt{9} = 3$ and $k_2 \\propto \\sqrt{9 - 5} = 2$. $R = \\left(\\frac{3 - 2}{3 + 2}\\right)^2 = \\left(\\frac{1}{5}\\right)^2 = 0.04$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "A particle of mass $m$ moves in a 1D infinite well $[-a, a]$ (width $2a$). A constant perturbation $H' = V_0$ is applied ONLY on the right half $[0, a]$ ($H' = 0$ on $[-a, 0]$). What is the first-order energy correction $E_1^{(1)}$ to the ground state divided by $V_0$?",
+      "optionsEn": [],
+      "explanationEn": "Since $|\\psi_1(x)|^2$ is symmetric on $[-a, a]$, $\\int_0^a |\\psi_1(x)|^2 dx = 1/2$, so $E_1^{(1)} = V_0 / 2$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "4.47",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.46,
+      "natMax": 4.48,
+      "questionTextEn": "What is the matrix element $\\langle 3 | \\hat{a}^2 | 5 \\rangle$ for 1D harmonic oscillator eigenstates? (Round to 2 decimal places.)",
+      "optionsEn": [],
+      "explanationEn": "$\\hat{a}^2 |5\\rangle = \\sqrt{5}\\sqrt{4}|3\\rangle = \\sqrt{20}|3\\rangle \\approx 4.472|3\\rangle$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "0.69",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.68,
+      "natMax": 0.7,
+      "questionTextEn": "A particle of mass $m$ is in a 1D box $[0, L]$ in the superposition $|\\psi(0)\\rangle = \\frac{1}{\\sqrt{2}}(|\\psi_1\\rangle + |\\psi_2\\rangle)$, where $E_1 = 2\\text{ eV}$ and $E_2 = 8\\text{ eV}$. Taking $h = 4.136 \\times 10^{-15}\\text{ eV}\\cdot\\text{s}$, what is the oscillation period $T = \\frac{h}{E_2 - E_1}$ of $\\langle x(t) \\rangle$ in femtoseconds ($10^{-15}\\text{ s}$, rounded to 2 decimal places)?",
+      "optionsEn": [],
+      "explanationEn": "$T = \\frac{4.136 \\times 10^{-15}}{8 - 2} = \\frac{4.136}{6} \\times 10^{-15}\\text{ s} \\approx 0.689\\text{ fs} \\approx 0.69\\text{ fs}$."
+    },
+    {
+      "questionId": "gate_ph_topic_qm_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Quantum Mechanics (Set 2)",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "3.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.5,
+      "natMax": 3.5,
+      "questionTextEn": "A 2-particle system of non-interacting identical SPIN-0 BOSONS occupies a 1D harmonic oscillator potential. If there are 5 bosons, what is the energy of the FIRST EXCITED state of the 5-boson system in units of $\\hbar\\omega$?",
+      "optionsEn": [],
+      "explanationEn": "Ground state has all 5 bosons in $n = 0$: $E_0 = 5(0.5) = 2.5\\hbar\\omega$. First excited state promotes 1 boson to $n = 1$: $E_1 = 4(0.5) + 1(1.5) = 3.5\\hbar\\omega$."
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "testId": "gate_ma_topic_la_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_la_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Linear Algebra — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Linear Algebra — Set 1",
+  "partId": "part_03_la",
+  "part_id": "part_03_la",
+  "partTitle": "Linear Algebra",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: रैखिक बीजगणित — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Linear Algebra • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "sectionTitleEn": "Linear Algebra",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_la_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Vector Spaces",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $U$ and $W$ be distinct $4$-dimensional subspaces of a $5$-dimensional vector space $V$ over $\\mathbb{R}$. What is $\\dim(U \\cap W)$?",
+      "optionsEn": [
+        "$1$",
+        "$4$",
+        "$3$",
+        "$2$"
+      ],
+      "explanationEn": "Since $U$ and $W$ are distinct $4$-dimensional subspaces of $V$, $U + W$ properly contains $U$, so $\\dim(U + W) = 5$. By the dimension formula, $\\dim(U \\cap W) = \\dim(U) + \\dim(W) - \\dim(U + W) = 4 + 4 - 5 = 3$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T: \\mathbb{R}^4 \\to \\mathbb{R}^3$ be a linear transformation and $S: \\mathbb{R}^3 \\to \\mathbb{R}^4$ be a linear transformation. Which of the following statements is always TRUE?",
+      "optionsEn": [
+        "$T \\circ S$ is invertible",
+        "$\\operatorname{nullity}(S \\circ T) = 0$",
+        "$S \\circ T$ is never invertible",
+        "$\\operatorname{rank}(T \\circ S) = 3$"
+      ],
+      "explanationEn": "Since $S \\circ T: \\mathbb{R}^4 \\to \\mathbb{R}^4$ factors through $\\mathbb{R}^3$, we have $\\operatorname{rank}(S \\circ T) \\le \\min(\\operatorname{rank}(S), \\operatorname{rank}(T)) \\le 3 < 4$. Therefore $S \\circ T$ can never have full rank $4$, so it is never invertible."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be an $n$-dimensional vector space and $T: V \\to V$ be a linear operator such that $T^2 = T$. Which of the following is necessarily equal to $V$?",
+      "optionsEn": [
+        "$\\ker(T) \\oplus \\operatorname{im}(T)$",
+        "$\\ker(T) \\cap \\operatorname{im}(T)$",
+        "$\\ker(I - T) \\cap \\operatorname{im}(T)$",
+        "$\\ker(T) \\oplus \\operatorname{im}(I - T)$"
+      ],
+      "explanationEn": "For any $v \\in V$, write $v = (v - Tv) + Tv$. Since $T(v - Tv) = Tv - T^2 v = 0$, we have $v - Tv \\in \\ker(T)$ and $Tv \\in \\operatorname{im}(T)$, so $V = \\ker(T) + \\operatorname{im}(T)$. If $u \\in \\ker(T) \\cap \\operatorname{im}(T)$, then $u = Tw$ and $0 = Tu = T^2 w = Tw = u$. Thus $V = \\ker(T) \\oplus \\operatorname{im}(T)$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Dual Spaces",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be a finite-dimensional vector space over $\\mathbb{R}$ with dual space $V^*$, and let $W$ be a subspace of $V$ with annihilator $W^0 = \\{f \\in V^* : f(w) = 0 \\text{ for all } w \\in W\\}$. If $\\dim(V) = 7$ and $\\dim(W) = 3$, then $\\dim(W^0)$ is:",
+      "optionsEn": [
+        "$3$",
+        "$7$",
+        "$4$",
+        "$10$"
+      ],
+      "explanationEn": "For any subspace $W$ of a finite-dimensional vector space $V$, $\\dim(W) + \\dim(W^0) = \\dim(V)$ (since $W^0 \\cong (V/W)^*$). Hence $\\dim(W^0) = 7 - 3 = 4$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Orthogonal Matrices",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $Q \\in M_3(\\mathbb{R})$ be an orthogonal matrix with $\\det(Q) = -1$. Which of the following must be an eigenvalue of $Q$?",
+      "optionsEn": [
+        "$i$",
+        "$1$",
+        "$0$",
+        "$-1$"
+      ],
+      "explanationEn": "Since $Q$ is orthogonal, $Q^T Q = I$. Thus $\\det(Q + I) = \\det(Q + Q Q^T) = \\det(Q) \\det(I + Q^T) = -\\det(I + Q)$, which implies $2\\det(Q + I) = 0$, so $\\det(Q + I) = 0$. Therefore $-1$ is necessarily an eigenvalue of $Q$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Spectral Theorem",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_n(\\mathbb{R})$ be a real symmetric matrix. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "Eigenvectors corresponding to distinct eigenvalues of $A$ are orthogonal with respect to the standard inner product",
+        "There exists an orthogonal matrix $Q$ such that $Q^T A Q$ is diagonal",
+        "$\\operatorname{rank}(A)$ equals the number of non-zero eigenvalues of $A$ counted with algebraic multiplicity",
+        "All eigenvalues of $A$ are non-negative"
+      ],
+      "explanationEn": "By the Real Spectral Theorem, real symmetric matrices have orthogonal eigenspaces for distinct eigenvalues (A), are orthogonally diagonalizable (B), and since they are diagonalizable, $\\operatorname{rank}(A)$ equals the number of non-zero eigenvalues with multiplicity (C). (D) is false (e.g., $-I$ has eigenvalue $-1$)."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Quadratic Forms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_n(\\mathbb{R})$ be a real symmetric positive definite matrix. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "All diagonal entries of $A$ are strictly positive",
+        "$A^{-1}$ is symmetric positive definite",
+        "$\\det(A) > 0$",
+        "All off-diagonal entries of $A$ are non-negative"
+      ],
+      "explanationEn": "Evaluating $e_i^T A e_i = a_{ii} > 0$ gives (A). All eigenvalues $\\lambda_i > 0$, so $A^{-1}$ is symmetric with eigenvalues $1/\\lambda_i > 0$ (B), and $\\det(A) = \\prod \\lambda_i > 0$ (C). (D) is false since $\\begin{pmatrix} 2 & -1 \\\\ -1 & 2 \\end{pmatrix}$ is positive definite with negative off-diagonal entries."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Rank and Nullity",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "What is the rank of the $4 \\times 4$ real matrix\n$$A = \\begin{pmatrix} 1 & 2 & 3 & 4 \\\\ 2 & 3 & 4 & 5 \\\\ 3 & 5 & 7 & 9 \\\\ 1 & 1 & 1 & 1 \\end{pmatrix}?$$",
+      "optionsEn": [],
+      "explanationEn": "Notice that $R_3 = R_1 + R_2$ and $R_4 = R_2 - R_1$. Thus the row space is spanned by $R_1 = (1,2,3,4)$ and $R_2 = (2,3,4,5)$, which are linearly independent. Hence $\\operatorname{rank}(A) = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Systems of Linear Equations",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "For what real value of $\\alpha$ does the linear system\n$$x + y + z = 2, \\quad 2x + 3y + 2z = 5, \\quad x + 2y + z = \\alpha$$\nhave infinitely many solutions?",
+      "optionsEn": [],
+      "explanationEn": "Subtracting the first equation from the second yields $x + 2y + z = 3$. Since the left-hand side of the third equation is identical to $x + 2y + z$, the system is consistent (and of rank $2 < 3$, hence having infinitely many solutions) if and only if $\\alpha = 3$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Quadratic Forms",
+      "difficulty": "Medium",
+      "correctOption": "-1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -1.0,
+      "natMax": -1.0,
+      "questionTextEn": "What is the signature (number of positive eigenvalues minus number of negative eigenvalues) of the real quadratic form $q(x, y, z) = x^2 + 4xy + y^2 - z^2$?",
+      "optionsEn": [],
+      "explanationEn": "The symmetric matrix of $q$ is $\\begin{pmatrix} 1 & 2 & 0 \\\\ 2 & 1 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$. Its eigenvalues are $1 + 2 = 3$, $1 - 2 = -1$, and $-1$. Thus there is $1$ positive eigenvalue and $2$ negative eigenvalues, giving signature $1 - 2 = -1$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Inner Product Spaces",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be a finite-dimensional inner product space and $T: V \\to V$ be a linear operator. Which of the following subspace identities ALWAYS holds?",
+      "optionsEn": [
+        "$\\ker(T^*) = (\\operatorname{im}(T))^\\perp$",
+        "$\\ker(T^*) = \\ker(T)$",
+        "$\\operatorname{im}(T^*) = \\operatorname{im}(T)$",
+        "$\\ker(T^* T) = \\operatorname{im}(T)$"
+      ],
+      "explanationEn": "A vector $v \\in V$ lies in $\\ker(T^*)$ iff $\\langle T^* v, u \\rangle = 0$ for all $u \\in V$, iff $\\langle v, Tu \\rangle = 0$ for all $u \\in V$, iff $v \\in (\\operatorname{im}(T))^\\perp$. Options (B) and (C) fail for non-normal operators, and $\\ker(T^* T) = \\ker(T)$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Minimal Polynomial",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_4(\\mathbb{R})$ satisfy $A^2 + I_4 = 0$. Which of the following statements is ALWAYS true about $A$?",
+      "optionsEn": [
+        "$A$ is diagonalizable over $\\mathbb{R}$",
+        "$\\operatorname{tr}(A) = 0$ and $\\det(A) = 1$",
+        "$A$ must be skew-symmetric",
+        "$A$ has only one similarity class over $\\mathbb{C}$"
+      ],
+      "explanationEn": "Since $m_A(t)$ divides $t^2 + 1$ and $A$ is real, the complex eigenvalues of $A$ are $+i$ and $-i$ occurring in conjugate pairs, so $+i$ and $-i$ each have algebraic multiplicity $2$. Therefore $\\operatorname{tr}(A) = 2i + 2(-i) = 0$ and $\\det(A) = i^2 (-i)^2 = (-1)(-1) = 1$. Note that $A$ need not be skew-symmetric (e.g., $\\begin{pmatrix} 1 & 2 \\\\ -1 & -1 \\end{pmatrix} \\oplus \\begin{pmatrix} 1 & 2 \\\\ -1 & -1 \\end{pmatrix}$)."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $D: P_4(\\mathbb{R}) \\to P_4(\\mathbb{R})$ be the differentiation operator $D(p) = p'$. What is the minimal polynomial of $D$?",
+      "optionsEn": [
+        "$t(t - 1)^4$",
+        "$t^3$",
+        "$t^4$",
+        "$t^5$"
+      ],
+      "explanationEn": "On $P_4(\\mathbb{R})$, $D^5(p) = 0$ for every polynomial of degree at most $4$, while $D^4(x^4) = 24 \\neq 0$. Thus $D$ is nilpotent of index $5$, so its minimal polynomial is $t^5$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Skew-Symmetric Matrices",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $K \\in M_n(\\mathbb{R})$ be a real skew-symmetric matrix ($K^T = -K$). The Cayley transform $Q = (I - K)(I + K)^{-1}$ is ALWAYS:",
+      "optionsEn": [
+        "Nilpotent",
+        "Orthogonal with $\\det(Q) = 1$",
+        "Symmetric positive definite",
+        "Skew-symmetric"
+      ],
+      "explanationEn": "Since $K$ is skew-symmetric, $I + K$ is invertible and $K^T = -K$. Thus $Q^T Q = (I - K)^{-1}(I + K)(I - K)(I + K)^{-1} = I$ (as $I + K$ and $I - K$ commute), so $Q$ is orthogonal. Moreover, $\\det(I - K) = \\det((I - K)^T) = \\det(I + K) \\neq 0$, hence $\\det(Q) = \\frac{\\det(I - K)}{\\det(I + K)} = 1$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Rank and Nullity",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_{m \\times n}(\\mathbb{R})$ and $B \\in M_{n \\times p}(\\mathbb{R})$. Which of the following is Sylvester's rank inequality?",
+      "optionsEn": [
+        "$\\operatorname{rank}(AB) \\ge \\operatorname{rank}(A) + \\operatorname{rank}(B) - n$",
+        "$\\operatorname{rank}(AB) \\le \\operatorname{rank}(A) + \\operatorname{rank}(B) - n$",
+        "$\\operatorname{rank}(AB) \\ge \\operatorname{rank}(A) + \\operatorname{rank}(B) - m$",
+        "$\\operatorname{rank}(AB) \\ge \\operatorname{rank}(A) + \\operatorname{rank}(B) - p$"
+      ],
+      "explanationEn": "Restricting $A$ to $\\operatorname{im}(B)$ gives $\\operatorname{rank}(B) - \\operatorname{rank}(AB) = \\dim(\\ker(A) \\cap \\operatorname{im}(B)) \\le \\dim(\\ker(A)) = n - \\operatorname{rank}(A)$. Rearranging yields Sylvester's rank inequality: $\\operatorname{rank}(AB) \\ge \\operatorname{rank}(A) + \\operatorname{rank}(B) - n$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Jordan Canonical Form",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_5(\\mathbb{C})$ have characteristic polynomial $(t - 2)^5$ and minimal polynomial $(t - 2)^3$. Which of the following are POSSIBLE values for $\\operatorname{rank}(A - 2I)$?",
+      "optionsEn": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$1$"
+      ],
+      "explanationEn": "Since $m_A(t) = (t - 2)^3$, the largest Jordan block has size $3$. The remaining size $5 - 3 = 2$ can be partitioned as $(2)$ or $(1, 1)$. Thus the possible Jordan block partitions are $(3, 2)$ (with $2$ blocks, so $\\operatorname{nullity} = 2$ and $\\operatorname{rank} = 5 - 2 = 3$) and $(3, 1, 1)$ (with $3$ blocks, so $\\operatorname{nullity} = 3$ and $\\operatorname{rank} = 5 - 3 = 2$). Hence possible ranks are $2$ and $3$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Hermitian and Normal Matrices",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_n(\\mathbb{C})$ be a normal matrix. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "If all eigenvalues of $A$ are real, then $A$ is Hermitian",
+        "If all eigenvalues of $A$ have modulus $1$, then $A$ is unitary",
+        "If $A$ is nilpotent, then $A = 0$",
+        "$\\ker(A) = \\ker(A^*)$"
+      ],
+      "explanationEn": "Write $A = U D U^*$ with $U$ unitary and $D = \\operatorname{diag}(\\lambda_1, \\dots, \\lambda_n)$. If all $\\lambda_i \\in \\mathbb{R}$, then $D^* = D \\implies A^* = A$ (A). If all $|\\lambda_i| = 1$, then $D^* D = I \\implies A^* A = I$ (B). If $A$ is nilpotent, all $\\lambda_i = 0 \\implies D = 0 \\implies A = 0$ (C). Finally $\\|Av\\| = \\|A^* v\\|$ for all $v$ implies $\\ker(A) = \\ker(A^*)$ (D)."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Eigenvalues and Eigenvectors",
+      "difficulty": "Easy",
+      "correctOption": "244",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 244.0,
+      "natMax": 244.0,
+      "questionTextEn": "Let $A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix}$. Compute $\\operatorname{tr}(A^5)$.",
+      "optionsEn": [],
+      "explanationEn": "The eigenvalues of $A$ are $2 + 1 = 3$ and $2 - 1 = 1$. Therefore the eigenvalues of $A^5$ are $3^5 = 243$ and $1^5 = 1$, giving $\\operatorname{tr}(A^5) = 243 + 1 = 244$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Jordan Canonical Form",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $A \\in M_6(\\mathbb{C})$ have Jordan blocks of sizes $3$ and $1$ for eigenvalue $0$, and a single Jordan block of size $2$ for eigenvalue $2$. What is $\\operatorname{rank}(A^2)$?",
+      "optionsEn": [],
+      "explanationEn": "For the $3 \\times 3$ nilpotent block $J_3(0)$, $\\operatorname{rank}(J_3(0)^2) = 1$. For $J_1(0)$, $\\operatorname{rank}(J_1(0)^2) = 0$. For the invertible $2 \\times 2$ block $J_2(2)$, $\\operatorname{rank}(J_2(2)^2) = 2$. Summing over blocks gives $\\operatorname{rank}(A^2) = 1 + 0 + 2 = 3$."
+    },
+    {
+      "questionId": "gate_ma_topic_la_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Algebra (Set 1)",
+      "topicTag": "Quadratic Forms",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "What is the rank of the real quadratic form\n$$q(x_1, x_2, x_3, x_4) = x_1^2 + 2x_1 x_2 + 2x_2^2 + 2x_2 x_3 + 2x_3^2 + 2x_3 x_4 + x_4^2?$$",
+      "optionsEn": [],
+      "explanationEn": "Completing the square yields $q = (x_1 + x_2)^2 + (x_2 + x_3)^2 + (x_3 + x_4)^2$. The three linear forms $y_1 = x_1 + x_2$, $y_2 = x_2 + x_3$, and $y_3 = x_3 + x_4$ are linearly independent (with common kernel spanned by $(1, -1, 1, -1)^T$). Hence the rank of $q$ is $3$."
+    }
+  ]
+}

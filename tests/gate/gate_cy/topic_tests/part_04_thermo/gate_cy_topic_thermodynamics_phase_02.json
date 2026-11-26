@@ -1,0 +1,597 @@
+{
+  "testId": "gate_cy_topic_thermodynamics_phase_02",
+  "categoryId": "gate_cy",
+  "test_id": "gate_cy_topic_thermodynamics_phase_02",
+  "category_id": "gate_cy",
+  "title": "GATE CY Topic Test: Chemical Thermodynamics & Phase Equilibria — Set 02",
+  "titleEn": "GATE CY Topic Test: Chemical Thermodynamics & Phase Equilibria — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_04_thermo",
+  "part_id": "part_04_thermo",
+  "partTitle": "Chemical Thermodynamics & Phase Equilibria",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE CY • Chemical Thermodynamics & Phase Equilibria • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "sectionTitleEn": "Chemistry",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For one mole of a van der Waals gas obeying $\\left(P + \\frac{a}{V_m^2}\\right)(V_m - b) = RT$, the internal pressure $\\pi_T = \\left(\\frac{\\partial U_m}{\\partial V_m}\\right)_T$ is equal to:",
+      "optionsEn": [
+        "$0$",
+        "$\\frac{RT}{V_m - b}$",
+        "$-\\frac{a}{V_m^2}$",
+        "$\\frac{a}{V_m^2}$"
+      ],
+      "explanationEn": "Using the thermodynamic equation of state $\\pi_T = \\left(\\frac{\\partial U_m}{\\partial V_m}\\right)_T = T\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} - P$. For a van der Waals gas, $P = \\frac{RT}{V_m - b} - \\frac{a}{V_m^2}$, so $\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} = \\frac{R}{V_m - b}$. Substituting gives $\\pi_T = \\frac{RT}{V_m - b} - \\left(\\frac{RT}{V_m - b} - \\frac{a}{V_m^2}\\right) = \\frac{a}{V_m^2}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A crystalline solid composed of linear asymmetric molecules $\\text{N}_2\\text{O}$ can freeze with two equally probable end-to-end orientations ($\\text{NNO}$ or $\\text{ONN}$) at $0\\text{ K}$. The theoretical residual molar entropy of solid $\\text{N}_2\\text{O}$ at $0\\text{ K}$ is:",
+      "optionsEn": [
+        "$0$",
+        "$2R\\ln 2$",
+        "$R\\ln 2$",
+        "$R\\ln 3$"
+      ],
+      "explanationEn": "By the Boltzmann entropy formula, the residual molar entropy is $S_0 = k_B \\ln W = k_B \\ln(2^{N_A}) = N_A k_B \\ln 2 = R\\ln 2$ (approximately $5.76\\text{ J K}^{-1}\\text{ mol}^{-1}$), since each of the $N_A$ molecules has $2$ equally likely frozen-in orientations at $0\\text{ K}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For an endothermic chemical reaction with temperature-independent standard reaction enthalpy $\\Delta_r H^\\circ > 0$, a plot of $\\ln K$ versus $1/T$ is a straight line with:",
+      "optionsEn": [
+        "Positive slope equal to $\\Delta_r H^\\circ / R$",
+        "Negative slope equal to $-\\Delta_r H^\\circ / R$",
+        "Zero slope",
+        "Negative slope equal to $-\\Delta_r G^\\circ / R$"
+      ],
+      "explanationEn": "From the integrated van't Hoff equation $\\ln K = -\\frac{\\Delta_r H^\\circ}{R}\\left(\\frac{1}{T}\\right) + \\frac{\\Delta_r S^\\circ}{R}$, plotting $\\ln K$ against $1/T$ gives a straight line with slope $-\\frac{\\Delta_r H^\\circ}{R}$. Since $\\Delta_r H^\\circ > 0$ for an endothermic reaction, the slope is negative."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the Ehrenfest classification of phase transitions, a second-order phase transition is characterized by:",
+      "optionsEn": [
+        "Discontinuous first derivatives of $G$ ($S$ and $V$) and finite latent heat",
+        "Continuous $G$, $S$, and $V$, but discontinuous second derivatives of $G$ ($C_p$, $\\alpha$, $\\kappa_T$)",
+        "Discontinuous chemical potential $\\mu$ across the phase boundary",
+        "Zero change in heat capacity $C_p$ and non-zero volume change $\\Delta V$"
+      ],
+      "explanationEn": "In Ehrenfest's classification, an $n$-th order phase transition has continuous $(n-1)$-th derivatives of the Gibbs free energy $G$ and discontinuous $n$-th derivatives. Therefore, a second-order transition has continuous $G$, $S = -(\\partial G/\\partial T)_P$, and $V = (\\partial G/\\partial P)_T$ (hence zero latent heat and zero $\\Delta V$), while $C_p = -T(\\partial^2 G/\\partial T^2)_P$, $\\alpha$, and $\\kappa_T$ are discontinuous."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any homogeneous single-phase substance, the difference between molar heat capacities $C_{p,m} - C_{V,m}$ is expressed in terms of the thermal expansion coefficient $\\alpha$ and isothermal compressibility $\\kappa_T$ as:",
+      "optionsEn": [
+        "$\\frac{TV_m \\alpha^2}{\\kappa_T}$",
+        "$\\frac{TV_m \\kappa_T}{\\alpha^2}$",
+        "$\\frac{PV_m \\alpha}{\\kappa_T}$",
+        "$\\frac{T \\alpha^2}{V_m \\kappa_T}$"
+      ],
+      "explanationEn": "The general thermodynamic relation is $C_{p,m} - C_{V,m} = T\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m}\\left(\\frac{\\partial V_m}{\\partial T}\\right)_P$. Using $\\alpha = \\frac{1}{V_m}\\left(\\frac{\\partial V_m}{\\partial T}\\right)_P$, $\\kappa_T = -\\frac{1}{V_m}\\left(\\frac{\\partial V_m}{\\partial P}\\right)_T$, and the cyclic rule $\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} = \\frac{\\alpha}{\\kappa_T}$, we obtain $C_{p,m} - C_{V,m} = \\frac{TV_m \\alpha^2}{\\kappa_T}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements regarding the Joule-Thomson (throttling) expansion of a gas is/are CORRECT?",
+      "optionsEn": [
+        "The process occurs at constant enthalpy ($\\Delta H = 0$).",
+        "For an ideal gas, the Joule-Thomson coefficient $\\mu_{\\text{JT}}$ is identically zero.",
+        "If $\\mu_{\\text{JT}} > 0$, the gas cools upon throttling to a lower pressure.",
+        "The process is thermodynamically reversible ($\\Delta S = 0$)."
+      ],
+      "explanationEn": "Joule-Thomson throttling through a porous plug is an adiabatic, irreversible process at constant enthalpy ($\\Delta H = 0$, $\\Delta S > 0$, so D is false). For an ideal gas, $H$ depends only on $T$, so $\\mu_{\\text{JT}} = (\\partial T/\\partial P)_H = 0$. Since $dP < 0$ during expansion, $\\mu_{\\text{JT}} > 0$ implies $dT < 0$, i.e., cooling."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the one-component $P$-$T$ phase diagram of $\\text{CO}_2$, whose triple point is at $5.11\\text{ atm}$ and $216.6\\text{ K}$, and critical point is at $72.8\\text{ atm}$ and $304.1\\text{ K}$. Which of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "At $1\\text{ atm}$, solid $\\text{CO}_2$ sublimes directly to gas without melting.",
+        "The solid-liquid coexistence curve of $\\text{CO}_2$ has a positive slope ($dP/dT > 0$).",
+        "Liquid $\\text{CO}_2$ can exist stably at $1\\text{ atm}$ if cooled to $200\\text{ K}$.",
+        "Above $304.1\\text{ K}$ and $72.8\\text{ atm}$, $\\text{CO}_2$ exists as a supercritical fluid."
+      ],
+      "explanationEn": "Because the triple point pressure ($5.11\\text{ atm}$) exceeds $1\\text{ atm}$, liquid $\\text{CO}_2$ cannot exist stably at $1\\text{ atm}$ at any temperature (C is false); solid $\\text{CO}_2$ sublimes directly at $1\\text{ atm}$ (A is true). Solid $\\text{CO}_2$ is denser than liquid $\\text{CO}_2$ ($\\Delta_{\\text{fus}} V_m > 0$), so $dP/dT > 0$ (B is true). Above the critical temperature and pressure, $\\text{CO}_2$ forms a supercritical fluid (D is true)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "18.6 to 18.8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.6,
+      "natMax": 18.8,
+      "questionTextEn": "One mole of $\\text{He}(\\text{g})$ and $3\\text{ mol}$ of $\\text{Ar}(\\text{g})$, both at $298\\text{ K}$ and $1\\text{ bar}$, are mixed isothermally and isobarically. Assuming ideal gas behavior, the entropy of mixing ($\\Delta_{\\text{mix}} S$, in $\\text{J K}^{-1}$, rounded off to two decimal places) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "Total moles $n = 1 + 3 = 4\\text{ mol}$, with mole fractions $x_{\\text{He}} = 0.25$ and $x_{\\text{Ar}} = 0.75$. Using $\\Delta_{\\text{mix}} S = -R(n_1\\ln x_1 + n_2\\ln x_2) = -8.314[1\\ln(0.25) + 3\\ln(0.75)] = -8.314[-1.38629 - 0.86305] = 8.314 \\times 2.24934 = 18.70\\text{ J K}^{-1}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Easy",
+      "correctOption": "1.84 to 1.88",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.84,
+      "natMax": 1.88,
+      "questionTextEn": "A solution is prepared by dissolving $15.0\\text{ g}$ of urea (molar mass $= 60.0\\text{ g mol}^{-1}$, non-electrolyte) in $250\\text{ g}$ of water. Taking $K_f = 1.86\\text{ K kg mol}^{-1}$ for water, the freezing point depression ($\\Delta T_f$, in $\\text{K}$, rounded off to two decimal places) is _______.",
+      "optionsEn": [],
+      "explanationEn": "Moles of urea $= \\frac{15.0}{60.0} = 0.25\\text{ mol}$. Mass of water $= 0.250\\text{ kg}$, so molality $m = \\frac{0.25}{0.250} = 1.00\\text{ mol kg}^{-1}$. For a non-electrolyte ($i = 1$), $\\Delta T_f = K_f m = 1.86 \\times 1.00 = 1.86\\text{ K}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "59.9 to 60.1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 59.9,
+      "natMax": 60.1,
+      "questionTextEn": "At $298\\text{ K}$ and $1\\text{ bar}$, the total volume (in $\\text{cm}^3$) of a binary solution containing $n_1\\text{ mol}$ of solvent and $n_2\\text{ mol}$ of solute is given by $V = 18.0\\,n_1 + 58.0\\,n_2 + 0.50\\,n_2^2$. The partial molar volume of the solute ($\\bar{V}_2$, in $\\text{cm}^3\\text{ mol}^{-1}$, rounded off to one decimal place) at $n_2 = 2.0\\text{ mol}$ is _______.",
+      "optionsEn": [],
+      "explanationEn": "The partial molar volume of the solute is $\\bar{V}_2 = \\left(\\frac{\\partial V}{\\partial n_2}\\right)_{T,P,n_1} = \\frac{\\partial}{\\partial n_2}(18.0\\,n_1 + 58.0\\,n_2 + 0.50\\,n_2^2) = 58.0 + 1.00\\,n_2$. Evaluating at $n_2 = 2.0\\text{ mol}$ gives $\\bar{V}_2 = 58.0 + 2.0 = 60.0\\text{ cm}^3\\text{ mol}^{-1}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A real gas obeys the Berthelot equation of state $P = \\frac{RT}{V_m - b} - \\frac{a}{T V_m^2}$. The internal pressure $\\pi_T = \\left(\\frac{\\partial U_m}{\\partial V_m}\\right)_T$ of this gas is:",
+      "optionsEn": [
+        "$\\frac{a}{T V_m^2}$",
+        "$0$",
+        "$\\frac{a}{T^2 V_m^2}$",
+        "$\\frac{2a}{T V_m^2}$"
+      ],
+      "explanationEn": "Using $\\pi_T = T\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} - P$. Differentiating $P = \\frac{RT}{V_m - b} - \\frac{a}{T V_m^2}$ with respect to $T$ at constant $V_m$ gives $\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} = \\frac{R}{V_m - b} + \\frac{a}{T^2 V_m^2}$. Multiplying by $T$ and subtracting $P$ yields $\\pi_T = \\left(\\frac{RT}{V_m - b} + \\frac{a}{T V_m^2}\\right) - \\left(\\frac{RT}{V_m - b} - \\frac{a}{T V_m^2}\\right) = \\frac{2a}{T V_m^2}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For an ideal gas-phase reaction with stoichiometric gas mole change $\\Delta \\nu_g$, the partial derivative $\\left(\\frac{\\partial \\ln K_x}{\\partial P}\\right)_T$ is equal to:",
+      "optionsEn": [
+        "$-\\frac{\\Delta \\nu_g}{P}$",
+        "$0$",
+        "$\\frac{\\Delta \\nu_g}{P}$",
+        "$-\\frac{\\Delta_r V^\\circ}{RT}$"
+      ],
+      "explanationEn": "For ideal gases, $K_p = K_x P^{\\Delta \\nu_g}$, where $K_p$ depends only on temperature $T$. Taking the natural logarithm gives $\\ln K_x = \\ln K_p - \\Delta \\nu_g \\ln P$. Differentiating with respect to $P$ at constant $T$ yields $\\left(\\frac{\\partial \\ln K_x}{\\partial P}\\right)_T = -\\frac{\\Delta \\nu_g}{P}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Applying Euler's theorem for homogeneous functions of degree $1$ to the internal energy $U(S, V, n_1, n_2, \\dots)$ yields the integrated form:",
+      "optionsEn": [
+        "$U = -TS + PV + \\sum_i \\mu_i n_i$",
+        "$U = TS + PV + \\sum_i \\mu_i n_i$",
+        "$U = TS - PV + \\sum_i \\mu_i n_i$",
+        "$U = \\sum_i \\mu_i n_i$"
+      ],
+      "explanationEn": "Since $U(S, V, \\{n_i\\})$ is homogeneous of degree $1$ in its extensive natural variables $(S, V, \\{n_i\\})$, Euler's theorem states $U = S\\left(\\frac{\\partial U}{\\partial S}\\right) + V\\left(\\frac{\\partial U}{\\partial V}\\right) + \\sum_i n_i\\left(\\frac{\\partial U}{\\partial n_i}\\right) = TS - PV + \\sum_i \\mu_i n_i$. Note that $G = U - TS + PV = \\sum_i \\mu_i n_i$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The binary liquid system nicotine-water exhibits a closed-loop miscibility gap with a lower critical solution temperature (LCST) at $60.8\\,^\\circ\\text{C}$ and an upper critical solution temperature (UCST) at $208\\,^\\circ\\text{C}$. Inside the closed loop, the number of liquid phases ($P$) and reduced degrees of freedom ($F'$ at fixed pressure) are, respectively:",
+      "optionsEn": [
+        "$P = 1,\\; F' = 2$",
+        "$P = 2,\\; F' = 1$",
+        "$P = 2,\\; F' = 0$",
+        "$P = 3,\\; F' = 0$"
+      ],
+      "explanationEn": "Inside the closed miscibility loop (between the LCST and UCST), the mixture splits into two conjugate partially miscible liquid phases ($P = 2$). For a binary condensed system ($C = 2$) at fixed pressure, the reduced phase rule gives $F' = C - P + 1 = 2 - 2 + 1 = 1$. Outside the loop (below $60.8\\,^\\circ\\text{C}$ or above $208\\,^\\circ\\text{C}$), the liquids are completely miscible ($P = 1, F' = 2$)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The Gibbs free energy $G(T, P, n)$ is obtained from the internal energy $U(S, V, n)$ via a double Legendre transformation replacing $(S, V)$ by $(T, P)$. Which expression correctly defines $G$ and its natural-variable differential?",
+      "optionsEn": [
+        "$G = U + TS - PV$ and $dG = S\\,dT - V\\,dP + \\mu\\,dn$",
+        "$G = U - TS + PV$ and $dG = -S\\,dT + V\\,dP + \\mu\\,dn$",
+        "$G = U - TS - PV$ and $dG = -S\\,dT - V\\,dP + \\mu\\,dn$",
+        "$G = U + PV$ and $dG = T\\,dS + V\\,dP + \\mu\\,dn$"
+      ],
+      "explanationEn": "Since $T = (\\partial U/\\partial S)_{V,n}$ and $-P = (\\partial U/\\partial V)_{S,n}$, the Legendre transform replacing $S$ with $T$ and $V$ with $-P$ is $G = U - TS - (-P)V = U - TS + PV$. Taking the differential and substituting $dU = TdS - PdV + \\mu\\,dn$ yields $dG = -S\\,dT + V\\,dP + \\mu\\,dn$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a two-component solid-liquid phase diagram ($T$ vs $x_B$ at constant pressure) of components $\\text{A}$ and $\\text{B}$ that form a single congruently melting compound $\\text{AB}$ (with no solid solubility), which of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "The diagram can be viewed as two simple eutectic diagrams side-by-side: $\\text{A}-\\text{AB}$ and $\\text{AB}-\\text{B}$.",
+        "There are two distinct eutectic points in the phase diagram.",
+        "At the congruent melting point of $\\text{AB}$, the liquid and solid $\\text{AB}$ have the exact same composition ($x_B = 0.5$).",
+        "At the congruent melting point of $\\text{AB}$, the reduced degrees of freedom $F'$ equals $1$."
+      ],
+      "explanationEn": "A congruently melting compound $\\text{AB}$ melts cleanly to a liquid of identical composition ($x_B = 0.5$, C), dividing the binary diagram into two independent simple eutectic subsystems, $\\text{A}-\\text{AB}$ and $\\text{AB}-\\text{B}$ (A), with two eutectic points (B). At the congruent melting point, the constraint $x_{\\text{s}} = x_{\\text{l}} = 0.5$ makes the system effectively single-component ($C_{\\text{eff}} = 1$) with $P = 2$, so $F' = 1 - 2 + 1 = 0$ (invariant, D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "When a non-volatile solute is dissolved in a pure liquid solvent to form a dilute ideal solution, which of the following thermodynamic statements is/are CORRECT?",
+      "optionsEn": [
+        "The chemical potential of the solvent in the solution is lowered by $-RT\\ln(1/x_1) = RT\\ln x_1 < 0$.",
+        "The ebullioscopic constant $K_b$ is given by $\\frac{R M_1 T_b^{*2}}{1000\\,\\Delta_{\\text{vap}} H_m}$ (with $M_1$ in $\\text{g mol}^{-1}$).",
+        "The freezing point is depressed because the solute lowers the chemical potential of the liquid solvent while the pure solid solvent's chemical potential is unchanged.",
+        "Both $K_b$ and $K_f$ depend strongly on the chemical identity of the non-volatile solute."
+      ],
+      "explanationEn": "In an ideal solution, $\\mu_1 = \\mu_1^* + RT\\ln x_1 < \\mu_1^*$ since $x_1 < 1$ (A). Because the pure solid solvent's $\\mu_1(\\text{s})$ is unaffected while $\\mu_1(\\text{l})$ shifts downward, the solid-liquid intersection shifts to a lower temperature (C). Standard derivation gives $K_b = \\frac{R M_1 T_b^{*2}}{1000\\,\\Delta_{\\text{vap}} H_m}$ (B), which depends solely on the properties of the solvent, not the solute (D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "354.1 to 354.7",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 354.1,
+      "natMax": 354.7,
+      "questionTextEn": "The normal boiling point of water at $1.00\\text{ atm}$ is $373.15\\text{ K}$, and its molar enthalpy of vaporization is $40.66\\text{ kJ mol}^{-1}$. Assuming $\\Delta_{\\text{vap}} H_m$ is constant, the boiling point of water at $0.50\\text{ atm}$ (in $\\text{K}$, rounded off to one decimal place) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "By the integrated Clausius-Clapeyron equation, $\\ln\\left(\\frac{P_2}{P_1}\\right) = -\\frac{\\Delta_{\\text{vap}} H_m}{R}\\left(\\frac{1}{T_2} - \\frac{1}{T_1}\\right)$. Substituting $P_2/P_1 = 0.50$: $\\frac{1}{T_2} = \\frac{1}{373.15} - \\frac{8.314}{40660}\\ln(0.50) = 2.67989 \\times 10^{-3} + 1.4173 \\times 10^{-4} = 2.82162 \\times 10^{-3}\\text{ K}^{-1}$, giving $T_2 = 354.4\\text{ K}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Hard",
+      "correctOption": "18.12 to 18.22",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.12,
+      "natMax": 18.22,
+      "questionTextEn": "At $300\\text{ K}$, the second virial coefficient of a gas is $B = -120\\text{ cm}^3\\text{ mol}^{-1}$. Using the truncated virial equation $Z = 1 + \\frac{BP}{RT}$, the fugacity of the gas at $P = 20.0\\text{ bar}$ (in $\\text{bar}$, rounded off to two decimal places) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$, $1\\text{ bar} = 10^5\\text{ Pa}$)",
+      "optionsEn": [],
+      "explanationEn": "For $Z = 1 + \\frac{BP}{RT}$, $\\ln\\phi = \\int_0^P \\frac{Z-1}{P'}\\,dP' = \\frac{BP}{RT}$. Converting units: $B = -1.20 \\times 10^{-4}\\text{ m}^3\\text{ mol}^{-1}$ and $P = 2.0 \\times 10^6\\text{ Pa}$, so $\\ln\\phi = \\frac{(-1.20 \\times 10^{-4})(2.0 \\times 10^6)}{8.314 \\times 300} = -0.096223$. Thus $\\phi = e^{-0.096223} = 0.90826$, and fugacity $f = \\phi P = 0.90826 \\times 20.0 = 18.17\\text{ bar}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 02)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Hard",
+      "correctOption": "310.5 to 311.1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 310.5,
+      "natMax": 311.1,
+      "questionTextEn": "Two solids $\\text{A}$ and $\\text{B}$ form a simple binary eutectic system with ideal liquid solutions and zero solid solubility. Both pure $\\text{A}$ and pure $\\text{B}$ have identical melting points $T_m^* = 350.0\\text{ K}$ and identical molar enthalpies of fusion $\\Delta_{\\text{fus}} H_m = 16.0\\text{ kJ mol}^{-1}$. The eutectic temperature ($T_e$, in $\\text{K}$, rounded off to one decimal place) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "By symmetry, since $\\text{A}$ and $\\text{B}$ have identical $T_m^*$ and $\\Delta_{\\text{fus}} H_m$, the eutectic composition is equimolar ($x_A = x_B = 0.50$). Applying the ideal solubility (Schröder-van Laar) equation $\\ln x_A = -\\frac{\\Delta_{\\text{fus}} H_m}{R}\\left(\\frac{1}{T_e} - \\frac{1}{T_m^*}\\right)$: $\\frac{1}{T_e} = \\frac{1}{350.0} - \\frac{8.314}{16000}\\ln(0.50) = 2.85714 \\times 10^{-3} + 3.6018 \\times 10^{-4} = 3.21732 \\times 10^{-3}\\text{ K}^{-1}$, yielding $T_e = 310.8\\text{ K}$."
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "testId": "gate_ma_topic_ra_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_ra_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Real Analysis — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Real Analysis — Set 1",
+  "partId": "part_04_ra",
+  "part_id": "part_04_ra",
+  "partTitle": "Real Analysis",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: वास्तविक विश्लेषण — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Real Analysis • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "sectionTitleEn": "Real Analysis",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_ra_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Uniform Convergence",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "By Dini's Theorem, if $\\{f_n\\}$ is a sequence of continuous real-valued functions on a compact space $K$ converging pointwise to a continuous function $f$ on $K$, what additional condition guarantees uniform convergence?",
+      "optionsEn": [
+        "$f_n(x) \\le f_{n+1}(x)$ for all $x \\in K$ and all $n \\ge 1$",
+        "Each $f_n$ is differentiable on $K$",
+        "$\\int_K f_n \\to \\int_K f$",
+        "$\\{f_n\\}$ is uniformly bounded on $K$"
+      ],
+      "explanationEn": "Dini's Theorem states that a monotone (increasing or decreasing) sequence of continuous functions on a compact space converging pointwise to a continuous limit must converge uniformly."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Measurable Functions",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following functions $f: \\mathbb{R} \\to \\mathbb{R}$ is NOT Lebesgue measurable?",
+      "optionsEn": [
+        "Every function continuous almost everywhere on $\\mathbb{R}$",
+        "The indicator function $\\chi_{\\mathbb{Q}}$ of the rational numbers",
+        "The indicator function $\\chi_V$ of a Vitali non-measurable subset $V \\subseteq [0, 1]$",
+        "Every monotone increasing function $f: \\mathbb{R} \\to \\mathbb{R}$"
+      ],
+      "explanationEn": "An indicator function $\\chi_E$ is Lebesgue measurable if and only if $E$ is Lebesgue measurable. Since a Vitali set $V$ is not Lebesgue measurable, $\\chi_V$ is not measurable. Every Borel/monotone/a.e.-continuous function is Lebesgue measurable."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Metric Spaces",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the metric space $(\\mathbb{R}, d)$ with the discrete metric $d(x, y) = 0$ if $x = y$ and $d(x, y) = 1$ if $x \\neq y$, which of the following subsets is compact?",
+      "optionsEn": [
+        "The set $\\{1/n : n \\in \\mathbb{N}\\} \\cup \\{0\\}$",
+        "Any finite subset of $\\mathbb{R}$",
+        "The set of integers $\\mathbb{Z}$",
+        "The closed interval $[0, 1]$"
+      ],
+      "explanationEn": "In a discrete metric space, every singleton $\\{x\\}$ is open (being the open ball $B(x, 1/2)$). Thus an infinite subset $S$ has an open cover $\\{\\{x\\} : x \\in S\\}$ with no finite subcover. Hence a subset is compact in the discrete metric if and only if it is finite."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Uniform Continuity",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: (0, 1) \\to \\mathbb{R}$ be a continuous function. Then $f$ is uniformly continuous on $(0, 1)$ if and only if:",
+      "optionsEn": [
+        "$f$ is bounded on $(0, 1)$",
+        "$f$ can be extended continuously to the closed interval $[0, 1]$",
+        "$f$ is monotone on $(0, 1)$",
+        "$f$ is differentiable on $(0, 1)$"
+      ],
+      "explanationEn": "A uniformly continuous function maps Cauchy sequences to Cauchy sequences, so $\\lim_{x \\to 0^+} f(x)$ and $\\lim_{x \\to 1^-} f(x)$ exist finitely, yielding a continuous extension to $[0, 1]$. Conversely, any continuous function on the compact interval $[0, 1]$ is uniformly continuous on $[0, 1]$ and hence on $(0, 1)$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Ascoli-Arzela Theorem",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\mathcal{F} \\subseteq C([0, 1], \\mathbb{R})$ be a family of continuous functions equipped with the supremum norm. By the Ascoli-Arzelà Theorem, $\\mathcal{F}$ has compact closure in $C([0, 1], \\mathbb{R})$ if and only if $\\mathcal{F}$ is:",
+      "optionsEn": [
+        "closed and bounded in the supremum norm",
+        "pointwise bounded and equicontinuous",
+        "countable and uniformly bounded",
+        "composed of differentiable functions with bounded values"
+      ],
+      "explanationEn": "The Ascoli-Arzelà Theorem characterizes relatively compact subsets of $(C(K), \\|\\cdot\\|_\\infty)$ for compact $K$ as precisely those families that are pointwise bounded (equivalently, uniformly bounded on compact $K$ given equicontinuity) and equicontinuous."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Metric Spaces",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(X, d)$ be a metric space. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "Every compact subset of $X$ is closed and bounded",
+        "Every finite union of compact subsets of $X$ is compact",
+        "Every arbitrary intersection of closed subsets of $X$ is closed",
+        "Every closed and bounded subset of $X$ is compact"
+      ],
+      "explanationEn": "(A), (B), and (C) hold in every metric space. (D) fails in general metric spaces (for example, the closed unit ball in $\\ell^2$, or an infinite discrete metric space)."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Lp Spaces",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $1 < p < \\infty$ and $q = \\frac{p}{p - 1}$ be its conjugate exponent, on a measure space $(X, \\mathcal{M}, \\mu)$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "Hölder's inequality: if $f \\in L^p$ and $g \\in L^q$, then $fg \\in L^1$ and $\\|fg\\|_1 \\le \\|f\\|_p \\|g\\|_q$",
+        "Minkowski's inequality: if $f, g \\in L^p$, then $\\|f + g\\|_p \\le \\|f\\|_p + \\|g\\|_p$",
+        "Riesz-Fischer theorem: $L^p(X, \\mu)$ is a complete normed linear space (Banach space)",
+        "$L^p(\\mathbb{R}, m)$ is a Hilbert space for every $1 < p < \\infty$"
+      ],
+      "explanationEn": "(A), (B), and (C) are the foundational theorems of $L^p$ spaces. (D) is false: $L^p(\\mathbb{R}, m)$ satisfies the parallelogram law and is a Hilbert space if and only if $p = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Completeness and Compactness",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(X, d)$ be a complete metric space, and let $F_1 \\supseteq F_2 \\supseteq F_3 \\supseteq \\dots$ be a nested decreasing sequence of non-empty closed subsets of $X$. Which of the following conditions guarantees that $\\bigcap_{n=1}^\\infty F_n \\neq \\emptyset$?",
+      "optionsEn": [
+        "$\\operatorname{diam}(F_n) \\to 0$ as $n \\to \\infty$",
+        "$F_1$ is compact",
+        "Each $F_n$ is bounded",
+        "Each $F_n$ is connected"
+      ],
+      "explanationEn": "(A) is Cantor's Intersection Theorem for complete metric spaces. (B) is the finite intersection property of compact sets (since $F_n$ are closed subsets of compact $F_1$). (C) is false in general complete spaces (e.g., $F_n = \\{e_k : k \\ge n\\}$ in $\\ell^2$), and (D) is false (e.g., $F_n = [n, \\infty)$ in $\\mathbb{R}$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "What is the radius of convergence of the power series $\\sum_{n=0}^\\infty \\frac{x^{2n}}{9^n}$?",
+      "optionsEn": [],
+      "explanationEn": "Writing the series as $\\sum_{n=0}^\\infty \\left(\\frac{x^2}{9}\\right)^n$, it converges if and only if $\\left|\\frac{x^2}{9}\\right| < 1 \\iff |x| < 3$. Hence the radius of convergence is $3$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Contraction Mapping Principle",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "What is the unique fixed point of the contraction mapping $T(x) = \\frac{x + 6}{3}$ on $\\mathbb{R}$?",
+      "optionsEn": [],
+      "explanationEn": "Solving $T(x) = x$ gives $\\frac{x + 6}{3} = x \\implies 2x = 6 \\implies x = 3$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Contraction Mapping Principle",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(X, d)$ be a non-empty complete metric space and $T: X \\to X$ be a map such that $T^k$ (the $k$-fold iterate of $T$) is a contraction for some integer $k \\ge 1$. Which of the following MUST be true?",
+      "optionsEn": [
+        "$T$ need not have any fixed point",
+        "$T$ has a unique fixed point in $X$",
+        "$T$ itself must be a contraction",
+        "$T$ has exactly $k$ fixed points in $X$"
+      ],
+      "explanationEn": "By Banach's Contraction Principle applied to $T^k$, there is a unique $x^* \\in X$ such that $T^k(x^*) = x^*$. Applying $T$ gives $T^k(T(x^*)) = T(T^k(x^*)) = T(x^*)$, so $T(x^*)$ is also a fixed point of $T^k$. By uniqueness of the fixed point of $T^k$, $T(x^*) = x^*$. Any fixed point of $T$ is a fixed point of $T^k$, so $x^*$ is the unique fixed point of $T$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Implicit Function Theorem",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the system $x^2 + y^2 + z^2 = 3$ and $x + y + z = 3$ near the point $p = (1, 1, 1)$. Why does the Implicit Function Theorem FAIL to express $(y, z)$ as a smooth function of $x$ near $p$?",
+      "optionsEn": [
+        "The point $(1, 1, 1)$ does not satisfy both equations",
+        "The equations are not $C^1$",
+        "The system has a continuum of solutions near $(1, 1, 1)$",
+        "The Jacobian matrix of $F(x, y, z) = (x^2 + y^2 + z^2 - 3,\\; x + y + z - 3)$ at $(1, 1, 1)$ has rank $1 < 2$"
+      ],
+      "explanationEn": "At $p = (1, 1, 1)$, $DF(1, 1, 1) = \\begin{pmatrix} 2 & 2 & 2 \\\\ 1 & 1 & 1 \\end{pmatrix}$, which has rank $1 < 2$. Consequently, every $2 \\times 2$ minor vanishes at $p$, so the Implicit Function Theorem fails. Geometrically, the plane $x + y + z = 3$ is tangent to the sphere $x^2 + y^2 + z^2 = 3$ at the unique point $(1, 1, 1)$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Baire Category Theorem",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a complete metric space with no isolated points (every singleton $\\{x\\}$ has empty interior). By the Baire Category Theorem, $X$ MUST be:",
+      "optionsEn": [
+        "uncountable",
+        "connected",
+        "compact",
+        "separable"
+      ],
+      "explanationEn": "If $X$ were countable, we could write $X = \\bigcup_{x \\in X} \\{x\\}$. Since $X$ has no isolated points, each closed singleton $\\{x\\}$ has empty interior and is therefore nowhere dense. Thus $X$ would be a countable union of nowhere dense sets, contradicting the Baire Category Theorem for the non-empty complete metric space $X$. Hence $X$ must be uncountable."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Lebesgue Measure",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\{E_n\\}_{n=1}^\\infty$ be a sequence of Lebesgue measurable subsets of $\\mathbb{R}$ such that $\\sum_{n=1}^\\infty m(E_n) < \\infty$. By the Borel-Cantelli Lemma, what is the Lebesgue measure of $\\limsup_{n \\to \\infty} E_n = \\bigcap_{k=1}^\\infty \\bigcup_{n=k}^\\infty E_n$?",
+      "optionsEn": [
+        "$1$",
+        "$\\infty$",
+        "$\\sum_{n=1}^\\infty m(E_n)$",
+        "$0$"
+      ],
+      "explanationEn": "For every $k \\ge 1$, $m\\left(\\limsup E_n\\right) \\le m\\left(\\bigcup_{n=k}^\\infty E_n\\right) \\le \\sum_{n=k}^\\infty m(E_n)$. Since $\\sum_{n=1}^\\infty m(E_n) < \\infty$, the tail $\\sum_{n=k}^\\infty m(E_n) \\to 0$ as $k \\to \\infty$, forcing $m(\\limsup E_n) = 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Measurable Functions",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $E \\subseteq \\mathbb{R}$ be a measurable set with $m(E) < \\infty$, and let $\\{f_n\\}$ be a sequence of measurable functions converging pointwise a.e. to a finite measurable function $f$ on $E$. By Egorov's Theorem, for every $\\varepsilon > 0$ there exists a measurable subset $A \\subseteq E$ such that:",
+      "optionsEn": [
+        "$m(A) < \\varepsilon$ and $f_n \\to f$ uniformly on $E \\setminus A$",
+        "$m(A) = 0$ and $f_n \\to f$ uniformly on $E \\setminus A$",
+        "$m(E \\setminus A) < \\varepsilon$ and $f_n$ is continuous on $A$",
+        "$\\int_A |f_n - f|\\,dm < \\varepsilon$ for all $n$"
+      ],
+      "explanationEn": "Egorov's Theorem states that pointwise a.e. convergence on a finite measure space implies almost uniform convergence: for every $\\varepsilon > 0$, there is a measurable set $A \\subseteq E$ with $m(A) < \\varepsilon$ such that $f_n \\to f$ uniformly on $E \\setminus A$. (Statement (B) is false in general, e.g., $f_n(x) = x^n$ on $[0, 1]$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Inverse and Implicit Function Theorems",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $F: U \\to \\mathbb{R}^n$ be a $C^1$ map on an open set $U \\subseteq \\mathbb{R}^n$ such that $\\det(DF(x)) \\neq 0$ for every $x \\in U$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "$F(U)$ is an open subset of $\\mathbb{R}^n$",
+        "$F$ is an open map (maps every open subset of $U$ to an open subset of $\\mathbb{R}^n$)",
+        "If $F$ is also injective on $U$, then $F^{-1}: F(U) \\to U$ is $C^1$",
+        "$F$ must be injective on $U$"
+      ],
+      "explanationEn": "By the Inverse Function Theorem, every point $x \\in U$ has an open neighborhood mapped diffeomorphically onto an open neighborhood of $F(x)$. Consequently, $F$ maps every open subset of $U$ to an open set (B), in particular $F(U)$ is open (A), and if $F$ is globally injective on $U$, its inverse is locally (hence globally) $C^1$ (C). Global injectivity does not follow from local invertibility (D is false)."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Uniform Continuity",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f, g: E \\to \\mathbb{R}$ be uniformly continuous functions on a subset $E \\subseteq \\mathbb{R}$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "$f + g$ is uniformly continuous on $E$",
+        "$f \\cdot g$ is uniformly continuous on $E$ whenever $f$ and $g$ are bounded on $E$",
+        "$f \\cdot g$ is uniformly continuous on $E$ for all uniformly continuous $f, g$",
+        "If $\\{x_n\\}$ is a Cauchy sequence in $E$, then $\\{f(x_n)\\}$ is a Cauchy sequence in $\\mathbb{R}$"
+      ],
+      "explanationEn": "Linear combinations of uniformly continuous functions are uniformly continuous (A), boundedness yields $|f(x)g(x) - f(y)g(y)| \\le \\|f\\|_\\infty |g(x)-g(y)| + \\|g\\|_\\infty |f(x)-f(y)|$ (B), and uniformly continuous maps preserve Cauchy sequences (D). (C) fails for $f(x) = g(x) = x$ on $E = \\mathbb{R}$ since $x^2$ is not uniformly continuous on $\\mathbb{R}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x) = \\sum_{n=0}^\\infty a_n x^n$ have radius of convergence $R > 0$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "$f$ is infinitely differentiable on $(-R, R)$",
+        "The term-by-term differentiated series $\\sum_{n=1}^\\infty n a_n x^{n-1}$ has the exact same radius of convergence $R$",
+        "For every $0 < r < R$, the series converges uniformly on $[-r, r]$",
+        "The series converges at both endpoints $x = R$ and $x = -R$"
+      ],
+      "explanationEn": "Inside its open interval of convergence $(-R, R)$, a power series is $C^\\infty$ (A), its term-by-term derivative has the same radius of convergence $R$ (B), and it converges uniformly on every compact subinterval $[-r, r] \\subset (-R, R)$ (C). Endpoint behavior varies and convergence at $\\pm R$ need not hold (D is false, e.g., $\\sum x^n$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Inverse Function Theorem",
+      "difficulty": "Medium",
+      "correctOption": "2.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.5,
+      "natMax": 2.5,
+      "questionTextEn": "Let $G: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be defined by $G(x, y) = (x^2 + 2y,\\; x + y)$. Near $(2, 1)$, $G$ has a smooth local inverse $G^{-1}$ defined near $G(2, 1) = (6, 3)$. What is the trace of the Jacobian matrix $D(G^{-1})(6, 3)$? (Express as a decimal.)",
+      "optionsEn": [],
+      "explanationEn": "The Jacobian matrix of $G$ is $DG(x, y) = \\begin{pmatrix} 2x & 2 \\\\ 1 & 1 \\end{pmatrix}$, so $DG(2, 1) = \\begin{pmatrix} 4 & 2 \\\\ 1 & 1 \\end{pmatrix}$ with determinant $4 - 2 = 2$. By the Inverse Function Theorem, $D(G^{-1})(6, 3) = (DG(2, 1))^{-1} = \\frac{1}{2}\\begin{pmatrix} 1 & -2 \\\\ -1 & 4 \\end{pmatrix}$, whose trace is $\\frac{1 + 4}{2} = 2.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_ra_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Real Analysis (Set 1)",
+      "topicTag": "Dominated Convergence Theorem",
+      "difficulty": "Medium",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "Evaluate the limit\n$$\\lim_{n \\to \\infty} \\int_0^\\infty \\left(1 + \\frac{x}{n}\\right)^{-n} e^{-x}\\,dx.$$\n(Express as a decimal.)",
+      "optionsEn": [],
+      "explanationEn": "For all $x \\ge 0$ and $n \\ge 1$, $0 \\le \\left(1 + \\frac{x}{n}\\right)^{-n} e^{-x} \\le e^{-x} \\in L^1([0, \\infty))$, and $\\lim_{n \\to \\infty} \\left(1 + \\frac{x}{n}\\right)^{-n} e^{-x} = e^{-x} \\cdot e^{-x} = e^{-2x}$. By the Dominated Convergence Theorem, the limit equals $\\int_0^\\infty e^{-2x}\\,dx = \\frac{1}{2} = 0.5$."
+    }
+  ]
+}

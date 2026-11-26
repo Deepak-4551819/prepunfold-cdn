@@ -1,0 +1,1698 @@
+{
+  "testId": "jam_ma_mock_03",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_mock_03",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 Mathematics (MA) — Full Length Mock Test 03",
+  "titleEn": "IIT JAM 2027 Mathematics (MA) — Full Length Mock Test 03",
+  "testType": "FULL_MOCK",
+  "test_type": "FULL_MOCK",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Full Mock 03",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_mock_03_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Bernoulli Equations",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which substitution transforms the Bernoulli differential equation $\\frac{dy}{dx} + P(x)y = Q(x)y^4$ (for $y > 0$) into a first-order linear differential equation in $v$?",
+      "optionsEn": [
+        "$v = y^{-2}$",
+        "$v = y^{3}$",
+        "$v = y^{-4}$",
+        "$v = y^{-3}$"
+      ],
+      "explanationEn": "For a Bernoulli equation $\\frac{dy}{dx} + P(x)y = Q(x)y^n$ with $n \\neq 0, 1$, the standard linearizing substitution is $v = y^{1-n}$. Here $n = 4$, so $v = y^{1-4} = y^{-3}$, which gives $\\frac{dv}{dx} = -3y^{-4}\\frac{dy}{dx}$ and yields $\\frac{dv}{dx} - 3P(x)v = -3Q(x)$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Ratio Test",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the series $\\sum_{n=1}^{\\infty} \\frac{2^n \\, n!}{n^n}$ and $\\sum_{n=1}^{\\infty} \\frac{3^n \\, n!}{n^n}$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "Both series converge",
+        "Both series diverge",
+        "The first series converges and the second diverges",
+        "The first series diverges and the second converges"
+      ],
+      "explanationEn": "Let $u_n(\\alpha) = \\frac{\\alpha^n n!}{n^n}$ for $\\alpha > 0$. By the Ratio Test, $\\frac{u_{n+1}(\\alpha)}{u_n(\\alpha)} = \\alpha \\left(\\frac{n}{n+1}\\right)^n = \\alpha \\left(1 + \\frac{1}{n}\\right)^{-n} \\to \\frac{\\alpha}{e}$. For $\\alpha = 2$, $\\frac{2}{e} < 1$, so $\\sum \\frac{2^n n!}{n^n}$ converges. For $\\alpha = 3$, $\\frac{3}{e} > 1$, so $\\sum \\frac{3^n n!}{n^n}$ diverges. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Sum and Intersection of Subspaces",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $U$ and $W$ be subspaces of a $9$-dimensional real vector space $V$ such that $\\dim(U) = 6$ and $\\dim(W) = 5$. What is the minimum possible value of $\\dim(U \\cap W)$?",
+      "optionsEn": [
+        "$3$",
+        "$0$",
+        "$2$",
+        "$1$"
+      ],
+      "explanationEn": "Since $U + W \\subseteq V$, we have $\\dim(U + W) \\le 9$. By Grassmann's formula, $\\dim(U \\cap W) = \\dim(U) + \\dim(W) - \\dim(U + W) \\ge 6 + 5 - 9 = 2$. Equality holds whenever $U + W = V$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Jacobians",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the transformation $x = u$, $y = uv$, $z = uvw$, the Jacobian $\\frac{\\partial(x, y, z)}{\\partial(u, v, w)}$ equals",
+      "optionsEn": [
+        "$uvw$",
+        "$u^2 v$",
+        "$u^2 v^2$",
+        "$u v^2$"
+      ],
+      "explanationEn": "The Jacobian matrix is lower triangular: $\\begin{pmatrix} 1 & 0 & 0 \\\\ v & u & 0 \\\\ vw & uw & uv \\end{pmatrix}$. Its determinant is the product of the diagonal entries: $1 \\cdot u \\cdot (uv) = u^2 v$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Change of Order of Integration",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a continuous function $f(x, y)$, the iterated integral $\\int_{0}^{1} \\int_{x^2}^{x} f(x, y)\\,dy\\,dx$ is equal to",
+      "optionsEn": [
+        "$\\int_{0}^{1} \\int_{y}^{\\sqrt{y}} f(x, y)\\,dx\\,dy$",
+        "$\\int_{0}^{1} \\int_{y^2}^{y} f(x, y)\\,dx\\,dy$",
+        "$\\int_{0}^{1} \\int_{0}^{\\sqrt{y}} f(x, y)\\,dx\\,dy$",
+        "$\\int_{0}^{1} \\int_{\\sqrt{y}}^{y} f(x, y)\\,dx\\,dy$"
+      ],
+      "explanationEn": "The region satisfies $0 \\le x \\le 1$ and $x^2 \\le y \\le x$. Solving for $x$ in terms of $y \\in [0, 1]$ gives $y \\le x \\le \\sqrt{y}$. Thus the reversed integral is $\\int_0^1 \\int_y^{\\sqrt{y}} f(x, y)\\,dx\\,dy$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Linear First-Order ODEs",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An integrating factor of the differential equation $x \\frac{dy}{dx} + 2y = \\frac{\\sin x}{x}$ for $x > 0$ is",
+      "optionsEn": [
+        "$x$",
+        "$e^{2x}$",
+        "$x^2$",
+        "$\\frac{1}{x^2}$"
+      ],
+      "explanationEn": "Dividing by $x > 0$ puts the equation into standard linear form $\\frac{dy}{dx} + \\frac{2}{x}y = \\frac{\\sin x}{x^2}$. The integrating factor is $\\mu(x) = \\exp\\left(\\int \\frac{2}{x}\\,dx\\right) = e^{2\\ln x} = x^2$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Rolle's Theorem",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $f(x) = x(x - 1)(x - 2)$ on $[0, 1]$, the point $c \\in (0, 1)$ guaranteed by Rolle's Theorem is",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$1 + \\frac{1}{\\sqrt{3}}$",
+        "$1 - \\frac{1}{\\sqrt{3}}$",
+        "$\\frac{1}{\\sqrt{3}}$"
+      ],
+      "explanationEn": "Expand $f(x) = x^3 - 3x^2 + 2x$, so $f'(x) = 3x^2 - 6x + 2$. Setting $f'(c) = 0$ gives $c = \\frac{6 \\pm \\sqrt{36 - 24}}{6} = 1 \\pm \\frac{1}{\\sqrt{3}}$. The root lying in $(0, 1)$ is $c = 1 - \\frac{1}{\\sqrt{3}}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Rank and Nullity",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The rank of the matrix $A = \\begin{pmatrix} 1 & 2 & -1 & 3 \\\\ 2 & 4 & 1 & 0 \\\\ 3 & 6 & 0 & 3 \\end{pmatrix}$ over $\\mathbb{R}$ is",
+      "optionsEn": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$4$"
+      ],
+      "explanationEn": "Notice that Row 3 equals Row 1 plus Row 2: $(1, 2, -1, 3) + (2, 4, 1, 0) = (3, 6, 0, 3)$, so $\\operatorname{rank}(A) \\le 2$. Moreover, the $2 \\times 2$ minor from columns 1 and 3 of rows 1 and 2 is $\\det\\begin{pmatrix} 1 & -1 \\\\ 2 & 1 \\end{pmatrix} = 3 \\neq 0$. Thus $\\operatorname{rank}(A) = 2$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Lagrange Theorem",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a finite group of order $21$. Which one of the following CANNOT be the order of an element of $G$?",
+      "optionsEn": [
+        "$1$",
+        "$3$",
+        "$7$",
+        "$6$"
+      ],
+      "explanationEn": "By Lagrange's Theorem, the order of every element of $G$ must divide $|G| = 21$. The positive divisors of $21$ are $1, 3, 7, 21$; since $6 \\nmid 21$, no element can have order $6$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Sequence Limits",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\lim_{n \\to \\infty} \\left(2^n + 5^n + 7^n\\right)^{1/n}$ is",
+      "optionsEn": [
+        "$14$",
+        "$7$",
+        "$5$",
+        "$1$"
+      ],
+      "explanationEn": "For every $n \\in \\mathbb{N}$, $7^n < 2^n + 5^n + 7^n < 3 \\cdot 7^n$. Raising to the power $1/n$ gives $7 < (2^n + 5^n + 7^n)^{1/n} < 3^{1/n} \\cdot 7$. Since $\\lim_{n \\to \\infty} 3^{1/n} = 1$, the Squeeze Theorem yields $\\lim_{n \\to \\infty} (2^n + 5^n + 7^n)^{1/n} = 7$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Quotient Groups",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H = \\langle (4, 6) \\rangle$ be the cyclic subgroup generated by $(4, 6)$ in the additive group $\\mathbb{Z} \\times \\mathbb{Z}$. Then the quotient group $(\\mathbb{Z} \\times \\mathbb{Z}) / H$ is isomorphic to",
+      "optionsEn": [
+        "$\\mathbb{Z}_4 \\times \\mathbb{Z}_6$",
+        "$\\mathbb{Z} \\times \\mathbb{Z}_4$",
+        "$\\mathbb{Z} \\times \\mathbb{Z}_2$",
+        "$\\mathbb{Z}$"
+      ],
+      "explanationEn": "Since $\\gcd(4, 6) = 2$, write $(4, 6) = 2(2, 3)$ where $\\gcd(2, 3) = 1$. Because $2(-1) + 3(1) = 1$, the vectors $u_1 = (2, 3)$ and $u_2 = (1, 1)$ form a $\\mathbb{Z}$-basis of $\\mathbb{Z} \\times \\mathbb{Z}$ (determinant $2(1) - 3(1) = -1$). In this basis, $H = \\langle 2u_1 \\rangle$, so $(\\mathbb{Z} \\times \\mathbb{Z})/H \\cong (\\mathbb{Z} u_1 \\oplus \\mathbb{Z} u_2) / (2\\mathbb{Z} u_1) \\cong \\mathbb{Z}_2 \\times \\mathbb{Z} \\cong \\mathbb{Z} \\times \\mathbb{Z}_2$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Binomial Identities",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the value of $\\sum_{k=0}^{6} k^2 \\binom{6}{k}$?",
+      "optionsEn": [
+        "$576$",
+        "$384$",
+        "$768$",
+        "$672$"
+      ],
+      "explanationEn": "Write $k^2 = k(k - 1) + k$. Using $\\sum_{k=0}^n k(k - 1)\\binom{n}{k} = n(n - 1)2^{n-2}$ and $\\sum_{k=0}^n k\\binom{n}{k} = n 2^{n-1}$, we obtain $\\sum_{k=0}^n k^2\\binom{n}{k} = n(n + 1)2^{n-2}$. For $n = 6$, this equals $6 \\times 7 \\times 2^4 = 672$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Hermitian and Unitary Matrices",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The dimension of the real vector space of all $3 \\times 3$ skew-Hermitian matrices $\\{A \\in M_3(\\mathbb{C}) : A^* = -A\\}$ over $\\mathbb{R}$ is",
+      "optionsEn": [
+        "$3$",
+        "$12$",
+        "$6$",
+        "$9$"
+      ],
+      "explanationEn": "For a $3 \\times 3$ skew-Hermitian matrix $A = (a_{ij})$, each diagonal entry satisfies $\\overline{a_{ii}} = -a_{ii}$, so $a_{ii} \\in i\\mathbb{R}$ ($3$ real parameters). Each of the $\\binom{3}{2} = 3$ strictly upper-triangular entries $a_{ij} \\in \\mathbb{C}$ is free ($3 \\times 2 = 6$ real parameters), uniquely fixing $a_{ji} = -\\overline{a_{ij}}$. Total real dimension: $3 + 6 = 9$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Maxima and Minima",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $f(x, y) = (x^2 + 3y^2) e^{-(x^2 + y^2)}$ on $\\mathbb{R}^2$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$f$ has exactly one local minimum, two local maxima, and two saddle points",
+        "$f$ has exactly two local minima, two local maxima, and one saddle point",
+        "$f$ has exactly one local minimum, four local maxima, and no saddle points",
+        "$f$ has infinitely many critical points"
+      ],
+      "explanationEn": "Setting $f_x = 2x(1 - x^2 - 3y^2)e^{-(x^2+y^2)} = 0$ and $f_y = 2y(3 - x^2 - 3y^2)e^{-(x^2+y^2)} = 0$: since $x^2 + 3y^2$ cannot simultaneously equal $1$ and $3$, at least one of $x, y$ must be $0$. This yields $5$ critical points: $(0, 0)$ (where $f = 0 \\le f(x, y)$, a global/local minimum), $(\\pm 1, 0)$ (where $H$ has diagonal entries $-4e^{-1} < 0$ and $4e^{-1} > 0$, giving $2$ saddle points), and $(0, \\pm 1)$ (where $H$ has diagonal entries $-4e^{-1} < 0$ and $-12e^{-1} < 0$, giving $2$ local maxima). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be a finite-dimensional real vector space with $\\dim(V) \\ge 2$, and let $T : V \\to V$ be a linear operator such that $TS = ST$ for every linear operator $S : V \\to V$. Then $T$ must be",
+      "optionsEn": [
+        "a scalar multiple of the identity operator $I_V$",
+        "a projection operator ($T^2 = T$)",
+        "an invertible operator",
+        "the zero operator only"
+      ],
+      "explanationEn": "For any nonzero $v \\in V$, let $P_v$ be a projection onto $\\operatorname{span}\\{v\\}$. Then $T(v) = T(P_v(v)) = P_v(T(v)) \\in \\operatorname{span}\\{v\\}$, so $T(v) = \\lambda_v v$ for some $\\lambda_v \\in \\mathbb{R}$. For any two linearly independent vectors $u, w \\in V$, $\\lambda_{u+w}(u + w) = T(u + w) = \\lambda_u u + \\lambda_w w$ forces $\\lambda_u = \\lambda_w = \\lambda$. Hence $T = \\lambda I_V$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Convexity and Inflection Points",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The inflection points of the Gaussian curve $y = e^{-x^2}$ ($x \\in \\mathbb{R}$) occur at",
+      "optionsEn": [
+        "$x = \\pm 1$",
+        "$x = \\pm \\frac{1}{2}$",
+        "$x = 0$",
+        "$x = \\pm \\frac{1}{\\sqrt{2}}$"
+      ],
+      "explanationEn": "Differentiating twice gives $y' = -2x e^{-x^2}$ and $y'' = (4x^2 - 2) e^{-x^2} = 2(2x^2 - 1) e^{-x^2}$. Thus $y''$ changes sign precisely at $x = \\pm \\frac{1}{\\sqrt{2}}$, which are the inflection points. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Wronskian and Abel's Formula",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y_1, y_2$ be two solutions of Laguerre's equation $x y'' + (1 - x)y' + 2y = 0$ on $(0, \\infty)$. If their Wronskian satisfies $W(1) = e$, then $W(2)$ is equal to",
+      "optionsEn": [
+        "$2e^2$",
+        "$\\frac{e^2}{2}$",
+        "$\\frac{e^2}{4}$",
+        "$\\frac{1}{2e}$"
+      ],
+      "explanationEn": "Dividing by $x > 0$ gives $y'' + \\left(\\frac{1}{x} - 1\\right)y' + \\frac{2}{x}y = 0$. By Abel's formula, $W(x) = W(1)\\exp\\left(-\\int_1^x \\left(\\frac{1}{t} - 1\\right)dt\\right) = e \\cdot \\exp(-\\ln x + x - 1) = \\frac{e^x}{x}$. Therefore, $W(2) = \\frac{e^2}{2}$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Diagonalizability and Multiplicity",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_n(\\mathbb{R})$ be an involutory matrix ($A^2 = I_n$) with $A \\neq \\pm I_n$. Which one of the following statements is FALSE?",
+      "optionsEn": [
+        "$\\operatorname{tr}(A)$ must be equal to $0$",
+        "$\\det(A) \\in \\{1, -1\\}$",
+        "The minimal polynomial of $A$ is $x^2 - 1$",
+        "$A$ is diagonalizable over $\\mathbb{R}$"
+      ],
+      "explanationEn": "Since $A^2 - I_n = (A - I_n)(A + I_n) = 0$ and $A \\neq \\pm I_n$, the minimal polynomial is $x^2 - 1$, which has distinct real roots $\\pm 1$, so $A$ is diagonalizable over $\\mathbb{R}$ and $\\det(A) = \\pm 1$. However, $\\operatorname{tr}(A)$ need not be $0$; for example, $A = \\operatorname{diag}(1, 1, -1)$ satisfies $A^2 = I_3$ with $\\operatorname{tr}(A) = 1 \\neq 0$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $L = \\lim_{x \\to \\infty} \\frac{x + \\sin x}{x}$ and $M = \\lim_{x \\to \\infty} \\frac{1 + \\cos x}{1}$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$L = 1$ and $M = 1$",
+        "Neither $L$ nor $M$ exists",
+        "$L = 1$, while $M$ does NOT exist",
+        "$L = 0$, while $M$ does NOT exist"
+      ],
+      "explanationEn": "Directly dividing gives $\\frac{x + \\sin x}{x} = 1 + \\frac{\\sin x}{x} \\to 1 + 0 = 1$ as $x \\to \\infty$, so $L = 1$. However, $M = \\lim_{x \\to \\infty} (1 + \\cos x)$ oscillates between $0$ and $2$ and does NOT exist (illustrating that L'Hôpital's rule is a sufficient, not necessary, condition for the existence of a limit). Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $a_n = \\frac{1}{4^{n/2}}$ if $n$ is even, and $a_n = \\frac{1}{9^{(n-1)/2}}$ if $n$ is odd. The radius of convergence of $\\sum_{n=0}^{\\infty} a_n x^n$ is",
+      "optionsEn": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$\\frac{3}{2}$"
+      ],
+      "explanationEn": "Compute $|a_n|^{1/n}$ along even and odd indices: for $n = 2k$, $|a_{2k}|^{1/(2k)} = \\left(4^{-k}\\right)^{1/(2k)} = \\frac{1}{2}$; for $n = 2k + 1$, $|a_{2k+1}|^{1/(2k+1)} = 9^{-k/(2k+1)} \\to \\frac{1}{3}$ as $k \\to \\infty$. By the Cauchy–Hadamard formula, $\\frac{1}{R} = \\limsup_{n \\to \\infty} |a_n|^{1/n} = \\max\\left(\\frac{1}{2}, \\frac{1}{3}\\right) = \\frac{1}{2}$, so $R = 2$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Definite Integrals",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\int_{0}^{\\pi} \\frac{x \\sin x}{1 + \\cos^2 x}\\,dx$ is",
+      "optionsEn": [
+        "$\\frac{\\pi^2}{2}$",
+        "$\\frac{\\pi^2}{4}$",
+        "$\\pi^2$",
+        "$\\frac{\\pi}{4}$"
+      ],
+      "explanationEn": "Let $I = \\int_0^\\pi \\frac{x\\sin x}{1 + \\cos^2 x}\\,dx$. Using $x \\mapsto \\pi - x$ gives $2I = \\pi \\int_0^\\pi \\frac{\\sin x}{1 + \\cos^2 x}\\,dx$. Substituting $u = \\cos x$ ($du = -\\sin x\\,dx$) yields $2I = \\pi \\int_{-1}^{1} \\frac{du}{1 + u^2} = \\pi \\left[\\tan^{-1} u\\right]_{-1}^{1} = \\frac{\\pi^2}{2}$, so $I = \\frac{\\pi^2}{4}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Total Differentiability",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $f(x, y) = \\sqrt{|xy|}$ on $\\mathbb{R}^2$. Which one of the following is TRUE at $(0, 0)$?",
+      "optionsEn": [
+        "$f_x(0, 0) = f_y(0, 0) = 0$, and $f$ is differentiable at $(0, 0)$",
+        "All directional derivatives exist at $(0, 0)$",
+        "$f_x(0, 0)$ does not exist, while $f_y(0, 0) = 0$",
+        "$f_x(0, 0) = f_y(0, 0) = 0$, and the directional derivative along $\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$ does not exist"
+      ],
+      "explanationEn": "Since $f(h, 0) = 0$ and $f(0, k) = 0$, we have $f_x(0, 0) = f_y(0, 0) = 0$. Along $\\mathbf{u} = \\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$, the difference quotient is $\\frac{f(t/\\sqrt{2}, t/\\sqrt{2}) - 0}{t} = \\frac{|t|/\\sqrt{2}}{t}$, which equals $\\frac{1}{\\sqrt{2}}$ for $t > 0$ and $-\\frac{1}{\\sqrt{2}}$ for $t < 0$. Hence this directional derivative does not exist (and $f$ is not differentiable at $(0, 0)$). Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Areas of Planar Regions",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The total area enclosed by the lemniscate $r^2 = a^2 \\cos(2\\theta)$ ($a > 0$) is",
+      "optionsEn": [
+        "$\\frac{a^2}{2}$",
+        "$a^2$",
+        "$2a^2$",
+        "$\\frac{\\pi a^2}{2}$"
+      ],
+      "explanationEn": "The lemniscate consists of four symmetric quarter-loops corresponding to $0 \\le \\theta \\le \\frac{\\pi}{4}$. Thus $A = 4 \\cdot \\frac{1}{2}\\int_0^{\\pi/4} a^2 \\cos(2\\theta)\\,d\\theta = 2a^2 \\left[\\frac{\\sin 2\\theta}{2}\\right]_0^{\\pi/4} = a^2$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Contractive Sequences",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(x_n)$ be defined by $x_1 = 0$ and $x_{n+1} = \\frac{1}{3 + x_n}$ for all $n \\in \\mathbb{N}$. Then $\\lim_{n \\to \\infty} x_n$ equals",
+      "optionsEn": [
+        "$\\frac{3 - \\sqrt{13}}{2}$",
+        "$\\frac{\\sqrt{5} - 1}{2}$",
+        "$\\frac{\\sqrt{13} - 3}{2}$",
+        "$\\frac{1}{3}$"
+      ],
+      "explanationEn": "Clearly $x_n \\ge 0$ for all $n \\ge 1$. For $n \\ge 1$, $|x_{n+2} - x_{n+1}| = \\left|\\frac{1}{3 + x_{n+1}} - \\frac{1}{3 + x_n}\\right| = \\frac{|x_{n+1} - x_n|}{(3 + x_{n+1})(3 + x_n)} \\le \\frac{1}{9}|x_{n+1} - x_n|$. Thus $(x_n)$ is a contractive sequence and hence converges to some $L \\ge 0$. Taking limits in $x_{n+1} = \\frac{1}{3 + x_n}$ gives $L^2 + 3L - 1 = 0$, whose non-negative root is $L = \\frac{-3 + \\sqrt{13}}{2}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Orthogonal Trajectories",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The orthogonal trajectory to the family of hyperbolas $x^2 - y^2 = c$ ($c \\in \\mathbb{R}$) passing through $(2, 3)$ also passes through",
+      "optionsEn": [
+        "$(1, 5)$",
+        "$(4, 2)$",
+        "$(6, 1)$",
+        "$(3, 4)$"
+      ],
+      "explanationEn": "Differentiating $x^2 - y^2 = c$ gives $y' = \\frac{x}{y}$. Replacing $y'$ by $-\\frac{1}{y'}$ gives $\\frac{dy}{dx} = -\\frac{y}{x}$, whose general solution is $xy = k$. Since $(2, 3)$ lies on the trajectory, $k = 6$, so the curve is $xy = 6$. Among the given options, only $(6, 1)$ satisfies $6 \\cdot 1 = 6$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T : \\mathbb{R}^3 \\to \\mathbb{R}^2$ be a linear transformation such that $T(1, 0, 1) = (1, 2)$, $T(0, 1, 1) = (3, 1)$, and $T(1, 1, 0) = (2, 5)$. Then $T(2, 1, 3)$ is equal to",
+      "optionsEn": [
+        "$(5, 4)$",
+        "$(5, 5)$",
+        "$(6, 5)$",
+        "$(7, 3)$"
+      ],
+      "explanationEn": "Write $(2, 1, 3) = a(1, 0, 1) + b(0, 1, 1) + c(1, 1, 0)$. Solving $a + c = 2$, $b + c = 1$, $a + b = 3$ yields $a + b + c = 3$, so $a = 2$, $b = 1$, and $c = 0$. Hence $T(2, 1, 3) = 2T(1, 0, 1) + T(0, 1, 1) = 2(1, 2) + (3, 1) = (5, 5)$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Limit Comparison Test",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The series $\\sum_{n=1}^{\\infty} \\frac{\\sqrt{n + 1} - \\sqrt{n}}{n^p}$ converges if and only if",
+      "optionsEn": [
+        "$p > 1$",
+        "$p > 0$",
+        "$p > \\frac{3}{2}$",
+        "$p > \\frac{1}{2}$"
+      ],
+      "explanationEn": "Rationalizing the numerator gives $\\frac{\\sqrt{n + 1} - \\sqrt{n}}{n^p} = \\frac{1}{n^p (\\sqrt{n + 1} + \\sqrt{n})}$. As $n \\to \\infty$, this behaves asymptotically like $\\frac{1}{2 n^{p + 1/2}}$. By the Limit Comparison Test with the $p$-series $\\sum \\frac{1}{n^{p + 1/2}}$, the series converges if and only if $p + \\frac{1}{2} > 1$, i.e., $p > \\frac{1}{2}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Bernoulli Equations",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y(x)$ be the solution of $x \\frac{dy}{dx} + y = x^2 y^2$ on $(0, 3)$ satisfying $y(1) = \\frac{1}{2}$. Then the value of $y\\left(\\frac{3}{2}\\right)$ is",
+      "optionsEn": [
+        "$\\frac{4}{9}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{4}{3}$"
+      ],
+      "explanationEn": "Dividing by $y^2$ and setting $v = y^{-1}$ gives $-x v' + v = x^2$, i.e., $v' - \\frac{1}{x}v = -x$. With integrating factor $\\frac{1}{x}$, we get $\\frac{d}{dx}\\left(\\frac{v}{x}\\right) = -1$, so $v(x) = Cx - x^2$. From $v(1) = 2$, we obtain $C = 3$, giving $y(x) = \\frac{1}{3x - x^2}$. At $x = \\frac{3}{2}$, $y\\left(\\frac{3}{2}\\right) = \\frac{1}{9/2 - 9/4} = \\frac{4}{9}$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Maxima and Minima",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the function $f(x, y) = x^4 + y^4 - 4xy + 1$ on $\\mathbb{R}^2$, the global minimum value of $f$ is",
+      "optionsEn": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$-2$"
+      ],
+      "explanationEn": "Setting $f_x = 4x^3 - 4y = 0 \\implies y = x^3$ and $f_y = 4y^3 - 4x = 0 \\implies x^9 - x = 0$ gives real critical points $(0, 0)$, $(1, 1)$, and $(-1, -1)$. At $(0, 0)$, $D = 0 - 16 < 0$ (saddle point). At $(\\pm 1, \\pm 1)$, $f_{xx} = 12 > 0$ and $D = 144 - 16 = 128 > 0$ (local minima), with $f(\\pm 1, \\pm 1) = 1 + 1 - 4 + 1 = -1$. Since $f(x, y) \\to +\\infty$ as $x^2 + y^2 \\to \\infty$, the global minimum value is $-1$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T : V \\to V$ be a linear operator on a $6$-dimensional vector space $V$. Suppose $\\dim(\\ker(T)) = 2$ and $\\dim(\\ker(T^2)) = 2$. What is $\\dim(\\ker(T^5))$?",
+      "optionsEn": [
+        "$6$",
+        "$3$",
+        "$4$",
+        "$2$"
+      ],
+      "explanationEn": "If $\\ker(T^k) = \\ker(T^{k+1})$ for some $k \\ge 1$, then $\\ker(T^m) = \\ker(T^k)$ for all $m \\ge k$. Here $\\ker(T) \\subseteq \\ker(T^2)$ and both have dimension $2$, so $\\ker(T) = \\ker(T^2)$. Indeed, if $v \\in \\ker(T^3)$, then $T(v) \\in \\ker(T^2) = \\ker(T)$, so $T^2(v) = 0$ and $v \\in \\ker(T^2) = \\ker(T)$. By induction, $\\ker(T^5) = \\ker(T)$, so $\\dim(\\ker(T^5)) = 2$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the power series $S(x) = \\sum_{n=1}^{\\infty} \\frac{(x - 3)^n}{n \\cdot 2^n}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The radius of convergence of $S(x)$ is $2$.",
+        "$S(x)$ converges at $x = 5$.",
+        "$S(x)$ converges at $x = 1$.",
+        "$S(x)$ converges absolutely for all $x \\in (1, 5)$."
+      ],
+      "explanationEn": "Here $a_n = \\frac{1}{n \\cdot 2^n}$, so $\\lim_{n \\to \\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = \\frac{1}{2}$ and the radius of convergence is $R = 2$ around $x_0 = 3$; thus (A) and (D) are TRUE. At $x = 5$, $x - 3 = 2$, giving $\\sum_{n=1}^{\\infty} \\frac{1}{n}$, which diverges; thus (B) is FALSE. At $x = 1$, $x - 3 = -2$, giving $\\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n}$, which converges by the Alternating Series Test; thus (C) is TRUE. Therefore, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Normal Subgroups",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a group and let $H, K$ be subgroups of $G$. Which of the following statements is/are ALWAYS TRUE?",
+      "optionsEn": [
+        "If $H \\trianglelefteq G$ and $K \\trianglelefteq G$, then $H \\cap K \\trianglelefteq G$.",
+        "If $H \\trianglelefteq G$ and $K$ is any subgroup of $G$, then $HK$ is a subgroup of $G$.",
+        "If $H \\trianglelefteq K$ and $K \\trianglelefteq G$, then $H \\trianglelefteq G$.",
+        "If $H$ is the unique subgroup of $G$ of order $m$, then $H \\trianglelefteq G$."
+      ],
+      "explanationEn": "(A) The intersection of normal subgroups is always normal; TRUE. (B) If $H \\trianglelefteq G$, then $hK = Kh$ (as sets $HK = KH$), so $HK$ is a subgroup; TRUE. (C) Normality is NOT transitive: in $D_4$, $\\langle s \\rangle \\trianglelefteq \\langle s, r^2 \\rangle \\trianglelefteq D_4$, yet $\\langle s \\rangle$ is not normal in $D_4$; FALSE. (D) For every $g \\in G$, $gHg^{-1}$ is a subgroup of order $m$, so uniqueness forces $gHg^{-1} = H$, hence $H \\trianglelefteq G$; TRUE."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Symmetric and Skew-Symmetric Matrices",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S \\in M_4(\\mathbb{R})$ be a nonzero skew-symmetric matrix ($S^T = -S$). Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "$\\operatorname{tr}(S) = 0$",
+        "$\\det(S) \\ge 0$",
+        "$\\operatorname{rank}(S)$ is an even integer",
+        "$\\det(S) = 0$"
+      ],
+      "explanationEn": "All diagonal entries of a real skew-symmetric matrix are $0$, so $\\operatorname{tr}(S) = 0$ (A is TRUE). Its nonzero eigenvalues come in purely imaginary conjugate pairs $\\pm i\\beta_k$ ($\\beta_k > 0$), so the number of nonzero eigenvalues (which equals $\\operatorname{rank}(S)$ since $S$ is normal and diagonalizable over $\\mathbb{C}$) is even (C is TRUE), and $\\det(S)$ is either $0$ or $\\prod (i\\beta_k)(-i\\beta_k) = \\prod \\beta_k^2 > 0$, hence $\\det(S) \\ge 0$ (B is TRUE). For $S = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\oplus \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}$, $\\det(S) = 1 \\neq 0$, so (D) is FALSE."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Matrix Spaces",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following subsets of $M_3(\\mathbb{R})$ is/are subspaces of $M_3(\\mathbb{R})$?",
+      "optionsEn": [
+        "$S_1 = \\{A \\in M_3(\\mathbb{R}) : A^T = -A \\text{ and } \\operatorname{tr}(A) = 0\\}$",
+        "$S_2 = \\{A \\in M_3(\\mathbb{R}) : \\operatorname{rank}(A) \\le 1\\}$",
+        "$S_3 = \\{A \\in M_3(\\mathbb{R}) : A v = 0\\}$ for a fixed vector $v \\in \\mathbb{R}^3$",
+        "$S_4 = \\{A \\in M_3(\\mathbb{R}) : A^2 = A\\}$"
+      ],
+      "explanationEn": "$S_1$ is the space of $3 \\times 3$ skew-symmetric matrices (all of which have trace $0$), hence a subspace. $S_3$ is the kernel of the linear map $A \\mapsto Av$, hence a subspace. $S_2$ is not closed under addition ($E_{11} + E_{22}$ has rank $2$). $S_4$ is not closed under scalar multiplication ($I_3 \\in S_4$ but $2I_3 \\notin S_4$). Thus (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Local and Global Extrema",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x) = x^4 - 4x^3$ for $x \\in \\mathbb{R}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$f$ has a local extremum at $x = 0$.",
+        "$f$ has a global minimum at $x = 3$.",
+        "$f$ has exactly two inflection points.",
+        "$f$ is convex on $[0, 2]$."
+      ],
+      "explanationEn": "Compute $f'(x) = 4x^2(x - 3)$ and $f''(x) = 12x(x - 2)$. Near $x = 0$, $f'(x) \\le 0$ on both sides, so $x = 0$ is NOT a local extremum ((A) is FALSE). For $x < 3$, $f'(x) \\le 0$ and for $x > 3$, $f'(x) > 0$, so $x = 3$ is the unique global minimum ((B) is TRUE). Since $f''(x) = 12x(x - 2)$ changes sign at $x = 0$ and $x = 2$, $f$ has exactly two inflection points ((C) is TRUE), and $f''(x) < 0$ on $(0, 2)$, so $f$ is concave (not convex) on $[0, 2]$ ((D) is FALSE). Therefore, options (B) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Surface Area",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Identify all CORRECT formulas for the surface area of the specified explicit surfaces in $\\mathbb{R}^3$:",
+      "optionsEn": [
+        "The area of the plane $z = ax + by + c$ lying above a bounded region $D \\subset \\mathbb{R}^2$ is $\\sqrt{1 + a^2 + b^2}\\,\\operatorname{Area}(D)$",
+        "The surface area of the upper hemisphere $z = \\sqrt{R^2 - x^2 - y^2}$ ($R > 0$) is $2\\pi R^2$",
+        "The surface area of the cone $z = \\sqrt{x^2 + y^2}$ for $0 \\le z \\le h$ ($h > 0$) is $\\pi h^2 \\sqrt{2}$",
+        "The surface area of the paraboloid $z = x^2 + y^2$ for $x^2 + y^2 \\le 1$ is $2\\pi$"
+      ],
+      "explanationEn": "(A) True: $z_x = a, z_y = b$, so $\\iint_D \\sqrt{1 + a^2 + b^2}\\,dA = \\sqrt{1 + a^2 + b^2}\\,\\operatorname{Area}(D)$. (B) True: a sphere of radius $R$ has area $4\\pi R^2$, so the upper hemisphere has area $2\\pi R^2$. (C) True: $dS = \\sqrt{2}\\,dA$ over the disk $r \\le h$, giving $\\sqrt{2}(\\pi h^2) = \\pi h^2\\sqrt{2}$. (D) False: $S = 2\\pi \\int_0^1 r\\sqrt{1 + 4r^2}\\,dr = \\frac{\\pi}{6}(5\\sqrt{5} - 1) \\neq 2\\pi$. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Uniform Continuity",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $D \\subseteq \\mathbb{R}$ be non-empty and let $f : D \\to \\mathbb{R}$ be uniformly continuous on $D$. Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "If $(x_n)$ is a Cauchy sequence in $D$, then $(f(x_n))$ is a Cauchy sequence in $\\mathbb{R}$.",
+        "If $D$ is bounded, then $f(D)$ is bounded.",
+        "If $D = (a, b)$ is a bounded open interval, then $f$ can be uniquely extended to a continuous function on $[a, b]$.",
+        "If $D = \\mathbb{R}$, then $f$ is bounded on $\\mathbb{R}$."
+      ],
+      "explanationEn": "(A) Standard characterization: uniformly continuous functions map Cauchy sequences to Cauchy sequences. TRUE. (B) If $D$ is bounded and $f(D)$ were unbounded, pick $(x_n)$ in $D$ with $|f(x_n)| \\to \\infty$; by Bolzano–Weierstrass $(x_n)$ has a Cauchy subsequence $(x_{n_k})$, so $(f(x_{n_k}))$ would be Cauchy and hence bounded, contradiction. TRUE. (C) Since $(f(x_n))$ is Cauchy whenever $x_n \\to a^+$ or $b^-$, the endpoint limits exist finitely and define the unique continuous extension to $[a, b]$. TRUE. (D) Counterexample: $f(x) = x$ is uniformly continuous on $\\mathbb{R}$ but unbounded. FALSE. Therefore, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Linear First-Order ODEs",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the differential equation $\\frac{dy}{dx} + y = \\sin x$ on $\\mathbb{R}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "Every solution is periodic on $\\mathbb{R}$",
+        "Every solution is bounded on $[0, \\infty)$",
+        "Every solution is bounded on $(-\\infty, 0]$",
+        "For any two solutions $y_1, y_2$, $\\lim_{x \\to \\infty} (y_1(x) - y_2(x)) = 0$"
+      ],
+      "explanationEn": "The general solution is $y(x) = C e^{-x} + \\frac{1}{2}(\\sin x - \\cos x)$. Only the solution with $C = 0$ is periodic (A is FALSE). As $x \\to \\infty$, $C e^{-x} \\to 0$ and $\\frac{1}{2}(\\sin x - \\cos x)$ is bounded, so every solution is bounded on $[0, \\infty)$ (B is TRUE). For $C \\neq 0$, $|C e^{-x}| \\to \\infty$ as $x \\to -\\infty$, so (C) is FALSE. Finally, $y_1(x) - y_2(x) = (C_1 - C_2)e^{-x} \\to 0$ as $x \\to \\infty$ (D is TRUE)."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Total Differentiability",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Define $f : \\mathbb{R}^2 \\to \\mathbb{R}$ by $f(x, y) = \\begin{cases} x + 2y + x^2 + y^2, & \\text{if } x \\in \\mathbb{Q} \\text{ and } y \\in \\mathbb{Q} \\\\ x + 2y, & \\text{otherwise.} \\end{cases}$ Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$f$ is continuous at $(0, 0)$",
+        "$f$ is differentiable at $(0, 0)$ with $\\nabla f(0, 0) = (1, 2)$",
+        "$f$ is continuous at $(1, 1)$",
+        "The directional derivative of $f$ at $(0, 0)$ in the direction $\\left(\\frac{3}{5}, \\frac{4}{5}\\right)$ is $\\frac{11}{5}$"
+      ],
+      "explanationEn": "For all $(h, k) \\in \\mathbb{R}^2$, $|f(h, k) - f(0, 0) - (h + 2k)| \\le h^2 + k^2$. Dividing by $\\sqrt{h^2 + k^2}$ gives at most $\\sqrt{h^2 + k^2} \\to 0$ as $(h, k) \\to (0, 0)$. Hence $f$ is differentiable at $(0, 0)$ with $\\nabla f(0, 0) = (1, 2)$, proving (B), and consequently $f$ is continuous at $(0, 0)$, proving (A). Moreover, $D_{\\mathbf{u}} f(0, 0) = (1, 2) \\cdot \\left(\\frac{3}{5}, \\frac{4}{5}\\right) = \\frac{11}{5}$, proving (D). At $(1, 1)$, $f(1, 1) = 5$, while along irrational points approaching $(1, 1)$ we have $f(x, y) = x + 2y \\to 3 \\neq 5$, so (C) is False. Hence, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Idempotent and Nilpotent Matrices",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P \\in M_n(\\mathbb{R})$ be an idempotent matrix ($P^2 = P$). Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "$I_n - P$ is idempotent",
+        "$P$ is diagonalizable over $\\mathbb{R}$",
+        "$\\operatorname{rank}(P) = \\operatorname{rank}(I_n - P)$",
+        "$P$ is symmetric"
+      ],
+      "explanationEn": "(A) $(I_n - P)^2 = I_n - 2P + P^2 = I_n - P$, so $I_n - P$ is idempotent (TRUE). (B) Since $P$ satisfies $x(x - 1) = 0$, its minimal polynomial divides $x(x - 1)$ and has distinct real roots, so $P$ is diagonalizable over $\\mathbb{R}$ (TRUE). (C) $\\operatorname{rank}(P) + \\operatorname{rank}(I_n - P) = n$, so their ranks need not be equal (e.g., $P = I_n$) (FALSE). (D) $P = \\begin{pmatrix} 1 & 1 \\\\ 0 & 0 \\end{pmatrix}$ is idempotent but not symmetric (FALSE)."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Term-by-Term Operations",
+      "difficulty": "Easy",
+      "correctOption": "7.49 to 7.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.49,
+      "natMax": 7.51,
+      "questionTextEn": "For $|x| < 1$, let $f(x) = \\sum_{n=0}^{\\infty} \\frac{n + 2}{n + 1} x^n$. Then the value of $f'''(0)$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For a power series $f(x) = \\sum_{n=0}^{\\infty} a_n x^n$ with positive radius of convergence, $f^{(k)}(0) = k!\\,a_k$. Here $a_3 = \\frac{3 + 2}{3 + 1} = \\frac{5}{4}$, so $f'''(0) = 3! \\cdot \\frac{5}{4} = 6 \\cdot \\frac{5}{4} = 7.50$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Cyclic Groups",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The number of elements of exact order $10$ in the cyclic group $\\mathbb{Z}_{100}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Since $10 \\mid 100$ and $\\mathbb{Z}_{100}$ is cyclic, the number of elements of exact order $10$ is $\\phi(10) = \\phi(2)\\phi(5) = 1 \\times 4 = 4$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Dual Space",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $W = \\operatorname{span}\\{(1, 0, 1, 0, 1), (0, 1, 0, 1, 0), (1, 1, 1, 1, 1)\\} \\subseteq \\mathbb{R}^5$. Then the dimension of the annihilator $W^0 \\subseteq (\\mathbb{R}^5)^*$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The third vector is the sum of the first two linearly independent vectors, so $\\dim(W) = 2$. Therefore, $\\dim(W^0) = \\dim(\\mathbb{R}^5) - \\dim(W) = 5 - 2 = 3$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Homogeneous ODEs",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Let $y : (0, \\infty) \\to \\mathbb{R}$ be the solution of $x \\frac{dy}{dx} - y = 2x$ satisfying $y(1) = 3$. Then the value of $\\frac{y(e)}{e}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Dividing by $x^2$ gives $\\frac{d}{dx}\\left(\\frac{y}{x}\\right) = \\frac{2}{x}$, so $\\frac{y}{x} = 2\\ln x + C$. Since $y(1) = 3$, $C = 3$ and $\\frac{y(x)}{x} = 2\\ln x + 3$. Evaluating at $x = e$ yields $\\frac{y(e)}{e} = 2(1) + 3 = 5$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "1.32 to 1.34",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.32,
+      "natMax": 1.34,
+      "questionTextEn": "The radius of convergence of the power series $\\sum_{n=1}^{\\infty} \\frac{3^n (n!)^2}{(2n)!} x^n$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Let $a_n = \\frac{3^n (n!)^2}{(2n)!}$. Then $\\frac{a_{n+1}}{a_n} = \\frac{3(n+1)^2}{(2n+2)(2n+1)} = \\frac{3(n+1)}{2(2n+1)} \\to \\frac{3}{4}$ as $n \\to \\infty$. Therefore, $R = \\frac{4}{3} \\approx 1.33$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Systems of Linear Equations",
+      "difficulty": "Easy",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "The linear system $2x + 3y = 5$, $4x + 6y = k$ has infinitely many solutions when $k$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The second equation's left-hand side is twice the first. For consistency (and infinitely many solutions), we must have $k = 2(5) = 10$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Areas of Planar Regions",
+      "difficulty": "Easy",
+      "correctOption": "10.6467 to 10.6867",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.6467,
+      "natMax": 10.6867,
+      "questionTextEn": "The area of the region bounded by the parabola $y = 4 - x^2$ and the $x$-axis is _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "The parabola crosses the $x$-axis at $x = \\pm 2$, so $\\text{Area} = \\int_{-2}^{2} (4 - x^2)\\,dx = 2\\left[4x - \\frac{x^3}{3}\\right]_0^2 = 2\\left(8 - \\frac{8}{3}\\right) = \\frac{32}{3} \\approx 10.67$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Local and Global Extrema",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The number of critical points of $f(x) = x^4 - 4x^2 + 1$ in $\\mathbb{R}$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "Compute $f'(x) = 4x^3 - 8x = 4x(x^2 - 2)$. Setting $f'(x) = 0$ yields three distinct real critical points: $x = 0, \\sqrt{2}, -\\sqrt{2}$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Chain Rule",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "If $z = x^2 - y^2$, where $x = u + 2v$ and $y = 2u - v$, then $\\left.\\frac{\\partial z}{\\partial u}\\right|_{(u, v) = (1, 1)}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "At $(u, v) = (1, 1)$, we have $x = 3$ and $y = 1$. By the chain rule, $\\frac{\\partial z}{\\partial u} = 2x \\frac{\\partial x}{\\partial u} - 2y \\frac{\\partial y}{\\partial u} = 2(3)(1) - 2(1)(2) = 6 - 4 = 2$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Existence and Uniqueness",
+      "difficulty": "Easy",
+      "correctOption": "3.16 to 3.18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.16,
+      "natMax": 3.18,
+      "questionTextEn": "For the initial value problem $\\frac{dy}{dx} = x + y$, $y(0) = 1$, starting with $y_0(x) = 1$, the value of the second Picard iterate $y_2(1)$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "We compute $y_1(x) = 1 + \\int_0^x (t + 1)\\,dt = 1 + x + \\frac{x^2}{2}$, and $y_2(x) = 1 + \\int_0^x \\left(1 + 2t + \\frac{t^2}{2}\\right)dt = 1 + x + x^2 + \\frac{x^3}{6}$. Thus $y_2(1) = 3 + \\frac{1}{6} = \\frac{19}{6} \\approx 3.17$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Change of Basis",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $T : \\mathbb{R}^2 \\to \\mathbb{R}^2$ be defined by $T(x, y) = (4x - y, 2x + y)$, and let $M = [T]_{\\mathcal{B}}$ be the matrix of $T$ relative to the ordered basis $\\mathcal{B} = \\{(2, 1), (1, 1)\\}$. Then the $(2, 1)$-entry of $M$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The first column of $M$ is $[T(2, 1)]_{\\mathcal{B}}$. We have $T(2, 1) = (7, 5)$. Solving $c_1(2, 1) + c_2(1, 1) = (7, 5)$ gives $2c_1 + c_2 = 7$ and $c_1 + c_2 = 5$, so $c_1 = 2$ and $c_2 = 3$. Thus the $(2, 1)$-entry of $M$ is $3$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Definite Integrals",
+      "difficulty": "Medium",
+      "correctOption": "1.5994 to 1.6194",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.5994,
+      "natMax": 1.6194,
+      "questionTextEn": "The value of $\\int_{0}^{1} \\frac{x^4 - 1}{\\ln x}\\,dx$ is _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Using the identity $\\frac{x^4 - 1}{\\ln x} = \\int_0^4 x^t\\,dt$ and reversing the order of integration gives $\\int_0^4 \\left(\\int_0^1 x^t\\,dx\\right) dt = \\int_0^4 \\frac{dt}{t + 1} = \\ln 5 \\approx 1.61$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Determinants and Cofactors",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "The determinant of the $4 \\times 4$ tridiagonal matrix $\\begin{pmatrix} 2 & 1 & 0 & 0 \\\\ 1 & 2 & 1 & 0 \\\\ 0 & 1 & 2 & 1 \\\\ 0 & 0 & 1 & 2 \\end{pmatrix}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Let $D_n$ be the determinant of the $n \\times n$ matrix of this form. Expanding along the first row gives the recurrence $D_n = 2 D_{n-1} - D_{n-2}$ with $D_1 = 2$ and $D_2 = 3$. Thus $D_3 = 2(3) - 2 = 4$ and $D_4 = 2(4) - 3 = 5$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Cauchy-Euler Equations",
+      "difficulty": "Hard",
+      "correctOption": "-19",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -19.0,
+      "natMax": -19.0,
+      "questionTextEn": "Let $y : (0, \\infty) \\to \\mathbb{R}$ be the solution of $x^2 y'' + 4x y' + 2y = \\frac{6}{x^3}$ satisfying $\\lim_{x \\to \\infty} x\\,y(x) = 4$ and $y(1) = 10$. Then the value of $y'(1)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The indicial equation $r(r - 1) + 4r + 2 = (r + 1)(r + 2) = 0$ gives $y_h(x) = \\frac{c_1}{x} + \\frac{c_2}{x^2}$. Trying $y_p(x) = \\frac{A}{x^3}$ yields $(12 - 12 + 2)A = 6 \\implies A = 3$. Thus $y(x) = \\frac{c_1}{x} + \\frac{c_2}{x^2} + \\frac{3}{x^3}$. The condition $\\lim_{x \\to \\infty} x\\,y(x) = c_1 = 4$ gives $c_1 = 4$, and $y(1) = 4 + c_2 + 3 = 10$ gives $c_2 = 3$. Differentiating gives $y'(1) = -4 - 6 - 9 = -19$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Fundamental Theorem of Calculus",
+      "difficulty": "Hard",
+      "correctOption": "0.4 to 0.42",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.4,
+      "natMax": 0.42,
+      "questionTextEn": "For $x > 1$, define $f(x) = \\int_{x^2}^{x^3} \\frac{dt}{\\ln t}$. Then $\\lim_{x \\to 1^+} f(x)$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Substitute $t = e^u$ ($dt = e^u\\,du$) to obtain $f(x) = \\int_{2\\ln x}^{3\\ln x} \\frac{e^u}{u}\\,du$. For $u \\in [2\\ln x, 3\\ln x]$ with $x > 1$, $e^{2\\ln x} \\le e^u \\le e^{3\\ln x}$, i.e., $x^2 \\le e^u \\le x^3$. Therefore, $x^2 \\int_{2\\ln x}^{3\\ln x} \\frac{du}{u} \\le f(x) \\le x^3 \\int_{2\\ln x}^{3\\ln x} \\frac{du}{u}$. Since $\\int_{2\\ln x}^{3\\ln x} \\frac{du}{u} = \\ln\\left(\\frac{3\\ln x}{2\\ln x}\\right) = \\ln\\left(\\frac{3}{2}\\right)$, the Squeeze Theorem gives $\\lim_{x \\to 1^+} f(x) = \\ln\\left(\\frac{3}{2}\\right) \\approx 0.41$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Alternating Groups",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "The number of distinct conjugacy classes in the alternating group $A_5$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "In $A_5$ (of order $60$), the identity forms a class of size $1$, the $15$ double transpositions form a single class, the $20$ three-cycles form a single class, and the $24$ five-cycles split into two conjugacy classes of size $12$ each (since a $5$-cycle commutes only with its powers, all even). Thus the class equation is $60 = 1 + 15 + 20 + 12 + 12$, giving $5$ conjugacy classes."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Jacobians",
+      "difficulty": "Hard",
+      "correctOption": "1.24 to 1.26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.24,
+      "natMax": 1.26,
+      "questionTextEn": "Suppose $u$ and $v$ are defined implicitly as smooth functions of $(x, y)$ near $(x, y, u, v) = (1, 1, 3, 1)$ by the system $u^2 + v^2 = 6x + 4y$ and $u - v = 2x$. Then $\\left.\\frac{\\partial u}{\\partial x}\\right|_{(1, 1)}$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Differentiating both equations with respect to $x$ (holding $y$ constant) gives $2u u_x + 2v v_x = 6$ and $u_x - v_x = 2$. Substituting $(u, v) = (3, 1)$ yields $6u_x + 2v_x = 6$ (i.e., $3u_x + v_x = 3$) and $u_x - v_x = 2$. Adding the two equations gives $4u_x = 5$, so $u_x = 1.25$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Fundamental Theorem of Calculus",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Let $f : [0, \\infty) \\to (0, \\infty)$ be a continuously differentiable function satisfying $\\int_{0}^{x} f(t)\\,dt = \\frac{(f(x))^2}{2} - 2$ for all $x \\ge 0$. Then the value of $f(3)$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "Setting $x = 0$ gives $0 = \\frac{(f(0))^2}{2} - 2 \\implies (f(0))^2 = 4$; since $f(x) > 0$, we have $f(0) = 2$. Differentiating both sides using the Fundamental Theorem of Calculus yields $f(x) = f(x) f'(x)$. Dividing by $f(x) > 0$ gives $f'(x) = 1$ for all $x \\ge 0$. Integrating with $f(0) = 2$ yields $f(x) = x + 2$, so $f(3) = 5$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Eigenvalues and Eigenvectors",
+      "difficulty": "Medium",
+      "correctOption": "-2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -2.0,
+      "natMax": -2.0,
+      "questionTextEn": "Let $A \\in M_3(\\mathbb{R})$ have eigenvectors $v_1 = (1, 1, 0)^T$, $v_2 = (1, 0, 1)^T$, and $v_3 = (0, 1, 1)^T$ corresponding to eigenvalues $2$, $-1$, and $3$, respectively. Then the $(3, 1)$-entry of $A$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Express $e_1 = (1, 0, 0)^T$ as $e_1 = \\frac{1}{2}(v_1 + v_2 - v_3)$. Then the first column of $A$ is $A e_1 = \\frac{1}{2}(2v_1 - v_2 - 3v_3) = \\frac{1}{2}\\bigl((2, 2, 0)^T - (1, 0, 1)^T - (0, 3, 3)^T\\bigr) = \\left(\\frac{1}{2}, -\\frac{1}{2}, -2\\right)^T$. Thus the $(3, 1)$-entry of $A$ is $-2$."
+    },
+    {
+      "questionId": "jam_ma_mock_03_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 03",
+      "topicTag": "Exact Sums of Series",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $S = \\sum_{n=2}^{\\infty} \\ln\\left(1 - \\frac{1}{n^2}\\right)$. Then the value of $e^{-S}$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "Rewrite $\\ln\\left(1 - \\frac{1}{n^2}\\right) = \\ln\\left(\\frac{n-1}{n}\\right) - \\ln\\left(\\frac{n}{n+1}\\right)$. The $N$-th partial sum telescopes to $S_N = \\ln\\left(\\frac{1}{2}\\right) - \\ln\\left(\\frac{N}{N+1}\\right) \\to -\\ln 2$ as $N \\to \\infty$. Thus $S = -\\ln 2$, and $e^{-S} = e^{\\ln 2} = 2$."
+    }
+  ]
+}

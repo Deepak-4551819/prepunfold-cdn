@@ -1,0 +1,611 @@
+{
+  "testId": "jam_cy_topic_thermodynamics_states_equilibria_01",
+  "categoryId": "jam_cy",
+  "test_id": "jam_cy_topic_thermodynamics_states_equilibria_01",
+  "category_id": "jam_cy",
+  "title": "IIT JAM 2027 CY Topic Test: Physical Chemistry II: States of Matter, Thermodynamics & Equilibria — Set 01",
+  "titleEn": "IIT JAM 2027 CY Topic Test: Physical Chemistry II: States of Matter, Thermodynamics & Equilibria — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_02_thermo_states_equilibria",
+  "part_id": "part_02_thermo_states_equilibria",
+  "partTitle": "Physical Chemistry II: States of Matter, Thermodynamics & Equilibria",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM CY • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Equilibria",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the gas-phase equilibrium $\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$, the equilibrium constants $K_p$ and $K_c$ are related by",
+      "optionsEn": [
+        "$K_p = K_c (RT)^{-2}$",
+        "$K_p = K_c (RT)^2$",
+        "$K_p = K_c (RT)^{-1}$",
+        "$K_p = K_c$"
+      ],
+      "explanationEn": "Here $\\Delta n_g = 2 - (1 + 3) = -2$. Since $K_p = K_c(RT)^{\\Delta n_g}$, we obtain $K_p = K_c(RT)^{-2}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Because a carbon monoxide ($\\text{CO}$) molecule can adopt two nearly isoenergetic orientations ($\\text{C}-\\text{O}$ and $\\text{O}-\\text{C}$) in its crystal lattice at $0\\text{ K}$, the theoretical molar residual entropy of solid $\\text{CO}$ is",
+      "optionsEn": [
+        "$R\\ln 2$",
+        "$0$",
+        "$2R\\ln 2$",
+        "$R\\ln 3$"
+      ],
+      "explanationEn": "By the Boltzmann entropy formula $S = k_B \\ln W$, for $N_A$ molecules each having $2$ equally probable orientations, $W = 2^{N_A}$, so $S_0 = k_B \\ln(2^{N_A}) = N_A k_B \\ln 2 = R\\ln 2$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Liquid State",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The excess pressure inside a spherical soap bubble of radius $r$ and surface tension $\\gamma$ compared to the outside atmosphere is",
+      "optionsEn": [
+        "$\\dfrac{\\gamma}{r}$",
+        "$\\dfrac{2\\gamma}{r}$",
+        "$\\dfrac{4\\gamma}{r}$",
+        "$\\dfrac{8\\gamma}{r}$"
+      ],
+      "explanationEn": "A soap bubble has two air–liquid interfaces (inner and outer surfaces). Each curved spherical interface contributes $\\frac{2\\gamma}{r}$, giving a total excess pressure $\\Delta P = \\frac{4\\gamma}{r}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solid State",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The limiting radius ratio ($r_{\\text{void}} / R$) for a sphere to fit snugly inside a tetrahedral void formed by close-packed spheres of radius $R$ is",
+      "optionsEn": [
+        "$0.155$",
+        "$0.225$",
+        "$0.414$",
+        "$0.732$"
+      ],
+      "explanationEn": "From geometry of a regular tetrahedron, the limiting radius ratio for a tetrahedral void is $\\sqrt{\\frac{3}{2}} - 1 \\approx 0.225$ (while $0.414$ is for an octahedral void and $0.732$ is for a cubic void)."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the Gibbs phase rule, the number of degrees of freedom ($F$) at the triple point of a pure one-component substance is",
+      "optionsEn": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "explanationEn": "Using $F = C - P + 2$ with $C = 1$ component and $P = 3$ coexisting phases (solid, liquid, vapor), we get $F = 1 - 3 + 2 = 0$ (an invariant point)."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For one mole of a gas obeying the van der Waals equation $P = \\dfrac{RT}{V_m - b} - \\dfrac{a}{V_m^2}$, the internal pressure $\\pi_T = \\left(\\dfrac{\\partial U}{\\partial V_m}\\right)_T$ is equal to",
+      "optionsEn": [
+        "$\\dfrac{a}{V_m^2}$",
+        "$0$",
+        "$-\\dfrac{a}{V_m^2}$",
+        "$\\dfrac{RT}{V_m - b}$"
+      ],
+      "explanationEn": "Using the thermodynamic equation of state $\\left(\\frac{\\partial U}{\\partial V_m}\\right)_T = T\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} - P$: here $\\left(\\frac{\\partial P}{\\partial T}\\right)_{V_m} = \\frac{R}{V_m - b}$, so $\\pi_T = \\frac{RT}{V_m - b} - \\left(\\frac{RT}{V_m - b} - \\frac{a}{V_m^2}\\right) = \\frac{a}{V_m^2}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "One mole of an ideal gas expands isothermally at temperature $T$ from volume $V_1$ to $2V_1$ via two paths: (I) reversibly, and (II) irreversibly against a constant external pressure equal to the final pressure $P_2$. Comparing the magnitudes of work done by the gas ($|w_{\\text{I}}|$ and $|w_{\\text{II}}|$) and the entropy changes of the gas ($\\Delta S_{\\text{I}}$ and $\\Delta S_{\\text{II}}$), we have",
+      "optionsEn": [
+        "$|w_{\\text{I}}| = |w_{\\text{II}}|$ and $\\Delta S_{\\text{I}} = \\Delta S_{\\text{II}}$",
+        "$|w_{\\text{I}}| > |w_{\\text{II}}|$ and $\\Delta S_{\\text{I}} > \\Delta S_{\\text{II}}$",
+        "$|w_{\\text{I}}| < |w_{\\text{II}}|$ and $\\Delta S_{\\text{I}} = \\Delta S_{\\text{II}}$",
+        "$|w_{\\text{I}}| > |w_{\\text{II}}|$ and $\\Delta S_{\\text{I}} = \\Delta S_{\\text{II}}$"
+      ],
+      "explanationEn": "Reversible expansion gives maximum work: $|w_{\\text{I}}| = RT\\ln 2 \\approx 0.693RT$, whereas single-step irreversible expansion gives $|w_{\\text{II}}| = P_2(2V_1 - V_1) = \\frac{RT}{2V_1}(V_1) = 0.500RT$, so $|w_{\\text{I}}| > |w_{\\text{II}}|$. Because entropy is a state function and both paths connect the same initial and final states, $\\Delta S_{\\text{I}} = \\Delta S_{\\text{II}} = R\\ln 2$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Ionic Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The ionic strength ($I = \\dfrac{1}{2}\\sum c_i z_i^2$) of an aqueous solution that is simultaneously $0.10\\text{ M}$ in $\\text{CaCl}_2$ and $0.20\\text{ M}$ in $\\text{NaCl}$ (assuming complete dissociation) is",
+      "optionsEn": [
+        "$0.30\\text{ M}$",
+        "$0.50\\text{ M}$",
+        "$0.40\\text{ M}$",
+        "$0.60\\text{ M}$"
+      ],
+      "explanationEn": "The ion concentrations are $[\\text{Ca}^{2+}] = 0.10\\text{ M}$, $[\\text{Na}^+] = 0.20\\text{ M}$, and $[\\text{Cl}^-] = 2(0.10) + 0.20 = 0.40\\text{ M}$. Thus $I = \\frac{1}{2}[0.10(2)^2 + 0.20(1)^2 + 0.40(-1)^2] = \\frac{1}{2}(0.40 + 0.20 + 0.40) = 0.50\\text{ M}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solutions & Colligative Properties",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A binary liquid mixture of ethanol and cyclohexane exhibits a large **positive deviation** from Raoult's law ($\\Delta H_{\\text{mix}} > 0$). Such a mixture is expected to form",
+      "optionsEn": [
+        "a minimum-boiling azeotrope with $P_{\\text{total}} > x_A P_A^\\circ + x_B P_B^\\circ$",
+        "a maximum-boiling azeotrope with $P_{\\text{total}} < x_A P_A^\\circ + x_B P_B^\\circ$",
+        "no azeotrope at any composition",
+        "an ideal solution with $\\Delta V_{\\text{mix}} = 0$"
+      ],
+      "explanationEn": "Large positive deviations from Raoult's law occur when $A\\text{--}B$ interactions are weaker than $A\\text{--}A$ and $B\\text{--}B$ interactions, yielding a higher total vapor pressure ($P_{\\text{total}} > x_A P_A^\\circ + x_B P_B^\\circ$) and a **minimum-boiling azeotrope**."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solid State",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a cubic crystal of lattice parameter $a$, the ratio of the interplanar spacing $d_{111}$ to $d_{200}$ is",
+      "optionsEn": [
+        "$\\dfrac{\\sqrt{3}}{2}$",
+        "$\\dfrac{2}{\\sqrt{3}}$",
+        "$\\dfrac{4}{3}$",
+        "$\\dfrac{3}{4}$"
+      ],
+      "explanationEn": "For a cubic lattice, $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$. Hence $d_{111} = \\frac{a}{\\sqrt{3}}$ and $d_{200} = \\frac{a}{2}$, giving $\\frac{d_{111}}{d_{200}} = \\frac{2}{\\sqrt{3}}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solid State",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following crystal system(s) has/have all three interaxial angles equal to $90^\\circ$ ($\\alpha = \\beta = \\gamma = 90^\\circ$)?",
+      "optionsEn": [
+        "Cubic",
+        "Tetragonal",
+        "Orthorhombic",
+        "Monoclinic"
+      ],
+      "explanationEn": "Cubic ($a=b=c$), tetragonal ($a=b\\neq c$), and orthorhombic ($a\\neq b\\neq c$) all have $\\alpha = \\beta = \\gamma = 90^\\circ$. Monoclinic has $\\alpha = \\gamma = 90^\\circ \\neq \\beta$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solutions & Colligative Properties",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statement(s) about dilute solutions of non-volatile solutes is/are correct?",
+      "optionsEn": [
+        "The ebullioscopic constant $K_b$ depends on the nature of the solvent and not on the identity of the solute.",
+        "Osmotic pressure is preferred for determining molar masses of macromolecules (like proteins and polymers) because it yields measurable pressure even at very low molarities.",
+        "At the same molality in water, $0.01\\text{ m}$ $\\text{AlCl}_3$ produces a larger freezing point depression than $0.01\\text{ m}$ urea.",
+        "Adding a non-volatile solute to a pure solvent increases the chemical potential of the solvent."
+      ],
+      "explanationEn": "- **(A) True:** $K_b = \\frac{R T_b^{*2} M_1}{1000 \\Delta H_{\\text{vap}}}$ is purely a solvent property.\n- **(B) True:** $\\Pi = CRT$ is large enough to measure accurately for dilute macromolecular solutions.\n- **(C) True:** $\\text{AlCl}_3$ dissociates ($i \\approx 4$) vs. urea ($i = 1$).\n- **(D) False:** $\\mu_1 = \\mu_1^* + RT\\ln x_1 < \\mu_1^*$, so adding a solute *lowers* the solvent's chemical potential."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a reversible Carnot heat engine operating between temperatures $T_h$ (hot) and $T_c$ (cold) with $T_h > T_c > 0$, the correct statement(s) is/are",
+      "optionsEn": [
+        "The efficiency depends only on $T_h$ and $T_c$, and not on the working substance.",
+        "The net entropy change of the working substance over one complete cycle is zero.",
+        "The net entropy change of the universe over one complete cycle is zero.",
+        "The efficiency can reach $100\\%$ for finite $T_h$ and $T_c > 0$."
+      ],
+      "explanationEn": "- **(A), (B), (C) True:** Carnot efficiency $\\eta = 1 - T_c/T_h$ is universal; $S$ is a state function ($\\Delta S_{\\text{sys}} = 0$); and because all steps are reversible, $\\Delta S_{\\text{univ}} = 0$.\n- **(D) False:** $\\eta = 1$ requires $T_c = 0\\text{ K}$, which is unattainable by the Third Law."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statement(s) about a Joule–Thomson throttling expansion of a gas is/are correct?",
+      "optionsEn": [
+        "The process occurs at constant enthalpy ($\\Delta H = 0$).",
+        "For an ideal gas, the Joule–Thomson coefficient $\\mu_{\\text{JT}} = \\left(\\dfrac{\\partial T}{\\partial P}\\right)_H$ is identically zero.",
+        "A real gas cools upon throttling when $\\mu_{\\text{JT}} > 0$ (below its inversion temperature).",
+        "The Joule–Thomson expansion is a reversible, isentropic ($\\Delta S = 0$) process."
+      ],
+      "explanationEn": "- **(A) True:** Throttling through a porous plug is isenthalpic ($\\Delta H = 0$).\n- **(B) True:** For an ideal gas, $H = H(T)$ only, so $\\mu_{\\text{JT}} = 0$.\n- **(C) True:** Since $\\Delta P < 0$ during expansion, $\\Delta T = \\mu_{\\text{JT}}\\Delta P < 0$ (cooling) when $\\mu_{\\text{JT}} > 0$.\n- **(D) False:** Throttling is inherently irreversible with $\\Delta S > 0$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "-10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -10.0,
+      "natMax": -10.0,
+      "questionTextEn": "For a reaction with $\\Delta H^\\circ = +40.0\\text{ kJ mol}^{-1}$ and $\\Delta S^\\circ = +100.0\\text{ J K}^{-1}\\text{ mol}^{-1}$, the value of $\\Delta G^\\circ$ at $500\\text{ K}$ is _______ $\\text{kJ mol}^{-1}$. *(answer in integer)*",
+      "optionsEn": [],
+      "explanationEn": "Using $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = 40.0 - 500(0.100) = 40.0 - 50.0 = -10\\text{ kJ mol}^{-1}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "The maximum possible coefficient of performance ($\\text{COP} = \\dfrac{T_c}{T_h - T_c}$) of a Carnot refrigerator operating between a cold compartment at $250\\text{ K}$ and a room at $300\\text{ K}$ is _______. *(answer in integer)*",
+      "optionsEn": [],
+      "explanationEn": "For an ideal Carnot refrigerator, $\\text{COP} = \\frac{T_c}{T_h - T_c} = \\frac{250}{300 - 250} = \\frac{250}{50} = 5$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solid State",
+      "difficulty": "Easy",
+      "correctOption": "30",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 30.0,
+      "natMax": 30.0,
+      "questionTextEn": "X-rays of wavelength $1.50\\text{ \\AA}$ undergo second-order ($n = 2$) Bragg diffraction from crystal planes with interplanar spacing $d = 3.00\\text{ \\AA}$. The Bragg angle $\\theta$ is _______ degrees. *(answer in integer)*",
+      "optionsEn": [],
+      "explanationEn": "By Bragg's law, $\\sin\\theta = \\frac{n\\lambda}{2d} = \\frac{2 \\times 1.50}{2 \\times 3.00} = 0.50 \\implies \\theta = 30^\\circ$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Solid State",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The total number of tetrahedral voids completely contained within one face-centered cubic (fcc) unit cell is _______. *(answer in integer)*",
+      "optionsEn": [],
+      "explanationEn": "An fcc unit cell contains $Z = 4$ atoms. Since there are $2$ tetrahedral voids per close-packed atom, one fcc unit cell contains $2 \\times 4 = 8$ tetrahedral voids (one in each octant)."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Real Gases",
+      "difficulty": "Easy",
+      "correctOption": "126",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 126.0,
+      "natMax": 126.0,
+      "questionTextEn": "For a van der Waals gas with excluded volume constant $b = 42.0\\text{ cm}^3\\text{ mol}^{-1}$, the critical molar volume $V_{m,c}$ is _______ $\\text{cm}^3\\text{ mol}^{-1}$. *(answer in integer)*",
+      "optionsEn": [],
+      "explanationEn": "For a van der Waals gas, $V_{m,c} = 3b = 3 \\times 42.0 = 126\\text{ cm}^3\\text{ mol}^{-1}$."
+    },
+    {
+      "questionId": "jam_cy_topic_thermodynamics_states_equilibria_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY Topic • Physical Chemistry II: States of Matter, Thermodynamics & Equilibria (Set 01)",
+      "topicTag": "Real Gases",
+      "difficulty": "Medium",
+      "correctOption": "304.3 to 304.9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 304.3,
+      "natMax": 304.9,
+      "questionTextEn": "For $\\text{CO}_2$, the van der Waals constants are $a = 0.365\\text{ Pa m}^6\\text{ mol}^{-2}$ and $b = 4.27 \\times 10^{-5}\\text{ m}^3\\text{ mol}^{-1}$. Its critical temperature $T_c$ is _______ $\\text{K}$. *(round off to one decimal place)*\n[Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$]",
+      "optionsEn": [],
+      "explanationEn": "Using $T_c = \\frac{8a}{27Rb} = \\frac{8 \\times 0.365}{27 \\times 8.314 \\times 4.27 \\times 10^{-5}} = \\frac{2.92}{9.5852 \\times 10^{-3}} \\approx 304.6\\text{ K}$."
+    }
+  ]
+}

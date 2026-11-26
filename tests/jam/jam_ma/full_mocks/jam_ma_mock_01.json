@@ -1,0 +1,1702 @@
+{
+  "testId": "jam_ma_mock_01",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_mock_01",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 Mathematics (MA) — Full Length Mock Test 01",
+  "titleEn": "IIT JAM 2027 Mathematics (MA) — Full Length Mock Test 01",
+  "testType": "FULL_MOCK",
+  "test_type": "FULL_MOCK",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Full Mock 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_mock_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Matrix Algebra",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any two $n \\times n$ matrices $A$ and $B$ over $\\mathbb{C}$, the trace of $AB - BA$ is always equal to",
+      "optionsEn": [
+        "$n$",
+        "$\\operatorname{tr}(A)\\operatorname{tr}(B)$",
+        "$0$",
+        "$\\det(A) - \\det(B)$"
+      ],
+      "explanationEn": "Since $\\operatorname{tr}(AB) = \\operatorname{tr}(BA)$ for all $A, B \\in M_n(\\mathbb{C})$ and trace is linear, $\\operatorname{tr}(AB - BA) = \\operatorname{tr}(AB) - \\operatorname{tr}(BA) = 0$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\operatorname{sgn} : S_n \\to \\{1, -1\\}$ ($n \\ge 2$) be the sign homomorphism. By the First Isomorphism Theorem, the quotient group $S_n / A_n$ is isomorphic to",
+      "optionsEn": [
+        "$\\mathbb{Z}_n$",
+        "$\\mathbb{Z}_2$",
+        "$A_{n-1}$",
+        "$S_{n-1}$"
+      ],
+      "explanationEn": "Since $\\operatorname{sgn} : S_n \\to \\{1, -1\\}$ is surjective for $n \\ge 2$ with $\\ker(\\operatorname{sgn}) = A_n$, the First Isomorphism Theorem gives $S_n / A_n \\cong (\\{1, -1\\}, \\cdot) \\cong \\mathbb{Z}_2$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Variation of Parameters and Reduction of Order",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given that $y_1(x) = x$ is a solution of $x^2 y'' - x(x + 2)y' + (x + 2)y = 0$ on $(0, \\infty)$, a second linearly independent solution is",
+      "optionsEn": [
+        "$x \\ln x$",
+        "$x e^x$",
+        "$x^2 e^x$",
+        "$e^x$"
+      ],
+      "explanationEn": "Write the ODE in standard form $y'' - \\left(1 + \\frac{2}{x}\\right)y' + \\frac{x + 2}{x^2}y = 0$. By reduction of order, $y_2(x) = y_1(x) \\int \\frac{\\exp\\left(\\int (1 + 2/x)\\,dx\\right)}{y_1(x)^2}\\,dx = x \\int \\frac{x^2 e^x}{x^2}\\,dx = x e^x$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Integral Test",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The infinite series $\\sum_{n=2}^{\\infty} \\frac{1}{n (\\ln n)^{p}}$ converges if and only if",
+      "optionsEn": [
+        "$p \\ge 1$",
+        "$p > 1$",
+        "$p > 0$",
+        "$p > 2$"
+      ],
+      "explanationEn": "For $p \\le 0$, $\\frac{1}{n(\\ln n)^p} \\ge \\frac{1}{n}$ for $n \\ge 3$, so the series diverges. For $p > 0$, $f(x) = \\frac{1}{x(\\ln x)^p}$ is positive, continuous, and decreasing on $[2, \\infty)$. By the Integral Test, $\\int_2^\\infty \\frac{dx}{x(\\ln x)^p} = \\int_{\\ln 2}^\\infty \\frac{du}{u^p}$ converges if and only if $p > 1$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Total Differentiability",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Using the linear approximation of $f(x, y) = \\sqrt{x^2 + y^2}$ at $(3, 4)$, the approximate value of $\\sqrt{(3.01)^2 + (3.98)^2}$ is",
+      "optionsEn": [
+        "$5.01$",
+        "$4.97$",
+        "$4.98$",
+        "$4.99$"
+      ],
+      "explanationEn": "At $(3, 4)$, $f(3, 4) = 5$, $f_x(3, 4) = \\frac{3}{5} = 0.6$, and $f_y(3, 4) = \\frac{4}{5} = 0.8$. With $\\Delta x = 0.01$ and $\\Delta y = -0.02$, the linear approximation gives $f(3.01, 3.98) \\approx 5 + 0.6(0.01) + 0.8(-0.02) = 5 + 0.006 - 0.016 = 4.99$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\lim_{x \\to 0} \\frac{\\tan x - \\sin x}{x^3}$ is",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$\\frac{1}{3}$",
+        "$0$"
+      ],
+      "explanationEn": "Factor out $\\sin x$: $\\frac{\\tan x - \\sin x}{x^3} = \\frac{\\sin x}{x} \\cdot \\frac{1 - \\cos x}{x^2} \\cdot \\frac{1}{\\cos x}$. As $x \\to 0$, $\\frac{\\sin x}{x} \\to 1$, $\\frac{1 - \\cos x}{x^2} \\to \\frac{1}{2}$, and $\\cos x \\to 1$. Hence the limit is $1 \\cdot \\frac{1}{2} \\cdot 1 = \\frac{1}{2}$. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following maps $T : M_2(\\mathbb{R}) \\to \\mathbb{R}$ is a linear transformation?",
+      "optionsEn": [
+        "$T(A) = \\det(A)$",
+        "$T(A) = \\operatorname{tr}(A^2)$",
+        "$T(A) = \\operatorname{tr}(BA)$ for a fixed matrix $B \\in M_2(\\mathbb{R})$",
+        "$T(A) = \\operatorname{tr}(A) + 1$"
+      ],
+      "explanationEn": "For fixed $B \\in M_2(\\mathbb{R})$, $T(\\alpha A_1 + A_2) = \\operatorname{tr}(B(\\alpha A_1 + A_2)) = \\alpha \\operatorname{tr}(B A_1) + \\operatorname{tr}(B A_2) = \\alpha T(A_1) + T(A_2)$, so $T$ is linear. Meanwhile, $\\det(2I_2) = 4 \\neq 2\\det(I_2)$, $\\operatorname{tr}(0) + 1 = 1 \\neq 0$, and $\\operatorname{tr}((2I_2)^2) = 8 \\neq 2\\operatorname{tr}(I_2^2)$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Improper Integrals",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\int_{-\\infty}^{\\infty} \\frac{dx}{x^2 + 4}$ is",
+      "optionsEn": [
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{2}$",
+        "$\\pi$",
+        "$2\\pi$"
+      ],
+      "explanationEn": "Using the antiderivative $\\frac{1}{2}\\tan^{-1}\\!\\left(\\frac{x}{2}\\right)$, we get $\\int_{-\\infty}^{\\infty} \\frac{dx}{x^2 + 4} = \\frac{1}{2}\\left[\\frac{\\pi}{2} - \\left(-\\frac{\\pi}{2}\\right)\\right] = \\frac{\\pi}{2}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Cauchy Condensation Test",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(a_n)$ be a non-increasing sequence of non-negative real numbers. By the Cauchy Condensation Test, $\\sum_{n=1}^{\\infty} a_n$ converges if and only if",
+      "optionsEn": [
+        "$\\sum_{k=0}^{\\infty} 2^k a_{2^k}$ converges",
+        "$\\sum_{k=0}^{\\infty} a_{2^k}$ converges",
+        "$\\sum_{k=1}^{\\infty} k a_{k^2}$ converges",
+        "$\\sum_{k=0}^{\\infty} 2^{-k} a_{2^k}$ converges"
+      ],
+      "explanationEn": "The Cauchy Condensation Test states that for a non-increasing sequence $(a_n)$ with $a_n \\ge 0$, the series $\\sum_{n=1}^{\\infty} a_n$ converges if and only if the condensed series $\\sum_{k=0}^{\\infty} 2^k a_{2^k}$ converges. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Polar Coordinates",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\iint_{x^2 + y^2 \\le 1} e^{-(x^2 + y^2)}\\,dx\\,dy$ is",
+      "optionsEn": [
+        "$\\pi e^{-1}$",
+        "$\\frac{\\pi}{2}(1 - e^{-1})$",
+        "$2\\pi(1 - e^{-1})$",
+        "$\\pi(1 - e^{-1})$"
+      ],
+      "explanationEn": "In polar coordinates, $x^2 + y^2 = r^2$ and $dx\\,dy = r\\,dr\\,d\\theta$, so $\\int_0^{2\\pi} \\int_0^1 e^{-r^2} r\\,dr\\,d\\theta = 2\\pi \\left[-\\frac{1}{2}e^{-r^2}\\right]_0^1 = \\pi(1 - e^{-1})$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Qualitative Theory and Sturm Separation",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y(x)$ be any nontrivial solution of $y'' + e^x y = 0$ on $[0, \\infty)$. Then the number of zeros of $y(x)$ in $[0, \\infty)$ is",
+      "optionsEn": [
+        "at most one",
+        "infinite",
+        "zero",
+        "finite and nonzero"
+      ],
+      "explanationEn": "Compare $y'' + e^x y = 0$ with $z'' + z = 0$ on $[0, \\infty)$. Since $e^x \\ge 1$ for all $x \\ge 0$ and the solution $z(x) = \\sin x$ of $z'' + z = 0$ has zeros at $x = n\\pi$ ($n = 0, 1, 2, \\ldots$), the Sturm Comparison Theorem guarantees that every nontrivial solution $y(x)$ of $y'' + e^x y = 0$ has at least one zero in each interval $(n\\pi, (n+1)\\pi)$. Hence $y(x)$ has infinitely many zeros on $[0, \\infty)$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Lagrange Multipliers",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $c > 0$. The maximum value of $f(x, y, z) = x^2 y^2 z^2$ subject to $x^2 + y^2 + z^2 = c^2$ is",
+      "optionsEn": [
+        "$\\frac{c^6}{8}$",
+        "$\\frac{c^6}{64}$",
+        "$\\frac{c^6}{27}$",
+        "$\\frac{c^6}{9}$"
+      ],
+      "explanationEn": "At a maximum with $xyz \\neq 0$, Lagrange multipliers $\\nabla f = \\lambda \\nabla g$ give $2x y^2 z^2 = 2\\lambda x$, $2x^2 y z^2 = 2\\lambda y$, and $2x^2 y^2 z = 2\\lambda z$, which imply $x^2 = y^2 = z^2 = \\frac{c^2}{3}$ (also directly by AM–GM: $(x^2 y^2 z^2)^{1/3} \\le \\frac{x^2 + y^2 + z^2}{3} = \\frac{c^2}{3}$). Thus the maximum value is $\\left(\\frac{c^2}{3}\\right)^3 = \\frac{c^6}{27}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Lipschitz Functions",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : (0, \\infty) \\to \\mathbb{R}$ be defined by $f(x) = \\sqrt{x}$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$f$ is uniformly continuous on $(0, \\infty)$, but NOT Lipschitz on $(0, \\infty)$.",
+        "$f$ is Lipschitz on $(0, \\infty)$.",
+        "$f$ is NOT uniformly continuous on $(0, \\infty)$.",
+        "$f$ is Lipschitz on $(0, 1)$, but NOT Lipschitz on $[1, \\infty)$."
+      ],
+      "explanationEn": "For any $x, y > 0$, $|\\sqrt{x} - \\sqrt{y}| \\le \\sqrt{|x - y|}$ (since $(\\sqrt{x} - \\sqrt{y})^2 \\le |\\sqrt{x} - \\sqrt{y}|(\\sqrt{x} + \\sqrt{y}) = |x - y|$). Given $\\varepsilon > 0$, choosing $\\delta = \\varepsilon^2$ shows $f$ is uniformly continuous on $(0, \\infty)$. However, $f'(x) = \\frac{1}{2\\sqrt{x}} \\to \\infty$ as $x \\to 0^+$, so $f$ is NOT Lipschitz on $(0, \\infty)$ (though it is Lipschitz on $[1, \\infty)$ with constant $\\frac{1}{2}$). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Systems of Linear Equations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A$ be a $4 \\times 6$ real matrix of rank $3$, and let $b \\in \\mathbb{R}^4$ be a nonzero vector such that $Ax = b$ is consistent. Let $S = \\{x \\in \\mathbb{R}^6 : Ax = b\\}$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$S$ is a $3$-dimensional subspace of $\\mathbb{R}^6$",
+        "$S$ contains a unique vector",
+        "There exist $x_0 \\in \\mathbb{R}^6$ and a $1$-dimensional subspace $W$ of $\\mathbb{R}^6$ such that $S = x_0 + W$",
+        "There exist $x_0 \\in \\mathbb{R}^6$ and a $3$-dimensional subspace $W$ of $\\mathbb{R}^6$ such that $S = x_0 + W$"
+      ],
+      "explanationEn": "Since $b \\neq 0$, $0 \\notin S$, so $S$ is not a subspace. If $x_0 \\in S$ is any particular solution, then $S = x_0 + \\ker(A)$. By the Rank-Nullity Theorem, $\\dim(\\ker(A)) = 6 - \\operatorname{rank}(A) = 6 - 3 = 3$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u_1, u_2 \\in \\mathbb{R}^4$ be linearly independent column vectors and $v_1, v_2 \\in \\mathbb{R}^4$ be linearly independent column vectors. What is the rank of the $4 \\times 4$ matrix $M = u_1 v_1^T + u_2 v_2^T$?",
+      "optionsEn": [
+        "Cannot be determined without knowing $u_i^T v_j$",
+        "$2$",
+        "$3$",
+        "$1$"
+      ],
+      "explanationEn": "Write $M = U V^T$ where $U = [u_1 \\; u_2] \\in M_{4\\times 2}(\\mathbb{R})$ has rank $2$ and $V^T = \\begin{pmatrix} v_1^T \\\\ v_2^T \\end{pmatrix} \\in M_{2\\times 4}(\\mathbb{R})$ has rank $2$. Since $U$ has full column rank $2$ and $V^T$ has full row rank $2$, $\\operatorname{rank}(UV^T) = 2$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Leibniz Integral Rule",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $a > 0$, define $I(a) = \\int_{0}^{1} \\frac{x^a - 1}{\\ln x}\\,dx$. Then $I(a)$ is equal to",
+      "optionsEn": [
+        "$\\ln a$",
+        "$a \\ln a$",
+        "$\\ln(a + 1)$",
+        "$\\frac{1}{a + 1}$"
+      ],
+      "explanationEn": "Note that $\\lim_{x \\to 1^-} \\frac{x^a - 1}{\\ln x} = a$ and $\\lim_{x \\to 0^+} \\frac{x^a - 1}{\\ln x} = 0$, so $I(a)$ is a proper integral for $a \\ge 0$ with $I(0) = 0$. Differentiating under the integral sign with respect to $a > 0$ gives $I'(a) = \\int_0^1 \\frac{x^a \\ln x}{\\ln x}\\,dx = \\int_0^1 x^a\\,dx = \\frac{1}{a + 1}$. Integrating from $0$ to $a$ with $I(0) = 0$ yields $I(a) = \\ln(a + 1)$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Sequence Limits",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\lim_{n \\to \\infty} \\frac{\\sqrt{1} + \\sqrt{2} + \\cdots + \\sqrt{n}}{n\\sqrt{n}}$ is",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$1$"
+      ],
+      "explanationEn": "Express the ratio as a Riemann sum: $\\frac{1}{n} \\sum_{k=1}^{n} \\sqrt{\\frac{k}{n}}$. As $n \\to \\infty$, this converges to $\\int_0^1 \\sqrt{x}\\,dx = \\left[\\frac{2}{3}x^{3/2}\\right]_0^1 = \\frac{2}{3}$. (Equivalently, apply the Stolz–Cesàro theorem to $a_n = \\sum_{k=1}^n \\sqrt{k}$ and $b_n = n^{3/2}$.) Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Comparison Tests",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(a_n)$ be a sequence of positive real numbers. Which one of the following statements is FALSE?",
+      "optionsEn": [
+        "If $\\sum_{n=1}^{\\infty} a_n$ converges, then $\\sum_{n=1}^{\\infty} \\frac{a_n}{1 + a_n}$ converges.",
+        "If $\\sum_{n=1}^{\\infty} a_n$ diverges, then $\\sum_{n=1}^{\\infty} \\frac{a_n}{1 + n a_n}$ diverges.",
+        "If $\\sum_{n=1}^{\\infty} \\frac{a_n}{1 + a_n}$ converges, then $\\sum_{n=1}^{\\infty} a_n$ converges.",
+        "If $\\sum_{n=1}^{\\infty} a_n$ converges, then $\\sum_{n=1}^{\\infty} \\frac{\\sqrt{a_n}}{n}$ converges."
+      ],
+      "explanationEn": "Check each statement: (A) $0 < \\frac{a_n}{1+a_n} < a_n$, so convergence of $\\sum a_n$ implies convergence of $\\sum \\frac{a_n}{1+a_n}$; TRUE. (C) If $\\sum \\frac{a_n}{1+a_n}$ converges, then $\\frac{a_n}{1+a_n} \\to 0 \\implies a_n \\to 0$, so $\\frac{a_n}{1+a_n} \\sim a_n$, hence $\\sum a_n$ converges; TRUE. (D) By AM–GM (or Cauchy–Schwarz), $\\frac{\\sqrt{a_n}}{n} \\le \\frac{1}{2}\\left(a_n + \\frac{1}{n^2}\\right)$, whose series converges; TRUE. (B) is FALSE: take $a_n = 1$ for $n = k^2$ ($k \\in \\mathbb{N}$) and $a_n = 0$ (or $2^{-n}$ for strict positivity) otherwise. Then $\\sum a_n = \\infty$, whereas $\\sum \\frac{a_n}{1 + n a_n} \\le \\sum_{k=1}^{\\infty} \\frac{1}{1 + k^2} + \\sum_{n=1}^{\\infty} 2^{-n} < \\infty$. Hence, option (B) is the false statement."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Homogeneous ODEs",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The general solution of the differential equation $(x - y)\\,dx + (x + y)\\,dy = 0$ for $x > 0$ is (where $C \\in \\mathbb{R}$ is an arbitrary constant)",
+      "optionsEn": [
+        "$\\ln(x^2 + y^2) + \\tan^{-1}\\left(\\frac{y}{x}\\right) = C$",
+        "$\\frac{1}{2}\\ln(x^2 + y^2) + \\tan^{-1}\\left(\\frac{y}{x}\\right) = C$",
+        "$\\frac{1}{2}\\ln(x^2 - y^2) + \\tan^{-1}\\left(\\frac{y}{x}\\right) = C$",
+        "$\\frac{1}{2}\\ln(x^2 + y^2) - \\tan^{-1}\\left(\\frac{y}{x}\\right) = C$"
+      ],
+      "explanationEn": "Rewriting as $x\\,dx + y\\,dy + x\\,dy - y\\,dx = 0$ and dividing by $x^2 + y^2$ gives $\\frac{x\\,dx + y\\,dy}{x^2 + y^2} + \\frac{x\\,dy - y\\,dx}{x^2 + y^2} = 0$, which is $d\\left(\\frac{1}{2}\\ln(x^2 + y^2)\\right) + d\\left(\\tan^{-1}\\left(\\frac{y}{x}\\right)\\right) = 0$. Integrating yields $\\frac{1}{2}\\ln(x^2 + y^2) + \\tan^{-1}\\left(\\frac{y}{x}\\right) = C$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the total number of group homomorphisms from $S_3$ to $\\mathbb{Z}_6$?",
+      "optionsEn": [
+        "$3$",
+        "$2$",
+        "$6$",
+        "$1$"
+      ],
+      "explanationEn": "Since $\\mathbb{Z}_6$ is abelian, every homomorphism $\\phi : S_3 \\to \\mathbb{Z}_6$ must vanish on the commutator subgroup $[S_3, S_3] = A_3$. Hence $\\phi$ factors uniquely through $S_3 / A_3 \\cong \\mathbb{Z}_2$. The number of homomorphisms from $\\mathbb{Z}_2$ to $\\mathbb{Z}_6$ is $\\gcd(2, 6) = 2$ (namely the trivial map and the map sending odd permutations to $\\bar{3}$)."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Taylor's Theorem in 2 Variables",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The quadratic Taylor polynomial of $f(x, y) = \\ln(1 + x + y)$ about $(0, 0)$ is",
+      "optionsEn": [
+        "$x + y - \\frac{1}{2}x^2 - xy - \\frac{1}{2}y^2$",
+        "$x + y - \\frac{1}{2}x^2 + xy - \\frac{1}{2}y^2$",
+        "$x + y - \\frac{1}{2}x^2 - \\frac{1}{2}y^2$",
+        "$x + y + \\frac{1}{2}x^2 + xy + \\frac{1}{2}y^2$"
+      ],
+      "explanationEn": "Using $\\ln(1 + s) = s - \\frac{s^2}{2} + O(s^3)$ with $s = x + y$, we obtain $P_2(x, y) = (x + y) - \\frac{1}{2}(x + y)^2 = x + y - \\frac{1}{2}x^2 - xy - \\frac{1}{2}y^2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Idempotent and Nilpotent Matrices",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_3(\\mathbb{C})$ satisfy $\\operatorname{tr}(A) = \\operatorname{tr}(A^2) = \\operatorname{tr}(A^3) = 0$. Then which one of the following MUST be true?",
+      "optionsEn": [
+        "$A$ is diagonalizable",
+        "$A^2 = 0$",
+        "$A^3 = 0$",
+        "$A = 0$"
+      ],
+      "explanationEn": "Let $\\lambda_1, \\lambda_2, \\lambda_3$ be the eigenvalues of $A$. Using Newton's identities: $e_1 = \\operatorname{tr}(A) = 0$, $e_2 = \\frac{1}{2}(e_1^2 - \\operatorname{tr}(A^2)) = 0$, and $e_3 = \\frac{1}{3}(\\operatorname{tr}(A^3) - e_1\\operatorname{tr}(A^2) + e_2\\operatorname{tr}(A)) = 0$. Thus the characteristic polynomial of $A$ is $\\lambda^3 = 0$, and by Cayley-Hamilton, $A^3 = 0$. A single $3 \\times 3$ Jordan block $J_3(0)$ refutes the other three options."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Cauchy Condensation Test",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the series $S_1 = \\sum_{n=3}^{\\infty} \\frac{1}{n (\\ln n) (\\ln \\ln n)}$ and $S_2 = \\sum_{n=3}^{\\infty} \\frac{1}{n (\\ln n) (\\ln \\ln n)^2}$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$S_1$ diverges and $S_2$ converges",
+        "Both $S_1$ and $S_2$ diverge",
+        "$S_1$ converges and $S_2$ diverges",
+        "Both $S_1$ and $S_2$ converge"
+      ],
+      "explanationEn": "Applying the Integral Test (or Cauchy Condensation Test twice) with $u = \\ln \\ln x$, $du = \\frac{dx}{x \\ln x}$: for $S_1$, $\\int_3^\\infty \\frac{dx}{x(\\ln x)(\\ln \\ln x)} = \\int_{\\ln \\ln 3}^\\infty \\frac{du}{u} = \\infty$, so $S_1$ diverges. For $S_2$, $\\int_3^\\infty \\frac{dx}{x(\\ln x)(\\ln \\ln x)^2} = \\int_{\\ln \\ln 3}^\\infty \\frac{du}{u^2} = \\frac{1}{\\ln \\ln 3} < \\infty$, so $S_2$ converges. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Binomial Theorem",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the binomial expansion of $(2 + 3x)^9$ evaluated at $x = \\frac{1}{2}$, which term (in standard order $T_1, T_2, \\dots, T_{10}$ of increasing powers of $x$) is numerically the greatest?",
+      "optionsEn": [
+        "$T_5$",
+        "$T_4$",
+        "$T_6$",
+        "$T_7$"
+      ],
+      "explanationEn": "Here $T_{k+1} = \\binom{9}{k} 2^{9-k} \\left(\\frac{3}{2}\\right)^k$ for $k = 0, 1, \\dots, 9$. The ratio of consecutive terms is $\\frac{T_{k+1}}{T_k} = \\frac{10 - k}{k} \\cdot \\frac{3}{4} \\ge 1 \\iff 30 - 3k \\ge 4k \\iff k \\le \\frac{30}{7} \\approx 4.28$. Thus $T_k$ increases up to $k = 4$ and decreases thereafter, so $T_5$ is the unique greatest term."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Dual Space",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\mathcal{B} = \\{(1, 2), (2, 5)\\}$ be an ordered basis of $\\mathbb{R}^2$, and let $\\{f_1, f_2\\}$ be its dual basis in $(\\mathbb{R}^2)^*$. Then $f_1(x, y)$ is given by",
+      "optionsEn": [
+        "$-2x + y$",
+        "$5x - 2y$",
+        "$2x - 5y$",
+        "$x + 2y$"
+      ],
+      "explanationEn": "We need $f_1(x, y) = ax + by$ satisfying $f_1(1, 2) = 1$ and $f_1(2, 5) = 0$. From $a + 2b = 1$ and $2a + 5b = 0$, we get $b = -2$ and $a = 5$. Thus $f_1(x, y) = 5x - 2y$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Exact ODEs",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The general solution of the exact differential equation $(e^y + y\\cos(xy))\\,dx + (x e^y + x\\cos(xy) + 2y)\\,dy = 0$ is (where $C \\in \\mathbb{R}$ is an arbitrary constant)",
+      "optionsEn": [
+        "$x e^y + \\cos(xy) + y^2 = C$",
+        "$x e^y + \\sin(xy) + 2y = C$",
+        "$x e^y - \\sin(xy) + y^2 = C$",
+        "$x e^y + \\sin(xy) + y^2 = C$"
+      ],
+      "explanationEn": "Let $F(x, y)$ satisfy $F_x = e^y + y\\cos(xy)$ and $F_y = x e^y + x\\cos(xy) + 2y$. Integrating $F_x$ with respect to $x$ gives $F(x, y) = x e^y + \\sin(xy) + h(y)$. Differentiating with respect to $y$ gives $x e^y + x\\cos(xy) + h'(y) = x e^y + x\\cos(xy) + 2y$, so $h'(y) = 2y$ and $h(y) = y^2$. Thus $x e^y + \\sin(xy) + y^2 = C$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Surface Area",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The surface area of the portion of the paraboloid $z = x^2 + y^2$ lying below the plane $z = 2$ is",
+      "optionsEn": [
+        "$\\frac{13\\pi}{6}$",
+        "$\\frac{13\\pi}{3}$",
+        "$\\frac{26\\pi}{3}$",
+        "$4\\pi$"
+      ],
+      "explanationEn": "Here $z_x = 2x$, $z_y = 2y$, so $dS = \\sqrt{1 + 4(x^2 + y^2)}\\,dA$ over the disk $x^2 + y^2 \\le 2$. In polar coordinates, $S = \\int_0^{2\\pi} \\int_0^{\\sqrt{2}} \\sqrt{1 + 4r^2}\\,r\\,dr\\,d\\theta = 2\\pi \\left[\\frac{1}{12}(1 + 4r^2)^{3/2}\\right]_0^{\\sqrt{2}} = \\frac{\\pi}{6}(9^{3/2} - 1) = \\frac{26\\pi}{6} = \\frac{13\\pi}{3}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Limits and Continuity",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x, y) = \\frac{x^2 y}{x^4 + y^2}$ for $(x, y) \\neq (0, 0)$ and $f(0, 0) = 0$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "The limit of $f(x, y)$ along every straight line through $(0, 0)$ is $0$, but $f$ is NOT continuous at $(0, 0)$",
+        "The partial derivatives $f_x(0, 0)$ and $f_y(0, 0)$ do not exist",
+        "The limit of $f(x, y)$ along the line $y = x$ is $\\frac{1}{2}$",
+        "The limit of $f(x, y)$ along every straight line through $(0, 0)$ is $0$, and $f$ is continuous at $(0, 0)$"
+      ],
+      "explanationEn": "Along any line $y = mx$ ($x \\neq 0$), $f(x, mx) = \\frac{mx^3}{x^4 + m^2 x^2} = \\frac{mx}{x^2 + m^2} \\to 0$ as $x \\to 0$ (and $f(0, y) = 0$ along $x = 0$). However, along the parabola $y = x^2$ ($x \\neq 0$), $f(x, x^2) = \\frac{x^4}{2x^4} = \\frac{1}{2} \\neq 0 = f(0, 0)$. Thus $f$ is NOT continuous at $(0, 0)$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Improper Integrals",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the Fresnel integral $I = \\int_{0}^{\\infty} \\sin(x^2)\\,dx$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$I$ converges conditionally (i.e., $I$ converges, but $\\int_{0}^{\\infty} |\\sin(x^2)|\\,dx$ diverges)",
+        "$I$ diverges to $+\\infty$",
+        "$I$ diverges because $\\lim_{x \\to \\infty} \\sin(x^2)$ does not exist",
+        "$I$ converges absolutely"
+      ],
+      "explanationEn": "Substitute $t = x^2$ ($dx = \\frac{dt}{2\\sqrt{t}}$) on $[1, \\infty)$: $\\int_1^\\infty \\sin(x^2)\\,dx = \\frac{1}{2}\\int_1^\\infty \\frac{\\sin t}{\\sqrt{t}}\\,dt$, which converges by Dirichlet's test since $\\frac{1}{\\sqrt{t}} \\downarrow 0$ and $\\int_1^T \\sin t\\,dt$ is bounded. However, $\\int_1^\\infty \\frac{|\\sin t|}{\\sqrt{t}}\\,dt \\ge \\sum_{k=1}^\\infty \\frac{2}{\\sqrt{(k+1)\\pi}} = \\infty$, so $I$ converges conditionally and not absolutely. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Linear Independence",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following sets of real-valued functions on $\\mathbb{R}$ is linearly DEPENDENT over $\\mathbb{R}$?",
+      "optionsEn": [
+        "$\\{1, \\cos^2 x, \\cos(2x)\\}$",
+        "$\\{x, x e^x, x^2 e^x\\}$",
+        "$\\{1, e^x, e^{2x}\\}$",
+        "$\\{\\sin x, \\cos x, \\sin(2x)\\}$"
+      ],
+      "explanationEn": "By the double-angle identity, $\\cos(2x) = 2\\cos^2 x - 1$, so $1 - 2\\cos^2 x + \\cos(2x) = 0$ for all $x \\in \\mathbb{R}$. Hence $\\{1, \\cos^2 x, \\cos(2x)\\}$ is linearly dependent. Each of the other three sets is linearly independent over $\\mathbb{R}$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Quotient Groups",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following quotient group isomorphisms is/are TRUE?",
+      "optionsEn": [
+        "$\\mathbb{Z}_{24} / \\langle \\bar{6} \\rangle \\cong \\mathbb{Z}_6$.",
+        "$(\\mathbb{Z} \\times \\mathbb{Z}) / (2\\mathbb{Z} \\times 3\\mathbb{Z}) \\cong \\mathbb{Z}_6$.",
+        "$GL_2(\\mathbb{R}) / SL_2(\\mathbb{R}) \\cong (\\mathbb{R}^*, \\cdot)$.",
+        "$\\mathbb{R}^* / \\{1, -1\\} \\cong (\\mathbb{R}^+, \\cdot)$."
+      ],
+      "explanationEn": "(A) $\\langle \\bar{6} \\rangle$ has order $4$ in the cyclic group $\\mathbb{Z}_{24}$, so the quotient is cyclic of order $24/4 = 6$; TRUE. (B) $(\\mathbb{Z} \\times \\mathbb{Z})/(2\\mathbb{Z} \\times 3\\mathbb{Z}) \\cong \\mathbb{Z}_2 \\times \\mathbb{Z}_3 \\cong \\mathbb{Z}_6$; TRUE. (C) $\\det : GL_2(\\mathbb{R}) \\to \\mathbb{R}^*$ is surjective with kernel $SL_2(\\mathbb{R})$; TRUE. (D) $x \\mapsto |x|$ is a surjective homomorphism $\\mathbb{R}^* \\to \\mathbb{R}^+$ with kernel $\\{1, -1\\}$; TRUE."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Integral Test",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $p \\in \\mathbb{R}$. Consider the series $S(p) = \\sum_{n=2}^{\\infty} \\frac{\\ln n}{n^p}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$S(p)$ converges for all $p > 1$.",
+        "$S(1)$ converges.",
+        "$S(p)$ converges for $p = \\frac{3}{2}$ and diverges for $p = \\frac{5}{4}$.",
+        "$S(p)$ diverges for all $p \\le 1$."
+      ],
+      "explanationEn": "For $p \\le 1$, $\\frac{\\ln n}{n^p} \\ge \\frac{\\ln 2}{n}$ for all $n \\ge 2$, so $S(p)$ diverges by comparison with the harmonic series; thus (D) is TRUE and (B) is FALSE. For any $p > 1$, let $\\varepsilon = \\frac{p - 1}{2} > 0$. Since $\\lim_{n \\to \\infty} \\frac{\\ln n}{n^\\varepsilon} = 0$, we have $\\frac{\\ln n}{n^p} < \\frac{1}{n^{p - \\varepsilon}} = \\frac{1}{n^{(p+1)/2}}$ for all sufficiently large $n$. As $\\frac{p+1}{2} > 1$, $S(p)$ converges for every $p > 1$ (including both $p = \\frac{3}{2}$ and $p = \\frac{5}{4}$); thus (A) is TRUE and (C) is FALSE. Therefore, options (A) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Sum and Intersection of Subspaces",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the subspaces of $\\mathbb{R}^3$ defined by $U_1 = \\{(x, y, z) : x + y + z = 0\\}$, $U_2 = \\{(x, y, z) : x - y = 0\\}$, and $U_3 = \\{(x, y, z) : 2x + z = 0\\}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$U_1 \\cap U_2 = U_1 \\cap U_3$.",
+        "$\\dim(U_1 \\cap U_2 \\cap U_3) = 1$.",
+        "$U_1 + U_2 = \\mathbb{R}^3$.",
+        "$\\mathbb{R}^3 = U_1 \\oplus U_2$."
+      ],
+      "explanationEn": "Each $U_i$ is a plane (dimension $2$) in $\\mathbb{R}^3$. Notice $(x + y + z) + (x - y) = 2x + z$, so any two of the equations imply the third. Thus $U_1 \\cap U_2 = U_1 \\cap U_3 = U_1 \\cap U_2 \\cap U_3 = \\operatorname{span}\\{(1, 1, -2)\\}$ of dimension $1$, proving (A) and (B). By Grassmann's formula, $\\dim(U_1 + U_2) = 2 + 2 - 1 = 3$, so $U_1 + U_2 = \\mathbb{R}^3$, proving (C). However, $U_1 \\cap U_2 \\neq \\{0\\}$, so the sum is not direct ((D) FALSE)."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Existence and Uniqueness",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y : (-c, c) \\to \\mathbb{R}$ be the maximal solution of the initial value problem $\\frac{dy}{dx} = x(1 + y^2)$, $y(0) = 0$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$y(x)$ is an even function on $(-c, c)$",
+        "$c = \\frac{\\pi}{2}$",
+        "$y(x)$ attains its global minimum on $(-c, c)$ at $x = 0$",
+        "$y(x)$ is bounded on $(-c, c)$"
+      ],
+      "explanationEn": "Separating variables gives $\\tan^{-1}(y) = \\frac{x^2}{2}$, so $y(x) = \\tan\\left(\\frac{x^2}{2}\\right)$. Clearly $y(-x) = y(x)$ (A is TRUE). Blow-up occurs when $\\frac{x^2}{2} = \\frac{\\pi}{2}$, i.e., $x = \\pm\\sqrt{\\pi}$, so $c = \\sqrt{\\pi} \\neq \\frac{\\pi}{2}$ (B is FALSE) and $y(x) \\to +\\infty$ as $|x| \\to \\sqrt{\\pi}^-$ (D is FALSE). Since $\\frac{x^2}{2} \\in [0, \\frac{\\pi}{2})$, $y(x) \\ge 0 = y(0)$ with equality only at $x = 0$ (C is TRUE)."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Maxima and Minima",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x, y) = x^2 y - x^2 - 2y^2$ for $(x, y) \\in \\mathbb{R}^2$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$(0, 0)$ is a local maximum of $f$",
+        "$(2, 1)$ and $(-2, 1)$ are saddle points of $f$",
+        "$f$ has no local minimum in $\\mathbb{R}^2$",
+        "$f$ attains its global maximum at $(0, 0)$"
+      ],
+      "explanationEn": "Setting $f_x = 2x(y - 1) = 0$ and $f_y = x^2 - 4y = 0$ yields three critical points: $(0, 0)$, $(2, 1)$, and $(-2, 1)$. The Hessian is $H = \\begin{pmatrix} 2y - 2 & 2x \\\\ 2x & -4 \\end{pmatrix}$. At $(0, 0)$, $f_{xx} = -2 < 0$ and $\\det(H) = 8 > 0$, so $(0, 0)$ is a local maximum (A True). At $(\\pm 2, 1)$, $\\det(H) = -16 < 0$, so both are saddle points (B True), and hence $f$ has no local minimum (C True). However, $f(x, 2) = x^2 - 8 \\to +\\infty$ as $x \\to \\infty$, so $f$ has no global maximum (D False). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Orthogonal Matrices",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $Q \\in M_n(\\mathbb{R})$ be an orthogonal matrix ($Q^T Q = I_n$). Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "$Q^2$ is an orthogonal matrix",
+        "If $\\lambda \\in \\mathbb{R}$ is an eigenvalue of $Q$, then $\\lambda \\in \\{-1, 1\\}$",
+        "$Q$ is diagonalizable over $\\mathbb{C}$",
+        "$Q$ is diagonalizable over $\\mathbb{R}$"
+      ],
+      "explanationEn": "(A) $(Q^2)^T Q^2 = (Q^T)^2 Q^2 = Q^T (Q^T Q) Q = Q^T Q = I_n$, so $Q^2$ is orthogonal (TRUE). (B) Every eigenvalue of $Q$ has $|\\lambda| = 1$, so any real eigenvalue must be $\\pm 1$ (TRUE). (C) Every real orthogonal matrix is unitary (hence normal) over $\\mathbb{C}$, and by the spectral theorem is unitarily diagonalizable over $\\mathbb{C}$ (TRUE). (D) A $2 \\times 2$ rotation by $\\frac{\\pi}{2}$ has eigenvalues $\\pm i \\notin \\mathbb{R}$, so it is not diagonalizable over $\\mathbb{R}$ (FALSE)."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Term-by-Term Operations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x) = \\sum_{n=0}^{\\infty} \\frac{(-1)^n x^{2n+1}}{2n + 1}$ for $x \\in (-1, 1)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$f'(x) = \\frac{1}{1 + x^2}$ for all $x \\in (-1, 1)$.",
+        "$f(x) = \\arctan(x)$ for all $x \\in (-1, 1)$.",
+        "The series diverges at $x = 1$.",
+        "The series converges at $x = -1$."
+      ],
+      "explanationEn": "The power series has radius of convergence $R = 1$. Differentiating term-by-term on $(-1, 1)$ gives $f'(x) = \\sum_{n=0}^{\\infty} (-1)^n x^{2n} = \\frac{1}{1 + x^2}$, so (A) is TRUE. Since $f(0) = 0 = \\arctan(0)$, integrating yields $f(x) = \\arctan(x)$ on $(-1, 1)$, so (B) is TRUE. At $x = 1$, the series is $\\sum_{n=0}^{\\infty} \\frac{(-1)^n}{2n+1}$, which converges by the Alternating Series Test (to $\\frac{\\pi}{4}$), so (C) is FALSE. At $x = -1$, the series is $-\\sum_{n=0}^{\\infty} \\frac{(-1)^n}{2n+1}$, which also converges, so (D) is TRUE. Therefore, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Riemann Integrability",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f, g : [0, 1] \\to \\mathbb{R}$ be bounded functions. Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "If $f$ is Riemann integrable on $[0, 1]$, then $|f|$ is Riemann integrable on $[0, 1]$.",
+        "If $|f|$ is Riemann integrable on $[0, 1]$, then $f$ is Riemann integrable on $[0, 1]$.",
+        "If $f$ and $g$ are Riemann integrable on $[0, 1]$, then $f \\cdot g$ is Riemann integrable on $[0, 1]$.",
+        "If $f$ is continuous on $[0, 1]$ with $f(x) \\ge 0$ and $\\int_0^1 f(x)\\,dx = 0$, then $f(x) = 0$ for all $x \\in [0, 1]$."
+      ],
+      "explanationEn": "(A) Since $x \\mapsto |x|$ is continuous, $|f| = |\\cdot| \\circ f$ is Riemann integrable whenever $f$ is. TRUE. (B) Counterexample: $f(x) = 1$ on $\\mathbb{Q}$ and $-1$ on $\\mathbb{R} \\setminus \\mathbb{Q}$ has $|f| \\equiv 1$ (Riemann integrable), yet $f$ is not Riemann integrable. FALSE. (C) The product of two Riemann integrable functions on $[0, 1]$ is always Riemann integrable. TRUE. (D) If $f(x_0) > 0$ for some $x_0 \\in [0, 1]$, continuity gives an interval around $x_0$ where $f(x) \\ge f(x_0)/2 > 0$, forcing $\\int_0^1 f(x)\\,dx > 0$, contradiction. TRUE. Therefore, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Exact ODEs and Integrating Factors",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following is/are integrating factor(s) of the differential equation $2y\\,dx + x\\,dy = 0$ on $\\{(x, y) \\in \\mathbb{R}^2 : x > 0, y > 0\\}$?",
+      "optionsEn": [
+        "$x$",
+        "$y$",
+        "$x^3 y$",
+        "$\\frac{1}{xy}$"
+      ],
+      "explanationEn": "Multiplying $2y\\,dx + x\\,dy = 0$ by $x$ gives $2xy\\,dx + x^2\\,dy = d(x^2 y) = 0$, so $\\mu_1 = x$ is an integrating factor (A is TRUE) with first integral $u = x^2 y$. Every other integrating factor has the form $x h(x^2 y)$. Taking $h(u) = u$ gives $x(x^2 y) = x^3 y$ (C is TRUE), and taking $h(u) = \\frac{1}{u}$ gives $\\frac{x}{x^2 y} = \\frac{1}{xy}$ (D is TRUE). For $\\mu = y$, $(2y^2)_y = 4y \\neq y = (xy)_x$, so (B) is FALSE."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Improper Integrals",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following improper integrals is/are ABSOLUTELY convergent?",
+      "optionsEn": [
+        "$\\int_{1}^{\\infty} \\frac{\\cos x}{x^{3/2}}\\,dx$",
+        "$\\int_{1}^{\\infty} \\frac{\\sin x}{\\sqrt{x}}\\,dx$",
+        "$\\int_{0}^{\\infty} \\frac{\\sin x}{x}\\,dx$",
+        "$\\int_{1}^{\\infty} \\frac{\\cos x}{1 + x^2}\\,dx$"
+      ],
+      "explanationEn": "(A) Absolutely convergent since $\\left|\\frac{\\cos x}{x^{3/2}}\\right| \\le x^{-3/2}$ and $\\int_1^\\infty x^{-3/2}\\,dx = 2 < \\infty$. (B) Conditionally convergent only, since $\\int_1^\\infty \\frac{|\\sin x|}{\\sqrt{x}}\\,dx$ diverges by comparison with $\\sum k^{-1/2}$. (C) Conditionally convergent only, since $\\int_0^\\infty \\frac{|\\sin x|}{x}\\,dx = \\infty$. (D) Absolutely convergent since $\\left|\\frac{\\cos x}{1 + x^2}\\right| \\le \\frac{1}{1 + x^2}$ and $\\int_1^\\infty \\frac{dx}{1 + x^2} = \\frac{\\pi}{4} < \\infty$. Hence, options (A) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Conjugacy Classes",
+      "difficulty": "Easy",
+      "correctOption": "7",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "The number of distinct conjugacy classes in the symmetric group $S_5$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The conjugacy classes of $S_5$ correspond bijectively to the partitions of $5$: $(5)$, $(4,1)$, $(3,2)$, $(3,1,1)$, $(2,2,1)$, $(2,1,1,1)$, and $(1,1,1,1,1)$. Hence there are $7$ conjugacy classes."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The value of $\\lim_{x \\to 0} \\frac{e^{4x} - e^{x}}{x}$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "By L'Hôpital's rule, $\\lim_{x \\to 0} \\frac{e^{4x} - e^x}{x} = \\lim_{x \\to 0} (4e^{4x} - e^x) = 4 - 1 = 3$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Sequence Limits",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The value of $\\lim_{n \\to \\infty} \\left(\\sqrt{n^2 + 1} - \\sqrt{n^2 - 4n}\\right)$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "Rationalizing gives $\\frac{(n^2 + 1) - (n^2 - 4n)}{\\sqrt{n^2 + 1} + \\sqrt{n^2 - 4n}} = \\frac{4n + 1}{\\sqrt{n^2 + 1} + \\sqrt{n^2 - 4n}} = \\frac{4 + 1/n}{\\sqrt{1 + 1/n^2} + \\sqrt{1 - 4/n}} \\to \\frac{4}{1 + 1} = 2$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Beta and Gamma Functions",
+      "difficulty": "Easy",
+      "correctOption": "70",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 70.0,
+      "natMax": 70.0,
+      "questionTextEn": "The value of $\\frac{8\\,\\Gamma(9/2)}{\\Gamma(5/2)}$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Using $\\Gamma(z + 1) = z\\Gamma(z)$, we have $\\frac{\\Gamma(9/2)}{\\Gamma(5/2)} = \\frac{7}{2} \\cdot \\frac{5}{2} = \\frac{35}{4}$. Multiplying by $8$ gives $70$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Exact Sums of Series",
+      "difficulty": "Easy",
+      "correctOption": "1.49 to 1.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.49,
+      "natMax": 1.51,
+      "questionTextEn": "The sum of the infinite series $\\sum_{n=1}^{\\infty} \\frac{2^n + 3^n}{6^n}$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Split the series into two convergent geometric series: $\\sum_{n=1}^{\\infty} \\left(\\frac{1}{3}\\right)^n + \\sum_{n=1}^{\\infty} \\left(\\frac{1}{2}\\right)^n = \\frac{1/3}{1 - 1/3} + \\frac{1/2}{1 - 1/2} = \\frac{1}{2} + 1 = 1.50$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Rank and Nullity",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Let $A$ be a $5 \\times 8$ real matrix with $\\operatorname{rank}(A) = 3$. Then the dimension of the solution space of $Ax = 0$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "By the Rank-Nullity Theorem, $\\dim(\\ker(A)) = 8 - \\operatorname{rank}(A) = 8 - 3 = 5$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Polar Coordinates",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Let $D = \\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 \\le 4,\\; y \\ge 0\\}$. The value of $\\frac{1}{\\pi} \\iint_D (x^2 + y^2)\\,dx\\,dy$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "In polar coordinates, $D$ is $0 \\le r \\le 2$, $0 \\le \\theta \\le \\pi$. Thus $\\frac{1}{\\pi}\\int_0^\\pi \\int_0^2 r^3\\,dr\\,d\\theta = \\left[\\frac{r^4}{4}\\right]_0^2 = 4$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Chain Rule",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Let $f : \\mathbb{R}^2 \\to \\mathbb{R}$ be differentiable with $f_x(1, 2) = 5$ and $f_y(1, 2) = -2$. If $g(t) = f(t^2, 3t - 1)$, then $g'(1)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "At $t = 1$, $(t^2, 3t - 1) = (1, 2)$. By the chain rule, $g'(t) = 2t f_x(t^2, 3t - 1) + 3 f_y(t^2, 3t - 1)$, so $g'(1) = 2(1)(5) + 3(-2) = 10 - 6 = 4$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Separable ODEs",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $y : (-1, \\infty) \\to (0, \\infty)$ be the solution of $2y \\frac{dy}{dx} = 3x^2$ satisfying $y(0) = 1$. Then the value of $y(2)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Integrating $2y\\,dy = 3x^2\\,dx$ gives $y^2 = x^3 + C$. Using $y(0) = 1$ yields $C = 1$, so $y(x) = \\sqrt{x^3 + 1}$. Therefore, $y(2) = \\sqrt{8 + 1} = 3$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Polynomial Spaces",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Let $W = \\{p \\in P_8(\\mathbb{R}) : p(1) = p(2) = p(3) = 0\\}$. Then the dimension of $W$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Every polynomial $p \\in W$ is of the form $p(x) = (x - 1)(x - 2)(x - 3)q(x)$ where $q \\in P_5(\\mathbb{R})$. Hence $W \\cong P_5(\\mathbb{R})$ and $\\dim(W) = 5 + 1 = 6$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Undetermined Coefficients",
+      "difficulty": "Medium",
+      "correctOption": "1.88 to 1.9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.88,
+      "natMax": 1.9,
+      "questionTextEn": "Let $y(x)$ be the solution of $y'' - y = 2e^x$ satisfying $y(0) = 1$ and $y'(0) = 0$. Then the value of $y(\\ln 2)$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "The general solution is $y(x) = c_1 e^x + c_2 e^{-x} + x e^x$. Applying $y(0) = 1$ and $y'(0) = 0$ gives $c_1 + c_2 = 1$ and $c_1 - c_2 + 1 = 0$, so $c_1 = 0$ and $c_2 = 1$. Thus $y(x) = e^{-x} + x e^x$, and $y(\\ln 2) = \\frac{1}{2} + 2\\ln 2 \\approx 1.89$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Boundary Value Problems",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $y(x)$ be the solution of the boundary value problem $y'' + 4y = 4x$ satisfying $y(0) = 0$ and $y\\left(\\frac{\\pi}{4}\\right) = \\frac{\\pi}{4} + 1$. Then the value of $y'(0)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The general solution is $y(x) = c_1 \\cos(2x) + c_2 \\sin(2x) + x$. Applying $y(0) = 0$ gives $c_1 = 0$. Applying $y\\left(\\frac{\\pi}{4}\\right) = c_2 + \\frac{\\pi}{4} = \\frac{\\pi}{4} + 1$ gives $c_2 = 1$. Thus $y(x) = \\sin(2x) + x$, and $y'(0) = 2\\cos(0) + 1 = 3$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Conjugacy Classes",
+      "difficulty": "Medium",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "Let $\\sigma = (1\\;2\\;3)(4\\;5\\;6) \\in S_6$. The order of the centralizer $C_{S_6}(\\sigma) = \\{\\tau \\in S_6 : \\tau\\sigma = \\sigma\\tau\\}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The conjugacy class of $\\sigma$ in $S_6$ consists of all permutations of cycle type $(3, 3)$, whose size is $\\frac{6!}{3^2 \\cdot 2!} = \\frac{720}{18} = 40$. By the Orbit-Stabilizer Theorem, $|C_{S_6}(\\sigma)| = \\frac{|S_6|}{40} = \\frac{720}{40} = 18$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Taylor's Theorem in 2 Variables",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "In the Maclaurin (Taylor about $(0, 0)$) series expansion of $f(x, y) = e^{2x} \\sin(3y)$, the coefficient of $x^2 y$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Multiplying $e^{2x} = 1 + 2x + 2x^2 + \\cdots$ and $\\sin(3y) = 3y - \\frac{9}{2}y^3 + \\cdots$, the $x^2 y$ term is $(2x^2)(3y) = 6x^2 y$. Thus the coefficient is $6$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Linear Transformations",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Let $A = \\operatorname{diag}(1, 2, 3) \\in M_3(\\mathbb{R})$ and define $T : M_3(\\mathbb{R}) \\to M_3(\\mathbb{R})$ by $T(X) = AX - XA$. Then the rank of $T$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Since $A$ has distinct diagonal entries $1, 2, 3$, $(AX - XA)_{ij} = (a_i - a_j) x_{ij} = 0$ holds if and only if $x_{ij} = 0$ for all $i \\neq j$. Thus $\\ker(T)$ is the $3$-dimensional space of $3 \\times 3$ diagonal matrices, and by Rank-Nullity, $\\operatorname{rank}(T) = 9 - 3 = 6$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Sequence Limits",
+      "difficulty": "Hard",
+      "correctOption": "1.46 to 1.48",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.46,
+      "natMax": 1.48,
+      "questionTextEn": "The value of $\\lim_{n \\to \\infty} \\left(\\frac{(2n)!}{n^n \\, n!}\\right)^{1/n}$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Let $c_n = \\frac{(2n)!}{n^n n!} > 0$. Compute the ratio $\\frac{c_{n+1}}{c_n} = \\frac{(2n+2)(2n+1)}{(n+1) \\cdot (n+1)} \\cdot \\left(\\frac{n}{n+1}\\right)^n = \\frac{2(2n+1)}{n+1} \\left(1 + \\frac{1}{n}\\right)^{-n} \\to 4 \\cdot e^{-1} = \\frac{4}{e}$. By Cauchy's second limit theorem, $\\lim_{n \\to \\infty} c_n^{1/n} = \\frac{4}{e} \\approx 1.47$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Hermitian and Unitary Matrices",
+      "difficulty": "Medium",
+      "correctOption": "1.24 to 1.26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.24,
+      "natMax": 1.26,
+      "questionTextEn": "For the Hermitian matrix $H = \\begin{pmatrix} 3 & 1 + i \\\\ 1 - i & 2 \\end{pmatrix}$, the value of $\\operatorname{tr}(H^{-1})$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "We compute $\\operatorname{tr}(H) = 3 + 2 = 5$ and $\\det(H) = 3(2) - (1 + i)(1 - i) = 6 - 2 = 4$. For any invertible $2 \\times 2$ matrix, $\\operatorname{tr}(H^{-1}) = \\frac{\\operatorname{tr}(H)}{\\det(H)} = \\frac{5}{4} = 1.25$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Monotone Sequences",
+      "difficulty": "Hard",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Let $(x_n)$ and $(y_n)$ be sequences defined by $x_1 = 1$, $y_1 = 10$, and $x_{n+1} = \\frac{3x_n + y_n}{4}$, $y_{n+1} = \\frac{x_n + y_n}{2}$ for all $n \\in \\mathbb{N}$. Then $\\lim_{n \\to \\infty} x_n$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "Observe that $y_{n+1} - x_{n+1} = \\frac{y_n - x_n}{4}$, so $y_n - x_n = \\frac{9}{4^{n-1}} \\to 0$, and $x_n < y_n$ with $(x_n)$ increasing and $(y_n)$ decreasing, hence both converge to a common limit $L$. Moreover, $2x_{n+1} + y_{n+1} = \\frac{3x_n + y_n}{2} + \\frac{x_n + y_n}{2} = 2x_n + y_n$ is invariant for all $n \\ge 1$. Thus $3L = 2x_1 + y_1 = 2(1) + 10 = 12$, giving $L = 4$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "Spherical Coordinates",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Let $E = \\{(x, y, z) \\in \\mathbb{R}^3 : 1 \\le x^2 + y^2 + z^2 \\le 4\\}$. The value of $\\frac{1}{\\pi} \\iiint_E \\frac{1}{x^2 + y^2 + z^2}\\,dx\\,dy\\,dz$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "In spherical coordinates, $1 \\le \\rho \\le 2$ and $\\frac{1}{\\rho^2} \\cdot \\rho^2 \\sin\\phi = \\sin\\phi$. Therefore, $\\frac{1}{\\pi}\\int_0^{2\\pi} d\\theta \\int_0^\\pi \\sin\\phi\\,d\\phi \\int_1^2 d\\rho = \\frac{1}{\\pi}(2\\pi)(2)(1) = 4$."
+    },
+    {
+      "questionId": "jam_ma_mock_01_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Mock 01",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Medium",
+      "correctOption": "0.49 to 0.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.49,
+      "natMax": 0.51,
+      "questionTextEn": "The value of $\\lim_{x \\to 0} \\left(\\frac{1}{x} - \\frac{1}{e^x - 1}\\right)$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Combine fractions: $\\frac{e^x - 1 - x}{x(e^x - 1)}$. Using $e^x - 1 = x + \\frac{x^2}{2} + O(x^3)$, the numerator is $\\frac{x^2}{2} + O(x^3)$ and the denominator is $x^2 + O(x^3)$. Taking $x \\to 0$ gives $\\frac{1}{2} = 0.50$."
+    }
+  ]
+}

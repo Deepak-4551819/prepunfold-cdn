@@ -1,0 +1,598 @@
+{
+  "testId": "gate_ma_topic_alg_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_alg_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Algebra — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Algebra — Set 1",
+  "partId": "part_07_alg",
+  "part_id": "part_07_alg",
+  "partTitle": "Algebra",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: बीजगणित — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Algebra • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "sectionTitleEn": "Algebra",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_alg_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Permutation Groups",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the symmetric group $S_7$, what is the order of the permutation $\\sigma = (1\\;3\\;5\\;7)(2\\;4\\;6)(1\\;5)$?",
+      "optionsEn": [
+        "$6$",
+        "$12$",
+        "$3$",
+        "$4$"
+      ],
+      "explanationEn": "Compose the cycles from right to left: $(1\\;3\\;5\\;7)(1\\;5)$ maps $1 \\mapsto 5 \\mapsto 7$, $7 \\mapsto 7 \\mapsto 1$, $5 \\mapsto 1 \\mapsto 3$, and $3 \\mapsto 3 \\mapsto 5$, yielding $(1\\;7)(3\\;5)$. Since $(2\\;4\\;6)$ is disjoint from $\\{1,3,5,7\\}$, the disjoint cycle decomposition is $\\sigma = (1\\;7)(3\\;5)(2\\;4\\;6)$, whose order is $\\operatorname{lcm}(2, 2, 3) = 6$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Finite Fields",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The multiplicative group $\\mathbb{F}_{27}^\\times$ of nonzero elements of the finite field $\\mathbb{F}_{27}$ is isomorphic to:",
+      "optionsEn": [
+        "$\\mathbb{Z}_{27}$",
+        "$\\mathbb{Z}_2 \\times \\mathbb{Z}_{13}$ (non-cyclic)",
+        "$\\mathbb{Z}_{26}$",
+        "$\\mathbb{Z}_3 \\times \\mathbb{Z}_3 \\times \\mathbb{Z}_3$"
+      ],
+      "explanationEn": "For any finite field $\\mathbb{F}_q$, the multiplicative group $\\mathbb{F}_q^\\times$ is cyclic of order $q - 1$. For $q = 27$, $|\\mathbb{F}_{27}^\\times| = 26$, so $\\mathbb{F}_{27}^\\times \\cong \\mathbb{Z}_{26}$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Algebraically Closed Fields",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following statements about algebraically closed fields is TRUE?",
+      "optionsEn": [
+        "Every finite field is algebraically closed.",
+        "Every algebraically closed field is infinite.",
+        "Every algebraically closed field has characteristic $0$.",
+        "$\\mathbb{Q}(\\sqrt{-1})$ is algebraically closed."
+      ],
+      "explanationEn": "If $F = \\{a_1, \\dots, a_n\\}$ were a finite algebraically closed field, then $p(x) = 1 + \\prod_{i=1}^n (x - a_i) \\in F[x]$ would be a non-constant polynomial with no root in $F$, a contradiction. Thus every algebraically closed field is infinite. The algebraic closure $\\overline{\\mathbb{F}_p}$ has characteristic $p > 0$, disproving (C)."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Polynomial Rings",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Over the finite field $\\mathbb{F}_2$, which one of the following degree-$3$ polynomials is irreducible?",
+      "optionsEn": [
+        "$x^3 + x^2$",
+        "$x^3 + x^2 + x + 1$",
+        "$x^3 + x + 1$",
+        "$x^3 + 1$"
+      ],
+      "explanationEn": "A cubic polynomial over a field is irreducible if and only if it has no root in the field. Over $\\mathbb{F}_2 = \\{0, 1\\}$, let $f(x) = x^3 + x + 1$. Then $f(0) = 1 \\neq 0$ and $f(1) = 1 + 1 + 1 = 1 \\neq 0$, so $f$ is irreducible over $\\mathbb{F}_2$. The other three polynomials each have $0$ or $1$ as a root."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a group of order $35$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$G$ has a unique Sylow $7$-subgroup but $5$ Sylow $5$-subgroups.",
+        "$G$ is isomorphic to $D_{35}$.",
+        "$G$ must be cyclic.",
+        "$G$ is non-abelian with center of order $5$."
+      ],
+      "explanationEn": "Here $|G| = 35 = 5 \\times 7$. By Sylow's theorems, $n_7 \\mid 5$ and $n_7 \\equiv 1 \\pmod 7$, forcing $n_7 = 1$. Also $n_5 \\mid 7$ and $n_5 \\equiv 1 \\pmod 5$, forcing $n_5 = 1$. Thus both the Sylow $5$-subgroup $P$ and Sylow $7$-subgroup $Q$ are normal, with $P \\cap Q = \\{e\\}$ and $|PQ|=35$, so $G \\cong P \\times Q \\cong \\mathbb{Z}_5 \\times \\mathbb{Z}_7 \\cong \\mathbb{Z}_{35}$ is cyclic."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a finite group of order $20$. Which of the following statements MUST be true for $G$?",
+      "optionsEn": [
+        "$G$ has a unique Sylow $5$-subgroup.",
+        "$G$ is not a simple group.",
+        "$G$ has a unique Sylow $2$-subgroup.",
+        "$G$ contains an element of order $5$."
+      ],
+      "explanationEn": "Here $|G| = 20 = 2^2 \\cdot 5$. By Sylow's theorems, $n_5 \\mid 4$ and $n_5 \\equiv 1 \\pmod 5$, so $n_5 = 1$. Hence the Sylow $5$-subgroup is unique and normal (A is true), proving $G$ is not simple (B is true), and it contains $4$ elements of order $5$ (D is true). However, $n_2$ can be $5$ (e.g., in $D_{10}$ or the Frobenius group $\\mathbb{Z}_5 \\rtimes \\mathbb{Z}_4$), so (C) need not hold."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following pairs of groups admit a NON-TRIVIAL group homomorphism from the first group to the second?",
+      "optionsEn": [
+        "$\\mathbb{Z}_{15} \\to \\mathbb{Z}_{20}$",
+        "$S_3 \\to \\mathbb{Z}_2$",
+        "$A_5 \\to \\mathbb{Z}_5$",
+        "$(\\mathbb{Q}, +) \\to (\\mathbb{Z}, +)$"
+      ],
+      "explanationEn": "(A) is true: $\\gcd(15, 20) = 5 > 1$, so there are $5$ homomorphisms ($4$ non-trivial). (B) is true: the sign homomorphism $\\operatorname{sgn}: S_3 \\to \\{\\pm 1\\} \\cong \\mathbb{Z}_2$ is surjective. (C) is false: $A_5$ is simple of order $60$, so any homomorphism to $\\mathbb{Z}_5$ must have kernel $A_5$ (as $|A_5/\\ker| \\mid 5$ cannot be $60$). (D) is false: $\\mathbb{Q}$ is divisible, so any homomorphic image in $\\mathbb{Z}$ must be a divisible subgroup of $\\mathbb{Z}$, which is only $\\{0\\}$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Easy",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "The total number of group homomorphisms from $\\mathbb{Z}_{36}$ to $\\mathbb{Z}_{48}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The number of group homomorphisms from $\\mathbb{Z}_m$ to $\\mathbb{Z}_n$ is $\\gcd(m, n)$. Here $\\gcd(36, 48) = 12$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Finite Fields",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "The total number of distinct subfields of the finite field $\\mathbb{F}_{2^{12}}$ (including $\\mathbb{F}_2$ and $\\mathbb{F}_{2^{12}}$) is ______.",
+      "optionsEn": [],
+      "explanationEn": "For any prime $p$ and integer $n \\ge 1$, $\\mathbb{F}_{p^n}$ has a unique subfield of order $p^d$ for each positive divisor $d$ of $n$, and no others. The positive divisors of $12$ are $1, 2, 3, 4, 6, 12$, so there are $6$ subfields."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Medium",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "For a group $G$ of order $112$, the maximum possible number of Sylow $7$-subgroups of $G$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Factor $112 = 2^4 \\cdot 7$. By Sylow's Third Theorem, the number $n_7$ of Sylow $7$-subgroups satisfies $n_7 \\mid 16$ and $n_7 \\equiv 1 \\pmod 7$. The divisors of $16$ are $1, 2, 4, 8, 16$, of which only $1$ and $8$ are congruent to $1 \\pmod 7$. Thus the maximum possible value of $n_7$ is $8$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a group of order $231 = 3 \\cdot 7 \\cdot 11$. Which one of the following statements MUST be true?",
+      "optionsEn": [
+        "$G$ must be isomorphic to $S_3 \\times \\mathbb{Z}_{77}$.",
+        "$G$ has $11$ Sylow $7$-subgroups.",
+        "$G$ is a simple group.",
+        "The Sylow $11$-subgroup is contained in the center $Z(G)$."
+      ],
+      "explanationEn": "By Sylow's theorems, $n_{11} \\mid 21$ and $n_{11} \\equiv 1 \\pmod{11}$, forcing $n_{11} = 1$, so the Sylow $11$-subgroup $P_{11} \\cong \\mathbb{Z}_{11}$ is normal in $G$. Let $G$ act on $P_{11}$ by conjugation; this induces a homomorphism $\\phi: G \\to \\operatorname{Aut}(P_{11}) \\cong \\mathbb{Z}_{10}$. Since $\\gcd(|G|, |\\operatorname{Aut}(P_{11})|) = \\gcd(231, 10) = 1$, $\\phi$ must be trivial, meaning every element of $G$ commutes with $P_{11}$, i.e., $P_{11} \\subseteq Z(G)$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Polynomial Rings",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $p$ be a prime number. How many monic irreducible polynomials of degree $2$ exist over the finite field $\\mathbb{F}_p$?",
+      "optionsEn": [
+        "$\\frac{p^2 - 1}{2}$",
+        "$p^2 - p$",
+        "$\\frac{p(p+1)}{2}$",
+        "$\\frac{p(p-1)}{2}$"
+      ],
+      "explanationEn": "There are $p^2$ monic polynomials of degree $2$ in $\\mathbb{F}_p[x]$ (namely $x^2 + ax + b$). A monic quadratic is reducible over $\\mathbb{F}_p$ iff it factors as $(x - r_1)(x - r_2)$ with $r_1, r_2 \\in \\mathbb{F}_p$. The number of unordered pairs $\\{r_1, r_2\\}$ (allowing $r_1 = r_2$) is $\\binom{p}{2} + p = \\frac{p(p+1)}{2}$. Subtracting from $p^2$ gives $p^2 - \\frac{p(p+1)}{2} = \\frac{p(p-1)}{2}$ monic irreducible quadratics."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Algebraically Closed Fields",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $F$ be an algebraically closed field and let $p(x) \\in F[x]$ be a non-constant polynomial. Which one of the following statements about the quotient ring $F[x] / \\langle p(x) \\rangle$ is TRUE?",
+      "optionsEn": [
+        "It is an integral domain for every $p(x)$ with no repeated roots.",
+        "It is always isomorphic to $F$.",
+        "It is a field if and only if $\\deg(p) = 1$.",
+        "It has no nonzero nilpotent elements for any $p(x)$."
+      ],
+      "explanationEn": "Because $F$ is algebraically closed, the only irreducible polynomials in $F[x]$ are the linear polynomials (degree $1$). Thus $\\langle p(x) \\rangle$ is maximal (making $F[x]/\\langle p(x) \\rangle$ a field) if and only if $\\deg(p) = 1$. If $\\deg(p) \\ge 2$ with distinct roots, $F[x]/\\langle p(x) \\rangle$ is a product of $\\deg(p)$ copies of $F$, which has zero divisors."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Quotient Rings",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following rings is isomorphic to the quotient ring $\\mathbb{Z}[x] / \\langle x^2 + 1, 5 \\rangle$?",
+      "optionsEn": [
+        "$\\mathbb{F}_{25}$",
+        "$\\mathbb{F}_5 \\times \\mathbb{F}_5$",
+        "$\\mathbb{Z}_{25}$",
+        "$\\mathbb{F}_5[x] / \\langle x^2 \\rangle$"
+      ],
+      "explanationEn": "First quotienting by $5$ gives $\\mathbb{Z}[x]/\\langle 5, x^2+1 \\rangle \\cong \\mathbb{F}_5[x]/\\langle x^2 + 1 \\rangle$. Over $\\mathbb{F}_5$, $x^2 + 1 = (x - 2)(x - 3)$ since $2^2 + 1 = 5 \\equiv 0$ and $3^2 + 1 = 10 \\equiv 0 \\pmod 5$. Because $\\langle x-2 \\rangle$ and $\\langle x-3 \\rangle$ are comaximal ideals, the Chinese Remainder Theorem yields $\\mathbb{F}_5[x]/\\langle x^2+1 \\rangle \\cong \\mathbb{F}_5 \\times \\mathbb{F}_5$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Polynomial Rings",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x) = x^3 + 2x + 1 \\in \\mathbb{F}_3[x]$. The quotient ring $R = \\mathbb{F}_3[x] / \\langle f(x) \\rangle$ is:",
+      "optionsEn": [
+        "isomorphic to $\\mathbb{F}_3 \\times \\mathbb{F}_3 \\times \\mathbb{F}_3$.",
+        "a local ring with nonzero nilpotent elements.",
+        "isomorphic to $\\mathbb{F}_3 \\times \\mathbb{F}_9$.",
+        "a finite field of order $27$."
+      ],
+      "explanationEn": "Evaluate $f(x) = x^3 + 2x + 1$ at all elements of $\\mathbb{F}_3 = \\{0, 1, 2\\}$: $f(0) = 1$, $f(1) = 1 + 2 + 1 = 1$, and $f(2) = 8 + 4 + 1 = 13 \\equiv 1 \\pmod 3$. Since $f$ has degree $3$ and no roots in $\\mathbb{F}_3$, it is irreducible over $\\mathbb{F}_3$. Thus $\\langle f(x) \\rangle$ is maximal and $R$ is a finite field of order $3^3 = 27$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Permutation Groups",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the symmetric group $S_4$ of order $24$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The center $Z(S_4)$ is trivial.",
+        "The commutator subgroup $[S_4, S_4]$ is $A_4$.",
+        "$S_4$ has a normal subgroup $V_4$ of order $4$ such that $S_4 / V_4 \\cong S_3$.",
+        "$S_4$ contains an element of order $6$."
+      ],
+      "explanationEn": "(A) is true: $Z(S_n) = \\{e\\}$ for all $n \\ge 3$. (B) is true: $[S_n, S_n] = A_n$ for all $n \\ge 3$. (C) is true: $V_4 = \\{e, (1\\;2)(3\\;4), (1\\;3)(2\\;4), (1\\;4)(2\\;3)\\}$ is normal in $S_4$, and $S_4/V_4$ is a non-abelian group of order $6$, hence isomorphic to $S_3$. (D) is false: possible cycle types in $S_4$ are $(1^4), (2,1^2), (2,2), (3,1), (4)$, whose element orders are only $1, 2, 3, 4$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Finite Fields",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $p$ be a prime and $n \\ge 1$ be an integer. Which of the following statements about the finite field $\\mathbb{F}_{p^n}$ is/are TRUE?",
+      "optionsEn": [
+        "Every finite subgroup of $\\mathbb{F}_{p^n}^\\times$ is cyclic.",
+        "The polynomial $x^{p^n} - x$ splits into distinct linear factors over $\\mathbb{F}_{p^n}$.",
+        "Every element of $\\mathbb{F}_{p^n}$ has a unique $p$-th root in $\\mathbb{F}_{p^n}$.",
+        "There exists a finite field of order $12$."
+      ],
+      "explanationEn": "(A) is true because $\\mathbb{F}_{p^n}^\\times$ is cyclic, and every subgroup of a cyclic group is cyclic. (B) is true: $\\mathbb{F}_{p^n}$ is the splitting field of $x^{p^n} - x$ over $\\mathbb{F}_p$, and its derivative is $-1 \\neq 0$, so all $p^n$ roots are distinct. (C) is true: the Frobenius map $a \\mapsto a^p$ is an injective map on a finite set, hence bijective. (D) is false: the order of any finite field must be a prime power $p^n$, and $12 = 2^2 \\cdot 3$ is not a prime power."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Rings & Ideals",
+      "difficulty": "Hard",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The total number of ring homomorphisms (not necessarily preserving the multiplicative identity) from $\\mathbb{Z}_{18}$ to $\\mathbb{Z}_{30}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Any ring homomorphism $\\phi: \\mathbb{Z}_{18} \\to \\mathbb{Z}_{30}$ is uniquely determined by $e = \\phi(1) \\in \\mathbb{Z}_{30}$, which must satisfy $e^2 \\equiv e \\pmod{30}$ and $18e \\equiv 0 \\pmod{30}$. The condition $18e \\equiv 0 \\pmod{30}$ simplifies to $5 \\mid e$, so $e \\in \\{0, 5, 10, 15, 20, 25\\}$. Checking $e^2 \\equiv e \\pmod{30}$: $0^2 \\equiv 0$, $5^2 \\equiv 25$, $10^2 \\equiv 10$, $15^2 \\equiv 15$, $20^2 \\equiv 10$, and $25^2 \\equiv 25$. Thus $e \\in \\{0, 10, 15, 25\\}$, giving $4$ ring homomorphisms."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "The number of Sylow $5$-subgroups in a simple group of order $60$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Here $60 = 2^2 \\cdot 3 \\cdot 5$. By Sylow's Third Theorem, $n_5 \\mid 12$ and $n_5 \\equiv 1 \\pmod 5$, so $n_5 \\in \\{1, 6\\}$. Because the group is simple, it cannot have a unique (normal) Sylow $5$-subgroup, so $n_5 \\neq 1$. Hence $n_5 = 6$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 1)",
+      "topicTag": "Rings & Ideals",
+      "difficulty": "Medium",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "The number of idempotent elements (elements $a$ satisfying $a^2 = a$) in the ring $\\mathbb{Z}_{210}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Factor $210 = 2 \\cdot 3 \\cdot 5 \\cdot 7$. By the Chinese Remainder Theorem, $\\mathbb{Z}_{210} \\cong \\mathbb{Z}_2 \\times \\mathbb{Z}_3 \\times \\mathbb{Z}_5 \\times \\mathbb{Z}_7$. Each factor is a field and therefore has exactly $2$ idempotents ($0$ and $1$). Thus $\\mathbb{Z}_{210}$ has $2^4 = 16$ idempotent elements."
+    }
+  ]
+}

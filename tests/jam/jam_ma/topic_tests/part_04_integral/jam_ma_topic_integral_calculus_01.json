@@ -1,0 +1,611 @@
+{
+  "testId": "jam_ma_topic_integral_calculus_01",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_topic_integral_calculus_01",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 MA Topic Test: Integral Calculus — Set 01",
+  "titleEn": "IIT JAM 2027 MA Topic Test: Integral Calculus — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_04_integral",
+  "part_id": "part_04_integral",
+  "partTitle": "Integral Calculus",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Integral Calculus • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Beta and Gamma Functions",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the Beta function $B(3, 4) = \\int_{0}^{1} x^2 (1 - x)^3\\,dx$ is",
+      "optionsEn": [
+        "$\\frac{1}{120}$",
+        "$\\frac{1}{60}$",
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{30}$"
+      ],
+      "explanationEn": "Using $B(m, n) = \\frac{\\Gamma(m)\\Gamma(n)}{\\Gamma(m + n)}$, we obtain $B(3, 4) = \\frac{\\Gamma(3)\\Gamma(4)}{\\Gamma(7)} = \\frac{2! \\cdot 3!}{6!} = \\frac{2 \\cdot 6}{720} = \\frac{1}{60}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Areas of Planar Regions",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The area of the planar region enclosed between the curves $y = x^2$ and $y^2 = x$ is",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{6}$"
+      ],
+      "explanationEn": "The curves $y = x^2$ and $y = \\sqrt{x}$ intersect at $(0, 0)$ and $(1, 1)$, with $\\sqrt{x} \\ge x^2$ on $[0, 1]$. Thus $\\text{Area} = \\int_0^1 (\\sqrt{x} - x^2)\\,dx = \\left[\\frac{2}{3}x^{3/2} - \\frac{x^3}{3}\\right]_0^1 = \\frac{2}{3} - \\frac{1}{3} = \\frac{1}{3}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Areas of Planar Regions",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The area enclosed by the cardioid $r = 1 + \\cos\\theta$ is",
+      "optionsEn": [
+        "$\\frac{3\\pi}{2}$",
+        "$\\pi$",
+        "$3\\pi$",
+        "$2\\pi$"
+      ],
+      "explanationEn": "Using the polar area formula $A = \\frac{1}{2}\\int_0^{2\\pi} r^2\\,d\\theta$, we get $A = \\frac{1}{2}\\int_0^{2\\pi} (1 + 2\\cos\\theta + \\cos^2\\theta)\\,d\\theta = \\frac{1}{2}(2\\pi + 0 + \\pi) = \\frac{3\\pi}{2}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Beta and Gamma Functions",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\Gamma\\!\\left(\\frac{5}{2}\\right)$ is",
+      "optionsEn": [
+        "$\\frac{3\\sqrt{\\pi}}{2}$",
+        "$\\frac{15\\sqrt{\\pi}}{8}$",
+        "$\\frac{\\sqrt{\\pi}}{2}$",
+        "$\\frac{3\\sqrt{\\pi}}{4}$"
+      ],
+      "explanationEn": "Using $\\Gamma(z + 1) = z\\Gamma(z)$ and $\\Gamma(1/2) = \\sqrt{\\pi}$, we have $\\Gamma\\!\\left(\\frac{5}{2}\\right) = \\frac{3}{2}\\Gamma\\!\\left(\\frac{3}{2}\\right) = \\frac{3}{2} \\cdot \\frac{1}{2}\\Gamma\\!\\left(\\frac{1}{2}\\right) = \\frac{3\\sqrt{\\pi}}{4}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\int_{0}^{3} \\int_{0}^{2} xy^2\\,dy\\,dx$ is",
+      "optionsEn": [
+        "$12$",
+        "$6$",
+        "$24$",
+        "$18$"
+      ],
+      "explanationEn": "By Fubini's theorem, $\\left(\\int_0^3 x\\,dx\\right)\\left(\\int_0^2 y^2\\,dy\\right) = \\left(\\frac{9}{2}\\right)\\left(\\frac{8}{3}\\right) = 12$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Improper Integrals",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a fixed real number $q > 0$, the improper integral $\\int_{0}^{\\infty} \\frac{x^{p - 1}}{1 + x^q}\\,dx$ converges if and only if",
+      "optionsEn": [
+        "$p > 0$",
+        "$p < q$",
+        "$0 < p < q$",
+        "$1 < p < q$"
+      ],
+      "explanationEn": "Split the integral at $x = 1$. Near $x = 0^+$, $\\frac{x^{p-1}}{1 + x^q} \\sim x^{p-1}$, so $\\int_0^1$ converges iff $1 - p < 1$, i.e., $p > 0$. As $x \\to \\infty$, $\\frac{x^{p-1}}{1 + x^q} \\sim x^{p - 1 - q}$, so $\\int_1^\\infty$ converges iff $q + 1 - p > 1$, i.e., $p < q$. Combining both conditions gives $0 < p < q$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Triple Integrals",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For positive constants $a, b, c$, let $E = \\left\\{(x, y, z) \\in \\mathbb{R}^3 : \\frac{x^2}{a^2} + \\frac{y^2}{b^2} + \\frac{z^2}{c^2} \\le 1\\right\\}$. The value of $\\iiint_E \\left(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} + \\frac{z^2}{c^2}\\right) dx\\,dy\\,dz$ is",
+      "optionsEn": [
+        "$\\frac{2\\pi}{5}abc$",
+        "$\\frac{4\\pi}{5}abc$",
+        "$\\frac{4\\pi}{15}abc$",
+        "$\\frac{4\\pi}{3}abc$"
+      ],
+      "explanationEn": "Substitute $x = au$, $y = bv$, $z = cw$ (Jacobian $= abc$). The ellipsoid maps to the unit ball $B = \\{u^2 + v^2 + w^2 \\le 1\\}$. In spherical coordinates on $B$, the integral equals $abc \\int_0^{2\\pi} d\\theta \\int_0^\\pi \\sin\\phi\\,d\\phi \\int_0^1 \\rho^2 \\cdot \\rho^2\\,d\\rho = abc(2\\pi)(2)\\left(\\frac{1}{5}\\right) = \\frac{4\\pi}{5}abc$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Definite Integrals",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any real number $a > -1$, the value of $\\int_{0}^{1} \\frac{x^a - 1}{\\ln x}\\,dx$ is",
+      "optionsEn": [
+        "$\\ln(a + 2)$",
+        "$\\frac{1}{a + 1}$",
+        "$a\\ln 2$",
+        "$\\ln(a + 1)$"
+      ],
+      "explanationEn": "Define $I(a) = \\int_0^1 \\frac{x^a - 1}{\\ln x}\\,dx$ for $a > -1$, noting $I(0) = 0$. Differentiating under the integral sign with respect to $a$ gives $I'(a) = \\int_0^1 \\frac{x^a \\ln x}{\\ln x}\\,dx = \\int_0^1 x^a\\,dx = \\frac{1}{a + 1}$. Integrating from $0$ to $a$ yields $I(a) = \\ln(a + 1)$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Areas of Planar Regions",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The area of the region lying inside the circle $r = 2\\cos\\theta$ and outside the circle $r = 1$ is",
+      "optionsEn": [
+        "$\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\pi}{3} + \\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\pi}{2} + \\frac{\\sqrt{3}}{2}$",
+        "$\\frac{2\\pi}{3} + \\frac{\\sqrt{3}}{2}$"
+      ],
+      "explanationEn": "The circles intersect at $2\\cos\\theta = 1$, i.e., $\\theta = \\pm\\frac{\\pi}{3}$. By symmetry, $A = 2 \\cdot \\frac{1}{2} \\int_0^{\\pi/3} (4\\cos^2\\theta - 1)\\,d\\theta = \\int_0^{\\pi/3} (1 + 2\\cos 2\\theta)\\,d\\theta = \\left[\\theta + \\sin 2\\theta\\right]_0^{\\pi/3} = \\frac{\\pi}{3} + \\frac{\\sqrt{3}}{2}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Definite Integrals",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any positive integer $n$, the improper integral $\\int_{0}^{1} (\\ln x)^n\\,dx$ is equal to",
+      "optionsEn": [
+        "$(-1)^{n-1} (n - 1)!$",
+        "$\\frac{(-1)^n}{n + 1}$",
+        "$n!$",
+        "$(-1)^n n!$"
+      ],
+      "explanationEn": "Substitute $x = e^{-t}$ ($dx = -e^{-t}\\,dt$, $t \\in [0, \\infty)$). Then $\\ln x = -t$, so $\\int_0^1 (\\ln x)^n\\,dx = \\int_0^\\infty (-t)^n e^{-t}\\,dt = (-1)^n \\Gamma(n + 1) = (-1)^n n!$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Volumes of Solids",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following volume formulas is/are TRUE (for positive constants $a, b, c, r, R$ with $r < R$)?",
+      "optionsEn": [
+        "The volume of the solid torus obtained by revolving $(x - R)^2 + y^2 \\le r^2$ about the $y$-axis is $2\\pi^2 R r^2$",
+        "The volume of the ellipsoid $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} + \\frac{z^2}{c^2} \\le 1$ is $\\frac{4}{3}\\pi abc$",
+        "The volume of the region bounded by $z = 0$ and $z = 1 - x^2 - y^2$ is $\\frac{\\pi}{2}$",
+        "The volume of the tetrahedron $\\left\\{(x, y, z) : x, y, z \\ge 0,\\; \\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} \\le 1\\right\\}$ is $\\frac{1}{3}abc$"
+      ],
+      "explanationEn": "(A) True: by Pappus's centroid theorem (or shells), $V = (2\\pi R)(\\pi r^2) = 2\\pi^2 R r^2$. (B) True: scaling the unit ball by $(a, b, c)$ multiplies its volume $\\frac{4}{3}\\pi$ by $abc$. (C) True: $V = \\int_0^{2\\pi} \\int_0^1 (1 - r^2)r\\,dr\\,d\\theta = 2\\pi \\cdot \\frac{1}{4} = \\frac{\\pi}{2}$. (D) False: the volume of the tetrahedron is $\\frac{1}{6}abc$, not $\\frac{1}{3}abc$. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Areas of Planar Regions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about planar areas is/are TRUE?",
+      "optionsEn": [
+        "The area enclosed by the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ ($a, b > 0$) is $\\pi ab$",
+        "The total area enclosed by the four-leaved rose $r = 2\\sin(2\\theta)$ is $2\\pi$",
+        "The area enclosed by the astroid $x^{2/3} + y^{2/3} = a^{2/3}$ ($a > 0$) is $\\frac{3\\pi a^2}{8}$",
+        "The area bounded by the curve $y = \\sin x$ and the $x$-axis for $x \\in [0, 2\\pi]$ is $0$"
+      ],
+      "explanationEn": "(A) True: scaling $(x, y) = (au, bv)$ maps the unit disk to the ellipse with Jacobian $ab$, giving area $\\pi ab$. (B) True: $A = \\frac{1}{2}\\int_0^{2\\pi} 4\\sin^2(2\\theta)\\,d\\theta = 2\\pi$. (C) True: parameterizing $x = a\\cos^3 t, y = a\\sin^3 t$, the area is $4\\int_0^{\\pi/2} y \\left|\\frac{dx}{dt}\\right| dt = 12a^2 \\int_0^{\\pi/2} \\sin^4 t \\cos^2 t\\,dt = 12a^2 \\cdot \\frac{\\pi}{32} = \\frac{3\\pi a^2}{8}$. (D) False: geometric area is $\\int_0^{2\\pi} |\\sin x|\\,dx = 4 \\neq 0$. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Definite Integrals",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following limit evaluations is/are TRUE?",
+      "optionsEn": [
+        "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^{n} \\left(\\frac{k}{n}\\right)^2 = \\frac{1}{3}$",
+        "$\\lim_{n \\to \\infty} \\sum_{k=1}^{n} \\frac{1}{n + k} = \\ln 2$",
+        "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^{n} \\sin\\!\\left(\\frac{k\\pi}{n}\\right) = \\frac{2}{\\pi}$",
+        "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^{n} e^{k/n} = e$"
+      ],
+      "explanationEn": "Each limit is a Riemann sum on $[0, 1]$: (A) $\\int_0^1 x^2\\,dx = \\frac{1}{3}$ (True); (B) $\\int_0^1 \\frac{dx}{1 + x} = \\ln 2$ (True); (C) $\\int_0^1 \\sin(\\pi x)\\,dx = \\left[-\\frac{\\cos(\\pi x)}{\\pi}\\right]_0^1 = \\frac{2}{\\pi}$ (True); (D) $\\int_0^1 e^x\\,dx = e - 1 \\neq e$ (False). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Cylindrical Coordinates",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $W = \\{(x, y, z) \\in \\mathbb{R}^3 : \\sqrt{x^2 + y^2} \\le z \\le 3\\}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The volume of $W$ is $\\int_{0}^{2\\pi} \\int_{0}^{3} \\int_{r}^{3} r\\,dz\\,dr\\,d\\theta$",
+        "The volume of $W$ is $9\\pi$",
+        "In spherical coordinates, the volume of $W$ is $\\int_{0}^{2\\pi} \\int_{0}^{\\pi/4} \\int_{0}^{3\\sec\\phi} \\rho^2 \\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta$",
+        "In spherical coordinates, the volume of $W$ is $\\int_{0}^{2\\pi} \\int_{0}^{\\pi/4} \\int_{0}^{3} \\rho^2 \\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta$"
+      ],
+      "explanationEn": "$W$ is a right circular cone of radius $3$ and height $3$. (A) True: in cylindrical coordinates, $r \\le z \\le 3$ and $0 \\le r \\le 3$. (B) True: $V = \\frac{1}{3}\\pi(3^2)(3) = 9\\pi$. (C) True: in spherical coordinates, the cone is $\\phi = \\frac{\\pi}{4}$ and the top plane $z = 3$ is $\\rho\\cos\\phi = 3 \\implies \\rho = 3\\sec\\phi$. (D) False: $\\rho \\le 3$ caps the cone with a sphere rather than the plane $z = 3$. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The value of $\\int_{0}^{\\pi} \\int_{0}^{\\pi/2} \\sin x \\cos y\\,dy\\,dx$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Separating the product gives $\\left(\\int_0^\\pi \\sin x\\,dx\\right)\\left(\\int_0^{\\pi/2} \\cos y\\,dy\\right) = 2 \\cdot 1 = 2$."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Surface Area",
+      "difficulty": "Easy",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "The surface area of the portion of the plane $z = 2x + 2y + 5$ lying above the rectangle $[0, 2] \\times [0, 3]$ in the $xy$-plane is _________.",
+      "optionsEn": [],
+      "explanationEn": "Here $z_x = 2$ and $z_y = 2$, so $dS = \\sqrt{1 + 2^2 + 2^2}\\,dA = 3\\,dA$. Integrating over the rectangle of area $2 \\times 3 = 6$ gives $S = 3 \\times 6 = 18$."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Triple Integrals",
+      "difficulty": "Easy",
+      "correctOption": "4.49 to 4.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.49,
+      "natMax": 4.51,
+      "questionTextEn": "The value of $\\int_{0}^{1} \\int_{0}^{3} \\int_{0}^{2} xyz\\,dz\\,dy\\,dx$ is _________ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Separating the variables gives $\\left(\\int_0^1 x\\,dx\\right)\\left(\\int_0^3 y\\,dy\\right)\\left(\\int_0^2 z\\,dz\\right) = \\left(\\frac{1}{2}\\right)\\left(\\frac{9}{2}\\right)(2) = 4.5$."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Volumes of Solids",
+      "difficulty": "Easy",
+      "correctOption": "0.49 to 0.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.49,
+      "natMax": 0.51,
+      "questionTextEn": "Let $V$ be the volume of the solid obtained by revolving the region bounded by $y = x^2$, $x = 0$, and $y = 1$ (in the first quadrant) about the $y$-axis. Then $\\frac{V}{\\pi}$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Using the disk method along the $y$-axis ($x = \\sqrt{y}$ for $0 \\le y \\le 1$), $V = \\pi \\int_0^1 (\\sqrt{y})^2\\,dy = \\pi \\left[\\frac{y^2}{2}\\right]_0^1 = \\frac{\\pi}{2}$. Thus $\\frac{V}{\\pi} = 0.50$."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Beta and Gamma Functions",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The value of $12 \\int_{0}^{\\infty} \\frac{x}{(1 + x)^4}\\,dx$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Using $\\int_0^\\infty \\frac{x^{m-1}}{(1 + x)^{m+n}}\\,dx = B(m, n)$ with $m = 2$ and $n = 2$, the integral equals $B(2, 2) = \\frac{\\Gamma(2)\\Gamma(2)}{\\Gamma(4)} = \\frac{1}{6}$. Multiplying by $12$ yields $2$."
+    },
+    {
+      "questionId": "jam_ma_topic_integral_calculus_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Integral Calculus (Set 01)",
+      "topicTag": "Triple Integrals",
+      "difficulty": "Hard",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "Let $B^+ = \\{(x, y, z) \\in \\mathbb{R}^3 : x \\ge 0,\\; y \\ge 0,\\; z \\ge 0,\\; x^2 + y^2 + z^2 \\le 1\\}$. The value of $48 \\iiint_{B^+} xyz\\,dx\\,dy\\,dz$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Substitute $u = x^2$, $v = y^2$, $w = z^2$, so $du\\,dv\\,dw = 8xyz\\,dx\\,dy\\,dz$. The region $B^+$ maps to the unit tetrahedron $\\{u, v, w \\ge 0,\\; u + v + w \\le 1\\}$ of volume $\\frac{1}{6}$. Hence $\\iiint_{B^+} xyz\\,dV = \\frac{1}{8} \\cdot \\frac{1}{6} = \\frac{1}{48}$, and multiplying by $48$ gives $1$."
+    }
+  ]
+}

@@ -1,0 +1,1696 @@
+{
+  "testId": "jam_ma_pyq_2022",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_pyq_2022",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2022 Mathematics (MA) Official Solved Paper",
+  "titleEn": "IIT JAM 2022 Mathematics (MA) Official Solved Paper",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2022,
+  "shiftBadge": "IIT JAM MA • 2022 Official Paper",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_2022_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the $2 \\times 2$ matrix $M = \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix} \\in M_2(\\mathbb{R})$. If the eighth power of $M$ satisfies $M^8 \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$, then the value of $x$ is",
+      "optionsEn": [
+        "$21$",
+        "$22$",
+        "$34$",
+        "$35$"
+      ],
+      "explanationEn": "We recognize $M = \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}$ as the Fibonacci Q-matrix, for which $M^n = \\begin{pmatrix} F_{n+1} & F_n \\\\ F_n & F_{n-1} \\end{pmatrix}$, where $F_1 = 1, F_2 = 1, F_{k+1} = F_k + F_{k-1}$. Computing directly by repeated squaring: $M^2 = \\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix}$, $M^4 = (M^2)^2 = \\begin{pmatrix} 5 & 3 \\\\ 3 & 2 \\end{pmatrix}$, and $M^8 = (M^4)^2 = \\begin{pmatrix} 25 + 9 & 15 + 6 \\\\ 15 + 6 & 9 + 4 \\end{pmatrix} = \\begin{pmatrix} 34 & 21 \\\\ 21 & 13 \\end{pmatrix}$. Therefore, $M^8 \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 34 \\\\ 21 \\end{pmatrix}$, which gives $x = 34$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The rank of the $4 \\times 6$ matrix $\\begin{pmatrix} 1 & 1 & 1 & 0 & 0 & 0 \\\\ 1 & 0 & 0 & 1 & 1 & 0 \\\\ 0 & 1 & 0 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 0 & 1 & 1 \\end{pmatrix}$ with entries in $\\mathbb{R}$, is",
+      "optionsEn": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "explanationEn": "Let $A = \\begin{pmatrix} 1 & 1 & 1 & 0 & 0 & 0 \\\\ 1 & 0 & 0 & 1 & 1 & 0 \\\\ 0 & 1 & 0 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 0 & 1 & 1 \\end{pmatrix}$. Perform row reduction: apply $R_2 \\leftarrow R_2 - R_1$ to obtain rows $(1,1,1,0,0,0)$, $(0,-1,-1,1,1,0)$, $(0,1,0,1,0,1)$, and $(0,0,1,0,1,1)$. Next, apply $R_3 \\leftarrow R_3 + R_2$ to get $R_3 = (0,0,-1,2,1,1)$. Then apply $R_4 \\leftarrow R_4 + R_3$ to get $R_4 = (0,0,0,2,2,2)$. The matrix is now in row echelon form with four nonzero rows and pivots in columns $1, 2, 3,$ and $4$ (equivalently, the first four columns form a $4 \\times 4$ submatrix with determinant $-2 \\neq 0$). Thus, $\\operatorname{rank}(A) = 4$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be the real vector space consisting of all polynomials in one variable with real coefficients and having degree at most $6$, together with the zero polynomial. Then which one of the following is true?",
+      "optionsEn": [
+        "$\\{f \\in V : f(1/2) \\notin \\mathbb{Q}\\}$ is a subspace of $V$.",
+        "$\\{f \\in V : f(1/2) = 1\\}$ is a subspace of $V$.",
+        "$\\{f \\in V : f(1/2) = f(1)\\}$ is a subspace of $V$.",
+        "$\\{f \\in V : f'(1/2) = 1\\}$ is a subspace of $V$."
+      ],
+      "explanationEn": "A nonempty subset $W \\subseteq V$ is a subspace if and only if it contains the zero polynomial $0 \\in V$ and is closed under linear combinations. For (A), the zero polynomial satisfies $0(1/2) = 0 \\in \\mathbb{Q}$, so $0$ is not in the set; hence it is not a subspace. For (B), $0(1/2) = 0 \\neq 1$, so $0$ is not in the set. For (D), $0'(1/2) = 0 \\neq 1$, so $0$ is not in the set. For (C), define the linear functional $L : V \\to \\mathbb{R}$ by $L(f) = f(1/2) - f(1)$. Then $\\{f \\in V : f(1/2) = f(1)\\} = \\ker(L)$, which is the kernel of a linear map and therefore a subspace of $V$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a group of order $2022$. Let $H$ and $K$ be subgroups of $G$ of order $337$ and $674$, respectively. If $H \\cup K$ is also a subgroup of $G$, then which one of the following is FALSE?",
+      "optionsEn": [
+        "$H$ is a normal subgroup of $H \\cup K$.",
+        "The order of $H \\cup K$ is $1011$.",
+        "The order of $H \\cup K$ is $674$.",
+        "$K$ is a normal subgroup of $H \\cup K$."
+      ],
+      "explanationEn": "Recall the standard group theory theorem: the union $H \\cup K$ of two subgroups $H$ and $K$ is a subgroup if and only if $H \\subseteq K$ or $K \\subseteq H$. Since $|H| = 337 < 674 = |K|$, we cannot have $K \\subseteq H$; therefore we must have $H \\subseteq K$, which implies $H \\cup K = K$. Consequently, $|H \\cup K| = |K| = 674$, so (C) is true and (B) (claiming $|H \\cup K| = 1011$) is FALSE. Moreover, $K = H \\cup K$ is trivially normal in itself (so (D) is true), and the index $[H \\cup K : H] = [K : H] = 674/337 = 2$, so $H$ is a subgroup of index $2$ in $H \\cup K$ and is therefore normal in $H \\cup K$ (so (A) is true). Hence, option (B) is the false statement."
+    },
+    {
+      "questionId": "jam_ma_2022_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The radius of convergence of the power series $\\sum_{n=1}^{\\infty} \\left(\\frac{n^3}{4^n}\\right) x^{5n}$ is",
+      "optionsEn": [
+        "$4$",
+        "$\\sqrt[5]{4}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{\\sqrt[5]{4}}$"
+      ],
+      "explanationEn": "Let $a_k$ denote the coefficient of $x^k$ in the power series. Here $a_{5n} = \\frac{n^3}{4^n}$ for $n \\ge 1$ and $a_k = 0$ whenever $5 \\nmid k$. By the Cauchy-Hadamard formula, the radius of convergence $R$ satisfies $\\frac{1}{R} = \\limsup_{k \\to \\infty} |a_k|^{1/k} = \\lim_{n \\to \\infty} \\left(\\frac{n^3}{4^n}\\right)^{1/(5n)} = \\lim_{n \\to \\infty} \\frac{(n^{1/n})^{3/5}}{4^{1/5}} = \\frac{1}{4^{1/5}}$, since $\\lim_{n \\to \\infty} n^{1/n} = 1$. Alternatively, by the ratio test on the nonzero terms, $\\left|\\frac{u_{n+1}}{u_n}\\right| = \\left(\\frac{n+1}{n}\\right)^3 \\frac{|x|^5}{4} \\to \\frac{|x|^5}{4} < 1 \\iff |x| < 4^{1/5}$. Thus $R = \\sqrt[5]{4}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(x_n)$ and $(y_n)$ be sequences of real numbers defined by $x_1 = 1$, $y_1 = \\frac{1}{2}$, $x_{n+1} = \\frac{x_n + y_n}{2}$, and $y_{n+1} = \\sqrt{x_n y_n}$ for all $n \\in \\mathbb{N}$. Then which one of the following is true?",
+      "optionsEn": [
+        "$(x_n)$ is convergent, but $(y_n)$ is not convergent.",
+        "$(x_n)$ is not convergent, but $(y_n)$ is convergent.",
+        "Both $(x_n)$ and $(y_n)$ are convergent and $\\lim_{n \\to \\infty} x_n > \\lim_{n \\to \\infty} y_n$.",
+        "Both $(x_n)$ and $(y_n)$ are convergent and $\\lim_{n \\to \\infty} x_n = \\lim_{n \\to \\infty} y_n$."
+      ],
+      "explanationEn": "This is the classical arithmetic-geometric mean (AGM) iteration with $x_1 = 1 > \\frac{1}{2} = y_1 > 0$. By the AM-GM inequality, $x_{n+1} = \\frac{x_n + y_n}{2} \\ge \\sqrt{x_n y_n} = y_{n+1}$ for all $n \\ge 1$. Therefore, $x_{n+1} = \\frac{x_n + y_n}{2} \\le \\frac{x_n + x_n}{2} = x_n$ and $y_{n+1} = \\sqrt{x_n y_n} \\ge \\sqrt{y_n^2} = y_n$. Thus $(x_n)$ is monotonically decreasing and bounded below by $y_1 = \\frac{1}{2}$, while $(y_n)$ is monotonically increasing and bounded above by $x_1 = 1$. By the Monotone Convergence Theorem, both sequences converge to finite limits $L = \\lim_{n \\to \\infty} x_n$ and $M = \\lim_{n \\to \\infty} y_n$. Taking limits in $x_{n+1} = \\frac{x_n + y_n}{2}$ gives $L = \\frac{L + M}{2}$, so $L = M$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Suppose $a_n = \\frac{3^n + 3}{5^n - 5}$ and $b_n = \\frac{1}{(1 + n^2)^{1/4}}$ for $n = 2, 3, 4, \\ldots$. Then which one of the following is true?",
+      "optionsEn": [
+        "Both $\\sum_{n=2}^{\\infty} a_n$ and $\\sum_{n=2}^{\\infty} b_n$ are convergent.",
+        "Both $\\sum_{n=2}^{\\infty} a_n$ and $\\sum_{n=2}^{\\infty} b_n$ are divergent.",
+        "$\\sum_{n=2}^{\\infty} a_n$ is convergent and $\\sum_{n=2}^{\\infty} b_n$ is divergent.",
+        "$\\sum_{n=2}^{\\infty} a_n$ is divergent and $\\sum_{n=2}^{\\infty} b_n$ is convergent."
+      ],
+      "explanationEn": "For $\\sum_{n=2}^{\\infty} a_n$, note that $a_n > 0$ for $n \\ge 2$ and compare with the geometric series $\\sum_{n=2}^{\\infty} \\left(\\frac{3}{5}\\right)^n$: $\\lim_{n \\to \\infty} \\frac{a_n}{(3/5)^n} = \\lim_{n \\to \\infty} \\frac{1 + 3/3^n}{1 - 5/5^n} = 1$. Since $\\sum_{n=2}^{\\infty} \\left(\\frac{3}{5}\\right)^n$ converges (common ratio $3/5 < 1$), by the Limit Comparison Test, $\\sum_{n=2}^{\\infty} a_n$ converges. For $\\sum_{n=2}^{\\infty} b_n$, compare with the $p$-series $\\sum_{n=2}^{\\infty} \\frac{1}{n^{1/2}}$: $\\lim_{n \\to \\infty} \\frac{b_n}{n^{-1/2}} = \\lim_{n \\to \\infty} \\frac{n^{1/2}}{(1 + n^2)^{1/4}} = \\lim_{n \\to \\infty} \\frac{1}{(n^{-2} + 1)^{1/4}} = 1$. Since $\\sum_{n=2}^{\\infty} \\frac{1}{n^{1/2}}$ diverges ($p = 1/2 \\le 1$), by the Limit Comparison Test, $\\sum_{n=2}^{\\infty} b_n$ diverges. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^m \\left(1 + \\frac{1}{n^p}\\right)}$ where $m$ and $p$ are real numbers. Under which of the following conditions does the above series converge?",
+      "optionsEn": [
+        "$m > 1$.",
+        "$0 < m < 1$ and $p > 1$.",
+        "$0 < m \\le 1$ and $0 \\le p \\le 1$.",
+        "$m = 1$ and $p > 1$."
+      ],
+      "explanationEn": "Let $u_n = \\frac{1}{n^m (1 + n^{-p})}$. Notice that $1 + n^{-p} > 1$ for all $n \\ge 1$ and every real number $p \\in \\mathbb{R}$. Therefore, $0 < u_n < \\frac{1}{n^m}$ for all $n \\ge 1$. If $m > 1$, the $p$-series $\\sum_{n=1}^{\\infty} \\frac{1}{n^m}$ converges, so by the Direct Comparison Test, $\\sum_{n=1}^{\\infty} u_n$ converges regardless of $p \\in \\mathbb{R}$. On the other hand, whenever $p \\ge 0$, we have $1 < 1 + n^{-p} \\le 2$, so $u_n \\ge \\frac{1}{2 n^m}$. Thus for $p \\ge 0$ and $m \\le 1$, $\\sum_{n=1}^{\\infty} u_n$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^m}$, which rules out (B), (C), and (D). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $c$ be a positive real number and let $u : \\mathbb{R}^2 \\to \\mathbb{R}$ be defined by $u(x, t) = \\frac{1}{2c} \\int_{x - ct}^{x + ct} e^{s^2}\\,ds$ for $(x, t) \\in \\mathbb{R}^2$. Then which one of the following is true?",
+      "optionsEn": [
+        "$\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}$ on $\\mathbb{R}^2$.",
+        "$\\frac{\\partial u}{\\partial t} = c^2 \\frac{\\partial^2 u}{\\partial x^2}$ on $\\mathbb{R}^2$.",
+        "$\\frac{\\partial u}{\\partial t} \\frac{\\partial u}{\\partial x} = 0$ on $\\mathbb{R}^2$.",
+        "$\\frac{\\partial^2 u}{\\partial t\\,\\partial x} = 0$ on $\\mathbb{R}^2$."
+      ],
+      "explanationEn": "By the Leibniz integral rule (Fundamental Theorem of Calculus with chain rule), differentiating $u(x, t) = \\frac{1}{2c} \\int_{x-ct}^{x+ct} e^{s^2}\\,ds$ gives: $\\frac{\\partial u}{\\partial x} = \\frac{1}{2c} \\left(e^{(x+ct)^2} - e^{(x-ct)^2}\\right)$ and $\\frac{\\partial^2 u}{\\partial x^2} = \\frac{1}{2c} \\left(2(x+ct)e^{(x+ct)^2} - 2(x-ct)e^{(x-ct)^2}\\right)$. Differentiating with respect to $t$: $\\frac{\\partial u}{\\partial t} = \\frac{1}{2c} \\left(c\\,e^{(x+ct)^2} - (-c)\\,e^{(x-ct)^2}\\right) = \\frac{1}{2}\\left(e^{(x+ct)^2} + e^{(x-ct)^2}\\right)$, and $\\frac{\\partial^2 u}{\\partial t^2} = \\frac{1}{2} \\left(2c(x+ct)e^{(x+ct)^2} - 2c(x-ct)e^{(x-ct)^2}\\right) = c^2 \\frac{\\partial^2 u}{\\partial x^2}$. Indeed, $u(x, t)$ is d'Alembert's solution to the 1D wave equation with initial displacement $0$ and initial velocity $e^{x^2}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\theta \\in \\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$. Consider the functions $u : \\mathbb{R}^2 - \\{(0, 0)\\} \\to \\mathbb{R}$ and $v : \\mathbb{R}^2 - \\{(0, 0)\\} \\to \\mathbb{R}$ given by $u(x, y) = x - \\frac{x}{x^2 + y^2}$ and $v(x, y) = y + \\frac{y}{x^2 + y^2}$. The value of the determinant $\\begin{vmatrix} \\frac{\\partial u}{\\partial x} & \\frac{\\partial u}{\\partial y} \\\\ \\frac{\\partial v}{\\partial x} & \\frac{\\partial v}{\\partial y} \\end{vmatrix}$ at the point $(\\cos\\theta, \\sin\\theta)$ is equal to",
+      "optionsEn": [
+        "$4\\sin\\theta$.",
+        "$4\\cos\\theta$.",
+        "$4\\sin^2\\theta$.",
+        "$4\\cos^2\\theta$."
+      ],
+      "explanationEn": "Compute the partial derivatives using $r^2 = x^2 + y^2$: $\\frac{\\partial u}{\\partial x} = 1 - \\frac{r^2 - 2x^2}{r^4}$, $\\frac{\\partial u}{\\partial y} = \\frac{2xy}{r^4}$, $\\frac{\\partial v}{\\partial x} = -\\frac{2xy}{r^4}$, and $\\frac{\\partial v}{\\partial y} = 1 + \\frac{r^2 - 2y^2}{r^4}$. At the point $(x, y) = (\\cos\\theta, \\sin\\theta)$, we have $r^2 = \\cos^2\\theta + \\sin^2\\theta = 1$, so $\\frac{\\partial u}{\\partial x} = 1 - (1 - 2\\cos^2\\theta) = 2\\cos^2\\theta$, $\\frac{\\partial u}{\\partial y} = 2\\cos\\theta\\sin\\theta$, $\\frac{\\partial v}{\\partial x} = -2\\cos\\theta\\sin\\theta$, and $\\frac{\\partial v}{\\partial y} = 1 + (1 - 2\\sin^2\\theta) = 2\\cos^2\\theta$. Evaluating the Jacobian determinant gives $(2\\cos^2\\theta)(2\\cos^2\\theta) - (2\\cos\\theta\\sin\\theta)(-2\\cos\\theta\\sin\\theta) = 4\\cos^4\\theta + 4\\cos^2\\theta\\sin^2\\theta = 4\\cos^2\\theta(\\cos^2\\theta + \\sin^2\\theta) = 4\\cos^2\\theta$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the open rectangle $G = \\{(s, t) \\in \\mathbb{R}^2 : 0 < s < 1 \\text{ and } 0 < t < 1\\}$ and the map $T : G \\to \\mathbb{R}^2$ given by $T(s, t) = \\left(\\frac{\\pi s(1 - t)}{2}, \\frac{\\pi(1 - s)}{2}\\right)$ for $(s, t) \\in G$. Then the area of the image $T(G)$ of the map $T$ is equal to",
+      "optionsEn": [
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi^2}{4}$",
+        "$\\frac{\\pi^2}{8}$",
+        "$1$"
+      ],
+      "explanationEn": "Let $(x, y) = T(s, t) = \\left(\\frac{\\pi s(1 - t)}{2}, \\frac{\\pi(1 - s)}{2}\\right)$ on $G = (0, 1) \\times (0, 1)$. First verify that $T$ is injective on $G$: from $y = \\frac{\\pi(1 - s)}{2}$ we uniquely recover $s = 1 - \\frac{2y}{\\pi} \\in (0, 1)$, and since $s > 0$, from $x = \\frac{\\pi s(1 - t)}{2}$ we uniquely recover $t = 1 - \\frac{2x}{\\pi s} \\in (0, 1)$. The Jacobian determinant of $T$ is $J_T(s, t) = \\det \\begin{pmatrix} \\frac{\\pi(1 - t)}{2} & -\\frac{\\pi s}{2} \\\\ -\\frac{\\pi}{2} & 0 \\end{pmatrix} = -\\frac{\\pi^2 s}{4}$. By the change of variables formula for double integrals, the area of $T(G)$ is $\\iint_{T(G)} dx\\,dy = \\int_0^1 \\int_0^1 |J_T(s, t)|\\,ds\\,dt = \\int_0^1 \\int_0^1 \\frac{\\pi^2 s}{4}\\,ds\\,dt = \\frac{\\pi^2}{4} \\cdot \\frac{1}{2} \\cdot 1 = \\frac{\\pi^2}{8}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T$ denote the sum of the convergent series $1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\frac{1}{5} - \\frac{1}{6} + \\cdots + \\frac{(-1)^{n+1}}{n} + \\cdots$ and let $S$ denote the sum of the convergent series $1 - \\frac{1}{2} - \\frac{1}{4} + \\frac{1}{3} - \\frac{1}{6} - \\frac{1}{8} + \\frac{1}{5} - \\frac{1}{10} - \\frac{1}{12} + \\cdots = \\sum_{n=1}^{\\infty} a_n$, where $a_{3m-2} = \\frac{1}{2m - 1}$, $a_{3m-1} = \\frac{-1}{4m - 2}$, and $a_{3m} = \\frac{-1}{4m}$ for $m \\in \\mathbb{N}$. Then which one of the following is true?",
+      "optionsEn": [
+        "$T = S$ and $S \\neq 0$.",
+        "$2T = S$ and $S \\neq 0$.",
+        "$T = 2S$ and $S \\neq 0$.",
+        "$T = S = 0$."
+      ],
+      "explanationEn": "The alternating harmonic series converges to $T = \\ln 2 \\neq 0$. Since $\\sum_{n=1}^{\\infty} a_n$ is given to be convergent with sum $S$, we may group its terms in blocks of three without changing the sum: $a_{3m-2} + a_{3m-1} + a_{3m} = \\frac{1}{2m - 1} - \\frac{1}{2(2m - 1)} - \\frac{1}{4m} = \\frac{1}{2(2m - 1)} - \\frac{1}{4m} = \\frac{1}{2}\\left(\\frac{1}{2m - 1} - \\frac{1}{2m}\\right)$. Summing over $m = 1, 2, \\ldots, M$ gives the partial sum $S_{3M} = \\frac{1}{2} \\sum_{m=1}^{M} \\left(\\frac{1}{2m - 1} - \\frac{1}{2m}\\right) = \\frac{1}{2} T_{2M}$, where $T_{2M}$ is the $2M$-th partial sum of $T$. Taking $M \\to \\infty$ yields $S = \\frac{1}{2} T = \\frac{1}{2}\\ln 2 \\neq 0$, so $T = 2S$ and $S \\neq 0$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u : \\mathbb{R} \\to \\mathbb{R}$ be a twice continuously differentiable function such that $u(0) > 0$ and $u'(0) > 0$. Suppose $u$ satisfies $u''(x) = \\frac{u(x)}{1 + x^2}$ for all $x \\in \\mathbb{R}$. Consider the following two statements: I. The function $u u'$ is monotonically increasing on $[0, \\infty)$. II. The function $u$ is monotonically increasing on $[0, \\infty)$. Then which one of the following is correct?",
+      "optionsEn": [
+        "Both I and II are false.",
+        "Both I and II are true.",
+        "I is false, but II is true.",
+        "I is true, but II is false."
+      ],
+      "explanationEn": "Differentiate the product $g(x) = u(x) u'(x)$: $g'(x) = (u'(x))^2 + u(x) u''(x) = (u'(x))^2 + \\frac{(u(x))^2}{1 + x^2} \\ge 0$ for all $x \\in \\mathbb{R}$. Therefore, $u u'$ is monotonically increasing on $[0, \\infty)$, so Statement I is true. Since $u(0) > 0$ and $u'(0) > 0$, we have $g(0) = u(0)u'(0) > 0$. Because $g$ is monotonically increasing on $[0, \\infty)$, it follows that $u(x)u'(x) = g(x) \\ge g(0) > 0$ for all $x \\ge 0$. In particular, $u(x) \\neq 0$ and $u'(x) \\neq 0$ for all $x \\ge 0$. By continuity and the Intermediate Value Theorem, since $u(0) > 0$ and $u'(0) > 0$, we must have $u(x) > 0$ and $u'(x) > 0$ for all $x \\ge 0$. Hence $u$ is strictly (and thus monotonically) increasing on $[0, \\infty)$, so Statement II is also true. Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\lim_{n \\to \\infty} \\sum_{k=2}^{n} \\frac{\\sqrt{n + 1} - \\sqrt{n}}{k (\\ln k)^2}$ is equal to",
+      "optionsEn": [
+        "$\\infty$",
+        "$1$",
+        "$e$",
+        "$0$"
+      ],
+      "explanationEn": "Factor out the term independent of $k$: $\\sum_{k=2}^{n} \\frac{\\sqrt{n + 1} - \\sqrt{n}}{k (\\ln k)^2} = (\\sqrt{n + 1} - \\sqrt{n}) \\sum_{k=2}^{n} \\frac{1}{k (\\ln k)^2}$. First, rationalize the leading factor: $\\sqrt{n + 1} - \\sqrt{n} = \\frac{1}{\\sqrt{n + 1} + \\sqrt{n}} \\to 0$ as $n \\to \\infty$. Second, check the convergence of the series $\\sum_{k=2}^{\\infty} \\frac{1}{k (\\ln k)^2}$ by the Integral Test: since $f(x) = \\frac{1}{x(\\ln x)^2}$ is positive and strictly decreasing on $[2, \\infty)$, and $\\int_{2}^{\\infty} \\frac{dx}{x(\\ln x)^2} = \\left[-\\frac{1}{\\ln x}\\right]_{2}^{\\infty} = \\frac{1}{\\ln 2} < \\infty$, the series converges to a finite real number $L$. Therefore, the product tends to $0 \\cdot L = 0$ as $n \\to \\infty$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $t \\in \\mathbb{R}$, let $[t]$ denote the greatest integer less than or equal to $t$. Define functions $h : \\mathbb{R}^2 \\to \\mathbb{R}$ and $g : \\mathbb{R} \\to \\mathbb{R}$ by $h(x, y) = \\begin{cases} \\frac{-1}{x^2 - y} & \\text{if } x^2 \\neq y, \\\\ 0 & \\text{if } x^2 = y \\end{cases}$ and $g(x) = \\begin{cases} \\frac{\\sin x}{x} & \\text{if } x \\neq 0, \\\\ 0 & \\text{if } x = 0. \\end{cases}$ Then which one of the following is FALSE?",
+      "optionsEn": [
+        "$\\lim_{(x, y) \\to (\\sqrt{2}, \\pi)} \\cos\\left(\\frac{x^2 y}{x^2 + 1}\\right) = \\frac{-1}{2}$.",
+        "$\\lim_{(x, y) \\to (\\sqrt{2}, 2)} e^{h(x, y)} = 0$.",
+        "$\\lim_{(x, y) \\to (e, e)} \\ln\\left(x^{y - [y]}\\right) = e - 2$.",
+        "$\\lim_{(x, y) \\to (0, 0)} e^{2y} g(x) = 1$."
+      ],
+      "explanationEn": "Official IIT JAM 2022 MA Final Key (IIT Roorkee): Marks to All (MTA). Let us check each statement: (A) By continuity at $(\\sqrt{2}, \\pi)$, $\\cos\\left(\\frac{2\\pi}{2+1}\\right) = \\cos\\left(\\frac{2\\pi}{3}\\right) = -\\frac{1}{2}$, which is TRUE. (B) Approaching $(\\sqrt{2}, 2)$ along the parabola $y = x^2$ gives $h(x, y) = 0$ so $e^{h(x,y)} = 1 \\to 1$; approaching along $x = \\sqrt{2}$ with $y \\to 2^+$ gives $x^2 - y = 2 - y \\to 0^-$, so $h(x,y) \\to +\\infty$ and $e^{h(x,y)} \\to +\\infty$; approaching with $y \\to 2^-$ gives $e^{h(x,y)} \\to 0$. Thus the limit does not exist, making (B) FALSE. (C) Since $2 < e < 3$, in a neighborhood of $y = e$ we have $[y] = 2$, so $\\lim_{(x,y)\\to(e,e)} (y - [y])\\ln x = (e - 2)\\ln e = e - 2$, which is TRUE. (D) Approaching $(0,0)$ along the $y$-axis ($x = 0, y \\to 0$) gives $e^{2y} g(0) = 0 \\to 0$, whereas along the $x$-axis ($y = 0, x \\to 0, x \\neq 0$) gives $\\frac{\\sin x}{x} \\to 1$. Thus the limit does not exist, making (D) ALSO FALSE. Because this single-choice MCQ has two false statements—both (B) and (D)—IIT Roorkee awarded Marks to All (MTA) with zero negative marking."
+    },
+    {
+      "questionId": "jam_ma_2022_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P \\in M_4(\\mathbb{R})$ be such that $P^4$ is the zero matrix, but $P^3$ is a nonzero matrix. Then which one of the following is FALSE?",
+      "optionsEn": [
+        "For every nonzero vector $v \\in \\mathbb{R}^4$, the subset $\\{v, Pv, P^2 v, P^3 v\\}$ of the real vector space $\\mathbb{R}^4$ is linearly independent.",
+        "The rank of $P^k$ is $4 - k$ for every $k \\in \\{1, 2, 3, 4\\}$.",
+        "$0$ is an eigenvalue of $P$.",
+        "If $Q \\in M_4(\\mathbb{R})$ is such that $Q^4$ is the zero matrix, but $Q^3$ is a nonzero matrix, then there exists a nonsingular matrix $S \\in M_4(\\mathbb{R})$ such that $S^{-1} Q S = P$."
+      ],
+      "explanationEn": "Since $P^4 = 0$ and $P^3 \\neq 0$, $P$ is a $4 \\times 4$ nilpotent matrix of nilpotency index $4$. Its minimal polynomial is $x^4$, so its only eigenvalue is $0$ (making (C) true), and its Jordan canonical form consists of a single $4 \\times 4$ Jordan block $J_4(0)$. Consequently, any other $Q \\in M_4(\\mathbb{R})$ with $Q^4 = 0, Q^3 \\neq 0$ has the same Jordan canonical form $J_4(0)$ and is therefore similar to $P$ over $\\mathbb{R}$ (making (D) true). Also, $\\operatorname{rank}(P^k) = \\operatorname{rank}(J_4(0)^k) = 4 - k$ for $k \\in \\{1, 2, 3, 4\\}$ (making (B) true). However, (A) is FALSE: since $\\det(P) = 0$, there exists a nonzero eigenvector $v \\in \\ker(P)$ with $Pv = 0$. For this nonzero vector $v$, the set $\\{v, Pv, P^2 v, P^3 v\\} = \\{v, 0, 0, 0\\}$ contains the zero vector and is linearly dependent. Hence, option (A) is the false statement."
+    },
+    {
+      "questionId": "jam_ma_2022_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $X, Y \\in M_2(\\mathbb{R})$, define $(X, Y) = XY - YX$. Let $\\mathbf{0} \\in M_2(\\mathbb{R})$ denote the zero matrix. Consider the two statements: $P : (X, (Y, Z)) + (Y, (Z, X)) + (Z, (X, Y)) = \\mathbf{0}$ for all $X, Y, Z \\in M_2(\\mathbb{R})$. $Q : (X, (Y, Z)) = ((X, Y), Z)$ for all $X, Y, Z \\in M_2(\\mathbb{R})$. Then which one of the following is correct?",
+      "optionsEn": [
+        "Both $P$ and $Q$ are true.",
+        "$P$ is true, but $Q$ is false.",
+        "$P$ is false, but $Q$ is true.",
+        "Both $P$ and $Q$ are false."
+      ],
+      "explanationEn": "The commutator bracket $(X, Y) = XY - YX$ defines a Lie bracket on the associative algebra $M_2(\\mathbb{R})$. Expanding the Jacobi identity in $P$: $(X, (Y, Z)) = XYZ - XZY - YZX + ZYX$, $(Y, (Z, X)) = YZX - YXZ - ZXY + XZY$, and $(Z, (X, Y)) = ZXY - ZYX - XYZ + YXZ$. Summing all three expressions cancels every term in pairs, giving $\\mathbf{0}$; thus $P$ is true. For $Q$, the commutator is not associative. Take $X = \\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix}$, $Y = \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}$, and $Z = \\begin{pmatrix} 0 & 0 \\\\ 1 & 0 \\end{pmatrix}$. Then $(Y, Z) = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$, so $(X, (Y, Z)) = \\mathbf{0}$. Meanwhile, $(X, Y) = Y$, so $((X, Y), Z) = (Y, Z) = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\neq \\mathbf{0}$. Thus $Q$ is false. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the system of linear equations $x + y + t = 4$, $2x - 4t = 7$, $x + y + z = 5$, $x - 3y - z - 10t = \\lambda$, where $x, y, z, t$ are variables and $\\lambda$ is a constant. Then which one of the following is true?",
+      "optionsEn": [
+        "If $\\lambda = 1$, then the system has a unique solution.",
+        "If $\\lambda = 2$, then the system has infinitely many solutions.",
+        "If $\\lambda = 1$, then the system has infinitely many solutions.",
+        "If $\\lambda = 2$, then the system has a unique solution."
+      ],
+      "explanationEn": "Write the augmented matrix $[A \\mid b]$ for the variables $(x, y, z, t)$: $\\begin{pmatrix} 1 & 1 & 0 & 1 & 4 \\\\ 2 & 0 & 0 & -4 & 7 \\\\ 1 & 1 & 1 & 0 & 5 \\\\ 1 & -3 & -1 & -10 & \\lambda \\end{pmatrix}$. Apply row operations $R_2 \\leftarrow R_2 - 2R_1$, $R_3 \\leftarrow R_3 - R_1$, and $R_4 \\leftarrow R_4 - R_1$ to obtain: $R_1 = (1, 1, 0, 1 \\mid 4)$, $R_2 = (0, -2, 0, -6 \\mid -1)$, $R_3 = (0, 0, 1, -1 \\mid 1)$, and $R_4 = (0, -4, -1, -11 \\mid \\lambda - 4)$. Next, eliminate entries in $R_4$ via $R_4 \\leftarrow R_4 - 2R_2 + R_3$: the coefficient part becomes $(0, -4 + 4 + 0, -1 + 0 + 1, -11 + 12 - 1) = (0, 0, 0, 0)$, and the right-hand side becomes $(\\lambda - 4) - 2(-1) + 1 = \\lambda - 1$. Thus the system is consistent if and only if $\\lambda - 1 = 0$, i.e., $\\lambda = 1$. When $\\lambda = 1$, $\\operatorname{rank}(A) = \\operatorname{rank}([A \\mid b]) = 3 < 4$, so there is one free variable and infinitely many solutions. When $\\lambda = 2$, the system is inconsistent. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the group $(\\mathbb{Q}, +)$ and its subgroup $(\\mathbb{Z}, +)$. For the quotient group $\\mathbb{Q}/\\mathbb{Z}$, which one of the following is FALSE?",
+      "optionsEn": [
+        "$\\mathbb{Q}/\\mathbb{Z}$ contains a subgroup isomorphic to $(\\mathbb{Z}, +)$.",
+        "There is exactly one group homomorphism from $\\mathbb{Q}/\\mathbb{Z}$ to $(\\mathbb{Q}, +)$.",
+        "For all $n \\in \\mathbb{N}$, there exists $g \\in \\mathbb{Q}/\\mathbb{Z}$ such that the order of $g$ is $n$.",
+        "$\\mathbb{Q}/\\mathbb{Z}$ is not a cyclic group."
+      ],
+      "explanationEn": "Every element of $\\mathbb{Q}/\\mathbb{Z}$ has finite order: for any $\\frac{a}{b} + \\mathbb{Z} \\in \\mathbb{Q}/\\mathbb{Z}$ with $b \\in \\mathbb{N}$, $b \\cdot \\left(\\frac{a}{b} + \\mathbb{Z}\\right) = a + \\mathbb{Z} = 0 + \\mathbb{Z}$. Thus $\\mathbb{Q}/\\mathbb{Z}$ is a torsion group and contains no element of infinite order, so it cannot contain a subgroup isomorphic to $(\\mathbb{Z}, +)$. Hence (A) is FALSE. Let us verify the other statements: (B) If $\\phi : \\mathbb{Q}/\\mathbb{Z} \\to (\\mathbb{Q}, +)$ is a homomorphism, then for any $g \\in \\mathbb{Q}/\\mathbb{Z}$ of finite order $n$, $n \\phi(g) = \\phi(ng) = 0 \\implies \\phi(g) = 0$ since $(\\mathbb{Q}, +)$ is torsion-free; thus only the trivial homomorphism exists. (C) For every $n \\in \\mathbb{N}$, the element $g = \\frac{1}{n} + \\mathbb{Z}$ has exact order $n$. (D) $\\mathbb{Q}/\\mathbb{Z}$ is infinite, and every infinite cyclic group is isomorphic to $\\mathbb{Z}$ (which has elements of infinite order), so $\\mathbb{Q}/\\mathbb{Z}$ cannot be cyclic. Hence, option (A) is the false statement."
+    },
+    {
+      "questionId": "jam_ma_2022_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $P \\in M_5(\\mathbb{R})$ and $i, j \\in \\{1, 2, \\ldots, 5\\}$, let $p_{ij}$ denote the $(i, j)$th entry of $P$. Let $S = \\{P \\in M_5(\\mathbb{R}) : p_{ij} = p_{rs} \\text{ for } i, j, r, s \\in \\{1, 2, \\ldots, 5\\} \\text{ with } i + r = j + s\\}$. Then which one of the following is FALSE?",
+      "optionsEn": [
+        "$S$ is a subspace of the vector space over $\\mathbb{R}$ of all $5 \\times 5$ symmetric matrices.",
+        "The dimension of $S$ over $\\mathbb{R}$ is $5$.",
+        "The dimension of $S$ over $\\mathbb{R}$ is $11$.",
+        "If $P \\in S$ and all the entries of $P$ are integers, then $5$ divides the sum of all the diagonal entries of $P$."
+      ],
+      "explanationEn": "The condition $i + r = j + s$ is equivalent to $i - j = s - r$. Setting $r = j$ and $s = i$ gives $i + j = j + i$, so $p_{ij} = p_{ji}$ for all $i, j$; thus every $P \\in S$ is symmetric, and since the defining relations are linear homogeneous equations, $S$ is a subspace of the space of $5 \\times 5$ symmetric matrices (so (A) is true). Furthermore, $p_{ij} = p_{rs}$ whenever $i - j = s - r$, and by symmetry $p_{rs} = p_{sr}$; hence $p_{ij} = p_{uv}$ whenever $|i - j| = |u - v|$. Thus $S$ consists precisely of all $5 \\times 5$ symmetric Toeplitz matrices, which are uniquely determined by the $5$ independent values corresponding to $|i - j| \\in \\{0, 1, 2, 3, 4\\}$. Therefore $\\dim_{\\mathbb{R}}(S) = 5$, which makes (B) true and (C) FALSE. Finally, all diagonal entries satisfy $|i - i| = 0$, so $p_{11} = p_{22} = \\cdots = p_{55}$, and their sum is $5 p_{11}$, which is divisible by $5$ when $p_{11} \\in \\mathbb{Z}$ (so (D) is true). Hence, option (C) is the false statement."
+    },
+    {
+      "questionId": "jam_ma_2022_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "On the open interval $(-c, c)$, where $c$ is a positive real number, $y(x)$ is an infinitely differentiable solution of the differential equation $\\frac{dy}{dx} = y^2 - 1 + \\cos x$, with the initial condition $y(0) = 0$. Then which one of the following is correct?",
+      "optionsEn": [
+        "$y(x)$ has a local maximum at the origin.",
+        "$y(x)$ has a local minimum at the origin.",
+        "$y(x)$ is strictly increasing on the open interval $(-\\delta, \\delta)$ for some positive real number $\\delta$.",
+        "$y(x)$ is strictly decreasing on the open interval $(-\\delta, \\delta)$ for some positive real number $\\delta$."
+      ],
+      "explanationEn": "Evaluate the successive derivatives of $y(x)$ at $x = 0$ using $y'(x) = y^2 - 1 + \\cos x$ and $y(0) = 0$: $y'(0) = 0^2 - 1 + \\cos 0 = 0$. Differentiating once: $y''(x) = 2 y y' - \\sin x$, so $y''(0) = 0 - 0 = 0$. Differentiating again: $y'''(x) = 2(y')^2 + 2 y y'' - \\cos x$, so $y'''(0) = 0 + 0 - 1 = -1 < 0$. By Taylor's theorem about $x = 0$, $y'(x) = -\\frac{x^2}{2} + O(x^3)$ near $x = 0$. Thus there exists $\\delta > 0$ such that $y'(x) < 0$ for all $x \\in (-\\delta, \\delta) \\setminus \\{0\\}$ and $y'(0) = 0$. Since $y'(x) \\le 0$ on $(-\\delta, \\delta)$ and vanishes only at $x = 0$, $y(x)$ is strictly decreasing on $(-\\delta, \\delta)$ (and has an inflection point, not an extremum, at $0$). Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H : \\mathbb{R} \\to \\mathbb{R}$ be the function given by $H(x) = \\frac{1}{2}(e^x + e^{-x})$ for $x \\in \\mathbb{R}$. Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = \\int_{0}^{\\pi} H(x \\sin\\theta)\\,d\\theta$ for $x \\in \\mathbb{R}$. Then which one of the following is true?",
+      "optionsEn": [
+        "$x f''(x) + f'(x) + x f(x) = 0$ for all $x \\in \\mathbb{R}$.",
+        "$x f''(x) - f'(x) + x f(x) = 0$ for all $x \\in \\mathbb{R}$.",
+        "$x f''(x) + f'(x) - x f(x) = 0$ for all $x \\in \\mathbb{R}$.",
+        "$x f''(x) - f'(x) - x f(x) = 0$ for all $x \\in \\mathbb{R}$."
+      ],
+      "explanationEn": "Note that $H(t) = \\cosh t$, so $H'(t) = \\sinh t$ and $H''(t) = \\cosh t = H(t)$. Differentiating under the integral sign (justified since the integrand and its derivatives are continuous on $\\mathbb{R} \\times [0, \\pi]$): $f'(x) = \\int_0^{\\pi} \\sin\\theta \\sinh(x \\sin\\theta)\\,d\\theta$ and $f''(x) = \\int_0^{\\pi} \\sin^2\\theta \\cosh(x \\sin\\theta)\\,d\\theta$. Now integrate $f'(x)$ by parts with $u = \\sinh(x \\sin\\theta)$ and $dv = \\sin\\theta\\,d\\theta$, so $du = x \\cos\\theta \\cosh(x \\sin\\theta)\\,d\\theta$ and $v = -\\cos\\theta$: $f'(x) = \\left[-\\cos\\theta \\sinh(x \\sin\\theta)\\right]_0^{\\pi} + x \\int_0^{\\pi} \\cos^2\\theta \\cosh(x \\sin\\theta)\\,d\\theta = x \\int_0^{\\pi} \\cos^2\\theta \\cosh(x \\sin\\theta)\\,d\\theta$, since $\\sinh(0) = 0$ at both $\\theta = 0$ and $\\theta = \\pi$. Adding $x f''(x)$ and $f'(x)$ gives $x f''(x) + f'(x) = x \\int_0^{\\pi} (\\sin^2\\theta + \\cos^2\\theta)\\cosh(x \\sin\\theta)\\,d\\theta = x f(x)$, so $x f''(x) + f'(x) - x f(x) = 0$ for all $x \\in \\mathbb{R}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the differential equation $y'' + a y' + y = \\sin x$ for $x \\in \\mathbb{R}$. $(**)$ Then which one of the following is true?",
+      "optionsEn": [
+        "If $a = 0$, then all the solutions of $(**)$ are unbounded over $\\mathbb{R}$.",
+        "If $a = 1$, then all the solutions of $(**)$ are unbounded over $(0, \\infty)$.",
+        "If $a = 1$, then all the solutions of $(**)$ tend to zero as $x \\to \\infty$.",
+        "If $a = 2$, then all the solutions of $(**)$ are bounded over $(-\\infty, 0)$."
+      ],
+      "explanationEn": "Case $a = 0$: the ODE is $y'' + y = \\sin x$. The homogeneous solution is $y_h(x) = c_1 \\cos x + c_2 \\sin x$. Since $\\sin x$ is in resonance with the homogeneous solutions, the particular solution is $y_p(x) = -\\frac{1}{2} x \\cos x$. Thus every solution has the form $y(x) = c_1 \\cos x + c_2 \\sin x - \\frac{1}{2} x \\cos x$. Along $x_n = 2\\pi n$, $|y(2\\pi n)| = |c_1 - \\pi n| \\to \\infty$ as $n \\to \\infty$, so every solution is unbounded over $\\mathbb{R}$; hence (A) is true. For $a = 1$: the general solution is $y(x) = e^{-x/2}\\left(c_1 \\cos\\frac{\\sqrt{3}}{2}x + c_2 \\sin\\frac{\\sqrt{3}}{2}x\\right) - \\cos x$, which is bounded on $(0, \\infty)$ and oscillates like $-\\cos x$ as $x \\to \\infty$ (ruling out (B) and (C)). For $a = 2$: $y(x) = (c_1 + c_2 x)e^{-x} - \\frac{1}{2}\\cos x$, which is unbounded on $(-\\infty, 0)$ whenever $(c_1, c_2) \\neq (0, 0)$ (ruling out (D)). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $g \\in \\mathbb{Z}$, let $\\bar{g} \\in \\mathbb{Z}_{37}$ denote the residue class of $g$ modulo $37$. Consider the group $U_{37} = \\{\\bar{g} \\in \\mathbb{Z}_{37} : 1 \\le g \\le 37 \\text{ with } \\gcd(g, 37) = 1\\}$ with respect to multiplication modulo $37$. Then which one of the following is FALSE?",
+      "optionsEn": [
+        "The set $\\{\\bar{g} \\in U_{37} : \\bar{g} = (\\bar{g})^{-1}\\}$ contains exactly $2$ elements.",
+        "The order of the element $\\overline{10}$ in $U_{37}$ is $36$.",
+        "There is exactly one group homomorphism from $U_{37}$ to $(\\mathbb{Z}, +)$.",
+        "There is exactly one group homomorphism from $U_{37}$ to $(\\mathbb{Q}, +)$."
+      ],
+      "explanationEn": "Since $37$ is prime, $U_{37}$ is a cyclic group of order $\\phi(37) = 36$. (A) The equation $\\bar{g}^2 = \\bar{1}$ in the field $\\mathbb{Z}_{37}$ has exactly two solutions, $\\bar{1}$ and $\\overline{36} = -\\bar{1}$, so (A) is true. (C) and (D) Since $U_{37}$ is finite while $(\\mathbb{Z}, +)$ and $(\\mathbb{Q}, +)$ are torsion-free, the only group homomorphism from $U_{37}$ into either $(\\mathbb{Z}, +)$ or $(\\mathbb{Q}, +)$ is the trivial homomorphism, so both (C) and (D) are true. (B) Compute powers of $10 \\pmod{37}$: $10^2 = 100 \\equiv 26 \\equiv -11 \\pmod{37}$, and $10^3 \\equiv 10 \\cdot (-11) = -110 = -3(37) + 1 \\equiv 1 \\pmod{37}$. Thus the order of $\\overline{10}$ in $U_{37}$ is $3$, not $36$. Hence, option (B) is the false statement."
+    },
+    {
+      "questionId": "jam_ma_2022_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For some real number $c$ with $0 < c < 1$, let $\\phi : (1 - c, 1 + c) \\to (0, \\infty)$ be a differentiable function such that $\\phi(1) = 1$ and $y = \\phi(x)$ is a solution of the differential equation $(x^2 + y^2)\\,dx - 4xy\\,dy = 0$. Then which one of the following is true?",
+      "optionsEn": [
+        "$\\left(3(\\phi(x))^2 + x^2\\right)^2 = 4x$.",
+        "$\\left(3(\\phi(x))^2 - x^2\\right)^2 = 4x$.",
+        "$\\left(3(\\phi(x))^2 + x^2\\right)^2 = 4\\phi(x)$.",
+        "$\\left(3(\\phi(x))^2 - x^2\\right)^2 = 4\\phi(x)$."
+      ],
+      "explanationEn": "Rewrite the homogeneous ODE as $\\frac{dy}{dx} = \\frac{x^2 + y^2}{4xy}$, or equivalently as a Bernoulli equation in $y^2$: let $w = y^2$, so $\\frac{dw}{dx} = 2y \\frac{dy}{dx}$. Then $2x \\frac{dw}{dx} = x^2 + w$, i.e., $\\frac{dw}{dx} - \\frac{1}{2x} w = \\frac{x}{2}$. This is a first-order linear ODE in $w$ with integrating factor $\\mu(x) = \\exp\\left(-\\int \\frac{dx}{2x}\\right) = x^{-1/2}$ (since $x > 0$ near $1$). Multiplying through gives $\\frac{d}{dx}(x^{-1/2} w) = \\frac{1}{2} x^{1/2}$. Integrating yields $x^{-1/2} w = \\frac{1}{3} x^{3/2} + C$, so $3 w = x^2 + 3C x^{1/2}$, i.e., $3y^2 - x^2 = 3C \\sqrt{x}$. Using the initial condition $y(1) = \\phi(1) = 1$: $3(1)^2 - 1^2 = 3C(1) \\implies 3C = 2$. Thus $3(\\phi(x))^2 - x^2 = 2\\sqrt{x}$. Squaring both sides gives $\\left(3(\\phi(x))^2 - x^2\\right)^2 = 4x$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a $4 \\times 4$ matrix $M \\in M_4(\\mathbb{C})$, let $\\overline{M}$ denote the matrix obtained from $M$ by replacing each entry of $M$ by its complex conjugate. Consider the real vector space $H = \\{M \\in M_4(\\mathbb{C}) : M^{\\top} = \\overline{M}\\}$, where $M^{\\top}$ denotes the transpose of $M$. The dimension of $H$ as a vector space over $\\mathbb{R}$ is equal to",
+      "optionsEn": [
+        "$6$",
+        "$16$",
+        "$15$",
+        "$12$"
+      ],
+      "explanationEn": "The condition $M^{\\top} = \\overline{M}$ is equivalent to $M^* = \\overline{M}^{\\top} = M$, so $H$ is the real vector space of all $4 \\times 4$ Hermitian matrices. For $M = (m_{ij}) \\in H$: 1. Each diagonal entry satisfies $m_{ii} = \\overline{m_{ii}}$, so $m_{ii} \\in \\mathbb{R}$. This contributes $4$ real degrees of freedom. 2. For each strictly upper-triangular entry $m_{ij}$ ($1 \\le i < j \\le 4$), the entry $m_{ij} \\in \\mathbb{C}$ can be chosen freely ($2$ real parameters each), and the corresponding lower-triangular entry is uniquely fixed as $m_{ji} = \\overline{m_{ij}}$. There are $\\binom{4}{2} = 6$ strictly upper-triangular entries, contributing $6 \\times 2 = 12$ real degrees of freedom. Therefore, $\\dim_{\\mathbb{R}}(H) = 4 + 12 = 16$ (in general, $\\dim_{\\mathbb{R}} \\text{Herm}_n(\\mathbb{C}) = n^2$). Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $a, b$ be positive real numbers such that $a < b$. Given that $\\lim_{N \\to \\infty} \\int_{0}^{N} e^{-t^2}\\,dt = \\frac{\\sqrt{\\pi}}{2}$, the value of $\\lim_{N \\to \\infty} \\int_{0}^{N} \\frac{1}{t^2}\\left(e^{-at^2} - e^{-bt^2}\\right) dt$ is equal to",
+      "optionsEn": [
+        "$\\sqrt{\\pi}(\\sqrt{a} - \\sqrt{b})$.",
+        "$\\sqrt{\\pi}(\\sqrt{a} + \\sqrt{b})$.",
+        "$-\\sqrt{\\pi}(\\sqrt{a} + \\sqrt{b})$.",
+        "$\\sqrt{\\pi}(\\sqrt{b} - \\sqrt{a})$."
+      ],
+      "explanationEn": "Note that as $t \\to 0^+$, $\\frac{e^{-at^2} - e^{-bt^2}}{t^2} \\to b - a$, so the integrand has a removable singularity at $t = 0$. Integrate by parts with $u = e^{-at^2} - e^{-bt^2}$ and $dv = \\frac{dt}{t^2}$, so $du = \\left(-2at e^{-at^2} + 2bt e^{-bt^2}\\right) dt$ and $v = -\\frac{1}{t}$: $\\int_{0}^{N} \\frac{e^{-at^2} - e^{-bt^2}}{t^2}\\,dt = \\left[-\\frac{e^{-at^2} - e^{-bt^2}}{t}\\right]_{0}^{N} + \\int_{0}^{N} \\left(-2a e^{-at^2} + 2b e^{-bt^2}\\right) dt$. At $t \\to 0^+$, $\\frac{e^{-at^2} - e^{-bt^2}}{t} \\to 0$, and as $N \\to \\infty$, $\\frac{e^{-aN^2} - e^{-bN^2}}{N} \\to 0$. For the remaining integrals, substitute $s = \\sqrt{a}\\,t$ and $s = \\sqrt{b}\\,t$: $\\int_{0}^{\\infty} 2b e^{-bt^2}\\,dt - \\int_{0}^{\\infty} 2a e^{-at^2}\\,dt = 2\\sqrt{b} \\int_{0}^{\\infty} e^{-s^2}\\,ds - 2\\sqrt{a} \\int_{0}^{\\infty} e^{-s^2}\\,ds = 2(\\sqrt{b} - \\sqrt{a}) \\cdot \\frac{\\sqrt{\\pi}}{2} = \\sqrt{\\pi}(\\sqrt{b} - \\sqrt{a})$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $-1 \\le x \\le 1$, if $f(x)$ is the sum of the convergent power series $x + \\frac{x^2}{2^2} + \\frac{x^3}{3^2} + \\cdots + \\frac{x^n}{n^2} + \\cdots$, then $f\\left(\\frac{1}{2}\\right)$ is equal to",
+      "optionsEn": [
+        "$\\int_{0}^{1/2} \\frac{\\ln(1 - t)}{t}\\,dt$.",
+        "$-\\int_{0}^{1/2} \\frac{\\ln(1 - t)}{t}\\,dt$.",
+        "$\\int_{0}^{1/2} t \\ln(1 + t)\\,dt$.",
+        "$\\int_{0}^{1/2} t \\ln(1 - t)\\,dt$."
+      ],
+      "explanationEn": "We have $f(x) = \\sum_{n=1}^{\\infty} \\frac{x^n}{n^2}$ for $x \\in [-1, 1]$, with radius of convergence $R = 1$ and $f(0) = 0$. On the open interval $(-1, 1)$, we may differentiate the power series term by term: $f'(t) = \\sum_{n=1}^{\\infty} \\frac{t^{n-1}}{n} = \\frac{1}{t} \\sum_{n=1}^{\\infty} \\frac{t^n}{n}$ for $t \\in (-1, 1) \\setminus \\{0\\}$. Recall the Maclaurin series $-\\ln(1 - t) = \\sum_{n=1}^{\\infty} \\frac{t^n}{n}$ for $|t| < 1$. Therefore, $f'(t) = -\\frac{\\ln(1 - t)}{t}$ for $t \\in (0, 1)$, with $\\lim_{t \\to 0^+} f'(t) = 1 = f'(0)$. By the Fundamental Theorem of Calculus, integrating from $0$ to $\\frac{1}{2}$ yields $f\\left(\\frac{1}{2}\\right) = f\\left(\\frac{1}{2}\\right) - f(0) = \\int_{0}^{1/2} f'(t)\\,dt = -\\int_{0}^{1/2} \\frac{\\ln(1 - t)}{t}\\,dt$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $n \\in \\mathbb{N}$ and $x \\in [1, \\infty)$, let $f_n(x) = \\int_{0}^{\\pi} \\left(x^2 + (\\cos\\theta)\\sqrt{x^2 - 1}\\right)^n d\\theta$. Then which one of the following is true?",
+      "optionsEn": [
+        "$f_n(x)$ is not a polynomial in $x$ if $n$ is odd and $n \\ge 3$.",
+        "$f_n(x)$ is not a polynomial in $x$ if $n$ is even and $n \\ge 4$.",
+        "$f_n(x)$ is a polynomial in $x$ for all $n \\in \\mathbb{N}$.",
+        "$f_n(x)$ is not a polynomial in $x$ for any $n \\ge 3$."
+      ],
+      "explanationEn": "Expand the integrand using the Binomial Theorem: $f_n(x) = \\sum_{k=0}^{n} \\binom{n}{k} (x^2)^{n-k} (x^2 - 1)^{k/2} \\int_{0}^{\\pi} \\cos^k\\theta\\,d\\theta$. Consider the integral $I_k = \\int_{0}^{\\pi} \\cos^k\\theta\\,d\\theta$. Using the substitution $\\theta = \\pi - \\phi$ (so $\\cos(\\pi - \\phi) = -\\cos\\phi$), we obtain $I_k = \\int_{0}^{\\pi} (-\\cos\\phi)^k\\,d\\phi = (-1)^k I_k$. Whenever $k$ is odd, $I_k = -I_k$, which forces $I_k = 0$. Therefore, only even indices $k = 2m$ survive in the sum, and for $k = 2m$ the factor $(x^2 - 1)^{k/2} = (x^2 - 1)^m$ is a polynomial in $x$. Thus $f_n(x) = \\sum_{m=0}^{\\lfloor n/2 \\rfloor} \\binom{n}{2m} I_{2m} x^{2(n-2m)} (x^2 - 1)^m$ is a polynomial in $x$ for every $n \\in \\mathbb{N}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P$ be a $3 \\times 3$ real matrix having eigenvalues $\\lambda_1 = 0$, $\\lambda_2 = 1$, and $\\lambda_3 = -1$. Further, $v_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$, $v_2 = \\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$, and $v_3 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}$ are eigenvectors of the matrix $P$ corresponding to the eigenvalues $\\lambda_1, \\lambda_2,$ and $\\lambda_3$, respectively. Then the entry in the first row and the third column of $P$ is",
+      "optionsEn": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "explanationEn": "Let $e_1, e_2, e_3$ be the standard basis vectors of $\\mathbb{R}^3$. The third column of $P$ is the vector $P e_3$. Notice that $v_1 = e_1$ and $v_3 = e_1 + e_3$, so $e_3 = v_3 - v_1$. Using the linearity of $P$ and the given eigenrelations $P v_1 = \\lambda_1 v_1 = 0$ and $P v_3 = \\lambda_3 v_3 = -v_3$: $P e_3 = P(v_3 - v_1) = P v_3 - P v_1 = -v_3 - 0 = \\begin{pmatrix} -1 \\\\ 0 \\\\ -1 \\end{pmatrix}$. Therefore, the entry in the first row and third column of $P$ is the first component of $P e_3$, which is $-1$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(-c, c)$ be the largest open interval in $\\mathbb{R}$ (where $c$ is either a positive real number or $c = \\infty$) on which the solution $y(x)$ of the differential equation $\\frac{dy}{dx} = x^2 + y^2 + 1$ with initial condition $y(0) = 0$ exists and is unique. Then which of the following is/are true?",
+      "optionsEn": [
+        "$y(x)$ is an odd function on $(-c, c)$.",
+        "$y(x)$ is an even function on $(-c, c)$.",
+        "$(y(x))^2$ has a local minimum at $0$.",
+        "$(y(x))^2$ has a local maximum at $0$."
+      ],
+      "explanationEn": "Define $z(x) = -y(-x)$ for $x \\in (-c, c)$. Then $z(0) = -y(0) = 0$ and by the chain rule, $z'(x) = y'(-x) = (-x)^2 + (y(-x))^2 + 1 = x^2 + (-z(x))^2 + 1 = x^2 + (z(x))^2 + 1$. Thus $z(x)$ satisfies the exact same initial value problem as $y(x)$ on $(-c, c)$. By uniqueness of the solution on $(-c, c)$, $z(x) = y(x)$, i.e., $y(-x) = -y(x)$ for all $x \\in (-c, c)$, so $y(x)$ is an odd function. Hence (A) is true. Since $y'(x) = x^2 + y^2 + 1 \\ge 1 > 0$, $y(x)$ is strictly increasing and not identically zero, so $y(x)$ cannot be even (ruling out (B)). Next, consider $h(x) = (y(x))^2$. Since $h(x) \\ge 0$ for all $x \\in (-c, c)$ and $h(0) = (y(0))^2 = 0$, $h(x)$ attains its global (and hence local) minimum at $x = 0$, with $h(x) > 0$ for $x \\neq 0$ (ruling out (D)). Hence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S$ be the set of all continuous functions $f : [-1, 1] \\to \\mathbb{R}$ satisfying the following three conditions: (i) $f$ is infinitely differentiable on the open interval $(-1, 1)$, (ii) the Taylor series $f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\cdots$ of $f$ at $0$ converges to $f(x)$ for each $x \\in (-1, 1)$, (iii) $f\\left(\\frac{1}{n}\\right) = 0$ for all $n \\in \\mathbb{N}$. Then which of the following is/are true?",
+      "optionsEn": [
+        "$f(0) = 0$ for every $f \\in S$.",
+        "$f'\\left(\\frac{1}{2}\\right) = 0$ for every $f \\in S$.",
+        "There exists $f \\in S$ such that $f'\\left(\\frac{1}{2}\\right) \\neq 0$.",
+        "There exists $f \\in S$ such that $f(x) \\neq 0$ for some $x \\in [-1, 1]$."
+      ],
+      "explanationEn": "Let $f \\in S$. By continuity of $f$ at $0$ and condition (iii), $f(0) = \\lim_{n \\to \\infty} f(1/n) = 0$, so (A) is true. By condition (ii), $f(x) = \\sum_{k=0}^{\\infty} a_k x^k$ for all $x \\in (-1, 1)$, where $a_k = \\frac{f^{(k)}(0)}{k!}$. We prove by induction that $a_k = 0$ for all $k \\ge 0$ (Identity Theorem for real analytic functions): if $f$ is not identically zero on $(-1, 1)$, let $m \\ge 1$ be the smallest integer with $a_m \\neq 0$. Then $f(x) = x^m g(x)$ where $g(x) = \\sum_{k=m}^{\\infty} a_k x^{k-m}$ is continuous at $0$ with $g(0) = a_m \\neq 0$. However, $g(1/n) = n^m f(1/n) = 0$ for all $n \\ge 2$, forcing $a_m = \\lim_{n \\to \\infty} g(1/n) = 0$, a contradiction. Thus $f(x) = 0$ for all $x \\in (-1, 1)$, and by continuity on $[-1, 1]$, $f(x) = 0$ for all $x \\in [-1, 1]$. Consequently, $f'\\left(\\frac{1}{2}\\right) = 0$ for every $f \\in S$ (so (B) is true, while (C) and (D) are false). Hence, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Define $f : [0, 1] \\to [0, 1]$ by $f(x) = \\begin{cases} 1 & \\text{if } x = 0, \\\\ \\frac{1}{n} & \\text{if } x = \\frac{m}{n} \\text{ for some } m, n \\in \\mathbb{N} \\text{ with } m \\le n \\text{ and } \\gcd(m, n) = 1, \\\\ 0 & \\text{if } x \\in [0, 1] \\text{ is irrational.} \\end{cases}$ and define $g : [0, 1] \\to [0, 1]$ by $g(x) = \\begin{cases} 0 & \\text{if } x = 0, \\\\ 1 & \\text{if } x \\in (0, 1]. \\end{cases}$ Then which of the following is/are true?",
+      "optionsEn": [
+        "$f$ is Riemann integrable on $[0, 1]$.",
+        "$g$ is Riemann integrable on $[0, 1]$.",
+        "The composite function $f \\circ g$ is Riemann integrable on $[0, 1]$.",
+        "The composite function $g \\circ f$ is Riemann integrable on $[0, 1]$."
+      ],
+      "explanationEn": "By Lebesgue's criterion, a bounded function on $[0, 1]$ is Riemann integrable if and only if its set of discontinuities has Lebesgue measure zero. (A) $f$ is Thomae's function, which is continuous at every irrational point and discontinuous only at the rational points in $[0, 1]$. Since $\\mathbb{Q} \\cap [0, 1]$ is countable (measure zero), $f$ is Riemann integrable on $[0, 1]$. (B) $g$ is bounded and has only a single discontinuity at $x = 0$, so $g$ is Riemann integrable on $[0, 1]$. (C) Compute $(f \\circ g)(x) = f(g(x))$: for $x = 0$, $f(g(0)) = f(0) = 1$; for $x \\in (0, 1]$, $f(g(x)) = f(1) = 1$. Thus $f \\circ g \\equiv 1$ is constant on $[0, 1]$, hence Riemann integrable. (D) Compute $(g \\circ f)(x) = g(f(x))$: if $x \\in \\mathbb{Q} \\cap [0, 1]$, then $f(x) > 0$ so $g(f(x)) = 1$; if $x$ is irrational, $f(x) = 0$ so $g(f(x)) = 0$. This is the Dirichlet function, which is discontinuous at every point of $[0, 1]$ and is NOT Riemann integrable. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S$ be the set of all functions $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying $|f(x) - f(y)|^2 \\le |x - y|^3$ for all $x, y \\in \\mathbb{R}$. Then which of the following is/are true?",
+      "optionsEn": [
+        "Every function in $S$ is differentiable.",
+        "There exists a function $f \\in S$ such that $f$ is differentiable, but $f$ is not twice differentiable.",
+        "There exists a function $f \\in S$ such that $f$ is twice differentiable, but $f$ is not thrice differentiable.",
+        "Every function in $S$ is infinitely differentiable."
+      ],
+      "explanationEn": "Taking square roots of the given inequality gives $|f(x) - f(y)| \\le |x - y|^{3/2}$ for all $x, y \\in \\mathbb{R}$. For any $x \\in \\mathbb{R}$ and $y \\neq x$, dividing by $|x - y|$ yields $\\left|\\frac{f(x) - f(y)}{x - y}\\right| \\le |x - y|^{1/2}$. Taking the limit as $y \\to x$ gives $f'(x) = \\lim_{y \\to x} \\frac{f(x) - f(y)}{x - y} = 0$ for every $x \\in \\mathbb{R}$. By the Mean Value Theorem, since $f'(x) = 0$ identically on $\\mathbb{R}$, every function $f \\in S$ must be a constant function. Every constant function is infinitely differentiable (and in particular differentiable, twice differentiable, and thrice differentiable). Therefore, (A) and (D) are true, while (B) and (C) are false. Hence, options (A) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A real-valued function $y(x)$ defined on $\\mathbb{R}$ is said to be periodic if there exists a real number $T > 0$ such that $y(x + T) = y(x)$ for all $x \\in \\mathbb{R}$. Consider the differential equation $\\frac{d^2 y}{dx^2} + 4y = \\sin(ax), \\quad x \\in \\mathbb{R}, \\quad (*)$ where $a \\in \\mathbb{R}$ is a constant. Then which of the following is/are true?",
+      "optionsEn": [
+        "All solutions of $(*)$ are periodic for every choice of $a$.",
+        "All solutions of $(*)$ are periodic for every choice of $a \\in \\mathbb{R} - \\{-2, 2\\}$.",
+        "All solutions of $(*)$ are periodic for every choice of $a \\in \\mathbb{Q} - \\{-2, 2\\}$.",
+        "If $a \\in \\mathbb{R} - \\mathbb{Q}$, then there is a unique periodic solution of $(*)$."
+      ],
+      "explanationEn": "The homogeneous equation $y'' + 4y = 0$ has general solution $y_h(x) = c_1 \\cos(2x) + c_2 \\sin(2x)$, which has fundamental period $\\pi$ (whenever $(c_1, c_2) \\neq (0, 0)$). If $a = \\pm 2$, resonance occurs and the particular solution is $\\mp \\frac{x}{4}\\cos(2x)$, which is unbounded and non-periodic, so (A) is false. If $a \\neq \\pm 2$, the general solution is $y(x) = c_1 \\cos(2x) + c_2 \\sin(2x) + \\frac{\\sin(ax)}{4 - a^2}$. For $a \\in \\mathbb{Q} - \\{-2, 2\\}$: if $a = 0$, $y(x) = y_h(x)$ is $\\pi$-periodic; if $a = p/q \\neq 0$ ($p, q \\in \\mathbb{Z}, q > 0$), then both $\\cos(2x), \\sin(2x)$ (period $\\pi$) and $\\sin(ax)$ (period $\\frac{2\\pi q}{|p|}$) share the common period $T = 2\\pi q > 0$, so every solution is periodic; hence (C) is true. For $a \\in \\mathbb{R} - \\mathbb{Q}$: the ratio of periods of $\\cos(2x)$ and $\\sin(ax)$ is irrational, so $y(x)$ is periodic if and only if $c_1 = c_2 = 0$, leaving the unique periodic solution $y_p(x) = \\frac{\\sin(ax)}{4 - a^2}$ (period $\\frac{2\\pi}{|a|}$). Thus (D) is true and (B) is false. Hence, options (C) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $M$ be a positive real number and let $u, v : \\mathbb{R}^2 \\to \\mathbb{R}$ be continuous functions satisfying $\\sqrt{u(x, y)^2 + v(x, y)^2} \\ge M \\sqrt{x^2 + y^2}$ for all $(x, y) \\in \\mathbb{R}^2$. Let $F : \\mathbb{R}^2 \\to \\mathbb{R}^2$ be given by $F(x, y) = (u(x, y), v(x, y))$ for $(x, y) \\in \\mathbb{R}^2$. Then which of the following is/are true?",
+      "optionsEn": [
+        "$F$ is injective.",
+        "If $K$ is open in $\\mathbb{R}^2$, then $F(K)$ is open in $\\mathbb{R}^2$.",
+        "If $K$ is closed in $\\mathbb{R}^2$, then $F(K)$ is closed in $\\mathbb{R}^2$.",
+        "If $E$ is closed and bounded in $\\mathbb{R}^2$, then $F^{-1}(E)$ is closed and bounded in $\\mathbb{R}^2$."
+      ],
+      "explanationEn": "The condition states $\\|F(p)\\| \\ge M \\|p\\|$ for all $p = (x, y) \\in \\mathbb{R}^2$ with $M > 0$. Counterexample for (A) and (B): take $F(x, y) = \\left(\\sqrt{x^2 + y^2}, 0\\right)$ with $M = 1$. $F$ is continuous and $\\|F(x, y)\\| = \\|(x, y)\\|$, yet $F(1, 0) = F(-1, 0) = (1, 0)$ (not injective, so (A) is false) and $F(\\mathbb{R}^2) = [0, \\infty) \\times \\{0\\}$ is not open in $\\mathbb{R}^2$ (so (B) is false). For (D): if $E \\subseteq \\mathbb{R}^2$ is closed and bounded, then $F^{-1}(E)$ is closed by continuity of $F$. Moreover, there exists $R > 0$ such that $\\|q\\| \\le R$ for all $q \\in E$; thus for any $p \\in F^{-1}(E)$, $M\\|p\\| \\le \\|F(p)\\| \\le R \\implies \\|p\\| \\le R/M$, so $F^{-1}(E)$ is bounded. Hence (D) is true. For (C): let $K \\subseteq \\mathbb{R}^2$ be closed and let $q_n = F(p_n) \\in F(K)$ converge to $q \\in \\mathbb{R}^2$. Then $(q_n)$ is bounded, so by $M\\|p_n\\| \\le \\|q_n\\|$, $(p_n)$ is bounded in $\\mathbb{R}^2$. By Bolzano-Weierstrass, $(p_n)$ has a convergent subsequence $p_{n_k} \\to p \\in K$ (since $K$ is closed). By continuity, $q = \\lim_{k\\to\\infty} F(p_{n_k}) = F(p) \\in F(K)$, so $F(K)$ is closed. Hence (C) is true. Therefore, options (C) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a finite group of order at least two and let $e$ denote the identity element of $G$. Let $\\sigma : G \\to G$ be a bijective group homomorphism that satisfies the following two conditions: (i) If $\\sigma(g) = g$ for some $g \\in G$, then $g = e$, (ii) $(\\sigma \\circ \\sigma)(g) = g$ for all $g \\in G$. Then which of the following is/are correct?",
+      "optionsEn": [
+        "For each $g \\in G$, there exists $h \\in G$ such that $h^{-1} \\sigma(h) = g$.",
+        "There exists $x \\in G$ such that $x \\sigma(x) \\neq e$.",
+        "The map $\\sigma$ satisfies $\\sigma(x) = x^{-1}$ for every $x \\in G$.",
+        "The order of the group $G$ is an odd number."
+      ],
+      "explanationEn": "Define the map $\\psi : G \\to G$ by $\\psi(h) = h^{-1}\\sigma(h)$. First check that $\\psi$ is injective: if $h_1^{-1}\\sigma(h_1) = h_2^{-1}\\sigma(h_2)$, then $\\sigma(h_1 h_2^{-1}) = h_1 h_2^{-1}$. By condition (i), $h_1 h_2^{-1} = e$, so $h_1 = h_2$. Since $G$ is finite, the injective map $\\psi : G \\to G$ is also surjective; thus for every $g \\in G$ there exists $h \\in G$ with $h^{-1}\\sigma(h) = g$, proving (A). Now let $x \\in G$ be arbitrary. By (A), write $x = h^{-1}\\sigma(h)$ for some $h \\in G$. Applying $\\sigma$ and using condition (ii) ($\\sigma^2 = \\mathrm{id}$): $\\sigma(x) = \\sigma(h^{-1})\\sigma^2(h) = \\sigma(h)^{-1} h = (h^{-1}\\sigma(h))^{-1} = x^{-1}$. This proves (C) and shows $x \\sigma(x) = x x^{-1} = e$ for all $x \\in G$ (so (B) is false). Finally, if $|G|$ were even, by Cauchy's Theorem there would exist $g \\in G$ of order $2$, i.e., $g \\neq e$ with $g^{-1} = g$, giving $\\sigma(g) = g^{-1} = g$, contradicting (i). Thus $|G|$ must be odd, proving (D). Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(x_n)$ be a sequence of real numbers. Consider the set $P = \\{n \\in \\mathbb{N} : x_n > x_m \\text{ for all } m \\in \\mathbb{N} \\text{ with } m > n\\}$. Then which of the following is/are true?",
+      "optionsEn": [
+        "If $P$ is finite, then $(x_n)$ has a monotonically increasing subsequence.",
+        "If $P$ is finite, then no subsequence of $(x_n)$ is monotonically increasing.",
+        "If $P$ is infinite, then $(x_n)$ has a monotonically decreasing subsequence.",
+        "If $P$ is infinite, then no subsequence of $(x_n)$ is monotonically decreasing."
+      ],
+      "explanationEn": "The elements of $P$ are the 'peak indices' of the sequence $(x_n)$ (used in the classic proof of the Monotone Subsequence Theorem). Case 1: Suppose $P$ is infinite. List the elements of $P$ in strictly increasing order as $n_1 < n_2 < n_3 < \\cdots$. Because each $n_k \\in P$ and $n_{k+1} > n_k$, the definition of $P$ gives $x_{n_1} > x_{n_2} > x_{n_3} > \\cdots$, so $(x_{n_k})$ is a strictly (and hence monotonically) decreasing subsequence of $(x_n)$. Thus (C) is true and (D) is false. Case 2: Suppose $P$ is finite. Choose $n_1 \\in \\mathbb{N}$ strictly greater than all elements of $P$ (or $n_1 = 1$ if $P = \\emptyset$). Since $n_1 \\notin P$, there exists $n_2 > n_1$ with $x_{n_2} \\ge x_{n_1}$. Inductively, since $n_k \\notin P$, there exists $n_{k+1} > n_k$ with $x_{n_{k+1}} \\ge x_{n_k}$. This constructs a monotonically increasing subsequence $(x_{n_k})$ of $(x_n)$. Thus (A) is true and (B) is false. Hence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be the real vector space consisting of all polynomials in one variable with real coefficients and having degree at most $5$, together with the zero polynomial. Let $T : V \\to \\mathbb{R}$ be the linear map defined by $T(1) = 1$ and $T(x(x - 1)\\cdots(x - k + 1)) = 1$ for $1 \\le k \\le 5$. Then which of the following is/are true?",
+      "optionsEn": [
+        "$T(x^4) = 15$.",
+        "$T(x^3) = 5$.",
+        "$T(x^4) = 14$.",
+        "$T(x^3) = 3$."
+      ],
+      "explanationEn": "Denote the falling factorial basis polynomials by $p_0(x) = 1$ and $p_k(x) = x(x - 1)\\cdots(x - k + 1)$ for $1 \\le k \\le 5$, so $T(p_k) = 1$ for all $0 \\le k \\le 5$. Express $x, x^2, x^3, x^4$ in terms of this basis: $x = p_1(x) \\implies T(x) = 1$. $x^2 = x(x - 1) + x = p_2(x) + p_1(x) \\implies T(x^2) = 1 + 1 = 2$. $p_3(x) = x(x - 1)(x - 2) = x^3 - 3x^2 + 2x$, so $x^3 = p_3(x) + 3x^2 - 2x$. Applying linearity of $T$: $T(x^3) = T(p_3) + 3T(x^2) - 2T(x) = 1 + 3(2) - 2(1) = 5$, proving (B). Next, $p_4(x) = x(x - 1)(x - 2)(x - 3) = x^4 - 6x^3 + 11x^2 - 6x$, so $x^4 = p_4(x) + 6x^3 - 11x^2 + 6x$. Applying $T$: $T(x^4) = T(p_4) + 6T(x^3) - 11T(x^2) + 6T(x) = 1 + 6(5) - 11(2) + 6(1) = 1 + 30 - 22 + 6 = 15$ (these are the Bell numbers $B_3 = 5, B_4 = 15$), proving (A). Hence, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P$ be a fixed $3 \\times 3$ matrix with entries in $\\mathbb{R}$. Which of the following maps from $M_3(\\mathbb{R})$ to $M_3(\\mathbb{R})$ is/are linear?",
+      "optionsEn": [
+        "$T_1 : M_3(\\mathbb{R}) \\to M_3(\\mathbb{R})$ given by $T_1(M) = MP - PM$ for $M \\in M_3(\\mathbb{R})$.",
+        "$T_2 : M_3(\\mathbb{R}) \\to M_3(\\mathbb{R})$ given by $T_2(M) = M^2 P - P^2 M$ for $M \\in M_3(\\mathbb{R})$.",
+        "$T_3 : M_3(\\mathbb{R}) \\to M_3(\\mathbb{R})$ given by $T_3(M) = M P^2 + P^2 M$ for $M \\in M_3(\\mathbb{R})$.",
+        "$T_4 : M_3(\\mathbb{R}) \\to M_3(\\mathbb{R})$ given by $T_4(M) = M P^2 - P M^2$ for $M \\in M_3(\\mathbb{R})$."
+      ],
+      "explanationEn": "A map $T : M_3(\\mathbb{R}) \\to M_3(\\mathbb{R})$ is linear if and only if $T(\\alpha M + N) = \\alpha T(M) + T(N)$ for all $M, N \\in M_3(\\mathbb{R})$ and $\\alpha \\in \\mathbb{R}$. (A) $T_1(\\alpha M + N) = (\\alpha M + N)P - P(\\alpha M + N) = \\alpha(MP - PM) + (NP - PN) = \\alpha T_1(M) + T_1(N)$, so $T_1$ is linear. (C) $T_3(\\alpha M + N) = (\\alpha M + N)P^2 + P^2(\\alpha M + N) = \\alpha(MP^2 + P^2 M) + (NP^2 + P^2 N) = \\alpha T_3(M) + T_3(N)$, so $T_3$ is linear (since $P^2$ is fixed). (B) and (D) involve the quadratic term $M^2$: for $P = I_3$ and $M = I_3$, $T_2(2 I_3) = 4 I_3 - 2 I_3 = 2 I_3 \\neq 2 T_2(I_3) = 0$, and $T_4(2 I_3) = 2 I_3 - 4 I_3 = -2 I_3 \\neq 2 T_4(I_3) = 0$. Thus $T_2$ and $T_4$ are not linear in general. Hence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2022_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Easy",
+      "correctOption": "2.19 to 2.21",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.19,
+      "natMax": 2.21,
+      "questionTextEn": "The value of the limit $\\lim_{n \\to \\infty} \\left(\\frac{1^4 + 2^4 + \\cdots + n^4}{n^5} + \\frac{1}{\\sqrt{n}}\\left(\\frac{1}{\\sqrt{n+1}} + \\frac{1}{\\sqrt{n+2}} + \\cdots + \\frac{1}{\\sqrt{4n}}\\right)\\right)$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Evaluate both parts as Riemann sums of definite integrals. First term: $\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^{n} \\left(\\frac{k}{n}\\right)^4 = \\int_{0}^{1} x^4\\,dx = \\left[\\frac{x^5}{5}\\right]_{0}^{1} = \\frac{1}{5} = 0.20$. Second term: notice there are $3n$ terms from $n+1$ to $4n = n + 3n$. Factoring out $\\frac{1}{\\sqrt{n}}$ from each denominator gives $\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^{3n} \\frac{1}{\\sqrt{1 + \\frac{k}{n}}} = \\int_{0}^{3} \\frac{dx}{\\sqrt{1 + x}} = \\left[2\\sqrt{1 + x}\\right]_{0}^{3} = 2(\\sqrt{4} - \\sqrt{1}) = 2(2 - 1) = 2$. Adding the two limits gives $0.20 + 2 = 2.20$, which matches the official answer range $2.19$ to $2.21$."
+    },
+    {
+      "questionId": "jam_ma_2022_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Easy",
+      "correctOption": "14",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "Consider the function $u : \\mathbb{R}^3 \\to \\mathbb{R}$ given by $u(x_1, x_2, x_3) = x_1 x_2^4 x_3^2 - x_1^3 x_3^4 - 26 x_1^2 x_2^2 x_3^3$. Let $c \\in \\mathbb{R}$ and $k \\in \\mathbb{N}$ be such that $x_1 \\frac{\\partial u}{\\partial x_2} + 2 x_2 \\frac{\\partial u}{\\partial x_3}$ evaluated at the point $(t, t^2, t^3)$, equals $c t^k$ for every $t \\in \\mathbb{R}$. Then the value of $k$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Compute the partial derivatives of $u(x_1, x_2, x_3) = x_1 x_2^4 x_3^2 - x_1^3 x_3^4 - 26 x_1^2 x_2^2 x_3^3$: $\\frac{\\partial u}{\\partial x_2} = 4 x_1 x_2^3 x_3^2 - 52 x_1^2 x_2 x_3^3$ and $\\frac{\\partial u}{\\partial x_3} = 2 x_1 x_2^4 x_3 - 4 x_1^3 x_3^3 - 78 x_1^2 x_2^2 x_3^2$. Now substitute $(x_1, x_2, x_3) = (t, t^2, t^3)$ into each term: $x_1 \\frac{\\partial u}{\\partial x_2} = 4 t^2 (t^2)^3 (t^3)^2 - 52 t^3 (t^2)(t^3)^3 = 4 t^{14} - 52 t^{14} = -48 t^{14}$, and $2 x_2 \\frac{\\partial u}{\\partial x_3} = 4 t (t^2)^5 (t^3) - 8 t^3 (t^2)(t^3)^3 - 156 t^2 (t^2)^3 (t^3)^2 = (4 - 8 - 156) t^{14} = -160 t^{14}$. Adding these gives $x_1 \\frac{\\partial u}{\\partial x_2} + 2 x_2 \\frac{\\partial u}{\\partial x_3} = -208 t^{14}$ for all $t \\in \\mathbb{R}$. Since $c = -208 \\neq 0$, we obtain $k = 14$."
+    },
+    {
+      "questionId": "jam_ma_2022_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "0.32 to 0.34",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.32,
+      "natMax": 0.34,
+      "questionTextEn": "Let $y(x)$ be the solution of the differential equation $\\frac{dy}{dx} + 3 x^2 y = x^2$, for $x \\in \\mathbb{R}$, satisfying the initial condition $y(0) = 4$. Then $\\lim_{x \\to \\infty} y(x)$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "This is a first-order linear ODE $\\frac{dy}{dx} + 3x^2 y = x^2$. The integrating factor is $\\mu(x) = \\exp\\left(\\int 3x^2\\,dx\\right) = e^{x^3}$. Multiplying the equation by $e^{x^3}$ gives $\\frac{d}{dx}\\left(e^{x^3} y\\right) = x^2 e^{x^3}$. Integrating both sides yields $e^{x^3} y(x) = \\frac{1}{3} e^{x^3} + C$, so $y(x) = \\frac{1}{3} + C e^{-x^3}$. Applying the initial condition $y(0) = 4$ gives $4 = \\frac{1}{3} + C \\implies C = \\frac{11}{3}$. Thus $y(x) = \\frac{1}{3} + \\frac{11}{3} e^{-x^3}$. Taking the limit as $x \\to \\infty$, since $e^{-x^3} \\to 0$, we obtain $\\lim_{x \\to \\infty} y(x) = \\frac{1}{3} \\approx 0.33$, which matches the official answer range $0.32$ to $0.34$."
+    },
+    {
+      "questionId": "jam_ma_2022_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "0.24 to 0.26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.24,
+      "natMax": 0.26,
+      "questionTextEn": "The sum of the series $\\sum_{n=1}^{\\infty} \\frac{1}{(4n - 3)(4n + 1)}$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Decompose the general term using partial fractions: $\\frac{1}{(4n - 3)(4n + 1)} = \\frac{1}{4}\\left(\\frac{1}{4n - 3} - \\frac{1}{4n + 1}\\right)$. Notice that $4(n + 1) - 3 = 4n + 1$, so the series telescopes cleanly. The $N$-th partial sum is $S_N = \\frac{1}{4} \\sum_{n=1}^{N} \\left(\\frac{1}{4n - 3} - \\frac{1}{4n + 1}\\right) = \\frac{1}{4}\\left[\\left(1 - \\frac{1}{5}\\right) + \\left(\\frac{1}{5} - \\frac{1}{9}\\right) + \\cdots + \\left(\\frac{1}{4N - 3} - \\frac{1}{4N + 1}\\right)\\right] = \\frac{1}{4}\\left(1 - \\frac{1}{4N + 1}\\right)$. Taking $N \\to \\infty$ gives $\\sum_{n=1}^{\\infty} \\frac{1}{(4n - 3)(4n + 1)} = \\frac{1}{4} = 0.25$, which matches the official answer range $0.24$ to $0.26$."
+    },
+    {
+      "questionId": "jam_ma_2022_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The number of distinct subgroups of $\\mathbb{Z}_{999}$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "For a finite cyclic group $\\mathbb{Z}_n$, there is a unique subgroup of order $d$ for every positive divisor $d$ of $n$, so the total number of distinct subgroups equals the divisor function $\\tau(n)$. Factor $999$ into primes: $999 = 9 \\times 111 = 9 \\times 3 \\times 37 = 3^3 \\times 37^1$. Therefore, the number of positive divisors of $999$ is $\\tau(999) = (3 + 1)(1 + 1) = 4 \\times 2 = 8$. Hence, $\\mathbb{Z}_{999}$ has exactly $8$ distinct subgroups."
+    },
+    {
+      "questionId": "jam_ma_2022_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Easy",
+      "correctOption": "420",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 420.0,
+      "natMax": 420.0,
+      "questionTextEn": "The number of elements of order $12$ in the symmetric group $S_7$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The order of a permutation in $S_7$ is the least common multiple (lcm) of the lengths of its disjoint cycles, and the sum of the cycle lengths (including $1$-cycles) must equal $7$. To achieve $\\operatorname{lcm} = 12 = 2^2 \\cdot 3$, the cycle decomposition must include a cycle of length divisible by $4$ and a cycle of length divisible by $3$. Since $4 + 3 = 7$, the only possible cycle type in $S_7$ of order $12$ is a disjoint product of one $4$-cycle and one $3$-cycle, i.e., cycle type $(4, 3)$. The number of permutations of cycle type $(4, 3)$ in $S_7$ is $\\frac{7!}{4^1 \\cdot 1! \\cdot 3^1 \\cdot 1!} = \\frac{5040}{12} = 420$ (equivalently, $\\binom{7}{4} \\cdot (4 - 1)! \\cdot (3 - 1)! = 35 \\times 6 \\times 2 = 420$). Hence, there are $420$ elements of order $12$ in $S_7$."
+    },
+    {
+      "questionId": "jam_ma_2022_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.0,
+      "natMax": 0.0,
+      "questionTextEn": "Let $y(x)$ be the solution of the differential equation $x y^2 y' + y^3 = \\frac{\\sin x}{x}$ for $x > 0$, satisfying $y\\left(\\frac{\\pi}{2}\\right) = 0$. Then the value of $y\\left(\\frac{5\\pi}{2}\\right)$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Let $u(x) = y(x)^3$, so $u'(x) = 3 y^2 y'$. Multiplying the differential equation $x y^2 y' + y^3 = \\frac{\\sin x}{x}$ by $3$ yields $x u' + 3 u = \\frac{3\\sin x}{x}$, or equivalently $u' + \\frac{3}{x} u = \\frac{3\\sin x}{x^2}$ for $x > 0$. This is a first-order linear ODE in $u$ with integrating factor $\\mu(x) = \\exp\\left(\\int \\frac{3}{x}\\,dx\\right) = x^3$. Multiplying by $x^3$ gives $\\frac{d}{dx}\\left(x^3 u\\right) = 3 x \\sin x$. Integrating from $\\frac{\\pi}{2}$ to $x$ and using $u\\left(\\frac{\\pi}{2}\\right) = \\left(y\\left(\\frac{\\pi}{2}\\right)\\right)^3 = 0$: $x^3 u(x) = 3 \\int_{\\pi/2}^{x} t \\sin t\\,dt = 3\\left[-t\\cos t + \\sin t\\right]_{\\pi/2}^{x} = 3(-x\\cos x + \\sin x - 1)$. At $x = \\frac{5\\pi}{2}$, we have $\\cos\\left(\\frac{5\\pi}{2}\\right) = 0$ and $\\sin\\left(\\frac{5\\pi}{2}\\right) = 1$, so $\\left(\\frac{5\\pi}{2}\\right)^3 u\\left(\\frac{5\\pi}{2}\\right) = 3(0 + 1 - 1) = 0$. Thus $u\\left(\\frac{5\\pi}{2}\\right) = 0$, which gives $y\\left(\\frac{5\\pi}{2}\\right) = 0$."
+    },
+    {
+      "questionId": "jam_ma_2022_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Easy",
+      "correctOption": "0.49 to 0.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.49,
+      "natMax": 0.51,
+      "questionTextEn": "Consider the region $G = \\{(x, y, z) \\in \\mathbb{R}^3 : 0 < z < x^2 - y^2,\\; x^2 + y^2 < 1\\}$. Then the volume of $G$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The projection $D$ of $G$ onto the $xy$-plane is the subset of the open unit disk $x^2 + y^2 < 1$ where $x^2 - y^2 > 0$. Convert to polar coordinates $x = r\\cos\\theta$, $y = r\\sin\\theta$, where $x^2 - y^2 = r^2\\cos(2\\theta)$. The condition $\\cos(2\\theta) > 0$ holds on two symmetric angular sectors: $\\theta \\in \\left(-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right)$ and $\\theta \\in \\left(\\frac{3\\pi}{4}, \\frac{5\\pi}{4}\\right)$. By symmetry, the volume of $G$ is $V = \\iint_D (x^2 - y^2)\\,dx\\,dy = 2 \\int_{-\\pi/4}^{\\pi/4} \\int_{0}^{1} (r^2 \\cos 2\\theta) r\\,dr\\,d\\theta = 2 \\left(\\int_{0}^{1} r^3\\,dr\\right) \\left(\\int_{-\\pi/4}^{\\pi/4} \\cos 2\\theta\\,d\\theta\\right)$. Evaluating each integral: $\\int_{0}^{1} r^3\\,dr = \\frac{1}{4}$ and $\\int_{-\\pi/4}^{\\pi/4} \\cos 2\\theta\\,d\\theta = \\left[\\frac{\\sin 2\\theta}{2}\\right]_{-\\pi/4}^{\\pi/4} = \\frac{1 - (-1)}{2} = 1$. Therefore, $V = 2 \\cdot \\frac{1}{4} \\cdot 1 = \\frac{1}{2} = 0.50$, which matches the official answer range $0.49$ to $0.51$."
+    },
+    {
+      "questionId": "jam_ma_2022_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "2.24 to 2.26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.24,
+      "natMax": 2.26,
+      "questionTextEn": "Given that $y(x)$ is a solution of the differential equation $x^2 y'' + x y' - 4y = x^2$ on the interval $(0, \\infty)$ such that $\\lim_{x \\to 0^+} y(x)$ exists and $y(1) = 1$. The value of $y'(1)$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "This is a second-order Cauchy-Euler equation on $(0, \\infty)$. For the homogeneous equation $x^2 y'' + x y' - 4y = 0$, substituting $y = x^r$ gives the indicial equation $r(r - 1) + r - 4 = r^2 - 4 = 0$, so $r = \\pm 2$ and $y_h(x) = c_1 x^2 + c_2 x^{-2}$. Because the right-hand side $x^2$ matches a homogeneous solution, seek a particular solution of the form $y_p(x) = A x^2 \\ln x$. Then $y_p'(x) = A(2x\\ln x + x)$ and $y_p''(x) = A(2\\ln x + 3)$. Substituting into the ODE: $x^2 A(2\\ln x + 3) + x A(2x\\ln x + x) - 4 A x^2\\ln x = 4 A x^2 = x^2 \\implies A = \\frac{1}{4}$. Hence the general solution is $y(x) = c_1 x^2 + c_2 x^{-2} + \\frac{1}{4} x^2 \\ln x$. Since $\\lim_{x \\to 0^+} x^2 \\ln x = 0$ and $\\lim_{x \\to 0^+} x^{-2} = \\infty$, the existence of $\\lim_{x \\to 0^+} y(x)$ forces $c_2 = 0$. From $y(1) = 1$, we get $c_1(1) + 0 = 1 \\implies c_1 = 1$, so $y(x) = x^2 + \\frac{1}{4} x^2 \\ln x$. Differentiating gives $y'(x) = 2x + \\frac{1}{2} x \\ln x + \\frac{1}{4} x$, and evaluating at $x = 1$ yields $y'(1) = 2 + 0 + \\frac{1}{4} = 2.25$, matching the official answer range $2.24$ to $2.26$."
+    },
+    {
+      "questionId": "jam_ma_2022_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Consider the family $\\mathcal{F}_1$ of curves lying in the region $\\{(x, y) \\in \\mathbb{R}^2 : y > 0 \\text{ and } 0 < x < \\pi\\}$ and given by $y = \\frac{c(1 - \\cos x)}{\\sin x}$, where $c$ is a positive real number. Let $\\mathcal{F}_2$ be the family of orthogonal trajectories to $\\mathcal{F}_1$. Consider the curve $\\mathcal{C}$ belonging to the family $\\mathcal{F}_2$ passing through the point $\\left(\\frac{\\pi}{3}, 1\\right)$. If $a$ is a real number such that $\\left(\\frac{\\pi}{4}, a\\right)$ lies on $\\mathcal{C}$, then the value of $a^4$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Using the half-angle identities $1 - \\cos x = 2\\sin^2(x/2)$ and $\\sin x = 2\\sin(x/2)\\cos(x/2)$, the family $\\mathcal{F}_1$ simplifies to $y = c \\tan\\left(\\frac{x}{2}\\right)$. Differentiating with respect to $x$ gives $y' = \\frac{c}{2}\\sec^2\\left(\\frac{x}{2}\\right)$. Eliminating $c = \\frac{y}{\\tan(x/2)}$ yields the differential equation of $\\mathcal{F}_1$: $y' = \\frac{y}{2\\tan(x/2)\\cos^2(x/2)} = \\frac{y}{2\\sin(x/2)\\cos(x/2)} = \\frac{y}{\\sin x}$. To find the orthogonal trajectories $\\mathcal{F}_2$, replace $y'$ by $-\\frac{1}{y'}$: $-\\frac{1}{y'} = \\frac{y}{\\sin x} \\implies y\\,dy = -\\sin x\\,dx$. Integrating both sides gives $\\frac{y^2}{2} = \\cos x + K$. Since $\\mathcal{C}$ passes through $\\left(\\frac{\\pi}{3}, 1\\right)$, we have $\\frac{1^2}{2} = \\cos\\left(\\frac{\\pi}{3}\\right) + K = \\frac{1}{2} + K \\implies K = 0$. Thus $\\mathcal{C}$ is given by $y^2 = 2\\cos x$. Since $\\left(\\frac{\\pi}{4}, a\\right)$ lies on $\\mathcal{C}$, we get $a^2 = 2\\cos\\left(\\frac{\\pi}{4}\\right) = \\sqrt{2}$, so $a^4 = (\\sqrt{2})^2 = 2.00$."
+    },
+    {
+      "questionId": "jam_ma_2022_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "For $t \\in \\mathbb{R}$, let $[t]$ denote the greatest integer less than or equal to $t$. Let $D = \\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 < 4\\}$. Let $f : D \\to \\mathbb{R}$ and $g : D \\to \\mathbb{R}$ be defined by $f(0, 0) = g(0, 0) = 0$ and $f(x, y) = [x^2 + y^2]\\frac{x^2 y^2}{x^4 + y^4}$, $g(x, y) = [y^2]\\frac{xy}{x^2 + y^2}$ for $(x, y) \\neq (0, 0)$. Let $E$ be the set of points of $D$ at which both $f$ and $g$ are discontinuous. The number of elements in the set $E$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Inside the open disk $D = \\{x^2 + y^2 < 4\\}$, we have $0 \\le x^2 + y^2 < 4$ and $0 \\le y^2 < 4$. Near the origin ($x^2 + y^2 < 1$), both $[x^2 + y^2] = 0$ and $[y^2] = 0$, so $f \\equiv 0$ and $g \\equiv 0$ on the unit disk; hence both are continuous at $(0, 0)$. The floor function $[x^2 + y^2]$ has jump discontinuities along the three concentric circles $C_k : x^2 + y^2 = k$ for $k \\in \\{1, 2, 3\\}$, while $[y^2]$ has jump discontinuities along the six horizontal lines $L_m : y^2 = m$ (i.e., $y = \\pm\\sqrt{m}$) for $m \\in \\{1, 2, 3\\}$. Counting all intersection points of the circles $C_k$ with the lines $L_m$ inside $D$ (requiring $x^2 = k - m \\ge 0$): (1) $m = 1, k = 1 \\implies (0, \\pm 1)$ ($2$ points); (2) $m = 1, k = 2 \\implies (\\pm 1, \\pm 1)$ ($4$ points); (3) $m = 1, k = 3 \\implies (\\pm\\sqrt{2}, \\pm 1)$ ($4$ points); (4) $m = 2, k = 2 \\implies (0, \\pm\\sqrt{2})$ ($2$ points); (5) $m = 2, k = 3 \\implies (\\pm 1, \\pm\\sqrt{2})$ ($4$ points); (6) $m = 3, k = 3 \\implies (0, \\pm\\sqrt{3})$ ($2$ points). Summing these gives $2 + 4 + 4 + 2 + 4 + 2 = 18$ intersection points, which is the official IIT Roorkee answer key ($18$). (Note: strictly speaking, at the $6$ points on the $y$-axis where $x = 0$, the continuous rational factors vanish so both $f$ and $g$ are actually continuous there, leaving $12$ strict common discontinuity points; however, IIT Roorkee's final key counts all $18$ intersections of the floor-function jump curves.)"
+    },
+    {
+      "questionId": "jam_ma_2022_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "4.15 to 4.17",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.15,
+      "natMax": 4.17,
+      "questionTextEn": "If $G$ is the region in $\\mathbb{R}^2$ given by $G = \\left\\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 < 1,\\; \\frac{x}{\\sqrt{3}} < y < \\sqrt{3} x,\\; x > 0,\\; y > 0\\right\\}$, then the value of $\\frac{200}{\\pi} \\iint_G x^2\\,dx\\,dy$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Convert the region $G$ to polar coordinates $x = r\\cos\\theta$, $y = r\\sin\\theta$, with $dx\\,dy = r\\,dr\\,d\\theta$. The condition $x^2 + y^2 < 1$ gives $0 < r < 1$. In the first quadrant ($x > 0, y > 0$), the inequality $\\frac{1}{\\sqrt{3}} < \\frac{y}{x} < \\sqrt{3}$ translates to $\\frac{1}{\\sqrt{3}} < \\tan\\theta < \\sqrt{3}$, which corresponds to $\\frac{\\pi}{6} < \\theta < \\frac{\\pi}{3}$. Therefore, $\\iint_G x^2\\,dx\\,dy = \\int_{\\pi/6}^{\\pi/3} \\int_{0}^{1} (r^2 \\cos^2\\theta) r\\,dr\\,d\\theta = \\left(\\int_{0}^{1} r^3\\,dr\\right) \\left(\\int_{\\pi/6}^{\\pi/3} \\frac{1 + \\cos 2\\theta}{2}\\,d\\theta\\right)$. We have $\\int_{0}^{1} r^3\\,dr = \\frac{1}{4}$ and $\\int_{\\pi/6}^{\\pi/3} \\frac{1 + \\cos 2\\theta}{2}\\,d\\theta = \\frac{1}{2}\\left[\\theta + \\frac{\\sin 2\\theta}{2}\\right]_{\\pi/6}^{\\pi/3} = \\frac{1}{2}\\left(\\frac{\\pi}{6} + \\frac{\\sqrt{3}/2 - \\sqrt{3}/2}{2}\\right) = \\frac{\\pi}{12}$. Thus $\\iint_G x^2\\,dx\\,dy = \\frac{1}{4} \\cdot \\frac{\\pi}{12} = \\frac{\\pi}{48}$, and multiplying by $\\frac{200}{\\pi}$ gives $\\frac{200}{48} = \\frac{25}{6} \\approx 4.17$, which matches the official answer range $4.15$ to $4.17$."
+    },
+    {
+      "questionId": "jam_ma_2022_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\\\ -1 & 1 \\end{pmatrix}$ and let $A^{\\top}$ denote the transpose of $A$. Let $u = \\begin{pmatrix} u_1 \\\\ u_2 \\end{pmatrix}$ and $v = \\begin{pmatrix} v_1 \\\\ v_2 \\\\ v_3 \\end{pmatrix}$ be column vectors with entries in $\\mathbb{R}$ such that $u_1^2 + u_2^2 = 1$ and $v_1^2 + v_2^2 + v_3^2 = 1$. Suppose $Au = \\sqrt{2}\\,v$ and $A^{\\top} v = \\sqrt{2}\\,u$. Then $|u_1 + 2\\sqrt{2}\\,v_1|$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "From $Au = \\sqrt{2}\\,v$ and $A^{\\top} v = \\sqrt{2}\\,u$, substitute $v = \\frac{1}{\\sqrt{2}} Au$ into the second equation to obtain $A^{\\top} A u = 2 u$. Compute $A^{\\top} A$: $A^{\\top} A = \\begin{pmatrix} 1 & 0 & -1 \\\\ 1 & 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\\\ -1 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix}$. Thus $u$ is a unit eigenvector of $A^{\\top} A$ corresponding to the eigenvalue $\\lambda = 2$: $\\begin{pmatrix} 2 u_1 \\\\ 3 u_2 \\end{pmatrix} = \\begin{pmatrix} 2 u_1 \\\\ 2 u_2 \\end{pmatrix} \\implies u_2 = 0$. Since $u_1^2 + u_2^2 = 1$, we have $u_1 = \\pm 1$, i.e., $u = \\pm \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$. Then $v = \\frac{1}{\\sqrt{2}} A u = \\pm \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}$, so $v_1 = \\pm \\frac{1}{\\sqrt{2}}$ with the exact same sign as $u_1$. Therefore, $|u_1 + 2\\sqrt{2}\\,v_1| = \\left|\\pm\\left(1 + 2\\sqrt{2} \\cdot \\frac{1}{\\sqrt{2}}\\right)\\right| = |1 + 2| = 3.00$."
+    },
+    {
+      "questionId": "jam_ma_2022_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $f : [0, \\pi] \\to \\mathbb{R}$ be the function defined by $f(x) = \\begin{cases} (x - \\pi) e^{\\sin x} & \\text{if } 0 \\le x \\le \\frac{\\pi}{2}, \\\\ x e^{\\sin x} + \\frac{4}{\\pi} & \\text{if } \\frac{\\pi}{2} < x \\le \\pi. \\end{cases}$ Then the value of $\\int_{0}^{\\pi} f(x)\\,dx$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Split the integral at $x = \\frac{\\pi}{2}$: $\\int_{0}^{\\pi} f(x)\\,dx = \\int_{0}^{\\pi/2} (x - \\pi) e^{\\sin x}\\,dx + \\int_{\\pi/2}^{\\pi} x e^{\\sin x}\\,dx + \\int_{\\pi/2}^{\\pi} \\frac{4}{\\pi}\\,dx$. In the second integral, apply the substitution $x = \\pi - t$ (so $dx = -dt$ and $\\sin(\\pi - t) = \\sin t$): $\\int_{\\pi/2}^{\\pi} x e^{\\sin x}\\,dx = \\int_{\\pi/2}^{0} (\\pi - t) e^{\\sin t}(-dt) = \\int_{0}^{\\pi/2} (\\pi - t) e^{\\sin t}\\,dt$. Adding this to the first integral gives $\\int_{0}^{\\pi/2} \\left[(x - \\pi) + (\\pi - x)\\right] e^{\\sin x}\\,dx = 0$. Hence only the constant term remains: $\\int_{0}^{\\pi} f(x)\\,dx = \\int_{\\pi/2}^{\\pi} \\frac{4}{\\pi}\\,dx = \\frac{4}{\\pi}\\left(\\pi - \\frac{\\pi}{2}\\right) = 2.00$."
+    },
+    {
+      "questionId": "jam_ma_2022_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $r$ be the radius of convergence of the power series $\\frac{1}{3} + \\frac{x}{5} + \\frac{x^2}{3^2} + \\frac{x^3}{5^2} + \\frac{x^4}{3^3} + \\frac{x^5}{5^3} + \\frac{x^6}{3^4} + \\frac{x^7}{5^4} + \\cdots$. Then the value of $r^2$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Write the power series as $\\sum_{n=0}^{\\infty} a_n x^n$, where for each $k \\ge 0$: $a_{2k} = \\frac{1}{3^{k+1}}$ (even powers) and $a_{2k+1} = \\frac{1}{5^{k+1}}$ (odd powers). Compute the limits of $|a_n|^{1/n}$ along the even and odd subsequences: $\\lim_{k \\to \\infty} |a_{2k}|^{1/(2k)} = \\lim_{k \\to \\infty} \\left(\\frac{1}{3^{k+1}}\\right)^{1/(2k)} = \\lim_{k \\to \\infty} 3^{-\\frac{1}{2} - \\frac{1}{2k}} = \\frac{1}{\\sqrt{3}}$, and $\\lim_{k \\to \\infty} |a_{2k+1}|^{1/(2k+1)} = \\lim_{k \\to \\infty} \\left(\\frac{1}{5^{k+1}}\\right)^{1/(2k+1)} = \\frac{1}{\\sqrt{5}}$. By the Cauchy-Hadamard theorem, $\\frac{1}{r} = \\limsup_{n \\to \\infty} |a_n|^{1/n} = \\max\\left(\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{5}}\\right) = \\frac{1}{\\sqrt{3}}$. Thus $r = \\sqrt{3}$, and therefore $r^2 = 3.00$."
+    },
+    {
+      "questionId": "jam_ma_2022_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Define $f : \\mathbb{R}^2 \\to \\mathbb{R}$ by $f(x, y) = x^2 + 2y^2 - x$ for $(x, y) \\in \\mathbb{R}^2$. Let $D = \\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 \\le 1\\}$ and $E = \\left\\{(x, y) \\in \\mathbb{R}^2 : \\frac{x^2}{4} + \\frac{y^2}{9} \\le 1\\right\\}$. Consider the sets $D_{\\max} = \\{(a, b) \\in D : f \\text{ has absolute maximum on } D \\text{ at } (a, b)\\}$, $D_{\\min} = \\{(a, b) \\in D : f \\text{ has absolute minimum on } D \\text{ at } (a, b)\\}$, $E_{\\max} = \\{(c, d) \\in E : f \\text{ has absolute maximum on } E \\text{ at } (c, d)\\}$, $E_{\\min} = \\{(c, d) \\in E : f \\text{ has absolute minimum on } E \\text{ at } (c, d)\\}$. Then the total number of elements in the set $D_{\\max} \\cup D_{\\min} \\cup E_{\\max} \\cup E_{\\min}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Complete the square: $f(x, y) = \\left(x - \\frac{1}{2}\\right)^2 + 2y^2 - \\frac{1}{4}$. 1. Global minimum: clearly $f(x, y) \\ge -\\frac{1}{4}$ everywhere on $\\mathbb{R}^2$, with equality uniquely at $\\left(\\frac{1}{2}, 0\\right)$. Since $\\left(\\frac{1}{2}, 0\\right)$ lies in both $D$ and $E$, we have $D_{\\min} = E_{\\min} = \\left\\{\\left(\\frac{1}{2}, 0\\right)\\right\\}$. 2. Maximum on $D$: since $f$ is strictly convex, its maximum occurs on $\\partial D$ where $y^2 = 1 - x^2$ ($x \\in [-1, 1]$). Then $g(x) = x^2 + 2(1 - x^2) - x = -x^2 - x + 2 = -\\left(x + \\frac{1}{2}\\right)^2 + \\frac{9}{4}$, maximized uniquely at $x = -\\frac{1}{2}$, giving $y = \\pm\\frac{\\sqrt{3}}{2}$. Thus $D_{\\max} = \\left\\{\\left(-\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right), \\left(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)\\right\\}$. 3. Maximum on $E$: on $\\partial E$, $y^2 = 9\\left(1 - \\frac{x^2}{4}\\right)$ ($x \\in [-2, 2]$), so $h(x) = x^2 + 18 - \\frac{9}{2}x^2 - x = -\\frac{7}{2}x^2 - x + 18$, maximized uniquely at $x = -\\frac{1}{7} \\in [-2, 2]$, giving $y = \\pm\\frac{3\\sqrt{195}}{14}$. Thus $E_{\\max} = \\left\\{\\left(-\\frac{1}{7}, \\frac{3\\sqrt{195}}{14}\\right), \\left(-\\frac{1}{7}, -\\frac{3\\sqrt{195}}{14}\\right)\\right\\}$. The sets $D_{\\min} = E_{\\min}$, $D_{\\max}$, and $E_{\\max}$ are pairwise disjoint, so the union contains $1 + 2 + 2 = 5$ distinct points."
+    },
+    {
+      "questionId": "jam_ma_2022_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "41",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 41.0,
+      "natMax": 41.0,
+      "questionTextEn": "Consider the $4 \\times 4$ matrix $M = \\begin{pmatrix} 11 & 10 & 10 & 10 \\\\ 10 & 11 & 10 & 10 \\\\ 10 & 10 & 11 & 10 \\\\ 10 & 10 & 10 & 11 \\end{pmatrix}$. Then the value of the determinant of $M$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Write $M = I_4 + 10 J_4$, where $I_4$ is the $4 \\times 4$ identity matrix and $J_4$ is the $4 \\times 4$ all-ones matrix. Since $\\operatorname{rank}(J_4) = 1$ and $\\operatorname{tr}(J_4) = 4$, the eigenvalues of $J_4$ are $4, 0, 0, 0$. Therefore, the eigenvalues of $M = I_4 + 10 J_4$ are $1 + 10(4) = 41$ (with multiplicity $1$) and $1 + 10(0) = 1$ (with multiplicity $3$). The determinant of $M$ is the product of its eigenvalues: $\\det(M) = 41 \\times 1 \\times 1 \\times 1 = 41$."
+    },
+    {
+      "questionId": "jam_ma_2022_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Let $\\sigma$ be the permutation in the symmetric group $S_5$ given by $\\sigma(1) = 2$, $\\sigma(2) = 3$, $\\sigma(3) = 1$, $\\sigma(4) = 5$, $\\sigma(5) = 4$. Define $N(\\sigma) = \\{\\tau \\in S_5 : \\sigma \\circ \\tau = \\tau \\circ \\sigma\\}$. Then the number of elements in $N(\\sigma)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Express $\\sigma$ as a product of disjoint cycles: $\\sigma = (1\\;2\\;3)(4\\;5)$, which has cycle type $(3, 2)$ in $S_5$. The set $N(\\sigma)$ is the centralizer $C_{S_5}(\\sigma)$ of $\\sigma$ in $S_5$. By the Orbit-Stabilizer Theorem applied to the conjugation action of $S_5$ on itself, $|N(\\sigma)| = \\frac{|S_5|}{|\\operatorname{Cl}(\\sigma)|}$, where $\\operatorname{Cl}(\\sigma)$ is the conjugacy class of $\\sigma$ (all permutations in $S_5$ of cycle type $(3, 2)$). The number of permutations of cycle type $(3, 2)$ in $S_5$ is $|\\operatorname{Cl}(\\sigma)| = \\frac{5!}{3^1 \\cdot 1! \\cdot 2^1 \\cdot 1!} = \\frac{120}{6} = 20$. Therefore, $|N(\\sigma)| = \\frac{120}{20} = 6$ (indeed, $N(\\sigma) = \\langle (1\\;2\\;3) \\rangle \\times \\langle (4\\;5) \\rangle \\cong \\mathbb{Z}_3 \\times \\mathbb{Z}_2 \\cong \\mathbb{Z}_6$)."
+    },
+    {
+      "questionId": "jam_ma_2022_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $f : (-1, 1) \\to \\mathbb{R}$ and $g : (-1, 1) \\to \\mathbb{R}$ be thrice continuously differentiable functions such that $f(x) \\neq g(x)$ for every nonzero $x \\in (-1, 1)$. Suppose $f(0) = \\ln 2$, $f'(0) = \\pi$, $f''(0) = \\pi^2$, and $f'''(0) = \\pi^9$, and $g(0) = \\ln 2$, $g'(0) = \\pi$, $g''(0) = \\pi^2$, and $g'''(0) = \\pi^3$. Then the value of the limit $\\lim_{x \\to 0} \\frac{e^{f(x)} - e^{g(x)}}{f(x) - g(x)}$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Factor out $e^{g(x)}$ from the numerator: $\\frac{e^{f(x)} - e^{g(x)}}{f(x) - g(x)} = e^{g(x)} \\cdot \\frac{e^{f(x) - g(x)} - 1}{f(x) - g(x)}$. Let $u(x) = f(x) - g(x)$. Since $f$ and $g$ are continuous at $0$ with $f(0) = g(0) = \\ln 2$, we have $\\lim_{x \\to 0} u(x) = 0$, and we are given $u(x) \\neq 0$ for all $x \\in (-1, 1) \\setminus \\{0\\}$. Using the standard limit $\\lim_{u \\to 0} \\frac{e^u - 1}{u} = 1$ (equivalently, the Mean Value Theorem gives $\\frac{e^{f(x)} - e^{g(x)}}{f(x) - g(x)} = e^{c_x}$ for some $c_x$ between $f(x)$ and $g(x)$, with $c_x \\to \\ln 2$ as $x \\to 0$): $\\lim_{x \\to 0} \\frac{e^{f(x)} - e^{g(x)}}{f(x) - g(x)} = e^{g(0)} \\cdot 1 = e^{\\ln 2} = 2.00$. (The higher-order derivatives only guarantee $f(x) \\neq g(x)$ near $0$ and do not affect the limit.)"
+    },
+    {
+      "questionId": "jam_ma_2022_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2022 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "13.39 to 13.41",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 13.39,
+      "natMax": 13.41,
+      "questionTextEn": "If $f : [0, \\infty) \\to \\mathbb{R}$ and $g : [0, \\infty) \\to [0, \\infty)$ are continuous functions such that $\\int_{0}^{x^3 + x^2} f(t)\\,dt = x^2$ and $\\int_{0}^{g(x)} t^2\\,dt = 9(x + 1)^3$ for all $x \\in [0, \\infty)$, then the value of $f(2) + g(2) + 16 f(12)$ is equal to _________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Differentiate the first identity $\\int_{0}^{x^3 + x^2} f(t)\\,dt = x^2$ with respect to $x$ using the Fundamental Theorem of Calculus and the chain rule: $f(x^3 + x^2) \\cdot (3x^2 + 2x) = 2x$. For $x > 0$, dividing both sides by $x(3x + 2)$ gives $f(x^3 + x^2) = \\frac{2}{3x + 2}$. Setting $x = 1$ gives $x^3 + x^2 = 2$, so $f(2) = \\frac{2}{3(1) + 2} = \\frac{2}{5} = 0.4$. Setting $x = 2$ gives $x^3 + x^2 = 12$, so $f(12) = \\frac{2}{3(2) + 2} = \\frac{2}{8} = \\frac{1}{4}$, hence $16 f(12) = 4$. From the second identity, evaluate the integral directly: $\\int_{0}^{g(x)} t^2\\,dt = \\frac{(g(x))^3}{3} = 9(x + 1)^3 \\implies (g(x))^3 = 27(x + 1)^3$. Since $g(x) \\ge 0$ is real-valued, taking the cube root gives $g(x) = 3(x + 1)$, so $g(2) = 3(2 + 1) = 9$. Therefore, $f(2) + g(2) + 16 f(12) = 0.4 + 9 + 4 = 13.40$, which matches the official answer range $13.39$ to $13.41$."
+    }
+  ]
+}

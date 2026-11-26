@@ -1,0 +1,582 @@
+{
+  "testId": "gate_ma_topic_lp_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_lp_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Linear Programming — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Linear Programming — Set 1",
+  "partId": "part_12_lp",
+  "part_id": "part_12_lp",
+  "partTitle": "Linear Programming",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: रैखिक प्रोग्रामन — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Linear Programming • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "sectionTitleEn": "Linear Programming",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_lp_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Infeasible and Unbounded LP",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the LPP: Maximize $Z = x_1 + 2x_2$ subject to $x_1 + x_2 \\le 3$, $2x_1 + 2x_2 \\ge 8$, and $x_1, x_2 \\ge 0$. This LPP is:",
+      "optionsEn": [
+        "infeasible",
+        "unbounded",
+        "feasible with alternate optimal solutions",
+        "feasible with a unique optimal solution"
+      ],
+      "explanationEn": "The second constraint $2x_1 + 2x_2 \\ge 8$ simplifies to $x_1 + x_2 \\ge 4$, which directly contradicts the first constraint $x_1 + x_2 \\le 3$. Hence no $(x_1, x_2)$ satisfies both constraints, and the LPP is infeasible."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a primal maximization LPP and its dual minimization LPP. If the primal problem has an unbounded objective value, then by weak duality the dual problem MUST be:",
+      "optionsEn": [
+        "feasible with a finite optimal solution",
+        "infeasible",
+        "unbounded",
+        "feasible with alternate optimal solutions"
+      ],
+      "explanationEn": "By the Weak Duality Theorem, for any primal feasible $x$ and dual feasible $y$, $c^T x \\le b^T y$. If the dual had even a single feasible solution $y$, then $b^T y$ would be a finite upper bound on the primal objective, contradicting primal unboundedness. Hence the dual must be infeasible."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Simplex Method",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "While solving a maximization LPP by the simplex method, suppose for a non-basic variable $x_k$ with strictly improving reduced cost ($z_k - c_k < 0$), every entry $y_{ik}$ in the pivot column of the simplex tableau is less than or equal to zero ($y_{ik} \\le 0$ for all $i$). This indicates that the LPP has:",
+      "optionsEn": [
+        "an unbounded objective value",
+        "a unique finite optimal solution",
+        "alternate finite optimal solutions",
+        "no feasible solution"
+      ],
+      "explanationEn": "When $z_k - c_k < 0$ (so increasing $x_k$ strictly increases the objective value) and every entry $y_{ik} \\le 0$ in the $x_k$-column, increasing $x_k$ to $+\\infty$ keeps all current basic variables $x_{B_i} = b_i - y_{ik} x_k \\ge 0$. Thus the feasible region contains a ray along which the objective tends to $+\\infty$, meaning the LPP is unbounded."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $x^*$ and $y^*$ be feasible solutions to a primal maximization LPP ($\\max c^T x$ s.t. $Ax \\le b, x \\ge 0$) and its dual ($\\min b^T y$ s.t. $A^T y \\ge c, y \\ge 0$), respectively. If $c^T x^* = b^T y^*$, then:",
+      "optionsEn": [
+        "the primal problem must be non-degenerate",
+        "both $x^*$ and $y^*$ are optimal for their respective problems",
+        "$x^*$ is optimal for the primal, but $y^*$ need not be optimal for the dual",
+        "both primal and dual have unique optimal solutions"
+      ],
+      "explanationEn": "By Weak Duality, for every primal feasible $x$ and dual feasible $y$, $c^T x \\le b^T y^* = c^T x^* \\le b^T y$. Thus $x^*$ maximizes $c^T x$ over the primal feasible region and $y^*$ minimizes $b^T y$ over the dual feasible region. Uniqueness and non-degeneracy are not implied."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Transportation Problems",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about a balanced transportation problem with $m$ sources and $n$ destinations (with positive integer supplies and demands) are TRUE?",
+      "optionsEn": [
+        "A balanced transportation problem always has a feasible solution",
+        "A balanced transportation problem can never have an unbounded optimal cost",
+        "Every basic feasible solution has integer-valued allocations",
+        "Vogel's Approximation Method (VAM) always produces the globally optimal solution directly"
+      ],
+      "explanationEn": "(A) Setting $x_{ij} = a_i b_j / (\\sum a_k)$ gives a feasible solution. (B) Since $0 \\le x_{ij} \\le \\min(a_i, b_j)$, the feasible region is nonempty and compact, so a finite optimal solution always exists. (C) The constraint matrix is totally unimodular, so every BFS is integral whenever supplies and demands are integers. (D) is false: VAM is a heuristic for an initial BFS and does not always yield the optimal solution."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements regarding the Simplex Method for a maximization LPP are TRUE?",
+      "optionsEn": [
+        "At a non-degenerate pivot, the objective value strictly increases",
+        "At a degenerate pivot, the objective value remains unchanged",
+        "If an optimal tableau has a non-basic variable with reduced cost $z_j - c_j = 0$ and at least one positive entry in its column, then alternate optimal solutions exist (assuming non-degeneracy)",
+        "The simplex method always visits every extreme point of the feasible region before terminating"
+      ],
+      "explanationEn": "(A) When the minimum ratio $\\theta > 0$ and $z_k - c_k < 0$, the objective increases by $\\theta |z_k - c_k| > 0$. (B) At a degenerate pivot, $\\theta = 0$, so the objective value does not change. (C) Pivoting a non-basic variable with $z_j - c_j = 0$ and a positive column entry into a non-degenerate basis yields a distinct BFS with the same optimal objective value. (D) is false; simplex moves along improving edges and typically visits a small subset of vertices."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Transportation Problems",
+      "difficulty": "Easy",
+      "correctOption": "9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "What is the exact number of positive allocations in a non-degenerate basic feasible solution of a balanced transportation problem with $4$ sources and $6$ destinations?",
+      "optionsEn": [],
+      "explanationEn": "In a balanced transportation problem with $m$ sources and $n$ destinations, the rank of the constraint matrix is $m + n - 1$. A non-degenerate BFS has exactly $m + n - 1 = 4 + 6 - 1 = 9$ positive basic allocations."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Graphical Method",
+      "difficulty": "Easy",
+      "correctOption": "28",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 28.0,
+      "natMax": 28.0,
+      "questionTextEn": "Consider the LPP: Minimize $Z = 6x + 4y$ subject to $2x + y \\ge 8$, $x + 2y \\ge 10$, and $x, y \\ge 0$. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "The corner points of the unbounded feasible region are $(10, 0)$, $(0, 8)$, and the intersection of $2x + y = 8$ and $x + 2y = 10$, which is $(2, 4)$. Evaluating $Z = 6x + 4y$: at $(10, 0)$ gives $60$; at $(0, 8)$ gives $32$; at $(2, 4)$ gives $6(2) + 4(4) = 28$. Since $Z \\ge 0$ and coefficients are positive, the minimum value is $28$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Initial BFS of Transportation Problems",
+      "difficulty": "Easy",
+      "correctOption": "240",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 240.0,
+      "natMax": 240.0,
+      "questionTextEn": "A balanced transportation problem has 2 sources with supplies $(20, 30)$ and 3 destinations with demands $(15, 20, 15)$. The unit transportation cost matrix is $C = \\begin{pmatrix} 4 & 6 & 8 \\\\ 5 & 3 & 7 \\end{pmatrix}$. What is the total transportation cost of the initial basic feasible solution obtained by the North-West Corner Rule?",
+      "optionsEn": [],
+      "explanationEn": "Applying the North-West Corner Rule: allocate $x_{11} = \\min(20, 15) = 15$ (col 1 satisfied, row 1 has $5$ left); allocate $x_{12} = \\min(5, 20) = 5$ (row 1 satisfied, col 2 has $15$ left); allocate $x_{22} = \\min(30, 15) = 15$ (col 2 satisfied, row 2 has $15$ left); allocate $x_{23} = 15$. Total cost $= 15(4) + 5(6) + 15(3) + 15(7) = 60 + 30 + 45 + 105 = 240$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Initial BFS of Transportation Problems",
+      "difficulty": "Medium",
+      "correctOption": "205",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 205.0,
+      "natMax": 205.0,
+      "questionTextEn": "A balanced transportation problem has 2 sources with supplies $(15, 25)$ and 3 destinations with demands $(10, 15, 15)$, and cost matrix $C = \\begin{pmatrix} 8 & 5 & 10 \\\\ 4 & 7 & 6 \\end{pmatrix}$. What is the total cost of the initial basic feasible solution obtained by Vogel's Approximation Method (VAM)?",
+      "optionsEn": [],
+      "explanationEn": "Row penalties: Row 1 is $8 - 5 = 3$, Row 2 is $6 - 4 = 2$. Column penalties: Col 1 is $8 - 4 = 4$, Col 2 is $7 - 5 = 2$, Col 3 is $10 - 6 = 4$. Breaking the tie at penalty $4$ by choosing the minimum cost cell $c_{21} = 4$ allocates $x_{21} = 10$ (Col 1 satisfied, Row 2 has $15$ left). Next penalties: Row 1 is $5$, Row 2 is $1$, Col 2 is $2$, Col 3 is $4$; largest is Row 1 ($5$), allocating $x_{12} = 15$ (Row 1 and Col 2 satisfied). Finally $x_{23} = 15$. Total cost $= 10(4) + 15(5) + 15(6) = 40 + 75 + 90 = 205$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Infeasible and Unbounded LP",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the LPP: Maximize $Z = x_1 + k x_2$ subject to $-x_1 + x_2 \\le 2$, $x_1 - 2x_2 \\le 4$, and $x_1, x_2 \\ge 0$. For which values of the real parameter $k$ does the LPP have a FINITE optimal value?",
+      "optionsEn": [
+        "No real value of $k$ gives a finite optimal value",
+        "$k \\le -1$",
+        "$k \\le -2$",
+        "$k \\ge -2$"
+      ],
+      "explanationEn": "The feasible region is an unbounded cone-like polyhedron whose extreme rays are generated by $d^{(1)} = (1, 1)$ (along $-x_1 + x_2 = 2$) and $d^{(2)} = (2, 1)$ (along $x_1 - 2x_2 = 4$). The maximization LP has a finite optimum iff $c^T d^{(1)} \\le 0$ and $c^T d^{(2)} \\le 0$, i.e., $1 + k \\le 0$ and $2 + k \\le 0$. Both hold simultaneously if and only if $k \\le -2$ (yielding $Z^* = 4$ at $(4, 0)$)."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the primal LPP: Minimize $Z = 4x_1 - 2x_2 + 5x_3$ subject to $x_1 + 2x_2 - x_3 \\ge 7$, $3x_1 - x_2 + 2x_3 = 9$, $x_1 \\ge 0$, $x_2 \\le 0$, and $x_3$ unrestricted in sign. Which of the following is the dual LPP?",
+      "optionsEn": [
+        "Maximize $W = 7y_1 + 9y_2$ subject to $y_1 + 3y_2 \\le 4$, $2y_1 - y_2 \\ge -2$, $-y_1 + 2y_2 = 5$, $y_1 \\ge 0$, $y_2$ unrestricted",
+        "Maximize $W = 7y_1 + 9y_2$ subject to $y_1 + 3y_2 \\le 4$, $2y_1 - y_2 \\le -2$, $-y_1 + 2y_2 = 5$, $y_1 \\ge 0$, $y_2 \\ge 0$",
+        "Maximize $W = 7y_1 + 9y_2$ subject to $y_1 + 3y_2 \\ge 4$, $2y_1 - y_2 \\le -2$, $-y_1 + 2y_2 = 5$, $y_1 \\le 0$, $y_2$ unrestricted",
+        "Maximize $W = 7y_1 + 9y_2$ subject to $y_1 + 3y_2 \\le 4$, $2y_1 - y_2 \\ge -2$, $-y_1 + 2y_2 \\le 5$, $y_1 \\ge 0$, $y_2$ unrestricted"
+      ],
+      "explanationEn": "For a minimization primal: the $\\ge$ constraint gives $y_1 \\ge 0$ and the $=$ constraint gives $y_2$ unrestricted. For the dual constraints (maximization): $x_1 \\ge 0 \\implies y_1 + 3y_2 \\le 4$; $x_2 \\le 0 \\implies 2y_1 - y_2 \\ge -2$; $x_3$ unrestricted $\\implies -y_1 + 2y_2 = 5$. This matches Option (A)."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Hungarian Method",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "During an iteration of the Hungarian method on a $4 \\times 4$ minimization assignment problem, the minimum number of lines covering all zeros is $3 < 4$, and the smallest uncovered element in the reduced cost matrix is $\\theta = 5$. According to the Hungarian update rule, which modification is applied to the matrix?",
+      "optionsEn": [
+        "Subtract $5$ from every element of the entire matrix",
+        "Subtract $5$ from every uncovered element, add $5$ to every element at the intersection of two covering lines, and leave singly covered elements unchanged",
+        "Add $5$ to every uncovered element and subtract $5$ from every covered element",
+        "Subtract $5$ from every singly covered element and add $5$ to every uncovered element"
+      ],
+      "explanationEn": "Equivalently, subtracting $\\theta = 5$ from every uncovered row and adding $\\theta = 5$ to every covered column subtracts $5$ from uncovered cells, leaves singly covered cells unchanged, and adds $5$ to doubly covered (intersection) cells. This preserves optimality while creating at least one new zero."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a simplex tableau for a maximization LPP, the current basic variables are $x_3, x_4, x_5$ with RHS values $b = (6, 8, 0)^T$. The entering variable is $x_1$ with pivot column $y_1 = (2, 4, 3)^T$. According to the standard minimum-ratio test, which variable leaves the basis and what happens to the objective value in this iteration?",
+      "optionsEn": [
+        "$x_5$ leaves the basis and the objective value remains unchanged",
+        "$x_3$ leaves the basis and the objective value strictly increases",
+        "$x_4$ leaves the basis and the objective value strictly increases",
+        "The problem is unbounded"
+      ],
+      "explanationEn": "All three entries of $y_1 = (2, 4, 3)^T$ are positive, so the ratios are $6/2 = 3$, $8/4 = 2$, and $0/3 = 0$. The minimum ratio is $\\theta = 0$, attained uniquely in row 3 ($x_5$). Thus $x_5$ leaves the basis in a degenerate pivot, and the objective value changes by $\\theta |z_1 - c_1| = 0$ (remains unchanged)."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the primal LPP (P): Maximize $c^T x$ subject to $Ax \\le b, x \\ge 0$, and its dual (D): Minimize $b^T y$ subject to $A^T y \\ge c, y \\ge 0$. Let $x^*$ and $y^*$ be feasible solutions of (P) and (D), respectively. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "$c^T x^* \\le b^T y^*$",
+        "$x^*$ and $y^*$ are both optimal if and only if $(b - Ax^*)^T y^* = 0$ and $(A^T y^* - c)^T x^* = 0$",
+        "If $x^*$ is a non-degenerate unique optimal BFS of (P), then (D) has a unique optimal solution",
+        "If (P) is infeasible, then (D) must be unbounded"
+      ],
+      "explanationEn": "(A) is Weak Duality. (B) is the Complementary Slackness Theorem (since $(b - Ax^*)^T y^* + (A^T y^* - c)^T x^* = b^T y^* - c^T x^*$, both nonnegative terms vanish iff $c^T x^* = b^T y^*$). (C) If $x^*$ is a non-degenerate optimal BFS, it has $m$ strictly positive basic variables, forcing $m$ linearly independent dual constraints to be binding and uniquely determining $y^* = (B^T)^{-1} c_B$. (D) is false: both primal and dual can be infeasible."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Transportation Problems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a balanced $m \\times n$ transportation problem with unit cost matrix $C = (c_{ij})$. Which of the following transformations of $C$ leave the set of OPTIMAL allocation matrices $X^* = (x_{ij}^*)$ completely unchanged?",
+      "optionsEn": [
+        "Adding a constant $\\alpha_i$ to every entry of row $i$",
+        "Adding a constant $\\beta_j$ to every entry of column $j$",
+        "Multiplying every entry of the entire matrix $C$ by a positive constant $\\lambda > 0$",
+        "Multiplying only row $1$ of $C$ by $2$ while leaving all other rows unchanged"
+      ],
+      "explanationEn": "Since $\\sum_j x_{ij} = a_i$ and $\\sum_i x_{ij} = b_j$ are fixed constants for every feasible $X$, adding $\\alpha_i$ to row $i$ shifts the objective by $\\alpha_i a_i$ (A), and adding $\\beta_j$ to column $j$ shifts it by $\\beta_j b_j$ (B), leaving optimal solutions unchanged. Scaling the entire matrix by $\\lambda > 0$ scales the objective by $\\lambda > 0$ (C). Scaling only one row (D) alters relative costs between rows and can change the optimal allocations."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Initial BFS of Transportation Problems",
+      "difficulty": "Hard",
+      "correctOption": "475",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 475.0,
+      "natMax": 475.0,
+      "questionTextEn": "A balanced $3 \\times 4$ transportation problem has supplies $(15, 25, 10)$, demands $(5, 15, 15, 15)$, and unit cost matrix $C = \\begin{pmatrix} 10 & 2 & 20 & 11 \\\\ 12 & 7 & 9 & 20 \\\\ 4 & 14 & 16 & 18 \\end{pmatrix}$. What is the total cost of the initial basic feasible solution obtained by Vogel's Approximation Method (VAM)?",
+      "optionsEn": [],
+      "explanationEn": "Step 1: Row penalties are $(8, 2, 10)$ and column penalties are $(6, 5, 7, 7)$. Largest penalty is Row 3 ($10$), so allocate $x_{31} = \\min(10, 5) = 5$ (Col 1 satisfied, Row 3 has $5$ left). Step 2: Row penalties are $(9, 2, 2)$ and column penalties are $(5, 7, 7)$. Largest is Row 1 ($9$), so allocate $x_{12} = 15$ (Row 1 and Col 2 satisfied). Step 3: Remaining cells are in Columns 3 and 4, Rows 2 and 3; largest penalty is Row 2 ($20 - 9 = 11$), allocating $x_{23} = 15$ (Col 3 satisfied, Row 2 has $10$ left). Finally, in Col 4, $x_{24} = 10$ and $x_{34} = 5$. Total VAM cost $= 5(4) + 15(2) + 15(9) + 10(20) + 5(18) = 20 + 30 + 135 + 200 + 90 = 475$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Consider the primal LPP: Maximize $Z = 8x_1 + 6x_2 + 4x_3$ subject to $x_1 + x_2 + x_3 \\le 10$, $2x_1 + x_2 \\le 12$, $x_2 + 2x_3 \\le 8$, and $x_1, x_2, x_3 \\ge 0$. Let $(y_1^*, y_2^*, y_3^*)$ be the optimal solution of the dual minimization problem. What is the value of $y_1^* + y_2^* + y_3^*$?",
+      "optionsEn": [],
+      "explanationEn": "The primal optimum is achieved at $(x_1^*, x_2^*, x_3^*) = (6, 0, 4)$ with $Z^* = 8(6) + 4(4) = 64$. Here the first two constraints are tight ($6 + 0 + 4 = 10$ and $2(6) + 0 = 12$) and the third is also tight ($0 + 2(4) = 8$). The dual constraints are $y_1 + 2y_2 \\ge 8$, $y_1 + y_2 + y_3 \\ge 6$, $y_1 + 2y_3 \\ge 4$ with $y_i \\ge 0$. Since $x_1^*, x_3^* > 0$, $y_1^* + 2y_2^* = 8$ and $y_1^* + 2y_3^* = 4$; matching $10y_1^* + 12y_2^* + 8y_3^* = 64$ gives $y_1^* = 4, y_2^* = 2, y_3^* = 0$, which satisfies all dual constraints. Hence $y_1^* + y_2^* + y_3^* = 4 + 2 + 0 = 6$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Hungarian Method",
+      "difficulty": "Medium",
+      "correctOption": "39",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 39.0,
+      "natMax": 39.0,
+      "questionTextEn": "Four jobs are to be assigned to four machines (one job per machine) with the cost matrix $C = \\begin{pmatrix} 12 & 10 & 15 & 14 \\\\ 9 & 13 & 11 & 10 \\\\ 14 & 8 & 12 & 16 \\\\ 11 & 15 & 9 & 13 \\end{pmatrix}$. Using the Hungarian method, what is the minimum total assignment cost?",
+      "optionsEn": [],
+      "explanationEn": "Row reductions subtract $10, 9, 8, 9$ (sum $36$). Column 4 still has minimum $1$, and one Hungarian update adds $2$ more to the dual bound, giving $39$. The optimal assignment is Machine 1 $\\to$ Job 1 ($12$), Machine 2 $\\to$ Job 4 ($10$), Machine 3 $\\to$ Job 2 ($8$), and Machine 4 $\\to$ Job 3 ($9$), with total cost $12 + 10 + 8 + 9 = 39$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 1)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Medium",
+      "correctOption": "60",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 60.0,
+      "natMax": 60.0,
+      "questionTextEn": "Consider the LPP: Minimize $Z = 6x_1 + 8x_2 + 10x_3 + 7x_4$ subject to $x_1 + 2x_2 + 3x_3 + x_4 \\ge 14$, $3x_1 + x_2 + 2x_3 + 2x_4 \\ge 21$, and $x_1, x_2, x_3, x_4 \\ge 0$. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "The dual is: Maximize $W = 14y_1 + 21y_2$ subject to $y_1 + 3y_2 \\le 6$, $2y_1 + y_2 \\le 8$, $3y_1 + 2y_2 \\le 10$, $y_1 + 2y_2 \\le 7$, and $y_1, y_2 \\ge 0$. The binding constraints at the dual optimum are $y_1 + 3y_2 = 6$ and $3y_1 + 2y_2 = 10$, giving $y_1^* = 18/7$ and $y_2^* = 8/7$ (which satisfy all four constraints). Thus $W^* = 14(18/7) + 21(8/7) = 36 + 24 = 60$. By Strong Duality, $Z^* = 60$ (attained at $x_1^* = 5, x_2^* = 0, x_3^* = 3, x_4^* = 0$)."
+    }
+  ]
+}

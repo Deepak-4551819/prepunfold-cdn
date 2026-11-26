@@ -1,0 +1,600 @@
+{
+  "testId": "gate_ma_topic_pde_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_pde_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Partial Differential Equations — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Partial Differential Equations — Set 1",
+  "partId": "part_10_pde",
+  "part_id": "part_10_pde",
+  "partTitle": "Partial Differential Equations",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: आंशिक अवकल समीकरण — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Partial Differential Equations • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "sectionTitleEn": "Partial Differential Equations",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_pde_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Classification & Canonical Forms",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The family of characteristic curves of the parabolic PDE $u_{xx} - 4 u_{xy} + 4 u_{yy} + 3 u_x = 0$ is given by (where $c$ is an arbitrary constant):",
+      "optionsEn": [
+        "$2x + y = c$",
+        "$x - 2y = c$",
+        "$x + 2y = c$",
+        "$2x - y = c$"
+      ],
+      "explanationEn": "Here $A = 1$, $B = -2$ (since $2B = -4$), and $C = 4$, so $B^2 - AC = 0$ (parabolic). The characteristic ODE is $\\frac{dy}{dx} = \\frac{B}{A} = -2$, integrating to $y + 2x = c$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Laplace Equation & Maximum Principle",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u(r, \\theta)$ be harmonic inside the disk $r < 3$ and continuous on $r \\le 3$, with boundary value $u(3, \\theta) = 4 + 2\\cos(2\\theta) - 5\\sin(3\\theta)$. What is the value of $u$ at the origin $(0, 0)$?",
+      "optionsEn": [
+        "$6$",
+        "$4$",
+        "$0$",
+        "$1$"
+      ],
+      "explanationEn": "By the mean value property for harmonic functions, $u(0, 0) = \\frac{1}{2\\pi} \\int_0^{2\\pi} u(3, \\theta)\\,d\\theta = \\frac{1}{2\\pi} \\int_0^{2\\pi} [4 + 2\\cos(2\\theta) - 5\\sin(3\\theta)]\\,d\\theta = 4$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Classification & Canonical Forms",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The second-order partial differential equation $y u_{xx} + 2x u_{xy} + y u_{yy} = 0$ is elliptic in the region:",
+      "optionsEn": [
+        "$\\{(x, y) \\in \\mathbb{R}^2 : |x| > |y|\\}$",
+        "$\\{(x, y) \\in \\mathbb{R}^2 : y > 0\\}$",
+        "$\\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 < 1\\}$",
+        "$\\{(x, y) \\in \\mathbb{R}^2 : |x| < |y|\\}$"
+      ],
+      "explanationEn": "Comparing with $A u_{xx} + 2B u_{xy} + C u_{yy} = 0$, we have $A = y$, $B = x$, and $C = y$. The discriminant is $B^2 - AC = x^2 - y^2$. The PDE is elliptic where $B^2 - AC < 0$, i.e., $x^2 < y^2$, which is $|x| < |y|$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Wave Equation",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the wave equation $u_{tt} = 4 u_{xx}$ on $\\mathbb{R} \\times (0, \\infty)$ with compactly supported initial data $u(x, 0) = f(x)$, $u_t(x, 0) = g(x)$ that vanish outside the interval $[-1, 1]$. For a fixed time $t = 3$, $u(x, 3)$ is guaranteed to be zero outside the interval:",
+      "optionsEn": [
+        "$[-7, 7]$",
+        "$[-13, 13]$",
+        "$[-4, 4]$",
+        "$[-5, 5]$"
+      ],
+      "explanationEn": "With wave speed $c = \\sqrt{4} = 2$, signals starting in $[-1, 1]$ propagate with maximum speed $c = 2$. At time $t = 3$, the range of influence is $[-1 - ct, 1 + ct] = [-1 - 6, 1 + 6] = [-7, 7]$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Transform Methods",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\hat{u}(\\omega, t) = \\int_{-\\infty}^{\\infty} u(x, t) e^{-i\\omega x}\\,dx$ be the spatial Fourier transform of a rapidly decaying solution of $u_t = 3 u_{xx}$ on $\\mathbb{R} \\times (0, \\infty)$ with $u(x, 0) = f(x)$. Then $\\hat{u}(\\omega, t)$ satisfies:",
+      "optionsEn": [
+        "$\\hat{u}(\\omega, t) = \\hat{f}(\\omega) e^{-3i\\omega t}$",
+        "$\\hat{u}(\\omega, t) = \\hat{f}(\\omega) \\cos(\\sqrt{3}\\omega t)$",
+        "$\\hat{u}(\\omega, t) = \\hat{f}(\\omega) e^{3\\omega^2 t}$",
+        "$\\hat{u}(\\omega, t) = \\hat{f}(\\omega) e^{-3\\omega^2 t}$"
+      ],
+      "explanationEn": "Taking the Fourier transform in $x$ converts $\\frac{\\partial^2 u}{\\partial x^2}$ to $(i\\omega)^2 \\hat{u} = -\\omega^2 \\hat{u}$. Hence $\\frac{\\partial \\hat{u}}{\\partial t} = -3\\omega^2 \\hat{u}$ with $\\hat{u}(\\omega, 0) = \\hat{f}(\\omega)$, whose solution is $\\hat{u}(\\omega, t) = \\hat{f}(\\omega) e^{-3\\omega^2 t}$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Transform Methods",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a smooth, rapidly decaying function $u(x, t)$ on $\\mathbb{R} \\times [0, \\infty)$, let $\\hat{u}(\\omega, t) = \\int_{-\\infty}^\\infty u(x, t)e^{-i\\omega x}\\,dx$ denote the spatial Fourier transform and $U(x, s) = \\int_0^\\infty u(x, t)e^{-st}\\,dt$ denote the temporal Laplace transform. Which of the following operational rules is/are TRUE?",
+      "optionsEn": [
+        "$\\widehat{u_x}(\\omega, t) = i\\omega \\hat{u}(\\omega, t)$",
+        "$\\widehat{u_{xx}}(\\omega, t) = -\\omega^2 \\hat{u}(\\omega, t)$",
+        "$\\mathcal{L}\\{u_t\\}(x, s) = s U(x, s) - u(x, 0)$",
+        "$\\mathcal{L}\\{u_{tt}\\}(x, s) = s^2 U(x, s) + s u(x, 0) + u_t(x, 0)$"
+      ],
+      "explanationEn": "Integrating by parts for rapidly decaying $u$ gives $\\widehat{u_x} = i\\omega\\hat{u}$ and $\\widehat{u_{xx}} = (i\\omega)^2\\hat{u} = -\\omega^2\\hat{u}$ (A and B are true). For the Laplace transform, $\\mathcal{L}\\{u_t\\} = sU(x, s) - u(x, 0)$ (C is true), whereas $\\mathcal{L}\\{u_{tt}\\} = s^2 U(x, s) - s u(x, 0) - u_t(x, 0)$ has minus signs (D is false)."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Wave Equation",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u(x, t)$ be a smooth solution of the finite string wave equation $u_{tt} = c^2 u_{xx}$ on $[0, L] \\times [0, \\infty)$ satisfying $u(0, t) = u(L, t) = 0$. Define the energy functional $E(t) = \\frac{1}{2} \\int_0^L \\left(u_t^2 + c^2 u_x^2\\right)\\,dx$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\frac{dE}{dt} = 0$ for all $t \\ge 0$.",
+        "If $u(x, 0) = 0$ and $u_t(x, 0) = 0$ on $[0, L]$, then $u(x, t) = 0$ identically on $[0, L] \\times [0, \\infty)$.",
+        "The solution of the Dirichlet initial-boundary value problem is unique.",
+        "$E(t)$ decays exponentially to $0$ as $t \\to \\infty$."
+      ],
+      "explanationEn": "Differentiating $E(t)$ and integrating by parts gives $E'(t) = \\int_0^L (u_t u_{tt} + c^2 u_x u_{xt})\\,dx = [c^2 u_x u_t]_0^L + \\int_0^L u_t(u_{tt} - c^2 u_{xx})\\,dx = 0$ since $u_t(0, t) = u_t(L, t) = 0$ (A is true, D is false). If $u(x, 0) = u_t(x, 0) = 0$, then $E(t) = E(0) = 0 \\implies u_t \\equiv 0, u_x \\equiv 0 \\implies u \\equiv 0$ (B is true), which by linearity implies uniqueness (C is true)."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Heat Equation",
+      "difficulty": "Easy",
+      "correctOption": "17",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 17.0,
+      "natMax": 17.0,
+      "questionTextEn": "Let $u(x, t)$ be the polynomial solution of the heat equation $u_t = u_{xx}$ ($x \\in \\mathbb{R}, t > 0$) with initial data $u(x, 0) = x^2$. The value of $u(3, 4)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Trying a polynomial $u(x, t) = x^2 + a(t)$ in $u_t = u_{xx}$ gives $a'(t) = 2$ with $a(0) = 0$, so $a(t) = 2t$ and $u(x, t) = x^2 + 2t$. Evaluating at $(3, 4)$ gives $u(3, 4) = 3^2 + 2(4) = 17$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Classification & Canonical Forms",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The real value of the constant $k$ for which the PDE $(k + 1)u_{xx} + 6 u_{xy} + 3 u_{yy} - u_x = 0$ is parabolic is _____.",
+      "optionsEn": [],
+      "explanationEn": "Comparing with $A u_{xx} + 2B u_{xy} + C u_{yy} + \\dots = 0$, we have $A = k + 1$, $B = 3$, and $C = 3$. The equation is parabolic when $B^2 - AC = 0 \\implies 9 - 3(k + 1) = 0 \\implies k + 1 = 3 \\implies k = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "First-Order PDEs",
+      "difficulty": "Easy",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "Let $u(x, y)$ be the solution of $x u_x + y u_y = 3u$ for $y > 0$ satisfying $u(x, 1) = x^2$. The value of $u(3, 2)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "The characteristic equations $\\frac{dx}{x} = \\frac{dy}{y} = \\frac{du}{3u}$ yield invariants $\\frac{x}{y} = c_1$ and $\\frac{u}{y^3} = c_2$, so $u(x, y) = y^3 \\phi\\left(\\frac{x}{y}\\right)$. Using $u(x, 1) = x^2$ gives $\\phi(x) = x^2$, hence $u(x, y) = y^3 \\left(\\frac{x}{y}\\right)^2 = x^2 y$. Thus $u(3, 2) = 3^2 \\times 2 = 18$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Wave Equation",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $u_{tt} = u_{xx}$ for $x > 0, t > 0$ with Neumann boundary condition $u_x(0, t) = 0$ and initial data $u(x, 0) = 0$, $u_t(x, 0) = g(x)$. For $0 < x < t$, the solution $u(x, t)$ obtained via even reflection is:",
+      "optionsEn": [
+        "$\\frac{1}{2}\\int_{t - x}^{x + t} g(s)\\,ds$",
+        "$\\frac{1}{2}\\left[\\int_0^{t - x} g(s)\\,ds + \\int_0^{x + t} g(s)\\,ds\\right]$",
+        "$\\frac{1}{2}\\left[\\int_0^{x + t} g(s)\\,ds - \\int_0^{t - x} g(s)\\,ds\\right]$",
+        "$\\int_0^{t - x} g(s)\\,ds + \\int_0^{x + t} g(s)\\,ds$"
+      ],
+      "explanationEn": "To satisfy $u_x(0, t) = 0$, we extend $g$ evenly to $\\mathbb{R}$ ($g_{\\text{even}}(-s) = g(s)$). By d'Alembert's formula, $u(x, t) = \\frac{1}{2}\\int_{x-t}^{x+t} g_{\\text{even}}(s)\\,ds$. For $0 < x < t$, $x - t < 0$, so $\\int_{x-t}^{0} g_{\\text{even}}(s)\\,ds = \\int_0^{t-x} g(s)\\,ds$. Adding $\\int_0^{x+t} g(s)\\,ds$ yields $\\frac{1}{2}\\left[\\int_0^{t-x} g(s)\\,ds + \\int_0^{x+t} g(s)\\,ds\\right]$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "First-Order PDEs",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the inviscid Burgers equation $u_t + u u_x = 0$ ($x \\in \\mathbb{R}, t > 0$) with initial condition $u(x, 0) = \\frac{1}{1 + x^2}$, what is the exact breaking (shock formation) time $T^*$ at which the classical solution first develops an infinite spatial gradient?",
+      "optionsEn": [
+        "$2$",
+        "$\\frac{3\\sqrt{3}}{8}$",
+        "$\\frac{8}{3\\sqrt{3}}$",
+        "$\\frac{4}{3\\sqrt{3}}$"
+      ],
+      "explanationEn": "The breaking time for $u_t + u u_x = 0$ with $u(x, 0) = g(x)$ is $T^* = -\\frac{1}{\\min_{x \\in \\mathbb{R}} g'(x)}$. Here $g'(x) = \\frac{-2x}{(1 + x^2)^2}$ and $g''(x) = \\frac{2(3x^2 - 1)}{(1 + x^2)^3}$, so $g'(x)$ attains its global minimum at $x = \\frac{1}{\\sqrt{3}}$, where $g'\\left(\\frac{1}{\\sqrt{3}}\\right) = \\frac{-2/\\sqrt{3}}{(4/3)^2} = -\\frac{3\\sqrt{3}}{8}$. Thus $T^* = \\frac{8}{3\\sqrt{3}}$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Transform Methods",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the semi-infinite heat conduction problem $u_t = 4 u_{xx}$ ($x > 0, t > 0$) with $u(x, 0) = 0$, $u(0, t) = 1$, and $\\lim_{x \\to \\infty} u(x, t) = 0$. What is the temporal Laplace transform $U(x, s) = \\mathcal{L}\\{u(x, t)\\}(s)$ for $\\text{Re}(s) > 0$?",
+      "optionsEn": [
+        "$\\frac{1}{s} \\exp\\left(-\\frac{x\\sqrt{s}}{2}\\right)$",
+        "$\\frac{1}{s} \\exp\\left(-2x\\sqrt{s}\\right)$",
+        "$\\frac{1}{\\sqrt{s}} \\exp\\left(-\\frac{x\\sqrt{s}}{2}\\right)$",
+        "$\\frac{1}{s} \\exp\\left(-\\frac{xs}{2}\\right)$"
+      ],
+      "explanationEn": "Taking the Laplace transform in $t$ with $u(x, 0) = 0$ gives $s U = 4 U_{xx} \\implies U_{xx} - \\frac{s}{4}U = 0$. The decaying solution as $x \\to \\infty$ is $U(x, s) = C(s) e^{-x\\sqrt{s}/2}$. Since $U(0, s) = \\mathcal{L}\\{1\\} = \\frac{1}{s}$, we obtain $U(x, s) = \\frac{1}{s}\\exp\\left(-\\frac{x\\sqrt{s}}{2}\\right)$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Laplace Equation & Maximum Principle",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u(r)$ be the radially symmetric solution of Laplace's equation $\\Delta u = 0$ in the annulus $1 < r < e^2$ satisfying $u(1) = 3$ and $u(e^2) = 9$. Then $u(e)$ equals:",
+      "optionsEn": [
+        "$3 + 3e$",
+        "$6$",
+        "$3\\sqrt{3}$",
+        "$4.5$"
+      ],
+      "explanationEn": "Radially symmetric harmonic functions in $\\mathbb{R}^2$ satisfy $u''(r) + \\frac{1}{r}u'(r) = 0$, whose general solution is $u(r) = A + B\\ln r$. From $u(1) = 3$, $A = 3$. From $u(e^2) = 3 + 2B = 9$, $B = 3$. Thus $u(r) = 3 + 3\\ln r$, and $u(e) = 3 + 3(1) = 6$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Classification & Canonical Forms",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which linear coordinate transformation $(\\xi, \\eta)$ reduces the elliptic PDE $u_{xx} + 2 u_{xy} + 5 u_{yy} = 0$ to the standard Laplace equation $u_{\\xi\\xi} + u_{\\eta\\eta} = 0$?",
+      "optionsEn": [
+        "$\\xi = x - 2y,\\; \\eta = y$",
+        "$\\xi = y - x,\\; \\eta = 4x$",
+        "$\\xi = y - x,\\; \\eta = 2x$",
+        "$\\xi = y + x,\\; \\eta = 2x$"
+      ],
+      "explanationEn": "With $A = 1, B = 1, C = 5$, the characteristic ODE is $\\frac{dy}{dx} = \\frac{B \\pm i\\sqrt{AC - B^2}}{A} = 1 \\pm 2i$, giving complex characteristics $(y - x) \\mp 2ix = c$. Taking real and imaginary parts yields $\\xi = y - x$ and $\\eta = 2x$, under which $u_{xx} + 2u_{xy} + 5u_{yy} = 4(u_{\\xi\\xi} + u_{\\eta\\eta}) = 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Laplace Equation & Maximum Principle",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\Omega \\subset \\mathbb{R}^2$ be a bounded connected open set, and let $u, v \\in C^2(\\Omega) \\cap C(\\overline{\\Omega})$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "If $\\Delta u \\ge 0$ in $\\Omega$, then $\\max_{\\overline{\\Omega}} u = \\max_{\\partial\\Omega} u$.",
+        "If $\\Delta u \\le 0$ in $\\Omega$, then $\\min_{\\overline{\\Omega}} u = \\min_{\\partial\\Omega} u$.",
+        "If $\\Delta u = \\Delta v$ in $\\Omega$ and $u \\le v$ on $\\partial\\Omega$, then $u \\le v$ throughout $\\overline{\\Omega}$.",
+        "If $\\Delta u = 1$ in $\\Omega$ and $u = 0$ on $\\partial\\Omega$, then $u > 0$ everywhere in $\\Omega$."
+      ],
+      "explanationEn": "Subharmonic functions ($\\Delta u \\ge 0$) obey the Weak Maximum Principle (A is true), and superharmonic functions ($\\Delta u \\le 0$) obey the Weak Minimum Principle (B is true). If $\\Delta u = \\Delta v$, then $w = u - v$ is harmonic with $w \\le 0$ on $\\partial\\Omega$, so $w \\le 0$ in $\\overline{\\Omega}$ (C is true). In (D), $\\Delta u = 1 > 0$ means $u$ is subharmonic with $u = 0$ on $\\partial\\Omega$, so $u < 0$ inside $\\Omega$ (not $u > 0$!), making (D) false."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "First-Order PDEs",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the Cauchy problem $u_t + u u_x = 0$ for $(x, t) \\in \\mathbb{R} \\times (0, \\infty)$ with smooth initial data $u(x, 0) = g(x)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "If $g'(x) \\ge 0$ for all $x \\in \\mathbb{R}$, then a unique global $C^1$ solution exists for all $t > 0$.",
+        "If $g'(x_0) < 0$ for at least one $x_0 \\in \\mathbb{R}$, then the $C^1$ solution breaks down in finite time.",
+        "If $g(x) = \\arctan(x)$, then a shock forms at $t = 1$.",
+        "Along every characteristic curve $x(t)$, the solution $u(x(t), t)$ remains constant."
+      ],
+      "explanationEn": "Along characteristics $\\frac{dx}{dt} = u$, $\\frac{du}{dt} = 0$, so $u$ is constant (D is true) and characteristics are straight lines $x = x_0 + g(x_0)t$. They never intersect for $t > 0$ if and only if $g'(x) \\ge 0$ everywhere (A is true); if $g'(x_0) < 0$ somewhere, characteristics cross in finite time $T^* = -1/\\inf g' < \\infty$ (B is true). Since $\\frac{d}{dx}\\arctan(x) = \\frac{1}{1+x^2} > 0$ everywhere, no shock ever forms for $g(x) = \\arctan(x)$, so (C) is false."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "First-Order PDEs",
+      "difficulty": "Hard",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $u(x, t) > 0$ be the smooth solution of the quasilinear PDE $u_t + u^2 u_x = 0$ for $x > 0, t > 0$, satisfying $u(x, 0) = \\sqrt{x}$. The value of $u(27, 2)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "The characteristic equations are $\\frac{dt}{1} = \\frac{dx}{u^2} = \\frac{du}{0}$, so $u$ is constant along $x = x_0 + u^2 t$. Since $u = \\sqrt{x_0} \\implies x_0 = u^2$, we obtain $x = u^2 + u^2 t = u^2(1 + t)$, hence $u(x, t) = \\sqrt{\\frac{x}{1 + t}}$. At $(27, 2)$, $u(27, 2) = \\sqrt{\\frac{27}{3}} = 3$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "First-Order PDEs",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "For the Cauchy problem $u_t + u u_x = 0$ ($x \\in \\mathbb{R}, t > 0$) with initial data $u(x, 0) = 2\\cos\\left(\\frac{x}{4}\\right)$, the shock formation time $T^*$ (the earliest time at which $|u_x|$ blows up) is _____.",
+      "optionsEn": [],
+      "explanationEn": "The shock formation time is $T^* = -\\frac{1}{\\inf_{x \\in \\mathbb{R}} u_0'(x)}$. Here $u_0'(x) = -2 \\cdot \\frac{1}{4}\\sin\\left(\\frac{x}{4}\\right) = -\\frac{1}{2}\\sin\\left(\\frac{x}{4}\\right)$, whose minimum value is $-\\frac{1}{2}$. Therefore, $T^* = -\\frac{1}{-1/2} = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_pde_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Partial Differential Equations (Set 1)",
+      "topicTag": "Wave Equation",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Let $u(x, t)$ solve $u_{tt} = u_{xx}$ on $(0, \\pi) \\times (0, \\infty)$ with $u(0, t) = u(\\pi, t) = 0$, $u(x, 0) = 4\\sin(x) + 2\\sin(3x)$, and $u_t(x, 0) = 6\\sin(2x)$. The value of $u\\left(\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Separating variables gives $u(x, t) = \\sum_{n=1}^\\infty [a_n\\cos(nt) + b_n\\sin(nt)]\\sin(nx)$. Matching initial conditions yields $a_1 = 4$, $a_3 = 2$, and $2b_2 = 6 \\implies b_2 = 3$ (all other coefficients vanish). Thus $u(x, t) = 4\\sin(x)\\cos(t) + 2\\sin(3x)\\cos(3t) + 3\\sin(2x)\\sin(2t)$. Evaluating at $\\left(\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right)$ gives $4\\left(\\frac{1}{2}\\right) + 2\\left(-\\frac{1}{2}\\right) + 3(1)(1) = 2 - 1 + 3 = 4$."
+    }
+  ]
+}

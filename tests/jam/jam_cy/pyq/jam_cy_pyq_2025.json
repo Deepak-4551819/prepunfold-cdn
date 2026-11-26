@@ -1,0 +1,1700 @@
+{
+  "testId": "jam_cy_pyq_2025",
+  "categoryId": "jam_cy",
+  "test_id": "jam_cy_pyq_2025",
+  "category_id": "jam_cy",
+  "title": "IIT JAM 2025 Chemistry (CY) Official Solved Paper",
+  "titleEn": "IIT JAM 2025 Chemistry (CY) Official Solved Paper",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2025,
+  "shiftBadge": "IIT JAM CY • 2025 Official Paper",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_cy_2025_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Maximum value of the function $f(r) = r^2 e^{-r}$, when $0 < r < \\infty$ is",
+      "optionsEn": [
+        "$4e^{-2}$",
+        "$e^{-1}$",
+        "$2e^{-\\sqrt{2}}$",
+        "$4e^{-\\sqrt{2}}$"
+      ],
+      "explanationEn": "**Step 1: Find the critical point.**\nGiven $f(r) = r^2 e^{-r}$ for $0 < r < \\infty$. Differentiating with respect to $r$:\n$$f'(r) = 2r e^{-r} - r^2 e^{-r} = r(2 - r)e^{-r}$$\nSetting $f'(r) = 0$ for $r > 0$ gives $r = 2$.\n\n**Step 2: Verify maximum and evaluate.**\n$$f''(r) = (2 - 4r + r^2)e^{-r} \\implies f''(2) = -2e^{-2} < 0$$\nHence $f(r)$ attains a maximum at $r = 2$:\n$$f(2) = 2^2 e^{-2} = 4e^{-2}$$\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider 10 balls each having different colors including a blue ball. If 6 balls are selected randomly, the probability of the blue ball being selected is",
+      "optionsEn": [
+        "$0.3$",
+        "$0.4$",
+        "$0.6$",
+        "$0.8$"
+      ],
+      "explanationEn": "**Step 1: Use combinations.**\nTotal ways to choose $6$ balls out of $10$ distinct balls $= \\binom{10}{6} = 210$.\nNumber of ways to include the specific blue ball (choose the blue ball plus $5$ from the remaining $9$ balls) $= \\binom{1}{1}\\binom{9}{5} = 126$.\n\n**Step 2: Compute probability.**\n$$P(\\text{blue ball selected}) = \\frac{\\binom{9}{5}}{\\binom{10}{6}} = \\frac{126}{210} = \\frac{6}{10} = 0.6$$\nTherefore, the correct option is **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Sulfide ores are concentrated by",
+      "optionsEn": [
+        "froth floatation",
+        "smelting",
+        "roasting",
+        "reduction"
+      ],
+      "explanationEn": "Sulfide ores (such as galena $\\text{PbS}$, zinc blende $\\text{ZnS}$, and copper pyrites $\\text{CuFeS}_2$) are concentrated by **froth floatation**.\n\nIn this process, sulfide ore particles are preferentially wetted by collector oils (e.g., pine oil, xanthates) and rise to the surface with air-bubble froth, whereas hydrophilic earthy gangue particles are wetted by water and settle at the bottom.\nSmelting, roasting, and reduction are subsequent metallurgical extraction steps, not concentration methods.\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Crystal system with the unit cell parameters $a = b \\neq c$ and $\\alpha = \\beta = \\gamma = 90^\\circ$ is",
+      "optionsEn": [
+        "monoclinic",
+        "orthorhombic",
+        "tetragonal",
+        "hexagonal"
+      ],
+      "explanationEn": "Among the seven crystal systems, the unit cell parameters are:\n- **Tetragonal**: $a = b \\neq c$ and $\\alpha = \\beta = \\gamma = 90^\\circ$.\n- **Orthorhombic**: $a \\neq b \\neq c$ and $\\alpha = \\beta = \\gamma = 90^\\circ$.\n- **Monoclinic**: $a \\neq b \\neq c$ and $\\alpha = \\gamma = 90^\\circ \\neq \\beta$.\n- **Hexagonal**: $a = b \\neq c$, $\\alpha = \\beta = 90^\\circ$, and $\\gamma = 120^\\circ$.\n\nTherefore, the correct option is **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The correct trend of acidity of the ions is",
+      "optionsEn": [
+        "$[\\text{Fe}(\\text{H}_2\\text{O})_6]^{2+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Al}(\\text{H}_2\\text{O})_6]^{3+}$",
+        "$[\\text{Al}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{2+}$",
+        "$[\\text{Fe}(\\text{H}_2\\text{O})_6]^{2+} > [\\text{Al}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{3+}$",
+        "$[\\text{Fe}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{2+} > [\\text{Al}(\\text{H}_2\\text{O})_6]^{3+}$"
+      ],
+      "explanationEn": "The Brønsted acidity of hexaaqua metal ions $[\\text{M}(\\text{H}_2\\text{O})_6]^{n+}$ increases with the **charge-to-size ratio (polarizing power)** $z/r$ of the central metal cation, because stronger $\\text{M}-\\text{O}$ polarization weakens the $\\text{O}-\\text{H}$ bond of coordinated water.\n\n- Comparing $+3$ vs $+2$ ions: trivalent ions ($\\text{Al}^{3+}$, $\\text{Fe}^{3+}$) are much more acidic than divalent $\\text{Fe}^{2+}$ ($r(\\text{Fe}^{2+}) \\approx 78\\text{ pm}$, $\\text{p}K_a \\approx 9.5$).\n- Comparing $\\text{Al}^{3+}$ vs $\\text{Fe}^{3+}$: $\\text{Al}^{3+}$ has a smaller ionic radius ($r \\approx 53.5\\text{ pm}$) than high-spin $\\text{Fe}^{3+}$ ($r \\approx 64.5\\text{ pm}$), giving $\\text{Al}^{3+}$ a higher charge density ($z/r$).\n\nFollowing the charge-to-size ratio criterion tested here, the trend is:\n$$[\\text{Al}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{3+} > [\\text{Fe}(\\text{H}_2\\text{O})_6]^{2+}$$\nTherefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Dissolution of $\\text{SbF}_5$ in $\\text{BrF}_3$ produces",
+      "optionsEn": [
+        "$\\text{BrF}_5$ and $\\text{SbF}_3$",
+        "$\\text{BrF}$ and $\\text{SbF}_7$",
+        "$[\\text{BrF}_2]^+[\\text{SbF}_6]^-$",
+        "$[\\text{SbF}_4]^+[\\text{BrF}_4]^-$"
+      ],
+      "explanationEn": "Liquid $\\text{BrF}_3$ undergoes self-ionization:\n$$2\\text{BrF}_3 \\rightleftharpoons [\\text{BrF}_2]^+ + [\\text{BrF}_4]^-$$\n$\\text{SbF}_5$ is a very strong Lewis acid (fluoride ion acceptor). When dissolved in $\\text{BrF}_3$, it abstracts $\\text{F}^-$ to form the hexafluoroantimonate anion $[\\text{SbF}_6]^-$ and the $[\\text{BrF}_2]^+$ cation:\n$$\\text{BrF}_3 + \\text{SbF}_5 \\longrightarrow [\\text{BrF}_2]^+[\\text{SbF}_6]^-$$\nTherefore, the correct option is **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The molecular structure of table sugar is",
+      "optionsEn": [
+        "$\\alpha$-D-glucopyranosyl-$(1 \\to 2)$-$\\beta$-D-fructofuranoside (sucrose: $\\alpha$-D-glucopyranose linked via C1–O to C2 of $\\beta$-D-fructofuranose bearing C1 and C6 $-\\text{CH}_2\\text{OH}$ groups)",
+        "$\\alpha$-D-glucopyranose linked via a $(1 \\to 2)$ glycosidic bond to a pentofuranose ring lacking the C1 $-\\text{CH}_2\\text{OH}$ group",
+        "$\\alpha/\\beta$-D-glucopyranose (monosaccharide with anomeric wavy $-\\text{OH}$ bond at C1)",
+        "$\\beta$-D-galactopyranosyl-$(1 \\to 4)$-D-glucopyranose (lactose: two pyranose rings joined by a $\\beta$-$(1 \\to 4)$ glycosidic linkage with a free reducing anomeric $-\\text{OH}$)"
+      ],
+      "explanationEn": "Table sugar is **sucrose**, a non-reducing disaccharide composed of $\\alpha$-D-glucopyranose and $\\beta$-D-fructofuranose linked through their anomeric carbons ($\\text{C}1$ of glucose and $\\text{C}2$ of fructose), i.e., $\\alpha$-D-glucopyranosyl-$(1 \\to 2)$-$\\beta$-D-fructofuranoside.\n\n- **(A)** correctly depicts $\\alpha$-D-glucopyranose joined via an $\\alpha$-$(1 \\to 2)$ glycosidic bond to $\\beta$-D-fructofuranose (which has $-\\text{CH}_2\\text{OH}$ groups at both $\\text{C}1$ and $\\text{C}6$).\n- **(B)** lacks the $\\text{C}1$ $-\\text{CH}_2\\text{OH}$ group on the furanose ring.\n- **(C)** is a monosaccharide (D-glucopyranose).\n- **(D)** is a $(1 \\to 4)$-linked reducing disaccharide (lactose).\n\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The product formed when $(R)$-2-bromopropionic acid is treated with low concentration of hydroxide ion is",
+      "optionsEn": [
+        "predominantly of $S$ configuration",
+        "predominantly of $R$ configuration",
+        "a racemic mixture",
+        "achiral"
+      ],
+      "explanationEn": "**Official IIT Delhi Final Answer Key: MTA (Marks to All).**\n\n**Chemical explanation:**\n1. When $(R)$-2-bromopropionic acid is treated with a low concentration of $\\text{OH}^-$, the carboxylic acid is first deprotonated to the carboxylate ion, $(R)$-2-bromopropionate.\n2. At low $[\\text{OH}^-]$, intramolecular nucleophilic attack by $-\\text{CO}_2^-$ (**neighbouring group participation, NGP**) displaces $\\text{Br}^-$ with inversion to form a strained $\\alpha$-lactone intermediate. Subsequent ring opening by $\\text{H}_2\\text{O}$ (or $\\text{OH}^-$) proceeds with a second inversion, resulting in **net retention of configuration** — predominantly $(R)$-lactic acid (option B).\n3. However, because high $[\\text{OH}^-]$ favors direct bimolecular $\\text{S}_\\text{N}2$ attack giving predominantly $(S)$-lactic acid (option A), and the prompt did not specify the exact pH/concentration regime (or whether the starting acid vs. sodium salt was used), competition between NGP and direct $\\text{S}_\\text{N}2$ created ambiguity. Accordingly, IIT Delhi awarded **Marks to All (MTA)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A system having Hamiltonian $\\hat{H}$ follows the eigenvalue equation, $\\hat{H}\\Psi_n = E_n\\Psi_n$, with $E_n = \\left(n + \\frac{1}{2}\\right)$.\nIf the state of the system is prepared as, $\\Psi = N(\\Psi_1 + \\Psi_2 + \\Psi_3 - \\Psi_4 - \\Psi_5)$, where $N$ is the normalization constant, then the expectation value of energy is",
+      "optionsEn": [
+        "$-0.5$",
+        "$-2.5$",
+        "$3.5$",
+        "$17.5$"
+      ],
+      "explanationEn": "**Step 1: Normalize the state $\\Psi$.**\nGiven $\\Psi = N(\\Psi_1 + \\Psi_2 + \\Psi_3 - \\Psi_4 - \\Psi_5)$, where $\\{\\Psi_n\\}$ are orthonormal eigenstates of $\\hat{H}$.\n$$\\langle \\Psi | \\Psi \\rangle = |N|^2 (1^2 + 1^2 + 1^2 + (-1)^2 + (-1)^2) = 5|N|^2 = 1 \\implies |N|^2 = \\frac{1}{5}$$\n\n**Step 2: Calculate the energy eigenvalues $E_n = n + \\frac{1}{2}$.**\n$$E_1 = 1.5, \\quad E_2 = 2.5, \\quad E_3 = 3.5, \\quad E_4 = 4.5, \\quad E_5 = 5.5$$\n\n**Step 3: Compute the expectation value $\\langle E \\rangle$.**\n$$\\langle E \\rangle = \\sum_n |c_n|^2 E_n = \\frac{1}{5}(1.5 + 2.5 + 3.5 + 4.5 + 5.5) = \\frac{17.5}{5} = 3.5$$\nTherefore, the correct option is **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The figures (**I**, **II**, **III**) given below schematically represent variation of surface tension of three different aqueous solutions with increasing concentration of each of the solutes (surfactant, sodium chloride, and $n$-propanol). Match the figures with appropriate solutes and choose the correct option.\n\n- **Figure I**: Surface tension decreases smoothly and gradually (concave upward curve) with increasing concentration.\n- **Figure II**: Surface tension increases slightly and linearly with increasing concentration.\n- **Figure III**: Surface tension drops steeply at low concentration and then levels off sharply into a nearly horizontal plateau (break point at CMC) with increasing concentration.",
+      "optionsEn": [
+        "I – surfactant, II – sodium chloride, III – $n$-propanol",
+        "I – sodium chloride, II – $n$-propanol, III – surfactant",
+        "I – surfactant, II – $n$-propanol, III – sodium chloride",
+        "I – $n$-propanol, II – sodium chloride, III – surfactant"
+      ],
+      "explanationEn": "According to the **Gibbs adsorption isotherm**, $\\Gamma_2 = -\\frac{c}{RT}\\left(\\frac{\\partial \\gamma}{\\partial c}\\right)_T$:\n- **$n$-Propanol (Figure I)**: A weakly surface-active organic solute (positive adsorption at the air–water interface, $\\Gamma_2 > 0$). It causes a **smooth, gradual decrease** in surface tension $\\gamma$ with increasing concentration.\n- **Sodium chloride (Figure II)**: A strong electrolyte that is preferentially hydrated in the bulk (negative surface excess, $\\Gamma_2 < 0$). It causes a **slight linear increase** in surface tension with concentration.\n- **Surfactant (Figure III)**: Strongly surface-active amphiphile. Surface tension **drops sharply** at very low concentrations and then levels off abruptly into a **nearly constant plateau** once the critical micelle concentration (CMC) is reached.\n\nThus: **I – $n$-propanol, II – sodium chloride, III – surfactant**. Therefore, the correct option is **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The correct option for $x$ which satisfies the following equation is\n$$\\begin{vmatrix} x & 2 & 3 \\\\ 4 & x & 6 \\\\ x & 8 & 9 \\end{vmatrix} = \\begin{vmatrix} 102 & 18 & 36 \\\\ 1 & 3 & 4 \\\\ 17 & 3 & 6 \\end{vmatrix}$$",
+      "optionsEn": [
+        "$3 \\pm \\sqrt{5}$",
+        "$\\frac{3 \\pm \\sqrt{5}}{2}$",
+        "$2(3 \\pm \\sqrt{5})$",
+        "$3 \\pm 2\\sqrt{5}$"
+      ],
+      "explanationEn": "**Step 1: Evaluate the right-hand side determinant.**\n$$\\text{RHS} = \\begin{vmatrix} 102 & 18 & 36 \\\\ 1 & 3 & 4 \\\\ 17 & 3 & 6 \\end{vmatrix}$$\nNotice that Row $1 = 6 \\times$ Row $3$ ($6 \\times 17 = 102$, $6 \\times 3 = 18$, $6 \\times 6 = 36$). Since two rows are proportional, $\\text{RHS} = 0$.\n\n**Step 2: Expand the left-hand side determinant and set equal to $0$.**\n$$\\begin{vmatrix} x & 2 & 3 \\\\ 4 & x & 6 \\\\ x & 8 & 9 \\end{vmatrix} = x(9x - 48) - 2(36 - 6x) + 3(32 - x^2)$$\n$$= 9x^2 - 48x - 72 + 12x + 96 - 3x^2 = 6x^2 - 36x + 24 = 0$$\nDividing by $6$: $x^2 - 6x + 4 = 0$.\n\n**Step 3: Solve using the quadratic formula.**\n$$x = \\frac{6 \\pm \\sqrt{36 - 16}}{2} = \\frac{6 \\pm \\sqrt{20}}{2} = 3 \\pm \\sqrt{5}$$\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The type of carboxypeptidase metalloenzyme and the metal ion present in it, respectively, are",
+      "optionsEn": [
+        "hydrolase and $\\text{Zn(II)}$",
+        "isomerase and $\\text{Zn(II)}$",
+        "hydrolase and $\\text{Cu(II)}$",
+        "isomerase and $\\text{Cu(II)}$"
+      ],
+      "explanationEn": "**Carboxypeptidase A** is a metalloenzyme that catalyzes the **hydrolysis** of the C-terminal peptide bond in polypeptides and proteins, classifying it as a **hydrolase** (specifically a metalloprotease).\n\nIts active site contains a tetrahedral **$\\text{Zn(II)}$** ion coordinated to two histidine nitrogen atoms, one glutamate carboxylate oxygen (bidentate), and a water molecule.\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The biomolecule that does **NOT** contain iron is",
+      "optionsEn": [
+        "cytochromes",
+        "hemocyanin",
+        "hydrogenases",
+        "hemerythrin"
+      ],
+      "explanationEn": "Let us examine the metal centers in each biomolecule:\n- **Cytochromes**: Heme proteins containing an **iron** ($\\text{Fe}$) porphyrin center for electron transfer.\n- **Hemocyanin**: Oxygen-transport metalloprotein in mollusks and arthropods containing a dinuclear **copper** ($\\text{Cu}$) center — it does **NOT** contain iron.\n- **Hydrogenases**: Metalloenzymes containing $[\\text{FeFe}]$, $[\\text{NiFe}]$, or $[\\text{Fe}]$-only iron active sites.\n- **Hemerythrin**: Non-heme dioxygen-carrying protein in marine invertebrates containing a dinuclear **iron** ($\\text{Fe}$) center.\n\nTherefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Hydrolysis of $\\text{P}_4\\text{O}_{10}$ produces a compound $\\text{R}$, which on heating above $320\\,^\\circ\\text{C}$ yields a compound $\\text{S}$. The compounds $\\text{R}$ and $\\text{S}$, respectively, are",
+      "optionsEn": [
+        "$\\text{H}_3\\text{PO}_4$ and $(\\text{HPO}_3)_n$",
+        "$\\text{H}_3\\text{PO}_3$ and $(\\text{HPO}_3)_n$",
+        "$\\text{H}_3\\text{PO}_4$ and $\\text{H}_4\\text{P}_2\\text{O}_7$",
+        "$\\text{H}_3\\text{PO}_3$ and $\\text{H}_4\\text{P}_2\\text{O}_7$"
+      ],
+      "explanationEn": "**Step 1: Complete hydrolysis of $\\text{P}_4\\text{O}_{10}$.**\nPhosphorus pentoxide ($\\text{P}_4\\text{O}_{10}$) reacts vigorously with excess water to yield orthophosphoric acid ($\\text{R} = \\text{H}_3\\text{PO}_4$):\n$$\\text{P}_4\\text{O}_{10} + 6\\text{H}_2\\text{O} \\longrightarrow 4\\text{H}_3\\text{PO}_4$$\n\n**Step 2: Thermal dehydration of $\\text{H}_3\\text{PO}_4$.**\n- Around $215\\text{--}250\\,^\\circ\\text{C}$, $\\text{H}_3\\text{PO}_4$ dehydrates to pyrophosphoric acid ($\\text{H}_4\\text{P}_2\\text{O}_7$).\n- Upon heating **above $320\\,^\\circ\\text{C}$**, further dehydration produces polymeric metaphosphoric acid ($\\text{S} = (\\text{HPO}_3)_n$):\n$$n\\text{H}_3\\text{PO}_4 \\xrightarrow{>320\\,^\\circ\\text{C}} (\\text{HPO}_3)_n + n\\text{H}_2\\text{O}$$\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Ion-dipole interactions vary with distance ($r$) as",
+      "optionsEn": [
+        "$1/r$",
+        "$1/r^2$",
+        "$1/r^4$",
+        "$1/r^6$"
+      ],
+      "explanationEn": "The electrostatic potential energy $V(r)$ of an **ion–permanent dipole** interaction between an ion of charge $q$ and a fixed dipole of moment $\\mu$ at distance $r$ and orientation angle $\\theta$ is:\n$$V(r) = -\\frac{q \\mu \\cos\\theta}{4\\pi\\varepsilon_0 r^2} \\propto \\frac{1}{r^2}$$\n(For reference: ion–ion $\\propto 1/r$; fixed dipole–dipole $\\propto 1/r^3$; ion–induced dipole $\\propto 1/r^4$; London dispersion / Keesom / Debye $\\propto 1/r^6$.)\n\nTherefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the following transformation, the number of $\\alpha$ and $\\beta$ particles emitted, respectively, are\n$$^{223}_{88}\\text{Ra} \\longrightarrow {}^{207}_{82}\\text{Pb}$$",
+      "optionsEn": [
+        "$4, 2$",
+        "$4, 3$",
+        "$2, 4$",
+        "$3, 4$"
+      ],
+      "explanationEn": "Let $x$ be the number of $\\alpha$ particles ($^4_2\\text{He}$) and $y$ be the number of $\\beta^-$ particles ($^0_{-1}e$) emitted in:\n$$^{223}_{88}\\text{Ra} \\longrightarrow {}^{207}_{82}\\text{Pb} + x\\,^4_2\\text{He} + y\\,^0_{-1}e$$\n\n**Step 1: Conserve mass number ($A$).**\n$$223 = 207 + 4x \\implies 4x = 16 \\implies x = 4$$\n\n**Step 2: Conserve atomic number ($Z$).**\n$$88 = 82 + 2x - y = 82 + 8 - y \\implies y = 90 - 88 = 2$$\nThus, $4$ $\\alpha$ particles and $2$ $\\beta$ particles are emitted. Therefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Wilkinson's catalyst contains",
+      "optionsEn": [
+        "ruthenium(I) in square planar geometry",
+        "ruthenium(I) in tetrahedral geometry",
+        "rhodium(I) in square planar geometry",
+        "rhodium(I) in tetrahedral geometry"
+      ],
+      "explanationEn": "**Wilkinson's catalyst** is chloridotris(triphenylphosphine)rhodium(I), $[\\text{RhCl}(\\text{PPh}_3)_3]$.\n\n- Oxidation state of rhodium: $\\text{Rh(I)}$ ($4d^8$ configuration).\n- Total valence electron count: $9 - 1 + 2 + 3(2) = 16\\text{e}^-$.\n- Like other $d^8$ second-row transition metal $16\\text{e}^-$ complexes, it adopts a **square planar** geometry.\n\nTherefore, the correct option is **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The major product of the following transformation is\n\n*Reaction scheme*: *anti*-7-(benzyloxymethyl)bicyclo$[2.2.1]$heptan-2-one (norbornan-2-one bearing a C7 $-\\text{CH}_2\\text{OCH}_2\\text{Ph}$ group directed away from the C2=O bridge) is treated sequentially with (1) $m$-CPBA and (2) $\\text{LiAlH}_4$.",
+      "optionsEn": [
+        "Cyclopentanol isomer bearing wedged $-\\text{CH}_2\\text{OCH}_2\\text{Ph}$ at C1, dashed $-\\text{CH}_2\\text{OH}$ at C2, and wedged $-\\text{OH}$ at C3",
+        "2-(benzyloxymethyl)-1,3-bis(hydroxymethyl)cyclopentane isomer bearing dashed $-\\text{CH}_2\\text{OH}$ at C1, wedged $-\\text{CH}_2\\text{OCH}_2\\text{Ph}$ at C2, and dashed $-\\text{CH}_2\\text{OH}$ at C3",
+        "Cyclopentane isomer bearing wedged $-\\text{CH}_2\\text{OH}$ at C1, wedged $-\\text{CH}_2\\text{OH}$ at C2, and dashed $-\\text{OCH}_2\\text{Ph}$ at C3",
+        "2-(benzyloxymethyl)-3-(2-hydroxyethyl)cyclopentan-1-ol bearing wedged $-\\text{OH}$ at C1, dashed $-\\text{CH}_2\\text{OCH}_2\\text{Ph}$ at C2, and wedged $-\\text{CH}_2\\text{CH}_2\\text{OH}$ at C3"
+      ],
+      "explanationEn": "**Step 1: Baeyer–Villiger oxidation with $m$-CPBA.**\nTreatment of *anti*-7-(benzyloxymethyl)bicyclo$[2.2.1]$heptan-2-one with $m$-CPBA selectively migrates the more substituted bridgehead carbon ($\\text{C}1$) over the methylene carbon ($\\text{C}3$) with **complete retention of configuration** at the migrating center. This inserts an oxygen atom between $\\text{C}1$ and $\\text{C}2(=\\text{O})$ to yield the bridged lactone *anti*-8-(benzyloxymethyl)-2-oxabicyclo$[3.2.1]$octan-3-one.\n\n**Step 2: Lactone reduction with $\\text{LiAlH}_4$.**\n$\\text{LiAlH}_4$ reduces the lactone ester linkage to a diol while leaving the benzyl ether ($-\\text{CH}_2\\text{OCH}_2\\text{Ph}$) untouched:\n- The $\\text{C}1-\\text{O}$ bond becomes a secondary alcohol ($-\\text{OH}$) on the cyclopentane ring.\n- The $\\text{C}4-\\text{C}3\\text{H}_2-\\text{C}2(=\\text{O})-$ fragment is reduced to a 2-hydroxyethyl group ($-\\text{CH}_2\\text{CH}_2\\text{OH}$).\n\n**Step 3: Stereochemistry.**\nIn the original bicyclo$[2.2.1]$heptane framework, the $\\text{C}1-\\text{O}$ bond and the $\\text{C}4-\\text{CH}_2\\text{CH}_2\\text{OH}$ bond lie on the **same face** (*cis*, both wedged) of the five-membered ring, whereas the *anti*-C7 $-\\text{CH}_2\\text{OCH}_2\\text{Ph}$ substituent lies on the **opposite face** (*trans*, dashed). This matches **option (D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The major products $\\text{P}$ and $\\text{Q}$ of the following transformations are\n\n- **Reaction 1**: *cis*-2-bromo-4-*tert*-butylcyclohexane-1-carboxylic acid (both C2–Br and C1–$\\text{CO}_2\\text{H}$ wedged, *tert*-butyl at C4) $\\xrightarrow{\\text{Base}} \\text{P}$\n- **Reaction 2**: *trans*-2-bromo-4-*tert*-butylcyclohexane-1-carboxylic acid (C2–Br wedged, C1–$\\text{CO}_2\\text{H}$ dashed, *tert*-butyl at C4) $\\xrightarrow{\\text{Base}} \\text{Q}$",
+      "optionsEn": [
+        "$\\text{P} =$ 4-*tert*-butylcyclohex-2-ene-1-carboxylic acid (wedged $-\\text{CO}_2\\text{H}$), $\\text{Q} =$ 4-*tert*-butylcyclohex-2-ene-1-carboxylic acid (dashed $-\\text{CO}_2\\text{H}$)",
+        "$\\text{P} =$ 4-*tert*-butylcyclohex-1-ene, $\\text{Q} =$ 4-*tert*-butylcyclohex-2-ene-1-carboxylic acid (wedged $-\\text{CO}_2\\text{H}$)",
+        "$\\text{P} =$ 4-*tert*-butylcyclohex-2-ene-1-carboxylic acid (wedged $-\\text{CO}_2\\text{H}$), $\\text{Q} =$ 4-*tert*-butyl-7-oxabicyclo$[4.2.0]$octan-8-one ($\\beta$-lactone)",
+        "$\\text{P} =$ 4-*tert*-butylcyclohex-2-ene-1-carboxylic acid (wedged $-\\text{CO}_2\\text{H}$), $\\text{Q} =$ 4-*tert*-butylcyclohex-1-ene"
+      ],
+      "explanationEn": "The bulky *tert*-butyl group at $\\text{C}4$ locks the cyclohexane ring in a single chair conformation with the *tert*-butyl group equatorial.\n\n- **Formation of $\\text{Q}$ (*trans*-2-bromo-4-*tert*-butylcyclohexane-1-carboxylic acid + Base):**\n  Base deprotonates $-\\text{CO}_2\\text{H}$ to $-\\text{CO}_2^-$. In the locked chair conformation, the $\\text{C}2-\\text{Br}$ (wedged, axial) and $\\text{C}1-\\text{CO}_2^-$ (dashed, axial) groups are **trans-diaxial (anti-periplanar)**. They undergo concerted **Grob-type decarboxylative $\\text{E}2$ elimination** (losing $\\text{CO}_2$ and $\\text{Br}^-$) to yield **4-*tert*-butylcyclohex-1-ene** ($\\text{Q}$).\n\n- **Formation of $\\text{P}$ (*cis*-2-bromo-4-*tert*-butylcyclohexane-1-carboxylic acid + Base):**\n  Here $\\text{C}2-\\text{Br}$ (wedged, axial) and $\\text{C}1-\\text{CO}_2^-$ (wedged, equatorial) are *cis*, so anti-periplanar decarboxylation cannot occur. Instead, standard $\\text{E}2$ dehydrobromination occurs by removing the anti-periplanar axial hydrogen at $\\text{C}3$ (rather than $\\text{C}1-\\text{H}$, which is electronically disfavored adjacent to the negatively charged $-\\text{CO}_2^-$ group), yielding **4-*tert*-butylcyclohex-2-ene-1-carboxylic acid** ($\\text{P}$).\n\nTherefore, the correct option is **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The correct order of the rate of mononitration using conc. $\\text{H}_2\\text{SO}_4$/conc. $\\text{HNO}_3$ at room temperature is",
+      "optionsEn": [
+        "$\\text{C}_6\\text{H}_5\\text{OMe} > \\text{C}_6\\text{H}_5\\text{F} > \\text{C}_6\\text{H}_5\\text{Br} > \\text{C}_6\\text{H}_6$",
+        "$\\text{C}_6\\text{H}_5\\text{OMe} > \\text{C}_6\\text{H}_6 > \\text{C}_6\\text{H}_5\\text{F} > \\text{C}_6\\text{H}_5\\text{Br}$",
+        "$\\text{C}_6\\text{H}_5\\text{Br} > \\text{C}_6\\text{H}_5\\text{OMe} > \\text{C}_6\\text{H}_6 > \\text{C}_6\\text{H}_5\\text{F}$",
+        "$\\text{C}_6\\text{H}_5\\text{Br} > \\text{C}_6\\text{H}_5\\text{OMe} > \\text{C}_6\\text{H}_5\\text{F} > \\text{C}_6\\text{H}_6$"
+      ],
+      "explanationEn": "Mononitration with conc. $\\text{H}_2\\text{SO}_4$/conc. $\\text{HNO}_3$ is an **electrophilic aromatic substitution ($\\text{S}_\\text{E}\\text{Ar}$)** reaction whose rate increases with electron density in the aromatic ring:\n1. **Anisole ($\\text{C}_6\\text{H}_5\\text{OMe}$)**: Strongly activating ($+M > -I$), reacts much faster than benzene.\n2. **Benzene ($\\text{C}_6\\text{H}_6$)**: Reference standard.\n3. **Halobenzenes ($\\text{C}_6\\text{H}_5\\text{F}$ and $\\text{C}_6\\text{H}_5\\text{Br}$)**: Both are deactivating ($-I > +M$) and react slower than benzene. However, **fluorobenzene nitration is faster than bromobenzene** because the $2p\\text{--}2p$ $\\pi$-orbital overlap between $\\text{F}$ and carbon is much more effective ($+M$ stabilization of the *para*-arenium ion) than the $4p\\text{--}2p$ overlap of $\\text{Br}$ (relative rates: $\\text{C}_6\\text{H}_6 = 1$, $\\text{C}_6\\text{H}_5\\text{F} \\approx 0.15$, $\\text{C}_6\\text{H}_5\\text{Br} \\approx 0.03$).\n\nThus, the order is $\\text{C}_6\\text{H}_5\\text{OMe} > \\text{C}_6\\text{H}_6 > \\text{C}_6\\text{H}_5\\text{F} > \\text{C}_6\\text{H}_5\\text{Br}$. Therefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Pericyclic reactions involved in the synthesis of Vitamin $\\text{D}_2$ from Ergosterol are\n\n*Reaction scheme*: Ergosterol (steroid with a conjugated cyclohexadiene B-ring) $\\longrightarrow$ Previtamin $\\text{D}_2$ $\\longrightarrow$ Vitamin $\\text{D}_2$ (secosteroid with an open-chain conjugated triene).",
+      "optionsEn": [
+        "$6\\pi$ electrocyclic ring opening followed by $[1,7]$ sigmatropic shift",
+        "$[1,5]$ sigmatropic shift followed by $6\\pi$ electrocyclic ring opening",
+        "$[3,3]$ sigmatropic rearrangement followed by $[1,7]$ sigmatropic shift",
+        "$4\\pi$ electrocyclization followed by $6\\pi$ electrocyclic ring opening"
+      ],
+      "explanationEn": "The biosynthesis/photochemical conversion of **Ergosterol** to **Vitamin $\\text{D}_2$** proceeds in two sequential pericyclic steps:\n1. **Photochemical conrotatory $6\\pi$ electrocyclic ring opening**: UV irradiation opens the cyclohexadiene B-ring of ergosterol ($\\text{C}9-\\text{C}10$ bond cleavage) to form the conjugated triene **Previtamin $\\text{D}_2$**.\n2. **Thermal antarafacial $[1,7]$ sigmatropic hydrogen shift**: Previtamin $\\text{D}_2$ thermally rearranges via a $[1,7]$-H shift from the $\\text{C}19$ methyl group to $\\text{C}9$, yielding **Vitamin $\\text{D}_2$**.\n\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The major product in the following reaction sequence is\n\n*Reaction scheme*: $[1,1'\\text{-Biphenyl}]-2,2'\\text{-dicarbaldehyde}$ $\\xrightarrow{\\text{1. KCN/EtOH; 2. dilute HNO}_3\\text{; 3. aqueous KOH}}$ Major product",
+      "optionsEn": [
+        "9-hydroxy-9H-fluorene-9-carboxylic acid",
+        "9H-fluorene-9-carboxylic acid",
+        "9-hydroxy-9,10-dihydrophenanthrene-9-carboxylic acid",
+        "9,10-dihydrophenanthrene-9-carboxylic acid"
+      ],
+      "explanationEn": "Trace the three-step sequence starting from $[1,1'\\text{-biphenyl}]-2,2'\\text{-dicarbaldehyde}$:\n1. **$\\text{KCN/EtOH}$ (Intramolecular benzoin condensation)**: The two $-\\text{CHO}$ groups condense to form the $\\alpha$-hydroxyketone 10-hydroxyphenanthren-9(10H)-one.\n2. **Dilute $\\text{HNO}_3$ (Oxidation)**: Oxidizes the secondary alcohol to the 1,2-diketone **phenanthrene-9,10-dione**.\n3. **Aqueous $\\text{KOH}$ (Benzilic acid rearrangement)**: Hydroxide attacks one carbonyl carbon of phenanthrene-9,10-dione, followed by 1,2-aryl migration and ring contraction of the central 6-membered ring to a 5-membered fluorene ring, giving (after workup) **9-hydroxy-9H-fluorene-9-carboxylic acid**.\n\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An organic compound $\\text{P}$ ($\\text{C}_8\\text{H}_{16}$) produces a *meso* compound upon oxidation with $\\text{OsO}_4/\\text{NMO}$. The compound $\\text{P}$ is\n\n[Where, $\\text{NMO} = \\text{N-methylmorpholine N-oxide}$]",
+      "optionsEn": [
+        "$(E)$-4-octene",
+        "$(Z)$-4-octene",
+        "$(E)$-3-octene",
+        "$(Z)$-3-octene"
+      ],
+      "explanationEn": "Oxidation of an alkene with $\\text{OsO}_4/\\text{NMO}$ (Upjohn dihydroxylation) is a stereospecific ***syn*-dihydroxylation**.\n\nTo obtain a ***meso*** diol, the product must contain two stereocenters and an internal plane of symmetry ($\\sigma$), which requires:\n1. A **symmetrical alkene** (identical substituents on both ends of the double bond): rules out 3-octene (options C and D) and narrows to 4-octene ($\\text{Pr}-\\text{CH}=\\text{CH}-\\text{Pr}$).\n2. ***cis* ($Z$) geometry**: *syn*-addition to a *cis*-symmetrical alkene gives the *meso* $(4R,5S)$-octane-4,5-diol (whereas *syn*-addition to $(E)$-4-octene gives a racemic $(4R,5R)/(4S,5S)$ mixture).\n\nHence $\\text{P}$ is **$(Z)$-4-octene**. Therefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The correct order of the dipole moment among the following is",
+      "optionsEn": [
+        "fluoromethane $>$ methanol $>$ chloromethane $>$ dimethylether",
+        "fluoromethane $>$ chloromethane $>$ methanol $>$ dimethylether",
+        "chloromethane $>$ fluoromethane $>$ methanol $>$ dimethylether",
+        "chloromethane $>$ fluoromethane $>$ dimethylether $>$ methanol"
+      ],
+      "explanationEn": "Compare the experimental gas-phase dipole moments ($\\mu$) of the four molecules:\n- **Chloromethane ($\\text{CH}_3\\text{Cl}$)**: $\\mu \\approx 1.87\\text{ D}$ (although $\\text{F}$ is more electronegative than $\\text{Cl}$, the $\\text{C}-\\text{Cl}$ bond length $1.78\\text{ \\AA}$ is significantly longer than $\\text{C}-\\text{F}$ $1.39\\text{ \\AA}$, so $\\mu = q \\cdot d$ is slightly larger for $\\text{CH}_3\\text{Cl}$).\n- **Fluoromethane ($\\text{CH}_3\\text{F}$)**: $\\mu \\approx 1.85\\text{ D}$.\n- **Methanol ($\\text{CH}_3\\text{OH}$)**: $\\mu \\approx 1.70\\text{ D}$.\n- **Dimethyl ether ($\\text{CH}_3\\text{OCH}_3$)**: $\\mu \\approx 1.30\\text{ D}$ (wider $\\text{C}-\\text{O}-\\text{C}$ angle and partial cancellation of the two $\\text{C}-\\text{O}$ bond dipoles).\n\nThus, the order is: **chloromethane $>$ fluoromethane $>$ methanol $>$ dimethylether**. Therefore, the correct option is **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The major products $\\text{P}$ and $\\text{Q}$ of the following reactions are\n\n- **Reaction 1**: 2-methylcyclohexan-1-one $\\xrightarrow{\\text{1. Lithium diisopropylamide, }-78\\,^\\circ\\text{C; 2. PhCH}_2\\text{Br}} \\text{P}$\n- **Reaction 2**: 2-methylcyclopentan-1-one $\\xrightarrow{\\text{1. NaH; 2. PhCH}_2\\text{Br}} \\text{Q}$",
+      "optionsEn": [
+        "$\\text{P} =$ 2-benzyl-2-methylcyclohexan-1-one and $\\text{Q} =$ 2-benzyl-2-methylcyclopentan-1-one",
+        "$\\text{P} =$ 2-benzyl-6-methylcyclohexan-1-one and $\\text{Q} =$ 2-benzyl-5-methylcyclopentan-1-one",
+        "$\\text{P} =$ 2-benzyl-2-methylcyclohexan-1-one and $\\text{Q} =$ 2-benzyl-5-methylcyclopentan-1-one",
+        "$\\text{P} =$ 2-benzyl-6-methylcyclohexan-1-one and $\\text{Q} =$ 2-benzyl-2-methylcyclopentan-1-one"
+      ],
+      "explanationEn": "**Formation of $\\text{P}$ (Kinetic control):**\n2-Methylcyclohexan-1-one treated with a bulky, strong, non-nucleophilic base (**LDA**) at low temperature ($-78\\,^\\circ\\text{C}$) undergoes irreversible deprotonation at the **less sterically hindered $\\alpha$-carbon ($\\text{C}6$)** to form the kinetic enolate. Alkylation with $\\text{PhCH}_2\\text{Br}$ yields **2-benzyl-6-methylcyclohexan-1-one** ($\\text{P}$).\n\n**Formation of $\\text{Q}$ (Thermodynamic control):**\n2-Methylcyclopentan-1-one treated with $\\text{NaH}$ (smaller base, equilibrating conditions at ambient/higher temperature) forms the **more substituted, thermodynamically more stable enolate at $\\text{C}2$**. Alkylation with $\\text{PhCH}_2\\text{Br}$ yields **2-benzyl-2-methylcyclopentan-1-one** ($\\text{Q}$).\n\nTherefore, the correct option is **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A vessel contains $1\\text{ mol}$ of gas $\\text{A}$ and $2\\text{ mol}$ of gas $\\text{B}$ at $2\\text{ bar}$ and $25\\,^\\circ\\text{C}$. The gas mixture is compressed such that the final pressure becomes $3\\text{ bar}$ without any change in temperature. Considering ideal gas behaviour, the change in Gibbs free energy (in $\\text{kJ}$) during the compression is closest to\n\n[Given: Gas constant, $R = 8.314\\text{ J mol}^{-1}\\text{ K}^{-1}$]",
+      "optionsEn": [
+        "$1$",
+        "$3$",
+        "$6$",
+        "$9$"
+      ],
+      "explanationEn": "**Step 1: Identify total moles and state parameters.**\nTotal moles of ideal gas mixture: $n = n_A + n_B = 1 + 2 = 3\\text{ mol}$.\nTemperature: $T = 25\\,^\\circ\\text{C} = 298.15\\text{ K}$.\nInitial pressure $P_1 = 2\\text{ bar}$, final pressure $P_2 = 3\\text{ bar}$.\n\n**Step 2: Calculate isothermal $\\Delta G$.**\nFor an isothermal compression of an ideal gas mixture (with constant composition, so $\\Delta G_{\\text{mix}}$ does not change):\n$$\\Delta G = nRT \\ln\\left(\\frac{P_2}{P_1}\\right) = 3 \\times 8.314 \\times 298.15 \\times \\ln\\left(\\frac{3}{2}\\right)$$\n$$\\Delta G = 7436.46 \\times 0.40547 = 3015.2\\text{ J} \\approx 3.02\\text{ kJ}$$\nThis is closest to **$3\\text{ kJ}$**. Therefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The substances, $\\text{A}$, $\\text{B}$ and $\\text{C}$ undergo chemical reactions according to the scheme given below.\n\n*Cyclic reaction scheme*: $\\text{A} \\xrightarrow{k} \\text{B} \\xrightarrow{2k} \\text{C} \\xrightarrow{3k} \\text{A}$\n\nAt time $t = 0$, the $[\\text{A}] = 0.11\\text{ M}$. Considering them to be first order reactions, the concentration of $\\text{B}$ (in $\\text{M}$) at equilibrium is",
+      "optionsEn": [
+        "$0.06$",
+        "$0.03$",
+        "$0.02$",
+        "$0.05$"
+      ],
+      "explanationEn": "For the cyclic first-order reaction network $\\text{A} \\xrightarrow{k} \\text{B} \\xrightarrow{2k} \\text{C} \\xrightarrow{3k} \\text{A}$, at equilibrium (steady state), the net rate of change of each species is zero:\n$$\\frac{d[\\text{A}]}{dt} = 3k[\\text{C}] - k[\\text{A}] = 0 \\implies k[\\text{A}] = 3k[\\text{C}]$$\n$$\\frac{d[\\text{B}]}{dt} = k[\\text{A}] - 2k[\\text{B}] = 0 \\implies k[\\text{A}] = 2k[\\text{B}]$$\n\nHence, at equilibrium:\n$$[\\text{A}] = 2[\\text{B}] \\quad \\text{and} \\quad [\\text{C}] = \\frac{2}{3}[\\text{B}]$$\n\nBy conservation of total concentration ($[\\text{A}] + [\\text{B}] + [\\text{C}] = [\\text{A}]_0 = 0.11\\text{ M}$):\n$$2[\\text{B}] + [\\text{B}] + \\frac{2}{3}[\\text{B}] = \\frac{11}{3}[\\text{B}] = 0.11\\text{ M}$$\n$$[\\text{B}] = \\frac{0.11 \\times 3}{11} = 0.03\\text{ M}$$\nTherefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For van der Waals gases, at the critical point, $\\frac{dP}{dV_m} = 0$ and",
+      "optionsEn": [
+        "$\\frac{d^2P}{dV_m^2} = 0$",
+        "$\\frac{d^2P}{dV_m^2} < 0$",
+        "$\\frac{d^2P}{dV_m^2} > 0$",
+        "$\\frac{d^2P}{dV_m^2}$ diverges"
+      ],
+      "explanationEn": "On a $P\\text{--}V_m$ diagram of a van der Waals gas, the critical isotherm ($T = T_c$) exhibits a **horizontal point of inflection** at the critical point $(P_c, V_{m,c}, T_c)$.\n\nA horizontal inflection point satisfies both first and second derivative conditions:\n$$\\left(\\frac{\\partial P}{\\partial V_m}\\right)_{T_c} = 0 \\quad \\text{and} \\quad \\left(\\frac{\\partial^2 P}{\\partial V_m^2}\\right)_{T_c} = 0$$\nTherefore, the correct option is **(A)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The set of asymmetric top molecules is",
+      "optionsEn": [
+        "$\\text{CH}_3\\text{CN}, \\text{CH}_3\\text{OH}, \\text{H}_2\\text{CO}$",
+        "$\\text{H}_2\\text{CO}, \\text{H}_2\\text{O}, \\text{CH}_3\\text{CN}$",
+        "$\\text{H}_2\\text{O}, \\text{CH}_3\\text{CN}, \\text{CH}_3\\text{OH}$",
+        "$\\text{CH}_3\\text{OH}, \\text{H}_2\\text{O}, \\text{H}_2\\text{CO}$"
+      ],
+      "explanationEn": "Molecules are classified by their principal moments of inertia ($I_a, I_b, I_c$):\n- **Asymmetric top ($I_a \\neq I_b \\neq I_c$)**: Molecules lacking any $C_n$ axis with $n \\ge 3$, such as **$\\text{CH}_3\\text{OH}$** ($C_s$), **$\\text{H}_2\\text{O}$** ($C_{2v}$), and **$\\text{H}_2\\text{CO}$** ($C_{2v}$).\n- **Prolate symmetric top ($I_a < I_b = I_c$)**: **$\\text{CH}_3\\text{CN}$** has a $C_{3v}$ principal axis, so it is a symmetric top (ruling out options A, B, and C).\n\nTherefore, the correct option is **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider Langmuir adsorption of a gas on a uniform solid surface having $N$ number of surface sites. The free and adsorbed gas molecules are in dynamic equilibrium. If the fractional surface coverage is $\\theta$, the rate of adsorption of the gas is proportional to",
+      "optionsEn": [
+        "$N\\theta$",
+        "$N(1 - \\theta)$",
+        "$N\\left(\\frac{\\theta}{1 - \\theta}\\right)$",
+        "$N\\left(\\frac{1}{1 - \\theta}\\right)$"
+      ],
+      "explanationEn": "In the **Langmuir adsorption model**, there are $N$ total uniform surface sites and a fractional coverage $\\theta$.\n- Number of occupied sites $= N\\theta$ (rate of desorption $\\propto N\\theta$).\n- Number of vacant (unoccupied) sites $= N(1 - \\theta)$.\n\nSince adsorption requires a gas molecule to strike a vacant site, the **rate of adsorption** is directly proportional to the partial pressure $P$ and the number of vacant sites:\n$$r_{\\text{ads}} = k_a P \\, N(1 - \\theta) \\propto N(1 - \\theta)$$\nTherefore, the correct option is **(B)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to VSEPR theory, the set(s) of species having trigonal bipyramidal geometry is(are)",
+      "optionsEn": [
+        "$\\text{PCl}_5$ and $\\text{SF}_4$",
+        "$\\text{ClF}_3$ and $\\text{I}_3^-$",
+        "$\\text{PCl}_5$ and $\\text{Sb(Ph)}_5$",
+        "$\\text{ClF}_3$ and $\\text{BrF}_5$"
+      ],
+      "explanationEn": "**Official IIT Delhi Final Answer Key: A;B or A;B;C** (the test key accepts both $\\{\\text{A}, \\text{B}\\}$ and $\\{\\text{A}, \\text{B}, \\text{C}\\}$).\n\nIn VSEPR theory, **electron-pair geometry** is determined by the steric number ($\\text{SN} = \\text{BP} + \\text{LP}$), where $\\text{SN} = 5$ corresponds to **trigonal bipyramidal (TBP)** geometry:\n- **(A) $\\text{PCl}_5$ and $\\text{SF}_4$**: $\\text{PCl}_5$ has $5\\text{ BP} + 0\\text{ LP}$ ($\\text{SN}=5$, TBP); $\\text{SF}_4$ has $4\\text{ BP} + 1\\text{ LP}$ ($\\text{SN}=5$, TBP electron-pair geometry, seesaw molecular shape). **Correct.**\n- **(B) $\\text{ClF}_3$ and $\\text{I}_3^-$**: $\\text{ClF}_3$ has $3\\text{ BP} + 2\\text{ LP}$ ($\\text{SN}=5$, TBP electron-pair geometry, T-shaped); $\\text{I}_3^-$ has $2\\text{ BP} + 3\\text{ LP}$ ($\\text{SN}=5$, TBP electron-pair geometry, linear). **Correct.**\n- **(C) $\\text{PCl}_5$ and $\\text{Sb(Ph)}_5$**: VSEPR theory predicts TBP ($\\text{SN}=5$) for $\\text{Sb(Ph)}_5$, whereas in the solid state $\\text{Sb(Ph)}_5$ famously adopts a **square pyramidal** structure due to crystal packing forces. Because strict VSEPR predicts TBP while the solid-state structure is square pyramidal, IIT Delhi accepted both **A, B** and **A, B, C**.\n- **(D) $\\text{ClF}_3$ and $\\text{BrF}_5$**: $\\text{BrF}_5$ has $5\\text{ BP} + 1\\text{ LP}$ ($\\text{SN}=6$, octahedral electron-pair geometry). **Incorrect.**"
+    },
+    {
+      "questionId": "jam_cy_2025_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In alkaline medium, which of the following metal ion(s) form(s) red precipitate/coloration with dimethylglyoxime?",
+      "optionsEn": [
+        "$\\text{Ni(II)}$",
+        "$\\text{Bi(III)}$",
+        "$\\text{Zn(II)}$",
+        "$\\text{Fe(II)}$"
+      ],
+      "explanationEn": "In alkaline (ammoniacal) medium, dimethylglyoxime ($\\text{dmgH}_2$) reacts with:\n- **(A) $\\text{Ni(II)}$**: Forms the classic rosy-red / scarlet-red crystalline precipitate of square-planar bis(dimethylglyoximato)nickel(II), $[\\text{Ni(dmgH)}_2]$.\n- **(D) $\\text{Fe(II)}$**: Forms a soluble deep **red/ruby-red coloration** (complex $[\\text{Fe(dmgH)}_2(\\text{NH}_3)_2]$ or $[\\text{Fe(dmgH)}_2(\\text{H}_2\\text{O})_2]$) in alkaline medium.\n- **(B) $\\text{Bi(III)}$** forms a yellow precipitate with dimethylglyoxime in strongly alkaline solution, and **(C) $\\text{Zn(II)}$** does not give a red precipitate/coloration.\n\nTherefore, the correct options are **(A)** and **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The correct statement(s) about the octahedral $\\text{Mn}$-complex with spin only magnetic moment of approximately $6.0\\,\\mu_\\text{B}$ is(are)",
+      "optionsEn": [
+        "possible oxidation state of $\\text{Mn}$ in the complex is $+4$",
+        "possible oxidation state of $\\text{Mn}$ in the complex is $+2$",
+        "ligands associated with the complex is strong field ligand",
+        "ligands associated with the complex is weak field ligand"
+      ],
+      "explanationEn": "**Step 1: Determine the number of unpaired electrons ($n$).**\nUsing the spin-only magnetic moment formula $\\mu_s = \\sqrt{n(n+2)}\\,\\mu_\\text{B} \\approx 6.0\\,\\mu_\\text{B}$:\n$$n(n+2) \\approx 36 \\implies n = 5 \\quad (\\mu_s = \\sqrt{35} = 5.92\\,\\mu_\\text{B})$$\n\n**Step 2: Identify the oxidation state and ligand field strength.**\n- For manganese ($\\text{Mn}$, $Z = 25$, $[\\text{Ar}]3d^5 4s^2$), $5$ unpaired electrons correspond to a **high-spin $d^5$** configuration, i.e., **$\\text{Mn}^{2+}$ (oxidation state $+2$)** with configuration $t_{2g}^3 e_g^2$. (Note: $\\text{Mn}^{4+}$ is $d^3$, giving only $n = 3$ and $\\mu_s = 3.87\\,\\mu_\\text{B}$.)\n- A high-spin $d^5$ octahedral complex requires **weak field ligands** ($\\Delta_o < P$); strong field ligands would give low-spin $t_{2g}^5$ ($n = 1$, $\\mu_s = 1.73\\,\\mu_\\text{B}$).\n\nTherefore, the correct options are **(B)** and **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $[\\text{Mn(CO)}_6]^+$ and $[\\text{V(CO)}_6]^-$ complexes, the correct statement(s) is(are)",
+      "optionsEn": [
+        "stretching frequency of the $\\text{CO}$ is higher in the $\\text{Mn}$-complex",
+        "metal-carbonyl bond is stronger in the $\\text{V}$-complex",
+        "$\\text{Mn}$-complex does not obey $18\\text{e}^-$ rule",
+        "$\\text{V}$-complex obeys $18\\text{e}^-$ rule"
+      ],
+      "explanationEn": "Let us analyze the isoelectronic octahedral metal carbonyl complexes $[\\text{Mn(CO)}_6]^+$ and $[\\text{V(CO)}_6]^-$:\n- **Valence electron count ($18\\text{e}^-$ rule)**:\n  - $[\\text{Mn(CO)}_6]^+$: $7(\\text{Mn}) - 1(\\text{charge}) + 6 \\times 2(\\text{CO}) = 18\\text{e}^-$ (obeys $18\\text{e}^-$ rule $\\implies$ C is false).\n  - $[\\text{V(CO)}_6]^-$: $5(\\text{V}) + 1(\\text{charge}) + 6 \\times 2(\\text{CO}) = 18\\text{e}^-$ (obeys $18\\text{e}^-$ rule $\\implies$ **D is true**).\n- **$\\pi$-Backbonding ($\\text{M} \\to \\text{CO}\\;\\pi^*$)**:\n  - The negatively charged $[\\text{V(CO)}_6]^-$ has higher electron density on the metal than positively charged $[\\text{Mn(CO)}_6]^+$, leading to much stronger $\\text{M} \\to \\text{CO}$ $\\pi$-backbonding in $[\\text{V(CO)}_6]^-$.\n  - Consequently, the **metal–carbonyl ($\\text{M}-\\text{C}$) bond is stronger in the $\\text{V}$-complex** (**B is true**), while the $\\text{C}-\\text{O}$ bond is stronger and its **stretching frequency $\\nu_{\\text{CO}}$ is higher in the $\\text{Mn}$-complex** (**A is true**; $\\nu_{\\text{CO}} \\approx 2090\\text{ cm}^{-1}$ vs $1860\\text{ cm}^{-1}$).\n\nTherefore, the correct options are **(A)**, **(B)**, and **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The product(s) in the following transformation is(are)\n\n*Reaction scheme*: Epicamphor (1,7,7-trimethylbicyclo$[2.2.1]$heptan-3-one) is treated sequentially with (1) $\\text{NaCN}/\\text{H}_3\\text{O}^+$, (2) $\\text{LiAlH}_4$, and (3) $\\text{NaNO}_2/\\text{HCl}$.",
+      "optionsEn": [
+        "1,3,7,7-tetramethylbicyclo$[2.2.1]$heptan-2-ol (unexpanded bicyclo$[2.2.1]$heptanol derivative)",
+        "1,7,7-trimethylbicyclo$[2.2.1]$heptan-3-one (unexpanded starting bicyclic ketone)",
+        "5,8,8-trimethylbicyclo$[3.2.1]$octan-2-one (ring-expanded ketone with $\\text{C=O}$ adjacent to the unsubstituted bridgehead)",
+        "1,8,8-trimethylbicyclo$[3.2.1]$octan-3-one (ring-expanded ketone with $\\text{C=O}$ at the central carbon of the three-carbon bridge)"
+      ],
+      "explanationEn": "This 3-step sequence is the **Tiffeneau–Demjanov ring expansion**:\n1. **$\\text{NaCN}/\\text{H}_3\\text{O}^+$**: Converts the bicyclic ketone (1,7,7-trimethylbicyclo$[2.2.1]$heptan-3-one) into its cyanohydrin.\n2. **$\\text{LiAlH}_4$**: Reduces the $-\\text{CN}$ group to $-\\text{CH}_2\\text{NH}_2$, giving a $\\beta$-amino alcohol.\n3. **$\\text{NaNO}_2/\\text{HCl}$**: Diazotizes the primary amine to $-\\text{CH}_2\\text{N}_2^+$. Loss of $\\text{N}_2$ accompanied by a 1,2-alkyl shift of either $\\alpha$-bond to the ketone expands the 6-membered ring into a 7-membered bicyclo$[3.2.1]$octanone framework:\n   - Migration of the methylene $\\text{C}2-\\text{C}3$ bond places the carbonyl adjacent to the unsubstituted bridgehead, giving **5,8,8-trimethylbicyclo$[3.2.1]$octan-2-one (C)**.\n   - Migration of the bridgehead $\\text{C}4-\\text{C}3$ bond places the carbonyl at the middle carbon of the three-carbon bridge, giving **1,8,8-trimethylbicyclo$[3.2.1]$octan-3-one (D)**.\n\nOptions (A) and (B) remain unexpanded bicyclo$[2.2.1]$heptane skeletons. Therefore, the correct options are **(C)** and **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The set(s), in which all the compounds yield *achiral* products upon treatment with $\\text{CH}_3\\text{MgBr}/\\text{ether}$ followed by hydrolysis with dilute mineral acid, is(are)",
+      "optionsEn": [
+        "3,4-epoxyhexane, cyclohexanone and butanone",
+        "ethyl propionate, phenylacetyl chloride and cyclohexanone",
+        "butanone, ethyl propionate and cyclohexanone",
+        "ethyl phenyl ketone, 3,4-epoxyhexane, and phenylacetyl chloride"
+      ],
+      "explanationEn": "Evaluate the product of each substrate with excess $\\text{CH}_3\\text{MgBr}/\\text{ether}$ followed by $\\text{H}_3\\text{O}^+$:\n- **3,4-epoxyhexane**: Ring opening by $\\text{CH}_3^-$ yields 4-methylhexan-3-ol, which has two chiral centers ($\\text{C}3$ and $\\text{C}4$) $\\implies$ **chiral**.\n- **cyclohexanone**: Yields 1-methylcyclohexan-1-ol (has a plane of symmetry) $\\implies$ **achiral**.\n- **butanone**: Yields 2-methylbutan-2-ol (tertiary alcohol with two identical $-\\text{CH}_3$ groups) $\\implies$ **achiral**.\n- **ethyl propionate**: Adds two equivalents of $\\text{CH}_3\\text{MgBr}$ to yield 2-methylbutan-2-ol $\\implies$ **achiral**.\n- **phenylacetyl chloride ($\\text{PhCH}_2\\text{COCl}$)**: Adds two equivalents of $\\text{CH}_3\\text{MgBr}$ to yield 2-methyl-1-phenylpropan-2-ol $\\implies$ **achiral**.\n- **ethyl phenyl ketone**: Yields 2-phenylbutan-2-ol (4 different groups on $\\text{C}2$) $\\implies$ **chiral**.\n\nChecking the sets: **(B)** (ethyl propionate, phenylacetyl chloride, cyclohexanone) and **(C)** (butanone, ethyl propionate, cyclohexanone) yield exclusively achiral products. Therefore, the correct options are **(B)** and **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The reaction(s) that will yield cyclic product is(are)",
+      "optionsEn": [
+        "$(E)$-2-hexene with $\\text{CH}_2\\text{I}_2/\\text{Zn-Cu}$",
+        "2-butanone with ethyl 2-chloropropionate with $\\text{NaOEt}/\\text{EtOH}$",
+        "hexane-2,5-dione with ammonia",
+        "cyclohexane-1,2-diol with $\\text{NaIO}_4$"
+      ],
+      "explanationEn": "Examine each reaction:\n- **(A) $(E)$-2-hexene $+\\; \\text{CH}_2\\text{I}_2/\\text{Zn-Cu}$**: **Simmons–Smith reaction** — stereospecific cyclopropanation yielding a **cyclic** product (*trans*-1-methyl-2-propylcyclopropane). **Correct.**\n- **(B) 2-butanone $+$ ethyl 2-chloropropionate $+\\; \\text{NaOEt}/\\text{EtOH}$**: **Darzens glycidic ester condensation** — yields an $\\alpha,\\beta$-epoxy ester (an oxirane, **cyclic** product). **Correct.**\n- **(C) hexane-2,5-dione $+$ $\\text{NH}_3$**: **Paal–Knorr pyrrole synthesis** — condenses to yield 2,5-dimethylpyrrole (a **cyclic** heteroaromatic ring). **Correct.**\n- **(D) cyclohexane-1,2-diol $+\\; \\text{NaIO}_4$**: **Malaprade oxidative cleavage** — cleaves the $\\text{C}1-\\text{C}2$ bond to open the ring, yielding the **acyclic** dialdehyde hexane-1,6-dial (adipaldehyde). **Incorrect.**\n\nTherefore, the correct options are **(A)**, **(B)**, and **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The correct statement(s) among the following is(are)",
+      "optionsEn": [
+        "In natural nucleic acids, the nucleosides are linked through phosphodiester bonds",
+        "Natural nucleic acids have sulphur containing heterocyclic bases",
+        "The isoelectric point of arginine is higher than that of isoleucine",
+        "The molecular weight of guanine is higher than that of cytosine"
+      ],
+      "explanationEn": "Evaluate each statement:\n- **(A) True**: In natural nucleic acids (DNA and RNA), adjacent nucleosides are joined by $3' \\to 5'$ **phosphodiester bonds**.\n- **(B) False**: The five canonical nucleobases (adenine, guanine, cytosine, thymine, uracil) are nitrogen-containing heterocycles (purines and pyrimidines) and contain **no sulfur**.\n- **(C) True**: Arginine is a basic amino acid with a strongly basic guanidinium side chain ($\\text{p}I \\approx 10.76$), whereas isoleucine is a neutral aliphatic amino acid ($\\text{p}I \\approx 6.02$).\n- **(D) True**: Guanine is a bicyclic purine ($\\text{C}_5\\text{H}_5\\text{N}_5\\text{O}$, $\\text{MW} = 151.13\\text{ g mol}^{-1}$), which is heavier than the monocyclic pyrimidine cytosine ($\\text{C}_4\\text{H}_5\\text{N}_3\\text{O}$, $\\text{MW} = 111.10\\text{ g mol}^{-1}$).\n\nTherefore, the correct options are **(A)**, **(C)**, and **(D)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Among the following, the correct condition(s) for spontaneity is(are)",
+      "optionsEn": [
+        "$(\\Delta G_{\\text{sys}})_{P,T} < 0$",
+        "$(\\Delta A_{\\text{sys}})_{V,T} < 0$",
+        "$(\\Delta H_{\\text{sys}})_{P,S} < 0$",
+        "$(\\Delta U_{\\text{sys}})_{V,P} < 0$"
+      ],
+      "explanationEn": "From the combined First and Second Laws of Thermodynamics for a closed system doing only $PV$-work ($dU \\le T\\,dS - P\\,dV$):\n- **Gibbs free energy ($G = H - TS$)**: $dG = V\\,dP - S\\,dT \\implies$ at constant $P, T$, spontaneous processes satisfy $(\\Delta G_{\\text{sys}})_{P,T} < 0$. **(A) is correct.**\n- **Helmholtz free energy ($A = U - TS$)**: $dA = -P\\,dV - S\\,dT \\implies$ at constant $V, T$, spontaneous processes satisfy $(\\Delta A_{\\text{sys}})_{V,T} < 0$. **(B) is correct.**\n- **Enthalpy ($H = U + PV$)**: $dH \\le T\\,dS + V\\,dP \\implies$ at constant $P, S$, spontaneous processes satisfy $(\\Delta H_{\\text{sys}})_{P,S} < 0$. **(C) is correct.**\n- **Internal energy ($U$)**: Natural variables are $S$ and $V$ ($(\\Delta U_{\\text{sys}})_{S,V} < 0$), **not** constant $V, P$. **(D) is incorrect.**\n\nTherefore, the correct options are **(A)**, **(B)**, and **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Correct statement(s) with respect to defects in solids is(are)",
+      "optionsEn": [
+        "In Schottky defect, atoms move from interior lattice sites to surface lattice sites",
+        "Equilibrium concentration of defects remain unchanged with change in temperature",
+        "A perfect solid is thermodynamically less stable than the solid with defects",
+        "Common point defects in pure alkali halides are Frenkel-type"
+      ],
+      "explanationEn": "Evaluate each statement on point defects in crystalline solids:\n- **(A) True**: In a **Schottky defect**, equal numbers of cations and anions leave their interior lattice sites and migrate to the crystal surface, creating vacancies and lowering the crystal density.\n- **(B) False**: Equilibrium defect concentration increases exponentially with temperature ($n/N \\propto e^{-\\Delta H_f / (2k_B T)}$).\n- **(C) True**: At any temperature $T > 0\\text{ K}$, creating a small concentration of defects lowers the Gibbs free energy ($\\Delta G = \\Delta H - T\\Delta S < 0$) because the configurational entropy gain ($-T\\Delta S_{\\text{conf}}$) outweighs the enthalpy cost ($\\Delta H$). Thus, a perfect solid is thermodynamically less stable than a solid with an equilibrium concentration of defects.\n- **(D) False**: Pure alkali halides (e.g., $\\text{NaCl}, \\text{KCl}$) have high coordination numbers and similar cation/anion sizes, so their predominant intrinsic point defects are **Schottky-type**, not Frenkel-type.\n\nTherefore, the correct options are **(A)** and **(C)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "$\\int_0^{\\infty} x e^{-x}\\,dx =$ ______.\n\n*(round off to the nearest integer)*",
+      "optionsEn": [],
+      "explanationEn": "**Method 1 (Gamma function):**\n$$\\int_0^{\\infty} x^{n-1} e^{-x}\\,dx = \\Gamma(n) = (n-1)!$$\nHere $n - 1 = 1 \\implies n = 2$, so:\n$$\\int_0^{\\infty} x e^{-x}\\,dx = \\Gamma(2) = 1! = 1$$\n\n**Method 2 (Integration by parts):**\n$$\\int_0^{\\infty} x e^{-x}\\,dx = \\left[-x e^{-x}\\right]_0^{\\infty} + \\int_0^{\\infty} e^{-x}\\,dx = 0 + \\left[-e^{-x}\\right]_0^{\\infty} = 0 - (-1) = 1$$\nThus, the answer is **$1$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "-3.2 to -3.0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -3.2,
+      "natMax": -3.0,
+      "questionTextEn": "Consider $\\vec{C} = \\vec{A} \\times \\vec{B}$, where $\\vec{A} = 3\\hat{i} - 2\\hat{j} + 5\\hat{k}$ and $\\vec{B}$, a unit vector in $xy$-plane, makes an angle of $37^\\circ$ with the $x$-axis. Projection of $\\vec{C}$ on the $x$-axis is ______.\n\n*(round off to one decimal place)*",
+      "optionsEn": [],
+      "explanationEn": "**Step 1: Express $\\vec{B}$ in component form.**\nSince $\\vec{B}$ is a unit vector in the $xy$-plane making an angle of $37^\\circ$ with the $x$-axis:\n$$\\vec{B} = \\cos 37^\\circ\\,\\hat{i} + \\sin 37^\\circ\\,\\hat{j} + 0\\,\\hat{k}$$\n\n**Step 2: Compute the $x$-component of $\\vec{C} = \\vec{A} \\times \\vec{B}$.**\nGiven $\\vec{A} = 3\\hat{i} - 2\\hat{j} + 5\\hat{k}$:\n$$C_x = A_y B_z - A_z B_y = (-2)(0) - (5)(\\sin 37^\\circ) = -5 \\sin 37^\\circ$$\n\n**Step 3: Evaluate numerically.**\nUsing $\\sin 37^\\circ \\approx 0.6018$:\n$$C_x = -5 \\times 0.6018 = -3.009 \\approx -3.0$$\nThus, the projection of $\\vec{C}$ on the $x$-axis is **$-3.0$** (within the official range $-3.2$ to $-3.0$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.0,
+      "natMax": 0.0,
+      "questionTextEn": "A yellow compound $\\text{X}$ is produced after the reaction of $\\text{K}_2[\\text{Ni(CN)}_4]$ with excess of $\\text{K/liq. NH}_3$ at $-33\\,^\\circ\\text{C}$. The oxidation state of $\\text{Ni}$ in the compound $\\text{X}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Reaction of potassium tetracyanonickelate(II), $\\text{K}_2[\\text{Ni(CN)}_4]$, with excess potassium metal in liquid ammonia at $-33\\,^\\circ\\text{C}$ reduces $\\text{Ni(II)}$ completely to **zero-valent nickel, $\\text{Ni}(0)$**, forming the yellow air-sensitive tetrahedral complex $\\text{X} = \\text{K}_4[\\text{Ni(CN)}_4]$:\n$$\\text{K}_2[\\text{Ni(CN)}_4] + 2\\text{K} \\xrightarrow{\\text{liq. NH}_3,\\; -33\\,^\\circ\\text{C}} \\text{K}_4[\\text{Ni(CN)}_4]$$\n\nIn $\\text{K}_4[\\text{Ni(CN)}_4]$, let the oxidation state of $\\text{Ni}$ be $x$:\n$$4(+1) + x + 4(-1) = 0 \\implies x = 0$$\nThus, the oxidation state of $\\text{Ni}$ in $\\text{X}$ is **$0$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Number of spin allowed transition(s) possible for $d^2$ octahedral configuration is ______.",
+      "optionsEn": [],
+      "explanationEn": "For a $d^2$ configuration in an octahedral ($O_h$) ligand field, the free-ion triplet terms are $^3F$ (ground term) and $^3P$ (excited term).\n\nIn an $O_h$ field, these split into:\n- $^3F \\longrightarrow {}^3T_{1g}(F)$ (ground state), $^3T_{2g}(F)$, and $^3A_{2g}(F)$.\n- $^3P \\longrightarrow {}^3T_{1g}(P)$.\n\nSince spin-allowed transitions must conserve spin multiplicity ($\\Delta S = 0$, triplet $\\to$ triplet), there are **3** spin-allowed $d\\text{--}d$ transitions:\n1. $^3T_{1g}(F) \\longrightarrow {}^3T_{2g}(F)$\n2. $^3T_{1g}(F) \\longrightarrow {}^3T_{1g}(P)$\n3. $^3T_{1g}(F) \\longrightarrow {}^3A_{2g}(F)$\n\nThus, the number of spin-allowed transitions is **$3$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Number of $^1\\text{H}$ NMR signals observed for the following compound is ______.\n\n*Structure*: 3-methyl-1-phenylbuta-1,2-diene ($\\text{Ph}-\\text{CH}=\\text{C}=\\text{C}(\\text{Me})_2$).",
+      "optionsEn": [],
+      "explanationEn": "Consider the symmetry and proton environments of 3-methyl-1-phenylbuta-1,2-diene, $\\text{Ph}-\\text{CH}=\\text{C}=\\text{C}(\\text{Me})_2$:\n1. **Phenyl ring ($\\text{C}_6\\text{H}_5-$)**: Free rotation around the $\\text{Ph}-\\text{CH}$ bond gives **3 signals** (*ortho*, *meta*, and *para* protons).\n2. **Allenic proton ($-\\text{CH}=$)**: **1 signal**.\n3. **Terminal gem-dimethyl group ($=\\text{C}(\\text{Me})_2$)**: In an allene, the two terminal planes are orthogonal. The plane containing $\\text{Ph}-\\text{CH}=\\text{C}=\text{C}$ is a molecular plane of symmetry ($\\sigma$) that reflects one $-\\text{CH}_3$ group into the other. Therefore, both methyl groups are enantiotopic (chemically equivalent in achiral solvents) and give **1 signal**.\n\nTotal $^1\\text{H}$ NMR signals $= 3 + 1 + 1 = 5$. Thus, the answer is **$5$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The number of stereoisomers possible for the following compound is ______.\n\n*Structure*: *cis*-bicyclo$[3.3.0]$octane-3,7-diol (octahydropentalene-2,5-diol with both bridgehead hydrogens on the same face, i.e., *cis*-fused).",
+      "optionsEn": [],
+      "explanationEn": "The given compound is *cis*-bicyclo$[3.3.0]$octane-3,7-diol (fixed *cis*-fused ring junction with both bridgehead hydrogens wedged/up).\n\nThe two hydroxyl groups at $\\text{C}3$ and $\\text{C}7$ can each be oriented either *syn* (wedged, same face as the bridgehead H's) or *anti* (dashed, opposite face):\n1. **(*syn*, *syn*)**: Both $-\\text{OH}$ groups wedged (achiral, possesses two mirror planes).\n2. **(*anti*, *anti*)**: Both $-\\text{OH}$ groups dashed (achiral, possesses two mirror planes).\n3. **(*syn*, *anti*)**: One $-\\text{OH}$ wedged and one $-\\text{OH}$ dashed (achiral, possesses a mirror plane passing through $\\text{C}3$ and $\\text{C}7$; note that (*syn*, *anti*) and (*anti*, *syn*) are superimposable by a $180^\\circ$ rotation around the axis perpendicular to the ring plane).\n\nThus, there are **$3$** possible stereoisomers (all diastereomers and all achiral)."
+    },
+    {
+      "questionId": "jam_cy_2025_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "0.115 to 0.130",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.115,
+      "natMax": 0.13,
+      "questionTextEn": "An electron at rest is accelerated through $10\\text{ kV}$ potential. The de Broglie wavelength (in $\\text{\\AA}$) of the electron is ______.\n\n*(round off to three decimal places)*\n\n[Given: Mass of an electron, $m_e = 9.11 \\times 10^{-31}\\text{ kg}$; Planck's constant ($h$) $= 6.63 \\times 10^{-34}\\text{ J s}$; $1\\text{ eV} = 1.6 \\times 10^{-19}\\text{ J}$]",
+      "optionsEn": [],
+      "explanationEn": "**Step 1: Relate kinetic energy to accelerating potential.**\n$$K = eV = 10 \\times 10^3\\text{ eV} = 10^4 \\times 1.6 \\times 10^{-19}\\text{ J} = 1.6 \\times 10^{-15}\\text{ J}$$\n\n**Step 2: Calculate de Broglie wavelength $\\lambda$.**\n$$\\lambda = \\frac{h}{\\sqrt{2 m_e e V}} = \\frac{6.63 \\times 10^{-34}}{\\sqrt{2 \\times 9.11 \\times 10^{-31} \\times 1.6 \\times 10^{-15}}}$$\n$$\\sqrt{2.9152 \\times 10^{-45}} = 5.3993 \\times 10^{-23}\\text{ kg m s}^{-1}$$\n$$\\lambda = \\frac{6.63 \\times 10^{-34}}{5.3993 \\times 10^{-23}} = 1.2279 \\times 10^{-11}\\text{ m} = 0.123\\text{ \\AA}$$\nThus, the de Broglie wavelength is **$0.123\\text{ \\AA}$** (within the official range $0.115$ to $0.130$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "MTA",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A tube fitted with a semipermeable membrane is dipped into $0.001\\text{ M}$ $\\text{NaCl}$ solution at $300\\text{ K}$ as shown in the figure. Assume density of the solvent and solution are same. At equilibrium, the height of the liquid column, $h$ (in $\\text{cm}$) is ______.\n\n*(round off to one decimal place)*\n\n*Figure description*: An open vertical glass tube sealed at its submerged bottom end with a semipermeable membrane is immersed in a beaker containing $0.001\\text{ M}$ aqueous $\\text{NaCl}$ solution, showing a liquid column of height $h$ inside the tube above the outer liquid level.\n\n[Given: Acceleration due to gravity, $g = 9.8\\text{ m s}^{-2}$, density of solution ($\\rho$) $= 1\\text{ kg dm}^{-3}$, gas constant, $R = 8.314\\text{ J mol}^{-1}\\text{ K}^{-1}$]",
+      "optionsEn": [],
+      "explanationEn": "**Official IIT Delhi Final Answer Key: MTA (Marks to All).**\n\n**Explanation:**\nFor an ideal osmotic pressure setup with a $0.001\\text{ M}$ aqueous $\\text{NaCl}$ solution ($i = 2$, $C = 0.001\\text{ mol dm}^{-3} = 1\\text{ mol m}^{-3}$) separated from pure water at $T = 300\\text{ K}$:\n$$\\pi = iCRT = 2 \\times 1 \\times 8.314 \\times 300 = 4988.4\\text{ Pa}$$\nThe corresponding hydrostatic head is:\n$$h = \\frac{\\pi}{\\rho g} = \\frac{4988.4}{1000 \\times 9.8} = 0.509\\text{ m} = 50.9\\text{ cm}$$\nHowever, the printed diagram placed the $0.001\\text{ M}$ $\\text{NaCl}$ solution in the **outer beaker** and did not specify what liquid (if any) was inside the tube—if pure solvent were inside the tube, osmosis would draw solvent *out* of the tube into the outer salt solution rather than raising a column of height $h$ inside the tube. Due to this physical ambiguity in the problem statement and figure, IIT Delhi awarded **Marks to All (MTA)**."
+    },
+    {
+      "questionId": "jam_cy_2025_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "509.0 to 512.0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 509.0,
+      "natMax": 512.0,
+      "questionTextEn": "The resonance frequency of $^1\\text{H}$ nuclei is $300\\text{ MHz}$ in an NMR spectrometer. If the spectrometer is operated at $12\\text{ T}$ magnetic field, the resonance frequency (in $\\text{MHz}$) of the same $^1\\text{H}$ nuclei is ______.\n\n*(round off to one decimal place)*\n\n[Given: Nuclear magneton ($\\beta_N$) $= 5.05 \\times 10^{-27}\\text{ J T}^{-1}$, Nuclear g-factor ($g_N$) for $^1\\text{H} = 5.586$, Planck's constant ($h$) $= 6.63 \\times 10^{-34}\\text{ J s}$]",
+      "optionsEn": [],
+      "explanationEn": "The Larmor resonance frequency $\\nu$ of a nucleus in a magnetic field $B_0$ is given by:\n$$\\nu = \\frac{g_N \\beta_N B_0}{h}$$\n\nSubstituting the given values for $^1\\text{H}$ at $B_0 = 12\\text{ T}$:\n$$\\nu = \\frac{5.586 \\times 5.05 \\times 10^{-27}\\text{ J T}^{-1} \\times 12\\text{ T}}{6.63 \\times 10^{-34}\\text{ J s}}$$\n$$\\nu = \\frac{3.385116 \\times 10^{-25}}{6.63 \\times 10^{-34}} = 5.10576 \\times 10^8\\text{ Hz} = 510.6\\text{ MHz}$$\n(Note: The initial $300\\text{ MHz}$ statement is extraneous context.)\nThus, the resonance frequency at $12\\text{ T}$ is **$510.6\\text{ MHz}$** (within the official range $509.0$ to $512.0$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "3.64 to 3.66",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.64,
+      "natMax": 3.66,
+      "questionTextEn": "The first rotational absorption of $^{12}\\text{C}^{16}\\text{O}$ molecule is observed at $3.84\\text{ cm}^{-1}$. If an isotopic substitution is made with $^{18}\\text{O}$ in the molecule, the frequency (in $\\text{cm}^{-1}$) of first rotational absorption is ______.\n\n*(round off to two decimal places)*",
+      "optionsEn": [],
+      "explanationEn": "The first rotational absorption line ($J = 0 \\to 1$) occurs at $\\bar{\\nu} = 2B$, where the rotational constant $B \\propto \\frac{1}{\\mu}$ (assuming the bond length $r$ is invariant upon isotopic substitution).\n\n**Step 1: Compute reduced masses $\\mu$.**\n- For $^{12}\\text{C}^{16}\\text{O}$: $\\mu_1 = \\frac{12 \\times 16}{12 + 16} = \\frac{192}{28} = \\frac{48}{7}\\text{ u}$.\n- For $^{12}\\text{C}^{18}\\text{O}$: $\\mu_2 = \\frac{12 \\times 18}{12 + 18} = \\frac{216}{30} = \\frac{36}{5}\\text{ u}$.\n\n**Step 2: Scale the transition wavenumber.**\n$$\\bar{\\nu}_2 = \\bar{\\nu}_1 \\left(\\frac{\\mu_1}{\\mu_2}\\right) = 3.84 \\times \\frac{48/7}{36/5} = 3.84 \\times \\frac{48 \\times 5}{7 \\times 36} = 3.84 \\times \\frac{20}{21} = 3.657\\text{ cm}^{-1} \\approx 3.66\\text{ cm}^{-1}$$\nThus, the answer is **$3.66$** (within the official range $3.64$ to $3.66$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "If $y + x e^y = \\sin x + \\tan x$, then the value of $\\frac{dy}{dx}$ at $x = 0$ is ______.\n\n*(round off to the nearest integer)*",
+      "optionsEn": [],
+      "explanationEn": "**Step 1: Find $y(0)$.**\nSubstitute $x = 0$ into $y + x e^y = \\sin x + \\tan x$:\n$$y(0) + 0 = \\sin 0 + \\tan 0 = 0 \\implies y(0) = 0$$\n\n**Step 2: Differentiate implicitly with respect to $x$.**\n$$\\frac{dy}{dx} + e^y + x e^y \\frac{dy}{dx} = \\cos x + \\sec^2 x$$\n\n**Step 3: Evaluate at $x = 0, y = 0$.**\n$$\\left.\\frac{dy}{dx}\\right|_{x=0} + e^0 + 0 = \\cos 0 + \\sec^2 0 \\implies \\left.\\frac{dy}{dx}\\right|_{x=0} + 1 = 1 + 1 = 2$$\n$$\\left.\\frac{dy}{dx}\\right|_{x=0} = 1$$\nThus, the answer is **$1$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "638",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 638.0,
+      "natMax": 638.0,
+      "questionTextEn": "Consider the following matrices $A$ and $B$.\n$$A = \\begin{pmatrix} 1 & 2 & 0 & 0 & 0 \\\\ 3 & 4 & 0 & 0 & 0 \\\\ 0 & 0 & 5 & 0 & 0 \\\\ 0 & 0 & 0 & 6 & 7 \\\\ 0 & 0 & 0 & 8 & 9 \\end{pmatrix} \\quad \\text{and} \\quad B = \\begin{pmatrix} 10 & 11 & 0 & 0 & 0 \\\\ 12 & 13 & 0 & 0 & 0 \\\\ 0 & 0 & 4 & 0 & 0 \\\\ 0 & 0 & 0 & 15 & 16 \\\\ 0 & 0 & 0 & 17 & 18 \\end{pmatrix}$$\nIf $C = AB$, sum of the diagonal elements of $C$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Both $A$ and $B$ are block-diagonal matrices with blocks of size $2 \\times 2$, $1 \\times 1$, and $2 \\times 2$. The trace of $C = AB$ is the sum of the traces of the products of the corresponding diagonal blocks:\n\n1. **Top $2 \\times 2$ block**:\n   $$\\text{Tr}\\left[\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\begin{pmatrix} 10 & 11 \\\\ 12 & 13 \\end{pmatrix}\\right] = (1\\cdot 10 + 2\\cdot 12) + (3\\cdot 11 + 4\\cdot 13) = 34 + 85 = 119$$\n2. **Middle $1 \\times 1$ block**:\n   $$5 \\times 4 = 20$$\n3. **Bottom $2 \\times 2$ block**:\n   $$\\text{Tr}\\left[\\begin{pmatrix} 6 & 7 \\\\ 8 & 9 \\end{pmatrix}\\begin{pmatrix} 15 & 16 \\\\ 17 & 18 \\end{pmatrix}\\right] = (6\\cdot 15 + 7\\cdot 17) + (8\\cdot 16 + 9\\cdot 18) = (90 + 119) + (128 + 162) = 209 + 290 = 499$$\n\n**Total trace of $C$:**\n$$\\text{Tr}(C) = 119 + 20 + 499 = 638$$\nThus, the answer is **$638$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The number of species among the following, having bond order of three is ______.\n$$\\text{N}_2,\\; \\text{F}_2,\\; \\text{NO}^+,\\; \\text{O}_2^-,\\; \\text{N}_2^+,\\; \\text{CO},\\; \\text{O}_2,\\; \\text{O}_2^{2-}$$",
+      "optionsEn": [],
+      "explanationEn": "Using molecular orbital (MO) theory, $\\text{Bond Order} = \\frac{1}{2}(N_b - N_a)$:\n- **$\\text{N}_2$** ($14\\text{e}^-$): $\\text{BO} = 3$\n- **$\\text{F}_2$** ($18\\text{e}^-$): $\\text{BO} = 1$\n- **$\\text{NO}^+$** ($14\\text{e}^-$): $\\text{BO} = 3$\n- **$\\text{O}_2^-$** ($17\\text{e}^-$): $\\text{BO} = 1.5$\n- **$\\text{N}_2^+$** ($13\\text{e}^-$): $\\text{BO} = 2.5$\n- **$\\text{CO}$** ($14\\text{e}^-$): $\\text{BO} = 3$\n- **$\\text{O}_2$** ($16\\text{e}^-$): $\\text{BO} = 2$\n- **$\\text{O}_2^{2-}$** ($18\\text{e}^-$): $\\text{BO} = 1$\n\nThe species with bond order $3$ are **$\\text{N}_2$, $\\text{NO}^+$, and $\\text{CO}$** (3 species). Thus, the answer is **$3$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Inorganic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "53.00 to 56.00",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 53.0,
+      "natMax": 56.0,
+      "questionTextEn": "$1.84\\text{ g}$ of a mixture of $\\text{CaCO}_3$ and $\\text{MgCO}_3$ is heated till no further weight loss. The weight of the residue is $0.96\\text{ g}$. The $\\%$ composition of $\\text{CaCO}_3$ in the mixture is ______.\n\n*(round off to two decimal places)*\n\n[Given: Atomic weight of $\\text{Ca} = 40$; $\\text{Mg} = 24$; $\\text{C} = 12$; $\\text{O} = 16$]",
+      "optionsEn": [],
+      "explanationEn": "**Step 1: Write the thermal decomposition equations and molar masses.**\n- $\\text{CaCO}_3 (100\\text{ g mol}^{-1}) \\xrightarrow{\\Delta} \\text{CaO} (56\\text{ g mol}^{-1}) + \\text{CO}_2\\uparrow$\n- $\\text{MgCO}_3 (84\\text{ g mol}^{-1}) \\xrightarrow{\\Delta} \\text{MgO} (40\\text{ g mol}^{-1}) + \\text{CO}_2\\uparrow$\n\n**Step 2: Set up the mass balance for the oxide residue.**\nLet the mass of $\\text{CaCO}_3$ in the $1.84\\text{ g}$ mixture be $x\\text{ g}$, so mass of $\\text{MgCO}_3$ is $(1.84 - x)\\text{ g}$.\n$$\\frac{56}{100}x + \\frac{40}{84}(1.84 - x) = 0.96$$\n$$0.56x + \\frac{10}{21}(1.84 - x) = 0.96$$\nMultiply through by $21$:\n$$11.76x + 18.4 - 10x = 20.16 \\implies 1.76x = 1.76 \\implies x = 1.00\\text{ g}$$\n\n**Step 3: Compute percentage composition of $\\text{CaCO}_3$.**\n$$\\text{\\% CaCO}_3 = \\frac{1.00}{1.84} \\times 100\\% = 54.35\\%$$\nThus, the answer is **$54.35$** (within the official range $53.00$ to $56.00$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Organic Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "The number of chiral carbon centers in the following molecule is ______.\n\n*Structure*: Strychnine (heptacyclic indole alkaloid $\\text{C}_{21}\\text{H}_{22}\\text{N}_2\\text{O}_2$ containing an indoline-fused lactam, tertiary bridged amine, allylic cyclic ether, and six stereogenic $sp^3$ carbon centers at C7, C8, C12, C13, C14, and C16).",
+      "optionsEn": [],
+      "explanationEn": "The given molecule is the famous heptacyclic indole alkaloid **strychnine** ($\\text{C}_{21}\\text{H}_{22}\\text{N}_2\\text{O}_2$).\n\nInspecting all $sp^3$-hybridized carbons in the polycyclic cage, the **6 chiral carbon centers** are:\n1. **$\\text{C}7$**: Quaternary spiro-like indoline carbon bonded to the benzene ring, $\\text{C}8$, $\\text{C}16$, and a $-\\text{CH}_2-$ chain.\n2. **$\\text{C}8$**: Methine bridgehead carbon bonded to indoline $\\text{N}1$, $\\text{C}7$, $\\text{C}13$, and $\\text{H}$.\n3. **$\\text{C}12$**: Methine carbon bonded to the cyclic ether $\\text{O}$, $-\\text{CH}_2\\text{C(=O)}-$, $\\text{C}13$, and $\\text{H}$.\n4. **$\\text{C}13$**: Methine ring-junction carbon bonded to $\\text{C}8$, $\\text{C}12$, $\\text{C}14$, and $\\text{H}$.\n5. **$\\text{C}14$**: Methine allylic bridgehead carbon bonded to $\\text{C}13$, $=\\text{C}(\\text{alkene})$, $-\\text{CH}_2-$, and $\\text{H}$.\n6. **$\\text{C}16$**: Methine carbon bonded to tertiary amine $\\text{N}19$, $\\text{C}7$, $-\\text{CH}_2-$, and $\\text{H}$.\n\n(All other carbons are either $sp^2$ aromatic/alkene/carbonyl carbons or achiral $-\\text{CH}_2-$ groups.)\nThus, the number of chiral carbon centers is **$6$**."
+    },
+    {
+      "questionId": "jam_cy_2025_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "-8.80 to -8.50",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -8.8,
+      "natMax": -8.5,
+      "questionTextEn": "One mole of a monoatomic ideal gas starting from state $\\text{A}$, goes through $\\text{B}$ and $\\text{C}$ to state $\\text{D}$, as shown in the figure. Total change in entropy (in $\\text{J K}^{-1}$) during this process is ______.\n\n*(round off to two decimal places)*\n\n*Figure description*: A $P\\text{ (atm)}$ vs $V\\text{ (dm}^3)$ diagram showing path $\\text{A} \\to \\text{B} \\to \\text{C} \\to \\text{D}$, where state $\\text{A} = (P = 2\\text{ atm},\\; V = 10\\text{ dm}^3)$, state $\\text{B} = (2\\text{ atm},\\; 20\\text{ dm}^3)$, state $\\text{C} = (1\\text{ atm},\\; 20\\text{ dm}^3)$, and state $\\text{D} = (1\\text{ atm},\\; 10\\text{ dm}^3)$.\n\n[Given: Gas constant, $R = 8.314\\text{ J mol}^{-1}\\text{ K}^{-1}$]",
+      "optionsEn": [],
+      "explanationEn": "Since **entropy ($S$) is a state function**, $\\Delta S$ for the path $\\text{A} \\to \\text{B} \\to \\text{C} \\to \\text{D}$ depends only on the initial state $\\text{A}$ and the final state $\\text{D}$:\n- State $\\text{A}$: $P_A = 2\\text{ atm}$, $V_A = 10\\text{ dm}^3$\n- State $\\text{D}$: $P_D = 1\\text{ atm}$, $V_D = 10\\text{ dm}^3$\n\nBecause $V_A = V_D$ (same volume), the net change $\\text{A} \\to \\text{D}$ is equivalent to an **isochoric cooling** where $\\frac{T_D}{T_A} = \\frac{P_D}{P_A} = \\frac{1}{2}$.\n\nFor $n = 1\\text{ mol}$ of a monoatomic ideal gas ($C_{V,m} = \\frac{3}{2}R$):\n$$\\Delta S = n C_{V,m} \\ln\\left(\\frac{T_D}{T_A}\\right) + n R \\ln\\left(\\frac{V_D}{V_A}\\right) = 1 \\times \\frac{3}{2}(8.314) \\ln\\left(\\frac{1}{2}\\right) + 0$$\n$$\\Delta S = 12.471 \\times (-0.69315) = -8.644\\text{ J K}^{-1} \\approx -8.64\\text{ J K}^{-1}$$\nThus, the answer is **$-8.64$** (within the official range $-8.80$ to $-8.50$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "0.74 to 0.78",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.74,
+      "natMax": 0.78,
+      "questionTextEn": "In one second, $95\\text{ moles}$ of $\\text{He}$ gas particles are hitting a wall of a cubic container of volume $1\\text{ dm}^3$. If the average velocity component of the particles perpendicular to the wall is $1000\\text{ m s}^{-1}$, then the pressure of the gas in the container is $X \\times 10^5\\text{ N m}^{-2}$. The value of $X$ is ______.\n\n*(round off to two decimal places)*\n\n[Given: Avogadro's number, $N_A = 6.02 \\times 10^{23}$, mass of $\\text{He} = 4\\text{ g mol}^{-1}$]",
+      "optionsEn": [],
+      "explanationEn": "**Step 1: Find the area of one wall of the cubic container.**\nVolume $V = 1\\text{ dm}^3 = 10^{-3}\\text{ m}^3 \\implies$ edge length $L = 0.1\\text{ m}$, wall area $A = L^2 = 0.01\\text{ m}^2$.\n\n**Step 2: Calculate the force on the wall from momentum transfer per second.**\nIn an elastic collision with the wall, each particle of mass $m$ reverses its perpendicular velocity component $v_x$, transferring momentum $\\Delta p = 2 m v_x$.\nFor $\\frac{dn}{dt} = 95\\text{ mol s}^{-1}$ of $\\text{He}$ (molar mass $M = 4\\text{ g mol}^{-1} = 4 \\times 10^{-3}\\text{ kg mol}^{-1}$) with $v_x = 1000\\text{ m s}^{-1}$:\n$$F = \\frac{dp}{dt} = 2 \\left(\\frac{dn}{dt}\\right) M v_x = 2 \\times 95 \\times (4 \\times 10^{-3}) \\times 1000 = 760\\text{ N}$$\n\n**Step 3: Compute pressure $P$.**\n$$P = \\frac{F}{A} = \\frac{760\\text{ N}}{0.01\\text{ m}^2} = 7.6 \\times 10^4\\text{ N m}^{-2} = 0.76 \\times 10^5\\text{ N m}^{-2}$$\nThus, $X = \\mathbf{0.76}$ (within the official range $0.74$ to $0.78$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Hard",
+      "correctOption": "8.0 to 9.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 9.5,
+      "questionTextEn": "Solubility of $\\text{PbCO}_3$ in a buffer of $\\text{pH } 5$ is $X \\times 10^{-4}$. The value of $X$ is ______.\n\n*(round off to one decimal place)*\n\n[Given: $K_{sp}$ of $\\text{PbCO}_3 = 1.5 \\times 10^{-13}$; for $\\text{H}_2\\text{CO}_3$, $K_{a1} = 4.2 \\times 10^{-7}$, $K_{a2} = 4.8 \\times 10^{-11}$]",
+      "optionsEn": [],
+      "explanationEn": "In a buffer of $\\text{pH} = 5$, $[\\text{H}^+] = 10^{-5}\\text{ M}$. Let the molar solubility of $\\text{PbCO}_3$ be $s = [\\text{Pb}^{2+}]$.\n\n**Step 1: Relate total carbonate concentration to $[\\text{CO}_3^{2-}]$.**\nBy mass balance:\n$$s = [\\text{CO}_3^{2-}] + [\\text{HCO}_3^-] + [\\text{H}_2\\text{CO}_3] = [\\text{CO}_3^{2-}]\\left(1 + \\frac{[\\text{H}^+]}{K_{a2}} + \\frac{[\\text{H}^+]^2}{K_{a1}K_{a2}}\\right)$$\nSubstitute $[\\text{H}^+] = 10^{-5}$, $K_{a1} = 4.2 \\times 10^{-7}$, $K_{a2} = 4.8 \\times 10^{-11}$:\n$$\\frac{[\\text{H}^+]}{K_{a2}} = \\frac{10^{-5}}{4.8 \\times 10^{-11}} = 2.0833 \\times 10^5$$\n$$\\frac{[\\text{H}^+]^2}{K_{a1}K_{a2}} = \\frac{10^{-10}}{(4.2 \\times 10^{-7})(4.8 \\times 10^{-11})} = 4.9603 \\times 10^6$$\n$$1 + 2.0833 \\times 10^5 + 4.9603 \\times 10^6 = 5.1686 \\times 10^6$$\n\n**Step 2: Solve for $s$ using $K_{sp} = [\\text{Pb}^{2+}][\\text{CO}_3^{2-}]$.**\n$$s^2 = K_{sp} \\times 5.1686 \\times 10^6 = (1.5 \\times 10^{-13})(5.1686 \\times 10^6) = 7.753 \\times 10^{-7}$$\n$$s = \\sqrt{7.753 \\times 10^{-7}} = 8.805 \\times 10^{-4}\\text{ M} \\approx 8.8 \\times 10^{-4}\\text{ M}$$\nThus, $X = \\mathbf{8.8}$ (within the official range $8.0$ to $9.5$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "3.6 to 3.9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.6,
+      "natMax": 3.9,
+      "questionTextEn": "The molar conductivity of a $0.02\\text{ M}$ weak acid $\\text{HA}$ is $3.2\\text{ mS m}^2\\text{ mol}^{-1}$ at $298\\text{ K}$. The $\\text{p}K_a$ of $\\text{HA}$ is ______.\n\n*(round off to one decimal place)*\n\n[Given: Limiting molar conductivity of $\\text{HA} = 39\\text{ mS m}^2\\text{ mol}^{-1}$ at $298\\text{ K}$]",
+      "optionsEn": [],
+      "explanationEn": "**Step 1: Calculate the degree of dissociation ($\\alpha$).**\n$$\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ} = \\frac{3.2\\text{ mS m}^2\\text{ mol}^{-1}}{39\\text{ mS m}^2\\text{ mol}^{-1}} = 0.08205$$\n\n**Step 2: Apply Ostwald's dilution law to find $K_a$.**\n$$K_a = \\frac{c\\alpha^2}{1 - \\alpha} = \\frac{0.02 \\times (0.08205)^2}{1 - 0.08205} = \\frac{1.3465 \\times 10^{-4}}{0.91795} = 1.467 \\times 10^{-4}$$\n\n**Step 3: Compute $\\text{p}K_a$.**\n$$\\text{p}K_a = -\\log_{10}(1.467 \\times 10^{-4}) = 3.834 \\approx 3.8$$\nThus, the answer is **$3.8$** (within the official range $3.6$ to $3.9$)."
+    },
+    {
+      "questionId": "jam_cy_2025_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM CY 2025 Official Paper",
+      "topicTag": "Physical Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "-240.0 to -238.0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -240.0,
+      "natMax": -238.0,
+      "questionTextEn": "A cell is constructed by $\\text{Cl}_2/\\text{Cl}^-(\\text{aq})$ and a standard hydrogen electrode half-cells. The standard potential of the complete cell is $1.38\\text{ V}$ and $\\left(\\frac{\\partial E^0}{\\partial T}\\right)_P = -1.24\\text{ mV K}^{-1}$. The $\\Delta S^0_{\\text{reaction}}$ (in $\\text{J K}^{-1}\\text{ mol}^{-1}$) for the following cell reaction is ______.\n$$\\text{H}_2(\\text{gas}) + \\text{Cl}_2(\\text{gas}) \\to 2\\text{H}^+(\\text{aq}) + 2\\text{Cl}^-(\\text{aq})$$\n*(round off to one decimal place)*\n\n[Given: Faraday constant ($F$) $= 96480\\text{ C mol}^{-1}$]",
+      "optionsEn": [],
+      "explanationEn": "For the cell reaction $\\text{H}_2(\\text{g}) + \\text{Cl}_2(\\text{g}) \\to 2\\text{H}^+(\\text{aq}) + 2\\text{Cl}^-(\\text{aq})$, the number of electrons transferred is **$n = 2$**.\n\nUsing the Gibbs–Helmholtz relation for electrochemical cells:\n$$\\Delta S^0_{\\text{reaction}} = nF\\left(\\frac{\\partial E^0}{\\partial T}\\right)_P$$\nSubstituting $n = 2$, $F = 96480\\text{ C mol}^{-1}$, and $\\left(\\frac{\\partial E^0}{\\partial T}\\right)_P = -1.24\\text{ mV K}^{-1} = -1.24 \\times 10^{-3}\\text{ V K}^{-1}$:\n$$\\Delta S^0_{\\text{reaction}} = 2 \\times 96480 \\times (-1.24 \\times 10^{-3}) = -239.27\\text{ J K}^{-1}\\text{ mol}^{-1} \\approx -239.3\\text{ J K}^{-1}\\text{ mol}^{-1}$$\nThus, the answer is **$-239.3$** (within the official range $-240.0$ to $-238.0$)."
+    }
+  ]
+}

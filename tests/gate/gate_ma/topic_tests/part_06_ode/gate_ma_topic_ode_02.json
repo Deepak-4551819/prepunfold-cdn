@@ -1,0 +1,610 @@
+{
+  "testId": "gate_ma_topic_ode_02",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_ode_02",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Ordinary Differential Equations — Set 2",
+  "titleEn": "GATE Mathematics Topic Test: Ordinary Differential Equations — Set 2",
+  "partId": "part_06_ode",
+  "part_id": "part_06_ode",
+  "partTitle": "Ordinary Differential Equations",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: साधारण अवकल समीकरण — सेट 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Ordinary Differential Equations • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "sectionTitleEn": "Ordinary Differential Equations",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_ode_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Laplace Transforms",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The inverse Laplace transform of $F(s) = \\frac{s + 2}{s^2 + 4s + 13}$ for $t \\ge 0$ is:",
+      "optionsEn": [
+        "$e^{2t}\\cos(3t)$",
+        "$e^{-2t}\\sin(3t)$",
+        "$e^{-2t}\\left(\\cos(3t) + \\frac{2}{3}\\sin(3t)\\right)$",
+        "$e^{-2t}\\cos(3t)$"
+      ],
+      "explanationEn": "Completing the square in the denominator gives $F(s) = \\frac{s + 2}{(s + 2)^2 + 3^2}$. By the first shifting theorem, $\\mathcal{L}^{-1}\\left\\{\\frac{s + 2}{(s + 2)^2 + 3^2}\\right\\} = e^{-2t}\\cos(3t)$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Laplace Transforms",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $s > 0$, the Laplace transform $\\mathcal{L}\\{t \\sin(3t)\\}(s)$ is equal to:",
+      "optionsEn": [
+        "$\\frac{6}{(s^2 + 9)^2}$",
+        "$\\frac{3s}{(s^2 + 9)^2}$",
+        "$\\frac{6s}{(s^2 + 9)^2}$",
+        "$\\frac{s^2 - 9}{(s^2 + 9)^2}$"
+      ],
+      "explanationEn": "Using the frequency-differentiation property $\\mathcal{L}\\{t f(t)\\}(s) = -\\frac{d}{ds}\\mathcal{L}\\{f(t)\\}(s)$ with $\\mathcal{L}\\{\\sin(3t)\\}(s) = \\frac{3}{s^2 + 9}$, we obtain $-\\frac{d}{ds}\\left(\\frac{3}{s^2 + 9}\\right) = \\frac{6s}{(s^2 + 9)^2}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Sturm-Liouville Problems",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "When the Laguerre differential equation $x y'' + (1 - x)y' + \\lambda y = 0$ ($x > 0$) is converted into Sturm-Liouville self-adjoint form $\\frac{d}{dx}\\left(p(x)y'\\right) + \\lambda w(x)y = 0$, the weight function $w(x)$ (up to a positive constant multiple) is:",
+      "optionsEn": [
+        "$e^{-x}$",
+        "$x e^{-x}$",
+        "$e^{x}$",
+        "$\\frac{1}{x}e^{-x}$"
+      ],
+      "explanationEn": "Divide by $x$ to get $y'' + \\left(\\frac{1}{x} - 1\\right)y' + \\frac{\\lambda}{x}y = 0$. The integrating factor is $\\mu(x) = \\exp\\left(\\int \\left(\\frac{1}{x} - 1\\right)dx\\right) = x e^{-x}$. Multiplying the standard form by $x e^{-x}$ gives $(x e^{-x} y')' + \\lambda e^{-x} y = 0$, so $p(x) = x e^{-x}$ and the weight function is $w(x) = e^{-x}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Systems of Linear ODEs",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\Phi(t)$ be a fundamental matrix of the linear system $\\mathbf{x}'(t) = \\begin{pmatrix} t & \\cos t \\\\ e^t & t \\end{pmatrix}\\mathbf{x}(t)$ with $\\det(\\Phi(0)) = 3$. Then $\\det(\\Phi(t))$ is equal to:",
+      "optionsEn": [
+        "$3 e^{t^2/2}$",
+        "$3 e^{t^2}$",
+        "$3 e^{2t}$",
+        "$3 + t^2$"
+      ],
+      "explanationEn": "By Liouville's formula, $\\det(\\Phi(t)) = \\det(\\Phi(0))\\exp\\left(\\int_0^t \\operatorname{tr}(A(\\tau))\\,d\\tau\\right)$. Here $\\operatorname{tr}(A(t)) = t + t = 2t$, so $\\det(\\Phi(t)) = 3\\exp\\left(\\int_0^t 2\\tau\\,d\\tau\\right) = 3e^{t^2}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Legendre Functions",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P_n(x)$ be the Legendre polynomial of degree $n$ normalized so that $P_n(1) = 1$. Which of the following statements is/are TRUE for all integers $n \\ge 0$?",
+      "optionsEn": [
+        "$P_n(-1) = (-1)^n$",
+        "$P_n(-x) = (-1)^n P_n(x)$",
+        "$\\int_{-1}^{1} P_m(x) P_n(x)\\,dx = 0$ whenever $m \\neq n$",
+        "$P_n(0) = 0$ for every integer $n \\ge 1$"
+      ],
+      "explanationEn": "(A) and (B) are True: $P_n$ has parity $(-1)^n$ and $P_n(1) = 1$, so $P_n(-1) = (-1)^n$. (C) is True by orthogonality of Sturm-Liouville eigenfunctions on $[-1, 1]$. (D) is False: $P_n(0) = 0$ only for odd $n$; for even $n$, $P_2(0) = -\\frac{1}{2} \\neq 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Systems of Linear ODEs",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A$ and $B$ be constant $n \\times n$ real matrices. Which of the following statements about the matrix exponential $e^{tA}$ is/are ALWAYS TRUE?",
+      "optionsEn": [
+        "$\\frac{d}{dt}(e^{tA}) = A e^{tA} = e^{tA} A$ for all $t \\in \\mathbb{R}$.",
+        "$e^{tA}$ is invertible for every $t \\in \\mathbb{R}$, with $(e^{tA})^{-1} = e^{-tA}$.",
+        "$\\det(e^{tA}) = e^{t\\operatorname{tr}(A)}$ for all $t \\in \\mathbb{R}$.",
+        "$e^{A + B} = e^A e^B$ for all $n \\times n$ matrices $A$ and $B$."
+      ],
+      "explanationEn": "(A), (B), and (C) are universal properties of the matrix exponential. (D) is False in general unless $A$ and $B$ commute ($AB = BA$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Existence and Uniqueness",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following initial value problems has/have a UNIQUE solution in some open interval containing $x = 0$?",
+      "optionsEn": [
+        "$y' = y^2 + \\cos x,\\; y(0) = 1$",
+        "$y' = |y|,\\; y(0) = 0$",
+        "$y' = y^{1/3},\\; y(0) = 0$",
+        "$y' = \\sin(xy) + e^y,\\; y(0) = 2$"
+      ],
+      "explanationEn": "By the Picard-Lindelöf theorem, local Lipschitz continuity in $y$ guarantees local uniqueness. (A) $f_y = 2y$ is continuous near $(0, 1)$, so locally Lipschitz. (B) $||y_1| - |y_2|| \\le |y_1 - y_2|$ is globally Lipschitz in $y$ (unique solution $y \\equiv 0$). (C) $y^{1/3}$ is not Lipschitz at $y = 0$ (both $y \\equiv 0$ and $y = (2x/3)^{3/2}$ for $x \\ge 0$ solve it). (D) $f_y = x\\cos(xy) + e^y$ is continuous near $(0, 2)$, so locally Lipschitz."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "First-Order ODEs",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $y(x)$ be the solution of the Bernoulli equation $x y' - y = y^2$ with $y(1) = \\frac{1}{2}$. The value of $y(2)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Divide by $x y^2$ and set $u = y^{-1}$, so $u' = -y^{-2} y'$. The equation becomes $-u' - \\frac{u}{x} = \\frac{1}{x} \\implies (xu)' = -1$, giving $xu = -x + C$. From $y(1) = \\frac{1}{2}$, $u(1) = 2$, so $C = 3$ and $u(x) = \\frac{3}{x} - 1$. Thus $y(x) = \\frac{x}{3 - x}$, and $y(2) = \\frac{2}{3 - 2} = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Laplace Transforms",
+      "difficulty": "Easy",
+      "correctOption": "0.375",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.375,
+      "natMax": 0.375,
+      "questionTextEn": "Let $F(s) = \\mathcal{L}\\{t^3 e^{-2t}\\}(s)$ for $s > -2$. The value of $F(0)$ (exact decimal value) is ______.",
+      "optionsEn": [],
+      "explanationEn": "By the first shifting theorem, $F(s) = \\mathcal{L}\\{t^3 e^{-2t}\\}(s) = \\frac{3!}{(s + 2)^4} = \\frac{6}{(s + 2)^4}$. Evaluating at $s = 0$ gives $F(0) = \\frac{6}{16} = 0.375$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Planar Autonomous Systems",
+      "difficulty": "Easy",
+      "correctOption": "1.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.5,
+      "natMax": 1.5,
+      "questionTextEn": "The supremum of all real numbers $a$ for which the origin is an asymptotically stable equilibrium of the system $x' = a x - 2y$, $y' = 3x - 4y$ (exact decimal value) is ______.",
+      "optionsEn": [],
+      "explanationEn": "The coefficient matrix $A = \\begin{pmatrix} a & -2 \\\\ 3 & -4 \\end{pmatrix}$ has $\\operatorname{tr}(A) = a - 4$ and $\\det(A) = -4a + 6$. Asymptotic stability requires both $\\operatorname{tr}(A) < 0$ ($a < 4$) and $\\det(A) > 0$ ($a < 1.5$). Hence the origin is asymptotically stable if and only if $a < 1.5$, so the supremum is $1.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Lyapunov Functions",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the nonlinear oscillator $x' = y$, $y' = -x^3 - (1 + x^2)y$. Using the Lyapunov function $V(x, y) = \\frac{1}{4}x^4 + \\frac{1}{2}y^2$, one can conclude that the origin $(0, 0)$ is:",
+      "optionsEn": [
+        "a saddle point",
+        "Lyapunov stable, but not asymptotically stable",
+        "globally asymptotically stable",
+        "unstable"
+      ],
+      "explanationEn": "Here $V(x, y) = \\frac{1}{4}x^4 + \\frac{1}{2}y^2$ is positive definite and radially unbounded ($V \\to \\infty$ as $x^2 + y^2 \\to \\infty$). Its orbital derivative is $\\dot{V} = x^3 y + y(-x^3 - (1 + x^2)y) = -(1 + x^2)y^2 \\le 0$. The set $\\{\\dot{V} = 0\\}$ is $\\{y = 0\\}$, and the only trajectory staying identically in $\\{y = 0\\}$ satisfies $y' = -x^3 = 0 \\implies x = 0$. By LaSalle's invariance principle, $(0, 0)$ is globally asymptotically stable."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "First-Order ODEs",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given that $y_1(x) = \\frac{1}{x}$ is a particular solution of the Riccati equation $y' = y^2 - \\frac{2}{x^2}$ ($x > 0$), the solution satisfying $y(1) = 2$ is:",
+      "optionsEn": [
+        "$y(x) = \\frac{1}{x} + \\frac{3x^2}{4 - x^3}$",
+        "$y(x) = \\frac{1}{x} + \\frac{2x^2}{3 - x^3}$",
+        "$y(x) = \\frac{1}{x} + \\frac{3x^2}{4 + x^3}$",
+        "$y(x) = \\frac{1}{x} + \\frac{x^2}{2 - x^3}$"
+      ],
+      "explanationEn": "Substitute $y = \\frac{1}{x} + \\frac{1}{u}$ into $y' = y^2 - \\frac{2}{x^2}$ to get $-\\frac{1}{x^2} - \\frac{u'}{u^2} = \\frac{1}{x^2} + \\frac{2}{xu} + \\frac{1}{u^2} - \\frac{2}{x^2}$, which simplifies to $u' + \\frac{2}{x}u = -1$. Multiplying by $x^2$ gives $(x^2 u)' = -x^2 \\implies x^2 u = -\\frac{x^3}{3} + C$. From $y(1) = 2$, $u(1) = 1$, so $C = \\frac{4}{3}$ and $u(x) = \\frac{4 - x^3}{3x^2}$. Hence $y(x) = \\frac{1}{x} + \\frac{3x^2}{4 - x^3}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Bessel Functions",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For every real number $x$, the value of the infinite series $[J_0(x)]^2 + 2\\sum_{n=1}^{\\infty} [J_n(x)]^2$ is:",
+      "optionsEn": [
+        "$\\cos^2 x$",
+        "$1$",
+        "$2$",
+        "$e^x$"
+      ],
+      "explanationEn": "From the generating function $e^{\\frac{x}{2}(t - t^{-1})} = \\sum_{n=-\\infty}^{\\infty} J_n(x) t^n$, setting $t = e^{i\\theta}$ yields the Fourier series $e^{ix\\sin\\theta} = \\sum_{n=-\\infty}^{\\infty} J_n(x) e^{in\\theta}$. By Parseval's identity, $\\sum_{n=-\\infty}^{\\infty} |J_n(x)|^2 = \\frac{1}{2\\pi}\\int_0^{2\\pi} |e^{ix\\sin\\theta}|^2\\,d\\theta = 1$. Since $J_{-n}(x) = (-1)^n J_n(x)$, this gives $[J_0(x)]^2 + 2\\sum_{n=1}^{\\infty}[J_n(x)]^2 = 1$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Second-Order Variable Coefficient ODEs",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given that $y_1(x) = x$ is a solution of $(1 - x^2)y'' - 2x y' + 2y = 0$ on $(-1, 1)$, a second linearly independent solution on $(-1, 1)$ is:",
+      "optionsEn": [
+        "$x\\ln\\left(\\frac{1 + x}{1 - x}\\right) + 1$",
+        "$\\frac{1}{2}\\ln\\left(\\frac{1 + x}{1 - x}\\right) - x$",
+        "$x\\ln(1 - x^2) - 2$",
+        "$\\frac{x}{2}\\ln\\left(\\frac{1 + x}{1 - x}\\right) - 1$"
+      ],
+      "explanationEn": "By reduction of order, $y_2(x) = y_1(x)\\int \\frac{e^{-\\int P(x)\\,dx}}{y_1(x)^2}\\,dx$ where $P(x) = \\frac{-2x}{1 - x^2}$. Since $e^{-\\int P(x)\\,dx} = \\frac{1}{1 - x^2}$, we get $y_2(x) = x\\int \\frac{dx}{x^2(1 - x^2)} = x\\int\\left(\\frac{1}{x^2} + \\frac{1}{2(1 - x)} + \\frac{1}{2(1 + x)}\\right)dx = x\\left(-\\frac{1}{x} + \\frac{1}{2}\\ln\\frac{1 + x}{1 - x}\\right) = \\frac{x}{2}\\ln\\left(\\frac{1 + x}{1 - x}\\right) - 1$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Existence and Uniqueness",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y(x)$ be the unique solution of the initial value problem $y' = y(1 - y)$, $y(0) = \\frac{1}{2}$ on $\\mathbb{R}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$0 < y(x) < 1$ for all $x \\in \\mathbb{R}$.",
+        "$y(x)$ is strictly increasing on $\\mathbb{R}$.",
+        "$\\lim_{x \\to \\infty} y(x) = 1$ and $\\lim_{x \\to -\\infty} y(x) = 0$.",
+        "$y(x)$ attains an inflection point at $x = 0$."
+      ],
+      "explanationEn": "Since $y \\equiv 0$ and $y \\equiv 1$ are equilibrium solutions and the RHS is locally Lipschitz, uniqueness prevents $y(x)$ from crossing $0$ or $1$, giving $0 < y(x) < 1$ on $\\mathbb{R}$ ((A) True). Hence $y' = y(1 - y) > 0$ everywhere, so $y$ is strictly increasing ((B) True). Explicitly $y(x) = \\frac{1}{1 + e^{-x}}$, giving limits $1$ as $x \\to \\infty$ and $0$ as $x \\to -\\infty$ ((C) True). Also $y'' = y'(1 - 2y)$ changes sign from positive to negative at $y = \\frac{1}{2}$, i.e., at $x = 0$ ((D) True)."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Sturm-Liouville Problems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the periodic Sturm-Liouville problem $y'' + \\lambda y = 0$ on $[-\\pi, \\pi]$ with $y(-\\pi) = y(\\pi)$ and $y'(-\\pi) = y'(\\pi)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\lambda = 0$ is a simple eigenvalue with eigenfunction $y(x) = 1$.",
+        "Every positive eigenvalue is of the form $\\lambda_n = n^2$ ($n = 1, 2, 3, \\dots$) and has geometric multiplicity $2$.",
+        "There are no negative eigenvalues.",
+        "Every eigenvalue of this periodic problem is simple."
+      ],
+      "explanationEn": "(A) True: for $\\lambda = 0$, $y = c_1 + c_2 x$ satisfies $y(-\\pi) = y(\\pi)$ iff $c_2 = 0$, leaving the 1D space spanned by $1$. (B) True: for $\\lambda = n^2$ ($n \\ge 1$), both $\\cos(nx)$ and $\\sin(nx)$ satisfy the periodic conditions, giving multiplicity $2$ (so (D) is False). (C) True: multiplying by $y$ and integrating by parts gives $\\lambda\\int_{-\\pi}^{\\pi} y^2\\,dx = \\int_{-\\pi}^{\\pi} (y')^2\\,dx \\ge 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Series Solutions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the second-order linear ODE $(x^2 - 2x + 5)y'' + x y' + 3y = 0$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$x = 0$ is an ordinary point of the ODE.",
+        "The power series solution centered at $x = 0$ is guaranteed to converge for $|x| < \\sqrt{5}$.",
+        "The power series solution centered at $x = 1$ is guaranteed to converge for $|x - 1| < 2$.",
+        "The ODE has real singular points at $x = 1 \\pm 2$."
+      ],
+      "explanationEn": "The singular points are the roots of $x^2 - 2x + 5 = (x - 1)^2 + 4 = 0$, namely $x = 1 \\pm 2i$ (complex, so (D) is False). Hence $x = 0$ is an ordinary point ((A) True). The distance from $0$ to $1 \\pm 2i$ is $\\sqrt{1^2 + 2^2} = \\sqrt{5}$ ((B) True). The distance from $1$ to $1 \\pm 2i$ is $|\\pm 2i| = 2$ ((C) True)."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Sturm's Theorems",
+      "difficulty": "Medium",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "Let $y(x)$ be the solution of $y'' + 2y' + 17y = 0$ satisfying $y(0) = 1$ and $y'(0) = -1$. The number of zeros of $y(x)$ in the open interval $(0, 2\\pi)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The characteristic equation $r^2 + 2r + 17 = 0$ has roots $r = -1 \\pm 4i$, so $y(x) = e^{-x}(c_1\\cos 4x + c_2\\sin 4x)$. From $y(0) = 1$ and $y'(0) = -c_1 + 4c_2 = -1$, we obtain $c_1 = 1$ and $c_2 = 0$, hence $y(x) = e^{-x}\\cos(4x)$. Its zeros occur where $4x = \\left(k + \\frac{1}{2}\\right)\\pi$, i.e., $x = \\frac{(2k + 1)\\pi}{8}$. For $x \\in (0, 2\\pi)$, $2k + 1 \\in \\{1, 3, 5, 7, 9, 11, 13, 15\\}$, giving $8$ zeros."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Systems of Linear ODEs",
+      "difficulty": "Medium",
+      "correctOption": "45",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 45.0,
+      "natMax": 45.0,
+      "questionTextEn": "Let $\\Phi(t)$ be a fundamental matrix of $\\mathbf{x}'(t) = A(t)\\mathbf{x}(t)$ for $t \\ge 0$, where the diagonal entries of $A(t)$ are $\\frac{1}{t+1}$, $\\frac{2}{t+1}$, and $-\\frac{1}{t+1}$. If $\\det(\\Phi(0)) = 5$, then $\\det(\\Phi(2))$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "By Liouville's formula, $\\det(\\Phi(t)) = \\det(\\Phi(0))\\exp\\left(\\int_0^t \\operatorname{tr}(A(u))\\,du\\right)$. Here $\\operatorname{tr}(A(u)) = \\frac{1 + 2 - 1}{u + 1} = \\frac{2}{u + 1}$, so $\\det(\\Phi(2)) = 5\\exp\\left(\\int_0^2 \\frac{2}{u+1}\\,du\\right) = 5\\exp(2\\ln 3) = 5 \\times 9 = 45$."
+    },
+    {
+      "questionId": "gate_ma_topic_ode_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Ordinary Differential Equations (Set 2)",
+      "topicTag": "Bessel Functions",
+      "difficulty": "Medium",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The value of $\\pi\\left(\\left[J_{1/2}\\left(\\frac{1}{4}\\right)\\right]^2 + \\left[J_{-1/2}\\left(\\frac{1}{4}\\right)\\right]^2\\right)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "For $x > 0$, $J_{1/2}(x) = \\sqrt{\\frac{2}{\\pi x}}\\sin x$ and $J_{-1/2}(x) = \\sqrt{\\frac{2}{\\pi x}}\\cos x$. Therefore, $[J_{1/2}(x)]^2 + [J_{-1/2}(x)]^2 = \\frac{2}{\\pi x}(\\sin^2 x + \\cos^2 x) = \\frac{2}{\\pi x}$. Multiplying by $\\pi$ and evaluating at $x = \\frac{1}{4}$ yields $\\frac{2}{1/4} = 8$."
+    }
+  ]
+}

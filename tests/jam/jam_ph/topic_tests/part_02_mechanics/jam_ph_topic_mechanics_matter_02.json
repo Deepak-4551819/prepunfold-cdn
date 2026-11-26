@@ -1,0 +1,611 @@
+{
+  "testId": "jam_ph_topic_mechanics_matter_02",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_topic_mechanics_matter_02",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2027 PH Topic Test: Mechanics and General Properties of Matter — Set 02",
+  "titleEn": "IIT JAM 2027 PH Topic Test: Mechanics and General Properties of Matter — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_02_mechanics",
+  "part_id": "part_02_mechanics",
+  "partTitle": "Mechanics and General Properties of Matter",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM PH • Mechanics and General Properties of Matter • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Rolling Motion",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A uniform solid sphere rolls without slipping down an inclined plane making an angle $\\theta$ with the horizontal. The linear acceleration of its center of mass down the incline is",
+      "optionsEn": [
+        "$\\frac{1}{2}g\\sin\\theta$",
+        "$\\frac{2}{3}g\\sin\\theta$",
+        "$\\frac{3}{5}g\\sin\\theta$",
+        "$\\frac{5}{7}g\\sin\\theta$"
+      ],
+      "explanationEn": "For pure rolling down an incline, $a = \\frac{g\\sin\\theta}{1 + I/(MR^2)}$. For a solid sphere, $\\frac{I}{MR^2} = \\frac{2}{5}$, giving $a = \\frac{g\\sin\\theta}{1 + 2/5} = \\frac{5}{7}g\\sin\\theta$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "System of Particles",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A uniform thin wire of mass $M$ is bent into a semicircle of radius $R$ lying in the upper half of the $xy$-plane centered at the origin. The distance of its center of mass from the origin is",
+      "optionsEn": [
+        "$\\frac{2R}{\\pi}$",
+        "$\\frac{R}{\\pi}$",
+        "$\\frac{R}{2}$",
+        "$\\frac{4R}{3\\pi}$"
+      ],
+      "explanationEn": "For a semicircular arc of radius $R$, $y_{\\text{cm}} = \\frac{1}{\\pi R}\\int_0^\\pi (R\\sin\\theta)(R\\,d\\theta) = \\frac{R}{\\pi}[-\\cos\\theta]_0^\\pi = \\frac{2R}{\\pi}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Fluid Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An incompressible ideal fluid of density $\\rho$ flows steadily through a horizontal pipe whose cross-sectional area narrows from $A$ to $A/2$. If the fluid speed in the wider section is $v$, the pressure difference $P_1 - P_2$ between the wider and narrower sections is",
+      "optionsEn": [
+        "$\\frac{3}{2}\\rho v^2$",
+        "$2\\rho v^2$",
+        "$\\frac{3}{4}\\rho v^2$",
+        "$\\frac{1}{2}\\rho v^2$"
+      ],
+      "explanationEn": "By the continuity equation, $A v = (A/2) v_2 \\implies v_2 = 2v$. By Bernoulli's equation for a horizontal pipe, $P_1 - P_2 = \\frac{1}{2}\\rho(v_2^2 - v^2) = \\frac{1}{2}\\rho(4v^2 - v^2) = \\frac{3}{2}\\rho v^2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Surface Tension",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Water rises to a height $h$ in a vertical glass capillary tube of radius $r$. If the same experiment is repeated in a glass capillary tube of radius $2r$, the height of the water column will be",
+      "optionsEn": [
+        "$\\frac{h}{4}$",
+        "$\\frac{h}{2}$",
+        "$h$",
+        "$2h$"
+      ],
+      "explanationEn": "By Jurin's law, capillary rise is $h = \\frac{2T\\cos\\theta}{\\rho g r} \\propto \\frac{1}{r}$. Doubling the radius halves the capillary rise height to $\\frac{h}{2}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Elasticity",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A uniform metal wire of Young's modulus $Y$ is stretched within its elastic limit so that the longitudinal strain is $\\epsilon$. The elastic potential energy stored per unit volume of the wire is",
+      "optionsEn": [
+        "$Y\\epsilon^2$",
+        "$\\frac{1}{2}Y\\epsilon^2$",
+        "$\\frac{1}{4}Y\\epsilon^2$",
+        "$\\frac{1}{2}\\frac{\\epsilon^2}{Y}$"
+      ],
+      "explanationEn": "The elastic energy density is $u = \\frac{1}{2} \\times \\text{stress} \\times \\text{strain} = \\frac{1}{2}(Y\\epsilon)\\epsilon = \\frac{1}{2}Y\\epsilon^2$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Elasticity",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A uniform heavy wire of length $L$, mass density $\\rho$, and Young's modulus $Y$ hangs vertically from a rigid ceiling. The elongation of the wire due to its own weight is",
+      "optionsEn": [
+        "$\\frac{\\rho g L^2}{2Y}$",
+        "$\\frac{\\rho g L^2}{4Y}$",
+        "$\\frac{2\\rho g L^2}{Y}$",
+        "$\\frac{\\rho g L^2}{Y}$"
+      ],
+      "explanationEn": "At distance $x$ from the free bottom end, the tension due to the hanging segment below is $T(x) = \\rho A x g$, giving local strain $\\frac{d(\\Delta l)}{dx} = \\frac{\\rho g x}{Y}$. Integrating from $0$ to $L$ yields $\\Delta L = \\int_0^L \\frac{\\rho g x}{Y}\\,dx = \\frac{\\rho g L^2}{2Y}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Elasticity",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A light horizontal cantilever beam of length $L$, breadth $b$, and thickness $d$ (Young's modulus $Y$) is clamped at one end and carries a load $W$ at the free end. If both the length $L$ and the thickness $d$ are doubled while $b$ and $W$ remain unchanged, the vertical depression at the free end changes by a factor of",
+      "optionsEn": [
+        "$4$",
+        "$2$",
+        "$1$ (unchanged)",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "The free-end depression of a rectangular cantilever is $\\delta = \\frac{WL^3}{3YI_g} = \\frac{4WL^3}{Y b d^3} \\propto \\frac{L^3}{d^3}$. When both $L$ and $d$ are doubled, $\\frac{(2L)^3}{(2d)^3} = \\frac{8}{8} = 1$, so the depression remains unchanged. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Work, Energy and Power",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle of mass $m$ moves in a one-dimensional potential $U(x) = \\frac{a}{x^2} - \\frac{b}{x}$ ($x > 0$, with $a, b > 0$). The angular frequency of small oscillations about its stable equilibrium position is",
+      "optionsEn": [
+        "$\\sqrt{\\frac{b^4}{16 m a^3}}$",
+        "$\\sqrt{\\frac{b^4}{4 m a^3}}$",
+        "$\\sqrt{\\frac{b^3}{8 m a^2}}$",
+        "$\\sqrt{\\frac{b^4}{8 m a^3}}$"
+      ],
+      "explanationEn": "Equilibrium occurs at $U'(x_0) = -\\frac{2a}{x_0^3} + \\frac{b}{x_0^2} = 0 \\implies x_0 = \\frac{2a}{b}$. The effective spring constant is $k_{\\text{eff}} = U''(x_0) = \\frac{6a}{x_0^4} - \\frac{2b}{x_0^3} = \\frac{6a b^4}{16 a^4} - \\frac{2 b^4}{8 a^3} = \\frac{b^4}{8 a^3}$. Hence $\\omega = \\sqrt{\\frac{k_{\\text{eff}}}{m}} = \\sqrt{\\frac{b^4}{8 m a^3}}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Variable Mass Systems",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Sand drops vertically at a constant mass rate $\\lambda$ (in $\\text{kg/s}$) onto a horizontal conveyor belt moving at a constant velocity $v$. The power required by the belt motor to maintain the constant velocity $v$ is",
+      "optionsEn": [
+        "$2\\lambda v^2$",
+        "$\\frac{1}{4}\\lambda v^2$",
+        "$\\frac{1}{2}\\lambda v^2$",
+        "$\\lambda v^2$"
+      ],
+      "explanationEn": "The horizontal force required to accelerate the falling sand from zero horizontal speed to speed $v$ is $F = \\frac{dp}{dt} = \\lambda v$. The mechanical power delivered by the motor is $P = Fv = \\lambda v^2$. (Half of this power, $\\frac{1}{2}\\lambda v^2$, becomes kinetic energy of the sand, and the other half is dissipated as heat by friction.) Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Gravitation and Kepler's Laws",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A planet moves in an elliptical orbit of semi-major axis $a$ and eccentricity $e$ around a star of mass $M$. When the planet is at a distance $r = a$ from the star (at the ends of the minor axis), its orbital speed is",
+      "optionsEn": [
+        "$\\sqrt{\\frac{GM}{a}}$",
+        "$\\sqrt{\\frac{2GM}{a}}$",
+        "$\\sqrt{\\frac{GM(1 - e^2)}{a}}$",
+        "$\\sqrt{\\frac{GM(1 + e)}{a}}$"
+      ],
+      "explanationEn": "From conservation of energy (vis-viva equation), $\\frac{1}{2}v^2 - \\frac{GM}{r} = -\\frac{GM}{2a} \\implies v^2 = GM\\left(\\frac{2}{r} - \\frac{1}{a}\\right)$. At $r = a$, $v^2 = GM\\left(\\frac{2}{a} - \\frac{1}{a}\\right) = \\frac{GM}{a} \\implies v = \\sqrt{\\frac{GM}{a}}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Gravitation and Kepler's Laws",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a uniform solid sphere of mass $M$ and radius $R$. Let $g(r)$ and $\\Phi(r)$ denote the magnitude of the gravitational field and the gravitational potential (with $\\Phi(\\infty) = 0$) at a distance $r$ from the center. Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "$g(r)$ attains its maximum value at the surface $r = R$",
+        "For $r < R$, $g(r)$ increases linearly with $r$",
+        "The gravitational potential at the center is $\\Phi(0) = -\\frac{3GM}{2R}$",
+        "The gravitational potential is constant for $r \\le R$"
+      ],
+      "explanationEn": "For a uniform solid sphere: $g(r) = \\frac{GM}{R^3}r$ for $r \\le R$ (linearly increasing, A is true) and $g(r) = \\frac{GM}{r^2}$ for $r \\ge R$, peaking at $r = R$ (B is true). Inside, $\\Phi(r) = -\\frac{GM}{2R^3}(3R^2 - r^2)$, which varies with $r$ (D is false) and equals $-\\frac{3GM}{2R}$ at $r = 0$ (C is true). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Rotating Frames",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a Foucault pendulum oscillating at latitude $\\lambda$ on the Earth (which rotates with angular speed $\\Omega$ about its axis). Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "The plane of oscillation precesses with angular speed $\\Omega\\sin\\lambda$",
+        "At latitude $\\lambda = 30^\\circ$, the plane of oscillation completes one full rotation in $12$ hours",
+        "At the Equator ($\\lambda = 0^\\circ$), the plane of oscillation does not precess",
+        "At the North Pole ($\\lambda = 90^\\circ$), the plane of oscillation completes one full rotation in one sidereal day"
+      ],
+      "explanationEn": "The precession angular speed of a Foucault pendulum is $\\omega_p = \\Omega\\sin\\lambda$ (A is true), with period $T_p = \\frac{T_{\\text{sidereal}}}{\\sin\\lambda}$. At $\\lambda = 90^\\circ$, $T_p = T_{\\text{sidereal}}$ (B is true). At $\\lambda = 0^\\circ$, $\\omega_p = 0$ (C is true). At $\\lambda = 30^\\circ$, $T_p = \\frac{24\\text{ h}}{\\sin 30^\\circ} = 48\\text{ h} \\neq 12\\text{ h}$ (D is false). Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Elasticity",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a homogeneous isotropic linear elastic solid with Young's modulus $Y$, bulk modulus $K$, shear modulus $\\eta$, and Poisson's ratio $\\sigma$, which of the following relation(s) is/are valid?",
+      "optionsEn": [
+        "$Y = 2\\eta(1 + \\sigma)$",
+        "For an incompressible material ($\\sigma \\to 0.5$), $Y = 2\\eta$",
+        "$Y = 3K(1 - 2\\sigma)$",
+        "$\\sigma = \\frac{3K - 2\\eta}{6K + 2\\eta}$"
+      ],
+      "explanationEn": "(A) $Y = 2\\eta(1 + \\sigma)$ and (C) $Y = 3K(1 - 2\\sigma)$ are standard identities. Equating them gives $2\\eta(1 + \\sigma) = 3K(1 - 2\\sigma) \\implies \\sigma(6K + 2\\eta) = 3K - 2\\eta \\implies \\sigma = \\frac{3K - 2\\eta}{6K + 2\\eta}$ (C is true). For $\\sigma \\to 0.5$, $Y = 2\\eta(1.5) = 3\\eta \\neq 2\\eta$ (D is false). Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Gravitation and Kepler's Laws",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A planet of mass $m$ orbits a much heavier star of mass $M$ in a bound elliptical orbit with semi-major axis $a$ and eccentricity $e$ ($0 < e < 1$). Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "The angular momentum magnitude is $L = m\\sqrt{GMa(1 - e^2)}$",
+        "The total mechanical energy of the planet is $E = -\\frac{GMm}{2a}$ and is independent of $e$",
+        "The orbital time period $T$ depends on $a$ and is independent of $e$",
+        "The speed of the planet is constant along the elliptical orbit"
+      ],
+      "explanationEn": "For a Keplerian ellipse: $E = -\\frac{GMm}{2a}$ (A is true), $T = 2\\pi\\sqrt{\\frac{a^3}{GM}}$ (independent of $e$, B is true), and the semi-latus rectum $\\ell = a(1 - e^2) = \\frac{L^2}{GMm^2} \\implies L = m\\sqrt{GMa(1 - e^2)}$ (C is true). Since $e > 0$, the speed varies from maximum at perihelion to minimum at aphelion (D is false). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Surface Tension",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "The excess pressure inside a spherical soap bubble of radius $2\\text{ cm}$ made from a soap solution of surface tension $0.03\\text{ N/m}$ is ____ $\\text{Pa}$. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "$\\Delta P = \\frac{4T}{R} = \\frac{4 \\times 0.03}{0.02} = 6\\text{ Pa}$."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Collisions",
+      "difficulty": "Easy",
+      "correctOption": "0.75",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.75,
+      "natMax": 0.75,
+      "questionTextEn": "A ball dropped from rest from a height of $16\\text{ m}$ onto a horizontal floor rebounds to a maximum height of $9\\text{ m}$. The coefficient of restitution between the ball and the floor is ____. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The rebound height is $h_1 = e^2 h_0$, so $e = \\sqrt{\\frac{h_1}{h_0}} = \\sqrt{\\frac{9}{16}} = 0.75$."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Elasticity",
+      "difficulty": "Easy",
+      "correctOption": "40",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 40.0,
+      "natMax": 40.0,
+      "questionTextEn": "A wire is stretched by $2\\text{ mm}$ under a tensile load of $40\\text{ N}$ within its elastic limit. The elastic potential energy stored in the wire, in $\\text{mJ}$, is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "$U = \\frac{1}{2}F\\Delta L = \\frac{1}{2}(40\\text{ N})(2 \\times 10^{-3}\\text{ m}) = 0.04\\text{ J} = 40\\text{ mJ}$."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Gravitation and Kepler's Laws",
+      "difficulty": "Easy",
+      "correctOption": "2.45",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.45,
+      "natMax": 2.45,
+      "questionTextEn": "Taking the acceleration due to gravity on Earth's surface as $g = 9.8\\text{ m/s}^2$, the acceleration due to gravity at an altitude equal to the Earth's radius ($h = R_E$), in $\\text{m/s}^2$, is ____. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "$g(h) = \\frac{g}{(1 + h/R_E)^2} = \\frac{9.8}{(1 + 1)^2} = \\frac{9.8}{4} = 2.45\\text{ m/s}^2$."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Fluid Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "A large open tank contains water to a depth of $5\\text{ m}$. A small hole is punctured near the bottom of the tank. Taking $g = 10\\text{ m/s}^2$, the initial efflux speed of water from the hole, in $\\text{m/s}$, is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "By Torricelli's theorem, $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 5} = 10\\text{ m/s}$."
+    },
+    {
+      "questionId": "jam_ph_topic_mechanics_matter_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mechanics and General Properties of Matter (Set 02)",
+      "topicTag": "Rolling Motion",
+      "difficulty": "Medium",
+      "correctOption": "3.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.5,
+      "natMax": 3.5,
+      "questionTextEn": "A uniform solid sphere rolls without slipping along a horizontal surface at $7\\text{ m/s}$ and then rolls without slipping up a rough inclined plane. Taking $g = 9.8\\text{ m/s}^2$, the maximum vertical height reached by its center of mass before momentarily stopping, in $\\text{m}$, is ____. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "The initial total kinetic energy is $K = \\frac{1}{2}Mv^2\\left(1 + \\frac{2}{5}\\right) = \\frac{7}{10}Mv^2$. Equating to $Mgh$ gives $h = \\frac{7v^2}{10g} = \\frac{7 \\times 49}{10 \\times 9.8} = 3.5\\text{ m}$."
+    }
+  ]
+}

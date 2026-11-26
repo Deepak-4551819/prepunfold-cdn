@@ -1,0 +1,600 @@
+{
+  "testId": "gate_ma_topic_cal_02",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_cal_02",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Calculus — Set 2",
+  "titleEn": "GATE Mathematics Topic Test: Calculus — Set 2",
+  "partId": "part_02_cal",
+  "part_id": "part_02_cal",
+  "partTitle": "Calculus",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: कलन — सेट 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Calculus • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "sectionTitleEn": "Calculus",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_cal_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Gauss Divergence Theorem",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S$ be the closed sphere $x^2 + y^2 + z^2 = R^2$ with outward unit normal $\\hat{n}$. The flux integral $\\iint_S \\vec{r} \\cdot \\hat{n}\\,dS$ (where $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$) equals:",
+      "optionsEn": [
+        "$\\frac{4}{3}\\pi R^3$",
+        "$4\\pi R^3$",
+        "$4\\pi R^2$",
+        "$3\\pi R^3$"
+      ],
+      "explanationEn": "Since $\\nabla \\cdot \\vec{r} = 3$, the Gauss Divergence Theorem gives $\\iiint_V 3\\,dV = 3 \\cdot \\frac{4}{3}\\pi R^3 = 4\\pi R^3$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Line Integrals",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $\\vec{F} = \\nabla \\phi$ is a conservative vector field on $\\mathbb{R}^3$ and $C$ is any piecewise smooth closed curve, then $\\oint_C \\vec{F} \\cdot d\\vec{r}$ is:",
+      "optionsEn": [
+        "dependent on the orientation of $C$",
+        "always $0$",
+        "equal to $\\phi(0,0,0)$",
+        "equal to the length of $C$"
+      ],
+      "explanationEn": "By the Fundamental Theorem of Line Integrals, the integral of a gradient field around any closed curve is $\\phi(P) - \\phi(P) = 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Changing the order of integration in $\\int_0^1 \\int_{x^2}^x f(x, y)\\,dy\\,dx$ gives:",
+      "optionsEn": [
+        "$\\int_0^1 \\int_{y^2}^y f(x, y)\\,dx\\,dy$",
+        "$\\int_0^1 \\int_0^{\\sqrt{y}} f(x, y)\\,dx\\,dy$",
+        "$\\int_0^1 \\int_{\\sqrt{y}}^y f(x, y)\\,dx\\,dy$",
+        "$\\int_0^1 \\int_y^{\\sqrt{y}} f(x, y)\\,dx\\,dy$"
+      ],
+      "explanationEn": "The region is $0 \\le x \\le 1$ and $x^2 \\le y \\le x$. Solving for $x$ in terms of $y$ gives $y \\le x \\le \\sqrt{y}$ for $0 \\le y \\le 1$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Green's Theorem",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $C$ be the positively oriented boundary of the unit square $[0, 1] \\times [0, 1]$. Using Green's theorem, the value of $\\oint_C (y^2\\,dx + 3xy\\,dy)$ is:",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$",
+        "$1$",
+        "$2$"
+      ],
+      "explanationEn": "Here $P = y^2, Q = 3xy$, so $Q_x - P_y = 3y - 2y = y$. By Green's theorem, $\\int_0^1 \\int_0^1 y\\,dy\\,dx = \\frac{1}{2}$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Surface Integrals",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The surface integral $\\iint_S z\\,dS$ over the sphere $x^2 + y^2 + z^2 = 4$ is:",
+      "optionsEn": [
+        "$0$",
+        "$16\\pi$",
+        "$4\\pi$",
+        "$8\\pi$"
+      ],
+      "explanationEn": "Since the sphere is symmetric with respect to the $xy$-plane ($z \\mapsto -z$) and the integrand $z$ is an odd function of $z$, the surface integral vanishes identically."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $R = [-1, 1] \\times [-1, 1]$. Which of the following double integrals over $R$ evaluate(s) to $0$?",
+      "optionsEn": [
+        "$\\iint_R x^3 y^2\\,dx\\,dy$",
+        "$\\iint_R \\sin(x + y)\\,dx\\,dy$",
+        "$\\iint_R (x^2 + y^2)\\,dx\\,dy$",
+        "$\\iint_R x e^{y^2}\\,dx\\,dy$"
+      ],
+      "explanationEn": "On the symmetric square $[-1,1]^2$: (A) is odd in $x \\implies 0$; (B) satisfies $\\sin(-x-y) = -\\sin(x+y)$ (odd under $(x,y)\\mapsto(-x,-y)$) $\\implies 0$; (C) is strictly positive away from origin $\\implies > 0$; (D) is odd in $x \\implies 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Gauss Divergence Theorem",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\vec{F}$ be a continuously differentiable vector field on $\\mathbb{R}^3$ such that $\\nabla \\cdot \\vec{F} = 0$ everywhere. Which of the following statements MUST be TRUE?",
+      "optionsEn": [
+        "The outward flux of $\\vec{F}$ through any closed smooth surface $S$ is $0$.",
+        "If $S_1$ and $S_2$ are two oriented open surfaces sharing the same boundary curve $C$ with compatible orientations, then $\\iint_{S_1} \\vec{F} \\cdot d\\vec{S} = \\iint_{S_2} \\vec{F} \\cdot d\\vec{S}$.",
+        "$\\nabla \\times \\vec{F} = \\vec{0}$ everywhere.",
+        "There exists a vector potential $\\vec{A}$ on $\\mathbb{R}^3$ such that $\\vec{F} = \\nabla \\times \\vec{A}$."
+      ],
+      "explanationEn": "By Gauss's divergence theorem, $\\iint_S \\vec{F}\\cdot d\\vec{S} = \\iiint_V 0\\,dV = 0$ (A true). Applying (A) to the closed surface $S_1 \\cup (-S_2)$ yields (B). Since $\\mathbb{R}^3$ is contractible, every divergence-free field has a vector potential $\\vec{F} = \\nabla \\times \\vec{A}$ (D true). Divergence-free does not imply curl-free (C false)."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Easy",
+      "correctOption": "0.74 to 0.76",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.74,
+      "natMax": 0.76,
+      "questionTextEn": "The value of the iterated integral $\\int_0^1 \\int_0^x 6xy\\,dy\\,dx$ is _____ (rounded to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Integrating with respect to $y$: $\\int_0^x 6xy\\,dy = 3x^3$. Then $\\int_0^1 3x^3\\,dx = \\left[\\frac{3}{4}x^4\\right]_0^1 = \\frac{3}{4} = 0.75$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Triple Integrals",
+      "difficulty": "Easy",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "The value of the triple integral $\\iiint_B (x + y + z)\\,dx\\,dy\\,dz$ over the rectangular box $B = [0, 1] \\times [0, 2] \\times [0, 3]$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "The box has volume $V = 1 \\times 2 \\times 3 = 6$, and the average values of $x, y, z$ on $B$ are $\\frac{1}{2}, 1, \\frac{3}{2}$ respectively. Hence the integral equals $6\\left(\\frac{1}{2} + 1 + \\frac{3}{2}\\right) = 6 \\times 3 = 18$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Medium",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The value of the double integral $\\int_0^2 \\int_y^2 3x\\,dx\\,dy$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Changing the order of integration to $0 \\le x \\le 2$ and $0 \\le y \\le x$: $\\int_0^2 \\int_0^x 3x\\,dy\\,dx = \\int_0^2 3x^2\\,dx = [x^3]_0^2 = 8$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Lagrange Multipliers",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Using Lagrange multipliers, the shortest distance from the origin $(0, 0, 0)$ to the curve of intersection of the plane $x + y + z = 12$ and the cylinder $x^2 + y^2 = 18$ is:",
+      "optionsEn": [
+        "$3\\sqrt{2}$",
+        "$3\\sqrt{6}$",
+        "$6$",
+        "$6\\sqrt{2}$"
+      ],
+      "explanationEn": "Minimize $d^2 = x^2 + y^2 + z^2 = 18 + z^2$ subject to $x + y + z = 12$ and $x^2 + y^2 = 18$. Since $z = 12 - (x + y)$, minimizing $z^2$ maximizes $x + y$ on $x^2 + y^2 = 18$. By Cauchy-Schwarz (or Lagrange multipliers), $x + y \\le \\sqrt{2}\\sqrt{18} = 6$, achieved at $x = y = 3$, giving $z = 6$. Thus $d_{\\min} = \\sqrt{18 + 36} = \\sqrt{54} = 3\\sqrt{6}$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Line Integrals",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\vec{F}(x, y) = \\left(\\frac{-y}{x^2 + y^2}, \\frac{x}{x^2 + y^2}\\right)$ on $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$. Which of the following statements is TRUE?",
+      "optionsEn": [
+        "$\\frac{\\partial Q}{\\partial x} \\neq \\frac{\\partial P}{\\partial y}$ everywhere on $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$.",
+        "$\\vec{F}$ admits a single-valued smooth scalar potential on all of $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$.",
+        "$\\frac{\\partial Q}{\\partial x} = \\frac{\\partial P}{\\partial y}$ on $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$, so $\\oint_C \\vec{F} \\cdot d\\vec{r} = 0$ for every closed curve $C$ not passing through $(0, 0)$.",
+        "$\\frac{\\partial Q}{\\partial x} = \\frac{\\partial P}{\\partial y}$ on $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$, yet $\\oint_C \\vec{F} \\cdot d\\vec{r} = 2\\pi$ for the unit circle oriented counterclockwise."
+      ],
+      "explanationEn": "Direct differentiation shows $Q_x = P_y = \\frac{y^2 - x^2}{(x^2+y^2)^2}$ everywhere away from the origin. However, $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$ is not simply connected, and along the unit circle $(\\cos t, \\sin t)$, $\\oint_C \\vec{F}\\cdot d\\vec{r} = \\int_0^{2\\pi} dt = 2\\pi \\neq 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Double Integrals",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "By reversing the order of integration, the value of $\\int_0^1 \\int_x^1 \\frac{e^y}{y}\\,dy\\,dx$ is:",
+      "optionsEn": [
+        "$e$",
+        "$\\frac{e - 1}{2}$",
+        "$e + 1$",
+        "$e - 1$"
+      ],
+      "explanationEn": "The region is $0 \\le y \\le 1$, $0 \\le x \\le y$. Reversing order gives $\\int_0^1 \\int_0^y \\frac{e^y}{y}\\,dx\\,dy = \\int_0^1 e^y\\,dy = e - 1$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Gradient, Divergence and Curl",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any constant vector $\\vec{a}$ and position vector $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$, the curl $\\nabla \\times (\\vec{a} \\times \\vec{r})$ equals:",
+      "optionsEn": [
+        "$\\vec{0}$",
+        "$-2\\vec{a}$",
+        "$2\\vec{a}$",
+        "$\\vec{a}$"
+      ],
+      "explanationEn": "Using the vector identity $\\nabla \\times (\\vec{a} \\times \\vec{r}) = \\vec{a}(\\nabla \\cdot \\vec{r}) - (\\vec{a}\\cdot\\nabla)\\vec{r} = 3\\vec{a} - \\vec{a} = 2\\vec{a}$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Gradient, Divergence and Curl",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ and $r = |\\vec{r}| > 0$, the vector field $\\vec{F} = r^n \\vec{r}$ is solenoidal (divergence-free) on $\\mathbb{R}^3 \\setminus \\{\\vec{0}\\}$ if and only if $n$ equals:",
+      "optionsEn": [
+        "$-1$",
+        "$-2$",
+        "$0$",
+        "$-3$"
+      ],
+      "explanationEn": "Using $\\nabla \\cdot (r^n \\vec{r}) = r^n(\\nabla \\cdot \\vec{r}) + \\nabla(r^n) \\cdot \\vec{r} = 3r^n + n r^{n-2}(\\vec{r}\\cdot\\vec{r}) = (n + 3)r^n$. This vanishes identically for $r > 0$ iff $n = -3$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Gauss Divergence Theorem",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V \\subset \\mathbb{R}^3$ be a bounded region with smooth closed boundary $S = \\partial V$ and outward unit normal $\\hat{n}$, and let $u, v \\in C^2(\\overline{V})$. Which of the following Green's identities is/are TRUE?",
+      "optionsEn": [
+        "$\\iiint_V (u \\nabla^2 v + \\nabla u \\cdot \\nabla v)\\,dV = \\iint_S u \\frac{\\partial v}{\\partial n}\\,dS$",
+        "$\\iiint_V (u \\nabla^2 v - v \\nabla^2 u)\\,dV = \\iint_S \\left(u \\frac{\\partial v}{\\partial n} - v \\frac{\\partial u}{\\partial n}\\right)dS$",
+        "If $u$ is harmonic in $V$ ($\\nabla^2 u = 0$), then $\\iint_S \\frac{\\partial u}{\\partial n}\\,dS = 0$.",
+        "If $u$ is harmonic in $V$ and $u = 0$ on $S$, then $u$ may still be non-constant inside $V$."
+      ],
+      "explanationEn": "(A) is Green's first identity (Divergence Theorem applied to $u\\nabla v$). (B) is Green's second identity. Setting $v = 1$ in (B) or applying Divergence Theorem to $\\nabla u$ gives (C). Setting $v = u$ in (A) with $\\nabla^2 u = 0$ and $u|_S = 0$ yields $\\iiint_V |\\nabla u|^2\\,dV = 0 \\implies u \\equiv 0$ (D false)."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Green's Theorem",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $D$ be a simply connected bounded region in $\\mathbb{R}^2$ with positively oriented smooth boundary $C = \\partial D$. Which of the following line integrals ALWAYS equal(s) the area of $D$?",
+      "optionsEn": [
+        "$\\oint_C x\\,dy$",
+        "$-\\oint_C y\\,dx$",
+        "$\\frac{1}{2}\\oint_C (x\\,dy - y\\,dx)$",
+        "$\\oint_C (x\\,dx + y\\,dy)$"
+      ],
+      "explanationEn": "By Green's theorem: (A) $\\iint_D (1 - 0)\\,dA = \\text{Area}(D)$; (B) $\\iint_D (0 - (-1))\\,dA = \\text{Area}(D)$; (C) $\\frac{1}{2}\\iint_D (1 - (-1))\\,dA = \\text{Area}(D)$. Meanwhile (D) integrates an exact differential $d(\\frac{x^2+y^2}{2})$ around a closed loop, giving $0$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Implicit Differentiation",
+      "difficulty": "Hard",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The equation $x^3 + y^3 + z^3 - 3xyz = 4$ defines $z$ implicitly as a smooth function of $(x, y)$ near the point $(1, 1, 2)$. The value of $3\\left(\\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y}\\right)$ at $(1, 1, 2)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Let $F(x, y, z) = x^3 + y^3 + z^3 - 3xyz - 4$. At $(1, 1, 2)$, $F_x = 3x^2 - 3yz = 3 - 6 = -3$, $F_y = 3y^2 - 3xz = 3 - 6 = -3$, and $F_z = 3z^2 - 3xy = 12 - 3 = 9$. Hence $z_x = -\\frac{F_x}{F_z} = \\frac{1}{3}$ and $z_y = -\\frac{F_y}{F_z} = \\frac{1}{3}$, so $3(z_x + z_y) = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Line Integrals",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The value of the scalar line integral $\\int_C xy\\,ds$, where $C$ is the quarter-circle $x = 2\\cos t$, $y = 2\\sin t$ for $0 \\le t \\le \\frac{\\pi}{2}$, is _____.",
+      "optionsEn": [],
+      "explanationEn": "Here $ds = \\sqrt{(-2\\sin t)^2 + (2\\cos t)^2}\\,dt = 2\\,dt$. Thus $\\int_0^{\\pi/2} (2\\cos t)(2\\sin t)(2\\,dt) = 8\\int_0^{\\pi/2} \\sin t\\cos t\\,dt = 8 \\left[\\frac{\\sin^2 t}{2}\\right]_0^{\\pi/2} = 4$."
+    },
+    {
+      "questionId": "gate_ma_topic_cal_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Calculus (Set 2)",
+      "topicTag": "Applications to Volume",
+      "difficulty": "Medium",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "Let $V$ be the volume of the solid enclosed between the paraboloids $z = x^2 + y^2$ and $z = 8 - x^2 - y^2$. The value of $\\frac{V}{\\pi}$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "The paraboloids intersect where $x^2 + y^2 = 8 - (x^2 + y^2) \\implies r^2 = 4 \\implies r = 2$. In cylindrical coordinates, $V = \\int_0^{2\\pi} d\\theta \\int_0^2 (8 - 2r^2)r\\,dr = 2\\pi \\left[4r^2 - \\frac{r^4}{2}\\right]_0^2 = 2\\pi(16 - 8) = 16\\pi$, so $\\frac{V}{\\pi} = 16$."
+    }
+  ]
+}

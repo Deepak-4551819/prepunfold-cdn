@@ -1,0 +1,582 @@
+{
+  "testId": "gate_ma_topic_lp_02",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_lp_02",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Linear Programming — Set 2",
+  "titleEn": "GATE Mathematics Topic Test: Linear Programming — Set 2",
+  "partId": "part_12_lp",
+  "part_id": "part_12_lp",
+  "partTitle": "Linear Programming",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: रैखिक प्रोग्रामन — सेट 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Linear Programming • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "sectionTitleEn": "Linear Programming",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_lp_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Transportation Problems",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a balanced transportation problem with $m$ sources and $n$ destinations, the $m + n$ supply and demand equality constraints satisfy $\\sum_{i=1}^m a_i = \\sum_{j=1}^n b_j$. Consequently, the rank of the constraint coefficient matrix is:",
+      "optionsEn": [
+        "$mn$",
+        "$m + n - 2$",
+        "$m + n$",
+        "$m + n - 1$"
+      ],
+      "explanationEn": "The sum of the $m$ supply equations identically equals the sum of the $n$ demand equations, so there is exactly one linear dependency among the $m + n$ rows. Any $m + n - 1$ rows are linearly independent, giving rank $m + n - 1$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Alternate Optima",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the LPP: Maximize $Z = 6x_1 + 9x_2$ subject to $2x_1 + 3x_2 \\le 12$, $x_1 \\le 4$, $x_2 \\le 3$, and $x_1, x_2 \\ge 0$. Which of the following describes its optimal solution set?",
+      "optionsEn": [
+        "Unique optimal solution at $(4, 4/3)$",
+        "The LPP is unbounded",
+        "Infinitely many optimal solutions along the line segment joining $(3/2, 3)$ and $(4, 4/3)$",
+        "Unique optimal solution at $(3/2, 3)$"
+      ],
+      "explanationEn": "The objective function $Z = 6x_1 + 9x_2 = 3(2x_1 + 3x_2)$ is a positive scalar multiple of the binding constraint $2x_1 + 3x_2 \\le 12$. Both vertices $(3/2, 3)$ and $(4, 4/3)$ satisfy $2x_1 + 3x_2 = 12$ and yield the maximum value $Z^* = 36$. By convexity, every point on the closed line segment joining $(3/2, 3)$ and $(4, 4/3)$ is optimal."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Basic Feasible Solutions",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the system $x_1 + 2x_2 + x_3 = 4$ and $2x_1 + 4x_2 + x_4 = 8$ with $x_1, x_2, x_3, x_4 \\ge 0$. Which of the following is a DEGENERATE basic feasible solution?",
+      "optionsEn": [
+        "$(0, 0, 4, 8)$",
+        "$(0, 2, 0, 0)$",
+        "$(1, 1, 1, 2)$",
+        "$(2, 1, 0, 0)$"
+      ],
+      "explanationEn": "Here $m = 2$, so a basic feasible solution is degenerate if at least one of its $2$ basic variables equals $0$ (fewer than $2$ positive entries). The vector $(0, 2, 0, 0)$ satisfies both equations, has only $1 < 2$ positive component, and corresponds to the linearly independent basis columns of $x_2$ and $x_3$ (or $x_2$ and $x_4$) with $x_2 = 2, x_3 = 0$. In contrast, $(0, 0, 4, 8)$ is non-degenerate, $(1, 1, 1, 2)$ has $4$ positive entries (not basic), and $(2, 1, 0, 0)$ corresponds to columns $(1, 2)^T$ and $(2, 4)^T$, which are linearly dependent (hence not basic)."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Revised Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the revised simplex method for $\\max c^T x$ subject to $Ax = b, x \\ge 0$ with current basis matrix $B$ and basic cost vector $c_B$, the simplex multiplier (dual price) vector $\\pi^T$ used to price out non-basic columns is computed as:",
+      "optionsEn": [
+        "$\\pi^T = B^{-1} b$",
+        "$\\pi^T = c_B^T B^{-1}$",
+        "$\\pi^T = c_B^T B$",
+        "$\\pi^T = b^T B^{-1}$"
+      ],
+      "explanationEn": "In the revised simplex method, the reduced cost of a non-basic variable $x_j$ is $z_j - c_j = c_B^T B^{-1} a_j - c_j = \\pi^T a_j - c_j$, where the simplex multiplier vector is $\\pi^T = c_B^T B^{-1}$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Initial BFS of Transportation Problems",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following methods are used to find an Initial Basic Feasible Solution (IBFS) of a balanced transportation problem?",
+      "optionsEn": [
+        "North-West Corner Rule (NWCR)",
+        "Least Cost Method (Matrix Minima Method)",
+        "Vogel's Approximation Method (VAM)",
+        "Modified Distribution (MODI) Method"
+      ],
+      "explanationEn": "NWCR (A), Least Cost Method (B), and VAM (C) are all methods for generating an initial BFS. The MODI ($u$-$v$) method (D) is an optimality test and improvement procedure applied after an initial BFS has already been constructed."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Duality Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a primal LPP and its dual LPP. Which of the following combinations of outcomes for (Primal, Dual) are MATHEMATICALLY POSSIBLE?",
+      "optionsEn": [
+        "Both primal and dual have finite optimal solutions with equal optimal values",
+        "Primal is unbounded and dual is infeasible",
+        "Both primal and dual are infeasible",
+        "Both primal and dual are unbounded"
+      ],
+      "explanationEn": "By the Strong and Weak Duality Theorems, the four possible (Primal, Dual) combinations are: (finite optimal, finite optimal with equal values) (A), (unbounded, infeasible) (B), (infeasible, unbounded), and (infeasible, infeasible) (C). Having both primal and dual unbounded (D) is impossible by Weak Duality."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Graphical Method",
+      "difficulty": "Easy",
+      "correctOption": "31",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 31.0,
+      "natMax": 31.0,
+      "questionTextEn": "Consider the LPP: Maximize $Z = 4x + 5y$ subject to $x + 2y \\le 10$, $3x + y \\le 15$, and $x, y \\ge 0$. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "The corner points of the feasible region are $(0, 0)$, $(5, 0)$, $(0, 5)$, and the intersection of $x + 2y = 10$ and $3x + y = 15$, which is $(4, 3)$. Evaluating $Z = 4x + 5y$: at $(0, 0)$ gives $0$; at $(5, 0)$ gives $20$; at $(0, 5)$ gives $25$; at $(4, 3)$ gives $4(4) + 5(3) = 31$. Thus the optimal value is $31$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Assignment Problems",
+      "difficulty": "Easy",
+      "correctOption": "9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "Three workers are to be assigned to three jobs with the cost matrix $C = \\begin{pmatrix} 9 & 2 & 7 \\\\ 6 & 4 & 3 \\\\ 5 & 8 & 1 \\end{pmatrix}$. What is the minimum total assignment cost?",
+      "optionsEn": [],
+      "explanationEn": "Applying the Hungarian method: row reductions subtract $2, 3, 1$ (sum $6$), leaving column 1 with minimum $3$ (at row 2), which adds $3$ to the lower bound (total $9$). The assignment Worker 1 $\\to$ Job 2 (cost $2$), Worker 2 $\\to$ Job 1 (cost $6$), Worker 3 $\\to$ Job 3 (cost $1$) achieves $2 + 6 + 1 = 9$, which is optimal."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": "11",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 11.0,
+      "natMax": 11.0,
+      "questionTextEn": "Consider the LPP: Minimize $Z = 2x_1 + 3x_2 + 4x_3$ subject to $x_1 + 2x_2 + x_3 \\ge 6$, $2x_1 + x_2 + 3x_3 \\ge 9$, and $x_1, x_2, x_3 \\ge 0$. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "The dual LPP is: Maximize $W = 6y_1 + 9y_2$ subject to $y_1 + 2y_2 \\le 2$, $2y_1 + y_2 \\le 3$, $y_1 + 3y_2 \\le 4$, and $y_1, y_2 \\ge 0$. The dual vertices are $(0, 0), (3/2, 0), (0, 1)$, and $(4/3, 1/3)$. At $(4/3, 1/3)$, $W = 6(4/3) + 9(1/3) = 8 + 3 = 11$ (corresponding to the primal optimal solution $x_1^* = 4, x_2^* = 1, x_3^* = 0$ with $Z^* = 2(4) + 3(1) = 11$). Hence the optimal value is $11$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": "31.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 31.5,
+      "natMax": 31.5,
+      "questionTextEn": "Consider the LPP: Maximize $Z = 3x_1 + 2x_2 + 5x_3$ subject to $x_1 + x_2 + x_3 \\le 9$, $2x_1 + x_2 + 3x_3 \\le 18$, and $x_1, x_2, x_3 \\ge 0$. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "Using the simplex method, entering $x_3$ first gives $(0, 0, 6)$ with $Z = 30$ and $x_3 = 6 - \\frac{2}{3}x_1 - \\frac{1}{3}x_2 - \\frac{1}{3}s_2$, so $Z = 30 - \\frac{1}{3}x_1 + \\frac{1}{3}x_2 - \\frac{5}{3}s_2$. Entering $x_2$ next makes both constraints binding at $(x_1, x_2, x_3) = (0, 4.5, 4.5)$, yielding $Z^* = 2(4.5) + 5(4.5) = 31.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Convex Sets and Extreme Points",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S = \\{(x_1, x_2, x_3) \\in \\mathbb{R}^3 : x_1 + x_2 + x_3 = 5,\\; x_1 \\ge 0,\\; x_2 \\ge 0,\\; x_3 \\ge 0\\}$ and let $T = S \\cap \\{(x_1, x_2, x_3) : x_1 \\le 3,\\; x_2 \\le 3\\}$. How many extreme points does the convex set $T$ have?",
+      "optionsEn": [
+        "$6$",
+        "$5$",
+        "$3$",
+        "$4$"
+      ],
+      "explanationEn": "Projecting $T$ bijectively onto the $(x_1, x_2)$-plane (since $x_3 = 5 - x_1 - x_2 \\ge 0$) gives the polygon $\\{(x_1, x_2) : x_1 \\ge 0,\\; x_2 \\ge 0,\\; x_1 + x_2 \\le 5,\\; x_1 \\le 3,\\; x_2 \\le 3\\}$. Its vertices are $(0, 0)$, $(3, 0)$, $(3, 2)$, $(2, 3)$, and $(0, 3)$, corresponding to $5$ extreme points in $\\mathbb{R}^3$: $(0,0,5), (3,0,2), (3,2,0), (2,3,0), (0,3,2)$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Two-Phase Method",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the LPP: Minimize $Z = 2x_1 + 3x_2$ subject to $x_1 + x_2 \\ge 4$, $2x_1 + x_2 = 6$, and $x_1, x_2 \\ge 0$. In Phase I of the Two-Phase Simplex Method, after introducing surplus variable $s_1$ and artificial variables $a_1, a_2$, the Phase I objective function is to minimize $w = a_1 + a_2$. Expressed solely in terms of the non-basic variables $(x_1, x_2, s_1)$ at the initial basis $\\{a_1, a_2\\}$, what is $w$?",
+      "optionsEn": [
+        "$w = 10 - 3x_1 - 2x_2 + s_1$",
+        "$w = 10 - 2x_1 - 3x_2 + s_1$",
+        "$w = 10 - 3x_1 - 2x_2 - s_1$",
+        "$w = 10 + 3x_1 + 2x_2 - s_1$"
+      ],
+      "explanationEn": "The standard-form constraints are $x_1 + x_2 - s_1 + a_1 = 4$ and $2x_1 + x_2 + a_2 = 6$. Solving for the initial basic variables gives $a_1 = 4 - x_1 - x_2 + s_1$ and $a_2 = 6 - 2x_1 - x_2$. Summing yields $w = a_1 + a_2 = 10 - 3x_1 - 2x_2 + s_1$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Revised Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the revised simplex method for $\\max c^T x$ subject to $Ax = b, x \\ge 0$, suppose the current basis matrix is $B$, the entering variable is $x_k$ with original column $a_k$, and the updated column is $d = B^{-1} a_k$. If the leaving variable corresponds to the $r$-th row of $B^{-1}$ (with $d_r > 0$), then the new basis inverse $B_{\\text{new}}^{-1}$ is obtained as $E B^{-1}$, where $E$ is an elementary matrix differing from the identity matrix $I$ only in its $r$-th column, which equals:",
+      "optionsEn": [
+        "$\\left(\\frac{d_1}{d_r}, \\dots, \\frac{1}{d_r}, \\dots, \\frac{d_m}{d_r}\\right)^T$",
+        "$\\left(d_1, \\dots, \\frac{1}{d_r}, \\dots, d_m\\right)^T$",
+        "$\\left(-d_1, \\dots, d_r, \\dots, -d_m\\right)^T$",
+        "$\\left(-\\frac{d_1}{d_r}, \\dots, \\frac{1}{d_r}, \\dots, -\\frac{d_m}{d_r}\\right)^T$"
+      ],
+      "explanationEn": "In the product form of the inverse (revised simplex method), replacing the $r$-th column of $B$ by $a_k$ means $B_{\\text{new}} = B \\tilde{E}$, where $\\tilde{E}$ replaces the $r$-th column of $I$ with $d = B^{-1} a_k$. Inverting $\\tilde{E}$ yields the eta-matrix $E = \\tilde{E}^{-1}$ whose $r$-th column is $(-d_1/d_r, \\dots, 1/d_r, \\dots, -d_m/d_r)^T$, so $B_{\\text{new}}^{-1} = E B^{-1}$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Alternate Optima",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a balanced transportation problem solved by the MODI method, suppose all non-basic cells satisfy $\\Delta_{ij} = c_{ij} - (u_i + v_j) \\ge 0$, and there exists a non-basic cell $(p, q)$ with $\\Delta_{pq} = 0$ whose unique stepping-stone closed loop has positive minimum allocation $\\theta > 0$ among its donor ($-$) cells. This implies that:",
+      "optionsEn": [
+        "the current solution is not optimal",
+        "the current solution is infeasible",
+        "the transportation problem has alternate optimal solutions",
+        "the transportation problem is unbounded"
+      ],
+      "explanationEn": "Since $\\Delta_{ij} \\ge 0$ for all non-basic cells, the current BFS is optimal. Shifting $\\theta > 0$ units around the closed loop of the non-basic cell $(p, q)$ with $\\Delta_{pq} = 0$ produces a distinct basic feasible solution with change in total cost $\\theta \\Delta_{pq} = 0$, confirming alternate optimal solutions."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Infeasible and Unbounded LP",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a primal maximization LPP (P) and its dual (D). Which of the following statements are TRUE?",
+      "optionsEn": [
+        "Adding a new inequality constraint to a feasible LPP can never improve (increase) its optimal maximization objective value",
+        "Adding a new nonnegative decision variable to a feasible maximization LPP can never worsen (decrease) its optimal objective value",
+        "If (P) is feasible and has a finite optimal value, then adding a redundant constraint cannot change the optimal objective value",
+        "If a maximization LPP has an unbounded feasible region, then its dual must be infeasible"
+      ],
+      "explanationEn": "(A) Adding a constraint shrinks (or preserves) the feasible region, so the maximum cannot increase. (B) Adding a variable enlarges the feasible region (setting the new variable to $0$ recovers all previous feasible points), so the maximum cannot decrease. (C) A redundant constraint does not alter the feasible region at all. (D) is false: an unbounded feasible region does NOT imply an unbounded objective value (e.g., $\\max (-x_1 - x_2)$ s.t. $x_1, x_2 \\ge 0$ has an unbounded feasible region, optimal value $0$, and a feasible dual)."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Assignment Problems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the linear programming relaxation of the $n \\times n$ assignment problem: Minimize $\\sum_{i=1}^n \\sum_{j=1}^n c_{ij} x_{ij}$ subject to $\\sum_{j=1}^n x_{ij} = 1$ for all $i$, $\\sum_{i=1}^n x_{ij} = 1$ for all $j$, and $x_{ij} \\ge 0$. Which of the following statements are TRUE?",
+      "optionsEn": [
+        "The feasible region is the Birkhoff polytope of all $n \\times n$ doubly stochastic matrices",
+        "Every extreme point of the feasible region is an $n \\times n$ permutation matrix (with entries in $\\{0, 1\\}$)",
+        "The feasible region has exactly $n!$ extreme points",
+        "An optimal solution of the LP relaxation can be strictly fractional without any integral optimal solution existing"
+      ],
+      "explanationEn": "By the Birkhoff-von Neumann Theorem, the set of doubly stochastic matrices (A) has precisely the $n!$ permutation matrices as its extreme points (B, C). Since every LP on a nonempty bounded polytope attains its optimum at an extreme point, there ALWAYS exists an integral (permutation matrix) optimal solution, making (D) false."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Transportation Problems",
+      "difficulty": "Medium",
+      "correctOption": "215",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 215.0,
+      "natMax": 215.0,
+      "questionTextEn": "An unbalanced transportation problem has 3 sources with supplies $(25, 35, 30)$, 3 destinations with demands $(20, 25, 30)$, and unit cost matrix $C = \\begin{pmatrix} 7 & 3 & 5 \\\\ 4 & 8 & 6 \\\\ 6 & 5 & 2 \\end{pmatrix}$. After introducing a dummy destination with zero unit shipping costs, what is the minimum total transportation cost?",
+      "optionsEn": [],
+      "explanationEn": "Total supply is $90$ and total demand is $75$, so we add a dummy column 4 with demand $15$ and zero costs. The optimal allocation assigns $x_{12} = 25$ (cost $3$), $x_{21} = 20$ (cost $4$), $x_{24} = 15$ (cost $0$), and $x_{33} = 30$ (cost $2$). Every non-dummy destination is served at its strictly cheapest source cost! Total minimum cost $= 25(3) + 20(4) + 15(0) + 30(2) = 75 + 80 + 0 + 60 = 215$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Assignment Problems",
+      "difficulty": "Medium",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "An unbalanced assignment problem has 3 workers and 4 jobs, with cost matrix $C = \\begin{pmatrix} 8 & 12 & 7 & 10 \\\\ 11 & 6 & 9 & 8 \\\\ 7 & 10 & 11 & 5 \\end{pmatrix}$. Each worker must be assigned to a distinct job (one job remains unassigned at zero cost). What is the minimum total assignment cost?",
+      "optionsEn": [],
+      "explanationEn": "Adding a dummy row 4 of all zeros balances the matrix to $4 \\times 4$. The row minima of the three real workers are $7$ (Worker 1 $\\to$ Job 3), $6$ (Worker 2 $\\to$ Job 2), and $5$ (Worker 3 $\\to$ Job 4), which all fall in distinct columns (leaving Job 1 for the dummy row at cost $0$). Hence the minimum total cost is $7 + 6 + 5 = 18$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Simplex Method",
+      "difficulty": "Medium",
+      "correctOption": "13",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 13.0,
+      "natMax": 13.0,
+      "questionTextEn": "Consider the LPP: Maximize $Z = 5x_1 + 4x_2 + 3x_3$ subject to $2x_1 + 3x_2 + x_3 \\le 5$, $4x_1 + x_2 + 2x_3 \\le 11$, $3x_1 + 4x_2 + 2x_3 \\le 8$, and $x_1, x_2, x_3 \\ge 0$. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "Solving by the simplex method: entering $x_1$ gives $(5/2, 0, 0)$ with $Z = 12.5$. Next, entering $x_3$ pivots into the third constraint, yielding the BFS $(x_1^*, x_2^*, x_3^*) = (2, 0, 1)$, where $2(2) + 0 + 1 = 5$, $4(2) + 0 + 2(1) = 10 \\le 11$, and $3(2) + 0 + 2(1) = 8$. All reduced costs are nonnegative, and $Z^* = 5(2) + 4(0) + 3(1) = 13$."
+    },
+    {
+      "questionId": "gate_ma_topic_lp_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Linear Programming (Set 2)",
+      "topicTag": "Assignment Problems",
+      "difficulty": "Medium",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "Four operators are to be assigned to four stations, where diagonal assignments $(i, i)$ are prohibited (indicated by $\\infty$). The cost matrix is $C = \\begin{pmatrix} \\infty & 5 & 8 & 7 \\\\ 6 & \\infty & 4 & 9 \\\\ 7 & 6 & \\infty & 3 \\\\ 4 & 8 & 5 & \\infty \\end{pmatrix}$. What is the minimum total assignment cost?",
+      "optionsEn": [],
+      "explanationEn": "The row minima are $5$ (cell $(1, 2)$), $4$ (cell $(2, 3)$), $3$ (cell $(3, 4)$), and $4$ (cell $(4, 1)$). Notice that these four minimum-cost cells lie in distinct columns ($2, 3, 4, 1$), so they immediately form a feasible assignment! Hence the minimum total cost equals the sum of row minima: $5 + 4 + 3 + 4 = 16$."
+    }
+  ]
+}

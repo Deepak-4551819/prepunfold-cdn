@@ -1,0 +1,602 @@
+{
+  "testId": "gate_ma_topic_ca_02",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_ca_02",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Complex Analysis — Set 2",
+  "titleEn": "GATE Mathematics Topic Test: Complex Analysis — Set 2",
+  "partId": "part_05_ca",
+  "part_id": "part_05_ca",
+  "partTitle": "Complex Analysis",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: सम्मिश्र विश्लेषण — सेट 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Complex Analysis • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "sectionTitleEn": "Complex Analysis",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_ca_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Differentiability",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The set of all points in $\\mathbb{C}$ where the function $f(z) = |z - 2i|^2 + 3z$ is complex differentiable is:",
+      "optionsEn": [
+        "$\\{0\\}$",
+        "$\\emptyset$",
+        "$\\mathbb{C}$",
+        "$\\{2i\\}$"
+      ],
+      "explanationEn": "Since $3z$ is entire, $f$ is complex differentiable at $z$ if and only if $g(z) = |z - 2i|^2 = (z - 2i)(\\bar{z} + 2i)$ is differentiable at $z$. We have $\\frac{\\partial g}{\\partial \\bar{z}} = z - 2i$, which vanishes if and only if $z = 2i$. Because $g$ is real-differentiable everywhere, the Cauchy-Riemann equations hold uniquely at $z = 2i$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Residue Theorem",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The residue of $f(z) = \\frac{3z^2 + 1}{z^3 - 2z}$ at $z = \\infty$ is:",
+      "optionsEn": [
+        "$3$",
+        "$-\\frac{1}{2}$",
+        "$-3$",
+        "$0$"
+      ],
+      "explanationEn": "By definition, $\\operatorname{Res}(f, \\infty) = -\\operatorname{Res}_{w=0}\\left(\\frac{1}{w^2}f\\left(\\frac{1}{w}\\right)\\right)$. Here $\\frac{1}{w^2}f\\left(\\frac{1}{w}\\right) = \\frac{1}{w^2} \\cdot \\frac{3/w^2 + 1}{1/w^3 - 2/w} = \\frac{3 + w^2}{w(1 - 2w^2)}$, whose residue at $w = 0$ is $3$. Thus $\\operatorname{Res}(f, \\infty) = -3$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Rouché's Theorem",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The number of zeros (counted with multiplicity) of the polynomial $P(z) = z^5 + 7z^2 + 2$ inside the open unit disk $|z| < 1$ is:",
+      "optionsEn": [
+        "$5$",
+        "$3$",
+        "$0$",
+        "$2$"
+      ],
+      "explanationEn": "Let $f(z) = 7z^2$ and $g(z) = z^5 + 2$. On the circle $|z| = 1$, $|f(z)| = 7$ while $|g(z)| \\le |z|^5 + 2 = 3 < 7 = |f(z)|$. By Rouché's theorem, $P = f + g$ has the same number of zeros inside $|z| < 1$ as $f(z) = 7z^2$, which has $2$ zeros (a double zero at $z = 0$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Cauchy's Integral Theorem",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\gamma$ be the positively oriented ellipse $4x^2 + 9y^2 = 1$. The value of $\\oint_{\\gamma} \\frac{\\sec(z)}{z^2 + 4}\\,dz$ is:",
+      "optionsEn": [
+        "$\\pi i$",
+        "$0$",
+        "$-\\frac{\\pi}{2}$",
+        "$\\frac{\\pi i}{2\\cosh 2}$"
+      ],
+      "explanationEn": "The ellipse $4x^2 + 9y^2 = 1$ has semi-axes $\\frac{1}{2}$ and $\\frac{1}{3}$, so every point on or inside $\\gamma$ satisfies $|z| \\le \\frac{1}{2}$. The singularities of $\\frac{\\sec z}{z^2 + 4}$ occur at $z = \\pm 2i$ and $z = \\left(n + \\frac{1}{2}\\right)\\pi$ ($n \\in \\mathbb{Z}$), all of which have modulus at least $\\frac{\\pi}{2} > \\frac{1}{2}$. Thus the integrand is analytic on and inside $\\gamma$, so the integral is $0$ by Cauchy's integral theorem."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Conformal Mappings",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following mappings is/are conformal at the point $z_0 = 1$?",
+      "optionsEn": [
+        "$f_1(z) = e^z$",
+        "$f_2(z) = (z - 1)^2 + 3$",
+        "$f_3(z) = \\frac{z + 1}{z - 2}$",
+        "$f_4(z) = \\bar{z} + 2z$"
+      ],
+      "explanationEn": "An analytic mapping is conformal at $z_0$ iff $f'(z_0) \\neq 0$. (A) $f_1'(1) = e \\neq 0$, conformal. (B) $f_2'(z) = 2(z-1)$ vanishes at $z_0 = 1$, not conformal. (C) $f_3'(z) = \\frac{-3}{(z-2)^2}$, so $f_3'(1) = -3 \\neq 0$, conformal. (D) $f_4$ is not analytic (it reverses/distorts angles since $\\partial f_4/\\partial \\bar{z} = 1 \\neq 0$)."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Complex Integration",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\gamma$ be the positively oriented circle $|z| = 2$. Which of the following contour integrals evaluate to $0$?",
+      "optionsEn": [
+        "$\\oint_\\gamma \\frac{z^2 + 1}{z - 3}\\,dz$",
+        "$\\oint_\\gamma \\frac{e^z}{(z - 1)^2}\\,dz$",
+        "$\\oint_\\gamma \\frac{\\cos z}{z^3}\\,dz$",
+        "$\\oint_\\gamma \\bar{z}^2\\,dz$"
+      ],
+      "explanationEn": "(A) The pole $z = 3$ lies outside $|z| = 2$, so the integral is $0$ by Cauchy's theorem. (B) By Cauchy's integral formula for derivatives, $\\oint_\\gamma \\frac{e^z}{(z-1)^2}\\,dz = 2\\pi i e^1 \\neq 0$. (C) Since $\\cos z = 1 - \\frac{z^2}{2} + \\cdots$, $\\operatorname{Res}_{z=0}\\frac{\\cos z}{z^3} = -\\frac{1}{2}$, so the integral is $-\\pi i \\neq 0$. (D) On $|z|=2$, $\\bar{z} = 4/z$, so $\\oint_\\gamma \\bar{z}^2\\,dz = 16\\oint_\\gamma z^{-2}\\,dz = 0$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Analytic Functions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f = u + iv$ be an analytic function on a domain $\\Omega \\subset \\mathbb{C}$. Which of the following statements is/are ALWAYS TRUE?",
+      "optionsEn": [
+        "If $|f(z)|$ is constant on $\\Omega$, then $f$ is constant on $\\Omega$.",
+        "If $\\operatorname{Re}(f(z)) = \\operatorname{Im}(f(z))$ on $\\Omega$, then $f$ is constant on $\\Omega$.",
+        "If $f(z)$ is real-valued on $\\Omega$, then $f$ is constant on $\\Omega$.",
+        "If $u(x, y)$ is bounded on $\\Omega$, then $f$ is constant on $\\Omega$."
+      ],
+      "explanationEn": "(A) True: If $|f|$ is constant, then either $f \\equiv 0$ or $u^2 + v^2 = c > 0$, and differentiating with the Cauchy-Riemann equations yields $f' \\equiv 0$ on the connected set $\\Omega$. (B) True: $u = v$ implies $u_x = v_x = -u_y$ and $u_y = v_y = u_x$, forcing $u_x = u_y = 0$, so $f$ is constant. (C) True: $v \\equiv 0$ implies $u_x = u_y = 0$, so $f$ is constant. (D) False: On $\\Omega = \\{z : |z| < 1\\}$, $f(z) = z$ has bounded real part $|u| < 1$ but is non-constant."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Möbius Transformations",
+      "difficulty": "Easy",
+      "correctOption": "3.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.5,
+      "natMax": 3.5,
+      "questionTextEn": "Let $T$ be the unique Möbius transformation mapping $0 \\mapsto 2$, $1 \\mapsto 5$, and $\\infty \\mapsto 3$. The value of $T(2)$ (exact decimal value) is ______.",
+      "optionsEn": [],
+      "explanationEn": "Since $T(\\infty) = 3$, write $T(z) = \\frac{3z + b}{z + d}$. From $T(0) = 2$, we get $b = 2d$. From $T(1) = \\frac{3 + 2d}{1 + d} = 5$, we get $3 + 2d = 5 + 5d \\implies d = -\\frac{2}{3}$ and $b = -\\frac{4}{3}$. Thus $T(z) = \\frac{9z - 4}{3z - 2}$, and $T(2) = \\frac{14}{4} = 3.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Cauchy's Integral Formula",
+      "difficulty": "Easy",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "Let $C$ be the positively oriented circle $|z| = 2$. The value of $\\frac{1}{2\\pi i} \\oint_C \\frac{z^5 + 2z^2}{(z - 1)^3}\\,dz$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Since $z = 1$ lies inside $|z| = 2$, Cauchy's integral formula for the second derivative gives $\\frac{1}{2\\pi i}\\oint_C \\frac{g(z)}{(z-1)^3}\\,dz = \\frac{g''(1)}{2!}$, where $g(z) = z^5 + 2z^2$. As $g''(z) = 20z^3 + 4$, we get $\\frac{g''(1)}{2} = \\frac{24}{2} = 12$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Real Integrals via Residues",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Let $I = \\int_{-\\infty}^{\\infty} \\frac{dx}{(x^2 + 4)(x^2 + 9)}$. The value of $\\frac{120 I}{\\pi}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Closing the contour in the upper half-plane encloses simple poles at $z = 2i$ and $z = 3i$. Their residues are $\\frac{1}{4i(-4+9)} = \\frac{1}{20i}$ and $\\frac{1}{(-9+4)(6i)} = -\\frac{1}{30i}$. By the residue theorem, $I = 2\\pi i\\left(\\frac{1}{20i} - \\frac{1}{30i}\\right) = \\frac{\\pi}{30}$. Hence $\\frac{120 I}{\\pi} = 4$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Real Integrals via Residues",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the improper integral $\\int_{-\\infty}^{\\infty} \\frac{\\sin x}{x(x^2 + 1)}\\,dx$ is:",
+      "optionsEn": [
+        "$\\pi e^{-1}$",
+        "$\\pi(1 + e^{-1})$",
+        "$\\pi(1 - e^{-1})$",
+        "$\\frac{\\pi}{2}(1 - e^{-1})$"
+      ],
+      "explanationEn": "Consider $f(z) = \\frac{e^{iz}}{z(z^2 + 1)}$ over an upper semicircle indented above the simple pole $z = 0$. The pole $z = i$ in the upper half-plane has residue $\\frac{e^{-1}}{i(2i)} = -\\frac{e^{-1}}{2}$, while $z = 0$ has residue $1$ and contributes $\\pi i \\operatorname{Res}(f, 0) = \\pi i$ as the indentation radius tends to $0$. Hence $\\text{P.V.}\\int_{-\\infty}^{\\infty} \\frac{e^{ix}}{x(x^2+1)}\\,dx = 2\\pi i\\left(-\\frac{e^{-1}}{2}\\right) + \\pi i = i\\pi(1 - e^{-1})$. Taking imaginary parts gives $\\pi(1 - e^{-1})$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Real Integrals via Residues",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the definite integral $\\int_0^{2\\pi} \\frac{\\cos(2\\theta)}{5 - 4\\cos\\theta}\\,d\\theta$ is:",
+      "optionsEn": [
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{12}$"
+      ],
+      "explanationEn": "Substitute $z = e^{i\\theta}$ on the unit circle $|z| = 1$, with $d\\theta = \\frac{dz}{iz}$ and $\\cos(k\\theta) = \\frac{z^k + z^{-k}}{2}$. Because $\\cos(2\\theta) = \\operatorname{Re}(z^2)$, the integral equals $\\operatorname{Re}\\oint_{|z|=1} \\frac{z^2}{5 - 2(z + z^{-1})}\\frac{dz}{iz} = \\operatorname{Re}\\left(-\\frac{1}{i}\\oint_{|z|=1} \\frac{z^2}{(2z - 1)(z - 2)}\\,dz\\right)$. The only pole inside $|z| = 1$ is $z = \\frac{1}{2}$, with residue $\\frac{(1/2)^2}{2(1/2 - 2)} = -\\frac{1}{12}$. Thus the integral is $-\\frac{1}{i}(2\\pi i)\\left(-\\frac{1}{12}\\right) = \\frac{\\pi}{6}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the power series $\\sum_{n=0}^{\\infty} a_n z^{2n}$, where $a_n = 4^n$ if $n$ is even and $a_n = 9^n$ if $n$ is odd. The radius of convergence of this series is:",
+      "optionsEn": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{9}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$"
+      ],
+      "explanationEn": "Let $w = z^2$. The series in $w$ is $\\sum_{n=0}^{\\infty} a_n w^n$, with $\\limsup_{n \\to \\infty} |a_n|^{1/n} = \\max(4, 9) = 9$, so it converges for $|w| < \\frac{1}{9}$. Substituting back $w = z^2$ gives $|z|^2 < \\frac{1}{9}$, i.e., $|z| < \\frac{1}{3}$. Hence $R = \\frac{1}{3}$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Zeros and Singularities",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f$ be an analytic function on $\\mathbb{C} \\setminus \\{0\\}$ having an essential singularity at $z = 0$. Which of the following statements is ALWAYS TRUE?",
+      "optionsEn": [
+        "$\\lim_{z \\to 0} |f(z)| = \\infty$.",
+        "For every $\\delta > 0$, the image $f(\\{z : 0 < |z| < \\delta\\})$ is dense in $\\mathbb{C}$.",
+        "$\\operatorname{Re}(f(z))$ is bounded from below in some punctured neighborhood of $0$.",
+        "There exists $\\delta > 0$ such that $f$ has no zeros in $0 < |z| < \\delta$."
+      ],
+      "explanationEn": "By the Casorati-Weierstrass theorem, the image of every punctured neighborhood $0 < |z| < \\delta$ of an essential singularity is dense in $\\mathbb{C}$. The condition $\\lim_{z \\to 0} |f(z)| = \\infty$ characterizes a pole, $\\operatorname{Re}(f)$ cannot be bounded below by density, and functions such as $\\sin(1/z)$ have infinitely many zeros near $0$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Differentiability",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the function $f(z) = \\sqrt{|xy|}$ for $z = x + iy \\in \\mathbb{C}$. Which of the following statements is/are TRUE at $z = 0$?",
+      "optionsEn": [
+        "$f$ is continuous at $z = 0$.",
+        "The Cauchy-Riemann equations are satisfied at $z = 0$.",
+        "$f$ is complex differentiable at $z = 0$.",
+        "$f$ is analytic in a neighborhood of $z = 0$."
+      ],
+      "explanationEn": "(A) True: $|\\sqrt{|xy|}| \\le |z| \\to 0$ as $z \\to 0$. (B) True: $u(x,0) = 0$ and $u(0,y) = 0$, while $v \\equiv 0$, so $u_x(0,0) = u_y(0,0) = v_x(0,0) = v_y(0,0) = 0$, satisfying the Cauchy-Riemann equations at $0$. (C) False: Along $y = x > 0$, $\\frac{f(x+ix) - f(0)}{x+ix} = \\frac{x}{x(1+i)} = \\frac{1}{1+i} \\neq 0$, whereas along the real axis the limit is $0$. (D) False, since $f$ is not even differentiable at $0$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following power series has radius of convergence $R = 1$ AND converges at $z = -1$?",
+      "optionsEn": [
+        "$\\sum_{n=1}^{\\infty} \\frac{z^n}{n}$",
+        "$\\sum_{n=1}^{\\infty} \\frac{z^n}{n^2}$",
+        "$\\sum_{n=1}^{\\infty} (-1)^n \\frac{z^n}{n}$",
+        "$\\sum_{n=1}^{\\infty} \\frac{z^{2n}}{n}$"
+      ],
+      "explanationEn": "All four series have $R = 1$. Evaluating at $z = -1$: (A) $\\sum \\frac{(-1)^n}{n}$ converges by the Alternating Series Test. (B) $\\sum \\frac{(-1)^n}{n^2}$ converges absolutely. (C) $\\sum \\frac{(-1)^n(-1)^n}{n} = \\sum \\frac{1}{n}$ diverges. (D) $\\sum \\frac{(-1)^{2n}}{n} = \\sum \\frac{1}{n}$ diverges."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Maximum Modulus Principle",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f$ be a non-constant analytic function on the open unit disk $\\mathbb{D} = \\{z : |z| < 1\\}$ that extends continuously to $\\overline{\\mathbb{D}}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\max_{|z| \\le 1} |f(z)| = \\max_{|z| = 1} |f(z)|$.",
+        "If $f(z) \\neq 0$ for all $z \\in \\mathbb{D}$, then $\\min_{|z| \\le 1} |f(z)| = \\min_{|z| = 1} |f(z)|$.",
+        "$\\max_{|z| \\le 1} \\operatorname{Re}(f(z)) = \\max_{|z| = 1} \\operatorname{Re}(f(z))$.",
+        "If $|f(z)| = 1$ for all $|z| = 1$, then $f$ must have at least one zero in $\\mathbb{D}$."
+      ],
+      "explanationEn": "(A) True by the Maximum Modulus Principle. (B) True by the Minimum Modulus Principle (applied to $1/f$). (C) True by the Maximum Principle for harmonic functions (or applying (A) to $e^{f(z)}$). (D) True: if $|f| = 1$ on $|z| = 1$ and $f$ had no zeros in $\\mathbb{D}$, then both the Maximum and Minimum Modulus Principles would force $|f(z)| \\equiv 1$ on $\\mathbb{D}$, making $f$ constant, contradicting that $f$ is non-constant."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Real Integrals via Residues",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $I = \\int_{-\\infty}^{\\infty} \\frac{3x^2 + 20}{(x^2 + 4)^2}\\,dx$. The value of $\\frac{I}{\\pi}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Closing in the upper half-plane encloses only the double pole $z = 2i$. Its residue is $\\left.\\frac{d}{dz}\\left(\\frac{3z^2 + 20}{(z + 2i)^2}\\right)\\right|_{z=2i} = \\left.\\frac{6z(z + 2i) - 2(3z^2 + 20)}{(z + 2i)^3}\\right|_{z=2i} = \\frac{12i(4i) - 2(-12 + 20)}{(4i)^3} = \\frac{-48 - 16}{-64i} = \\frac{1}{i}$. By the residue theorem, $I = 2\\pi i \\left(\\frac{1}{i}\\right) = 2\\pi$, so $\\frac{I}{\\pi} = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Möbius Transformations",
+      "difficulty": "Medium",
+      "correctOption": "19",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 19.0,
+      "natMax": 19.0,
+      "questionTextEn": "Let $T$ be the unique Möbius transformation satisfying $T(0) = 1$, $T(1) = 3$, and $T(2) = 7$. The value of $T(3)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Write $T(z) = \\frac{az + b}{cz + 1}$ (possible since $T(0) = 1 \\neq \\infty$, which gives $b = 1$). From $T(1) = 3$, $a + 1 = 3c + 3 \\implies a = 3c + 2$. From $T(2) = 7$, $2a + 1 = 14c + 7 \\implies 6c + 5 = 14c + 7 \\implies c = -\\frac{1}{4}$ and $a = \\frac{5}{4}$. Thus $T(z) = \\frac{5z + 4}{4 - z}$, so $T(3) = \\frac{19}{1} = 19$."
+    },
+    {
+      "questionId": "gate_ma_topic_ca_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Complex Analysis (Set 2)",
+      "topicTag": "Residue Theorem",
+      "difficulty": "Medium",
+      "correctOption": "-2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -2.0,
+      "natMax": -2.0,
+      "questionTextEn": "Let $C$ be the positively oriented circle $|z| = 2$. The value of $\\frac{1}{2\\pi i} \\oint_C \\frac{6\\cot z + 5z^2}{z^2}\\,dz$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The poles of $\\cot z$ occur at $z = n\\pi$ ($n \\in \\mathbb{Z}$), so $z = 0$ is the only singularity inside $|z| = 2$ (as $\\pi > 2$). Using $\\cot z = \\frac{1}{z} - \\frac{z}{3} - \\frac{z^3}{45} - \\cdots$, we have $\\frac{6\\cot z + 5z^2}{z^2} = \\frac{6}{z^3} - \\frac{2}{z} + 5 - \\cdots$. Thus the residue at $z = 0$ (and the value of the integral) is $-2$."
+    }
+  ]
+}

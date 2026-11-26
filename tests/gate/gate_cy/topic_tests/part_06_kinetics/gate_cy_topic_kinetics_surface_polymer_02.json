@@ -1,0 +1,593 @@
+{
+  "testId": "gate_cy_topic_kinetics_surface_polymer_02",
+  "categoryId": "gate_cy",
+  "test_id": "gate_cy_topic_kinetics_surface_polymer_02",
+  "category_id": "gate_cy",
+  "title": "GATE CY Topic Test: Chemical Kinetics, Surface & Polymer Chemistry — Set 02",
+  "titleEn": "GATE CY Topic Test: Chemical Kinetics, Surface & Polymer Chemistry — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_06_kinetics",
+  "part_id": "part_06_kinetics",
+  "partTitle": "Chemical Kinetics, Surface & Polymer Chemistry",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE CY • Chemical Kinetics, Surface & Polymer Chemistry • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "sectionTitleEn": "Chemistry",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a reaction $2\\text{A} \\to \\text{Products}$ obeying second-order kinetics ($-\\frac{d[\\text{A}]}{dt} = k[\\text{A}]^2$), if the initial concentration $[\\text{A}]_0$ is tripled, the half-life of the reaction becomes",
+      "optionsEn": [
+        "nine times the original value",
+        "three times the original value",
+        "one-ninth of the original value",
+        "one-third of the original value"
+      ],
+      "explanationEn": "For an $n$th-order reaction, the half-life scales as $t_{1/2} \\propto [\\text{A}]_0^{1-n}$. For a second-order reaction ($n = 2$), $t_{1/2} = \\frac{1}{k[\\text{A}]_0}$, which is inversely proportional to $[\\text{A}]_0$. Tripling $[\\text{A}]_0$ therefore reduces $t_{1/2}$ to one-third of its original value. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In Michaelis-Menten enzyme kinetics, the presence of a reversible competitive inhibitor alters the apparent kinetic parameters $K_M^{\\text{app}}$ and $v_{\\max}^{\\text{app}}$ such that",
+      "optionsEn": [
+        "$K_M^{\\text{app}}$ decreases while $v_{\\max}^{\\text{app}}$ remains unchanged",
+        "$K_M^{\\text{app}}$ increases while $v_{\\max}^{\\text{app}}$ remains unchanged",
+        "both $K_M^{\\text{app}}$ and $v_{\\max}^{\\text{app}}$ decrease by the same factor",
+        "$K_M^{\\text{app}}$ remains unchanged while $v_{\\max}^{\\text{app}}$ decreases"
+      ],
+      "explanationEn": "A reversible competitive inhibitor binds exclusively to the free enzyme $\\text{E}$ at the active site ($\\text{E} + \\text{I} \\rightleftharpoons \\text{EI}$), increasing the apparent Michaelis constant to $K_M^{\\text{app}} = K_M(1 + [\\text{I}]/K_I)$. At saturating substrate concentrations ($[\\text{S}] \\to \\infty$), the substrate completely outcompetes the inhibitor, so $v_{\\max}^{\\text{app}} = v_{\\max}$ remains unchanged. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Bodenstein-Lind empirical rate law for the thermal $\\text{H}_2 + \\text{Br}_2 \\to 2\\text{HBr}$ reaction, $\\frac{d[\\text{HBr}]}{dt} = \\frac{k[\\text{H}_2][\\text{Br}_2]^{1/2}}{1 + k'[\\text{HBr}]/[\\text{Br}_2]}$, the product inhibition term in the denominator arises from the elementary step",
+      "optionsEn": [
+        "$\\text{Br}^\\bullet + \\text{HBr} \\to \\text{Br}_2 + \\text{H}^\\bullet$",
+        "$\\text{H}^\\bullet + \\text{HBr} \\to \\text{H}_2 + \\text{Br}^\\bullet$",
+        "$\\text{H}^\\bullet + \\text{Br}^\\bullet + \\text{M} \\to \\text{HBr} + \\text{M}$",
+        "$2\\text{HBr} \\to \\text{H}_2 + \\text{Br}_2$"
+      ],
+      "explanationEn": "In the $\\text{H}_2\\text{--Br}_2$ chain mechanism, $\\text{H}^\\bullet$ radicals react competitively with $\\text{Br}_2$ (propagation: $\\text{H}^\\bullet + \\text{Br}_2 \\xrightarrow{k_3} \\text{HBr} + \\text{Br}^\\bullet$) and with the product $\\text{HBr}$ (inhibition: $\\text{H}^\\bullet + \\text{HBr} \\xrightarrow{k_4} \\text{H}_2 + \\text{Br}^\\bullet$). This competition produces the ratio $k' = k_4/k_3$ in the denominator $1 + k'[\\text{HBr}]/[\\text{Br}_2]$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Surface Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a dilute aqueous solution of a non-ionic surfactant at temperature $T$, the Gibbs adsorption isotherm relates the surface excess concentration $\\Gamma_2$ to the surface tension $\\gamma$ and bulk concentration $c$ as",
+      "optionsEn": [
+        "$\\Gamma_2 = +\\frac{c}{RT}\\left(\\frac{\\partial \\gamma}{\\partial c}\\right)_T$",
+        "$\\Gamma_2 = -\\frac{c}{RT}\\left(\\frac{\\partial \\gamma}{\\partial c}\\right)_T$",
+        "$\\Gamma_2 = -\\frac{RT}{c}\\left(\\frac{\\partial \\gamma}{\\partial c}\\right)_T$",
+        "$\\Gamma_2 = -\\frac{1}{RT}\\left(\\frac{\\partial \\gamma}{\\partial c}\\right)_T$"
+      ],
+      "explanationEn": "From the Gibbs-Duhem equation for an interface at constant temperature, $\\Gamma_2 = -\\left(\\frac{\\partial \\gamma}{\\partial \\mu_2}\\right)_T$. For a dilute non-ionic solute, $d\\mu_2 = RT\\,d\\ln c = \\frac{RT}{c}\\,dc$, which yields $\\Gamma_2 = -\\frac{c}{RT}\\left(\\frac{\\partial \\gamma}{\\partial c}\\right)_T$. Thus, surfactants that lower surface tension ($\\partial \\gamma / \\partial c < 0$) accumulate positively at the interface ($\\Gamma_2 > 0$). Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Polymer Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a linear step-growth polymerization of an equimolar mixture of a diacid and a diol obeying the Flory-Schulz most probable distribution, as the extent of reaction $p \\to 1$, the polydispersity index ($\\text{PDI} = M_w / M_n$) approaches",
+      "optionsEn": [
+        "$2.0$",
+        "$1.5$",
+        "$1.0$",
+        "$\\infty$"
+      ],
+      "explanationEn": "In a linear step-growth polymerization following Flory's equal-reactivity assumption, $X_n = \\frac{1}{1-p}$ and $X_w = \\frac{1+p}{1-p}$. Therefore, the polydispersity index is $\\text{PDI} = \\frac{M_w}{M_n} = \\frac{X_w}{X_n} = 1 + p$. As the extent of reaction $p \\to 1$, $\\text{PDI} \\to 1 + 1 = 2.0$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the consecutive first-order reaction $\\text{A} \\xrightarrow{k_1} \\text{B} \\xrightarrow{k_2} \\text{C}$ starting with pure $\\text{A}$ at concentration $[\\text{A}]_0$. The CORRECT statement(s) is(are)",
+      "optionsEn": [
+        "At any time $t$, $[\\text{A}] + [\\text{B}] + [\\text{C}] = [\\text{A}]_0$.",
+        "When $k_2 \\gg k_1$, the rate of formation of $\\text{C}$ is controlled by $k_1$ after a brief induction period.",
+        "The concentration of $\\text{B}$ attains its maximum value at $t_{\\max} = \\frac{1}{k_1 + k_2}$.",
+        "At $t = t_{\\max}$, the rate of formation of $\\text{B}$ equals its rate of consumption, i.e., $k_1[\\text{A}] = k_2[\\text{B}]$."
+      ],
+      "explanationEn": "Mass conservation guarantees $[\\text{A}] + [\\text{B}] + [\\text{C}] = [\\text{A}]_0$ at all $t$ (A is true). When $k_2 \\gg k_1$, $e^{-k_2 t}$ decays rapidly and $[\\text{C}] \\approx [\\text{A}]_0(1 - e^{-k_1 t})$, so $k_1$ is rate-determining (B is true). At the maximum of $[\\text{B}]$, $\\frac{d[\\text{B}]}{dt} = k_1[\\text{A}] - k_2[\\text{B}] = 0 \\implies k_1[\\text{A}] = k_2[\\text{B}]$ (D is true). However, $t_{\\max} = \\frac{\\ln(k_1/k_2)}{k_1 - k_2}$ (not $\\frac{1}{k_1 + k_2}$), so (C) is false. Thus, (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Polymer Chemistry",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Comparing ideal step-growth (condensation) polymerization and free-radical chain-growth polymerization, the CORRECT statement(s) is(are)",
+      "optionsEn": [
+        "In step-growth polymerization, high molar mass polymer forms rapidly at low monomer conversion ($p < 0.1$).",
+        "In free-radical chain-growth polymerization, high molar mass polymer is present even at low monomer conversion.",
+        "In step-growth polymerization, monomer concentration remains high until the very end of the reaction.",
+        "In free-radical polymerization, termination by combination yields a narrower PDI ($1.5$) than termination by disproportionation ($2.0$)."
+      ],
+      "explanationEn": "In step-growth polymerization, monomer disappears early into dimers/trimers and high molar mass is achieved only at very high conversion ($p > 0.99$), making (A) and (C) false. In free-radical chain-growth polymerization, individual chains grow to full length in milliseconds, so high-MW polymer coexists with unreacted monomer even at low conversion (B is true). Ideal termination by combination gives $\\text{PDI} = 1.5$, whereas disproportionation gives $\\text{PDI} = 2.0$ (D is true). Thus, (B) and (D) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Easy",
+      "correctOption": "300",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 300.0,
+      "natMax": 300.0,
+      "questionTextEn": "The zero-order decomposition of ammonia on a hot tungsten surface has a rate constant $k = 1.5 \\times 10^{-3}\\text{ mol L}^{-1}\\text{ s}^{-1}$. Starting from an initial concentration of $0.45\\text{ mol L}^{-1}$, the time (in $\\text{s}$) required for complete decomposition is _____ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "For a zero-order reaction, $[\\text{A}]_t = [\\text{A}]_0 - kt$. Complete decomposition occurs when $[\\text{A}]_t = 0$, giving $t_{\\text{complete}} = \\frac{[\\text{A}]_0}{k} = \\frac{0.45\\text{ mol L}^{-1}}{1.5 \\times 10^{-3}\\text{ mol L}^{-1}\\text{ s}^{-1}} = 300\\text{ s}$."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Surface Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "0.74 to 0.76",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.74,
+      "natMax": 0.76,
+      "questionTextEn": "Carbon monoxide undergoes non-dissociative Langmuir adsorption on a metal catalyst at $300\\text{ K}$ with an adsorption equilibrium constant $K = 0.25\\text{ bar}^{-1}$. At a $\\text{CO}$ pressure of $12.0\\text{ bar}$, the fractional surface coverage $\\theta$ is _____ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "For non-dissociative Langmuir adsorption, the fractional surface coverage is $\\theta = \\frac{KP}{1 + KP}$. Substituting $K = 0.25\\text{ bar}^{-1}$ and $P = 12.0\\text{ bar}$ gives $KP = 0.25 \\times 12.0 = 3.0$. Therefore, $\\theta = \\frac{3.0}{1 + 3.0} = \\frac{3}{4} = 0.75$."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Polymer Chemistry",
+      "difficulty": "Easy",
+      "correctOption": "1.79 to 1.81",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.79,
+      "natMax": 1.81,
+      "questionTextEn": "A sample of poly(methyl methacrylate) has a number-average molar mass $M_n = 4.0 \\times 10^4\\text{ g mol}^{-1}$ and a weight-average molar mass $M_w = 7.2 \\times 10^4\\text{ g mol}^{-1}$. The polydispersity index (PDI) of this polymer sample is _____ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "The polydispersity index (PDI) is defined as the ratio of the weight-average molar mass to the number-average molar mass: $\\text{PDI} = \\frac{M_w}{M_n} = \\frac{7.2 \\times 10^4\\text{ g mol}^{-1}}{4.0 \\times 10^4\\text{ g mol}^{-1}} = 1.80$."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a chain reaction whose overall rate constant is $k_{\\text{obs}} = k_2 \\left(\\frac{k_1}{2k_4}\\right)^{1/2}$, where $k_1$, $k_2$, and $k_4$ correspond to initiation, propagation, and termination with activation energies $E_1 = 300\\text{ kJ mol}^{-1}$, $E_2 = 40\\text{ kJ mol}^{-1}$, and $E_4 = 10\\text{ kJ mol}^{-1}$, respectively, the overall activation energy $E_{\\text{obs}}$ is",
+      "optionsEn": [
+        "$195\\text{ kJ mol}^{-1}$",
+        "$185\\text{ kJ mol}^{-1}$",
+        "$330\\text{ kJ mol}^{-1}$",
+        "$145\\text{ kJ mol}^{-1}$"
+      ],
+      "explanationEn": "Taking the natural logarithm of $k_{\\text{obs}} = k_2(k_1 / 2k_4)^{1/2}$ and applying $E_{\\text{obs}} = RT^2 \\frac{d\\ln k_{\\text{obs}}}{dT}$ gives $E_{\\text{obs}} = E_2 + \\frac{1}{2}(E_1 - E_4)$. Substituting the given values yields $E_{\\text{obs}} = 40 + \\frac{1}{2}(300 - 10) = 40 + 145 = 185\\text{ kJ mol}^{-1}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A primary kinetic isotope effect $k_{\\text{H}}/k_{\\text{D}} \\approx 6.5$ at $298\\text{ K}$ is observed when a $\\text{C}-\\text{H}$ bond is replaced by a $\\text{C}-\\text{D}$ bond. This large ratio arises primarily because",
+      "optionsEn": [
+        "the $\\text{C}-\\text{D}$ bond has a higher force constant than the $\\text{C}-\\text{H}$ bond",
+        "the potential energy surface of the $\\text{C}-\\text{D}$ molecule lies higher than that of $\\text{C}-\\text{H}$",
+        "deuterium has a larger nuclear spin than protium, slowing electronic reorganization",
+        "the $\\text{C}-\\text{D}$ bond has a lower zero-point vibrational energy than the $\\text{C}-\\text{H}$ bond, giving a higher activation barrier when the bond is broken in the rate-determining step"
+      ],
+      "explanationEn": "Within the Born-Oppenheimer approximation, $\\text{C}-\\text{H}$ and $\\text{C}-\\text{D}$ share the same electronic potential energy surface and force constant $k$. Because deuterium has roughly twice the mass of hydrogen, its vibrational frequency $\\nu \\propto \\mu^{-1/2}$ and zero-point energy $\\frac{1}{2}h\\nu$ are lower. Breaking the bond in the rate-determining step therefore requires more energy for $\\text{C}-\\text{D}$ than for $\\text{C}-\\text{H}$, yielding $k_{\\text{H}}/k_{\\text{D}} \\approx 6\\text{--}7$ at $298\\text{ K}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the second-order reaction $\\text{A} + \\text{B} \\xrightarrow{k} \\text{P}$ with unequal initial concentrations $[\\text{A}]_0 \\neq [\\text{B}]_0$, plotting which of the following quantities against time $t$ yields a straight line with slope $k([\\text{B}]_0 - [\\text{A}]_0)$?",
+      "optionsEn": [
+        "$\\ln\\left(\\frac{[\\text{B}]_t}{[\\text{A}]_t}\\right)$",
+        "$\\ln\\left(\\frac{[\\text{A}]_t}{[\\text{B}]_t}\\right)$",
+        "$\\frac{1}{[\\text{B}]_t - [\\text{A}]_t}$",
+        "$\\frac{[\\text{B}]_t}{[\\text{A}]_t}$"
+      ],
+      "explanationEn": "Integrating $\\frac{dx}{dt} = k([\\text{A}]_0 - x)([\\text{B}]_0 - x)$ by partial fractions gives $\\frac{1}{[\\text{B}]_0 - [\\text{A}]_0}\\ln\\frac{[\\text{A}]_0[\\text{B}]_t}{[\\text{B}]_0[\\text{A}]_t} = kt$. Rearranging gives $\\ln\\left(\\frac{[\\text{B}]_t}{[\\text{A}]_t}\\right) = \\ln\\left(\\frac{[\\text{B}]_0}{[\\text{A}]_0}\\right) + k([\\text{B}]_0 - [\\text{A}]_0)t$. Thus, plotting $\\ln([\\text{B}]_t/[\\text{A}]_t)$ versus $t$ yields a straight line with slope $k([\\text{B}]_0 - [\\text{A}]_0)$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Surface Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the Kelvin equation, $\\ln\\left(\\frac{P}{P^*}\\right) = \\frac{2\\gamma V_m}{rRT}$, the equilibrium vapor pressure $P$ over a small spherical liquid droplet of radius $r$ compared to a flat liquid surface ($P^*$) is",
+      "optionsEn": [
+        "lower than $P^*$, causing small droplets to grow spontaneously at the expense of large droplets",
+        "higher than $P^*$, causing small droplets to evaporate and condense onto larger droplets (Ostwald ripening)",
+        "equal to $P^*$ because surface tension acts tangentially to the liquid interface",
+        "inversely proportional to the surface tension $\\gamma$"
+      ],
+      "explanationEn": "For a convex spherical droplet of radius $r > 0$, $\\frac{2\\gamma V_m}{rRT} > 0$, so $P = P^* \\exp\\left(\\frac{2\\gamma V_m}{rRT}\\right) > P^*$. Smaller droplets have a higher vapor pressure and higher chemical potential than larger droplets, driving net mass transfer from smaller to larger droplets (Ostwald ripening). Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Polymer Chemistry",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a freely rotating linear polymer chain of $N$ bonds (each of length $l$) with fixed valence bond angle $\\theta$ (supplement angle $\\alpha = 180^\\circ - \\theta$ such that $\\cos\\alpha = -\\cos\\theta > 0$), the mean-square end-to-end distance in the large-$N$ limit is",
+      "optionsEn": [
+        "$Nl^2$",
+        "$Nl^2 \\left(\\frac{1 - \\cos\\alpha}{1 + \\cos\\alpha}\\right)$",
+        "$Nl^2 \\left(\\frac{1 + \\cos\\alpha}{1 - \\cos\\alpha}\\right)$",
+        "$Nl^2 \\cos^2\\alpha$"
+      ],
+      "explanationEn": "For a freely rotating chain with fixed tetrahedral-like bond angle $\\theta$ ($\\approx 109.5^\\circ$, so supplement $\\alpha = 180^\\circ - \\theta \\approx 70.5^\\circ$ and $\\cos\\alpha = \\frac{1}{3} > 0$), consecutive bond vectors are positively correlated, expanding the coil relative to a freely jointed chain by the factor $\\frac{1 + \\cos\\alpha}{1 - \\cos\\alpha} = \\frac{1 - \\cos\\theta}{1 + \\cos\\theta}$. For $\\theta = 109.5^\\circ$, this factor is $2$, giving $\\langle r^2 \\rangle = 2Nl^2$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Regarding the gas-phase $\\text{H}_2 + \\text{O}_2$ branched-chain reaction and its pressure-temperature explosion peninsula, the CORRECT statement(s) is(are)",
+      "optionsEn": [
+        "The elementary step $\\text{H}^\\bullet + \\text{O}_2 \\to \\text{OH}^\\bullet + \\text{O}^{\\bullet\\bullet}$ is a chain-branching step.",
+        "Below the first (lower) explosion limit, chain termination occurs predominantly by radical diffusion to the vessel walls.",
+        "Increasing the pressure above the second explosion limit always accelerates the explosion.",
+        "The second explosion limit arises because gas-phase termolecular termination $\\text{H}^\\bullet + \\text{O}_2 + \\text{M} \\to \\text{HO}_2^\\bullet + \\text{M}$ outcompetes chain branching."
+      ],
+      "explanationEn": "In $\\text{H}_2 + \\text{O}_2$, $\\text{H}^\\bullet + \\text{O}_2 \\to \\text{OH}^\\bullet + \\text{O}^{\\bullet\\bullet}$ converts $1$ radical into $2$ radicals (chain branching; A is true). At very low pressure (below the 1st limit), long mean free paths allow radicals to reach and terminate at the container walls (B is true). Above the 2nd limit, higher pressure accelerates the third-body recombination $\\text{H}^\\bullet + \\text{O}_2 + \\text{M} \\to \\text{HO}_2^\\bullet + \\text{M}$, quenching the explosion into a slow steady reaction (D is true, C is false). Thus, (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Surface Chemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Regarding lyophobic colloids and the electrical double layer, the CORRECT statement(s) is(are)",
+      "optionsEn": [
+        "The zeta potential ($\\zeta$) is the electric potential at the slipping (shear) plane relative to the bulk liquid.",
+        "Adding a small amount of electrolyte always increases the thickness of the diffuse double layer (Debye length).",
+        "In electroosmosis, applying an electric field drives the movement of the dispersion medium relative to a stationary porous solid.",
+        "A lyophilic colloid with a higher gold number provides stronger protective action against coagulation."
+      ],
+      "explanationEn": "The zeta potential $\\zeta$ is measured at the hydrodynamic slipping plane (A is true), and electroosmosis is the motion of liquid through a fixed porous plug under an applied electric field (C is true). Adding electrolyte increases ionic strength $I$ and compresses the Debye length $\\kappa^{-1} \\propto I^{-1/2}$ (B is false). A smaller gold number means less protective colloid is needed to prevent gold sol coagulation, hence stronger protection (D is false). Thus, (A) and (C) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": "9.19 to 9.29",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.19,
+      "natMax": 9.29,
+      "questionTextEn": "In the consecutive first-order reaction $\\text{A} \\xrightarrow{k_1} \\text{B} \\xrightarrow{k_2} \\text{C}$ starting with pure $\\text{A}$, the rate constants are $k_1 = 0.20\\text{ min}^{-1}$ and $k_2 = 0.05\\text{ min}^{-1}$. The time $t_{\\max}$ (in $\\text{min}$) at which the concentration of intermediate $\\text{B}$ reaches its maximum is _____ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "For a consecutive first-order reaction with $k_1 \\neq k_2$, the concentration of intermediate $\\text{B}$ is $[\\text{B}]_t = \\frac{k_1[\\text{A}]_0}{k_2 - k_1}(e^{-k_1 t} - e^{-k_2 t})$. Setting $\\frac{d[\\text{B}]}{dt} = 0$ gives $t_{\\max} = \\frac{\\ln(k_1 / k_2)}{k_1 - k_2} = \\frac{\\ln(0.20 / 0.05)}{0.20 - 0.05} = \\frac{\\ln 4}{0.15} = \\frac{1.38629}{0.15} = 9.24\\text{ min}$."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Chemical Kinetics",
+      "difficulty": "Medium",
+      "correctOption": "50",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 50.0,
+      "natMax": 50.0,
+      "questionTextEn": "A gas-phase isomerization obeys the Lindemann-Hinshelwood mechanism with high-pressure first-order rate constant $k_\\infty = 1.0 \\times 10^{-2}\\text{ s}^{-1}$ and low-pressure collisional activation rate constant $k_1 = 2.0 \\times 10^{-4}\\text{ bar}^{-1}\\text{ s}^{-1}$. The pressure $P_{1/2}$ (in $\\text{bar}$) at which the effective unimolecular rate constant $k_{\\text{uni}}$ drops to $\\frac{1}{2}k_\\infty$ is _____ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "In the Lindemann-Hinshelwood mechanism, $k_{\\text{uni}} = \\frac{k_1 k_2 P}{k_{-1} P + k_2} = \\frac{k_\\infty}{1 + k_\\infty / (k_1 P)}$, where $k_\\infty = \\frac{k_1 k_2}{k_{-1}}$. Setting $k_{\\text{uni}} = \\frac{1}{2}k_\\infty$ requires $\\frac{k_\\infty}{k_1 P_{1/2}} = 1$, which gives $P_{1/2} = \\frac{k_\\infty}{k_1} = \\frac{1.0 \\times 10^{-2}\\text{ s}^{-1}}{2.0 \\times 10^{-4}\\text{ bar}^{-1}\\text{ s}^{-1}} = 50\\text{ bar}$."
+    },
+    {
+      "questionId": "gate_cy_topic_kinetics_surface_polymer_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Kinetics, Surface & Polymer Chemistry (Set 02)",
+      "topicTag": "Polymer Chemistry",
+      "difficulty": "Medium",
+      "correctOption": "50.4 to 50.6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 50.4,
+      "natMax": 50.6,
+      "questionTextEn": "Nylon-6,6 is synthesized by step-growth polymerization of $1.00\\text{ mol}$ of adipic acid with $1.02\\text{ mol}$ of hexamethylenediamine to an extent of reaction $p = 0.99$ (based on the limiting functional group). The number-average degree of polymerization $X_n$ is _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "The stoichiometric ratio is $r = \\frac{N_A}{N_B} = \\frac{1.00}{1.02} = \\frac{50}{51}$. By the generalized Carothers equation, $X_n = \\frac{1 + r}{1 + r - 2rp}$. Substituting $r = \\frac{50}{51}$ and $p = 0.99$: numerator $= 1 + \\frac{50}{51} = \\frac{101}{51}$, denominator $= \\frac{101}{51} - 2\\left(\\frac{50}{51}\\right)(0.99) = \\frac{101 - 99}{51} = \\frac{2}{51}$. Thus, $X_n = \\frac{101}{2} = 50.5$."
+    }
+  ]
+}

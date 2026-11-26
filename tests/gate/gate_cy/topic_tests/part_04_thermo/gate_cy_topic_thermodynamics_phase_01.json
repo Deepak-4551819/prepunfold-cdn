@@ -1,0 +1,608 @@
+{
+  "testId": "gate_cy_topic_thermodynamics_phase_01",
+  "categoryId": "gate_cy",
+  "test_id": "gate_cy_topic_thermodynamics_phase_01",
+  "category_id": "gate_cy",
+  "title": "GATE CY Topic Test: Chemical Thermodynamics & Phase Equilibria — Set 01",
+  "titleEn": "GATE CY Topic Test: Chemical Thermodynamics & Phase Equilibria — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_04_thermo",
+  "part_id": "part_04_thermo",
+  "partTitle": "Chemical Thermodynamics & Phase Equilibria",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE CY • Chemical Thermodynamics & Phase Equilibria • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "sectionTitleEn": "Chemistry",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following thermodynamic quantities is an exact differential for a closed, single-phase system of constant composition?",
+      "optionsEn": [
+        "$\\delta q_{\\text{rev}}$",
+        "$\\delta w_{\\text{rev}}$",
+        "$\\frac{\\delta q_{\\text{rev}}}{T}$",
+        "$P\\,dV$"
+      ],
+      "explanationEn": "Heat ($\\delta q_{\\text{rev}}$) and work ($\\delta w_{\\text{rev}} = -P\\,dV$) are path functions and therefore inexact differentials. According to the Second Law of Thermodynamics, multiplying $\\delta q_{\\text{rev}}$ by the integrating factor $1/T$ produces $dS = \\delta q_{\\text{rev}}/T$, which is an exact differential of the state function entropy $S$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "One mole of an ideal gas initially at $(P_1, V_1, T_1)$ is expanded reversibly to the same final volume $V_2 = 2V_1$ along two different paths: Path I is isothermal and Path II is adiabatic. Which of the following inequalities is CORRECT?",
+      "optionsEn": [
+        "$P_{2,\\text{I}} < P_{2,\\text{II}}$ and $|w_{\\text{I}}| < |w_{\\text{II}}|$",
+        "$P_{2,\\text{I}} > P_{2,\\text{II}}$ and $|w_{\\text{I}}| < |w_{\\text{II}}|$",
+        "$P_{2,\\text{I}} > P_{2,\\text{II}}$ and $|w_{\\text{I}}| > |w_{\\text{II}}|$",
+        "$P_{2,\\text{I}} = P_{2,\\text{II}}$ and $|w_{\\text{I}}| > |w_{\\text{II}}|$"
+      ],
+      "explanationEn": "In an adiabatic expansion of an ideal gas, temperature drops ($T_{2,\\text{II}} < T_1 = T_{2,\\text{I}}$) because work is done at the expense of internal energy. Since both paths reach the same $V_2$, the ideal gas law gives $P_{2,\\text{I}} > P_{2,\\text{II}}$. Consequently, the adiabatic $P$-$V$ curve lies strictly below the isotherm, so the area under the curve ($|w|$) satisfies $|w_{\\text{I}}| > |w_{\\text{II}}|$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A binary liquid mixture of acetone and chloroform exhibits strong intermolecular hydrogen bonding between unlike molecules. Which of the following features is observed for this mixture?",
+      "optionsEn": [
+        "Negative deviation from Raoult's law and a maximum-boiling azeotrope",
+        "Positive deviation from Raoult's law and a minimum-boiling azeotrope",
+        "Negative deviation from Raoult's law and a minimum-boiling azeotrope",
+        "Ideal behavior with $\\Delta_{\\text{mix}} H = 0$"
+      ],
+      "explanationEn": "Strong hydrogen bonding between the carbonyl oxygen of acetone and the acidic $\\text{C}-\\text{H}$ proton of chloroform makes $\\text{A}-\\text{B}$ interactions stronger than $\\text{A}-\\text{A}$ and $\\text{B}-\\text{B}$ interactions. This lowers the escaping tendency (vapor pressure) below Raoult's law (negative deviation, $\\Delta_{\\text{mix}} H < 0$) and produces a maximum-boiling azeotrope."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the one-component sulfur phase diagram (containing rhombic sulfur, monoclinic sulfur, liquid sulfur, and sulfur vapor), the maximum number of phases that can coexist simultaneously in equilibrium is:",
+      "optionsEn": [
+        "$2$",
+        "$4$",
+        "$3$",
+        "$5$"
+      ],
+      "explanationEn": "By the Gibbs phase rule $F = C - P + 2$. For a single-component system ($C = 1$), $F = 3 - P$. Since the number of degrees of freedom $F$ cannot be negative ($F \\ge 0$), the maximum number of coexisting phases is $P_{\\max} = 3$ (occurring at invariant triple points, where $F = 0$)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a two-component solid-liquid phase diagram, a solid compound $\\text{AB}_2$ decomposes upon heating at a specific temperature $T_p$ into solid $\\text{B}$ and a liquid of composition different from $\\text{AB}_2$. This phenomenon is known as:",
+      "optionsEn": [
+        "Congruent melting at a dystectic point",
+        "Incongruent melting at a peritectic point",
+        "Eutectic solidification",
+        "Azeotropic distillation"
+      ],
+      "explanationEn": "When an intermediate solid compound decomposes reversibly on heating into a different solid phase and a liquid phase of another composition ($\\text{AB}_2(\\text{s}) \\rightleftharpoons \\text{B}(\\text{s}) + \\text{Liquid}$), the process is called incongruent melting and the invariant decomposition temperature $T_p$ is the peritectic point."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following thermodynamic properties are intensive?",
+      "optionsEn": [
+        "Chemical potential ($\\mu_i$)",
+        "Molar Gibbs free energy ($G_m$)",
+        "Heat capacity ($C_p$)",
+        "Isothermal compressibility ($\\kappa_T$)"
+      ],
+      "explanationEn": "An intensive property is independent of the mass or extent of the system. Chemical potential $\\mu_i = (\\partial G/\\partial n_i)_{T,P}$, molar Gibbs energy $G_m = G/n$, and isothermal compressibility $\\kappa_T = -\\frac{1}{V}(\\partial V/\\partial P)_T$ are all intensive. Total heat capacity $C_p$ scales linearly with mass/moles and is extensive."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a binary liquid solution of volatile solvent $A$ and dilute volatile solute $B$, which of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "As $x_B \\to 0$, the solvent $A$ obeys Raoult's law.",
+        "As $x_B \\to 0$, the solute $B$ obeys Henry's law.",
+        "If the solution is ideal over the entire composition range, the Henry's law constant $K_{H,B}$ equals the pure vapor pressure $P_B^\\circ$.",
+        "Henry's law constant $K_{H,B}$ is always strictly equal to $P_B^\\circ$ even for non-ideal solutions."
+      ],
+      "explanationEn": "In any sufficiently dilute solution ($x_B \\to 0$, $x_A \\to 1$), the solvent obeys Raoult's law ($P_A = x_A P_A^\\circ$) and by the Gibbs-Duhem relation the solute obeys Henry's law ($P_B = x_B K_{H,B}$). For a completely ideal solution, $K_{H,B} = P_B^\\circ$, whereas for non-ideal solutions $K_{H,B}$ differs from $P_B^\\circ$ (so D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "-6.97 to -6.87",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -6.97,
+      "natMax": -6.87,
+      "questionTextEn": "Two moles of an ideal gas expand isothermally and reversibly from $5.0\\text{ L}$ to $20.0\\text{ L}$ at $300\\text{ K}$. The work done on the gas ($w$, in $\\text{kJ}$, rounded off to two decimal places) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "For an isothermal reversible expansion of an ideal gas, $w = -nRT\\ln(V_2/V_1)$. Substituting $n = 2.0\\text{ mol}$, $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$, $T = 300\\text{ K}$, and $V_2/V_1 = 20.0/5.0 = 4$: $w = -2.0 \\times 8.314 \\times 300 \\times \\ln(4) = -4988.4 \\times 1.38629 = -6915.4\\text{ J} = -6.92\\text{ kJ}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "300",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 300.0,
+      "natMax": 300.0,
+      "questionTextEn": "A reversible Carnot heat engine absorbs $500\\text{ J}$ of heat from a hot reservoir at $700\\text{ K}$ and rejects heat to a cold reservoir at $280\\text{ K}$. The magnitude of net work performed by the engine per cycle (in $\\text{J}$, in integer) is _______.",
+      "optionsEn": [],
+      "explanationEn": "The Carnot efficiency is $\\eta = 1 - \\frac{T_c}{T_h} = 1 - \\frac{280}{700} = 1 - 0.4 = 0.6$. The magnitude of net work performed per cycle is $|w| = \\eta q_h = 0.6 \\times 500\\text{ J} = 300\\text{ J}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Easy",
+      "correctOption": "6.9 to 7.1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.9,
+      "natMax": 7.1,
+      "questionTextEn": "In a simple binary eutectic system of components $\\text{A}$ and $\\text{B}$ (with no solid solubility), $10.0\\text{ mol}$ of an overall mixture with $x_{\\text{B}} = 0.35$ is cooled to a temperature where pure solid $\\text{A}$ ($x_{\\text{B}} = 0$) is in equilibrium with a liquid phase of composition $x_{\\text{B}} = 0.50$. The total number of moles of the liquid phase present at this temperature (rounded off to one decimal place) is _______.",
+      "optionsEn": [],
+      "explanationEn": "Applying the lever rule between pure solid $\\text{A}$ ($x_{\\text{B,s}} = 0$) and the liquid phase ($x_{\\text{B,l}} = 0.50$) for overall composition $x_{\\text{B}} = 0.35$: $\\frac{n_{\\text{l}}}{n_{\\text{total}}} = \\frac{x_{\\text{B}} - x_{\\text{B,s}}}{x_{\\text{B,l}} - x_{\\text{B,s}}} = \\frac{0.35 - 0}{0.50 - 0} = 0.70$. Thus, $n_{\\text{l}} = 0.70 \\times 10.0 = 7.0\\text{ mol}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a real gas obeying the equation of state $P(V_m - b) = RT$ (where $b$ is a positive constant), the value of $\\left(\\frac{\\partial H_m}{\\partial P}\\right)_T$ and the sign of its Joule-Thomson coefficient $\\mu_{\\text{JT}}$ are, respectively:",
+      "optionsEn": [
+        "$-b$ and positive (cooling upon expansion)",
+        "$b$ and negative (warming upon expansion)",
+        "$0$ and zero (no temperature change)",
+        "$b$ and positive (cooling upon expansion)"
+      ],
+      "explanationEn": "From the thermodynamic equation of state for enthalpy, $\\left(\\frac{\\partial H_m}{\\partial P}\\right)_T = V_m - T\\left(\\frac{\\partial V_m}{\\partial T}\\right)_P$. Since $V_m = \\frac{RT}{P} + b$, we have $\\left(\\frac{\\partial V_m}{\\partial T}\\right)_P = \\frac{R}{P}$, so $\\left(\\frac{\\partial H_m}{\\partial P}\\right)_T = \\left(\\frac{RT}{P} + b\\right) - T\\left(\\frac{R}{P}\\right) = b > 0$. Because $\\mu_{\\text{JT}} = -\\frac{1}{C_{p,m}}\\left(\\frac{\\partial H_m}{\\partial P}\\right)_T = -\\frac{b}{C_{p,m}} < 0$, the gas warms upon throttling expansion."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Liquids $\\text{A}$ and $\\text{B}$ form an ideal solution at $300\\text{ K}$ with pure vapor pressures $P_A^\\circ = 100\\text{ kPa}$ and $P_B^\\circ = 40\\text{ kPa}$. For an equimolar liquid mixture ($x_A = x_B = 0.50$), the mole fraction of $\\text{A}$ in the equilibrium vapor phase ($y_A$) is:",
+      "optionsEn": [
+        "$\\frac{5}{7}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{9}$"
+      ],
+      "explanationEn": "By Raoult's law, $P_A = x_A P_A^\\circ = 0.50 \\times 100 = 50\\text{ kPa}$ and $P_B = x_B P_B^\\circ = 0.50 \\times 40 = 20\\text{ kPa}$, giving total vapor pressure $P_{\\text{total}} = 50 + 20 = 70\\text{ kPa}$. By Dalton's law, the mole fraction of $\\text{A}$ in the vapor is $y_A = \\frac{P_A}{P_{\\text{total}}} = \\frac{50}{70} = \\frac{5}{7}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "One mole of a van der Waals gas undergoes an adiabatic free expansion into a vacuum from volume $V_1$ to $V_2$ ($V_2 > V_1$). Assuming constant $C_{V,m}$, the temperature change $\\Delta T = T_2 - T_1$ is:",
+      "optionsEn": [
+        "$0$",
+        "$\\frac{a}{C_{V,m}}\\left(\\frac{1}{V_2} - \\frac{1}{V_1}\\right)$",
+        "$\\frac{a}{C_{V,m}}\\left(\\frac{1}{V_1} - \\frac{1}{V_2}\\right)$",
+        "$-\\frac{RT_1}{C_{V,m}}\\ln\\left(\\frac{V_2}{V_1}\\right)$"
+      ],
+      "explanationEn": "In an adiabatic free expansion, $q = 0$ and $w = 0$, so $\\Delta U_m = 0$. Using $dU_m = C_{V,m}\\,dT + \\left(\\frac{\\partial U_m}{\\partial V_m}\\right)_T dV_m = 0$ and $\\left(\\frac{\\partial U_m}{\\partial V_m}\\right)_T = \\frac{a}{V_m^2}$ for a van der Waals gas: $C_{V,m}\\Delta T = -\\int_{V_1}^{V_2} \\frac{a}{V_m^2}\\,dV_m = a\\left(\\frac{1}{V_2} - \\frac{1}{V_1}\\right)$. Since $V_2 > V_1$, $\\Delta T < 0$ (cooling), giving $\\Delta T = \\frac{a}{C_{V,m}}\\left(\\frac{1}{V_2} - \\frac{1}{V_1}\\right)$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "At a fixed pressure $P$, the chemical potential $\\mu$ of a pure substance is plotted against temperature $T$ for the solid, liquid, and gas phases. Which statement correctly describes the slopes and relative positions of these curves?",
+      "optionsEn": [
+        "All three curves have positive slopes, with gas having the steepest positive slope.",
+        "The curves are concave upward ($\\partial^2 \\mu/\\partial T^2 > 0$) because $C_{p,m} > 0$.",
+        "All three curves have negative slopes, with $|\\text{slope}_{\\text{solid}}| > |\\text{slope}_{\\text{liquid}}| > |\\text{slope}_{\\text{gas}}|$, and the stable phase has the highest $\\mu$.",
+        "All three curves have negative slopes, with $|\\text{slope}_{\\text{gas}}| > |\\text{slope}_{\\text{liquid}}| > |\\text{slope}_{\\text{solid}}|$, and the stable phase at any $T$ has the lowest $\\mu$."
+      ],
+      "explanationEn": "Since $\\left(\\frac{\\partial \\mu}{\\partial T}\\right)_P = -S_m < 0$, all three $\\mu(T)$ curves slope downward, and because $S_{m,\\text{gas}} > S_{m,\\text{liquid}} > S_{m,\\text{solid}}$, the gas curve is steepest and the solid curve is shallowest. At constant $T$ and $P$, the thermodynamically stable phase minimizes $\\mu$. Moreover, $(\\partial^2 \\mu/\\partial T^2)_P = -C_{p,m}/T < 0$, so the curves are concave downward."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Benzoic acid undergoes partial dimerization in benzene according to $2\\text{C}_6\\text{H}_5\\text{COOH} \\rightleftharpoons (\\text{C}_6\\text{H}_5\\text{COOH})_2$ with degree of association $\\alpha$. If $M_{\\text{calc}}$ is the true molar mass and $M_{\\text{obs}}$ is the apparent molar mass determined from freezing point depression, then $\\alpha$ is equal to:",
+      "optionsEn": [
+        "$\\frac{M_{\\text{calc}} - M_{\\text{obs}}}{M_{\\text{obs}}}$",
+        "$\\frac{M_{\\text{obs}} - M_{\\text{calc}}}{M_{\\text{calc}}}$",
+        "$\\frac{1}{2}\\left(1 - \\frac{M_{\\text{calc}}}{M_{\\text{obs}}}\\right)$",
+        "$2\\left(1 - \\frac{M_{\\text{calc}}}{M_{\\text{obs}}}\\right)$"
+      ],
+      "explanationEn": "For dimerization ($n = 2$), $1\\text{ mol}$ of solute yields $(1 - \\alpha) + \\frac{\\alpha}{2} = 1 - \\frac{\\alpha}{2}$ moles of particles in solution, so the van't Hoff factor is $i = 1 - \\frac{\\alpha}{2}$. Since colligative properties are inversely proportional to apparent molar mass, $i = \\frac{M_{\\text{calc}}}{M_{\\text{obs}}}$. Equating gives $1 - \\frac{\\alpha}{2} = \\frac{M_{\\text{calc}}}{M_{\\text{obs}}} \\implies \\alpha = 2\\left(1 - \\frac{M_{\\text{calc}}}{M_{\\text{obs}}}\\right)$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following thermodynamic relations is/are ALWAYS valid for a closed, single-phase system of fixed composition undergoing reversible $P$-$V$ work only?",
+      "optionsEn": [
+        "$\\left(\\frac{\\partial T}{\\partial V}\\right)_S = -\\left(\\frac{\\partial P}{\\partial S}\\right)_V$",
+        "$\\left(\\frac{\\partial T}{\\partial P}\\right)_S = \\left(\\frac{\\partial V}{\\partial S}\\right)_P$",
+        "$\\left(\\frac{\\partial S}{\\partial P}\\right)_T = -\\left(\\frac{\\partial V}{\\partial T}\\right)_P$",
+        "$\\left(\\frac{\\partial U}{\\partial V}\\right)_T = P - T\\left(\\frac{\\partial P}{\\partial T}\\right)_V$"
+      ],
+      "explanationEn": "Options (A), (B), and (C) are the exact Maxwell relations derived from $dU = TdS - PdV$, $dH = TdS + VdP$, and $dG = -SdT + VdP$, respectively. Option (D) has the reversed sign: the correct thermodynamic equation of state is $\\left(\\frac{\\partial U}{\\partial V}\\right)_T = T\\left(\\frac{\\partial P}{\\partial T}\\right)_V - P$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following approximations are used to derive the Clausius-Clapeyron equation $\\frac{d\\ln P}{dT} = \\frac{\\Delta_{\\text{vap}} H_m}{RT^2}$ from the exact Clapeyron equation $\\frac{dP}{dT} = \\frac{\\Delta_{\\text{vap}} H_m}{T(V_{m,\\text{g}} - V_{m,\\text{l}})}$?",
+      "optionsEn": [
+        "The molar volume of the liquid phase is negligible compared to that of the vapor phase ($V_{m,\\text{l}} \\ll V_{m,\\text{g}}$).",
+        "The vapor behaves as an ideal gas ($V_{m,\\text{g}} = RT/P$).",
+        "The molar enthalpy of vaporization $\\Delta_{\\text{vap}} H_m$ is independent of temperature.",
+        "The transition occurs at the critical point."
+      ],
+      "explanationEn": "To obtain the differential Clausius-Clapeyron form $\\frac{d\\ln P}{dT} = \\frac{\\Delta_{\\text{vap}} H_m}{RT^2}$, only two approximations are required: (1) $V_{m,\\text{l}} \\ll V_{m,\\text{g}}$ so $\\Delta V_m \\approx V_{m,\\text{g}}$ (A), and (2) ideal vapor $V_{m,\\text{g}} = RT/P$ (B). Constant $\\Delta_{\\text{vap}} H_m$ (C) is an additional assumption only needed when integrating the equation; the approximation breaks down completely near the critical point where $V_{m,\\text{l}} \\to V_{m,\\text{g}}$ (D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Phase Equilibria",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a binary liquid-vapor system of two volatile components $\\text{A}$ and $\\text{B}$ at constant pressure, which of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "By Konowaloff's rule, the equilibrium vapor is always richer than the liquid in the component whose addition increases the total vapor pressure (the more volatile component).",
+        "At an azeotropic point, the liquid and vapor phases have identical compositions ($x_A = y_A$).",
+        "Azeotropic mixtures can be completely separated into pure $\\text{A}$ and pure $\\text{B}$ by simple fractional distillation at the same pressure.",
+        "In a $T$-$x$ diagram at constant pressure, the dew-point curve lies above the bubble-point curve."
+      ],
+      "explanationEn": "Konowaloff's rule states that the vapor is enriched in the component that increases total vapor pressure (A). At an azeotrope, $x_A = y_A$ (B), so fractional distillation at that pressure cannot cross the azeotropic composition to yield both pure components (C is false). In a $T$-$x$ diagram, the vapor phase is stable at higher $T$ and the liquid at lower $T$, so the dew-point (vapor) curve lies above the bubble-point (liquid) curve (D)."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "8.59 to 8.69",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.59,
+      "natMax": 8.69,
+      "questionTextEn": "One mole of an ideal diatomic gas with $C_{p,m} = \\frac{7}{2}R$ is taken from $(300\\text{ K},\\; 1.0\\text{ bar})$ to $(600\\text{ K},\\; 4.0\\text{ bar})$. The molar entropy change ($\\Delta S_m$, in $\\text{J K}^{-1}\\text{ mol}^{-1}$, rounded off to two decimal places) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "Using $\\Delta S_m = C_{p,m}\\ln(T_2/T_1) - R\\ln(P_2/P_1) = \\frac{7}{2}R\\ln(2) - R\\ln(4) = R\\left(\\frac{7}{2}\\ln 2 - 2\\ln 2\\right) = \\frac{3}{2}R\\ln 2 = 1.5 \\times 8.314 \\times 0.69315 = 8.64\\text{ J K}^{-1}\\text{ mol}^{-1}$."
+    },
+    {
+      "questionId": "gate_cy_topic_thermodynamics_phase_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Chemical Thermodynamics & Phase Equilibria (Set 01)",
+      "topicTag": "Chemical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "19.8 to 20.2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 19.8,
+      "natMax": 20.2,
+      "questionTextEn": "Dissolving $5.0\\text{ g}$ of a synthetic polymer in $500\\text{ mL}$ of toluene at $300\\text{ K}$ produces an osmotic pressure of $1.2471\\text{ kPa}$. Assuming ideal dilute solution behavior, the molar mass of the polymer (in $\\text{kg mol}^{-1}$, rounded off to one decimal place) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "Using the van't Hoff equation $\\Pi = \\frac{w_2}{M_2 V} RT$, with $w_2 = 5.0\\text{ g}$, $V = 500\\text{ mL} = 5.0 \\times 10^{-4}\\text{ m}^3$, and $\\Pi = 1247.1\\text{ Pa}$: $M_2 = \\frac{5.0 \\times 8.314 \\times 300}{1247.1 \\times 5.0 \\times 10^{-4}} = 20000\\text{ g mol}^{-1} = 20.0\\text{ kg mol}^{-1}$."
+    }
+  ]
+}

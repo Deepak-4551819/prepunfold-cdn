@@ -1,0 +1,1706 @@
+{
+  "testId": "jam_ph_mock_01",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_mock_01",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2027 Physics (PH) — Full Length Mock Test 01",
+  "titleEn": "IIT JAM 2027 Physics (PH) — Full Length Mock Test 01",
+  "testType": "FULL_MOCK",
+  "test_type": "FULL_MOCK",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM PH • Full Mock 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_mock_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Calculus of Multiple Variables",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The function $f(x, y) = x^2 - y^2 + 4x + 6y$ has a stationary point at $(-2, 3)$. This stationary point is a",
+      "optionsEn": [
+        "local minimum",
+        "saddle point",
+        "local maximum",
+        "point of global minimum"
+      ],
+      "explanationEn": "The second partial derivatives are $f_{xx} = 2$, $f_{yy} = -2$, and $f_{xy} = 0$. The Hessian determinant is $D = f_{xx}f_{yy} - f_{xy}^2 = (2)(-2) - 0 = -4 < 0$, which confirms that $(-2, 3)$ is a saddle point. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "AC Circuits",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The quality factor $Q$ of a series $RLC$ resonant circuit is given by",
+      "optionsEn": [
+        "$R\\sqrt{\\frac{C}{L}}$",
+        "$\\frac{1}{R}\\sqrt{\\frac{L}{C}}$",
+        "$\\frac{1}{R}\\sqrt{\\frac{C}{L}}$",
+        "$R\\sqrt{\\frac{L}{C}}$"
+      ],
+      "explanationEn": "At resonance $\\omega_0 = \\frac{1}{\\sqrt{LC}}$, the quality factor is $Q = \\frac{\\omega_0 L}{R} = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Polarization",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Unpolarized light of intensity $I_0$ passes through two ideal linear polarizers whose transmission axes make an angle of $60^\\circ$ with each other. The intensity of the emergent light is",
+      "optionsEn": [
+        "$\\frac{I_0}{16}$",
+        "$\\frac{I_0}{8}$",
+        "$\\frac{3I_0}{8}$",
+        "$\\frac{I_0}{4}$"
+      ],
+      "explanationEn": "After the first polarizer, the intensity is $I_1 = \\frac{I_0}{2}$. By Malus's law, after the second polarizer at $60^\\circ$, $I_2 = I_1\\cos^2(60^\\circ) = \\frac{I_0}{2}\\left(\\frac{1}{2}\\right)^2 = \\frac{I_0}{8}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "de Broglie Waves",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An electron and a proton are accelerated from rest through the same electrostatic potential difference $V$ (non-relativistic regime). The ratio of their de Broglie wavelengths $\\lambda_e / \\lambda_p$ is:",
+      "optionsEn": [
+        "$\\sqrt{\\frac{m_p}{m_e}}$",
+        "$\\sqrt{\\frac{m_e}{m_p}}$",
+        "$\\frac{m_p}{m_e}$",
+        "$1$"
+      ],
+      "explanationEn": "Both carry charge magnitude $e$, so both acquire kinetic energy $K = eV$. Thus $\\lambda = \\frac{h}{\\sqrt{2mK}} = \\frac{h}{\\sqrt{2meV}} \\propto m^{-1/2}$, giving $\\frac{\\lambda_e}{\\lambda_p} = \\sqrt{\\frac{m_p}{m_e}}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The general solution of the ordinary differential equation $\\frac{d^2y}{dx^2} - 6\\frac{dy}{dx} + 9y = 0$ is (where $C_1$ and $C_2$ are arbitrary constants)",
+      "optionsEn": [
+        "$y(x) = e^{3x}(C_1\\cos 3x + C_2\\sin 3x)$",
+        "$y(x) = (C_1 + C_2 x)e^{3x}$",
+        "$y(x) = (C_1 + C_2 x)e^{-3x}$",
+        "$y(x) = C_1 e^{3x} + C_2 e^{-3x}$"
+      ],
+      "explanationEn": "The characteristic equation is $m^2 - 6m + 9 = (m - 3)^2 = 0$, which has a repeated real root $m = 3$. Therefore, the general solution is $y(x) = (C_1 + C_2 x)e^{3x}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Logic Gates",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which pair of $2$-input logic gates consists strictly of universal gates (each capable alone of realizing any Boolean function)?",
+      "optionsEn": [
+        "AND and OR",
+        "XOR and XNOR",
+        "NAND and NOR",
+        "NAND and XOR"
+      ],
+      "explanationEn": "A gate is universal (functionally complete) if any Boolean function (NOT, AND, OR) can be constructed using only copies of that gate. Both NAND and NOR are individually universal gates, whereas AND, OR, XOR, and XNOR are not individually universal. Hence, the correct option is (C)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Work, Energy and Power",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle moves along the $x$-axis under a conservative force $F(x) = -kx^3$ ($k > 0$). Taking the potential energy $U(0) = 0$, the potential energy function $U(x)$ is",
+      "optionsEn": [
+        "$-\\frac{1}{4}kx^4$",
+        "$3kx^2$",
+        "$\\frac{1}{4}kx^4$",
+        "$-3kx^2$"
+      ],
+      "explanationEn": "Since $F(x) = -\\frac{dU}{dx}$, we have $U(x) = -\\int_0^x (-kx'^3)\\,dx' = \\frac{1}{4}kx^4$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Specific Heats of Gases",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any thermodynamic substance, the difference between heat capacities at constant pressure and constant volume, $C_P - C_V$, is given in terms of volume $V$, temperature $T$, volume expansivity $\\beta$, and isothermal compressibility $\\kappa_T$ by:",
+      "optionsEn": [
+        "$\\frac{TV\\kappa_T}{\\beta^2}$",
+        "$\\frac{TV\\beta}{\\kappa_T}$",
+        "$\\frac{TV\\beta^2}{\\kappa_T}$",
+        "$TV\\beta\\kappa_T$"
+      ],
+      "explanationEn": "The general thermodynamic identity is $C_P - C_V = -T\\left(\\frac{\\partial V}{\\partial T}\\right)_P^2 \\left(\\frac{\\partial P}{\\partial V}\\right)_T = \\frac{TV\\beta^2}{\\kappa_T}$. Since $\\kappa_T > 0$ and $\\beta^2 \\ge 0$, $C_P \\ge C_V$ always. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Semi-Empirical Mass Formula",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Bethe-Weizsäcker semi-empirical mass formula for nuclear binding energy, the pairing term $\\delta(A, Z)$ is positive (increasing stability) for nuclei with:",
+      "optionsEn": [
+        "Odd $Z$ and odd $N$",
+        "Even $Z$ and odd $N$",
+        "Even $Z$ and even $N$",
+        "Odd $Z$ and even $N$"
+      ],
+      "explanationEn": "Due to nucleon spin-pairing correlations, even-even nuclei (even $Z$, even $N$) are the most tightly bound ($+\\delta$), odd-odd nuclei are the least tightly bound ($-\\delta$), and odd-$A$ nuclei have $\\delta = 0$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Geometrical Optics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to Fermat's principle, a light ray traveling between two fixed points $A$ and $B$ in an inhomogeneous isotropic medium of refractive index $n(\\vec{r})$ follows a path for which the optical path length $\\int_A^B n(\\vec{r})\\,ds$ is",
+      "optionsEn": [
+        "always strictly the global maximum",
+        "always strictly the global minimum",
+        "stationary (an extremum with zero first variation)",
+        "proportional to the geometric path length"
+      ],
+      "explanationEn": "Fermat's principle states that $\\delta \\int_A^B n(\\vec{r})\\,ds = 0$, meaning the optical path length is stationary (it can be a minimum, a maximum, or a saddle point, as in reflection from an ellipsoidal mirror)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Phase & Group Velocity",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Short-wavelength surface ripples (capillary waves) on a liquid of surface tension $\\sigma$ and density $\\rho$ satisfy $\\omega = \\sqrt{\\frac{\\sigma k^3}{\\rho}}$. For these waves, the ratio $\\frac{v_g}{v_p}$ equals",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$3$"
+      ],
+      "explanationEn": "Here $\\omega \\propto k^{3/2}$, so $v_p = \\frac{\\omega}{k} = \\sqrt{\\frac{\\sigma k}{\\rho}}$ and $v_g = \\frac{d\\omega}{dk} = \\frac{3}{2}\\sqrt{\\frac{\\sigma k}{\\rho}}$. Thus $\\frac{v_g}{v_p} = \\frac{3}{2}$ (anomalous dispersion)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Phase & Group Velocity",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Transverse flexural waves on a thin elastic rod obey the dispersion relation $\\omega = \\alpha k^2$, where $\\alpha$ is a positive constant. If a wave packet is centered at wavelength $\\lambda$, its group velocity is",
+      "optionsEn": [
+        "$\\frac{\\pi\\alpha}{\\lambda}$",
+        "$\\frac{4\\pi\\alpha}{\\lambda}$",
+        "$\\frac{2\\pi\\alpha}{\\lambda}$",
+        "$\\frac{8\\pi^2\\alpha}{\\lambda^2}$"
+      ],
+      "explanationEn": "The group velocity is $v_g = \\frac{d\\omega}{dk} = 2\\alpha k$. Substituting $k = \\frac{2\\pi}{\\lambda}$ yields $v_g = \\frac{4\\pi\\alpha}{\\lambda}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Work, Energy and Power",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A uniform flexible chain of length $L$ and mass $M$ rests on a smooth horizontal table with one-third of its length hanging vertically over the edge. When released from rest, the speed of the chain at the instant its last link leaves the table is",
+      "optionsEn": [
+        "$\\frac{2}{3}\\sqrt{2gL}$",
+        "$\\frac{1}{3}\\sqrt{2gL}$",
+        "$\\frac{2}{3}\\sqrt{gL}$",
+        "$\\sqrt{\\frac{2}{3}gL}$"
+      ],
+      "explanationEn": "Taking the table surface as $U = 0$: initially, mass $M/3$ hangs with its center of mass at depth $L/6$, so $U_i = -\\left(\\frac{M}{3}\\right)g\\left(\\frac{L}{6}\\right) = -\\frac{MgL}{18}$. When the chain completely leaves the table, $U_f = -Mg\\frac{L}{2}$. By energy conservation, $\\frac{1}{2}Mv^2 = U_i - U_f = MgL\\left(\\frac{1}{2} - \\frac{1}{18}\\right) = \\frac{4}{9}MgL \\implies v = \\sqrt{\\frac{8gL}{9}} = \\frac{2}{3}\\sqrt{2gL}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Phase Transitions",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Across a second-order phase transition at temperature $T$ and molar volume $V$, let $\\Delta C_P$, $\\Delta \\beta$, and $\\Delta \\kappa_T$ denote the finite jumps in molar isobaric heat capacity, volume expansivity, and isothermal compressibility, respectively. The Ehrenfest relations for the slope $\\frac{dP}{dT}$ of the coexistence curve are:",
+      "optionsEn": [
+        "$\\frac{dP}{dT} = \\frac{\\Delta C_P}{TV\\Delta \\kappa_T} = \\frac{\\Delta \\kappa_T}{\\Delta \\beta}$",
+        "$\\frac{dP}{dT} = \\frac{\\Delta C_P}{TV\\Delta \\beta} = \\frac{\\Delta \\beta}{\\Delta \\kappa_T}$",
+        "$\\frac{dP}{dT} = \\frac{TV\\Delta \\beta}{\\Delta C_P} = \\frac{\\Delta \\beta}{\\Delta \\kappa_T}$",
+        "$\\frac{dP}{dT} = \\frac{\\Delta C_P}{TV\\Delta \\beta} = \\frac{\\Delta \\kappa_T}{\\Delta \\beta}$"
+      ],
+      "explanationEn": "Continuity of entropy ($dS_1 = dS_2$) along the phase boundary gives $\\frac{C_{P1}}{T}dT - V\\beta_1 dP = \\frac{C_{P2}}{T}dT - V\\beta_2 dP \\implies \\frac{dP}{dT} = \\frac{\\Delta C_P}{TV\\Delta \\beta}$. Continuity of volume ($dV_1 = dV_2$) gives $V\\beta_1 dT - V\\kappa_{T1} dP = V\\beta_2 dT - V\\kappa_{T2} dP \\implies \\frac{dP}{dT} = \\frac{\\Delta \\beta}{\\Delta \\kappa_T}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Transport Phenomena",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two dilute ideal gases $A$ and $B$ are at the same temperature $T$. The molecular mass of $B$ is $4$ times that of $A$, and the molecular diameter of $B$ is $2$ times that of $A$. According to elementary kinetic theory, the ratio of their coefficients of viscosity $\\eta_B / \\eta_A$ is:",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$2$",
+        "$\\frac{1}{4}$"
+      ],
+      "explanationEn": "The viscosity of a dilute ideal gas scales as $\\eta \\propto \\frac{\\sqrt{m k_B T}}{d^2}$. At the same temperature $T$, $\\frac{\\eta_B}{\\eta_A} = \\sqrt{\\frac{m_B}{m_A}}\\left(\\frac{d_A}{d_B}\\right)^2 = \\sqrt{4}\\left(\\frac{1}{2}\\right)^2 = \\frac{2}{4} = \\frac{1}{2}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Heisenberg Uncertainty Principle",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Using the Heisenberg uncertainty principle ($p \\sim \\hbar / a$), the ground-state energy $E_0$ of a particle of mass $m$ in a one-dimensional anharmonic potential $V(x) = c x^4$ ($c > 0$) scales with $\\hbar$, $m$, and $c$ as:",
+      "optionsEn": [
+        "$E_0 \\propto \\left(\\frac{\\hbar^2 c}{m}\\right)^{1/2}$",
+        "$E_0 \\propto \\left(\\frac{\\hbar^4 c}{m^2}\\right)^{1/3}$",
+        "$E_0 \\propto \\left(\\frac{\\hbar^2 c^2}{m}\\right)^{1/3}$",
+        "$E_0 \\propto \\left(\\frac{\\hbar^2 c}{m^2}\\right)^{1/4}$"
+      ],
+      "explanationEn": "Estimating $E(a) \\sim \\frac{\\hbar^2}{2ma^2} + ca^4$ and minimizing via $\\frac{dE}{da} = 0$ gives $a^6 \\propto \\frac{\\hbar^2}{mc} \\implies a^2 \\propto \\left(\\frac{\\hbar^2}{mc}\\right)^{1/3}$. Substituting back yields $E_0 \\propto c a^4 \\propto c\\left(\\frac{\\hbar^2}{mc}\\right)^{2/3} = \\left(\\frac{\\hbar^4 c}{m^2}\\right)^{1/3}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "BJT Biasing",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a common-emitter NPN silicon transistor circuit ($\\beta = 150$, $V_{BE} = 0.7\\text{ V}$, $V_{CE,\\text{sat}} = 0.2\\text{ V}$), the emitter is grounded, the collector is connected to $V_{CC} = 10\\text{ V}$ through $R_C = 2\\text{ k}\\Omega$, and the base is connected to $V_{BB} = 5\\text{ V}$ through $R_B = 100\\text{ k}\\Omega$. The transistor operates in the:",
+      "optionsEn": [
+        "cutoff region with $I_C = 0$",
+        "active region with $I_C = 6.45\\text{ mA}$",
+        "saturation region with $I_C = 4.90\\text{ mA}$",
+        "active region with $I_C = 4.90\\text{ mA}$"
+      ],
+      "explanationEn": "The base current is $I_B = \\frac{V_{BB} - V_{BE}}{R_B} = \\frac{5.0 - 0.7}{100\\text{ k}\\Omega} = 43\\ \\mu\\text{A}$. If the transistor were in the active region, the collector current would be $\\beta I_B = 150 \\times 0.043 = 6.45\\text{ mA}$. However, the maximum possible (saturation) collector current is $I_{C,\\text{sat}} = \\frac{V_{CC} - V_{CE,\\text{sat}}}{R_C} = \\frac{10.0 - 0.2}{2\\text{ k}\\Omega} = 4.90\\text{ mA}$. Since $\\beta I_B > I_{C,\\text{sat}}$, the transistor is driven into the saturation region with $I_C = 4.90\\text{ mA}$. Hence, the correct option is (C)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "1D Infinite Potential Well",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle is in the ground state of a 1D infinite square well of width $L$ ($0 \\le x \\le L$). The right wall at $x = L$ is suddenly moved to $x = 2L$. The probability of finding the particle in the ground state of the expanded well immediately after the expansion is:",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$\\frac{8}{9\\pi^2}$",
+        "$\\frac{16}{9\\pi^2}$",
+        "$\\frac{32}{9\\pi^2}$"
+      ],
+      "explanationEn": "The overlap integral between $\\psi_1(x) = \\sqrt{\\frac{2}{L}}\\sin\\left(\\frac{\\pi x}{L}\\right)$ on $[0, L]$ and the new ground state $\\phi_1(x) = \\sqrt{\\frac{1}{L}}\\sin\\left(\\frac{\\pi x}{2L}\\right)$ is $c_1 = \\frac{\\sqrt{2}}{L}\\int_0^L \\sin\\left(\\frac{\\pi x}{L}\\right)\\sin\\left(\\frac{\\pi x}{2L}\\right)dx = \\frac{4\\sqrt{2}}{3\\pi}$. Thus the probability is $|c_1|^2 = \\frac{32}{9\\pi^2}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Relativistic Collisions",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two photons, each of energy $E$, propagate in mutually perpendicular directions (at $90^\\circ$ to each other). The invariant rest mass $M$ of this two-photon system is:",
+      "optionsEn": [
+        "$0$",
+        "$\\frac{\\sqrt{2}\\,E}{c^2}$",
+        "$\\frac{2E}{c^2}$",
+        "$\\frac{E}{c^2}$"
+      ],
+      "explanationEn": "The total energy is $E_{\\text{tot}} = 2E$, and the magnitude of the total momentum is $|\\vec{p}_{\\text{tot}}| = \\sqrt{(E/c)^2 + (E/c)^2} = \\frac{\\sqrt{2}\\,E}{c}$. From $M^2 c^4 = E_{\\text{tot}}^2 - p_{\\text{tot}}^2 c^2 = 4E^2 - 2E^2 = 2E^2$, we find $M = \\frac{\\sqrt{2}\\,E}{c^2}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Coordinate Systems",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle moves along a circular helix described in cylindrical coordinates $(\\rho, \\phi, z)$ by $\\rho = R$, $\\phi = \\omega t$, and $z = c t^2$, where $R, \\omega,$ and $c$ are positive constants. The magnitude of the particle's acceleration is",
+      "optionsEn": [
+        "$\\sqrt{\\omega^2 R^2 + 4c^2 t^2}$",
+        "$\\sqrt{\\omega^4 R^2 + 4c^2}$",
+        "$\\omega^2 R + 2c$",
+        "$\\sqrt{\\omega^4 R^2 + c^2}$"
+      ],
+      "explanationEn": "In cylindrical coordinates, $\\vec{a} = (\\ddot{\\rho} - \\rho\\dot{\\phi}^2)\\hat{\\rho} + (\\rho\\ddot{\\phi} + 2\\dot{\\rho}\\dot{\\phi})\\hat{\\phi} + \\ddot{z}\\hat{z}$. Here $\\dot{\\rho} = \\ddot{\\rho} = 0$, $\\dot{\\phi} = \\omega$, $\\ddot{\\phi} = 0$, and $\\ddot{z} = 2c$. Thus $\\vec{a} = -R\\omega^2\\hat{\\rho} + 2c\\hat{z}$, whose magnitude is $\\sqrt{\\omega^4 R^2 + 4c^2}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Surface Tension",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Water normally rises to a height $h = 10\\text{ cm}$ in a clean vertical glass capillary tube (zero contact angle). If the tube is cut so that only $5\\text{ cm}$ projects above the water surface in the reservoir, then",
+      "optionsEn": [
+        "water will rise only to $2.5\\text{ cm}$",
+        "water will rise to $5\\text{ cm}$ and the meniscus will become convex upward",
+        "water will continuously overflow like a fountain from the top of the tube",
+        "water will rise to the top ($5\\text{ cm}$) and its meniscus will flatten so that its radius of curvature doubles"
+      ],
+      "explanationEn": "Since $h R_m = \\frac{2T}{\\rho g} = \\text{constant}$ (where $R_m$ is the radius of curvature of the meniscus), cutting the tube to $h' = h/2 = 5\\text{ cm}$ causes water to rise to the rim without overflowing (which would violate energy conservation), and the meniscus adjusts its curvature to $R_m' = 2R_m$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Multiple Integrals",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the triple integral $\\iiint_V \\sqrt{x^2 + y^2 + z^2}\\,dx\\,dy\\,dz$ over the solid sphere $V: x^2 + y^2 + z^2 \\le R^2$ is",
+      "optionsEn": [
+        "$\\frac{4}{3}\\pi R^4$",
+        "$2\\pi R^4$",
+        "$\\frac{\\pi}{2}R^4$",
+        "$\\pi R^4$"
+      ],
+      "explanationEn": "In spherical coordinates, $\\sqrt{x^2 + y^2 + z^2} = r$ and $dV = r^2\\sin\\theta\\,dr\\,d\\theta\\,d\\phi$. Integrating over $0 \\le r \\le R$, $0 \\le \\theta \\le \\pi$, and $0 \\le \\phi \\le 2\\pi$ yields $4\\pi \\int_0^R r^3\\,dr = 4\\pi \\cdot \\frac{R^4}{4} = \\pi R^4$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $x > 0$, the general solution of the Cauchy–Euler differential equation $x^2\\frac{d^2y}{dx^2} - 3x\\frac{dy}{dx} + 4y = 0$ is",
+      "optionsEn": [
+        "$x^2(C_1\\cos(\\ln x) + C_2\\sin(\\ln x))$",
+        "$(C_1 + C_2 \\ln x)x^2$",
+        "$(C_1 + C_2 x)x^2$",
+        "$C_1 x^2 + C_2 x^{-2}$"
+      ],
+      "explanationEn": "Substituting $y = x^m$ yields the indicial equation $m(m - 1) - 3m + 4 = m^2 - 4m + 4 = (m - 2)^2 = 0$. Since $m = 2$ is a repeated root, the general solution for $x > 0$ is $y(x) = (C_1 + C_2 \\ln x)x^2$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Polarization",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A beam of light is incident normally from air ($n_1 = 1.0$) onto a flat, non-absorbing glass surface ($n_2 = 1.5$). The percentage of incident light intensity transmitted into the glass is",
+      "optionsEn": [
+        "$4\\%$",
+        "$96\\%$",
+        "$92\\%$",
+        "$88\\%$"
+      ],
+      "explanationEn": "At normal incidence, the Fresnel reflectance is $R = \\left(\\frac{n_2 - n_1}{n_2 + n_1}\\right)^2 = \\left(\\frac{0.5}{2.5}\\right)^2 = \\frac{1}{25} = 4\\%$. Hence the transmittance is $T = 1 - R = 96\\%$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Lorentz Force",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Three long, straight, parallel wires lie in the $xz$-plane at $x = -d$, $x = 0$, and $x = +d$, carrying currents $+I$, $+I$, and $-I$, respectively, along the $z$-direction. The magnitude of the net magnetic force per unit length on the middle wire at $x = 0$ is",
+      "optionsEn": [
+        "$\\frac{\\mu_0 I^2}{2\\pi d}$",
+        "$\\frac{\\mu_0 I^2}{\\pi d}$",
+        "$0$",
+        "$\\frac{\\mu_0 I^2}{4\\pi d}$"
+      ],
+      "explanationEn": "The wire at $x = -d$ (parallel current $+I$) attracts the middle wire toward $-\\hat{x}$ with $\\frac{\\mu_0 I^2}{2\\pi d}$. The wire at $x = +d$ (antiparallel current $-I$) repels the middle wire also toward $-\\hat{x}$ with $\\frac{\\mu_0 I^2}{2\\pi d}$. Adding both gives $\\frac{\\mu_0 I^2}{\\pi d}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Lorentz Force",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A flat rectangular strip of a metal carrying steady current $I$ along $+\\hat{x}$ is placed in a uniform magnetic field $\\vec{B} = B_0\\hat{z}$. If the charge carriers are electrons (density $n$, charge $-e$), the transverse Hall electric field $\\vec{E}_H$ established in steady state points along",
+      "optionsEn": [
+        "$-\\hat{y}$ with magnitude $\\frac{n e I B_0}{A}$",
+        "$-\\hat{y}$ with magnitude $\\frac{I B_0}{n e A}$",
+        "$+\\hat{y}$ with magnitude $\\frac{I B_0}{n e A}$",
+        "$+\\hat{z}$ with magnitude $\\frac{I B_0}{n e A}$"
+      ],
+      "explanationEn": "Electrons drift along $-\\hat{x}$ with speed $v_d = \\frac{I}{neA}$. The magnetic force on an electron is $\\vec{F}_B = (-e)(-v_d\\hat{x}\\times B_0\\hat{z}) = -e v_d B_0\\hat{y}$, pushing electrons to the $-y$ face. In steady state, the Hall field points from $+y$ to $-y$ ($-\\hat{y}$) so $(-e)\\vec{E}_H$ balances $\\vec{F}_B$, giving $E_H = v_d B_0 = \\frac{I B_0}{neA}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Joule-Thomson Effect",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a low-density van der Waals gas, the maximum Joule-Thomson inversion temperature $T_{i,\\max}$ is related to its critical temperature $T_c$ by:",
+      "optionsEn": [
+        "$T_{i,\\max} = \\frac{27}{8}T_c$",
+        "$T_{i,\\max} = \\frac{9}{4}T_c$",
+        "$T_{i,\\max} = \\frac{27}{4}T_c$",
+        "$T_{i,\\max} = 3T_c$"
+      ],
+      "explanationEn": "The maximum inversion temperature occurs at $P \\to 0$, where $T_{i,\\max} = \\frac{2a}{Rb}$. Since the critical temperature of a van der Waals gas is $T_c = \\frac{8a}{27Rb}$, their ratio is $\\frac{T_{i,\\max}}{T_c} = \\frac{2}{8/27} = \\frac{27}{4}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Boolean Algebra",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Reducing the product-of-sums logic function $Y = (A + B)(A + \\bar{B})(\\bar{A} + B)$ via Boolean algebra gives:",
+      "optionsEn": [
+        "$A$",
+        "$B$",
+        "$A + B$",
+        "$AB$"
+      ],
+      "explanationEn": "First simplify the first two factors: $(A + B)(A + \\bar{B}) = A + B\\bar{B} = A$. Multiplying by the third factor gives $Y = A(\\bar{A} + B) = A\\bar{A} + AB = 0 + AB = AB$. Hence, the correct option is (D)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Fourier Series",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The periodic function $f(x) = x$ for $-\\pi < x < \\pi$ with period $2\\pi$ is represented by its Fourier series $\\sum_{n=1}^{\\infty} b_n \\sin(nx)$. The coefficient $b_n$ is",
+      "optionsEn": [
+        "$\\frac{2(-1)^{n+1}}{n^2}$",
+        "$\\frac{2(-1)^{n+1}}{n}$",
+        "$\\frac{2(-1)^n}{n}$",
+        "$\\frac{(-1)^{n+1}}{n}$"
+      ],
+      "explanationEn": "Since $f(x) = x$ is odd, $a_0 = a_n = 0$ and $b_n = \\frac{2}{\\pi}\\int_0^\\pi x\\sin(nx)\\,dx = \\frac{2}{\\pi}\\left[-\\frac{x\\cos(nx)}{n} + \\frac{\\sin(nx)}{n^2}\\right]_0^\\pi = -\\frac{2\\cos(n\\pi)}{n} = \\frac{2(-1)^{n+1}}{n}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Method of Images",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A point charge $+q$ is placed at a distance $d = 3R$ from the center of a grounded conducting sphere of radius $R$. The total charge induced on the surface of the conducting sphere is",
+      "optionsEn": [
+        "$-q$",
+        "$-\\frac{2q}{3}$",
+        "$-\\frac{q}{9}$",
+        "$-\\frac{q}{3}$"
+      ],
+      "explanationEn": "By the method of images for a grounded conducting sphere of radius $R$, the image charge is $q' = -q\\frac{R}{d} = -\\frac{q}{3}$ located at $b = \\frac{R^2}{d} = \\frac{R}{3}$. By Gauss's law, the total induced charge on the sphere equals $q' = -\\frac{q}{3}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Blackbody Radiation",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statement(s) is/are TRUE regarding blackbody radiation at absolute temperature $T$?",
+      "optionsEn": [
+        "The wavelength $\\lambda_{\\max}$ of peak spectral radiance per unit wavelength satisfies $\\lambda_{\\max} T = \\text{constant}$",
+        "The frequency $\\nu_{\\max}$ of peak spectral radiance per unit frequency satisfies $\\nu_{\\max} \\propto T$",
+        "The relation $\\lambda_{\\max} \\nu_{\\max} = c$ holds exactly for the two peaks",
+        "The total radiated power per unit area scales as $T^4$"
+      ],
+      "explanationEn": "(A) True: Wien's displacement law ($\\lambda_{\\max} T \\approx 2.898 \\times 10^{-3}\\text{ m}\\cdot\\text{K}$). (B) True: $h\\nu_{\\max} \\approx 2.821 k_B T \\propto T$. (C) False: Because $u(\\lambda) = u(\\nu)|d\\nu/d\\lambda|$ introduces a $\\lambda^{-2}$ Jacobian factor, $\\lambda_{\\max}\\nu_{\\max} \\approx 0.568\\,c \\neq c$. (D) True: Stefan-Boltzmann law $I = \\sigma T^4$. Hence, (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Second Law of Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statement(s) is/are direct consequences of the Second Law of Thermodynamics?",
+      "optionsEn": [
+        "No cyclic heat engine can convert heat from a single thermal reservoir completely into work",
+        "All reversible heat engines operating between the same two temperatures $T_H$ and $T_C$ have the same efficiency",
+        "Two reversible adiabatic curves of an ideal gas can never intersect on a $P$-$V$ diagram",
+        "The entropy of any open or closed system can never decrease in any process"
+      ],
+      "explanationEn": "(A) True: Kelvin-Planck statement. (B) True: Carnot's theorem. (C) True: Intersecting adiabats together with an isotherm would form a cycle violating the Kelvin-Planck statement. (D) False: The entropy of a system can decrease (e.g., when cooled) as long as the entropy of the surroundings increases by at least as much so that $\\Delta S_{\\text{universe}} \\ge 0$. Hence, (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Electrostatics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An electrostatic potential in a region of space is given by $V(x, y, z) = k(x^2 + y^2 - 2z^2)$, where $k > 0$ is a constant. Which of the following statements is/are correct?",
+      "optionsEn": [
+        "The origin $(0, 0, 0)$ is a saddle point of the potential (equilibrium point where $\\vec{E} = \\vec{0}$)",
+        "The electric field is $\\vec{E} = -2k(x\\hat{x} + y\\hat{y} - 2z\\hat{z})$",
+        "The volume charge density $\\rho$ is identically zero everywhere in this region",
+        "The equipotential surface $V = 0$ is a sphere centered at the origin"
+      ],
+      "explanationEn": "Taking $-\\nabla V$ gives $\\vec{E} = -2k(x\\hat{x} + y\\hat{y} - 2z\\hat{z})$, which vanishes at the origin (first and third True). Computing $\\nabla^2 V = k(2 + 2 - 4) = 0$ gives $\\rho = -\\varepsilon_0\\nabla^2 V = 0$ (True). The surface $V = 0$ is $x^2 + y^2 = 2z^2$, a double circular cone, not a sphere (False)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Damped Oscillations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a damped harmonic oscillator described by $\\ddot{x} + 2\\gamma\\dot{x} + \\omega_0^2 x = 0$, where $\\gamma > 0$ and $\\omega_0 > 0$. Which of the following statements is/are correct?",
+      "optionsEn": [
+        "For $\\gamma < \\omega_0$, the logarithmic decrement $\\Lambda = \\ln\\left(\\frac{x(t)}{x(t+T)}\\right)$ decreases linearly with time",
+        "For $\\gamma = \\omega_0$, the system returns to equilibrium in the shortest time without oscillating when released from rest",
+        "For $\\gamma > \\omega_0$, both characteristic roots of the auxiliary equation are real and negative",
+        "For $\\gamma < \\omega_0$, the quasi-period of oscillation is longer than $\\frac{2\\pi}{\\omega_0}$"
+      ],
+      "explanationEn": "For underdamping ($\\gamma < \\omega_0$), $\\omega_d = \\sqrt{\\omega_0^2 - \\gamma^2} < \\omega_0$, so $T_d = 2\\pi/\\omega_d > 2\\pi/\\omega_0$ (True). Critical damping ($\\gamma = \\omega_0$) gives the fastest non-oscillatory return from rest (True). Overdamping ($\\gamma > \\omega_0$) yields $r_\\pm = -\\gamma \\pm \\sqrt{\\gamma^2 - \\omega_0^2} < 0$, both real and negative (True). The logarithmic decrement $\\Lambda = \\gamma T_d$ is a constant independent of time (False)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Karnaugh Map",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the $3$-variable Boolean function $F(A, B, C) = \\sum m(1, 3, 5, 7)$. Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "The minimal simplified expression is $F(A, B, C) = C$",
+        "Its canonical product-of-sums (POS) representation is $\\prod M(0, 2, 4, 6)$",
+        "The output $F$ is independent of both $A$ and $B$",
+        "Its complement $\\bar{F}$ equals $\\sum m(1, 3, 5, 7)$"
+      ],
+      "explanationEn": "The minterms $1(001), 3(011), 5(101), 7(111)$ are precisely all combinations with $C = 1$. Therefore: (A) $F = C$ (True). (B) The maxterms (indices where $F = 0$) are the complementary set $\\{0, 2, 4, 6\\}$, so $F = \\prod M(0, 2, 4, 6)$ (True). (C) $F = C$ does not depend on $A$ or $B$ (True). (D) $\\bar{F} = \\bar{C} = \\sum m(0, 2, 4, 6)$ (False). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Polarization",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements regarding optical activity (rotatory dispersion) in an optically active medium is/are correct?",
+      "optionsEn": [
+        "Fresnel explained optical rotation as a consequence of circular birefringence ($n_L \\neq n_R$)",
+        "The angle of rotation of the plane of polarization is directly proportional to the path length traversed in the medium",
+        "In a transparent optically active liquid, reversing the propagation direction using a normal-incidence mirror cancels the net rotation upon returning through the liquid",
+        "Optical rotation is independent of the wavelength of the incident light"
+      ],
+      "explanationEn": "Fresnel's model decomposes linear light into LCP and RCP waves with $n_L \\neq n_R$, giving $\\theta = \\frac{\\pi d}{\\lambda}(n_L - n_R) \\propto d$ (first two True). Because optical activity is reciprocal (unlike Faraday rotation), reflecting the beam back through the same medium unwinds the rotation to zero (True). Since $\\theta \\propto 1/\\lambda$ (and $n_L - n_R$ varies with $\\lambda$), rotation depends strongly on wavelength (False)."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Error Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two independent quantities $A$ and $B$ are measured with small standard uncertainties $\\sigma_A$ and $\\sigma_B$, respectively. Using standard (quadrature) error propagation, which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "For $Z = A / B$, the fractional uncertainty is $\\frac{\\sigma_Z}{|Z|} = \\sqrt{\\left(\\frac{\\sigma_A}{A}\\right)^2 + \\left(\\frac{\\sigma_B}{B}\\right)^2}$",
+        "For $Z = A - B$, the absolute uncertainty is $\\sigma_Z = |\\sigma_A - \\sigma_B|$",
+        "For $Z = \\ln A$ ($A > 0$), the absolute uncertainty is $\\sigma_Z = \\frac{\\sigma_A}{A}$",
+        "For $Z = A - B$, the absolute uncertainty is $\\sigma_Z = \\sqrt{\\sigma_A^2 + \\sigma_B^2}$"
+      ],
+      "explanationEn": "For independent variables, $\\sigma_Z^2 = \\left(\\frac{\\partial Z}{\\partial A}\\right)^2 \\sigma_A^2 + \\left(\\frac{\\partial Z}{\\partial B}\\right)^2 \\sigma_B^2$. Thus: for $Z = A - B$, $\\sigma_Z = \\sqrt{\\sigma_A^2 + \\sigma_B^2}$ (A is true, D is false); for $Z = A/B$, fractional errors add in quadrature (B is true); for $Z = \\ln A$, $\\frac{dZ}{dA} = \\frac{1}{A} \\implies \\sigma_Z = \\frac{\\sigma_A}{A}$ (C is true). Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Central Force Motion",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a particle of mass $m$ and non-zero angular momentum $L$ moving in the attractive inverse-square potential $U(r) = -\\frac{k}{r}$ ($k > 0$), the effective potential is $U_{\\text{eff}}(r) = -\\frac{k}{r} + \\frac{L^2}{2mr^2}$. Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "For total energy $E = 0$, the trajectory is a circle",
+        "For total energy $E > 0$, the trajectory is a hyperbola",
+        "The minimum value of $U_{\\text{eff}}(r)$ is $-\\frac{mk^2}{2L^2}$",
+        "$U_{\\text{eff}}(r)$ has a unique minimum at $r_0 = \\frac{L^2}{mk}$"
+      ],
+      "explanationEn": "Setting $\\frac{dU_{\\text{eff}}}{dr} = \\frac{k}{r^2} - \\frac{L^2}{mr^3} = 0$ gives $r_0 = \\frac{L^2}{mk}$ (A is true), where $U_{\\text{eff}}(r_0) = -\\frac{mk^2}{L^2} + \\frac{mk^2}{2L^2} = -\\frac{mk^2}{2L^2}$ (B is true). Orbits have $E > 0$ for hyperbolas (C is true), $E = 0$ for parabolas (D is false), and $E = U_{\\text{eff}}(r_0) < 0$ for circles. Hence, options (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Multiple Integrals",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $D$ be the unit disk $x^2 + y^2 \\le 1$ in the $xy$-plane. Which of the following double integrals evaluate to ZERO?",
+      "optionsEn": [
+        "$\\iint_D (x^2 + y^2)\\,dx\\,dy$",
+        "$\\iint_D x^3 y^2\\,dx\\,dy$",
+        "$\\iint_D (x^2 - y^2)\\,dx\\,dy$",
+        "$\\iint_D \\sin(x)\\cos(y)\\,dx\\,dy$"
+      ],
+      "explanationEn": "The unit disk $D$ is symmetric under $x \\to -x$, $y \\to -y$, and $x \\leftrightarrow y$. (B) $x^3 y^2$ is odd in $x$, so the integral is $0$. (C) By $x \\leftrightarrow y$ symmetry, $\\iint_D x^2\\,dA = \\iint_D y^2\\,dA$, so $\\iint_D (x^2 - y^2)\\,dA = 0$. (A) The integrand $x^2 + y^2 > 0$ almost everywhere, giving $\\frac{\\pi}{2} \\neq 0$. (D) $\\sin(x)\\cos(y)$ is odd in $x$, so the integral is $0$. Hence, options (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "de Broglie Waves",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a relativistic free particle of rest mass $m_0 > 0$, total energy $E$, momentum $p$, and speed $v$, let $v_p = \\omega / k$ and $v_g = d\\omega / dk$ denote the phase and group velocities of its de Broglie matter wave ($E = \\hbar\\omega$, $p = \\hbar k$). Which of the following statement(s) is/are TRUE?",
+      "optionsEn": [
+        "$v_g = v$",
+        "$v_p = \\frac{c^2}{v}$",
+        "$v_p v_g = c^2$",
+        "$v_p < c$ for all $v > 0$"
+      ],
+      "explanationEn": "From $E^2 = p^2 c^2 + m_0^2 c^4$, differentiating gives $2E\\,dE = 2pc^2\\,dp \\implies v_g = \\frac{dE}{dp} = \\frac{pc^2}{E} = v$ (A True). The phase velocity is $v_p = \\frac{E}{p} = \\frac{c^2}{v}$ (B True), so $v_p v_g = c^2$ (C True). Since $v < c$, $v_p = c^2/v > c$ (D False). Hence, (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Poynting Vector & Radiation Pressure",
+      "difficulty": "Easy",
+      "correctOption": "4.75 to 4.79",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.75,
+      "natMax": 4.79,
+      "questionTextEn": "A plane electromagnetic wave in vacuum has an electric field amplitude of $60\\text{ V/m}$. Taking $\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$ and $c = 3 \\times 10^8\\text{ m/s}$, the time-averaged magnitude of the Poynting vector is ______ $\\text{W/m}^2$. (Round off to 2 decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The average intensity is $\\langle S \\rangle = \\frac{E_0^2}{2\\mu_0 c} = \\frac{60^2}{2(4\\pi \\times 10^{-7})(3 \\times 10^8)} = \\frac{15}{\\pi} \\approx 4.77\\text{ W/m}^2$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Easy",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "For the vector field $\\vec{F} = yz\\,\\hat{i} - xz\\,\\hat{j} + xy\\,\\hat{k}$, the magnitude $|\\nabla \\times \\vec{F}|$ at the point $(3, 1, 4)$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "$\\nabla \\times \\vec{F} = (x + x)\\hat{i} + (y - y)\\hat{j} + (-z - z)\\hat{k} = 2x\\hat{i} - 2z\\hat{k}$. At $(3, 1, 4)$, $\\nabla \\times \\vec{F} = 6\\hat{i} - 8\\hat{k}$, whose magnitude is $\\sqrt{6^2 + (-8)^2} = 10$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Simple Harmonic Oscillator",
+      "difficulty": "Easy",
+      "correctOption": "1.97 to 2.01",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.97,
+      "natMax": 2.01,
+      "questionTextEn": "An incompressible, non-viscous liquid of total column length $L = 1.96\\text{ m}$ oscillates freely in a uniform vertical U-tube. Taking $g = 9.8\\text{ m/s}^2$, the time period of oscillation is ______ $\\text{s}$. (Round off to 2 decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The restoring force for a displacement $y$ in one arm is $-2\\rho A g y$, while total mass is $\\rho A L$, giving $T = 2\\pi\\sqrt{\\frac{L}{2g}} = 2\\pi\\sqrt{\\frac{1.96}{19.6}} = 2\\pi\\sqrt{0.1} \\approx 1.99\\text{ s}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Equipartition of Energy",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "An ideal gas has an adiabatic index $\\gamma = 1.25$. According to the classical equipartition theorem, the number of active degrees of freedom per molecule is ______ (Answer in integer).",
+      "optionsEn": [],
+      "explanationEn": "From $\\gamma = 1 + \\frac{2}{f}$, we solve $f = \\frac{2}{\\gamma - 1} = \\frac{2}{1.25 - 1} = 8$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Newton's Laws of Motion",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "A block slides down a rough inclined plane whose inclination $\\theta$ satisfies $\\sin\\theta = 0.6$ and $\\cos\\theta = 0.8$. If the coefficient of kinetic friction is $\\mu_k = 0.25$ and $g = 10\\text{ m/s}^2$, the downward acceleration of the block along the incline, in $\\text{m/s}^2$, is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "$a = g(\\sin\\theta - \\mu_k\\cos\\theta) = 10(0.6 - 0.25 \\times 0.8) = 10(0.4) = 4\\text{ m/s}^2$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Pauli Exclusion Principle",
+      "difficulty": "Easy",
+      "correctOption": "40",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 40.0,
+      "natMax": 40.0,
+      "questionTextEn": "Eight non-interacting spin-$1/2$ electrons are placed in a 2D square infinite potential well of side $L$ with single-particle levels $E(n_x, n_y) = E_0(n_x^2 + n_y^2)$. The ground-state total energy of the system is $\\alpha E_0$, where the integer $\\alpha$ is ______ (Answer in integer).",
+      "optionsEn": [],
+      "explanationEn": "Filling levels in order: $(1,1)$ holds $2$ electrons at $2E_0$; $(1,2)$ and $(2,1)$ hold $4$ electrons at $5E_0$; $(2,2)$ holds $2$ electrons at $8E_0$. Total energy $= 2(2E_0) + 4(5E_0) + 2(8E_0) = 40E_0$, so $\\alpha = 40$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "BJT Characteristics",
+      "difficulty": "Easy",
+      "correctOption": "49",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 49.0,
+      "natMax": 49.0,
+      "questionTextEn": "A bipolar junction transistor in the active region has a common-base DC current gain $\\alpha = 0.98$. Its common-emitter DC current gain $\\beta$ is ______. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Using $\\beta = \\frac{\\alpha}{1 - \\alpha}$, we obtain $\\beta = \\frac{0.98}{1 - 0.98} = \\frac{0.98}{0.02} = 49$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Fraunhofer Diffraction",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Light of wavelength $500\\text{ nm}$ falls normally on a single slit of width $0.2\\text{ mm}$. The Fraunhofer diffraction pattern is focused onto a screen placed at the focal plane of a convex lens of focal length $1.0\\text{ m}$. The linear width of the central maximum is ______ $\\text{mm}$. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The linear width between the first-order minima is $W = \\frac{2\\lambda f}{a} = \\frac{2 \\times 500 \\times 10^{-9} \\times 1.0}{0.2 \\times 10^{-3}} = 5.0 \\times 10^{-3}\\text{ m} = 5\\text{ mm}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Relativistic Doppler Effect",
+      "difficulty": "Easy",
+      "correctOption": "300",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 300.0,
+      "natMax": 300.0,
+      "questionTextEn": "A light source moving directly toward a stationary observer at speed $0.6c$ emits monochromatic light of proper wavelength $600\\text{ nm}$. The wavelength detected by the observer is ______ $\\text{nm}$ (Answer in integer).",
+      "optionsEn": [],
+      "explanationEn": "For an approaching source ($\\beta = 0.6$), the blueshifted wavelength is $\\lambda = \\lambda_0\\sqrt{\\frac{1 - \\beta}{1 + \\beta}} = 600\\sqrt{\\frac{0.4}{1.6}} = 600 \\times 0.5 = 300\\text{ nm}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Easy",
+      "correctOption": "22",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 22.0,
+      "natMax": 22.0,
+      "questionTextEn": "For the vector field $\\vec{F}(x, y, z) = x^2 y\\,\\hat{i} + y^2 z\\,\\hat{j} + z^2 x\\,\\hat{k}$, the value of $\\nabla \\cdot \\vec{F}$ at the point $(1, 2, 3)$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "$\\nabla \\cdot \\vec{F} = 2xy + 2yz + 2zx$. At $(1, 2, 3)$, this evaluates to $2(1)(2) + 2(2)(3) + 2(3)(1) = 4 + 12 + 6 = 22$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Error Analysis",
+      "difficulty": "Medium",
+      "correctOption": "2.22 to 2.25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.22,
+      "natMax": 2.25,
+      "questionTextEn": "In a simple pendulum experiment, the acceleration due to gravity is determined from $g = \\frac{4\\pi^2 L}{T^2}$. If the independent measurements of $L$ and $T$ each carry a $1.0\\%$ standard uncertainty, the standard percentage uncertainty in $g$ (added in quadrature) is ____ $\\%$. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For independent uncertainties in $g = 4\\pi^2 L T^{-2}$, quadrature propagation gives $\\frac{\\sigma_g}{g} = \\sqrt{\\left(\\frac{\\sigma_L}{L}\\right)^2 + \\left(2\\frac{\\sigma_T}{T}\\right)^2} = \\sqrt{(1.0\\%)^2 + (2.0\\%)^2} = \\sqrt{5}\\% \\approx 2.24\\%$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Gravitation and Kepler's Laws",
+      "difficulty": "Medium",
+      "correctOption": "5.4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.4,
+      "natMax": 5.4,
+      "questionTextEn": "A spacecraft orbits a planet in an elliptical orbit of eccentricity $e = 0.25$. If its speed at perigee is $9.0\\text{ km/s}$, its speed at apogee, in $\\text{km/s}$, is ____. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "By conservation of angular momentum, $r_p v_p = r_a v_a$. Since $\\frac{r_p}{r_a} = \\frac{1 - e}{1 + e} = \\frac{0.75}{1.25} = \\frac{3}{5}$, we obtain $v_a = \\frac{3}{5} \\times 9.0 = 5.4\\text{ km/s}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Joule-Thomson Effect",
+      "difficulty": "Hard",
+      "correctOption": "6.69 to 6.74",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.69,
+      "natMax": 6.74,
+      "questionTextEn": "Carbon dioxide gas (modeled as a low-density van der Waals gas with $a = 0.364\\text{ Pa}\\cdot\\text{m}^6/\\text{mol}^2$, $b = 4.27 \\times 10^{-5}\\text{ m}^3/\\text{mol}$, and $C_P = 37.1\\text{ J/(mol}\\cdot\\text{K)}$) at $300\\text{ K}$ undergoes a Joule-Thomson throttling across a pressure drop of $\\Delta P = -1.0 \\times 10^6\\text{ Pa}$. Using $\\mu_{JT} \\approx \\frac{1}{C_P}\\left(\\frac{2a}{RT} - b\\right)$ and $R = 8.314\\text{ J/(mol}\\cdot\\text{K)}$, the magnitude of the temperature drop is ______ $\\text{K}$ (Round off to 2 decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Computing $\\frac{2a}{RT} - b = \\frac{2 \\times 0.364}{8.314 \\times 300} - 4.27 \\times 10^{-5} = 2.9188 \\times 10^{-4} - 0.427 \\times 10^{-4} = 2.4918 \\times 10^{-4}\\text{ m}^3/\\text{mol}$. Thus $\\mu_{JT} = \\frac{2.4918 \\times 10^{-4}}{37.1} = 6.716 \\times 10^{-6}\\text{ K/Pa}$, and $|\\Delta T| = \\mu_{JT}|\\Delta P| \\approx 6.72\\text{ K}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Interference",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "An evacuated glass cell of internal length $5.0\\text{ cm}$ is placed in one arm of a Michelson interferometer illuminated by light of wavelength $500\\text{ nm}$. When a gas is slowly admitted into the cell, $60$ fringes shift across the field of view. If the refractive index of the gas is $1 + \\alpha \\times 10^{-4}$, the value of $\\alpha$ is ______. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Admitting the gas introduces an optical path difference $2(n - 1)L = N\\lambda$. Thus $n - 1 = \\frac{N\\lambda}{2L} = \\frac{60 \\times 500 \\times 10^{-9}}{2 \\times 0.05} = 3.0 \\times 10^{-4}$, so $\\alpha = 3$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Simple Harmonic Oscillator",
+      "difficulty": "Medium",
+      "correctOption": "1.66 to 1.7",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.66,
+      "natMax": 1.7,
+      "questionTextEn": "A uniform rigid rod of length $L = 1.2\\text{ m}$ is pivoted smoothly at a point located at a distance $L/4$ from one of its ends and oscillates in a vertical plane. Taking $g = 9.8\\text{ m/s}^2$, the time period of small oscillations is ______ $\\text{s}$. (Round off to 2 decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The pivot is at distance $d = \\frac{L}{2} - \\frac{L}{4} = \\frac{L}{4}$ from the center of mass. By the parallel-axis theorem, $I = \\frac{1}{12}mL^2 + m\\left(\\frac{L}{4}\\right)^2 = \\frac{7}{48}mL^2$, giving equivalent length $l_{\\text{eff}} = \\frac{I}{md} = \\frac{7}{12}L = 0.70\\text{ m}$. Thus $T = 2\\pi\\sqrt{\\frac{0.70}{9.8}} = \\frac{2\\pi}{\\sqrt{14}} \\approx 1.68\\text{ s}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Inductance",
+      "difficulty": "Medium",
+      "correctOption": "100.48 to 100.58",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 100.48,
+      "natMax": 100.58,
+      "questionTextEn": "A long solenoid of length $25\\text{ cm}$, cross-sectional area $4\\text{ cm}^2$, and $500$ turns is filled with a linear magnetic core of relative permeability $\\mu_r = 200$. Taking $\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$, its self-inductance is ______ $\\text{mH}$. (Round off to 2 decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Using $L = \\frac{\\mu_0 \\mu_r N^2 A}{l} = \\frac{(4\\pi \\times 10^{-7})(200)(500)^2(4 \\times 10^{-4})}{0.25} = 0.032\\pi\\text{ H} \\approx 100.53\\text{ mH}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Matrices and Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The largest eigenvalue of the $3 \\times 3$ matrix $A = \\begin{pmatrix} 2 & 1 & 1 \\\\ 1 & 2 & 1 \\\\ 1 & 1 & 2 \\end{pmatrix}$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Write $A = I + J$, where $J$ is the $3 \\times 3$ all-ones matrix with eigenvalues $3, 0, 0$. Shifting by $I$ gives eigenvalues $1 + 3 = 4$ and $1 + 0 = 1$ (multiplicity $2$). Thus, the largest eigenvalue is $4$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Nuclear Reactions",
+      "difficulty": "Medium",
+      "correctOption": "4.77 to 4.8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.77,
+      "natMax": 4.8,
+      "questionTextEn": "A stationary ${}^{226}\\text{Ra}$ nucleus undergoes $\\alpha$-decay into ${}^{222}\\text{Rn}$ with a total $Q$-value of $4.87\\text{ MeV}$. Approximating nuclear masses by their mass numbers, the kinetic energy carried away by the emitted $\\alpha$-particle is ______ $\\text{MeV}$ (Round off to 2 decimal places).",
+      "optionsEn": [],
+      "explanationEn": "By momentum conservation ($p_\\alpha = p_d$), $K_\\alpha / K_d = m_d / m_\\alpha$, so $K_\\alpha = Q\\frac{m_d}{m_d + m_\\alpha} = 4.87 \\times \\frac{222}{226} \\approx 4.78\\text{ MeV}$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Blackbody Radiation",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "For blackbody radiation at temperature $T$, let $\\nu_0$ be the frequency such that $\\frac{h\\nu_0}{k_B T} = \\ln 3$. According to Planck's radiation law, the ratio of the spectral energy density at frequency $2\\nu_0$ to that at frequency $\\nu_0$, i.e., $\\frac{u(2\\nu_0, T)}{u(\\nu_0, T)}$, is ______ (Answer in integer).",
+      "optionsEn": [],
+      "explanationEn": "From Planck's law $u(\\nu, T) \\propto \\frac{\\nu^3}{e^{h\\nu/(k_B T)} - 1}$, setting $x = \\frac{h\\nu_0}{k_B T} = \\ln 3$ gives $\\frac{u(2\\nu_0, T)}{u(\\nu_0, T)} = 2^3 \\frac{e^x - 1}{e^{2x} - 1} = \\frac{8}{e^x + 1} = \\frac{8}{3 + 1} = 2$."
+    },
+    {
+      "questionId": "jam_ph_mock_01_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Mock 01",
+      "topicTag": "Logic Gates",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "For the $4$-variable Boolean function $F(A, B, C, D) = (A \\oplus B)(\\bar{C} + D)$, the number of input combinations $(A, B, C, D) \\in \\{0, 1\\}^4$ for which $F = 1$ is ______. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "For the product $(A \\oplus B)(\\bar{C} + D)$ to equal $1$, both factors must equal $1$. First, $A \\oplus B = 1$ for $2$ pairs of $(A, B)$: $(0, 1)$ and $(1, 0)$. Second, $\\bar{C} + D = 1$ for $3$ pairs of $(C, D)$: $(0, 0), (0, 1), (1, 1)$ (all except $(1, 0)$). Since $(A, B)$ and $(C, D)$ are independent, the total number of combinations with $F = 1$ is $2 \\times 3 = 6$."
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "testId": "jam_ma_topic_differential_equations_01",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_topic_differential_equations_01",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 MA Topic Test: Ordinary Differential Equations — Set 01",
+  "titleEn": "IIT JAM 2027 MA Topic Test: Ordinary Differential Equations — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_05_ode",
+  "part_id": "part_05_ode",
+  "partTitle": "Ordinary Differential Equations",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Ordinary Differential Equations • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Undetermined Coefficients",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particular solution of the differential equation $y'' + 9y = \\cos(3x)$ is",
+      "optionsEn": [
+        "$\\frac{x}{6}\\sin(3x)$",
+        "$\\frac{x}{3}\\sin(3x)$",
+        "$\\frac{x}{6}\\cos(3x)$",
+        "$-\\frac{x}{6}\\sin(3x)$"
+      ],
+      "explanationEn": "Because $\\cos(3x)$ is a solution of $y'' + 9y = 0$, we try $y_p(x) = x(A\\cos 3x + B\\sin 3x)$. Computing $y_p'' + 9y_p = -6A\\sin 3x + 6B\\cos 3x = \\cos 3x$ yields $A = 0$ and $B = \\frac{1}{6}$. Hence $y_p(x) = \\frac{x}{6}\\sin(3x)$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Separable ODEs",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y(x)$ be the solution of the initial value problem $\\frac{dy}{dx} = 2x(1 + y^2)$ with $y(0) = 0$. Then the value of $y\\left(\\frac{\\sqrt{\\pi}}{2}\\right)$ is",
+      "optionsEn": [
+        "$1$",
+        "$0$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\sqrt{3}$"
+      ],
+      "explanationEn": "Separating variables gives $\\frac{dy}{1 + y^2} = 2x\\,dx$. Integrating both sides yields $\\tan^{-1}(y) = x^2 + C$. Using $y(0) = 0$, we obtain $C = 0$, so $y(x) = \\tan(x^2)$. Evaluating at $x = \\frac{\\sqrt{\\pi}}{2}$ gives $y\\left(\\frac{\\sqrt{\\pi}}{2}\\right) = \\tan\\left(\\frac{\\pi}{4}\\right) = 1$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Linear Independence of Solutions",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the functions $f(x) = x^2$ and $g(x) = x|x|$ on the interval $(-1, 1)$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$f$ and $g$ are linearly independent on $(-1, 1)$, and their Wronskian is nonzero at $x = 0$",
+        "$f$ and $g$ are linearly dependent on $(-1, 1)$, and their Wronskian is nonzero for $x > 0$",
+        "$f$ and $g$ are linearly independent on $(-1, 1)$, and their Wronskian vanishes identically on $(-1, 1)$",
+        "$f$ and $g$ are linearly dependent on $(-1, 1)$, and their Wronskian vanishes identically on $(-1, 1)$"
+      ],
+      "explanationEn": "For $x \\ge 0$, $g(x) = x^2$ so $W(f, g)(x) = x^2(2x) - 2x(x^2) = 0$; for $x < 0$, $g(x) = -x^2$ so $W(f, g)(x) = x^2(-2x) - 2x(-x^2) = 0$. Thus $W(f, g)(x) \\equiv 0$ on $(-1, 1)$. However, if $c_1 x^2 + c_2 x|x| = 0$ on $(-1, 1)$, evaluating at $x = 1/2$ and $x = -1/2$ gives $c_1 + c_2 = 0$ and $c_1 - c_2 = 0$, forcing $c_1 = c_2 = 0$. Hence $f$ and $g$ are linearly independent on $(-1, 1)$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Cauchy-Euler Equations",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The general real-valued solution of $x^2 y'' + x y' + 4y = 0$ for $x > 0$ is (where $c_1, c_2 \\in \\mathbb{R}$)",
+      "optionsEn": [
+        "$c_1 \\cos(2x) + c_2 \\sin(2x)$",
+        "$c_1 \\cos(2\\ln x) + c_2 \\sin(2\\ln x)$",
+        "$x(c_1 \\cos(2\\ln x) + c_2 \\sin(2\\ln x))$",
+        "$c_1 x^2 + c_2 x^{-2}$"
+      ],
+      "explanationEn": "The indicial equation is $r(r - 1) + r + 4 = r^2 + 4 = 0$, giving roots $r = \\pm 2i$. Setting $x = e^t$ yields $y(x) = c_1 \\cos(2\\ln x) + c_2 \\sin(2\\ln x)$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Homogeneous ODEs",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y : (0, \\infty) \\to \\mathbb{R}$ be the solution of $x \\frac{dy}{dx} = x + y$ satisfying $y(1) = 2$. Then $y(e)$ is equal to",
+      "optionsEn": [
+        "$3e$",
+        "$4e$",
+        "$2e$",
+        "$e$"
+      ],
+      "explanationEn": "Setting $y = vx$ gives $v + x \\frac{dv}{dx} = 1 + v$, so $\\frac{dv}{dx} = \\frac{1}{x}$ and $v = \\ln x + C$. Thus $y(x) = x(\\ln x + C)$. Since $y(1) = 2$, we have $C = 2$, giving $y(x) = x(\\ln x + 2)$ and $y(e) = e(1 + 2) = 3e$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Cauchy-Euler Equations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y : (0, \\infty) \\to \\mathbb{R}$ be the solution of $x^2 y'' - 2x y' + 2y = x^3$ satisfying $y(1) = 1$ and $y'(1) = 0$. Then $y(2)$ is equal to",
+      "optionsEn": [
+        "$2$",
+        "$3$",
+        "$-1$",
+        "$1$"
+      ],
+      "explanationEn": "The homogeneous indicial equation is $r(r - 1) - 2r + 2 = (r - 1)(r - 2) = 0$, giving $y_h = c_1 x + c_2 x^2$. For $y_p = A x^3$, substitution gives $(6 - 6 + 2)A x^3 = x^3$, so $A = \\frac{1}{2}$. Thus $y(x) = c_1 x + c_2 x^2 + \\frac{1}{2}x^3$. Applying $y(1) = 1$ and $y'(1) = 0$ yields $c_1 + c_2 = \\frac{1}{2}$ and $c_1 + 2c_2 = -\\frac{3}{2}$, so $c_2 = -2$ and $c_1 = \\frac{5}{2}$. Hence $y(2) = 5 - 8 + 4 = 1$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Cauchy-Euler Equations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y : (0, \\infty) \\to \\mathbb{R}$ be a solution of $x^2 y'' + x y' - y = \\ln x$ such that $\\lim_{x \\to 0^+} x y(x) = 0$ and $y(1) = 1$. Then $y(e)$ is equal to",
+      "optionsEn": [
+        "$2e - 1$",
+        "$e + 1$",
+        "$e - 2$",
+        "$e - 1$"
+      ],
+      "explanationEn": "The homogeneous equation has indicial equation $r^2 - 1 = 0$, so $y_h = c_1 x + \\frac{c_2}{x}$. Trying $y_p = A\\ln x + B$ gives $-A\\ln x - B = \\ln x$, so $A = -1, B = 0$. Thus $y(x) = c_1 x + \\frac{c_2}{x} - \\ln x$. Since $\\lim_{x \\to 0^+} x y(x) = c_2 = 0$, we have $c_2 = 0$. From $y(1) = 1$, $c_1 = 1$, so $y(x) = x - \\ln x$ and $y(e) = e - 1$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Bernoulli Equations",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y : \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\to (0, \\infty)$ be the solution of $\\frac{dy}{dx} + (\\tan x)y = y^3 \\sec x$ with $y(0) = \\frac{1}{\\sqrt{2}}$. Then $y\\left(\\frac{\\pi}{6}\\right)$ is equal to",
+      "optionsEn": [
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{2}{\\sqrt{3}}$",
+        "$\\frac{\\sqrt{3}}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "Divide by $y^3$ and set $v = y^{-2}$ so $v' = -2y^{-3}y'$. The equation becomes $v' - 2(\\tan x)v = -2\\sec x$, with integrating factor $\\mu(x) = \\exp(-2\\int \\tan x\\,dx) = \\cos^2 x$. Thus $\\frac{d}{dx}(v \\cos^2 x) = -2\\cos x$, giving $v \\cos^2 x = -2\\sin x + C$. Since $v(0) = 2$, we obtain $C = 2$, so $y(x)^{-2} = \\frac{2(1 - \\sin x)}{\\cos^2 x}$. At $x = \\frac{\\pi}{6}$, $y\\left(\\frac{\\pi}{6}\\right)^{-2} = \\frac{2(1/2)}{3/4} = \\frac{4}{3}$, hence $y\\left(\\frac{\\pi}{6}\\right) = \\frac{\\sqrt{3}}{2}$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Boundary Value Problems",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The smallest positive eigenvalue $\\lambda$ of the boundary value problem $y'' + \\lambda y = 0$, $y(0) = 0$, $y'(\\pi) = 0$ is",
+      "optionsEn": [
+        "$\\frac{9}{4}$",
+        "$1$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "For $\\lambda = \\omega^2 > 0$, $y(x) = A\\cos(\\omega x) + B\\sin(\\omega x)$. The condition $y(0) = 0$ forces $A = 0$, and $y'(\\pi) = B\\omega\\cos(\\omega\\pi) = 0$ with $B \\neq 0$ gives $\\omega\\pi = \\left(n - \\frac{1}{2}\\right)\\pi$ for $n \\in \\mathbb{N}$. Thus $\\omega = n - \\frac{1}{2}$ and $\\lambda = \\left(n - \\frac{1}{2}\\right)^2$, whose smallest positive value (at $n = 1$) is $\\frac{1}{4}$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Orthogonal Trajectories",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The family of orthogonal trajectories of the family of circles $x^2 + y^2 = 2cx$ ($c \\in \\mathbb{R} \\setminus \\{0\\}$) is",
+      "optionsEn": [
+        "$x^2 + 2y^2 = 2ky$ ($k \\in \\mathbb{R} \\setminus \\{0\\}$)",
+        "$x^2 - y^2 = 2ky$ ($k \\in \\mathbb{R} \\setminus \\{0\\}$)",
+        "$x^2 + y^2 = k$ ($k > 0$)",
+        "$x^2 + y^2 = 2ky$ ($k \\in \\mathbb{R} \\setminus \\{0\\}$)"
+      ],
+      "explanationEn": "Differentiating $x^2 + y^2 = 2cx$ gives $2x + 2y y' = 2c = \\frac{x^2 + y^2}{x}$, so $y' = \\frac{y^2 - x^2}{2xy}$. For orthogonal trajectories, replace $y'$ by $-\\frac{1}{y'}$: $y' = \\frac{2xy}{x^2 - y^2}$. Rewriting as $(x^2 - y^2)\\,dy - 2xy\\,dx = 0$ and dividing by $y^2$ gives $-d\\left(\\frac{x^2}{y} + y\\right) = 0$, yielding $\\frac{x^2 + y^2}{y} = 2k$, i.e., $x^2 + y^2 = 2ky$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Wronskian and Abel's Formula",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $p, q : \\mathbb{R} \\to \\mathbb{R}$ be continuous functions, and let $y_1, y_2$ be two solutions of $y'' + p(x)y' + q(x)y = 0$ on $\\mathbb{R}$ with Wronskian $W(x)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "If $W(x_0) = 0$ for some $x_0 \\in \\mathbb{R}$, then $W(x) = 0$ for all $x \\in \\mathbb{R}$",
+        "If $p(x) = 0$ for all $x \\in \\mathbb{R}$, then $W(x)$ is constant on $\\mathbb{R}$",
+        "If $y_1$ and $y_2$ share a common zero $x_0 \\in \\mathbb{R}$, then $y_1$ and $y_2$ are linearly dependent",
+        "If $y_1(x_0) = y_2(x_0) \\neq 0$ for some $x_0 \\in \\mathbb{R}$, then $y_1$ and $y_2$ are linearly dependent"
+      ],
+      "explanationEn": "By Abel's formula, $W(x) = W(x_0)\\exp\\left(-\\int_{x_0}^x p(t)\\,dt\\right)$. Thus $W(x_0) = 0 \\implies W(x) \\equiv 0$ (A is TRUE), and $p \\equiv 0 \\implies W(x) \\equiv W(x_0)$ is constant (B is TRUE). If $y_1(x_0) = y_2(x_0) = 0$, then $W(x_0) = 0$, so $y_1, y_2$ are linearly dependent (C is TRUE). For (D), $y_1 = \\cos x$ and $y_2 = \\cos x + \\sin x$ solve $y'' + y = 0$ with $y_1(0) = y_2(0) = 1$, yet they are linearly independent; thus (D) is FALSE."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Boundary Value Problems",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the periodic boundary value problem $y'' + \\lambda y = 0$ on $[0, 2\\pi]$ with $y(0) = y(2\\pi)$ and $y'(0) = y'(2\\pi)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\lambda = 0$ is an eigenvalue with a $1$-dimensional eigenspace",
+        "$\\lambda = 1$ is an eigenvalue with a $2$-dimensional eigenspace",
+        "Every eigenvalue is of the form $\\lambda = n^2$ for some integer $n \\ge 0$",
+        "$\\lambda = -1$ is an eigenvalue"
+      ],
+      "explanationEn": "For $\\lambda < 0$, $y = c_1 e^{\\omega x} + c_2 e^{-\\omega x}$ satisfies the periodic BCs only if $c_1 = c_2 = 0$ (D is FALSE). For $\\lambda = 0$, $y = c_1 + c_2 x$ requires $c_2 = 0$, giving the $1$-dimensional eigenspace $\\operatorname{span}\\{1\\}$ (A is TRUE). For $\\lambda = \\omega^2 > 0$, $y = A\\cos(\\omega x) + B\\sin(\\omega x)$ satisfies both periodic BCs iff $\\omega = n \\in \\mathbb{N}$ (C is TRUE), and for each $n \\ge 1$ both $\\cos(nx)$ and $\\sin(nx)$ are eigenfunctions, giving a $2$-dimensional eigenspace (B is TRUE)."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Homogeneous ODEs",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $y(x)$ be the solution of $x^2 \\frac{dy}{dx} = x^2 + xy + y^2$ satisfying $y(1) = 0$ on its maximal interval containing $1$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$y(x) = x\\tan(\\ln x)$",
+        "The maximal interval of existence is $(e^{-\\pi/2}, e^{\\pi/2})$",
+        "$y(e^{\\pi/4}) = e^{\\pi/4}$",
+        "$y(x)$ is bounded on $(1, e^{\\pi/2})$"
+      ],
+      "explanationEn": "Setting $y = vx$ gives $v + x v' = 1 + v + v^2$, so $\\frac{dv}{1 + v^2} = \\frac{dx}{x}$. Integrating with $v(1) = 0$ yields $\\tan^{-1}(v) = \\ln x$, hence $y(x) = x\\tan(\\ln x)$ (A is TRUE). This stays finite precisely for $-\\frac{\\pi}{2} < \\ln x < \\frac{\\pi}{2}$, i.e., $x \\in (e^{-\\pi/2}, e^{\\pi/2})$ (B is TRUE). At $x = e^{\\pi/4}$, $y(e^{\\pi/4}) = e^{\\pi/4}\\tan(\\pi/4) = e^{\\pi/4}$ (C is TRUE). As $x \\to (e^{\\pi/2})^-$, $y(x) \\to +\\infty$, so (D) is FALSE."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Undetermined Coefficients",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the differential equation $y'' - 4y = e^{2x}$ on $\\mathbb{R}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "No solution is bounded on $[0, \\infty)$",
+        "There exists a solution $y(x)$ such that $\\lim_{x \\to -\\infty} y(x) = 0$",
+        "Every solution satisfies $\\lim_{x \\to \\infty} e^{-2x} y(x) = +\\infty$",
+        "There exists a unique solution satisfying $y(0) = 0$ and $\\lim_{x \\to -\\infty} y(x) = 0$"
+      ],
+      "explanationEn": "The general solution is $y(x) = c_1 e^{2x} + c_2 e^{-2x} + \\frac{1}{4} x e^{2x}$. Multiplying by $e^{-2x}$ gives $e^{-2x} y(x) = c_1 + c_2 e^{-4x} + \\frac{x}{4} \\to +\\infty$ as $x \\to \\infty$ for every $(c_1, c_2)$ (C is TRUE), which also implies $y(x) \\to +\\infty$ as $x \\to \\infty$, so no solution is bounded on $[0, \\infty)$ (A is TRUE). As $x \\to -\\infty$, $c_1 e^{2x} + \\frac{1}{4}x e^{2x} \\to 0$, so $\\lim_{x \\to -\\infty} y(x) = 0 \\iff c_2 = 0$ (B is TRUE). Adding $y(0) = c_1 + c_2 = 0$ forces $c_1 = c_2 = 0$, giving the unique solution $y(x) = \\frac{1}{4}x e^{2x}$ (D is TRUE)."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Second-Order Constant-Coefficient ODEs",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $y(x)$ be the solution of $y'' + 2y' + 10y = 0$ satisfying $y(0) = 0$ and $y'(0) = 6$. Then $e^{\\pi/6} y\\left(\\frac{\\pi}{6}\\right)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "The characteristic roots are $r = -1 \\pm 3i$, so $y(x) = e^{-x}(c_1 \\cos 3x + c_2 \\sin 3x)$. From $y(0) = 0$, $c_1 = 0$; from $y'(0) = 3c_2 = 6$, $c_2 = 2$. Thus $y(x) = 2e^{-x}\\sin(3x)$, and $e^{\\pi/6} y\\left(\\frac{\\pi}{6}\\right) = 2\\sin\\left(\\frac{\\pi}{2}\\right) = 2$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Wronskian and Abel's Formula",
+      "difficulty": "Easy",
+      "correctOption": "2.49 to 2.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.49,
+      "natMax": 2.51,
+      "questionTextEn": "Let $y_1, y_2$ be two solutions of Bessel's equation $x^2 y'' + x y' + x^2 y = 0$ on $(0, \\infty)$. If their Wronskian satisfies $W(1) = 10$, then $W(4)$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "In standard form $y'' + \\frac{1}{x}y' + y = 0$, Abel's formula gives $W(x) = W(1)\\exp\\left(-\\int_1^x \\frac{dt}{t}\\right) = \\frac{10}{x}$. Thus $W(4) = \\frac{10}{4} = 2.50$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Linear First-Order ODEs",
+      "difficulty": "Easy",
+      "correctOption": "33",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 33.0,
+      "natMax": 33.0,
+      "questionTextEn": "Let $y : (0, \\infty) \\to \\mathbb{R}$ be the solution of $x \\frac{dy}{dx} + 3y = 5x^2$ satisfying $y(1) = 2$. Then the value of $8y(2)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Multiplying by $x^2$ yields $\\frac{d}{dx}(x^3 y) = 5x^4$, so $x^3 y = x^5 + C$. From $y(1) = 2$, we get $C = 1$, hence $y(x) = x^2 + \\frac{1}{x^3}$. Therefore, $8y(2) = 8\\left(4 + \\frac{1}{8}\\right) = 33$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Exact ODEs and Integrating Factors",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "If $x^m y^n$ is an integrating factor of the differential equation $(3y + 4x y^2)\\,dx + (2x + 3x^2 y)\\,dy = 0$, then the value of $m + n$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Multiplying by $x^m y^n$ gives $M_1 = 3x^m y^{n+1} + 4x^{m+1} y^{n+2}$ and $N_1 = 2x^{m+1} y^n + 3x^{m+2} y^{n+1}$. Equating $\\frac{\\partial M_1}{\\partial y} = \\frac{\\partial N_1}{\\partial x}$ yields $3(n + 1) = 2(m + 1)$ and $4(n + 2) = 3(m + 2)$, i.e., $3n - 2m = -1$ and $4n - 3m = -2$. Solving gives $m = 2$ and $n = 1$, so $m + n = 3$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Orthogonal Trajectories",
+      "difficulty": "Easy",
+      "correctOption": "32",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 32.0,
+      "natMax": 32.0,
+      "questionTextEn": "Let $\\mathcal{C}$ be the orthogonal trajectory to the family of ellipses $x^2 + 4y^2 = c$ ($c > 0$) passing through $(1, 2)$. If $(2, a)$ lies on $\\mathcal{C}$, then the value of $a$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Differentiating $x^2 + 4y^2 = c$ gives $y' = -\\frac{x}{4y}$. Replacing $y'$ by $-\\frac{1}{y'}$ gives $\\frac{dy}{dx} = \\frac{4y}{x}$, which integrates to $y = k x^4$. Passing through $(1, 2)$ gives $k = 2$, so $y = 2x^4$. At $x = 2$, $a = 2(2^4) = 32$."
+    },
+    {
+      "questionId": "jam_ma_topic_differential_equations_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Ordinary Differential Equations (Set 01)",
+      "topicTag": "Linear First-Order ODEs",
+      "difficulty": "Medium",
+      "correctOption": "0.73 to 0.75",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.73,
+      "natMax": 0.75,
+      "questionTextEn": "Let $y : (-1, \\infty) \\to \\mathbb{R}$ be the solution of $(x + 1)\\frac{dy}{dx} + y = \\ln(x + 1)$ satisfying $y(0) = 1$. Then the value of $y(e - 1)$ is equal to _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Notice that $(x + 1)y' + y = \\frac{d}{dx}((x + 1)y) = \\ln(x + 1)$. Integrating gives $(x + 1)y = (x + 1)\\ln(x + 1) - (x + 1) + C$. Using $y(0) = 1$ yields $1 = -1 + C \\implies C = 2$, so $y(x) = \\ln(x + 1) - 1 + \\frac{2}{x + 1}$. At $x = e - 1$, $y(e - 1) = 1 - 1 + \\frac{2}{e} = \\frac{2}{e} \\approx 0.74$."
+    }
+  ]
+}

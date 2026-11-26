@@ -1,0 +1,611 @@
+{
+  "testId": "jam_ph_topic_mathematical_methods_02",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_topic_mathematical_methods_02",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2027 PH Topic Test: Mathematical Methods — Set 02",
+  "titleEn": "IIT JAM 2027 PH Topic Test: Mathematical Methods — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_01_math_methods",
+  "part_id": "part_01_math_methods",
+  "partTitle": "Mathematical Methods",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM PH • Mathematical Methods • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Exact and Imperfect Differentials",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The differential form $df = (kxy^2 + 1)\\,dx + (2x^2 y + 3)\\,dy$ is an exact differential if the constant $k$ is equal to",
+      "optionsEn": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$4$"
+      ],
+      "explanationEn": "A differential $M(x,y)\\,dx + N(x,y)\\,dy$ is exact if and only if $\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$. Here, $\\frac{\\partial M}{\\partial y} = 2kxy$ and $\\frac{\\partial N}{\\partial x} = 4xy$. Equating the two gives $2k = 4 \\implies k = 2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Complex Numbers",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $(\\sqrt{3} + i)^6$, where $i = \\sqrt{-1}$, is",
+      "optionsEn": [
+        "$64$",
+        "$-64$",
+        "$-64i$",
+        "$64i$"
+      ],
+      "explanationEn": "Write $\\sqrt{3} + i$ in polar form: modulus $r = \\sqrt{3 + 1} = 2$ and argument $\\theta = \\frac{\\pi}{6}$, so $\\sqrt{3} + i = 2e^{i\\pi/6}$. By De Moivre's theorem, $(\\sqrt{3} + i)^6 = 2^6 e^{i\\pi} = 64(-1) = -64$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Error Analysis",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A physical quantity $P$ is related to four measurable quantities $a, b, c,$ and $d$ by $P = \\frac{a^2 b^3}{c\\sqrt{d}}$. If the percentage errors in $a, b, c,$ and $d$ are $1\\%, 2\\%, 3\\%,$ and $4\\%$ respectively, the maximum percentage error in $P$ is",
+      "optionsEn": [
+        "$12\\%$",
+        "$10\\%$",
+        "$15\\%$",
+        "$13\\%$"
+      ],
+      "explanationEn": "Taking logarithms and differentials, the maximum percentage error is $\\frac{\\Delta P}{P} = 2\\frac{\\Delta a}{a} + 3\\frac{\\Delta b}{b} + \\frac{\\Delta c}{c} + \\frac{1}{2}\\frac{\\Delta d}{d} = 2(1\\%) + 3(2\\%) + 3\\% + \\frac{1}{2}(4\\%) = 2 + 6 + 3 + 2 = 13\\%$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Calculus of Single Variable",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the definite integral $\\int_{-\\infty}^{\\infty} e^{-4x^2}\\,dx$ is",
+      "optionsEn": [
+        "$\\frac{\\sqrt{\\pi}}{2}$",
+        "$\\sqrt{\\pi}$",
+        "$2\\sqrt{\\pi}$",
+        "$\\frac{\\sqrt{\\pi}}{4}$"
+      ],
+      "explanationEn": "Using the standard Gaussian integral $\\int_{-\\infty}^{\\infty} e^{-\\alpha x^2}\\,dx = \\sqrt{\\frac{\\pi}{\\alpha}}$ with $\\alpha = 4$, we obtain $\\sqrt{\\frac{\\pi}{4}} = \\frac{\\sqrt{\\pi}}{2}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Taylor and Maclaurin Series",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Maclaurin series expansion of $f(x) = \\ln(1 + 2x)$ for $|x| < \\frac{1}{2}$, the coefficient of $x^3$ is",
+      "optionsEn": [
+        "$-\\frac{8}{3}$",
+        "$\\frac{8}{3}$",
+        "$\\frac{4}{3}$",
+        "$\\frac{1}{3}$"
+      ],
+      "explanationEn": "Using $\\ln(1 + u) = u - \\frac{u^2}{2} + \\frac{u^3}{3} - \\cdots$ with $u = 2x$, the cubic term is $\\frac{(2x)^3}{3} = \\frac{8}{3}x^3$. Thus, the coefficient of $x^3$ is $\\frac{8}{3}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the nonlinear Bernoulli ODE $\\frac{dy}{dx} + \\frac{y}{x} = xy^2$ for $x > 0$. Subject to the condition $y(1) = 1$, the explicit solution is",
+      "optionsEn": [
+        "$y(x) = \\frac{1}{x^2}$",
+        "$y(x) = \\frac{1}{2 - x^2}$",
+        "$y(x) = \\frac{x}{2 - x}$",
+        "$y(x) = \\frac{1}{2x - x^2}$"
+      ],
+      "explanationEn": "Divide by $y^2$ and set $u = y^{-1}$, so $\\frac{du}{dx} = -y^{-2}\\frac{dy}{dx}$. The equation becomes $\\frac{du}{dx} - \\frac{u}{x} = -x$. With integrating factor $\\frac{1}{x}$, $\\frac{d}{dx}\\left(\\frac{u}{x}\\right) = -1 \\implies \\frac{u}{x} = C - x \\implies u = Cx - x^2$. Using $u(1) = 1/y(1) = 1$ gives $C = 2$, so $y(x) = \\frac{1}{2x - x^2}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Matrices and Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the matrix $U = \\frac{1}{\\sqrt{5}}\\begin{pmatrix} 1 & 2i \\\\ \\alpha & 1 \\end{pmatrix}$ to be unitary, the complex constant $\\alpha$ must be",
+      "optionsEn": [
+        "$-2$",
+        "$2$",
+        "$-2i$",
+        "$2i$"
+      ],
+      "explanationEn": "For $U$ to be unitary, its columns must be orthonormal: $U^\\dagger U = I$. The off-diagonal condition requires $(1)(2i) + (\\alpha^*)(1) = 0 \\implies \\alpha^* = -2i \\implies \\alpha = 2i$. Checking normalization: $\\frac{1}{5}(1^2 + |2i|^2) = \\frac{5}{5} = 1$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Integral Theorems",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The total outward flux of the vector field $\\vec{F} = x^3\\hat{i} + y^3\\hat{j} + z^2\\hat{k}$ across the closed surface of a right circular cylinder of radius $R$ and height $h$ ($x^2 + y^2 \\le R^2$, $0 \\le z \\le h$) is",
+      "optionsEn": [
+        "$\\pi R^2 h\\left(\\frac{3}{2}R^2 + 2h\\right)$",
+        "$\\pi R^2 h\\left(\\frac{3}{2}R^2 + h\\right)$",
+        "$\\pi R^2 h\\left(3R^2 + h\\right)$",
+        "$\\pi R^2 h\\left(\\frac{3}{4}R^2 + h\\right)$"
+      ],
+      "explanationEn": "By the Gauss divergence theorem, $\\Phi = \\iiint_V (\\nabla\\cdot\\vec{F})\\,dV$, where $\\nabla\\cdot\\vec{F} = 3x^2 + 3y^2 + 2z = 3\\rho^2 + 2z$ in cylindrical coordinates. Integrating over $0 \\le \\phi \\le 2\\pi$, $0 \\le \\rho \\le R$, $0 \\le z \\le h$: $\\Phi = 2\\pi \\int_0^h \\int_0^R (3\\rho^3 + 2z\\rho)\\,d\\rho\\,dz = 2\\pi\\int_0^h \\left(\\frac{3}{4}R^4 + zR^2\\right)dz = 2\\pi\\left(\\frac{3}{4}R^4 h + \\frac{1}{2}R^2 h^2\\right) = \\pi R^2 h\\left(\\frac{3}{2}R^2 + h\\right)$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Calculus of Single Variable",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the definite integral $\\int_0^{\\pi/2} \\sin^4\\theta \\cos^2\\theta\\,d\\theta$ is",
+      "optionsEn": [
+        "$\\frac{\\pi}{32}$",
+        "$\\frac{3\\pi}{32}$",
+        "$\\frac{\\pi}{16}$",
+        "$\\frac{\\pi}{64}$"
+      ],
+      "explanationEn": "Using the Beta-Gamma relation $\\int_0^{\\pi/2}\\sin^{2p-1}\\theta\\cos^{2q-1}\\theta\\,d\\theta = \\frac{\\Gamma(p)\\Gamma(q)}{2\\Gamma(p+q)}$ with $p = \\frac{5}{2}$ and $q = \\frac{3}{2}$, we obtain $\\frac{\\Gamma(5/2)\\Gamma(3/2)}{2\\Gamma(4)} = \\frac{(\\frac{3}{4}\\sqrt{\\pi})(\\frac{1}{2}\\sqrt{\\pi})}{2 \\cdot 6} = \\frac{3\\pi/8}{12} = \\frac{\\pi}{32}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In cylindrical polar coordinates $(\\rho, \\phi, z)$, the gradient of the scalar field $V(\\rho, \\phi, z) = \\rho^2 \\sin(2\\phi) + 3z$ is",
+      "optionsEn": [
+        "$2\\rho\\sin(2\\phi)\\hat{\\rho} - 2\\rho\\cos(2\\phi)\\hat{\\phi} + 3\\hat{z}$",
+        "$2\\rho\\sin(2\\phi)\\hat{\\rho} + 2\\rho^2\\cos(2\\phi)\\hat{\\phi} + 3\\hat{z}$",
+        "$2\\rho\\sin(2\\phi)\\hat{\\rho} + \\rho\\cos(2\\phi)\\hat{\\phi} + 3\\hat{z}$",
+        "$2\\rho\\sin(2\\phi)\\hat{\\rho} + 2\\rho\\cos(2\\phi)\\hat{\\phi} + 3\\hat{z}$"
+      ],
+      "explanationEn": "In cylindrical coordinates, $\\nabla V = \\frac{\\partial V}{\\partial \\rho}\\hat{\\rho} + \\frac{1}{\\rho}\\frac{\\partial V}{\\partial \\phi}\\hat{\\phi} + \\frac{\\partial V}{\\partial z}\\hat{z}$. Computing each component gives $\\frac{\\partial V}{\\partial\\rho} = 2\\rho\\sin(2\\phi)$, $\\frac{1}{\\rho}\\frac{\\partial V}{\\partial\\phi} = \\frac{1}{\\rho}(2\\rho^2\\cos(2\\phi)) = 2\\rho\\cos(2\\phi)$, and $\\frac{\\partial V}{\\partial z} = 3$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Taylor and Maclaurin Series",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following Maclaurin series expansions (about $x = 0$) is/are CORRECT?",
+      "optionsEn": [
+        "$\\tan^{-1} x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n x^{2n+1}}{2n + 1}$ for $|x| \\le 1$",
+        "$\\cosh x = \\sum_{n=0}^{\\infty} \\frac{x^{2n}}{(2n)!}$ for all $x \\in \\mathbb{R}$",
+        "$\\ln(1 - x) = \\sum_{n=1}^{\\infty} \\frac{x^n}{n}$ for $|x| < 1$",
+        "$\\frac{1}{1 - x} = \\sum_{n=0}^{\\infty} x^n$ for $|x| < 1$"
+      ],
+      "explanationEn": "(D) Standard geometric series, valid for $|x| < 1$. (B) $\\cosh x = \\frac{e^x + e^{-x}}{2} = \\sum_{n=0}^\\infty \\frac{x^{2n}}{(2n)!}$, valid for all real $x$. (A) Integrating $\\frac{1}{1+x^2} = \\sum_{n=0}^\\infty (-1)^n x^{2n}$ yields $\\tan^{-1} x = \\sum_{n=0}^\\infty \\frac{(-1)^n x^{2n+1}}{2n+1}$ for $|x| \\le 1$. (C) Incorrect sign: $\\ln(1 - x) = -\\sum_{n=1}^\\infty \\frac{x^n}{n}$. Hence, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Partial Derivatives",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following scalar functions $u(x, y)$ satisfy the two-dimensional Laplace equation $\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$ on their domains of definition?",
+      "optionsEn": [
+        "$u(x, y) = \\ln(x^2 + y^2)$ for $(x, y) \\neq (0, 0)$",
+        "$u(x, y) = e^x \\cos y$",
+        "$u(x, y) = x^2 - y^2$",
+        "$u(x, y) = x^2 + y^2$"
+      ],
+      "explanationEn": "Computing $\\nabla^2 u = u_{xx} + u_{yy}$: (C) $2 - 2 = 0$ (harmonic); (B) $e^x\\cos y - e^x\\cos y = 0$ (harmonic); (D) $2 + 2 = 4 \\neq 0$ (not harmonic); (A) $u_{xx} = \\frac{2(y^2 - x^2)}{(x^2+y^2)^2}$ and $u_{yy} = \\frac{2(x^2 - y^2)}{(x^2+y^2)^2}$, so $u_{xx} + u_{yy} = 0$ (harmonic away from the origin). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the three-dimensional vector field $\\vec{F}(x, y, z) = yz\\hat{i} + xz\\hat{j} + xy\\hat{k}$. Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "A scalar potential for $\\vec{F}$ is $\\phi(x, y, z) = x^2 y^2 z^2$",
+        "$\\vec{F}$ is irrotational everywhere",
+        "The line integral of $\\vec{F}$ around any closed smooth curve is zero",
+        "$\\vec{F}$ is solenoidal everywhere"
+      ],
+      "explanationEn": "Observe that $\\vec{F} = \\nabla(xyz)$, so a scalar potential is $\\phi = xyz$ (making A false). Because $\\vec{F}$ is a gradient of a smooth function everywhere in $\\mathbb{R}^3$, $\\nabla \\times \\vec{F} = \\vec{0}$ (irrotational, A is true) and $\\oint_C \\vec{F}\\cdot d\\vec{r} = 0$ for every closed loop (C is true). Also, $\\nabla \\cdot \\vec{F} = \\frac{\\partial(yz)}{\\partial x} + \\frac{\\partial(xz)}{\\partial y} + \\frac{\\partial(xy)}{\\partial z} = 0$, so $\\vec{F}$ is solenoidal (B is true). Hence, options (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Calculus of Multiple Variables",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the function $f(x, y) = x^3 + y^3 - 3xy$ on $\\mathbb{R}^2$. Which of the following statement(s) is/are correct?",
+      "optionsEn": [
+        "$(1, 1)$ is a local maximum",
+        "$(0, 0)$ and $(1, 1)$ are the only real stationary points of $f$",
+        "$(1, 1)$ is a local minimum with value $f(1, 1) = -1$",
+        "$(0, 0)$ is a saddle point"
+      ],
+      "explanationEn": "Setting $f_x = 3x^2 - 3y = 0 \\implies y = x^2$ and $f_y = 3y^2 - 3x = 0 \\implies x^4 - x = x(x^3 - 1) = 0$ gives the only real stationary points $(0, 0)$ and $(1, 1)$ (A is true). The Hessian determinant is $D = f_{xx}f_{yy} - f_{xy}^2 = (6x)(6y) - (-3)^2 = 36xy - 9$. At $(0, 0)$, $D = -9 < 0$, so it is a saddle point (B is true). At $(1, 1)$, $D = 27 > 0$ and $f_{xx} = 6 > 0$, so it is a local minimum with $f(1, 1) = 1 + 1 - 3 = -1$ (C is true, D is false). Hence, options (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "If $y(x)$ satisfies $\\frac{dy}{dx} = \\frac{3y}{x}$ for $x > 0$ with $y(1) = 2$, then the value of $y(2)$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Separating variables gives $\\frac{dy}{y} = \\frac{3\\,dx}{x} \\implies y(x) = Cx^3$. With $y(1) = 2$, we get $C = 2$, so $y(2) = 2(2^3) = 16$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Error Analysis",
+      "difficulty": "Easy",
+      "correctOption": "4.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.5,
+      "natMax": 4.5,
+      "questionTextEn": "If the radius of a solid sphere is measured with a percentage error of $1.5\\%$, the percentage error in its calculated volume is ____ $\\%$. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "Since $V = \\frac{4}{3}\\pi R^3$, the fractional error in volume is $\\frac{\\Delta V}{V} = 3\\frac{\\Delta R}{R} = 3 \\times 1.5\\% = 4.5\\%$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Jacobian and Coordinate Transformations",
+      "difficulty": "Easy",
+      "correctOption": "14",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "Under the linear transformation $u = 3x + 2y$ and $v = x - 4y$, the magnitude of the Jacobian determinant $\\left|\\frac{\\partial(u, v)}{\\partial(x, y)}\\right|$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The Jacobian is $\\frac{\\partial(u, v)}{\\partial(x, y)} = \\begin{vmatrix} 3 & 2 \\\\ 1 & -4 \\end{vmatrix} = -12 - 2 = -14$. Its magnitude is $14$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Complex Numbers",
+      "difficulty": "Easy",
+      "correctOption": "-4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -4.0,
+      "natMax": -4.0,
+      "questionTextEn": "The real part of the complex number $(1 + i)^4$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Since $(1 + i)^2 = 2i$, we have $(1 + i)^4 = (2i)^2 = -4$, whose real part is $-4$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "2.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.5,
+      "natMax": 2.5,
+      "questionTextEn": "The function $y(x)$ satisfies $\\frac{d^2y}{dx^2} - y = 0$ with $y(0) = 2$ and $y'(0) = 0$. The value of $y(\\ln 2)$ is ____. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "The general solution is $y(x) = A e^x + B e^{-x}$. From $y(0) = A + B = 2$ and $y'(0) = A - B = 0$, we get $A = B = 1$, so $y(x) = e^x + e^{-x}$. At $x = \\ln 2$, $y(\\ln 2) = 2 + \\frac{1}{2} = 2.5$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 02)",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "1.46 to 1.48",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.46,
+      "natMax": 1.48,
+      "questionTextEn": "Consider the initial value problem $y'' + 2y' + y = 0$ with $y(0) = 1$ and $y'(0) = 2$. The value of $y(1)$ is ____. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The characteristic equation $(r + 1)^2 = 0$ has repeated root $r = -1$, so $y(x) = (A + Bx)e^{-x}$. Applying $y(0) = 1 \\implies A = 1$ and $y'(0) = B - A = 2 \\implies B = 3$, giving $y(x) = (1 + 3x)e^{-x}$. Thus $y(1) = 4e^{-1} \\approx 1.47$."
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "testId": "gate_ph_topic_elec_01",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_elec_01",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Electronics — Set 1",
+  "titleEn": "GATE Physics Topic Test: Electronics — Set 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_09_elec",
+  "part_id": "part_09_elec",
+  "partTitle": "Electronics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Electronics • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "sectionTitleEn": "Electronics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_elec_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a step-graded abrupt p-n junction diode, how does the depletion layer width $W$ depend on the total reverse bias plus built-in voltage $V_0 + V_R$?",
+      "optionsEn": [
+        "$W \\propto (V_0 + V_R)^{-1/2}$",
+        "$W \\propto (V_0 + V_R)^{1/2}$",
+        "$W \\propto (V_0 + V_R)$",
+        "$W \\propto (V_0 + V_R)^{1/3}$"
+      ],
+      "explanationEn": "Solving Poisson's equation for an abrupt step junction gives $W \\propto \\sqrt{V_0 + V_R}$ (hence junction capacitance $C_j \\propto (V_0 + V_R)^{-1/2}$)."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A Schmitt trigger circuit built with an op-amp employs:",
+      "optionsEn": [
+        "Only inductors",
+        "No feedback at all",
+        "Positive feedback to introduce hysteresis (two distinct upper and lower threshold voltages)",
+        "Negative feedback to eliminate hysteresis"
+      ],
+      "explanationEn": "Positive feedback creates two separate switching thresholds ($V_{UT}$ and $V_{LT}$), providing noise immunity through hysteresis."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a BJT, the common-emitter current gain $\\beta$ and common-base current gain $\\alpha$ are related by:",
+      "optionsEn": [
+        "$\\beta = \\frac{\\alpha}{1 + \\alpha}$",
+        "$\\beta = 1 - \\alpha$",
+        "$\\beta = \\frac{1 - \\alpha}{\\alpha}$",
+        "$\\beta = \\frac{\\alpha}{1 - \\alpha}$"
+      ],
+      "explanationEn": "From $I_E = I_B + I_C$ with $I_C = \\alpha I_E$, $I_B = (1 - \\alpha)I_E$, so $\\beta = I_C / I_B = \\frac{\\alpha}{1 - \\alpha}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the Barkhausen criterion for sustained sinusoidal oscillations in a feedback amplifier with open-loop gain $A(j\\omega)$ and feedback factor $\\beta(j\\omega)$, the loop gain $A\\beta$ at the oscillation frequency $\\omega_0$ must satisfy:",
+      "optionsEn": [
+        "$|A\\beta| < 1$ and phase shift $= 90^\\circ$",
+        "$|A\\beta| = 1$ and total loop phase shift $= 0^\\circ$ (or $360^\\circ n$)",
+        "$|A\\beta| = 0$ and phase shift $= 180^\\circ$",
+        "$|A\\beta| = \\infty$"
+      ],
+      "explanationEn": "Sustained constant-amplitude oscillations require unity loop-gain magnitude $|A\\beta| = 1$ and positive feedback phase $\\angle(A\\beta) = 0^\\circ$ (or multiples of $360^\\circ$)."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which BJT amplifier configuration provides a $180^\\circ$ phase shift between input and output voltages along with high voltage gain and high current gain?",
+      "optionsEn": [
+        "Common-Emitter (CE)",
+        "Common-Base (CB)",
+        "Differential pair only",
+        "Common-Collector (Emitter Follower)"
+      ],
+      "explanationEn": "The Common-Emitter (CE) configuration inverts the signal ($180^\\circ$ phase shift) and offers both high voltage gain and high current gain."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Digital-to-Analog Converters (DACs) and Analog-to-Digital Converters (ADCs) are TRUE?",
+      "optionsEn": [
+        "A Flash ADC is the fastest architecture, requiring $2^n - 1$ comparators for $n$-bit resolution",
+        "An $n$-bit ADC divides its full-scale input range into $2^n$ quantization levels",
+        "A Dual-Slope integrating ADC is faster than a Flash ADC",
+        "A Successive Approximation Register (SAR) $n$-bit ADC completes a conversion in $n$ clock cycles"
+      ],
+      "explanationEn": "A, B, and C are exact. Dual-slope ADCs are very accurate and noise-rejecting but slow ($O(2^n)$ clock cycles), far slower than Flash ADCs (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "An amplifier has open-loop gain $A = 100$ and negative feedback factor $\\beta = 0.09$. What is the closed-loop gain $A_f = \\frac{A}{1 + A\\beta}$?",
+      "optionsEn": [],
+      "explanationEn": "$A_f = \\frac{100}{1 + 100(0.09)} = \\frac{100}{10} = 10$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "60",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 60.0,
+      "natMax": 60.0,
+      "questionTextEn": "A Zener diode regulator has $V_Z = 6\\text{ V}$, series resistor $R_S = 100\\,\\Omega$, and supply voltage $V_S = 12\\text{ V}$. With no load connected ($R_L = \\infty$), what is the Zener current $I_Z$ (in mA)?",
+      "optionsEn": [],
+      "explanationEn": "$I_Z = (V_S - V_Z) / R_S = (12 - 6) / 100 = 0.06\\text{ A} = 60\\text{ mA}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "100",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 100.0,
+      "natMax": 100.0,
+      "questionTextEn": "An op-amp has a unity-gain bandwidth (gain-bandwidth product) of $2\\text{ MHz}$. If configured as a non-inverting amplifier with closed-loop gain $20$, what is its $-3\\text{ dB}$ closed-loop bandwidth (in kHz)?",
+      "optionsEn": [],
+      "explanationEn": "$\\text{BW} = \\text{GBW} / A_v = 2000\\text{ kHz} / 20 = 100\\text{ kHz}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "30",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 30.0,
+      "natMax": 30.0,
+      "questionTextEn": "An ideal voltage amplifier has a power gain of $1000$. What is this power gain expressed in decibels (dB)?",
+      "optionsEn": [],
+      "explanationEn": "$G_{\\text{dB}} = 10\\log_{10}(1000) = 30\\text{ dB}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a fixed-bias silicon BJT circuit ($V_{BE} = 0.7\\text{ V}$, $\\beta = 100$) with $V_{CC} = 10.7\\text{ V}$, $R_B = 500\\,\\text{k}\\Omega$, and $R_C = 2\\,\\text{k}\\Omega$, what is the collector-emitter voltage $V_{CE}$?",
+      "optionsEn": [
+        "$5.7\\text{ V}$",
+        "$8.7\\text{ V}$",
+        "$4.7\\text{ V}$",
+        "$6.7\\text{ V}$"
+      ],
+      "explanationEn": "$I_B = \\frac{V_{CC} - V_{BE}}{R_B} = \\frac{10.0}{500\\text{ k}\\Omega} = 20\\,\\mu\\text{A}$. $I_C = \\beta I_B = 2\\text{ mA}$. Thus $V_{CE} = V_{CC} - I_C R_C = 10.7 - (2\\text{ mA})(2\\text{ k}\\Omega) = 6.7\\text{ V}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A 3-variable Boolean function $F(A, B, C)$ is implemented with a 4-to-1 MUX having select lines $S_1 = A, S_0 = B$ and data inputs $I_0 = 0, I_1 = C, I_2 = C, I_3 = 1$. Which circuit does this MUX realize?",
+      "optionsEn": [
+        "Carry-out of a Full Adder ($AB + BC + CA$)",
+        "Sum of a Full Adder ($A \\oplus B \\oplus C$)",
+        "3-input AND gate",
+        "3-input OR gate"
+      ],
+      "explanationEn": "$F = A'B'(0) + A'B(C) + AB'(C) + AB(1) = AB + BC + CA$, which is the majority / full-adder carry-out function."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The Boolean function $F(A, B, C) = \\Sigma m(1, 3, 5, 7)$ simplifies to:",
+      "optionsEn": [
+        "$C$",
+        "$B \\cdot C$",
+        "$C'$",
+        "$A + C$"
+      ],
+      "explanationEn": "Minterms 1, 3, 5, 7 are precisely all odd binary combinations (all rows with $C = 1$), so $F = C$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about op-amp circuits are TRUE?",
+      "optionsEn": [
+        "An ideal op-amp integrator's DC gain is infinite, so practical integrators place a large resistor in parallel with the feedback capacitor to prevent saturation from input offset voltage",
+        "An instrumentation amplifier typically uses 3 op-amps to provide high input impedance on both inputs and high CMRR",
+        "An inverting op-amp amplifier has infinite input impedance seen by the source",
+        "A voltage follower has closed-loop gain $+1$, very high input impedance, and very low output impedance"
+      ],
+      "explanationEn": "A, B, and C are exact. Because of the virtual ground at the inverting node, an inverting amplifier's input impedance is simply $R_1$, not infinite (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Hard",
+      "correctOption": "14",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "A full-wave bridge rectifier with ideal silicon diodes ($V_D = 0.7\\text{ V}$ each) is fed by a transformer secondary with peak voltage $V_m = 15.4\\text{ V}$. What is the peak output voltage across the load resistor (in Volts)?",
+      "optionsEn": [],
+      "explanationEn": "In a bridge rectifier, TWO diodes conduct in series during each half-cycle, so $V_{\\text{out,peak}} = V_m - 2V_D = 15.4 - 1.4 = 14.0\\text{ V}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "A JFET has $I_{DSS} = 12\\text{ mA}$ and $V_P = -4\\text{ V}$. What is its maximum transconductance $g_{m0} = \\frac{2 I_{DSS}}{|V_P|}$ at $V_{GS} = 0$ (in mS)?",
+      "optionsEn": [],
+      "explanationEn": "$g_{m0} = \\frac{2(12\\text{ mA})}{4\\text{ V}} = 6\\text{ mS}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "A 10-bit ADC has a full-scale input voltage range of $0$ to $10.24\\text{ V}$. What is its quantization step size (resolution, in mV)?",
+      "optionsEn": [],
+      "explanationEn": "Step size = $\\frac{10.24\\text{ V}}{2^{10}} = \\frac{10.24}{1024} = 0.01\\text{ V} = 10\\text{ mV}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Hard",
+      "correctOption": "31.6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 31.5,
+      "natMax": 31.7,
+      "questionTextEn": "A series RLC resonant circuit has $L = 1\\text{ mH}$, $C = 10\\text{ nF}$, and $R = 10\\,\\Omega$. What is its quality factor $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$?",
+      "optionsEn": [],
+      "explanationEn": "$Q = \\frac{1}{10}\\sqrt{\\frac{10^{-3}}{10^{-8}}} = \\frac{1}{10}\\sqrt{10^5} = \\frac{316.23}{10} \\approx 31.6$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Hard",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "A sinusoidal signal $V_{\\text{in}}(t) = 2\\sin(1000t)\\text{ V}$ is fed into an ideal op-amp inverting integrator with $R = 10\\,\\text{k}\\Omega$ and $C = 0.1\\,\\mu\\text{F}$. What is the peak amplitude of the sinusoidal output voltage (in Volts)?",
+      "optionsEn": [],
+      "explanationEn": "Integrator gain magnitude at angular frequency $\\omega$ is $\\frac{1}{\\omega R C} = \\frac{1}{1000(10^4)(10^{-7})} = \\frac{1}{1} = 1$. Thus peak output = $1 \\times 2 = 2\\text{ V}$."
+    },
+    {
+      "questionId": "gate_ph_topic_elec_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electronics (Set 1)",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "In an op-amp inverting amplifier with $R_1 = 4\\,\\text{k}\\Omega$ and $R_f = 20\\,\\text{k}\\Omega$, the DC supply rails are $\\pm 12\\text{ V}$ (output saturates at $\\pm 12\\text{ V}$). If $V_{\\text{in}} = -3\\text{ V}$, what is the actual output voltage $V_{\\text{out}}$ (in Volts)?",
+      "optionsEn": [],
+      "explanationEn": "Ideal linear output would be $-(20/4)(-3) = +15\\text{ V}$, which exceeds the $+12\\text{ V}$ saturation limit, so the output clips at $+12\\text{ V}$."
+    }
+  ]
+}

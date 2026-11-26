@@ -1,0 +1,613 @@
+{
+  "testId": "jam_ma_topic_group_theory_combinatorics_02",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_topic_group_theory_combinatorics_02",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 MA Topic Test: Group Theory & Basic Algebra — Set 02",
+  "titleEn": "IIT JAM 2027 MA Topic Test: Group Theory & Basic Algebra — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_08_group_theory",
+  "part_id": "part_08_group_theory",
+  "partTitle": "Group Theory & Abstract Algebra",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Group Theory & Abstract Algebra • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Normal Subgroups",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H$ be a subgroup of a group $G$ with index $[G : H] = 2$. Which one of the following statements is ALWAYS TRUE?",
+      "optionsEn": [
+        "$G$ is abelian.",
+        "$H$ is a normal subgroup of $G$.",
+        "$H$ is cyclic.",
+        "$G/H$ is trivial."
+      ],
+      "explanationEn": "Any subgroup $H$ of index $2$ in $G$ has only two left cosets ($H$ and $G \\setminus H$) and the same two right cosets ($H$ and $G \\setminus H$), so $gH = Hg$ for all $g \\in G$. Hence $H \\trianglelefteq G$ always holds (e.g., $A_n \\trianglelefteq S_n$)."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Finite Groups",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following groups is isomorphic to the Klein four-group $V_4$?",
+      "optionsEn": [
+        "$U(5)$",
+        "$\\mathbb{Z}_4$",
+        "$U(10)$",
+        "$U(8)$"
+      ],
+      "explanationEn": "In $U(8) = \\{\\bar{1}, \\bar{3}, \\bar{5}, \\bar{7}\\}$, every non-identity element has order $2$ ($3^2 \\equiv 5^2 \\equiv 7^2 \\equiv 1 \\pmod 8$), so $U(8) \\cong V_4$. Meanwhile, $\\mathbb{Z}_4, U(5), U(10)$ are all cyclic of order $4$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Binomial Identities",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the value of $\\sum_{k=1}^{8} k \\binom{8}{k}$?",
+      "optionsEn": [
+        "$2048$",
+        "$256$",
+        "$1024$",
+        "$512$"
+      ],
+      "explanationEn": "Differentiating $(1 + x)^n = \\sum_{k=0}^n \\binom{n}{k} x^k$ and setting $x = 1$ gives $\\sum_{k=1}^n k \\binom{n}{k} = n 2^{n-1}$. For $n = 8$, this equals $8 \\cdot 2^7 = 1024$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Finite Groups",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the smallest positive integer $n$ for which there exists a non-abelian group of order $n$?",
+      "optionsEn": [
+        "$8$",
+        "$4$",
+        "$6$",
+        "$9$"
+      ],
+      "explanationEn": "Groups of orders $1, 2, 3, 5$ are cyclic (prime or trivial), and groups of order $4 = 2^2$ are abelian. At $n = 6$, the symmetric group $S_3$ is non-abelian, so $n = 6$ is the smallest such order."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Permutation Groups",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the permutation $\\sigma = (1\\;2\\;3\\;4)(5\\;6)$ in $S_6$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$\\sigma$ is an even permutation of order $4$.",
+        "$\\sigma$ is an even permutation of order $6$.",
+        "$\\sigma$ is an odd permutation of order $4$.",
+        "$\\sigma$ is an odd permutation of order $8$."
+      ],
+      "explanationEn": "A $k$-cycle has parity $(-1)^{k-1}$. Thus $(1\\;2\\;3\\;4)$ is odd and $(5\\;6)$ is odd, so their product $\\sigma$ is even ($\\sigma \\in A_6$). Since the cycles are disjoint, $\\operatorname{ord}(\\sigma) = \\operatorname{lcm}(4, 2) = 4$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Direct Products",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "How many elements of order $6$ are there in the direct product group $\\mathbb{Z}_{12} \\times \\mathbb{Z}_{18}$?",
+      "optionsEn": [
+        "$18$",
+        "$36$",
+        "$12$",
+        "$24$"
+      ],
+      "explanationEn": "An element $(a, b) \\in \\mathbb{Z}_{12} \\times \\mathbb{Z}_{18}$ satisfies $6(a, b) = (0, 0)$ iff $a \\in \\langle 2 \\rangle$ ($6$ choices) and $b \\in \\langle 3 \\rangle$ ($6$ choices), giving $36$ elements of order dividing $6$. Among these, elements of order dividing $2$ have $2 \\times 2 = 4$ choices, elements of order dividing $3$ have $3 \\times 3 = 9$ choices, and the identity $(0, 0)$ is counted in both. By inclusion-exclusion, the number of elements of exact order $6$ is $36 - 4 - 9 + 1 = 24$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Subgroups",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H$ and $K$ be finite subgroups of a group $G$ with $|H| = 8$, $|K| = 12$, and $|H \\cap K| = 4$. What is the cardinality of the set $HK = \\{hk : h \\in H, k \\in K\\}$?",
+      "optionsEn": [
+        "$20$",
+        "$32$",
+        "$24$",
+        "$16$"
+      ],
+      "explanationEn": "Regardless of whether $HK$ is a subgroup, the product formula gives $|HK| = \\frac{|H||K|}{|H \\cap K|} = \\frac{8 \\times 12}{4} = 24$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Conjugacy Classes",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "How many distinct conjugacy classes does the dihedral group $D_5$ (of order $10$) have?",
+      "optionsEn": [
+        "$4$",
+        "$3$",
+        "$6$",
+        "$5$"
+      ],
+      "explanationEn": "In $D_5 = \\langle r, s \\mid r^5 = s^2 = e, srs = r^{-1} \\rangle$: $\\{e\\}$ is a class of size $1$; the rotations split into two classes $\\{r, r^4\\}$ and $\\{r^2, r^3\\}$ of size $2$ each; and since $5$ is odd, all $5$ reflections form a single conjugacy class of size $5$. Thus the class equation is $10 = 1 + 2 + 2 + 5$, giving $4$ conjugacy classes."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Lagrange Theorem",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H$ and $K$ be subgroups of a finite group $G$ of indices $[G : H] = 3$ and $[G : K] = 5$. What is the index $[G : H \\cap K]$?",
+      "optionsEn": [
+        "$8$",
+        "Either $5$ or $15$",
+        "Cannot be determined without knowing $|G|$",
+        "$15$"
+      ],
+      "explanationEn": "Since $H \\cap K \\subseteq H$ and $H \\cap K \\subseteq K$, both $[G : H] = 3$ and $[G : K] = 5$ divide $[G : H \\cap K]$. As $\\gcd(3, 5) = 1$, $15$ divides $[G : H \\cap K]$. On the other hand, $[G : H \\cap K] \\le [G : H][G : K] = 15$ always holds. Therefore, $[G : H \\cap K] = 15$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the total number of group homomorphisms from $\\mathbb{Z}_4$ to the symmetric group $S_4$?",
+      "optionsEn": [
+        "$24$",
+        "$16$",
+        "$12$",
+        "$10$"
+      ],
+      "explanationEn": "A homomorphism $\\phi : \\mathbb{Z}_4 \\to S_4$ is uniquely determined by $\\sigma = \\phi(\\bar{1}) \\in S_4$ satisfying $\\sigma^4 = e$, i.e., $\\operatorname{ord}(\\sigma) \\mid 4$. In $S_4$, the counts of elements with order dividing $4$ are: identity ($1$), transpositions ($6$), double transpositions ($3$), and $4$-cycles ($6$). Summing gives $1 + 6 + 3 + 6 = 16$ homomorphisms."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Matrix Groups",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the general linear group $GL_2(\\mathbb{R})$ under matrix multiplication. Which of the following subsets is/are normal subgroups of $GL_2(\\mathbb{R})$?",
+      "optionsEn": [
+        "$SL_2(\\mathbb{R}) = \\{A \\in GL_2(\\mathbb{R}) : \\det(A) = 1\\}$",
+        "$H_1 = \\{A \\in GL_2(\\mathbb{R}) : \\det(A) > 0\\}$",
+        "$H_2 = \\{\\lambda I_2 : \\lambda \\in \\mathbb{R} \\setminus \\{0\\}\\}$",
+        "$H_3 = \\{A \\in GL_2(\\mathbb{R}) : A \\text{ is upper triangular}\\}$"
+      ],
+      "explanationEn": "$SL_2(\\mathbb{R}) = \\ker(\\det)$ and $H_1 = \\ker(A \\mapsto \\operatorname{sgn}(\\det A))$ are kernels of homomorphisms, hence normal ((A), (B) TRUE). $H_2 = Z(GL_2(\\mathbb{R}))$ is the center, hence normal ((C) TRUE). $H_3$ is NOT normal: conjugating an upper-triangular matrix by $\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$ yields a lower-triangular matrix ((D) FALSE)."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Permutation Groups",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about $S_4$ is/are TRUE?",
+      "optionsEn": [
+        "$S_4$ has a subgroup isomorphic to $D_4$.",
+        "$S_4$ has a subgroup isomorphic to $Q_8$.",
+        "$S_4$ has exactly $5$ conjugacy classes.",
+        "Every element of $S_4$ has order dividing $12$."
+      ],
+      "explanationEn": "(A) The symmetries of a square with vertices $1, 2, 3, 4$ embed $D_4$ into $S_4$ (as a Sylow $2$-subgroup); TRUE. (B) All Sylow $2$-subgroups of $S_4$ are conjugate to $D_4$, and $Q_8 \\not\\cong D_4$, so $S_4$ has NO subgroup isomorphic to $Q_8$; FALSE. (C) The conjugacy classes of $S_4$ correspond to the partitions of $4$: $(4), (3,1), (2,2), (2,1,1), (1,1,1,1)$ — $5$ classes; TRUE. (D) Element orders in $S_4$ are $1, 2, 3, 4$, all dividing $12$; TRUE."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Derangements",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $D_n$ denote the number of derangements of $n$ distinct objects (with $D_0 = 1$). Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$D_5 = 44$.",
+        "$D_n = (n - 1)(D_{n-1} + D_{n-2})$ for all $n \\ge 2$.",
+        "$D_n = n D_{n-1} + (-1)^n$ for all $n \\ge 1$.",
+        "$\\lim_{n \\to \\infty} \\frac{D_n}{n!} = \\frac{1}{e}$."
+      ],
+      "explanationEn": "All four are fundamental properties of derangements: $D_5 = 5!(1 - 1 + \\frac{1}{2} - \\frac{1}{6} + \\frac{1}{24} - \\frac{1}{120}) = 44$; both recurrences $D_n = (n-1)(D_{n-1} + D_{n-2})$ and $D_n = nD_{n-1} + (-1)^n$ hold identically; and $\\frac{D_n}{n!} = \\sum_{k=0}^n \\frac{(-1)^k}{k!} \\to e^{-1}$ as $n \\to \\infty$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Binomial Theorem",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the binomial expansion of $(1 + x)^{11}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The expansion has $12$ terms.",
+        "The expansion has two middle terms, namely the $6^{\\text{th}}$ and $7^{\\text{th}}$ terms.",
+        "The largest binomial coefficient in the expansion is $\\binom{11}{5} = 462$.",
+        "The sum of all coefficients of odd powers of $x$ is $2^{11}$."
+      ],
+      "explanationEn": "(A) $(1 + x)^{11}$ has $11 + 1 = 12$ terms; TRUE. (B) For odd $n = 11$, the two middle terms are the $\\frac{11+1}{2} = 6^{\\text{th}}$ and $7^{\\text{th}}$ terms; TRUE. (C) The maximum binomial coefficient is $\\binom{11}{5} = \\binom{11}{6} = 462$; TRUE. (D) The sum of coefficients of odd powers is $2^{11 - 1} = 2^{10} = 1024 \\neq 2^{11}$; FALSE."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Alternating Groups",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The number of elements of order $3$ in the alternating group $A_4$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "An element of order $3$ in $A_4$ is a $3$-cycle. The number of $3$-cycles in $S_4$ (all of which are even) is $\\binom{4}{3} \\cdot (3 - 1)! = 4 \\times 2 = 8$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Units Group U(n)",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "The order of the element $\\bar{2}$ in the multiplicative group $U(17)$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Computing powers of $2$ modulo $17$: $2^1 = 2$, $2^2 = 4$, $2^3 = 8$, $2^4 = 16 \\equiv -1$, so $2^8 \\equiv (-1)^2 = 1 \\pmod{17}$. Since $2^4 \\not\\equiv 1$, the order of $\\bar{2}$ in $U(17)$ is $8$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Permutation Groups",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The order of the permutation $\\sigma = (1\\;2\\;3)(2\\;3\\;4)(3\\;4\\;5)$ in $S_5$ (composed from right to left) is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Evaluating from right to left: $1 \\mapsto 1 \\mapsto 1 \\mapsto 2$, $2 \\mapsto 2 \\mapsto 3 \\mapsto 1$, $3 \\mapsto 4 \\mapsto 2 \\mapsto 3$, $4 \\mapsto 5 \\mapsto 5 \\mapsto 5$, and $5 \\mapsto 3 \\mapsto 4 \\mapsto 4$. Thus $\\sigma = (1\\;2)(4\\;5)$, which is a product of two disjoint transpositions and has order $2$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Dihedral Groups",
+      "difficulty": "Easy",
+      "correctOption": "9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "The number of elements of order $2$ in the dihedral group $D_9$ (of order $18$) is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Since $9$ is odd, none of the rotations in $D_9$ has order $2$, while all $9$ reflections have order $2$. Hence there are $9$ elements of order $2$ in $D_9$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Binomial Theorem",
+      "difficulty": "Easy",
+      "correctOption": "672",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 672.0,
+      "natMax": 672.0,
+      "questionTextEn": "The coefficient of $x^5$ in the expansion of $(1 + 2x)^7$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "By the Binomial Theorem, the coefficient of $x^5$ is $\\binom{7}{5} 2^5 = 21 \\times 32 = 672$."
+    },
+    {
+      "questionId": "jam_ma_topic_group_theory_combinatorics_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Group Theory & Abstract Algebra (Set 02)",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Hard",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "The total number of group homomorphisms from $\\mathbb{Z}_2 \\times \\mathbb{Z}_2$ to $S_3$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "A homomorphism $\\phi : \\mathbb{Z}_2 \\times \\mathbb{Z}_2 \\to S_3$ is uniquely determined by a commuting pair $(x, y) = (\\phi(1,0), \\phi(0,1))$ in $S_3$ satisfying $x^2 = y^2 = e$. The elements of $S_3$ with $g^2 = e$ are $e$ and the $3$ transpositions. Case 1: $x = e$, then $y$ can be any of the $4$ such elements ($4$ maps). Case 2: $x$ is one of the $3$ transpositions, then $y$ must commute with $x$ and satisfy $y^2 = e$, leaving only $y = e$ or $y = x$ ($3 \\times 2 = 6$ maps). In total, there are $4 + 6 = 10$ homomorphisms."
+    }
+  ]
+}

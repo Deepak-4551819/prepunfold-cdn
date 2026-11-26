@@ -1,0 +1,580 @@
+{
+  "testId": "gate_ma_topic_na_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_na_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Numerical Analysis — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Numerical Analysis — Set 1",
+  "partId": "part_09_na",
+  "part_id": "part_09_na",
+  "partTitle": "Numerical Analysis",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: संख्यात्मक विश्लेषण — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Numerical Analysis • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "sectionTitleEn": "Numerical Analysis",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_na_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f \\in C^2[a, b]$ satisfy $f''(x) < 0$ for all $x \\in [a, b]$. If $T_n$ denotes the composite trapezoidal rule approximation to $I = \\int_a^b f(x)\\,dx$ with $n$ equal subintervals, then:",
+      "optionsEn": [
+        "$T_n > I$ for every $n \\ge 1$.",
+        "$T_n < I$ for every $n \\ge 1$.",
+        "$T_n = I$ for all even $n$.",
+        "The sign of $I - T_n$ alternates with $n$."
+      ],
+      "explanationEn": "The error in the composite trapezoidal rule is $I - T_n = -\\frac{(b-a)h^2}{12} f''(\\xi)$ for some $\\xi \\in (a, b)$. Since $f''(\\xi) < 0$, we have $I - T_n > 0$, meaning $T_n < I$ for every $n \\ge 1$ (geometrically, chords of a strictly concave function lie strictly below the curve)."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Direct Linear Systems",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In solving an $n \\times n$ dense linear system $Ax = b$ by Gaussian elimination with back-substitution, how does the dominant leading term of the total number of floating-point multiplications/divisions scale with $n$ for large $n$?",
+      "optionsEn": [
+        "$\\frac{1}{2} n^2$",
+        "$n^3$",
+        "$\\frac{1}{3} n^3$",
+        "$\\frac{2}{3} n^3$"
+      ],
+      "explanationEn": "Forward elimination requires $\\sum_{k=1}^{n-1} (n-k)(n-k+2) \\approx \\frac{1}{3} n^3$ multiplications/divisions (and an equal $\\approx \\frac{1}{3}n^3$ additions/subtractions, totaling $\\frac{2}{3}n^3$ flops). Back-substitution requires only $O(n^2)$ operations. Hence the number of multiplications/divisions scales as $\\frac{1}{3}n^3$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Nonlinear Equations",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "To find the unique positive root $\\xi$ of $x^3 + 4x^2 - 10 = 0$ in $[1, 2]$, consider the fixed-point iteration $x_{n+1} = g(x_n)$ with $g(x) = \\sqrt{\\frac{10}{x+4}}$. Which statement correctly describes the local convergence near $\\xi$?",
+      "optionsEn": [
+        "It converges linearly with oscillatory behavior around $\\xi$.",
+        "It diverges because $g'(\\xi) < -1$.",
+        "It converges quadratically because $g'(\\xi) = 0$.",
+        "It converges monotonically from above without oscillation."
+      ],
+      "explanationEn": "Differentiating $g(x) = \\sqrt{10}(x+4)^{-1/2}$ gives $g'(x) = -\\frac{\\sqrt{10}}{2(x+4)^{3/2}}$. On $[1, 2]$, $g'(x) < 0$ and $|g'(x)| \\le \\frac{\\sqrt{10}}{2 \\cdot 5^{3/2}} = \\frac{1}{5\\sqrt{2}} \\approx 0.141 < 1$. Because $-1 < g'(\\xi) < 0$, the fixed-point iteration converges linearly and oscillates on alternating sides of $\\xi$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical ODEs",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Explicit Euler's method with step size $h > 0$ is applied to the test initial value problem $y' = -5y$, $y(0) = 1$. For which values of $h$ does the numerical sequence $\\{y_n\\}$ satisfy $\\lim_{n \\to \\infty} y_n = 0$?",
+      "optionsEn": [
+        "$0 < h < 0.2$",
+        "All $h > 0$",
+        "$0 < h < 0.5$",
+        "$0 < h < 0.4$"
+      ],
+      "explanationEn": "Explicit Euler's method gives $y_{n+1} = y_n + h(-5 y_n) = (1 - 5h) y_n$, so $y_n = (1 - 5h)^n$. For $\\lim_{n \\to \\infty} y_n = 0$, we need $|1 - 5h| < 1 \\iff -1 < 1 - 5h < 1 \\iff 0 < 5h < 2 \\iff 0 < h < 0.4$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Nonlinear Equations",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: [a, b] \\to \\mathbb{R}$ be continuous with $f(a)f(b) < 0$, and let $\\{c_n\\}_{n \\ge 1}$ be the sequence of midpoints generated by the bisection method (with $c_1 = \\frac{a+b}{2}$). Which of the following statements is/are ALWAYS TRUE?",
+      "optionsEn": [
+        "The sequence $\\{c_n\\}$ converges to a root $\\xi \\in (a, b)$ of $f$.",
+        "The error satisfies $|c_n - \\xi| \\le \\frac{b - a}{2^n}$ for all $n \\ge 1$.",
+        "The sequence $\\{|c_n - \\xi|\\}$ is strictly decreasing for every $n \\ge 1$.",
+        "The method requires $f$ to be differentiable on $(a, b)$."
+      ],
+      "explanationEn": "By the Intermediate Value Theorem and nested intervals, $\\{c_n\\}$ always converges to a root $\\xi \\in (a, b)$ with $|c_n - \\xi| \\le \\frac{b-a}{2^n}$ (A and B are true). However, $|c_{n+1} - \\xi|$ is not guaranteed to be strictly smaller than $|c_n - \\xi|$ at every single step (e.g., if $\\xi$ is very close to $c_1$, then $c_2$ can be farther from $\\xi$ than $c_1$), so (C) is false. Bisection only requires continuity, not differentiability, so (D) is false."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the composite trapezoidal rule ($T_h$) and composite Simpson's $1/3$ rule ($S_h$) on $[a, b]$ with uniform step size $h = \\frac{b-a}{N}$ (assuming $N$ is even) for a smooth function $f \\in C^4[a, b]$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "Halving the step size $h$ reduces the asymptotic error of $T_h$ by approximately a factor of $4$.",
+        "Halving the step size $h$ reduces the asymptotic error of $S_h$ by approximately a factor of $16$.",
+        "Both $T_h$ and $S_h$ integrate every cubic polynomial exactly.",
+        "All quadrature weights in both $T_h$ and $S_h$ are strictly positive."
+      ],
+      "explanationEn": "The composite trapezoidal error is $O(h^2)$ (factor $2^2 = 4$ upon halving $h$, A is true) and composite Simpson's $1/3$ error is $O(h^4)$ (factor $2^4 = 16$ upon halving $h$, B is true). Both rules have strictly positive weights ($h/2, h$ for $T_h$ and $h/3, 4h/3, 2h/3$ for $S_h$, D is true). However, $T_h$ has degree of precision $1$ (not exact for quadratics or cubics), so (C) is false."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Interpolation",
+      "difficulty": "Easy",
+      "correctOption": "48",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 48.0,
+      "natMax": 48.0,
+      "questionTextEn": "Let $\\Delta$ denote the forward difference operator with step size $h = 2$, defined by $\\Delta f(x) = f(x+2) - f(x)$. For $f(x) = x^3 - 7x^2 + 4x - 9$, the value of $\\Delta^3 f(1)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "For a polynomial $f(x) = a_n x^n + \\dots + a_0$ of degree $n$, the $n$-th forward difference with step size $h$ is constant and equals $a_n n! h^n$. Here $n = 3$, $a_3 = 1$, and $h = 2$, so $\\Delta^3 f(1) = 1 \\cdot 3! \\cdot 2^3 = 6 \\times 8 = 48$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical ODEs",
+      "difficulty": "Easy",
+      "correctOption": "2.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.5,
+      "natMax": 2.5,
+      "questionTextEn": "Consider the initial value problem $\\frac{dy}{dx} = x + y$, $y(0) = 1$. Using explicit Euler's method with step size $h = 0.5$, the approximate value of $y(1)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Step 1 ($x_0 = 0, y_0 = 1$): $y_1 = y_0 + h(x_0 + y_0) = 1 + 0.5(0 + 1) = 1.5$. Step 2 ($x_1 = 0.5, y_1 = 1.5$): $y_2 = y_1 + h(x_1 + y_1) = 1.5 + 0.5(0.5 + 1.5) = 1.5 + 1.0 = 2.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Direct Linear Systems",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $A = \\begin{pmatrix} 9 & 6 & 3 \\\\ 6 & 8 & 4 \\\\ 3 & 4 & 6 \\end{pmatrix} = LL^T$ be the Cholesky factorization of $A$, where $L = (l_{ij})$ is a lower triangular matrix with positive diagonal entries. The value of $l_{33}$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "From $A = LL^T$: $l_{11} = \\sqrt{9} = 3$; $l_{21} = 6/3 = 2$; $l_{31} = 3/3 = 1$. Next, $l_{22} = \\sqrt{8 - l_{21}^2} = \\sqrt{8 - 4} = 2$, and $l_{32} = (4 - l_{31}l_{21})/l_{22} = (4 - 2)/2 = 1$. Finally, $l_{33} = \\sqrt{6 - l_{31}^2 - l_{32}^2} = \\sqrt{6 - 1 - 1} = \\sqrt{4} = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Iterative Linear Systems",
+      "difficulty": "Easy",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "For the coefficient matrix $A = \\begin{pmatrix} 10 & -2 & 3 \\\\ 1 & 8 & -2 \\\\ -2 & 1 & 6 \\end{pmatrix}$, the infinity norm $\\|T_J\\|_\\infty$ of the Jacobi iteration matrix $T_J$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "The Jacobi iteration matrix is $T_J = -D^{-1}(L + U) = \\begin{pmatrix} 0 & 0.2 & -0.3 \\\\ -0.125 & 0 & 0.25 \\\\ 1/3 & -1/6 & 0 \\end{pmatrix}$. The absolute row sums are $0.2 + 0.3 = 0.5$, $0.125 + 0.25 = 0.375$, and $\\frac{1}{3} + \\frac{1}{6} = 0.5$. Hence $\\|T_J\\|_\\infty = \\max(0.5, 0.375, 0.5) = 0.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $I = \\int_0^2 x^5\\,dx$ and let $S_4$ be the approximation to $I$ obtained by the composite Simpson's $1/3$ rule with $n = 4$ equal subintervals. Then $S_4 - I$ equals:",
+      "optionsEn": [
+        "$\\frac{1}{6}$",
+        "$-\\frac{1}{12}$",
+        "$\\frac{1}{24}$",
+        "$\\frac{1}{12}$"
+      ],
+      "explanationEn": "With $h = \\frac{2}{4} = \\frac{1}{2}$, the composite Simpson's rule gives $S_4 = \\frac{1}{6}\\left[0 + 4\\left(\\frac{1}{32}\\right) + 2(1) + 4\\left(\\frac{243}{32}\\right) + 32\\right] = \\frac{1}{6}\\left[\\frac{1}{8} + 2 + \\frac{243}{8} + 32\\right] = \\frac{1}{6}\\left[\\frac{244}{8} + 34\\right] = \\frac{1}{6}\\left(\\frac{61}{2} + 34\\right) = \\frac{129}{12} = \\frac{43}{4}$. Since $I = \\frac{2^6}{6} = \\frac{32}{3}$, we obtain $S_4 - I = \\frac{43}{4} - \\frac{32}{3} = \\frac{129 - 128}{12} = \\frac{1}{12}$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical ODEs",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the initial value problem $y' = -\\lambda y$, $y(0) = 1$ with $\\lambda > 0$. Both explicit Euler ($y_n^E$) and implicit (backward) Euler ($y_n^I$) methods are applied with step size $h > 0$. Which of the following statements is TRUE for ALL $h > 0$?",
+      "optionsEn": [
+        "$y_n^I > 0$ and $\\lim_{n \\to \\infty} y_n^I = 0$ for every $h > 0$.",
+        "$y_n^E > 0$ and $\\lim_{n \\to \\infty} y_n^E = 0$ for every $h > 0$.",
+        "$y_n^I \\le e^{-\\lambda n h}$ for every $n \\ge 1$ and $h > 0$.",
+        "Implicit Euler has global truncation error $O(h^2)$."
+      ],
+      "explanationEn": "Implicit Euler gives $y_{n+1}^I = y_n^I - h\\lambda y_{n+1}^I \\implies y_n^I = \\frac{1}{(1 + h\\lambda)^n}$. For every $h > 0$ and $\\lambda > 0$, $1 + h\\lambda > 1$, so $y_n^I > 0$ and $\\lim_{n \\to \\infty} y_n^I = 0$ unconditionally (A-stability). Note that $\\frac{1}{1+z} > e^{-z}$ for $z > 0$, so (C) is false; explicit Euler diverges for $h\\lambda > 2$, so (B) is false; and implicit Euler is first-order ($O(h)$), so (D) is false."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Iterative Linear Systems",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the linear system $Ax = b$ with tridiagonal coefficient matrix $A = \\begin{pmatrix} 1 & a & 0 \\\\ a & 1 & a \\\\ 0 & a & 1 \\end{pmatrix}$, where $a \\in \\mathbb{R}$. The Jacobi iterative method converges for every initial guess $x^{(0)}$ if and only if:",
+      "optionsEn": [
+        "$|a| < \\frac{\\sqrt{3}}{2}$",
+        "$|a| < \\frac{1}{\\sqrt{2}}$",
+        "$|a| < 1$",
+        "$|a| < \\frac{1}{2}$"
+      ],
+      "explanationEn": "The Jacobi iteration matrix is $T_J = I - D^{-1}A = \\begin{pmatrix} 0 & -a & 0 \\\\ -a & 0 & -a \\\\ 0 & -a & 0 \\end{pmatrix}$. Its characteristic polynomial is $\\det(\\lambda I - T_J) = \\lambda(\\lambda^2 - 2a^2) = 0$, giving eigenvalues $0, \\pm\\sqrt{2}a$. Thus $\\rho(T_J) = \\sqrt{2}|a|$. Convergence for all $x^{(0)}$ holds if and only if $\\rho(T_J) < 1 \\iff |a| < \\frac{1}{\\sqrt{2}}$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the quadrature rule $\\int_0^1 f(x)\\,dx \\approx a f(0) + b f(1) + c f'(0)$ having the highest possible degree of precision. The ordered triple $(a, b, c)$ is:",
+      "optionsEn": [
+        "$\\left(\\frac{2}{3}, \\frac{1}{3}, \\frac{1}{6}\\right)$",
+        "$\\left(\\frac{1}{2}, \\frac{1}{2}, \\frac{1}{12}\\right)$",
+        "$\\left(\\frac{2}{3}, \\frac{1}{3}, -\\frac{1}{6}\\right)$",
+        "$\\left(\\frac{1}{3}, \\frac{2}{3}, \\frac{1}{6}\\right)$"
+      ],
+      "explanationEn": "Enforcing exactness for $f(x) = 1, x, x^2$: (1) $a + b = 1$; (2) $b + c = \\frac{1}{2}$; (3) $b = \\frac{1}{3}$. Solving gives $b = \\frac{1}{3}$, $a = 1 - \\frac{1}{3} = \\frac{2}{3}$, and $c = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about closed Newton-Cotes integration formulas on $[a, b]$ with $n+1$ equally spaced nodes is/are TRUE?",
+      "optionsEn": [
+        "For $n = 4$ (Boole's rule), the degree of precision is $5$.",
+        "For every $n \\ge 1$, all weights of the closed Newton-Cotes formula are strictly positive.",
+        "For every $n \\ge 1$, the sum of the quadrature weights equals $b - a$.",
+        "The midpoint rule $\\int_a^b f(x)\\,dx \\approx (b - a) f\\left(\\frac{a+b}{2}\\right)$ is an open Newton-Cotes formula with degree of precision $1$."
+      ],
+      "explanationEn": "For even $n$, the closed Newton-Cotes formula has degree of precision $n + 1$, so for $n = 4$ (Boole's rule) it is $5$ (A is true). Exactness on $f(x) = 1$ forces the sum of weights to equal $\\int_a^b 1\\,dx = b - a$ (C is true). The midpoint rule uses $1$ interior node (open Newton-Cotes) and integrates linear polynomials exactly, so its degree of precision is $1$ (D is true). However, closed Newton-Cotes weights become negative starting at $n = 8$ (and $n \\ge 10$), so (B) is false."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Iterative Linear Systems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A$ be a real $n \\times n$ symmetric positive definite (SPD) matrix. Which of the following statements is/are ALWAYS TRUE?",
+      "optionsEn": [
+        "$A$ admits a unique Cholesky factorization $A = LL^T$ with positive diagonal entries in $L$.",
+        "The Gauss-Seidel method for $Ax = b$ converges for every initial guess $x^{(0)}$.",
+        "The Jacobi method for $Ax = b$ converges for every initial guess $x^{(0)}$.",
+        "Gaussian elimination without pivoting on $A$ never encounters a zero pivot."
+      ],
+      "explanationEn": "Every SPD matrix has strictly positive leading principal minors, so Gaussian elimination without pivoting never encounters a zero pivot (D) and it admits a unique Cholesky factorization (A). By the Ostrowski-Reich theorem, Gauss-Seidel always converges for every SPD matrix (B). However, Jacobi does NOT always converge for SPD matrices (e.g., $A = \\begin{pmatrix} 1 & 0.8 & 0.8 \\\\ 0.8 & 1 & 0.8 \\\\ 0.8 & 0.8 & 1 \\end{pmatrix}$ is SPD with eigenvalues $2.6, 0.2, 0.2$, yet $\\rho(T_J) = 1.6 > 1$), so (C) is false."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Hard",
+      "correctOption": "0.6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.6,
+      "natMax": 0.6,
+      "questionTextEn": "Consider the quadrature formula $\\int_{-1}^{1} x^2 f(x)\\,dx \\approx w_1 f(-\\alpha) + w_2 f(\\alpha)$ with $\\alpha > 0$. If $w_1, w_2, \\alpha$ are chosen to achieve the maximum possible degree of precision ($3$), then the value of $\\alpha^2$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "By symmetry, $w_1 = w_2 = w$ guarantees exactness for all odd polynomials ($x$ and $x^3$). Exactness for $f(x) = 1$ gives $2w = \\int_{-1}^1 x^2\\,dx = \\frac{2}{3} \\implies w = \\frac{1}{3}$. Exactness for $f(x) = x^2$ gives $2w\\alpha^2 = \\int_{-1}^1 x^4\\,dx = \\frac{2}{5} \\implies \\frac{2}{3}\\alpha^2 = \\frac{2}{5} \\implies \\alpha^2 = \\frac{3}{5} = 0.6$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Nonlinear Equations",
+      "difficulty": "Medium",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "Newton-Raphson iteration is used to approximate the simple real root $\\xi = 2$ of $f(x) = x^3 - 8 = 0$. The asymptotic error constant $\\lim_{n \\to \\infty} \\frac{|x_{n+1} - 2|}{|x_n - 2|^2}$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "For a simple root $\\xi$ of $f \\in C^2$, Newton-Raphson converges quadratically with asymptotic error constant $\\left|\\frac{f''(\\xi)}{2 f'(\\xi)}\\right|$. Here $f'(x) = 3x^2$ and $f''(x) = 6x$. At $\\xi = 2$, $f'(2) = 12$ and $f''(2) = 12$, so the constant is $\\frac{12}{2 \\times 12} = 0.5$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Numerical Differentiation",
+      "difficulty": "Medium",
+      "correctOption": "-1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -1.0,
+      "natMax": -1.0,
+      "questionTextEn": "The finite difference formula $f''(0) \\approx A f(-1) + B f(0) + C f(2)$ is exact for all polynomials of degree at most $2$. The value of $B$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Applying exactness to $f(x) = 1, x, x^2$ yields: $A + B + C = 0$, $-A + 2C = 0$ (so $A = 2C$), and $A(1) + B(0) + C(4) = 2 \\implies 6C = 2 \\implies C = \\frac{1}{3}$. Hence $A = \\frac{2}{3}$ and $B = -A - C = -1$."
+    },
+    {
+      "questionId": "gate_ma_topic_na_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Numerical Analysis (Set 1)",
+      "topicTag": "Interpolation",
+      "difficulty": "Medium",
+      "correctOption": "11",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 11.0,
+      "natMax": 11.0,
+      "questionTextEn": "For the function $f(x) = x^4$, let $f[x_0, x_1, x_2]$ denote the second divided difference. The limiting value $\\lim_{h \\to 0} f[1, 1+h, 2]$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "By definition, $f[1, 1+h, 2] = \\frac{f[1+h, 2] - f[1, 1+h]}{2 - 1}$. Taking $h \\to 0$, $f[1+h, 2] \\to f[1, 2] = \\frac{2^4 - 1^4}{2 - 1} = 15$, and $f[1, 1+h] \\to f'(1) = 4(1)^3 = 4$. Hence the limit is $\\frac{15 - 4}{1} = 11$."
+    }
+  ]
+}

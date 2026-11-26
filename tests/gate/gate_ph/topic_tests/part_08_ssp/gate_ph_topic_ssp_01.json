@@ -1,0 +1,553 @@
+{
+  "testId": "gate_ph_topic_ssp_01",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_ssp_01",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Solid State Physics — Set 1",
+  "titleEn": "GATE Physics Topic Test: Solid State Physics — Set 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_08_ssp",
+  "part_id": "part_08_ssp",
+  "partTitle": "Solid State Physics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Solid State Physics • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "sectionTitleEn": "Solid State Physics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_ssp_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 1D monatomic chain of identical atoms of mass $m$ with lattice spacing $a$ and spring constant $K$, the phonon dispersion relation is:",
+      "optionsEn": [
+        "$\\omega(k) = \\sqrt{\\frac{K}{m}} k a$",
+        "$\\omega(k) = \\frac{K}{m} k^2 a^2$",
+        "$\\omega(k) = 2\\sqrt{\\frac{K}{m}}\\left|\\cos\\left(\\frac{ka}{2}\\right)\\right|$",
+        "$\\omega(k) = 2\\sqrt{\\frac{K}{m}}\\left|\\sin\\left(\\frac{ka}{2}\\right)\\right|$"
+      ],
+      "explanationEn": "Solving $m\\ddot{u}_n = K(u_{n+1} + u_{n-1} - 2u_n)$ yields $\\omega(k) = 2\\sqrt{K/m}|\\sin(ka/2)|$, linear near $k = 0$ and flat at the Brillouin zone boundary $k = \\pm\\pi/a$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the coordination number (number of nearest neighbors) of an atom in a Diamond cubic structure (such as Silicon or Germanium)?",
+      "optionsEn": [
+        "4",
+        "8",
+        "6",
+        "12"
+      ],
+      "explanationEn": "Diamond cubic has tetrahedral $sp^3$ covalent bonding, giving each atom exactly 4 nearest neighbors."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the Debye model of lattice vibrations of a 3D crystal at very low temperatures ($T \\ll \\Theta_D$), the lattice specific heat $C_V$ varies with temperature as:",
+      "optionsEn": [
+        "$C_V \\propto T$",
+        "$C_V \\propto e^{-\\Theta_D / T}$",
+        "$C_V \\propto T^2$",
+        "$C_V \\propto T^3$"
+      ],
+      "explanationEn": "In 3D, acoustic phonon density of states scales as $\\omega^2$, yielding Debye's famous $T^3$ law: $C_V = \\frac{12\\pi^4}{5} N k_B (T/\\Theta_D)^3$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "How many Bravais lattices exist in three-dimensional (3D) crystallography?",
+      "optionsEn": [
+        "7",
+        "32",
+        "14",
+        "23"
+      ],
+      "explanationEn": "There are 7 crystal systems and 14 distinct 3D Bravais lattices (and 32 crystallographic point groups)."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the BCS isotope effect, the superconducting critical temperature $T_c$ scales with the isotopic atomic mass $M$ of the lattice ions as:",
+      "optionsEn": [
+        "$T_c \\propto M^{-1}$",
+        "$T_c \\propto M^{+1/2}$",
+        "$T_c \\propto M^{-1/2}$",
+        "$T_c$ is independent of $M$"
+      ],
+      "explanationEn": "Since $T_c \\propto \\Theta_D \\propto \\omega_D \\propto M^{-1/2}$, heavier isotopes have lower $T_c$ ($M^{1/2} T_c = \\text{const}$)."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about the AC and DC Josephson effects across a thin superconducting tunnel junction are TRUE?",
+      "optionsEn": [
+        "In the DC Josephson effect, a supercurrent $I = I_c \\sin\\phi$ flows at ZERO applied voltage ($V = 0$)",
+        "Josephson tunneling requires breaking Cooper pairs into normal electrons",
+        "In the AC Josephson effect, applying a constant DC voltage $V$ generates an alternating supercurrent of frequency $\\nu = \\frac{2eV}{h}$",
+        "The Josephson frequency-to-voltage ratio $\\frac{2e}{h} \\approx 483.6\\text{ MHz}/\\mu\\text{V}$ is used to define the SI voltage standard"
+      ],
+      "explanationEn": "A, B, and C are exact Josephson relations. Josephson tunneling is coherent tunneling of intact Cooper pairs across the weak link (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "How many atoms are present inside one conventional unit cell of a Diamond cubic crystal (e.g., Silicon)?",
+      "optionsEn": [],
+      "explanationEn": "FCC lattice (4 lattice points/conventional cell) $\\times$ 2-atom basis = 8 atoms per conventional unit cell."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "1000",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1000.0,
+      "natMax": 1000.0,
+      "questionTextEn": "A semiconductor has an energy band gap $E_g = 1.24\\text{ eV}$. Taking $hc = 1240\\text{ eV}\\cdot\\text{nm}$, what is the longest wavelength of light (in nm) that can be absorbed across the band gap?",
+      "optionsEn": [],
+      "explanationEn": "$\\lambda_{\\max} = \\frac{hc}{E_g} = \\frac{1240}{1.24} = 1000\\text{ nm}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "A simple cubic crystal has lattice constant $a = 3.0\\,\\text{\\AA}$. What is the interplanar spacing $d_{221}$ of the $(221)$ planes (in $\\text{\\AA}$)?",
+      "optionsEn": [],
+      "explanationEn": "$d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}} = \\frac{3.0}{\\sqrt{4 + 4 + 1}} = \\frac{3.0}{3} = 1.0\\,\\text{\\AA}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "20",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 20.0,
+      "natMax": 20.0,
+      "questionTextEn": "A metal has Fermi energy $E_F = 5.0\\text{ eV}$ and electron density $n$. If a second monovalent metal has half the lattice constant (8 times the electron density), what is its Fermi energy (in eV)?",
+      "optionsEn": [],
+      "explanationEn": "$E_F \\propto n^{2/3}$, so $E_F' = 5.0 \\times 8^{2/3} = 5.0 \\times 4 = 20\\text{ eV}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the London equation $\\nabla^2 \\mathbf{B} = \\frac{1}{\\lambda_L^2}\\mathbf{B}$, a magnetic field $B_0$ applied parallel to the flat surface ($x = 0$) of a semi-infinite superconductor ($x \\ge 0$) decays inside the superconductor as:",
+      "optionsEn": [
+        "$B(x) = B_0 e^{-x^2 / \\lambda_L^2}$",
+        "$B(x) = B_0 e^{-x / \\lambda_L}$",
+        "$B(x) = B_0 / (1 + x/\\lambda_L)$",
+        "$B(x) = B_0 \\cos(x / \\lambda_L)$"
+      ],
+      "explanationEn": "Solving $\\frac{d^2 B}{dx^2} = \\frac{1}{\\lambda_L^2}B$ with $B(0) = B_0$ and $B(\\infty) = 0$ gives exponential screening $B(x) = B_0 e^{-x/\\lambda_L}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 1D diatomic lattice with alternating masses $M > m$, equal spring constants $K$, and nearest-neighbor spacing $a/2$ (unit cell length $a$), what are the frequencies of the acoustic and optical branches at the Brillouin zone boundary $k = \\pi/a$?",
+      "optionsEn": [
+        "Acoustic: $0$; Optical: $\\sqrt{2K(1/m + 1/M)}$",
+        "Both equal to $\\sqrt{\\frac{K}{m+M}}$",
+        "Acoustic: $\\sqrt{\\frac{2K}{m}}$; Optical: $\\sqrt{\\frac{2K}{M}}$",
+        "Acoustic: $\\sqrt{\\frac{2K}{M}}$; Optical: $\\sqrt{\\frac{2K}{m}}$"
+      ],
+      "explanationEn": "At $k = \\pi/a$, the dispersion $\\omega^2 = K\\left(\\frac{1}{m} + \\frac{1}{M}\\right) \\pm K\\sqrt{\\left(\\frac{1}{m} + \\frac{1}{M}\\right)^2 - \\frac{4}{mM}}$ simplifies to $\\omega_{\\text{opt}} = \\sqrt{2K/m}$ (lighter masses oscillate) and $\\omega_{\\text{ac}} = \\sqrt{2K/M}$ (heavier masses oscillate), opening a phonon frequency gap."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a 2D material (like graphene or a 2D crystal) with acoustic phonons having linear dispersion $\\omega = v_s k$, how does the low-temperature lattice specific heat $C_V$ scale with temperature $T$?",
+      "optionsEn": [
+        "$C_V \\propto T^3$",
+        "$C_V \\propto T^2$",
+        "$C_V \\propto T$",
+        "$C_V \\propto T^{1/2}$"
+      ],
+      "explanationEn": "In $d$ dimensions with $\\omega \\propto k$, the phonon density of states scales as $\\omega^{d-1}$, giving low-$T$ lattice specific heat $C_V \\propto T^d$. In 2D, $C_V \\propto T^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about optical vs. acoustic phonons in a 3D diatomic crystal are TRUE?",
+      "optionsEn": [
+        "At $k = 0$, acoustic phonons have $\\omega = 0$ (atoms in the unit cell move in phase)",
+        "At $k = 0$, optical phonons have a finite non-zero frequency $\\omega_0 > 0$ (atoms in the unit cell move out of phase)",
+        "In ionic crystals like NaCl, transverse optical (TO) phonons can strongly absorb infrared light",
+        "Acoustic phonons always have higher frequency than optical phonons at every $k$"
+      ],
+      "explanationEn": "A, B, and C are exact. Optical branches lie HIGHER in frequency than acoustic branches (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "40",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 40.0,
+      "natMax": 40.0,
+      "questionTextEn": "A free-electron gas has Fermi velocity $v_F = 1.6 \\times 10^6\\text{ m/s}$ and mean scattering time $\\tau = 2.5 \\times 10^{-14}\\text{ s}$. What is the electron mean free path $l = v_F \\tau$ (in nm)?",
+      "optionsEn": [],
+      "explanationEn": "$l = (1.6 \\times 10^6)(2.5 \\times 10^{-14}) = 4.0 \\times 10^{-8}\\text{ m} = 40\\text{ nm}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "In a 1D diatomic chain with masses $M = 4m$ and equal spring constants, what is the ratio of the optical phonon frequency to the acoustic phonon frequency at the Brillouin zone boundary ($\\omega_{\\text{opt}} / \\omega_{\\text{ac}}$)?",
+      "optionsEn": [],
+      "explanationEn": "$\\omega_{\\text{opt}} / \\omega_{\\text{ac}} = \\sqrt{M / m} = \\sqrt{4} = 2$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "A metal has an electronic specific heat coefficient $\\gamma = 1.0\\text{ mJ/(mol}\\cdot\\text{K}^2)$ and a lattice specific heat coefficient $\\beta = 0.04\\text{ mJ/(mol}\\cdot\\text{K}^4)$. At what temperature $T$ (in Kelvin) are the electronic and lattice contributions to $C_V$ EQUAL?",
+      "optionsEn": [],
+      "explanationEn": "Setting $\\gamma T = \\beta T^3 \\implies T^2 = \\gamma / \\beta = 1.0 / 0.04 = 25 \\implies T = 5\\text{ K}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "2.83",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.81,
+      "natMax": 2.84,
+      "questionTextEn": "A BCC metal has lattice constant $a = 4.0\\,\\text{\\AA}$. What is the interplanar spacing $d_{110}$ of its first allowed X-ray diffraction reflection (in $\\text{\\AA}$, rounded to 2 decimal places)?",
+      "optionsEn": [],
+      "explanationEn": "$d_{110} = \\frac{a}{\\sqrt{1^2 + 1^2 + 0^2}} = \\frac{4.0}{\\sqrt{2}} \\approx 2.828 \\approx 2.83\\,\\text{\\AA}$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "A metal has conductivity $\\sigma = 10^7\\text{ S/m}$ and electron density $n = 8 \\times 10^{28}\\text{ m}^{-3}$. If the temperature rises so that the scattering rate $1/\\tau$ doubles, by what factor does its electrical resistivity $\\rho$ increase?",
+      "optionsEn": [],
+      "explanationEn": "Drude resistivity $\\rho = \\frac{m}{n e^2 \\tau} \\propto 1/\\tau$, so doubling $1/\\tau$ doubles the resistivity $\\rho$."
+    },
+    {
+      "questionId": "gate_ph_topic_ssp_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Solid State Physics (Set 1)",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "In a metal with London penetration depth $\\lambda_L = \\sqrt{\\frac{m}{\\mu_0 n_s e^2}}$, if the superconducting electron density $n_s$ decreases to $1/4$ of its zero-temperature value near $T_c$, by what factor does $\\lambda_L$ increase?",
+      "optionsEn": [],
+      "explanationEn": "$\\lambda_L \\propto n_s^{-1/2}$, so reducing $n_s$ by a factor of 4 doubles $\\lambda_L$."
+    }
+  ]
+}

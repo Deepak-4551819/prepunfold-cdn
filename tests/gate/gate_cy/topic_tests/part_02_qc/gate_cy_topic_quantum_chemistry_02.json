@@ -1,0 +1,597 @@
+{
+  "testId": "gate_cy_topic_quantum_chemistry_02",
+  "categoryId": "gate_cy",
+  "test_id": "gate_cy_topic_quantum_chemistry_02",
+  "category_id": "gate_cy",
+  "title": "GATE CY Topic Test: Quantum Chemistry & Atomic Structure — Set 02",
+  "titleEn": "GATE CY Topic Test: Quantum Chemistry & Atomic Structure — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_02_qc",
+  "part_id": "part_02_qc",
+  "partTitle": "Quantum Chemistry & Atomic Structure",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE CY • Quantum Chemistry & Atomic Structure • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "sectionTitleEn": "Chemistry",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Operators & Commutators",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $\\hat{A}$ and $\\hat{B}$ are two Hermitian operators, then the operator $i[\\hat{A}, \\hat{B}]$ is always",
+      "optionsEn": [
+        "anti-Hermitian",
+        "Hermitian",
+        "unitary",
+        "idempotent"
+      ],
+      "explanationEn": "Taking the Hermitian adjoint of $i[\\hat{A}, \\hat{B}] = i(\\hat{A}\\hat{B} - \\hat{B}\\hat{A})$ gives $(i[\\hat{A}, \\hat{B}])^\\dagger = -i(\\hat{B}^\\dagger\\hat{A}^\\dagger - \\hat{A}^\\dagger\\hat{B}^\\dagger) = -i(\\hat{B}\\hat{A} - \\hat{A}\\hat{B}) = i(\\hat{A}\\hat{B} - \\hat{B}\\hat{A}) = i[\\hat{A}, \\hat{B}]$. Therefore, $i[\\hat{A}, \\hat{B}]$ is always Hermitian, making option (B) correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Harmonic Oscillator",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a 1D quantum harmonic oscillator with lowering operator $\\hat{a}$ and raising operator $\\hat{a}^\\dagger$, the value of the commutator $[\\hat{a}, \\hat{a}^\\dagger]$ is",
+      "optionsEn": [
+        "$0$",
+        "$\\hbar$",
+        "$1$",
+        "$-1$"
+      ],
+      "explanationEn": "By definition, $\\hat{a} = \\sqrt{\\frac{m\\omega}{2\\hbar}}\\left(\\hat{x} + \\frac{i}{m\\omega}\\hat{p}_x\\right)$ and $\\hat{a}^\\dagger = \\sqrt{\\frac{m\\omega}{2\\hbar}}\\left(\\hat{x} - \\frac{i}{m\\omega}\\hat{p}_x\\right)$. Evaluating $[\\hat{a}, \\hat{a}^\\dagger] = \\frac{m\\omega}{2\\hbar}\\left(-\\frac{i}{m\\omega}[\\hat{x}, \\hat{p}_x] + \\frac{i}{m\\omega}[\\hat{p}_x, \\hat{x}]\\right) = \\frac{1}{2\\hbar}(-i(i\\hbar) + i(-i\\hbar)) = 1$. Thus, option (C) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Hydrogen Atom",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the hydrogen atom, the degeneracy of the $n = 4$ energy level (ignoring spin and relativistic effects) is",
+      "optionsEn": [
+        "$32$",
+        "$8$",
+        "$4$",
+        "$16$"
+      ],
+      "explanationEn": "In a non-relativistic Coulomb potential, energy depends only on the principal quantum number $n$. For a given $n$, $l$ runs from $0$ to $n-1$ and each $l$ has $2l+1$ states, giving an orbital degeneracy of $\\sum_{l=0}^{n-1}(2l+1) = n^2$. For $n = 4$, the orbital degeneracy is $4^2 = 16$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Approximation Methods",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a 1D particle in a box $[0, L]$ subjected to a constant perturbation $\\hat{H}' = V_0$ over the entire box, the first-order energy correction $E_n^{(1)}$ to the $n$-th level is",
+      "optionsEn": [
+        "$0$",
+        "$\\frac{V_0}{2}$",
+        "$V_0$",
+        "$\\frac{V_0}{n^2}$"
+      ],
+      "explanationEn": "By first-order non-degenerate perturbation theory, $E_n^{(1)} = \\langle \\psi_n^{(0)} | \\hat{H}' | \\psi_n^{(0)} \\rangle = V_0 \\langle \\psi_n^{(0)} | \\psi_n^{(0)} \\rangle = V_0$, since $\\psi_n^{(0)}$ is normalized and $V_0$ is a constant everywhere inside $[0, L]$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Hückel MO Theory",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to Hückel MO theory, the delocalization energy of the allyl radical ($\\text{C}_3\\text{H}_5^\\bullet$) is",
+      "optionsEn": [
+        "$0.828\\,\\beta$",
+        "$1.000\\,\\beta$",
+        "$0.472\\,\\beta$",
+        "$2.000\\,\\beta$"
+      ],
+      "explanationEn": "The three Hückel MO energies of the linear allyl system are $\\alpha + \\sqrt{2}\\,\\beta$, $\\alpha$, and $\\alpha - \\sqrt{2}\\,\\beta$. For the allyl radical ($3$ $\\pi$-electrons), $E_\\pi = 2(\\alpha + \\sqrt{2}\\,\\beta) + 1(\\alpha) = 3\\alpha + 2\\sqrt{2}\\,\\beta$. Subtracting the reference energy of one localized double bond plus one non-bonding radical electron ($2(\\alpha + \\beta) + \\alpha = 3\\alpha + 2\\beta$) gives $\\text{DE} = (2\\sqrt{2} - 2)\\beta \\approx 0.828\\,\\beta$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Particle in a Box",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a particle confined in a 1D box of length $L$ ($0 \\le x \\le L$), which of the following statements are CORRECT?",
+      "optionsEn": [
+        "The energy spacing $\\Delta E = E_{n+1} - E_n$ is independent of $n$.",
+        "The expectation value $\\langle x \\rangle = L/2$ for all eigenstates.",
+        "The expectation value $\\langle p_x \\rangle = 0$ for all eigenstates.",
+        "The zero-point energy is $\\frac{h^2}{8mL^2}$."
+      ],
+      "explanationEn": "For a 1D box $[0, L]$: (B) symmetry of $|\\psi_n(x)|^2$ about $L/2$ ensures $\\langle x \\rangle = L/2$ for all $n$; (C) $\\psi_n(x)$ is real and bound, so $\\langle p_x \\rangle = 0$ for all $n$; (D) for $n = 1$, $E_1 = \\frac{h^2}{8mL^2}$. Statement (A) is false because $\\Delta E = E_{n+1} - E_n = (2n+1)\\frac{h^2}{8mL^2}$, which increases linearly with $n$. Thus, (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Hückel MO Theory",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following cyclic conjugated systems are aromatic with a closed-shell $\\pi$-electron configuration according to Hückel's $(4n+2)$ rule?",
+      "optionsEn": [
+        "Cyclopropenyl cation ($\\text{C}_3\\text{H}_3^+$)",
+        "Cyclobutadiene ($\\text{C}_4\\text{H}_4$)",
+        "Cyclopentadienyl anion ($\\text{C}_5\\text{H}_5^-$)",
+        "Tropylium cation ($\\text{C}_7\\text{H}_7^+$)"
+      ],
+      "explanationEn": "By Hückel's rule, planar cyclic conjugated systems with $4n+2$ $\\pi$-electrons ($n = 0, 1, 2, \\dots$) have completely filled bonding MOs and are aromatic: $\\text{C}_3\\text{H}_3^+$ has $2$ $\\pi$-electrons ($n=0$, A), $\\text{C}_5\\text{H}_5^-$ has $6$ $\\pi$-electrons ($n=1$, C), and $\\text{C}_7\\text{H}_7^+$ has $6$ $\\pi$-electrons ($n=1$, D). Cyclobutadiene has $4$ $\\pi$-electrons ($4n$, antiaromatic, B is false). Hence, (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Angular Momentum",
+      "difficulty": "Easy",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "For an electron in a $4f$ orbital, the eigenvalue of $\\hat{L}^2$ is $k\\hbar^2$. The value of $k$ is _____ (in integer).",
+      "optionsEn": [],
+      "explanationEn": "The eigenvalue of the orbital angular momentum squared operator $\\hat{L}^2$ is $l(l + 1)\\hbar^2$. For a $4f$ orbital, the azimuthal quantum number is $l = 3$, giving $k = 3(3 + 1) = 12$."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Postulates of Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "0.38 to 0.42",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.38,
+      "natMax": 0.42,
+      "questionTextEn": "A normalized quantum state is given by $|\\psi\\rangle = \\frac{1}{\\sqrt{10}}|\\phi_1\\rangle + \\frac{2i}{\\sqrt{10}}|\\phi_2\\rangle + \\frac{\\sqrt{5}}{\\sqrt{10}}|\\phi_3\\rangle$, where $|\\phi_1\\rangle, |\\phi_2\\rangle, |\\phi_3\\rangle$ are orthonormal eigenstates of the Hamiltonian with distinct energies $E_1, E_2, E_3$. The probability of measuring the energy $E_2$ (rounded off to one decimal place) is _____.",
+      "optionsEn": [],
+      "explanationEn": "By the Born rule, the probability of obtaining the eigenvalue $E_2$ upon measuring energy in the normalized state $|\\psi\\rangle$ is $|c_2|^2 = \\left|\\frac{2i}{\\sqrt{10}}\\right|^2 = \\frac{4}{10} = 0.4$."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Hydrogen Atom",
+      "difficulty": "Easy",
+      "correctOption": "0.24 to 0.26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.24,
+      "natMax": 0.26,
+      "questionTextEn": "The ratio of the wavelength of the Lyman-$\\alpha$ ($n = 2 \\to n = 1$) emission line of $\\text{He}^+$ to that of the hydrogen atom (neglecting reduced-mass differences, rounded off to two decimal places) is _____.",
+      "optionsEn": [],
+      "explanationEn": "The transition energy scales as $\\Delta E \\propto Z^2$, so the emission wavelength scales as $\\lambda = \\frac{hc}{\\Delta E} \\propto \\frac{1}{Z^2}$. Comparing $\\text{He}^+$ ($Z = 2$) to $\\text{H}$ ($Z = 1$) for the same $2 \\to 1$ transition gives $\\frac{\\lambda(\\text{He}^+)}{\\lambda(\\text{H})} = \\frac{1^2}{2^2} = \\frac{1}{4} = 0.25$."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Postulates of Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle in a 1D box of length $L$ is prepared at $t = 0$ in the normalized superposition state $\\Psi(x, 0) = \\frac{1}{\\sqrt{5}}\\psi_1(x) + \\frac{2}{\\sqrt{5}}\\psi_2(x)$, where $\\psi_1$ and $\\psi_2$ are the first two energy eigenstates with energies $E_1$ and $E_2 = 4E_1$. The expectation value of the energy $\\langle E \\rangle$ at any time $t > 0$ is",
+      "optionsEn": [
+        "$\\frac{5}{2}E_1$",
+        "$\\frac{13}{5}E_1$",
+        "$\\frac{17}{5}E_1$",
+        "$\\frac{9}{5}E_1$"
+      ],
+      "explanationEn": "Because the Hamiltonian is time-independent, the expansion probabilities $|c_1|^2 = \\frac{1}{5}$ and $|c_2|^2 = \\frac{4}{5}$ remain constant in time. Thus, $\\langle E \\rangle = |c_1|^2 E_1 + |c_2|^2 E_2 = \\frac{1}{5}E_1 + \\frac{4}{5}(4E_1) = \\frac{1 + 16}{5}E_1 = \\frac{17}{5}E_1$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Rigid Rotor",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A rigid linear diatomic molecule is in a rotational state described by the normalized wavefunction $\\psi(\\theta, \\phi) = \\frac{1}{\\sqrt{3}}Y_{1,0} + \\sqrt{\\frac{2}{3}}Y_{2,1}$. The expectation value of the rotational energy $\\langle E \\rangle$ in terms of the rotational constant $B = \\frac{\\hbar^2}{2I}$ is",
+      "optionsEn": [
+        "$4B$",
+        "$\\frac{10}{3}B$",
+        "$\\frac{16}{3}B$",
+        "$\\frac{14}{3}B$"
+      ],
+      "explanationEn": "The energy eigenvalues of a 3D rigid rotor are $E_J = B J(J + 1)$. For $J = 1$, $E_1 = 2B$; for $J = 2$, $E_2 = 6B$. Since $Y_{1,0}$ and $Y_{2,1}$ are orthonormal, $\\langle E \\rangle = \\left(\\frac{1}{\\sqrt{3}}\\right)^2(2B) + \\left(\\sqrt{\\frac{2}{3}}\\right)^2(6B) = \\frac{2}{3}B + \\frac{12}{3}B = \\frac{14}{3}B$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Approximation Methods",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a 1D quantum harmonic oscillator ($\\hat{H}^{(0)} = \\frac{\\hat{p}^2}{2m} + \\frac{1}{2}m\\omega^2 x^2$) perturbed by $\\hat{H}' = \\lambda x^3$ (where $\\lambda$ is a small constant), the first-order and second-order energy corrections to the ground state ($v = 0$) satisfy",
+      "optionsEn": [
+        "$E_0^{(1)} > 0$ and $E_0^{(2)} = 0$",
+        "$E_0^{(1)} = 0$ and $E_0^{(2)} < 0$",
+        "$E_0^{(1)} = 0$ and $E_0^{(2)} > 0$",
+        "$E_0^{(1)} = 0$ and $E_0^{(2)} = 0$"
+      ],
+      "explanationEn": "Because $\\psi_0^{(0)}(x)$ is an even function and $x^3$ is an odd function, the integrand $|\\psi_0^{(0)}(x)|^2 x^3$ is odd over $(-\\infty, \\infty)$, giving $E_0^{(1)} = \\langle 0 | \\lambda x^3 | 0 \\rangle = 0$. In second order, $x^3$ couples $|0\\rangle$ to $|1\\rangle$ and $|3\\rangle$ with non-zero matrix elements, and since $E_0^{(0)} - E_k^{(0)} < 0$ for all $k > 0$, $E_0^{(2)} = \\sum_{k=1,3} \\frac{|\\langle k | \\lambda x^3 | 0 \\rangle|^2}{E_0^{(0)} - E_k^{(0)}} < 0$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Many-Electron Atoms",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the Landé interval rule, for a $^3D$ atomic term ($J = 3, 2, 1$), the ratio of the energy separation $\\Delta E(J=3, J=2)$ to $\\Delta E(J=2, J=1)$ is",
+      "optionsEn": [
+        "$5 : 3$",
+        "$3 : 2$",
+        "$4 : 3$",
+        "$2 : 1$"
+      ],
+      "explanationEn": "The spin-orbit coupling energy is $E_{\\text{SO}}(J) = \\frac{A}{2}[J(J+1) - L(L+1) - S(S+1)]$, which yields the Landé interval rule $E(J) - E(J-1) = A J$. Therefore, $\\Delta E(J=3, J=2) = 3A$ and $\\Delta E(J=2, J=1) = 2A$, giving a ratio of $3 : 2$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Hückel MO Theory",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $1,3$-butadiene, the normalized Hückel MOs for the two occupied levels are $\\psi_1 = 0.372\\phi_1 + 0.602\\phi_2 + 0.602\\phi_3 + 0.372\\phi_4$ and $\\psi_2 = 0.602\\phi_1 + 0.372\\phi_2 - 0.372\\phi_3 - 0.602\\phi_4$. The $\\pi$-bond order $p_{23}$ of the central $\\text{C}_2-\\text{C}_3$ bond is closest to",
+      "optionsEn": [
+        "$0.500$",
+        "$0.447$",
+        "$0.894$",
+        "$0.224$"
+      ],
+      "explanationEn": "The Hückel $\\pi$-bond order between adjacent carbons $r$ and $s$ is $p_{rs} = \\sum_j n_j c_{jr} c_{js}$. For the central $\\text{C}_2-\\text{C}_3$ bond in $1,3$-butadiene ($n_1 = n_2 = 2$): $p_{23} = 2(0.602)(0.602) + 2(0.372)(-0.372) = 2(0.3624 - 0.1384) = 2(0.2240) = 0.448 \\approx 0.447$ (exact value $1/\\sqrt{5} = 0.4472$). Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Rigid Rotor",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about the 3D quantum rigid rotor (eigenfunctions $Y_{J,M}(\\theta, \\phi)$) are CORRECT?",
+      "optionsEn": [
+        "The energy separation between adjacent levels $J$ and $J + 1$ is $2B(J + 1)$, where $B = \\frac{\\hbar^2}{2I}$.",
+        "Under inversion of coordinates ($\\theta \\to \\pi - \\theta, \\phi \\to \\phi + \\pi$), $Y_{J,M}$ transforms as $(-1)^J Y_{J,M}$.",
+        "The zero-point rotational energy ($J = 0$) is equal to $\\frac{\\hbar^2}{2I}$.",
+        "The degeneracy of the $J$-th rotational energy level is $2J + 1$."
+      ],
+      "explanationEn": "For a 3D rigid rotor, $E_J = B J(J+1)$ with $M = -J, \\dots, +J$, giving degeneracy $2J+1$ (D) and level spacing $E_{J+1} - E_J = B[(J+1)(J+2) - J(J+1)] = 2B(J+1)$ (A). Spherical harmonics have parity $(-1)^J$ under inversion (B). Statement (C) is false because the $J = 0$ ground state has zero rotational energy ($E_0 = 0$). Hence, (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Many-Electron Atoms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the ground-state helium atom ($1s^2$) treated by first-order perturbation theory with $\\hat{H}' = \\frac{1}{r_{12}}$ (in atomic units, unperturbed $Z = 2$), which of the following statements are CORRECT?",
+      "optionsEn": [
+        "The first-order energy correction is $E^{(1)} = \\frac{5}{8}Z = +1.25\\text{ a.u.}$",
+        "The unperturbed ground-state energy is $E^{(0)} = -4\\text{ a.u.}$",
+        "The first-order perturbed ground-state energy is $-2.75\\text{ a.u.}$",
+        "A variational calculation using effective nuclear charge $Z_{\\text{eff}} = Z - \\frac{5}{16}$ yields a higher energy than $-2.75\\text{ a.u.}$"
+      ],
+      "explanationEn": "In atomic units, $E^{(0)} = 2\\left(-\\frac{Z^2}{2}\\right) = -Z^2 = -4\\text{ a.u.}$ (B). Evaluating the electron-electron repulsion integral gives $E^{(1)} = \\langle 1s(1)1s(2) | r_{12}^{-1} | 1s(1)1s(2) \\rangle = \\frac{5}{8}Z = +1.25\\text{ a.u.}$ (A), so $E^{(0)} + E^{(1)} = -4 + 1.25 = -2.75\\text{ a.u.}$ (C). Statement (D) is false because optimizing $Z_{\\text{eff}} = 2 - 5/16 = 27/16$ lowers the energy to $-(27/16)^2 \\approx -2.848\\text{ a.u.} < -2.75\\text{ a.u.}$ Hence, (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Particle in a Box",
+      "difficulty": "Medium",
+      "correctOption": "331 to 335",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 331.0,
+      "natMax": 335.0,
+      "questionTextEn": "Using the 1D free-electron molecular orbital (FEMO) model for $1,3,5$-hexatriene ($6$ $\\pi$-electrons) in a box of length $L = 8.40\\text{ \\AA}$, the wavelength (in $\\text{nm}$, rounded off to the nearest integer) of the lowest-energy $\\pi \\to \\pi^*$ transition is _____. (Given: $h = 6.626 \\times 10^{-34}\\text{ J s}$, $m_e = 9.109 \\times 10^{-31}\\text{ kg}$, $c = 3.0 \\times 10^8\\text{ m s}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "For $6$ $\\pi$-electrons, $n_{\\text{HOMO}} = 3$ and $n_{\\text{LUMO}} = 4$, so $\\Delta E = \\frac{(4^2 - 3^2)h^2}{8m_e L^2} = \\frac{7h^2}{8m_e L^2}$. Thus $\\lambda = \\frac{hc}{\\Delta E} = \\frac{8m_e c L^2}{7h} = \\frac{8(9.109 \\times 10^{-31})(3.0 \\times 10^8)(8.40 \\times 10^{-10})^2}{7(6.626 \\times 10^{-34})} = 3.325 \\times 10^{-7}\\text{ m} \\approx 333\\text{ nm}$."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Harmonic Oscillator",
+      "difficulty": "Hard",
+      "correctOption": "7.67 to 7.77",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.67,
+      "natMax": 7.77,
+      "questionTextEn": "A diatomic molecule modelled as a 1D quantum harmonic oscillator has force constant $k = 480\\text{ N m}^{-1}$ and reduced mass $\\mu = 1.627 \\times 10^{-27}\\text{ kg}$. The root-mean-square displacement $\\sqrt{\\langle x^2 \\rangle}$ in the ground vibrational state ($v = 0$) is _____ $\\text{pm}$ (rounded off to two decimal places). (Given: $\\hbar = 1.0546 \\times 10^{-34}\\text{ J s}$)",
+      "optionsEn": [],
+      "explanationEn": "The angular frequency is $\\omega = \\sqrt{\\frac{k}{\\mu}} = \\sqrt{\\frac{480}{1.627 \\times 10^{-27}}} = 5.4316 \\times 10^{14}\\text{ rad s}^{-1}$. For $v = 0$, the virial theorem gives $\\frac{1}{2}k\\langle x^2 \\rangle = \\frac{1}{4}\\hbar\\omega \\implies \\langle x^2 \\rangle = \\frac{\\hbar}{2\\mu\\omega} = \\frac{1.0546 \\times 10^{-34}}{2(1.627 \\times 10^{-27})(5.4316 \\times 10^{14})} = 5.967 \\times 10^{-23}\\text{ m}^2$. Taking the square root yields $x_{\\text{rms}} = 7.725 \\times 10^{-12}\\text{ m} \\approx 7.72\\text{ pm}$."
+    },
+    {
+      "questionId": "gate_cy_topic_quantum_chemistry_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Quantum Chemistry & Atomic Structure (Set 02)",
+      "topicTag": "Approximation Methods",
+      "difficulty": "Hard",
+      "correctOption": "7.2 to 7.24",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.2,
+      "natMax": 7.24,
+      "questionTextEn": "Using the variational trial wavefunction $\\phi(r_1, r_2) = \\frac{\\zeta^3}{\\pi}e^{-\\zeta(r_1 + r_2)}$ for the ground state of the two-electron $\\text{Li}^+$ ion ($Z = 3$), the variational minimum energy is $-E_{\\text{min}}$ Hartree atomic units. The value of $E_{\\text{min}}$ (rounded off to two decimal places) is _____.",
+      "optionsEn": [],
+      "explanationEn": "For a two-electron helium-like ion of nuclear charge $Z$, the variational energy with $\\phi = \\frac{\\zeta^3}{\\pi}e^{-\\zeta(r_1+r_2)}$ is $E(\\zeta) = \\zeta^2 - 2Z\\zeta + \\frac{5}{8}\\zeta$. Minimizing $\\frac{dE}{d\\zeta} = 0$ gives $\\zeta_{\\text{opt}} = Z - \\frac{5}{16}$ and $E_{\\text{min}} = \\left(Z - \\frac{5}{16}\\right)^2$. For $\\text{Li}^+$ ($Z = 3$), $\\zeta_{\\text{opt}} = \\frac{43}{16} = 2.6875$, so $E_{\\text{min}} = (2.6875)^2 = 7.2227 \\approx 7.22\\text{ a.u.}$"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "testId": "gate_ph_topic_cm_02",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_cm_02",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Classical Mechanics — Set 2",
+  "titleEn": "GATE Physics Topic Test: Classical Mechanics — Set 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_03_cm",
+  "part_id": "part_03_cm",
+  "partTitle": "Classical Mechanics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Classical Mechanics • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "sectionTitleEn": "Classical Mechanics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_cm_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A system of two masses $m_1$ and $m_2$ interacting via a central potential $V(|\\mathbf{r}_1 - \\mathbf{r}_2|)$ reduces to an equivalent one-body problem with reduced mass $\\mu$ equal to:",
+      "optionsEn": [
+        "$\\frac{m_1 m_2}{m_1 + m_2}$",
+        "$\\sqrt{m_1 m_2}$",
+        "$m_1 + m_2$",
+        "$\\frac{m_1 + m_2}{2}$"
+      ],
+      "explanationEn": "Separating center-of-mass motion leaves relative motion with reduced mass $\\mu = \\frac{m_1 m_2}{m_1 + m_2}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a particle in a central potential $V(r) = k r^n$ ($k > 0$), the Virial Theorem relates the time-averaged kinetic energy $\\langle T \\rangle$ and potential energy $\\langle V \\rangle$ of a bound orbit as:",
+      "optionsEn": [
+        "$2\\langle T \\rangle = n\\langle V \\rangle$",
+        "$\\langle T \\rangle = n\\langle V \\rangle$",
+        "$\\langle T \\rangle = 2n\\langle V \\rangle$",
+        "$2\\langle T \\rangle = -n\\langle V \\rangle$"
+      ],
+      "explanationEn": "For a homogeneous potential of degree $n$, the Virial Theorem gives $2\\langle T \\rangle = \\langle \\mathbf{r} \\cdot \\nabla V \\rangle = n\\langle V \\rangle$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Liouville's theorem in Hamiltonian mechanics states that as a system evolves in time:",
+      "optionsEn": [
+        "The total kinetic energy is constant",
+        "The phase space volume expands exponentially",
+        "All orbits are periodic",
+        "The phase space density $\\rho(q, p, t)$ along any phase trajectory remains constant ($d\\rho/dt = 0$)"
+      ],
+      "explanationEn": "Hamiltonian flow is incompressible in phase space ($\\nabla_{q,p} \\cdot \\mathbf{v} = 0$), so phase space volume and local phase density $\\rho$ are conserved along trajectories."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A rigid body has principal moments of inertia $I_1 < I_2 < I_3$. Torque-free rotation is UNSTABLE about which principal axis?",
+      "optionsEn": [
+        "The axis of largest moment $I_3$",
+        "The axis of smallest moment $I_1$",
+        "All three axes are equally stable",
+        "The intermediate axis $I_2$"
+      ],
+      "explanationEn": "By the tennis racket (Dzhanibekov) theorem derived from Euler's equations, torque-free rotation is stable about $I_1$ and $I_3$, and unstable about the intermediate axis $I_2$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which curve solves the Brachistochrone problem (shortest time of descent under uniform gravity between two points)?",
+      "optionsEn": [
+        "Catenary",
+        "Straight line",
+        "Cycloid",
+        "Parabola"
+      ],
+      "explanationEn": "Minimizing $T = \\int \\frac{\\sqrt{1 + y'^2}}{\\sqrt{2gy}}\\,dx$ via the Beltrami identity yields an inverted cycloid."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about the Special Theory of Relativity are TRUE?",
+      "optionsEn": [
+        "The speed of light in vacuum $c$ is the same in all inertial reference frames",
+        "A moving clock runs slower than an identical clock at rest in the observer's frame",
+        "Two events that are simultaneous in one inertial frame are always simultaneous in every other inertial frame",
+        "The spacetime interval $c^2(\\Delta t)^2 - (\\Delta x)^2 - (\\Delta y)^2 - (\\Delta z)^2$ is Lorentz invariant"
+      ],
+      "explanationEn": "Constancy of $c$ (A), time dilation (B), and spacetime interval invariance (D) are core postulates/results of special relativity. Simultaneity is frame-dependent for spatially separated events (C is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "A uniform solid cylinder of mass $M = 4\\text{ kg}$ and radius $R = 0.5\\text{ m}$ rolls without slipping at $v = 2\\text{ m/s}$. What is its total kinetic energy (in Joules)?",
+      "optionsEn": [],
+      "explanationEn": "For a solid cylinder, $I = \\frac{1}{2}MR^2$. Total $K = \\frac{1}{2}Mv^2 + \\frac{1}{2}I\\omega^2 = \\frac{3}{4}Mv^2 = \\frac{3}{4}(4)(4) = 12\\text{ J}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "A thin uniform disk of mass $M = 2\\text{ kg}$ and radius $R = 1\\text{ m}$ lies in the $xy$-plane. What is its moment of inertia $I_x$ about a diameter along the $x$-axis (in $\\text{kg}\\cdot\\text{m}^2$)?",
+      "optionsEn": [],
+      "explanationEn": "$I_z = \\frac{1}{2}MR^2 = 1\\text{ kg}\\cdot\\text{m}^2$. By the perpendicular axis theorem and symmetry ($I_x = I_y$), $I_x = I_z / 2 = 0.5\\text{ kg}\\cdot\\text{m}^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "2.75",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.74,
+      "natMax": 2.76,
+      "questionTextEn": "A muon has a proper mean lifetime of $2.2\\,\\mu\\text{s}$ and travels at speed $v = 0.6c$ relative to the lab. What is its mean lifetime measured in the lab frame (in $\\mu\\text{s}$, rounded to 2 decimal places)?",
+      "optionsEn": [],
+      "explanationEn": "$\\gamma = \\frac{1}{\\sqrt{1 - 0.6^2}} = \\frac{1}{0.8} = 1.25$. Lab lifetime $\\tau = \\gamma \\tau_0 = 1.25 \\times 2.2 = 2.75\\,\\mu\\text{s}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "-12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -12.0,
+      "natMax": -12.0,
+      "questionTextEn": "A particle of mass $m$ moves in 1D with Hamiltonian $H = \\frac{p^2}{2m} + \\alpha x^4$. At $p = 0, x = 1$, if $\\alpha = 3$, what is $\\dot{p}$?",
+      "optionsEn": [],
+      "explanationEn": "By Hamilton's equation, $\\dot{p} = -\\frac{\\partial H}{\\partial x} = -4\\alpha x^3$. At $\\alpha = 3, x = 1$: $\\dot{p} = -12$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A photon of energy $E$ collides head-on with an electron of rest mass $m_e$ moving toward it with Lorentz factor $\\gamma$. What is the energy of the photon in the electron's rest frame (relativistic Doppler boost)?",
+      "optionsEn": [
+        "$E \\sqrt{\\frac{1 - \\beta}{1 + \\beta}}$",
+        "$\\gamma E$",
+        "$E \\sqrt{\\frac{1 + \\beta}{1 - \\beta}}$",
+        "$E / \\gamma$"
+      ],
+      "explanationEn": "In the electron's rest frame, the photon approaches head-on from a source moving toward it at speed $\\beta c$, blueshifting its energy by $\\sqrt{\\frac{1 + \\beta}{1 - \\beta}}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle of mass $m$ slides without friction on the inner surface of an inverted circular cone of half-angle $\\alpha$ (axis vertical). In cylindrical coordinates $(r, \\phi)$, the Lagrangian is $L = \\frac{1}{2}m(\\dot{r}^2\\csc^2\\alpha + r^2\\dot{\\phi}^2) - mgr\\cot\\alpha$. If the particle moves in a horizontal circle at radius $r_0$, what is its angular velocity $\\dot{\\phi}$?",
+      "optionsEn": [
+        "$\\sqrt{\\frac{g\\cot\\alpha}{r_0}}$",
+        "$\\sqrt{\\frac{g\\tan\\alpha}{r_0}}$",
+        "$\\sqrt{\\frac{g}{r_0}}$",
+        "$\\sqrt{\\frac{g\\cos\\alpha}{r_0}}$"
+      ],
+      "explanationEn": "Radial Euler-Lagrange equation: $m\\csc^2\\alpha\\,\\ddot{r} = mr\\dot{\\phi}^2 - mg\\cot\\alpha$. For a horizontal circle ($\\ddot{r} = 0$), $r_0 \\dot{\\phi}^2 = g\\cot\\alpha \\implies \\dot{\\phi} = \\sqrt{\\frac{g\\cot\\alpha}{r_0}}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the transformation $Q = \\sqrt{2q}\\,e^\\alpha \\cos p$ and $P = \\sqrt{2q}\\,e^{-\\alpha} \\sin p$. For what value(s) of the real constant $\\alpha$ is this transformation canonical?",
+      "optionsEn": [
+        "Only $\\alpha = \\pm 1$",
+        "Only $\\alpha = 0$",
+        "No real value of $\\alpha$",
+        "All real values of $\\alpha$"
+      ],
+      "explanationEn": "$[Q, P]_{q,p} = \\left(\\frac{e^\\alpha \\cos p}{\\sqrt{2q}}\\right)(\\sqrt{2q}e^{-\\alpha}\\cos p) - (-\\sqrt{2q}e^\\alpha\\sin p)\\left(\\frac{e^{-\\alpha}\\sin p}{\\sqrt{2q}}\\right) = \\cos^2 p + \\sin^2 p = 1$ for ALL real $\\alpha$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a compound pendulum (rigid body of mass $M$, moment of inertia $I$ about its pivot located at distance $d$ from the center of mass). Which of the following statements are TRUE?",
+      "optionsEn": [
+        "Its small-oscillation angular frequency is $\\omega = \\sqrt{Mgd / I}$",
+        "By the parallel axis theorem, $I = I_{\\text{cm}} + Md^2$",
+        "The minimum period occurs when $d = k_{\\text{cm}}$ (the radius of gyration about the CM)",
+        "The period is independent of the pivot distance $d$"
+      ],
+      "explanationEn": "A and B are exact. Minimizing $T \\propto \\sqrt{(k_{\\text{cm}}^2 + d^2)/d} = \\sqrt{k_{\\text{cm}}^2/d + d}$ gives $d = k_{\\text{cm}}$ (C). D is false."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "A rigid body has principal moments $I_1 = 2, I_2 = 4, I_3 = 6$ (in $\\text{kg}\\cdot\\text{m}^2$) and rotates with angular velocity $\\boldsymbol{\\omega} = (1, 1, 1)\\text{ rad/s}$ in the principal-axis frame. What is its rotational kinetic energy (in Joules)?",
+      "optionsEn": [],
+      "explanationEn": "$T = \\frac{1}{2}(I_1 \\omega_1^2 + I_2 \\omega_2^2 + I_3 \\omega_3^2) = \\frac{1}{2}(2 + 4 + 6) = 6\\text{ J}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "A uniform disk of mass $M = 2\\text{ kg}$ and radius $R = 1\\text{ m}$ has a point mass $m = 1\\text{ kg}$ attached to its rim. What is the total moment of inertia about the disk's central symmetry axis (in $\\text{kg}\\cdot\\text{m}^2$)?",
+      "optionsEn": [],
+      "explanationEn": "$I = \\frac{1}{2}MR^2 + mR^2 = \\frac{1}{2}(2)(1) + 1(1) = 1 + 1 = 2\\text{ kg}\\cdot\\text{m}^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "A uniform thin rod of mass $M = 3\\text{ kg}$ and length $L = 2\\text{ m}$ rotates about a perpendicular axis passing through one of its ends. What is its moment of inertia (in $\\text{kg}\\cdot\\text{m}^2$)?",
+      "optionsEn": [],
+      "explanationEn": "$I = \\frac{1}{3}ML^2 = \\frac{1}{3}(3)(2^2) = 4\\text{ kg}\\cdot\\text{m}^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "For the canonical transformation $Q = q^\\alpha \\cos(\\beta p)$ and $P = q^\\alpha \\sin(\\beta p)$, what is the product $\\alpha \\cdot \\beta$?",
+      "optionsEn": [],
+      "explanationEn": "The Poisson bracket is $[Q, P]_{q,p} = (\\alpha q^{\\alpha-1}\\cos\\beta p)(\\beta q^\\alpha \\cos\\beta p) - (-\\beta q^\\alpha \\sin\\beta p)(\\alpha q^{\\alpha-1}\\sin\\beta p) = \\alpha\\beta q^{2\\alpha - 1}$. Setting $[Q, P]_{q,p} = 1$ identically requires $2\\alpha - 1 = 0 \\implies \\alpha = \\frac{1}{2}$ and $\\alpha \\cdot \\beta = 1$ (so $\\beta = 2$)."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Consider two coupled pendulums of equal length $l$ and mass $m$ connected by a spring of constant $k$. If $g/l = 9\\text{ s}^{-2}$ and $k/m = 8\\text{ s}^{-2}$, what is the HIGHER normal mode angular frequency $\\omega_2$ (in rad/s)?",
+      "optionsEn": [],
+      "explanationEn": "In-phase mode: $\\omega_1^2 = g/l = 9$. Out-of-phase mode: $\\omega_2^2 = g/l + 2k/m = 9 + 16 = 25 \\implies \\omega_2 = 5\\text{ rad/s}$."
+    },
+    {
+      "questionId": "gate_ph_topic_cm_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Classical Mechanics (Set 2)",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Three equal point masses $m = 2\\text{ kg}$ are placed at the vertices of an equilateral triangle of side $a = 1\\text{ m}$ in the $xy$-plane. What is the moment of inertia of the system about an axis perpendicular to the triangle passing through its centroid (in $\\text{kg}\\cdot\\text{m}^2$)?",
+      "optionsEn": [],
+      "explanationEn": "Distance from centroid to each vertex is $r = a / \\sqrt{3}$. Total $I = 3 m r^2 = 3(2)(1/3) = 2\\text{ kg}\\cdot\\text{m}^2$."
+    }
+  ]
+}

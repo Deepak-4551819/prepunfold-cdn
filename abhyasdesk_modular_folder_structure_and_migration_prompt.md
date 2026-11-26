@@ -96,7 +96,7 @@ prepunfold-cdn/
 │       └── rrb_ntpc/                              # en/ & hi/ -> pyq/, mock_tests/, topic_tests/, short_notes/, videos/
 │
 └── tests/
-    └── geography_pyq_1993_2026/                   # UNTOUCHED GHATNA CHAKRA COMPENDIUM (83 Papers, 3,495 Qs)
+    └── geography_pyq_1993_2026/                   # UNTOUCHED PYQ 2026 COMPENDIUM (83 Papers, 3,495 Qs)
 ```
 
 ---
@@ -125,7 +125,7 @@ Your task is to **reorganize the repository into a clean, modular, language-isol
 ## CRITICAL RULES FOR THIS MIGRATION
 
 ### Rule 1: Keep `tests/geography_pyq_1993_2026/` 100% Untouched
-- Do **NOT** move, rename, edit, or delete `tests/geography_pyq_1993_2026/` (the 83 Ghatna Chakra Geography topic papers, 3,495 Qs) or its entries in `manifest.json`.
+- Do **NOT** move, rename, edit, or delete `tests/geography_pyq_1993_2026/` (the 83 PYQ 2026 Geography topic papers, 3,495 Qs) or its entries in `manifest.json`.
 
 ### Rule 2: Purge the Cloned Synthetic Pools During Migration (Keep Only Real / Unique Papers)
 Based on our audit report, **do NOT migrate the fake cloned duplicate files** into the new structure—delete them so we start clean and build authentic papers one by one:

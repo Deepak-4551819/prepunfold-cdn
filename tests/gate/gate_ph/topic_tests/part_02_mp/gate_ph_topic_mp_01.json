@@ -1,0 +1,553 @@
+{
+  "testId": "gate_ph_topic_mp_01",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_mp_01",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Mathematical Physics — Set 1",
+  "titleEn": "GATE Physics Topic Test: Mathematical Physics — Set 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_02_mp",
+  "part_id": "part_02_mp",
+  "partTitle": "Mathematical Physics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Mathematical Physics • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "sectionTitleEn": "Mathematical Physics",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_mp_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the divergence of the position vector $\\mathbf{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ in three dimensions?",
+      "optionsEn": [
+        "0",
+        "1",
+        "$r$",
+        "3"
+      ],
+      "explanationEn": "$\\nabla \\cdot \\mathbf{r} = \\frac{\\partial x}{\\partial x} + \\frac{\\partial y}{\\partial y} + \\frac{\\partial z}{\\partial z} = 1 + 1 + 1 = 3$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the residue of $f(z) = \\frac{e^z}{z - 2}$ at $z = 2$?",
+      "optionsEn": [
+        "$2e^2$",
+        "$e^2$",
+        "$1$",
+        "$0$"
+      ],
+      "explanationEn": "At the simple pole $z = 2$, $\\text{Res}(f, 2) = \\lim_{z \\to 2}(z - 2)\\frac{e^z}{z - 2} = e^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The Laplace transform of $f(t) = e^{-at} \\sin(\\omega t)$ (for $\\text{Re}(s) > -a$) is:",
+      "optionsEn": [
+        "$\\frac{\\omega}{(s-a)^2 + \\omega^2}$",
+        "$\\frac{s+a}{(s+a)^2 + \\omega^2}$",
+        "$\\frac{\\omega}{(s+a)^2 + \\omega^2}$",
+        "$\\frac{\\omega}{(s+a)^2 - \\omega^2}$"
+      ],
+      "explanationEn": "Since $\\mathcal{L}\\{\\sin(\\omega t)\\} = \\frac{\\omega}{s^2 + \\omega^2}$, multiplying by $e^{-at}$ shifts $s \\to s + a$, yielding $\\frac{\\omega}{(s+a)^2 + \\omega^2}$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If a vector field $\\mathbf{F}$ is conservative ($\\mathbf{F} = -\\nabla \\phi$), then $\\nabla \\times \\mathbf{F}$ is:",
+      "optionsEn": [
+        "Identically zero everywhere",
+        "Equal to $-\\nabla^2 \\phi$",
+        "Parallel to $\\mathbf{F}$",
+        "Constant and non-zero"
+      ],
+      "explanationEn": "The curl of the gradient of any smooth scalar field is identically zero: $\\nabla \\times (\\nabla \\phi) \\equiv \\mathbf{0}$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $M$ is a skew-Hermitian matrix ($M^\\dagger = -M$), then its eigenvalues are:",
+      "optionsEn": [
+        "Strictly real",
+        "All equal to $\\pm 1$",
+        "Always strictly positive",
+        "Purely imaginary or zero"
+      ],
+      "explanationEn": "If $M = -M^\\dagger$, then $iM$ is Hermitian and has real eigenvalues $\\lambda$, so the eigenvalues of $M$ are $-i\\lambda$ (purely imaginary or zero)."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about experimental error analysis are TRUE?",
+      "optionsEn": [
+        "A measurement with high precision is always guaranteed to have high accuracy",
+        "For $z = x + y$ with independent random uncertainties $\\sigma_x, \\sigma_y$, the combined standard uncertainty is $\\sigma_z = \\sqrt{\\sigma_x^2 + \\sigma_y^2}$",
+        "Systematic errors cause a consistent bias that cannot be eliminated simply by averaging repeated readings",
+        "Random errors can be reduced by averaging over a larger number of repeated measurements $N$ (uncertainty scales as $1/\\sqrt{N}$)"
+      ],
+      "explanationEn": "A, B, and C are foundational rules of error analysis. High precision (small spread) can still have low accuracy if a large systematic bias is present (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "What is the radius of convergence of the Taylor series of $f(z) = \\frac{1}{z^2 + 9}$ centered at $z_0 = 0$?",
+      "optionsEn": [],
+      "explanationEn": "The singularities of $f(z)$ are at $z = \\pm 3i$, both at distance 3 from the origin, so the radius of convergence is 3."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "What is the value of $\\varepsilon_{ijk}\\varepsilon_{ijk}$ summed over all $i, j, k \\in \\{1, 2, 3\\}$?",
+      "optionsEn": [],
+      "explanationEn": "There are $3! = 6$ permutations of $(1, 2, 3)$, each contributing $(\\pm 1)^2 = 1$, so the sum is 6."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": "26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 26.0,
+      "natMax": 26.0,
+      "questionTextEn": "What is the trace of the matrix $A^2$, where $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$?",
+      "optionsEn": [],
+      "explanationEn": "$A^2 = \\begin{pmatrix} 4+3 & 2+4 \\\\ 6+12 & 3+16 \\end{pmatrix} = \\begin{pmatrix} 7 & 6 \\\\ 18 & 19 \\end{pmatrix}$. Trace = $7 + 19 = 26$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "What is the sum of the eigenvalues of the matrix $M = \\begin{pmatrix} 5 & -2 & 1 \\\\ 0 & 3 & 7 \\\\ 4 & 1 & -2 \\end{pmatrix}$?",
+      "optionsEn": [],
+      "explanationEn": "The sum of eigenvalues equals the trace: $5 + 3 + (-2) = 6$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the spherical Bessel function $j_0(x) = \\frac{\\sin x}{x}$, what is $j_1(x) = -\\frac{d}{dx}j_0(x)$?",
+      "optionsEn": [
+        "$\\frac{\\sin x}{x^2} + \\frac{\\cos x}{x}$",
+        "$\\frac{\\cos x}{x}$",
+        "$\\frac{\\sin x}{x^2} - \\frac{\\cos x}{x}$",
+        "$\\frac{\\cos x}{x^2} - \\frac{\\sin x}{x}$"
+      ],
+      "explanationEn": "Differentiating: $-\\frac{d}{dx}\\left(\\frac{\\sin x}{x}\\right) = -\\frac{x\\cos x - \\sin x}{x^2} = \\frac{\\sin x}{x^2} - \\frac{\\cos x}{x}$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $f(z) = u(x, y) + i v(x, y)$ is analytic and $u(x, y) = x^3 - 3xy^2$, then its harmonic conjugate $v(x, y)$ (with $v(0, 0) = 0$) is:",
+      "optionsEn": [
+        "$x^3 + 3xy^2$",
+        "$3x^2 y + y^3$",
+        "$y^3 - 3x^2 y$",
+        "$3x^2 y - y^3$"
+      ],
+      "explanationEn": "By Cauchy-Riemann: $v_y = u_x = 3x^2 - 3y^2 \\implies v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$, matching $6xy + g'(x) \\implies g(x) = 0$. (Indeed $z^3 = (x^3 - 3xy^2) + i(3x^2 y - y^3)$.)"
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the singular Sturm-Liouville / Frobenius equation $x^2 y'' + x y' + (x^2 - \\frac{1}{4}) y = 0$. What are the roots of its indicial equation at $x = 0$?",
+      "optionsEn": [
+        "$r = \\pm 1/2$",
+        "$r = 0, 1/2$",
+        "$r = \\pm 1/4$",
+        "$r = 1, -1$"
+      ],
+      "explanationEn": "This is Bessel's equation of order $\\nu = 1/2$: $r(r - 1) + r - \\frac{1}{4} = r^2 - \\frac{1}{4} = 0 \\implies r = \\pm 1/2$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about ordinary differential equations are TRUE?",
+      "optionsEn": [
+        "For a non-homogeneous linear ODE, the sum of two particular solutions is also a particular solution",
+        "If $p(x) = 0$, the Wronskian of any two solutions is a constant",
+        "If $y_1$ and $y_2$ are two solutions of a homogeneous 2nd-order linear ODE $y'' + p(x)y' + q(x)y = 0$, their Wronskian satisfies Abel's identity $W(x) = W(x_0)\\exp\\left(-\\int_{x_0}^x p(t)\\,dt\\right)$",
+        "Every linear homogeneous ODE with constant coefficients can be solved using its characteristic polynomial"
+      ],
+      "explanationEn": "A, B, and D are exact ODE theorems. Adding two particular solutions gives a solution to twice the forcing term, not the original equation (C is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "2.83",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.81,
+      "natMax": 2.84,
+      "questionTextEn": "What is the norm $\\|v\\|$ of the complex vector $v = (1 + i, 2 - i, 1)^T$ in $\\mathbb{C}^3$?",
+      "optionsEn": [],
+      "explanationEn": "$\\|v\\|^2 = |1+i|^2 + |2-i|^2 + |1|^2 = 2 + 5 + 1 = 8$, so $\\|v\\| = \\sqrt{8} \\approx 2.83$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 25.0,
+      "natMax": 25.0,
+      "questionTextEn": "If $A$ is a $3 \\times 3$ matrix with $\\det(A) = 5$, what is $\\det(A^T A^{-1} A^2)$?",
+      "optionsEn": [],
+      "explanationEn": "$\\det(A^T A^{-1} A^2) = \\det(A) \\cdot \\det(A)^{-1} \\cdot \\det(A)^2 = \\det(A)^2 = 5^2 = 25$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Evaluate the exact value of $\\int_{-1}^{1} [P_3(x)]^2\\,dx$ multiplied by 7.",
+      "optionsEn": [],
+      "explanationEn": "By Legendre orthogonality, $\\int_{-1}^{1} [P_n(x)]^2 dx = \\frac{2}{2n+1}$. For $n = 3$, this is $\\frac{2}{7}$; multiplying by 7 gives 2."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Hard",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "Evaluate $\\frac{1}{\\pi} \\int_0^{2\\pi} \\frac{d\\theta}{5 + 3\\cos\\theta}$.",
+      "optionsEn": [],
+      "explanationEn": "Using the standard contour result $\\int_0^{2\\pi} \\frac{d\\theta}{a + b\\cos\\theta} = \\frac{2\\pi}{\\sqrt{a^2 - b^2}}$ for $a > |b|$: $\\frac{2\\pi}{\\sqrt{25 - 9}} = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$. Dividing by $\\pi$ gives $0.5$."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Hard",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "By Stokes' theorem, evaluate the line integral $\\oint_C \\mathbf{F} \\cdot d\\mathbf{r}$ for $\\mathbf{F} = -y\\hat{i} + x\\hat{j} + z^2\\hat{k}$ around the circle $x^2 + y^2 = 9$ in the $z = 0$ plane (counter-clockwise when viewed from $+z$), divided by $\\pi$.",
+      "optionsEn": [],
+      "explanationEn": "$\\nabla \\times \\mathbf{F} = 2\\hat{k}$. By Stokes' theorem, $\\oint_C \\mathbf{F} \\cdot d\\mathbf{r} = \\iint_D 2\\,dA = 2(\\pi R^2) = 2\\pi(9) = 18\\pi$. Dividing by $\\pi$ gives 18."
+    },
+    {
+      "questionId": "gate_ph_topic_mp_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Mathematical Physics (Set 1)",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Using Simpson's 1/3 rule with $n = 2$ subintervals on $[0, 2]$ (step size $h = 1$), what approximate value is obtained for $\\int_0^2 x^3\\,dx$?",
+      "optionsEn": [],
+      "explanationEn": "Simpson's 1/3 rule is exact for cubics: $\\frac{h}{3}[f(0) + 4f(1) + f(2)] = \\frac{1}{3}[0 + 4(1) + 8] = \\frac{12}{3} = 4$."
+    }
+  ]
+}

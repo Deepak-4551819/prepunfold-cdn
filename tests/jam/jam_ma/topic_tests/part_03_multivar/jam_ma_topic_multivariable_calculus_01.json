@@ -1,0 +1,611 @@
+{
+  "testId": "jam_ma_topic_multivariable_calculus_01",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_topic_multivariable_calculus_01",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 MA Topic Test: Multivariable Calculus — Set 01",
+  "titleEn": "IIT JAM 2027 MA Topic Test: Multivariable Calculus — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_03_multivar",
+  "part_id": "part_03_multivar",
+  "partTitle": "Multivariable Calculus",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Multivariable Calculus • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Partial Derivatives",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $z$ is defined implicitly as a smooth function of $(x, y)$ near $(1, 1, 1)$ by $x^2 y + y^2 z + z^2 x = 3$, then $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1, 1)}$ is equal to",
+      "optionsEn": [
+        "$-\\frac{1}{3}$",
+        "$\\frac{1}{3}$",
+        "$1$",
+        "$-1$"
+      ],
+      "explanationEn": "Let $F(x, y, z) = x^2 y + y^2 z + z^2 x - 3 = 0$. Then $F_x = 2xy + z^2$ and $F_z = y^2 + 2zx$. At $(1, 1, 1)$, $F_x = 3$ and $F_z = 3$. By the Implicit Function Theorem, $\\frac{\\partial z}{\\partial x} = -\\frac{F_x}{F_z} = -\\frac{3}{3} = -1$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Euler's Theorem",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $x + y \\neq 0$, let $f(x, y) = \\frac{x^3 + y^3}{x + y}$. Then $x \\frac{\\partial f}{\\partial x} + y \\frac{\\partial f}{\\partial y}$ is equal to",
+      "optionsEn": [
+        "$2f(x, y)$",
+        "$f(x, y)$",
+        "$3f(x, y)$",
+        "$4f(x, y)$"
+      ],
+      "explanationEn": "For any $t > 0$, $f(tx, ty) = \\frac{t^3(x^3 + y^3)}{t(x + y)} = t^2 f(x, y)$, so $f$ is homogeneous of degree $n = 2$. By Euler's theorem for homogeneous functions, $x f_x + y f_y = 2 f(x, y)$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Euler's Theorem",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $u(x, y) = \\sin^{-1}\\left(\\frac{x^2 + y^2}{x + y}\\right)$ on a domain where $0 < \\frac{x^2 + y^2}{x + y} < 1$, then $x \\frac{\\partial u}{\\partial x} + y \\frac{\\partial u}{\\partial y}$ is equal to",
+      "optionsEn": [
+        "$\\sin u$",
+        "$2\\tan u$",
+        "$\\cos u$",
+        "$\\tan u$"
+      ],
+      "explanationEn": "Let $g(x, y) = \\sin u = \\frac{x^2 + y^2}{x + y}$. Then $g(tx, ty) = t g(x, y)$, so $g$ is homogeneous of degree $1$. By Euler's theorem, $x g_x + y g_y = g$. Since $g_x = (\\cos u) u_x$ and $g_y = (\\cos u) u_y$, we get $(\\cos u)(x u_x + y u_y) = \\sin u$, which yields $x u_x + y u_y = \\tan u$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Directional Derivatives",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The directional derivative of $f(x, y) = x^2 y + y^3$ at the point $(1, 2)$ in the direction of the vector $\\mathbf{v} = (3, 4)$ is",
+      "optionsEn": [
+        "$\\frac{52}{5}$",
+        "$\\frac{64}{5}$",
+        "$\\frac{44}{5}$",
+        "$64$"
+      ],
+      "explanationEn": "The gradient is $\\nabla f(x, y) = (2xy, x^2 + 3y^2)$, so $\\nabla f(1, 2) = (4, 13)$. The unit vector in the direction of $\\mathbf{v} = (3, 4)$ is $\\mathbf{u} = \\frac{1}{5}(3, 4)$. Therefore, $D_{\\mathbf{u}} f(1, 2) = \\nabla f(1, 2) \\cdot \\mathbf{u} = \\frac{4(3) + 13(4)}{5} = \\frac{12 + 52}{5} = \\frac{64}{5}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Limits and Continuity",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R}^2 \\to \\mathbb{R}$ be defined by $f(x, y) = \\frac{1 - \\cos(x^2 + y^2)}{(x^2 + y^2)^2}$ for $(x, y) \\neq (0, 0)$ and $f(0, 0) = c$. The value of $c$ for which $f$ is continuous at $(0, 0)$ is",
+      "optionsEn": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "Let $s = x^2 + y^2$. As $(x, y) \\to (0, 0)$, $s \\to 0^+$. Using the standard trigonometric limit $\\lim_{s \\to 0} \\frac{1 - \\cos s}{s^2} = \\frac{1}{2}$, we get $\\lim_{(x,y)\\to(0,0)} f(x, y) = \\frac{1}{2}$. For continuity at $(0, 0)$, we require $c = f(0, 0) = \\frac{1}{2}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Chain Rule",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u(x, y) = U(\\xi, \\eta)$ be a $C^2$ function, where $\\xi = x + 2y$ and $\\eta = x - 2y$. Then $4\\frac{\\partial^2 u}{\\partial x^2} - \\frac{\\partial^2 u}{\\partial y^2}$ is equal to",
+      "optionsEn": [
+        "$4 \\frac{\\partial^2 U}{\\partial \\xi \\partial \\eta}$",
+        "$8 \\frac{\\partial^2 U}{\\partial \\xi \\partial \\eta}$",
+        "$4\\left(\\frac{\\partial^2 U}{\\partial \\xi^2} - \\frac{\\partial^2 U}{\\partial \\eta^2}\\right)$",
+        "$16 \\frac{\\partial^2 U}{\\partial \\xi \\partial \\eta}$"
+      ],
+      "explanationEn": "By the chain rule, $u_x = U_\\xi + U_\\eta$ and $u_y = 2U_\\xi - 2U_\\eta$. Differentiating once more gives $u_{xx} = U_{\\xi\\xi} + 2U_{\\xi\\eta} + U_{\\eta\\eta}$ and $u_{yy} = 4U_{\\xi\\xi} - 8U_{\\xi\\eta} + 4U_{\\eta\\eta}$. Therefore, $4u_{xx} - u_{yy} = (4U_{\\xi\\xi} + 8U_{\\xi\\eta} + 4U_{\\eta\\eta}) - (4U_{\\xi\\xi} - 8U_{\\xi\\eta} + 4U_{\\eta\\eta}) = 16 U_{\\xi\\eta}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Maxima and Minima",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For which values of the real constant $a$ does $f(x, y) = ax^2 + 4xy + 2y^2$ have a strict local minimum at $(0, 0)$?",
+      "optionsEn": [
+        "$a > 2$",
+        "$a \\ge 2$",
+        "$a > 0$",
+        "$a > 4$"
+      ],
+      "explanationEn": "The Hessian matrix is $H = \\begin{pmatrix} 2a & 4 \\\\ 4 & 4 \\end{pmatrix}$ with $\\det(H) = 8a - 16$. When $a > 2$, $f_{xx} = 2a > 0$ and $\\det(H) > 0$, so $(0, 0)$ is a strict local minimum. When $a = 2$, $f(x, y) = 2(x + y)^2$ vanishes along the entire line $y = -x$, so $(0, 0)$ is NOT a strict local minimum. When $a < 2$, $\\det(H) < 0$, so $(0, 0)$ is a saddle point. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Partial Derivatives",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $t > 0$ and $x \\in \\mathbb{R}$, let $u(x, t) = \\frac{1}{\\sqrt{t}} e^{-\\frac{x^2}{4t}}$. Which one of the following partial differential equations does $u$ satisfy?",
+      "optionsEn": [
+        "$\\frac{\\partial u}{\\partial t} = \\frac{\\partial^2 u}{\\partial x^2}$",
+        "$\\frac{\\partial^2 u}{\\partial t^2} = \\frac{\\partial^2 u}{\\partial x^2}$",
+        "$\\frac{\\partial u}{\\partial t} = -\\frac{\\partial^2 u}{\\partial x^2}$",
+        "$\\frac{\\partial u}{\\partial t} = 4\\frac{\\partial^2 u}{\\partial x^2}$"
+      ],
+      "explanationEn": "Compute $u_x = -\\frac{x}{2t} u$ and $u_{xx} = \\left(-\\frac{1}{2t} + \\frac{x^2}{4t^2}\\right) u$. Differentiating with respect to $t$ gives $u_t = \\left(-\\frac{1}{2t} + \\frac{x^2}{4t^2}\\right) u$. Hence $u_t = u_{xx}$ identically for $t > 0$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Jacobians",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $x \\neq 1$ and $y \\neq 1$, let $u = \\frac{x}{1 - y}$ and $v = \\frac{y}{1 - x}$. Then the Jacobian $\\frac{\\partial(u, v)}{\\partial(x, y)}$ is equal to",
+      "optionsEn": [
+        "$\\frac{1 - x - y}{(1 - x)^2 (1 - y)^2}$",
+        "$\\frac{1}{(1 - x)(1 - y)}$",
+        "$\\frac{1 + x + y}{(1 - x)^2 (1 - y)^2}$",
+        "$\\frac{1 - xy}{(1 - x)^2 (1 - y)^2}$"
+      ],
+      "explanationEn": "We have $u_x = \\frac{1}{1 - y}$, $u_y = \\frac{x}{(1 - y)^2}$, $v_x = \\frac{y}{(1 - x)^2}$, and $v_y = \\frac{1}{1 - x}$. Thus $\\frac{\\partial(u, v)}{\\partial(x, y)} = \\frac{1}{(1 - x)(1 - y)} - \\frac{xy}{(1 - x)^2 (1 - y)^2} = \\frac{(1 - x)(1 - y) - xy}{(1 - x)^2 (1 - y)^2} = \\frac{1 - x - y}{(1 - x)^2 (1 - y)^2}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Partial Derivatives",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R}^2 \\to \\mathbb{R}$ be defined by $f(x, y) = \\frac{xy(3x^2 - 5y^2)}{x^2 + y^2}$ for $(x, y) \\neq (0, 0)$ and $f(0, 0) = 0$. Then the ordered pair $\\left(f_{xy}(0, 0), f_{yx}(0, 0)\\right)$, where $f_{xy} = \\frac{\\partial}{\\partial y}\\left(\\frac{\\partial f}{\\partial x}\\right)$ and $f_{yx} = \\frac{\\partial}{\\partial x}\\left(\\frac{\\partial f}{\\partial y}\\right)$, is equal to",
+      "optionsEn": [
+        "$(3, -5)$",
+        "$(-5, 3)$",
+        "$(0, 0)$",
+        "$(-3, 5)$"
+      ],
+      "explanationEn": "First compute $f_x(0, y) = \\lim_{h \\to 0} \\frac{f(h, y) - f(0, y)}{h} = \\lim_{h \\to 0} \\frac{y(3h^2 - 5y^2)}{h^2 + y^2} = -5y$ for $y \\neq 0$, and $f_x(0, 0) = 0$. Thus $f_{xy}(0, 0) = \\lim_{y \\to 0} \\frac{-5y - 0}{y} = -5$. Next, $f_y(x, 0) = \\lim_{k \\to 0} \\frac{f(x, k) - f(x, 0)}{k} = \\lim_{k \\to 0} \\frac{x(3x^2 - 5k^2)}{x^2 + k^2} = 3x$ for $x \\neq 0$, and $f_y(0, 0) = 0$. Thus $f_{yx}(0, 0) = \\lim_{x \\to 0} \\frac{3x - 0}{x} = 3$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Euler's Theorem",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R}^2 \\setminus \\{(0, 0)\\} \\to \\mathbb{R}$ be a $C^2$ homogeneous function of degree $n \\in \\mathbb{Z}$. Which of the following statements is/are ALWAYS TRUE?",
+      "optionsEn": [
+        "$\\frac{\\partial f}{\\partial x}$ and $\\frac{\\partial f}{\\partial y}$ are homogeneous functions of degree $n - 1$",
+        "$x \\frac{\\partial f}{\\partial x} + y \\frac{\\partial f}{\\partial y} = n f(x, y)$",
+        "If $n = 1$, then $x^2 \\frac{\\partial^2 f}{\\partial x^2} + 2xy \\frac{\\partial^2 f}{\\partial x \\partial y} + y^2 \\frac{\\partial^2 f}{\\partial y^2} = 0$",
+        "If $n = 0$, then $f$ must be a constant function on $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$"
+      ],
+      "explanationEn": "(A) True: differentiating $f(tx, ty) = t^n f(x, y)$ with respect to $x$ gives $t f_x(tx, ty) = t^n f_x(x, y)$, so $f_x$ (and similarly $f_y$) is homogeneous of degree $n - 1$. (B) True: this is Euler's theorem for homogeneous functions. (C) True: $x^2 f_{xx} + 2xy f_{xy} + y^2 f_{yy} = n(n - 1)f = 1(0)f = 0$. (D) False: $f(x, y) = \\frac{x^2}{x^2 + y^2}$ is $C^2$ and homogeneous of degree $0$ on $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$, yet is non-constant. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Lagrange Multipliers",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $f(x, y) = x^2 + 4xy + y^2$ restricted to the unit circle $S^1 = \\{(x, y) \\in \\mathbb{R}^2 : x^2 + y^2 = 1\\}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The maximum value of $f$ on $S^1$ is $3$",
+        "The minimum value of $f$ on $S^1$ is $-1$",
+        "The minimum value is attained at $\\left(\\frac{1}{\\sqrt{2}}, -\\frac{1}{\\sqrt{2}}\\right)$ and $\\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$",
+        "The Lagrange multiplier $\\lambda$ satisfies $\\lambda \\in \\{-2, 2\\}$"
+      ],
+      "explanationEn": "Writing $f(x, y) = \\mathbf{x}^T A \\mathbf{x}$ with $A = \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$, the Lagrange multiplier condition $\\nabla f = \\lambda \\nabla(x^2 + y^2)$ becomes $A\\mathbf{x} = \\lambda \\mathbf{x}$. The eigenvalues of $A$ are $\\lambda = 3$ (eigenvectors $\\pm\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$) and $\\lambda = -1$ (eigenvectors $\\pm\\left(\\frac{1}{\\sqrt{2}}, -\\frac{1}{\\sqrt{2}}\\right)$). Thus $\\max_{S^1} f = 3$ (A True), $\\min_{S^1} f = -1$ (B True) attained at $\\pm\\left(\\frac{1}{\\sqrt{2}}, -\\frac{1}{\\sqrt{2}}\\right)$ (C True), while $\\lambda \\in \\{-1, 3\\}$ (D False). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Limits and Continuity",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Define $f : \\mathbb{R}^2 \\to \\mathbb{R}$ by $f(x, y) = \\begin{cases} 1, & \\text{if } 0 < y < x^2 \\\\ 0, & \\text{otherwise.} \\end{cases}$ Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "For every unit vector $\\mathbf{u} = (a, b)$, the directional derivative $D_{\\mathbf{u}} f(0, 0)$ exists and equals $0$",
+        "$f$ is continuous at $(0, 0)$",
+        "$f$ is NOT differentiable at $(0, 0)$",
+        "Both partial derivatives $f_x(0, 0)$ and $f_y(0, 0)$ equal $0$"
+      ],
+      "explanationEn": "(A) True: for any unit vector $\\mathbf{u} = (a, b)$, if $b = 0$ then $y = 0$ so $f(ta, 0) = 0$; if $b \\neq 0$ then for all sufficiently small $|t| < |b|/a^2$ (or all $t$ if $a=0$), $tb$ is either $\\le 0$ or $\\ge t^2 a^2$, so $f(ta, tb) = 0$. Hence $D_{\\mathbf{u}} f(0, 0) = 0$ for every unit vector $\\mathbf{u}$, which in particular gives $f_x(0, 0) = f_y(0, 0) = 0$, proving (D). (B) False: along $y = \\frac{1}{2}x^2$ ($x \\neq 0$), $f(x, \\frac{1}{2}x^2) = 1 \\neq 0 = f(0, 0)$, so $f$ is discontinuous at $(0, 0)$. (C) True: since $f$ is not continuous at $(0, 0)$, it cannot be differentiable at $(0, 0)$. Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Taylor's Theorem in 2 Variables",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $f(x, y) = \\cos x \\cos y$ on $\\mathbb{R}^2$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The second-degree Taylor polynomial of $f$ about $(0, 0)$ is $1 - \\frac{1}{2}(x^2 + y^2)$",
+        "The coefficient of $x^2 y^2$ in the Taylor series of $f$ about $(0, 0)$ is $\\frac{1}{4}$",
+        "Both $(0, 0)$ and $(\\pi, \\pi)$ are local maxima of $f$",
+        "$\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ is a local minimum of $f$"
+      ],
+      "explanationEn": "(A) True: $\\cos x \\cos y = \\left(1 - \\frac{x^2}{2} + \\cdots\\right)\\left(1 - \\frac{y^2}{2} + \\cdots\\right) = 1 - \\frac{1}{2}(x^2 + y^2) + \\frac{1}{4}x^2 y^2 + \\cdots$. (B) True: the $x^2 y^2$ coefficient is $\\left(-\\frac{1}{2}\\right)\\left(-\\frac{1}{2}\\right) = \\frac{1}{4}$. (C) True: $f(x, y) \\le 1$ everywhere, and $f(0, 0) = f(\\pi, \\pi) = 1$. (D) False: at $\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, $f_{xx} = f_{yy} = 0$ and $f_{xy} = \\sin\\frac{\\pi}{2}\\sin\\frac{\\pi}{2} = 1$, so $D = -1 < 0$ (saddle point). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Euler's Theorem",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "For $f(x, y) = (x^4 + 2x^2 y^2 + y^4)^{3/4}$, the value of $x^2 \\frac{\\partial^2 f}{\\partial x^2} + 2xy \\frac{\\partial^2 f}{\\partial x \\partial y} + y^2 \\frac{\\partial^2 f}{\\partial y^2}$ at $(1, 0)$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Notice $f(tx, ty) = (t^4)^{3/4} f(x, y) = t^3 f(x, y)$ for $t > 0$, so $f$ is homogeneous of degree $3$. By the second-order Euler identity, $x^2 f_{xx} + 2xy f_{xy} + y^2 f_{yy} = 3(3 - 1)f(x, y) = 6f(x, y)$. At $(1, 0)$, $f(1, 0) = 1$, giving $6$."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Limits and Continuity",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The value of $\\lim_{(x, y) \\to (0, 0)} \\frac{\\ln(1 + 3x^2 + 3y^2)}{x^2 + y^2}$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Setting $s = x^2 + y^2 \\to 0^+$, we have $\\lim_{s \\to 0^+} \\frac{\\ln(1 + 3s)}{s} = 3 \\lim_{s \\to 0^+} \\frac{\\ln(1 + 3s)}{3s} = 3 \\cdot 1 = 3$."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Directional Derivatives",
+      "difficulty": "Easy",
+      "correctOption": "-3.6867 to -3.6467",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -3.6867,
+      "natMax": -3.6467,
+      "questionTextEn": "The directional derivative of $f(x, y, z) = xy^2 + yz^3$ at $(2, -1, 1)$ in the direction of $(1, 2, 2)$ is _________ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "We have $\\nabla f(x, y, z) = (y^2, 2xy + z^3, 3yz^2)$, so $\\nabla f(2, -1, 1) = (1, -3, -3)$. The unit direction vector is $\\mathbf{u} = \\frac{1}{3}(1, 2, 2)$. Hence $D_{\\mathbf{u}} f(2, -1, 1) = \\frac{1(1) + (-3)(2) + (-3)(2)}{3} = -\\frac{11}{3} \\approx -3.67$."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Chain Rule",
+      "difficulty": "Easy",
+      "correctOption": "12",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.0,
+      "natMax": 12.0,
+      "questionTextEn": "If $w = x^2 + y^2 + z^2$ where $x = t$, $y = t^2$, and $z = t^3$, then $\\left.\\frac{dw}{dt}\\right|_{t=1}$ is equal to _________.",
+      "optionsEn": [],
+      "explanationEn": "Substituting gives $w(t) = t^2 + t^4 + t^6$, so $\\frac{dw}{dt} = 2t + 4t^3 + 6t^5$. At $t = 1$, this equals $2 + 4 + 6 = 12$."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Partial Derivatives",
+      "difficulty": "Easy",
+      "correctOption": "-1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -1.0,
+      "natMax": -1.0,
+      "questionTextEn": "If $f(x, y) = e^{xy}\\cos(x + 2y)$, then the value of $\\frac{\\partial^2 f}{\\partial x \\partial y}(0, 0)$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Expanding $f(x, y) = (1 + xy + \\cdots)\\left(1 - \\frac{(x+2y)^2}{2} + \\cdots\\right) = 1 - \\frac{x^2}{2} - xy - 2y^2 + \\cdots$, the coefficient of $xy$ is $f_{xy}(0, 0) = -1$ (equivalently, $f_x = y e^{xy}\\cos(x+2y) - e^{xy}\\sin(x+2y)$ gives $f_{xy}(0, 0) = 1 - 2 = -1$)."
+    },
+    {
+      "questionId": "jam_ma_topic_multivariable_calculus_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Multivariable Calculus (Set 01)",
+      "topicTag": "Lagrange Multipliers",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The maximum value of $f(x, y) = x^2 y$ subject to the constraint $x^2 + y^2 = 3$ is _________.",
+      "optionsEn": [],
+      "explanationEn": "Using the constraint $x^2 = 3 - y^2$ with $y \\in [-\\sqrt{3}, \\sqrt{3}]$, we maximize $g(y) = (3 - y^2)y = 3y - y^3$. Setting $g'(y) = 3 - 3y^2 = 0$ gives $y = \\pm 1$. Evaluating $g$ at critical points and endpoints: $g(1) = 2$, $g(-1) = -2$, and $g(\\pm\\sqrt{3}) = 0$. Thus the maximum value is $2$."
+    }
+  ]
+}

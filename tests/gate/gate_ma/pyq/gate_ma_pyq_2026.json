@@ -1,0 +1,1852 @@
+{
+  "testId": "gate_ma_pyq_2026",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_pyq_2026",
+  "category_id": "gate_ma",
+  "title": "GATE 2026 Mathematics (MA) Official Solved Paper (All Core Subjects & GA)",
+  "titleEn": "GATE 2026 Mathematics (MA) Official Solved Paper (All Core Subjects & GA)",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 65,
+  "total_questions": 65,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2026,
+  "shiftBadge": "GATE MA • 2026 Official Paper",
+  "sections": [
+    {
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "sectionTitleEn": "General Aptitude",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "sectionTitleEn": "Mathematics",
+      "questionCount": 55,
+      "totalMarks": 85.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_2026_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Verbal Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Suresh said, \"I did it yesterday.\"\nWhich one of the following options is the correct form of this sentence in indirect speech?",
+      "optionsEn": [
+        "Suresh said that I did it yesterday.",
+        "Suresh says I did it yesterday.",
+        "Suresh says that he did it the day before.",
+        "Suresh said that he had done it the day before."
+      ],
+      "explanationEn": "In indirect speech with a past-tense reporting verb ('said'), the simple past 'did' backshifts to the past perfect 'had done'. The first-person pronoun 'I' changes to 'he' to match the speaker Suresh, and the time expression 'yesterday' changes to 'the day before'. Hence, 'Suresh said that he had done it the day before.' is correct, matching option (D)."
+    },
+    {
+      "questionId": "gate_ma_2026_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "To continue the sequence of tiles shown (containing 0, 1, 1, 2, 3, and 5 dots respectively), the tile indicated by the question mark should be",
+      "optionsEn": [
+        "Tile with 4 dots (one at each of the four corners)",
+        "Tile with 6 dots (two vertical columns of 3 dots along the left and right edges)",
+        "Tile with 8 dots (forming the $3 \\times 3$ perimeter with the center empty)",
+        "Tile with 9 dots (a full $3 \\times 3$ grid of dots)"
+      ],
+      "explanationEn": "Counting the dots on the six given tiles from left to right yields the sequence $0, 1, 1, 2, 3, 5$. This is the Fibonacci sequence, where each term from the third onward is the sum of the two preceding terms ($0+1=1$, $1+1=2$, $1+2=3$, $2+3=5$). Therefore, the next tile must have $3 + 5 = 8$ dots, which corresponds to option (C)."
+    },
+    {
+      "questionId": "gate_ma_2026_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider an art gallery whose walkways are shown as lines in the diagram (forming a closed pentagon with 5 junctions and 5 walkways). A black dot represents a junction of two walkways. A guard may be placed at a junction to watch over the walkways that join at that junction. The minimum number of guards needed to watch all the walkways is ________.",
+      "optionsEn": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanationEn": "The walkways form a 5-cycle graph $C_5$ with 5 edges and 5 vertices, where each vertex is incident to exactly 2 edges. A guard at any junction watches at most 2 walkways, so 2 guards can cover at most $2 \\times 2 = 4$ walkways, leaving at least 1 walkway unwatched. Placing 3 guards (for example, at two non-adjacent vertices plus one vertex covering the remaining uncovered edge) watches all 5 walkways, so the minimum vertex cover size is $\\lceil 5/2 \\rceil = 3$, giving option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The 2nd of June is a Thursday in a certain year. Which day of the week is the 3rd of July in that year?",
+      "optionsEn": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "explanationEn": "June has 30 days, so the number of days from 2nd June to 3rd July is $(30 - 2) + 3 = 31$ days. Dividing 31 by 7 gives $31 = 4 \\times 7 + 3$, leaving a remainder of 3 odd days. Advancing 3 days forward from Thursday (Friday, Saturday, Sunday) lands on Sunday, which is option (D)."
+    },
+    {
+      "questionId": "gate_ma_2026_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A coin with heads facing up is shown as (H) and a coin with tails facing up is shown as (T).\nSix coins are placed in the Starting Arrangement (H, H, H, T, T, T), as shown in the figure. A \"step\" is defined as interchanging a pair of adjacent coins without flipping them. The minimum number of steps needed to go from the Starting Arrangement (H, H, H, T, T, T) to the Final Arrangement (T, T, T, H, H, H) is ________.",
+      "optionsEn": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "explanationEn": "Each step swaps two adjacent coins and therefore changes the number of $(H, T)$ inversions by at most 1. To transform $(H, H, H, T, T, T)$ into $(T, T, T, H, H, H)$, each of the 3 tails must move past all 3 heads, requiring at least $3 \\times 3 = 9$ adjacent swaps. Moving the leftmost $T$ three places left, then the second $T$ three places left, and finally the third $T$ three places left achieves this in exactly 9 steps, giving option (C)."
+    },
+    {
+      "questionId": "gate_ma_2026_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Verbal Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Exacerbate : Mitigate :: ___________\nChoose the option with the correct pair of words to fill the blank.",
+      "optionsEn": [
+        "Aggravate : Alleviate",
+        "Alleviate : Precipitate",
+        "Aggravate : Precipitate",
+        "Emancipate : Exonerate"
+      ],
+      "explanationEn": "'Exacerbate' means to make a problem or condition worse, while 'Mitigate' means to make it less severe, so the given pair is an antonym pair (worsen : lessen). Among the choices, 'Aggravate' (make worse) and 'Alleviate' (make less severe) exhibit the exact same antonym relationship in the same order. Thus, option (A) is correct."
+    },
+    {
+      "questionId": "gate_ma_2026_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A paper shown in Panel I is folded along the dashed lines (- - -) to construct a cube. The shaded regions shown in Panel I appear on the outer surface of the cube. Referring to cubes shown in Panel II, which one of the options is correct?",
+      "optionsEn": [
+        "Only (i) can correspond to the unfolded cube in Panel I.",
+        "Only (ii) can correspond to the unfolded cube in Panel I.",
+        "Both (i) and (ii) can correspond to the unfolded cube in Panel I.",
+        "Neither (i) nor (ii) can correspond to the unfolded cube in Panel I."
+      ],
+      "explanationEn": "Inspecting the six faces of the unfolded net in Panel I shows an L-shaped shaded face, a corner-triangle face, a corner-square face, two thin-stripe faces, and a half-shaded face, with no T-shaped shaded face anywhere on the net. Therefore, cube (i)—which displays a T-shaped shaded front face—cannot be formed from Panel I. Cube (ii) accurately matches the adjacency and orientation of the corner-triangle face, the half-shaded top face, and the corner-square right face after folding, so only (ii) is valid, giving option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Analytical Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a population, patients who have high cholesterol also have high blood-pressure (BP). Some patients with high BP also have diabetes. There are no patients who have both high cholesterol and diabetes. Furthermore,\n1. the total number of patients with at least one of these conditions is 75,\n2. the number of patients with high cholesterol is 10,\n3. the number of patients with high BP is 45, and\n4. the number of patients with only high BP and no other conditions is 20.\nThen the number of patients who have both diabetes and high BP is _______",
+      "optionsEn": [
+        "0",
+        "15",
+        "20",
+        "10"
+      ],
+      "explanationEn": "Every patient with high cholesterol also has high BP, and no patient has both high cholesterol and diabetes. Thus, the set of patients with high BP (total 45) is partitioned into three disjoint groups: those with high cholesterol and high BP (10), those with only high BP (20), and those with both diabetes and high BP. Hence, the number of patients with both diabetes and high BP is $45 - 10 - 20 = 15$, which is option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Four people P, Q, R, and S, of different ages, make the following observations.\nP – I am younger than S.\nQ – I am neither the youngest nor the oldest.\nR – P is older than me.\nBased on these observations, the youngest person is ______.",
+      "optionsEn": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "explanationEn": "From P's statement we have $P < S$, and from R's statement we have $R < P$, which together give $R < P < S$. Hence neither $P$ nor $S$ can be the youngest. Since Q explicitly states they are not the youngest, the only remaining person who can be the youngest is R, giving option (C)."
+    },
+    {
+      "questionId": "gate_ma_2026_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Circles $C_1$, $C_2$, and $C_3$, with centers $O_1$, $O_2$, and $O_3$, and radii $r_1$, $r_2$, and $r_3$, respectively, touch each other externally as shown in the figure. Given $r_1 = 2\\text{ cm}$, $r_2 = 1\\text{ cm}$ and the angle $\\angle O_1 O_3 O_2$ is $90^\\circ$, $r_3 = \\text{_____ cm}$.",
+      "optionsEn": [
+        "$\\frac{1}{2}(-3 + \\sqrt{17})$",
+        "$\\frac{1}{2}(3 + \\sqrt{17})$",
+        "$\\frac{1}{2}(-2 + \\sqrt{17})$",
+        "$\\frac{1}{2}(-3 + 2\\sqrt{17})$"
+      ],
+      "explanationEn": "Because the three circles touch each other externally, the center-to-center distances are $O_1O_2 = r_1 + r_2 = 3$, $O_1O_3 = 2 + r_3$, and $O_2O_3 = 1 + r_3$. Since $\\angle O_1 O_3 O_2 = 90^\\circ$, the Pythagorean theorem gives $(2 + r_3)^2 + (1 + r_3)^2 = 3^2$, which simplifies to $2r_3^2 + 6r_3 - 4 = 0$, or $r_3^2 + 3r_3 - 2 = 0$. Taking the positive root yields $r_3 = \\frac{-3 + \\sqrt{9 + 8}}{2} = \\frac{1}{2}(-3 + \\sqrt{17})\\text{ cm}$, which is option (A)."
+    },
+    {
+      "questionId": "gate_ma_2026_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $M_3(\\mathbb{R})$ be the vector space of all $3 \\times 3$ real matrices over $\\mathbb{R}$ under usual matrix addition and scalar multiplication. Let $T_3(\\mathbb{R})$ be the set of all $3 \\times 3$ real upper triangular matrices. Which one of the following is TRUE?",
+      "optionsEn": [
+        "The quotient space $M_3(\\mathbb{R}) / T_3(\\mathbb{R})$ is isomorphic to the vector space of all $3 \\times 3$ real skew symmetric matrices over $\\mathbb{R}$ under usual matrix addition and scalar multiplication.",
+        "The quotient space $M_3(\\mathbb{R}) / T_3(\\mathbb{R})$ is isomorphic to the vector space of all $3 \\times 3$ real symmetric matrices over $\\mathbb{R}$ under usual matrix addition and scalar multiplication.",
+        "The quotient space $M_3(\\mathbb{R}) / T_3(\\mathbb{R})$ is isomorphic to the vector space of all $3 \\times 3$ real lower triangular matrices over $\\mathbb{R}$ under usual matrix addition and scalar multiplication.",
+        "The quotient space $M_3(\\mathbb{R}) / T_3(\\mathbb{R})$ is isomorphic to the vector space of all $3 \\times 3$ real matrices with trace zero over $\\mathbb{R}$ under usual matrix addition and scalar multiplication."
+      ],
+      "explanationEn": "Two finite-dimensional real vector spaces are isomorphic if and only if they have the same dimension. Here $\\dim M_3(\\mathbb{R}) = 9$ and $\\dim T_3(\\mathbb{R}) = 6$, so $\\dim\\bigl(M_3(\\mathbb{R})/T_3(\\mathbb{R})\\bigr) = 9 - 6 = 3$. Among the options, the spaces of $3 \\times 3$ real skew-symmetric, symmetric, lower triangular, and trace-zero matrices have dimensions $3, 6, 6,$ and $8$ respectively, so only option (A) has dimension 3."
+    },
+    {
+      "questionId": "gate_ma_2026_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Calculus",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $I$ be the integral defined as follows:\n$I = \\int_0^1 \\int_0^{\\sqrt{y}} dx\\,dy + \\int_1^2 \\int_{\\sqrt{y-1}}^1 dx\\,dy$\nIf the order of the integration is changed, then which one of the following is the correct expression for $I$?",
+      "optionsEn": [
+        "$\\int_0^{1/2} \\int_{-x}^{x} dy\\,dx + \\int_{1/2}^1 \\int_{-x^2}^{-x^2+1} dy\\,dx$",
+        "$\\int_0^1 \\int_{x^2}^{x^2+1} dy\\,dx$",
+        "$\\int_0^{1/2} \\int_{x^2}^{x^2+1} dy\\,dx + \\int_{1/2}^1 \\int_{\\sqrt{x}}^{\\sqrt{x}+1} dy\\,dx$",
+        "$\\int_0^1 \\int_{x^2}^{x^2-1} dy\\,dx$"
+      ],
+      "explanationEn": "In the first integral, $0 \\le y \\le 1$ and $0 \\le x \\le \\sqrt{y}$ gives the region $x^2 \\le y \\le 1$ for $0 \\le x \\le 1$. In the second integral, $1 \\le y \\le 2$ and $\\sqrt{y-1} \\le x \\le 1$ gives $y - 1 \\le x^2$, i.e., $1 \\le y \\le x^2 + 1$ for $0 \\le x \\le 1$. Combining these two adjacent vertical strips over $0 \\le x \\le 1$ yields the single region $x^2 \\le y \\le x^2 + 1$, so $I = \\int_0^1 \\int_{x^2}^{x^2+1} dy\\,dx$, which is option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $C$ denote the Cantor set and $f:[0,1] \\to \\mathbb{R}$ be defined as follows:\n$f(x) = \\begin{cases} x^{2026} & \\text{for } x \\in C \\\\ \\cos(\\pi x) & \\text{for } x \\in [0, \\frac{1}{2}] \\setminus C \\\\ \\sin(\\pi x) & \\text{for } x \\in [\\frac{1}{2}, 1] \\setminus C \\end{cases}$\nThe value of the Lebesgue integral of $f(x)$ over the interval $[0,1]$ is equal to",
+      "optionsEn": [
+        "$\\frac{2}{\\pi}$",
+        "$\\frac{1}{\\pi}$",
+        "$\\frac{3}{\\pi}$",
+        "$0$"
+      ],
+      "explanationEn": "Since the Cantor set $C$ has Lebesgue measure zero, the values of $f(x)$ on $C$ do not affect the Lebesgue integral. Therefore, $\\int_0^1 f(x)\\,dx = \\int_0^{1/2} \\cos(\\pi x)\\,dx + \\int_{1/2}^1 \\sin(\\pi x)\\,dx$. Evaluating each piece gives $\\left[\\frac{\\sin(\\pi x)}{\\pi}\\right]_0^{1/2} + \\left[-\\frac{\\cos(\\pi x)}{\\pi}\\right]_{1/2}^1 = \\frac{1}{\\pi} + \\frac{1}{\\pi} = \\frac{2}{\\pi}$, which is option (A)."
+    },
+    {
+      "questionId": "gate_ma_2026_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Algebra",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a group of order $595$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$G$ cannot have a proper normal subgroup.",
+        "$G$ must have a proper normal subgroup.",
+        "$G$ cannot have an element of order $17$.",
+        "The number of Sylow $5$-subgroups is $17$."
+      ],
+      "explanationEn": "Factorizing the order gives $|G| = 595 = 5 \\times 7 \\times 17$. By Sylow's third theorem, the number $n_{17}$ of Sylow $17$-subgroups satisfies $n_{17} \\mid 35$ and $n_{17} \\equiv 1 \\pmod{17}$; the only divisor of $35$ congruent to $1 \\pmod{17}$ is $n_{17} = 1$. Hence $G$ has a unique Sylow $17$-subgroup, which is a proper normal subgroup of order $17$, confirming option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u(x,t)$ be the solution of the initial value problem for the heat equation on the real line:\n$\\frac{\\partial u}{\\partial t} = k \\frac{\\partial^2 u}{\\partial x^2}, \\quad -\\infty < x < \\infty, \\quad t > 0, \\quad k \\in \\mathbb{R}$\nwith the initial condition $u(x,0) = e^{-a|x|}$, $a > 0$.\nIf $\\hat{u}(w,t) = \\int_{-\\infty}^{\\infty} u(x,t) e^{iwx}\\,dx$ is the Fourier transform of $u(x,t)$ with respect to $x$, then $\\hat{u}(w,t)$ is equal to",
+      "optionsEn": [
+        "$\\frac{2a}{a^2+w^2} e^{-kw^2 t}$",
+        "$\\frac{a}{a^2+w^2} e^{-kw^2 t}$",
+        "$\\frac{2a}{a^2+w^2} e^{-ka^2 t}$",
+        "$\\frac{1}{\\sqrt{4\\pi k t}} e^{-\\frac{w^2}{4kt}}$"
+      ],
+      "explanationEn": "Taking the Fourier transform of the heat equation with respect to $x$ converts $\\frac{\\partial^2 u}{\\partial x^2}$ into $-w^2 \\hat{u}(w,t)$, giving the ODE $\\frac{\\partial \\hat{u}}{\\partial t} = -k w^2 \\hat{u}$, whose solution is $\\hat{u}(w,t) = \\hat{u}(w,0) e^{-kw^2 t}$. At $t = 0$, $\\hat{u}(w,0) = \\int_{-\\infty}^{\\infty} e^{-a|x|} e^{iwx}\\,dx = 2\\int_0^\\infty e^{-ax}\\cos(wx)\\,dx = \\frac{2a}{a^2 + w^2}$. Multiplying these gives $\\hat{u}(w,t) = \\frac{2a}{a^2 + w^2} e^{-kw^2 t}$, which is option (A)."
+    },
+    {
+      "questionId": "gate_ma_2026_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Calculus",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be defined as $f(x,y) = (e^x \\cos y, e^x \\sin y)$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$f$ is one-to-one.",
+        "The Jacobian of $f$ is negative.",
+        "$f$ is locally invertible.",
+        "$f$ is invertible on $\\mathbb{R}^2$."
+      ],
+      "explanationEn": "The Jacobian determinant of $f(x,y) = (e^x\\cos y, e^x\\sin y)$ is $\\det \\begin{pmatrix} e^x\\cos y & -e^x\\sin y \\\\ e^x\\sin y & e^x\\cos y \\end{pmatrix} = e^{2x}(\\cos^2 y + \\sin^2 y) = e^{2x} > 0$ everywhere on $\\mathbb{R}^2$. By the Inverse Function Theorem, a $C^1$ map with non-vanishing Jacobian determinant at every point is locally invertible at every point. However, $f(x, y + 2\\pi) = f(x, y)$, so $f$ is neither one-to-one nor globally invertible, making option (C) the only true statement."
+    },
+    {
+      "questionId": "gate_ma_2026_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{C} \\to \\mathbb{C}$ be defined by $f(z) = |z|^2 - 5\\bar{z} + 2$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$f$ is differentiable at $z = 5i$.",
+        "$f$ is differentiable at $z = 5$.",
+        "$f$ is differentiable at $z = -5i$.",
+        "$f$ is differentiable at $z = -5$."
+      ],
+      "explanationEn": "Writing $f(z) = z\\bar{z} - 5\\bar{z} + 2$, a real-differentiable function $f$ is complex differentiable at $z$ if and only if the Cauchy–Riemann equation $\\frac{\\partial f}{\\partial \\bar{z}} = 0$ holds at $z$. Computing the Wirtinger derivative gives $\\frac{\\partial f}{\\partial \\bar{z}} = z - 5$, which vanishes if and only if $z = 5$. Hence $f$ is differentiable exclusively at $z = 5$, matching option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $D = \\{z \\in \\mathbb{C} \\mid |z| < 1\\}$ denote the unit disc in the complex plane $\\mathbb{C}$. Let $f: D \\to D$ be an analytic function which satisfies $f(0) = 0$. Then which one of the following is a possible value of $f'(0)$?",
+      "optionsEn": [
+        "$\\frac{5}{2}i$",
+        "$\\frac{i}{10}$",
+        "$\\frac{3}{2}$",
+        "$-\\frac{5}{2}i$"
+      ],
+      "explanationEn": "By the Schwarz Lemma, any analytic map $f: D \\to D$ with $f(0) = 0$ must satisfy $|f'(0)| \\le 1$. Checking the moduli of the four choices: $|\\frac{5}{2}i| = 2.5 > 1$, $|\\frac{i}{10}| = 0.1 \\le 1$, $|\\frac{3}{2}| = 1.5 > 1$, and $|-\\frac{5}{2}i| = 2.5 > 1$. Only $\\frac{i}{10}$ satisfies $|f'(0)| \\le 1$ (realized, for instance, by $f(z) = \\frac{i}{10}z$), so option (B) is correct."
+    },
+    {
+      "questionId": "gate_ma_2026_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be the space of all continuously differentiable real valued functions on $[0,1]$. Define the following norms on $X$:\n$p_1(x) = \\sup\\{|x(t)| : t \\in [0,1]\\}$,\n$p_2(x) = \\sup\\left\\{\\left|\\frac{d}{dt}x(t)\\right| : t \\in [0,1]\\right\\}$,\nand $p_3(x) = p_1(x) + p_2(x)$.\nWhich one of the following is TRUE?",
+      "optionsEn": [
+        "$(X, p_1)$ is a Banach space.",
+        "$(X, p_2)$ is a Banach space.",
+        "$(X, p_3)$ is not a Banach space.",
+        "$(X, p_3)$ is a Banach space."
+      ],
+      "explanationEn": "The space $X = C^1[0,1]$ is not complete under $p_1$ (the uniform limit of $C^1$ functions need only be continuous, not differentiable), and $p_2$ is only a seminorm since $p_2(c) = 0$ for any nonzero constant function $c$. Under the $C^1$ norm $p_3(x) = \\|x\\|_\\infty + \\|x'\\|_\\infty$, a Cauchy sequence $(x_n)$ has both $(x_n)$ and $(x_n')$ uniformly Cauchy, hence uniformly convergent to continuous functions $x$ and $y$ with $x' = y$, so $x \\in C^1[0,1]$ and $p_3(x_n - x) \\to 0$. Thus $(X, p_3)$ is a Banach space, giving option (D)."
+    },
+    {
+      "questionId": "gate_ma_2026_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Topology",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a set with at least two elements. Let $d_1$, $d_2$ and $d_3$ be metrics on $X$. Which one of the following is NOT a metric on $X$?",
+      "optionsEn": [
+        "$d(x,y) := \\min(d_1(x,y), 3)$ for all $x, y \\in X$.",
+        "$d(x,y) := \\max(d_2(x,y), 3)$ for all $x, y \\in X$.",
+        "$d(x,y) := \\frac{10\\,d_3(x,y)}{1 + d_3(x,y)}$ for all $x, y \\in X$.",
+        "$d(x,y) := \\frac{1}{3}(d_1(x,y) + d_2(x,y) + d_3(x,y))$ for all $x, y \\in X$."
+      ],
+      "explanationEn": "A metric $d$ on $X$ must satisfy $d(x, x) = 0$ for every $x \\in X$. In option (B), $d(x, x) = \\max(d_2(x, x), 3) = \\max(0, 3) = 3 \\ne 0$, which violates the identity of indiscernibles axiom. The functions in (A), (C), and (D) all preserve positivity, symmetry, $d(x,x)=0$, and the triangle inequality, so (B) is NOT a metric."
+    },
+    {
+      "questionId": "gate_ma_2026_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P$ be a $3 \\times 3$ real symmetric positive definite matrix. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$Q^\\top P Q$ is positive definite for all nonzero $Q \\in \\mathbb{R}^{3 \\times 3}$.",
+        "$Q^\\top P Q$ is positive semidefinite for all $Q \\in \\mathbb{R}^{3 \\times 3}$.",
+        "$Q^\\top P Q$ is positive definite if $Q \\in \\mathbb{R}^{3 \\times 3}$ is nonsingular.",
+        "$Q^\\top P Q$ is not positive semidefinite for some $Q \\in \\mathbb{R}^{3 \\times 3}$."
+      ],
+      "explanationEn": "For any $Q \\in \\mathbb{R}^{3 \\times 3}$ and any $x \\in \\mathbb{R}^3$, we have $x^\\top (Q^\\top P Q) x = (Qx)^\\top P (Qx) \\ge 0$ because $P$ is positive definite; hence $Q^\\top P Q$ is always positive semidefinite, making (B) true and (D) false. If $Q$ is nonsingular, then $x \\ne 0 \\implies Qx \\ne 0 \\implies (Qx)^\\top P (Qx) > 0$, so $Q^\\top P Q$ is positive definite, making (C) true. If $Q$ is nonzero but singular, choosing a nonzero $x \\in \\ker(Q)$ gives $x^\\top Q^\\top P Q x = 0$, so (A) is false."
+    },
+    {
+      "questionId": "gate_ma_2026_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Calculus",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{R}^2 \\to \\mathbb{R}$ be a function defined as follows:\n$f(x,y) = \\begin{cases} \\frac{x\\sqrt{x^2+y^2}}{|x|} & \\text{for } x \\neq 0 \\\\ 0 & \\text{for } x = 0 \\end{cases}$\nWhich of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$f(x,y)$ is continuous at $(0,0)$.",
+        "For any $u \\in \\mathbb{R}^2$, the directional derivative of $f$ at $(0,0)$ in the direction of $u$ exists.",
+        "$\\frac{\\partial f}{\\partial x}(0,0) = 1 = \\frac{\\partial f}{\\partial y}(0,0)$.",
+        "$f(x,y)$ is differentiable at $(0,0)$."
+      ],
+      "explanationEn": "Since $|f(x,y)| \\le \\sqrt{x^2+y^2} \\to 0 = f(0,0)$ as $(x,y) \\to (0,0)$, $f$ is continuous at $(0,0)$, so (A) is true. For any direction $u = (u_1, u_2)$, if $u_1 = 0$ then $f(tu)/t = 0 \\to 0$; if $u_1 \\ne 0$ then $\\frac{f(tu_1, tu_2) - f(0,0)}{t} = \\frac{t u_1 |t|\\sqrt{u_1^2+u_2^2}}{t |t u_1|} = \\operatorname{sgn}(u_1)\\sqrt{u_1^2+u_2^2}$, which is independent of $t$, so every directional derivative exists and (B) is true. However, $\\frac{\\partial f}{\\partial y}(0,0) = 0 \\ne 1 = \\frac{\\partial f}{\\partial x}(0,0)$ (disproving (C)), and $D_u f(0,0)$ is not linear in $u$, so $f$ is not differentiable at $(0,0)$ (disproving (D))."
+    },
+    {
+      "questionId": "gate_ma_2026_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Algebra",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\mathbb{Z}_{11}$ be the ring of integers modulo $11$. Let $\\mathbb{Z}_{11}[x]$ be the ring of all polynomials with coefficients in $\\mathbb{Z}_{11}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The polynomial $x^2 + x + 4$ is irreducible over $\\mathbb{Z}_{11}$.",
+        "$\\mathbb{Z}_{11}[x] / \\langle x^2 + x + 4 \\rangle$ is a field.",
+        "The ideal $\\langle x^2 + x + 4 \\rangle$ is maximal.",
+        "The ideal $\\langle x^2 + x + 4 \\rangle$ is not a prime ideal."
+      ],
+      "explanationEn": "A quadratic polynomial over the field $\\mathbb{Z}_{11}$ is irreducible if and only if it has no root in $\\mathbb{Z}_{11}$, i.e., its discriminant is not a quadratic residue modulo $11$. Here $\\Delta = 1^2 - 4(1)(4) = -15 \\equiv 7 \\pmod{11}$, and the squares modulo $11$ are $\\{0, 1, 4, 9, 5, 3\\}$, which do not include $7$; hence $x^2 + x + 4$ is irreducible over $\\mathbb{Z}_{11}$, proving (A). In the PID $\\mathbb{Z}_{11}[x]$, an ideal generated by an irreducible polynomial is maximal (hence also prime) and its quotient ring is a field, making (B) and (C) true and (D) false."
+    },
+    {
+      "questionId": "gate_ma_2026_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider $\\mathbb{R}$ with the topology $\\tau = \\{A \\subseteq \\mathbb{R} : A^c \\text{ is finite}\\} \\cup \\{\\emptyset\\}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$(\\mathbb{R}, \\tau)$ is a Hausdorff space.",
+        "Any finite subset of $(\\mathbb{R}, \\tau)$ is closed.",
+        "$(\\mathbb{R}, \\tau)$ is compact.",
+        "$(\\mathbb{R}, \\tau)$ is connected."
+      ],
+      "explanationEn": "This is the cofinite topology on the infinite set $\\mathbb{R}$. By definition, a proper subset is closed if and only if it is finite, so (B) is true. Any two nonempty open sets have finite complements and therefore must intersect (since $\\mathbb{R}$ is infinite), which immediately implies $(\\mathbb{R}, \\tau)$ is NOT Hausdorff ((A) is false) and IS connected ((D) is true). Moreover, any nonempty open set in an open cover omits only finitely many points, which can be covered by finitely many additional sets from the cover, so $(\\mathbb{R}, \\tau)$ is compact ((C) is true)."
+    },
+    {
+      "questionId": "gate_ma_2026_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Partial Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following partial differential equation:\n$a\\frac{\\partial^2 f(x,y)}{\\partial x^2} + b\\frac{\\partial^2 f(x,y)}{\\partial y^2} = 8 f(x,y)$\nwhere $a$ and $b$ are distinct positive real numbers.\nThe combination(s) of the values of the real parameters $\\xi$ and $\\eta$ for which $f(x,y) = e^{2\\xi x + \\eta y}$ is a solution of the given partial differential equation, is/are",
+      "optionsEn": [
+        "$\\xi = \\frac{1}{\\sqrt{a}}, \\; \\eta = \\frac{2}{\\sqrt{b}}$",
+        "$\\xi = 0, \\; \\eta = 0$",
+        "$\\xi = \\frac{1}{\\sqrt{2a}}, \\; \\eta = \\frac{1}{\\sqrt{2b}}$",
+        "$\\xi = 0, \\; \\eta = 2\\sqrt{\\frac{2}{b}}$"
+      ],
+      "explanationEn": "Substituting $f(x,y) = e^{2\\xi x + \\eta y}$ into the PDE gives $a(4\\xi^2) f + b\\eta^2 f = 8f$, which reduces to the condition $4a\\xi^2 + b\\eta^2 = 8$. Checking each option: (A) gives $4a(\\frac{1}{a}) + b(\\frac{4}{b}) = 4 + 4 = 8$ (valid); (B) gives $0 \\ne 8$; (C) gives $4a(\\frac{1}{2a}) + b(\\frac{1}{2b}) = 2 + \\frac{1}{2} = 2.5 \\ne 8$; and (D) gives $0 + b\\left(4 \\cdot \\frac{2}{b}\\right) = 8$ (valid). Hence options (A) and (D) are correct."
+    },
+    {
+      "questionId": "gate_ma_2026_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following assignment problem where $X, Y, Z$ are tasks, $P, Q, R$ are agents and the cost matrix is given by\n$\\begin{array}{c|ccc} & X & Y & Z \\\\ \\hline P & 4 & 2 & 8 \\\\ Q & 2 & 3 & 7 \\\\ R & 3 & 1 & 6 \\end{array}$\nWhich of the following statements is/are TRUE for an optimal assignment?",
+      "optionsEn": [
+        "The cost is $9$.",
+        "Agent $P$ is assigned to task $Y$.",
+        "Agent $Q$ is assigned to task $X$.",
+        "Agent $R$ is assigned to task $Y$."
+      ],
+      "explanationEn": "Evaluating all $3! = 6$ possible assignments gives: $(P\\to Y, Q\\to X, R\\to Z) = 2+2+6 = 10$, $(P\\to X, Q\\to Z, R\\to Y) = 4+7+1 = 12$, $(P\\to Y, Q\\to Z, R\\to X) = 2+7+3 = 12$, $(P\\to Z, Q\\to X, R\\to Y) = 8+2+1 = 11$, $(P\\to X, Q\\to Y, R\\to Z) = 4+3+6 = 13$, and $(P\\to Z, Q\\to Y, R\\to X) = 8+3+3 = 14$. The unique minimum cost is $10$ (not $9$), achieved by assigning $P \\to Y$, $Q \\to X$, and $R \\to Z$. Thus only options (B) and (C) are true."
+    },
+    {
+      "questionId": "gate_ma_2026_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following differential equation:\n$2x(x - 2)^2 \\frac{d^2y}{dx^2} + 3x \\frac{dy}{dx} + (x - 2)y = 0$\nWhich of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The point $x = 2$ is not a singular point.",
+        "The point $x = 2$ is a singular point.",
+        "The point $x = 2$ is a regular singular point.",
+        "The point $x = 2$ is not a regular singular point."
+      ],
+      "explanationEn": "Dividing by the leading coefficient $2x(x - 2)^2$ puts the ODE in standard form $y'' + P(x)y' + Q(x)y = 0$ with $P(x) = \\frac{3}{2(x - 2)^2}$ and $Q(x) = \\frac{1}{2x(x - 2)}$. Since $P(x)$ and $Q(x)$ are not analytic at $x = 2$, the point $x = 2$ is a singular point, making (B) true and (A) false. Because $(x - 2)P(x) = \\frac{3}{2(x - 2)}$ is still not analytic at $x = 2$, the singularity is irregular (not regular), making (D) true and (C) false."
+    },
+    {
+      "questionId": "gate_ma_2026_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Let $T: \\mathbb{R}^3 \\to \\mathbb{R}^3$ be the linear transformation which reflects every vector in $\\mathbb{R}^3$ through a two-dimensional subspace of $\\mathbb{R}^3$. Let $P \\in \\mathbb{R}^{3 \\times 3}$ be the matrix representation of $T$ using the basis $\\left\\{ \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix} \\right\\}$.\nThen the value of $2 \\times \\operatorname{trace}(P) - 3 \\times \\operatorname{determinant}(P)$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "A reflection of $\\mathbb{R}^3$ across a two-dimensional subspace fixes every vector in that plane (eigenvalue $1$ with multiplicity $2$) and reverses the normal vector (eigenvalue $-1$ with multiplicity $1$). Since trace and determinant are basis-independent invariants equal to the sum and product of eigenvalues, $\\operatorname{trace}(P) = 1 + 1 + (-1) = 1$ and $\\det(P) = 1 \\cdot 1 \\cdot (-1) = -1$. Therefore, $2 \\times \\operatorname{trace}(P) - 3 \\times \\det(P) = 2(1) - 3(-1) = 5$."
+    },
+    {
+      "questionId": "gate_ma_2026_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Algebra",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $x^3 - x + 1 \\in \\mathbb{Z}_3[x]$, where $\\mathbb{Z}_3[x]$ is the ring of all polynomials with coefficients in $\\mathbb{Z}_3$. Then the degree of the field extension $\\mathbb{Z}_3[x] / \\langle x^3 - x + 1 \\rangle$ of $\\mathbb{Z}_3$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Let $p(x) = x^3 - x + 1 \\in \\mathbb{Z}_3[x]$. Evaluating at every element of $\\mathbb{Z}_3$ gives $p(0) = 1$, $p(1) = 1$, and $p(2) = 8 - 2 + 1 = 7 \\equiv 1 \\pmod{3}$, so $p(x)$ has no roots in $\\mathbb{Z}_3$. Since $\\deg(p) = 3$, having no roots in $\\mathbb{Z}_3$ implies $p(x)$ is irreducible over $\\mathbb{Z}_3$. Consequently, $\\mathbb{Z}_3[x]/\\langle p(x) \\rangle$ is a field extension of $\\mathbb{Z}_3$ of degree $\\deg(p) = 3$."
+    },
+    {
+      "questionId": "gate_ma_2026_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Numerical Analysis",
+      "difficulty": "Easy",
+      "correctOption": "1 to 1.1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.1,
+      "questionTextEn": "Consider the differential equation $\\frac{dy}{dx} = x + y$ with the initial condition $y(0) = 1$. Using the modified Euler's method, the second approximation to $y(h)$, where $h = 0.05$ (step size), is equal to ________. (rounded off to TWO decimal places)",
+      "optionsEn": [],
+      "explanationEn": "With $f(x,y) = x + y$, $x_0 = 0$, $y_0 = 1$, and $h = 0.05$, the Euler predictor gives $y_1^{(0)} = y_0 + h f(x_0, y_0) = 1 + 0.05(1) = 1.05$. The first modified Euler (corrector) approximation is $y_1^{(1)} = y_0 + \\frac{h}{2}\\bigl(f(0,1) + f(0.05, 1.05)\\bigr) = 1 + 0.025(1 + 1.10) = 1.0525$. The second corrector approximation is $y_1^{(2)} = 1 + 0.025\\bigl(1 + (0.05 + 1.0525)\\bigr) = 1.0525625 \\approx 1.05$, which lies in the official range $[1.00, 1.10]$."
+    },
+    {
+      "questionId": "gate_ma_2026_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let\n$\\alpha = \\lim_{n \\to \\infty} \\int_0^1 \\frac{n^2 + (\\sin e^x)^n}{7n^2 + x^8}\\,dx$.\nThe value of $14\\alpha$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Dividing numerator and denominator by $n^2$ gives the integrand $f_n(x) = \\frac{1 + (\\sin e^x)^n / n^2}{7 + x^8 / n^2}$. Since $|\\sin e^x| \\le 1$, we have $|f_n(x)| \\le \\frac{2}{7}$ for all $x \\in [0,1]$ and $n \\ge 1$, and $f_n(x) \\to \\frac{1}{7}$ pointwise as $n \\to \\infty$. By the Dominated Convergence Theorem, $\\alpha = \\int_0^1 \\frac{1}{7}\\,dx = \\frac{1}{7}$, so $14\\alpha = 2$."
+    },
+    {
+      "questionId": "gate_ma_2026_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Functional Analysis",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "Let $X = (\\mathbb{R}^3, \\|\\cdot\\|_1)$ where $\\left\\| \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} \\right\\|_1 = |x| + |y| + |z|$ and $T: X \\to X$ be a linear transformation defined as\n$T\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} 1 & 1 & 3 \\\\ 2 & 2 & -2 \\\\ 1 & 3 & -3 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$.\nThen the operator norm of $T$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The operator norm of a matrix $A = (a_{ij})$ induced by the $\\ell^1$ norm on $\\mathbb{R}^3$ is the maximum absolute column sum: $\\|T\\|_1 = \\max_j \\sum_{i=1}^3 |a_{ij}|$. Computing the absolute column sums of $A$ gives $|1|+|2|+|1| = 4$ for column 1, $|1|+|2|+|3| = 6$ for column 2, and $|3|+|-2|+|-3| = 8$ for column 3. Hence $\\|T\\|_1 = \\max(4, 6, 8) = 8$."
+    },
+    {
+      "questionId": "gate_ma_2026_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Programming",
+      "difficulty": "Easy",
+      "correctOption": "3000",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3000.0,
+      "natMax": 3000.0,
+      "questionTextEn": "Consider the following Linear Programming Problem (LPP):\nmaximize $z = 10x_1 + 20x_2$\nsubject to\n$x_1 \\le 36$,\n$x_2 \\ge 42$,\n$x_1 + x_2 \\ge 48$,\n$5x_1 + x_2 \\le 150$,\n$x_1, x_2 \\ge 0$.\nThe maximum value of $z$ in the above LPP is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "From $5x_1 + x_2 \\le 150$ and $x_1 \\ge 0$, we can rewrite the objective as $z = 10x_1 + 20x_2 = 20(5x_1 + x_2) - 90x_1 \\le 20(150) - 0 = 3000$. Equality holds when $x_1 = 0$ and $x_2 = 150$, which satisfies every constraint: $0 \\le 36$, $150 \\ge 42$, $0 + 150 \\ge 48$, and $5(0) + 150 = 150$. Therefore, the maximum value of $z$ is $3000$."
+    },
+    {
+      "questionId": "gate_ma_2026_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Topology",
+      "difficulty": "Easy",
+      "correctOption": "9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "The number of distinct topologies on the set $\\{1, 2, 3\\}$ consisting of exactly four elements is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Every topology on $X = \\{1, 2, 3\\}$ contains $\\emptyset$ and $X$, so a 4-element topology is of the form $\\{\\emptyset, X, A, B\\}$ where $A, B$ are distinct proper nonempty subsets closed under union and intersection. This occurs in exactly two ways: either $A$ and $B$ are nested ($A \\subsetneq B$, with $3$ choices for a singleton $A$ and $2$ choices for a 2-element superset $B$, giving $6$ topologies), or $A$ and $B$ are complementary ($B = X \\setminus A$, giving $3$ topologies). In total, there are $6 + 3 = 9$ distinct 4-element topologies on $\\{1, 2, 3\\}$."
+    },
+    {
+      "questionId": "gate_ma_2026_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "For $a_n \\in \\mathbb{C}$, $n = 0, 1, 2, \\dots$, the power series $\\sum_{n=0}^{\\infty} a_n (z - 2)^n$ converges at $z = 5$ and diverges at $z = -1$. Then the radius of convergence of this power series is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The power series is centered at $z_0 = 2$ with radius of convergence $R$. Because it converges at $z = 5$, we must have $R \\ge |5 - 2| = 3$; because it diverges at $z = -1$, we must have $R \\le |-1 - 2| = 3$. Combining both inequalities yields $R = 3$."
+    },
+    {
+      "questionId": "gate_ma_2026_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The solution $y(x) = \\begin{pmatrix} y_1(x) \\\\ y_2(x) \\end{pmatrix}$ of the initial value problem\n$\\frac{dy}{dx} = \\begin{pmatrix} -3 & 4 \\\\ -2 & 3 \\end{pmatrix} y, \\quad y(0) = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$\nis equal to",
+      "optionsEn": [
+        "$3\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} e^x + \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} e^{-x}$",
+        "$-3\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} e^x + \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} e^{-x}$",
+        "$3\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} e^x + 2\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} e^{-x}$",
+        "$3\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} e^x - \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} e^{-x}$"
+      ],
+      "explanationEn": "The coefficient matrix $A = \\begin{pmatrix} -3 & 4 \\\\ -2 & 3 \\end{pmatrix}$ has trace $0$ and determinant $-9 + 8 = -1$, so its eigenvalues are $\\lambda_1 = 1$ with eigenvector $\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$ and $\\lambda_2 = -1$ with eigenvector $\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$. Thus $y(x) = c_1 \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} e^x + c_2 \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} e^{-x}$. Applying $y(0) = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ gives $c_1 + 2c_2 = 1$ and $c_1 + c_2 = 2$, so $c_2 = -1$ and $c_1 = 3$, matching option (D)."
+    },
+    {
+      "questionId": "gate_ma_2026_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 9 & 0 \\\\ 0 & 0 & 16 \\end{pmatrix}$. Define an inner product on $\\mathbb{R}^3$ with respect to $P$ as $\\langle x, y \\rangle_P = x^\\top P y$, for all $x, y \\in \\mathbb{R}^3$.\nConsider the subspace $V = \\operatorname{span}\\left\\{ \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix} \\right\\}$. Which one of the following sets is an orthonormal basis of $V$ with respect to $\\langle x, y \\rangle_P$?",
+      "optionsEn": [
+        "$\\left\\{ \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix} \\right\\}$",
+        "$\\left\\{ \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix} \\right\\}$",
+        "$\\left\\{ \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ \\frac{1}{5} \\\\ \\frac{1}{5} \\end{pmatrix} \\right\\}$",
+        "$\\left\\{ \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ \\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} \\end{pmatrix} \\right\\}$"
+      ],
+      "explanationEn": "Let $v_1 = (1, 0, 0)^\\top$ and $v_2 = (1, 1, 1)^\\top$. Then $\\langle v_1, v_1 \\rangle_P = 1$, so $u_1 = v_1$ is a unit vector, and $\\langle v_2, u_1 \\rangle_P = 1$. Applying Gram–Schmidt gives the orthogonal vector $w_2 = v_2 - \\langle v_2, u_1 \\rangle_P u_1 = (0, 1, 1)^\\top$, whose $P$-norm is $\\sqrt{0^2 + 9(1)^2 + 16(1)^2} = \\sqrt{25} = 5$. Normalizing $w_2$ yields $u_2 = \\left(0, \\frac{1}{5}, \\frac{1}{5}\\right)^\\top$, so $\\{u_1, u_2\\}$ is an orthonormal basis of $V$, which is option (C)."
+    },
+    {
+      "questionId": "gate_ma_2026_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the contour integral\n$\\int_\\Gamma \\frac{(1 - z)(3\\cos z + 5\\sin z)}{1 - z^{101}}\\,dz$,\nwhere $\\Gamma = \\left\\{z \\in \\mathbb{C} : |z| = \\frac{7}{9}\\right\\}$, oriented in the counter-clockwise direction, is equal to",
+      "optionsEn": [
+        "$2\\pi i$",
+        "$-2\\pi i$",
+        "$0$",
+        "$4\\pi i$"
+      ],
+      "explanationEn": "The poles of the integrand can only occur at roots of $1 - z^{101} = 0$, all of which lie on the unit circle $|z| = 1$. Since the contour $\\Gamma$ is the circle $|z| = \\frac{7}{9} < 1$, the integrand is analytic on and inside $\\Gamma$. By Cauchy's Integral Theorem, the contour integral equals $0$, which is option (C)."
+    },
+    {
+      "questionId": "gate_ma_2026_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(z) = \\sum_{n=1}^{\\infty} 5^{-n} \\cos(nz)$. On which one of the following domains does $f(z)$ represent an analytic function?",
+      "optionsEn": [
+        "$\\{z \\in \\mathbb{C} : |\\operatorname{Im} z| < \\ln 5\\}$",
+        "$\\{z \\in \\mathbb{C} : |\\operatorname{Im} z| > \\ln 5\\}$",
+        "$\\{z \\in \\mathbb{C} : |\\operatorname{Re} z| < \\ln 5\\}$",
+        "$\\{z \\in \\mathbb{C} : |\\operatorname{Re} z| > \\ln 5\\}$"
+      ],
+      "explanationEn": "Write $\\cos(nz) = \\frac{e^{inz} + e^{-inz}}{2}$. For $z = x + iy$, we have $|e^{inz}| = e^{-ny}$ and $|e^{-inz}| = e^{ny}$, so $|5^{-n}\\cos(nz)| \\le \\frac{1}{2}\\bigl((e^{-y}/5)^n + (e^{y}/5)^n\\bigr)$. Both geometric series converge uniformly on compact subsets when $e^{|y|} < 5$, i.e., $|\\operatorname{Im} z| < \\ln 5$, while the terms fail to go to zero when $|\\operatorname{Im} z| \\ge \\ln 5$. By Weierstrass's theorem on uniform convergence of analytic functions, $f(z)$ is analytic on $\\{z \\in \\mathbb{C} : |\\operatorname{Im} z| < \\ln 5\\}$, giving option (A)."
+    },
+    {
+      "questionId": "gate_ma_2026_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\delta(t)$ be the unit impulse function defined by $\\delta(x - x_0) = 0$ when $x \\neq x_0$ and $\\int_{-\\infty}^{\\infty} \\delta(x - x_0)\\,dx = 1$.\nConsider the following initial value problem:\n$2\\frac{d^2y}{dx^2} + \\frac{dy}{dx} + 2y = \\delta(x - 5)$\nwith $y(0) = 0$ and $\\frac{dy}{dx}(0) = 0$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$y(10) = \\frac{10}{\\sqrt{15}} e^{-5/4} \\sin\\left(\\frac{\\sqrt{15}}{4}\\right)$",
+        "$y(10) = \\frac{2}{\\sqrt{15}} e^{-5/4} \\sin\\left(\\frac{5\\sqrt{15}}{4}\\right)$",
+        "$y(10) = \\frac{10}{\\sqrt{15}} e^{5/4} \\sin\\left(\\frac{\\sqrt{15}}{4}\\right)$",
+        "$y(10) = \\frac{2}{\\sqrt{15}} e^{5/4} \\sin\\left(\\frac{5\\sqrt{15}}{4}\\right)$"
+      ],
+      "explanationEn": "Taking the Laplace transform with zero initial conditions gives $(2s^2 + s + 2)Y(s) = e^{-5s}$, so $Y(s) = \\frac{e^{-5s}}{2\\left[(s + \\frac{1}{4})^2 + \\frac{15}{16}\\right]} = \\frac{2}{\\sqrt{15}} e^{-5s} \\frac{\\sqrt{15}/4}{(s + \\frac{1}{4})^2 + (\\sqrt{15}/4)^2}$. Inverting via the second shifting theorem yields $y(x) = \\frac{2}{\\sqrt{15}} u(x - 5) e^{-(x - 5)/4} \\sin\\left(\\frac{\\sqrt{15}}{4}(x - 5)\\right)$. Evaluating at $x = 10$ gives $y(10) = \\frac{2}{\\sqrt{15}} e^{-5/4} \\sin\\left(\\frac{5\\sqrt{15}}{4}\\right)$, which is option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "The set of all $2 \\times 2$ real matrices under usual matrix addition and multiplication is a Unique Factorization Domain.",
+        "The set of all real valued functions under usual function addition and multiplication is a Unique Factorization Domain.",
+        "The set of all polynomials with coefficients in $\\mathbb{R}$ under usual polynomial addition and multiplication is a Unique Factorization Domain.",
+        "The set of Riemann integrable functions in $[0,1]$ under usual function addition and multiplication is a Unique Factorization Domain."
+      ],
+      "explanationEn": "A Unique Factorization Domain (UFD) must in particular be a commutative integral domain (no zero divisors). The ring $M_2(\\mathbb{R})$ is non-commutative with zero divisors, and both function rings in (B) and (D) have zero divisors (for example, nonzero functions with disjoint supports multiply to zero). Because $\\mathbb{R}$ is a field, $\\mathbb{R}[x]$ is a Euclidean domain, hence a PID and a UFD, making option (C) true."
+    },
+    {
+      "questionId": "gate_ma_2026_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\ell^\\infty = \\{x = (x_n)_{n \\ge 1} \\mid x_n \\in \\mathbb{R}, \\sup\\{|x_n| : n = 1, 2, \\dots\\} < \\infty\\}$ with the supremum norm. Let $T: \\ell^\\infty \\to \\ell^\\infty$ be given by $T(x_1, x_2, x_3, \\dots) = \\left(x_1, \\frac{x_2}{2}, \\frac{x_3}{3}, \\dots\\right)$. Which one of the following is TRUE?",
+      "optionsEn": [
+        "$T$ is bounded but not one-to-one.",
+        "$T$ is one-to-one but not bounded.",
+        "$T$ is bounded and the inverse (from the range of $T$) exists but not bounded.",
+        "$T$ is bounded and the inverse (from the range of $T$) is bounded."
+      ],
+      "explanationEn": "For any $x \\in \\ell^\\infty$, $\\|Tx\\|_\\infty = \\sup_n \\frac{|x_n|}{n} \\le \\|x\\|_\\infty$, so $T$ is bounded with $\\|T\\| = 1$. If $Tx = 0$, then $x_n/n = 0$ for all $n$, so $x = 0$; hence $T$ is one-to-one and $T^{-1}$ exists on $\\operatorname{range}(T)$. However, on the unit vectors $y^{(k)} = T(e^{(k)}) = \\frac{1}{k}e^{(k)}$ we have $\\|T^{-1}(y^{(k)})\\|_\\infty / \\|y^{(k)}\\|_\\infty = k \\to \\infty$, so $T^{-1}$ is unbounded, matching option (C)."
+    },
+    {
+      "questionId": "gate_ma_2026_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Partial Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $u(x,t)$ satisfy the wave equation\n$\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}, \\quad -\\infty < x < \\infty, \\quad t > 0, \\quad c > 0$\nwith $u(x,0) = \\begin{cases} 1 & \\text{if } |x| < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ and $\\frac{\\partial u}{\\partial t}(x,0) = 0$.\nBy using D'Alembert's formula, the maximum value of $u(0,t)$ for $t > 0$ is",
+      "optionsEn": [
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$0$"
+      ],
+      "explanationEn": "By D'Alembert's formula with zero initial velocity, $u(x,t) = \\frac{1}{2}\\bigl(u(x + ct, 0) + u(x - ct, 0)\\bigr)$. At $x = 0$, this gives $u(0,t) = \\frac{1}{2}\\bigl(u(ct, 0) + u(-ct, 0)\\bigr)$. For any $0 < t < \\frac{1}{c}$, both $|ct| < 1$ and $|-ct| < 1$, so $u(0,t) = \\frac{1}{2}(1 + 1) = 1$, which is the maximum possible value since $u(\\cdot, 0) \\le 1$; hence option (A) is correct."
+    },
+    {
+      "questionId": "gate_ma_2026_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Partial Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the Laplace equation $\\frac{\\partial^2 T}{\\partial x^2} + \\frac{\\partial^2 T}{\\partial y^2} = 0$, $0 < x < 1$, $0 < y < 1$, with the boundary conditions\n$T(x,0) = x$, $T(0,y) = y$,\n$T(x,1) = 1 + x$, $T(1,y) = 1 + y$.\nThen the value of $T\\left(\\frac{1}{2}, \\frac{1}{3}\\right)$ is equal to",
+      "optionsEn": [
+        "$\\frac{7}{6}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "Observe that the linear function $T(x,y) = x + y$ satisfies Laplace's equation ($T_{xx} + T_{yy} = 0$) and matches all four boundary conditions: $T(x,0)=x$, $T(0,y)=y$, $T(x,1)=x+1$, and $T(1,y)=1+y$. By the uniqueness theorem for the Dirichlet problem of Laplace's equation, $T(x,y) = x + y$ is the unique solution on the unit square. Therefore, $T\\left(\\frac{1}{2}, \\frac{1}{3}\\right) = \\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}$, giving option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $E_1$ and $E_2$ be subsets of a normed linear space $X$, and\n$E_1 + E_2 = \\{x + y : x \\in E_1, y \\in E_2\\}$,\n$E_1 \\times E_2 = \\{(x,y) : x \\in E_1, y \\in E_2\\}$.\nWhich one of the following is NOT TRUE?",
+      "optionsEn": [
+        "If either of $E_1$ or $E_2$ is open, then $E_1 + E_2$ is open.",
+        "If $E_1$ and $E_2$ are convex, then $E_1 + E_2$ is convex.",
+        "If $E_1$ and $E_2$ are closed, then $E_1 + E_2$ is closed.",
+        "If $E_1$ and $E_2$ are connected, then $E_1 \\times E_2$ is connected."
+      ],
+      "explanationEn": "The sum of two closed subsets in a normed linear space need not be closed; for example, in $\\mathbb{R}$, both $E_1 = \\mathbb{Z}$ and $E_2 = \\sqrt{2}\\mathbb{Z}$ are closed, yet $E_1 + E_2$ is dense and proper in $\\mathbb{R}$, hence not closed. On the other hand, if $E_1$ is open then $E_1 + E_2 = \\bigcup_{y \\in E_2}(E_1 + y)$ is a union of open translates (hence open), sums of convex sets are convex, and products of connected spaces are connected. Thus option (C) is NOT true."
+    },
+    {
+      "questionId": "gate_ma_2026_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a transportation problem, let $c_{ij}$ denote the unit cost of the cell $(i,j)$. Assume that $c_{11} = 10$, $c_{12} = 12$, $c_{21} = 11$ and $c_{22} = 13$. Let $\\alpha_i$ and $\\beta_j$, $i, j = 1, 2, 3$, represent the simplex multipliers associated with any basis corresponding to the unit cost $c_{ij}$. Assume that $\\alpha_1 = x$, $\\alpha_2 = x + 1$, $\\beta_1 = y$ and $\\beta_2 = y + 2$. The relative cost coefficient $d_{ij}$ is the difference between the current solution and the new improved solution.\nIf $x = 4$, $c_{13} = 19$ and $\\beta_3 = y + 5$, then which one of the following is TRUE?",
+      "optionsEn": [
+        "$y = 6$ and $d_{13} = 7$",
+        "$y = 6$ and $d_{13} = 4$",
+        "$y = 5$ and $d_{13} = 7$",
+        "$y = 5$ and $d_{13} = 4$"
+      ],
+      "explanationEn": "For basic cells in a transportation problem, the simplex multipliers satisfy $\\alpha_i + \\beta_j = c_{ij}$. Using cell $(1,1)$, $\\alpha_1 + \\beta_1 = c_{11} \\implies x + y = 10$; substituting $x = 4$ gives $y = 6$ (which consistently satisfies $c_{12} = 4 + 8 = 12$, $c_{21} = 5 + 6 = 11$, and $c_{22} = 5 + 8 = 13$). Then $\\beta_3 = y + 5 = 11$, so the relative cost coefficient is $d_{13} = c_{13} - (\\alpha_1 + \\beta_3) = 19 - (4 + 11) = 4$, giving option (B)."
+    },
+    {
+      "questionId": "gate_ma_2026_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ and $Y$ be topological spaces and $f: X \\to Y$ be a continuous and bijective mapping. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$f$ is a homeomorphism if $X$ and $Y$ are compact.",
+        "$f$ is a homeomorphism if $X$ is Hausdorff and $Y$ is compact.",
+        "$f$ is a homeomorphism if $X$ is compact and $Y$ is Hausdorff.",
+        "$f$ is a homeomorphism if $X$ and $Y$ are Hausdorff."
+      ],
+      "explanationEn": "If $X$ is compact and $Y$ is Hausdorff, then every closed subset $F \\subseteq X$ is compact, so its continuous image $f(F)$ is compact in the Hausdorff space $Y$ and therefore closed. Hence $f$ is a closed bijection, which implies $f^{-1}$ is continuous and $f$ is a homeomorphism, proving (C). The other conditions fail (e.g., the identity map from a finer topology to a coarser topology on a finite or indiscrete space, or $[0, 2\\pi) \\to S^1$)."
+    },
+    {
+      "questionId": "gate_ma_2026_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P$ and $Q$ be $3 \\times 3$ nonzero real matrices. Assume that there exists a $3 \\times 3$ real nonsingular matrix $S$ such that $S^{-1}PS$ and $S^{-1}QS$ are both upper triangular. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The matrix $PQ - QP$ is invertible.",
+        "The matrix $PQ - QP$ is nilpotent.",
+        "The matrix $I + PQ - QP$ is invertible, where $I$ is the $3 \\times 3$ identity matrix.",
+        "If $PQ - QP$ is a nonzero matrix, then $PQ - QP$ is diagonalizable."
+      ],
+      "explanationEn": "Let $U = S^{-1}PS$ and $V = S^{-1}QS$; both are upper triangular, so $UV$ and $VU$ are upper triangular with identical diagonal entries $u_{ii} v_{ii}$. Thus $S^{-1}(PQ - QP)S = UV - VU$ is strictly upper triangular, meaning all eigenvalues of $PQ - QP$ are $0$; hence $PQ - QP$ is nilpotent ((B) is true) and singular ((A) is false). Consequently, all eigenvalues of $I + PQ - QP$ equal $1$, so $\\det(I + PQ - QP) = 1 \\ne 0$ and $I + PQ - QP$ is invertible ((C) is true), whereas a nonzero nilpotent matrix is never diagonalizable ((D) is false)."
+    },
+    {
+      "questionId": "gate_ma_2026_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S = \\bigcup_{n=1}^{\\infty} \\left\\{(x,y) \\in \\mathbb{R}^2 : (x - n)^2 + y^2 = \\frac{1}{n^2}\\right\\}$ with usual topology. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$S$ is not compact.",
+        "$S$ is compact.",
+        "$S$ is connected.",
+        "$S$ is not connected."
+      ],
+      "explanationEn": "The set $S$ is a union of circles $C_n$ centered at $(n, 0)$ with radius $\\frac{1}{n}$ for $n = 1, 2, \\dots$. Because the points $\\left(n + \\frac{1}{n}, 0\\right) \\in S$ are unbounded as $n \\to \\infty$, $S$ is not compact in $\\mathbb{R}^2$, making (A) true and (B) false. Moreover, $C_1 \\cup C_2$ lies inside $x \\le 2.5$ while $\\bigcup_{n \\ge 3} C_n$ lies inside $x \\ge \\frac{8}{3} \\approx 2.67$, so the line $x = 2.6$ separates $S$ into two nonempty disjoint open subsets; hence $S$ is not connected, making (D) true and (C) false."
+    },
+    {
+      "questionId": "gate_ma_2026_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(z) = \\frac{z}{1 - z}$ and $g(z) = \\frac{1 + z}{1 - z}$ be two Möbius transformations defined on the unit disc $D = \\{z \\in \\mathbb{C} : |z| < 1\\}$. Consider the following statements:\n$S_1$: $f(D) \\subseteq g(D)$\n$S_2$: $g(D) \\subseteq f(D)$\nWhich of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "$S_1$ is true.",
+        "$S_2$ is true.",
+        "$S_2$ is true and $S_1$ is false.",
+        "Neither $S_1$ is true nor $S_2$ is true."
+      ],
+      "explanationEn": "For $z \\in D$, $\\operatorname{Re}(g(z)) = \\operatorname{Re}\\left(\\frac{1+z}{1-z}\\right) = \\frac{1 - |z|^2}{|1 - z|^2} > 0$, so $g$ maps $D$ onto the open right half-plane $g(D) = \\{w \\in \\mathbb{C} : \\operatorname{Re}(w) > 0\\}$. Notice that $f(z) = \\frac{z}{1-z} = \\frac{1}{2}(g(z) - 1)$, so $f(D) = \\left\\{w \\in \\mathbb{C} : \\operatorname{Re}(w) > -\\frac{1}{2}\\right\\}$. Therefore, $g(D) \\subsetneq f(D)$, which means $S_2$ is true and $S_1$ is false, making options (B) and (C) correct."
+    },
+    {
+      "questionId": "gate_ma_2026_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\alpha$ and $\\beta$ be the roots of the indicial equation obtained in the method of finding Frobenius series solution to the differential equation:\n$2x^2 \\frac{d^2y}{dx^2} - x \\frac{dy}{dx} + (1 - x^2)y = 0$.\nWhich of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\alpha \\neq \\beta$",
+        "$\\alpha - \\beta \\in \\mathbb{Z}$",
+        "$\\alpha - \\beta \\notin \\mathbb{Z}$",
+        "$\\alpha = \\beta$"
+      ],
+      "explanationEn": "Dividing by $2x^2$ gives $y'' - \\frac{1}{2x}y' + \\frac{1 - x^2}{2x^2}y = 0$, so $p_0 = \\lim_{x\\to 0} xP(x) = -\\frac{1}{2}$ and $q_0 = \\lim_{x\\to 0} x^2 Q(x) = \\frac{1}{2}$. The indicial equation is $r(r - 1) - \\frac{1}{2}r + \\frac{1}{2} = 0$, or $2r^2 - 3r + 1 = (2r - 1)(r - 1) = 0$, with roots $r = 1$ and $r = \\frac{1}{2}$. Since $\\alpha \\neq \\beta$ and $|\\alpha - \\beta| = \\frac{1}{2} \\notin \\mathbb{Z}$, options (A) and (C) are true."
+    },
+    {
+      "questionId": "gate_ma_2026_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\mathbb{Q}[x]$ be the ring of all polynomials with coefficients in $\\mathbb{Q}$ under the usual polynomial addition and multiplication. Let $T: \\mathbb{Q}[x] \\to \\mathbb{Q}[x]$ be defined by $T(p(x)) = p(x^2)$, for all $p(x) \\in \\mathbb{Q}[x]$.\nWhich of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$T$ is a ring homomorphism.",
+        "$T$ is one-to-one.",
+        "$T$ is onto.",
+        "$T$ is a ring isomorphism."
+      ],
+      "explanationEn": "For any $p, q \\in \\mathbb{Q}[x]$, $T(p + q) = (p + q)(x^2) = p(x^2) + q(x^2) = T(p) + T(q)$ and $T(pq) = (pq)(x^2) = p(x^2)q(x^2) = T(p)T(q)$, so $T$ is a ring homomorphism ((A) is true). If $T(p) = p(x^2) = 0$, then every coefficient of $p$ must be zero, so $\\ker(T) = \\{0\\}$ and $T$ is one-to-one ((B) is true). However, the image of $T$ consists solely of polynomials containing only even powers of $x$ (so $x \\notin \\operatorname{range}(T)$); thus $T$ is not onto and not an isomorphism, making (C) and (D) false."
+    },
+    {
+      "questionId": "gate_ma_2026_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Functional Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be any normed linear space and $X'$ be the dual space of $X$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "If $X$ is separable and $X'$ is non-separable, then $X$ must be reflexive.",
+        "If $X$ is separable and $X'$ is non-separable, then $X$ cannot be reflexive.",
+        "If $X$ is reflexive, then $X'$ is reflexive.",
+        "If $X'$ is separable, then $X$ is separable."
+      ],
+      "explanationEn": "By a standard theorem in functional analysis, if $X'$ is separable then $X$ must be separable, proving (D). Furthermore, a normed space $X$ is reflexive if and only if its dual $X'$ is reflexive, proving (C). Combining these: if $X$ were reflexive and separable, then $X'' \\cong X$ would be separable, which by (D) applied to $X'$ would force $X'$ to be separable; hence a separable $X$ with non-separable $X'$ (such as $\\ell^1$) cannot be reflexive, proving (B) and disproving (A)."
+    },
+    {
+      "questionId": "gate_ma_2026_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(\\mathbb{Z}_n, +)$ be the group of integers modulo $n$. Let $G = \\mathbb{Z}_{30} \\oplus \\mathbb{Z}_{12}$ be the external direct product of $\\mathbb{Z}_{30}$ and $\\mathbb{Z}_{12}$.\nThen which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$G$ is not a cyclic group.",
+        "The order of the element $(14, 7)$ in $G$ is $98$.",
+        "The order of the element $(14, 7)$ in $G$ is $60$.",
+        "There is an element in $G$ of order $360$."
+      ],
+      "explanationEn": "Since $\\gcd(30, 12) = 6 \\neq 1$, the direct product $G = \\mathbb{Z}_{30} \\oplus \\mathbb{Z}_{12}$ is not cyclic, so (A) is true; moreover, the maximum order of any element in $G$ is $\\operatorname{lcm}(30, 12) = 60 < 360$, so (D) is false. For the element $(14, 7)$, we have $\\operatorname{ord}(14) = \\frac{30}{\\gcd(30, 14)} = \\frac{30}{2} = 15$ in $\\mathbb{Z}_{30}$ and $\\operatorname{ord}(7) = \\frac{12}{\\gcd(12, 7)} = 12$ in $\\mathbb{Z}_{12}$. Therefore, $\\operatorname{ord}(14, 7) = \\operatorname{lcm}(15, 12) = 60$, making (C) true and (B) false."
+    },
+    {
+      "questionId": "gate_ma_2026_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let\n$J = \\begin{pmatrix} 2 & 1 & 0 & 0 & 0 & 0 \\\\ 0 & 2 & 0 & 0 & 0 & 0 \\\\ 0 & 0 & 2 & 1 & 0 & 0 \\\\ 0 & 0 & 0 & 2 & 0 & 0 \\\\ 0 & 0 & 0 & 0 & 3 & 1 \\\\ 0 & 0 & 0 & 0 & 0 & 3 \\end{pmatrix}$.\nThen the geometric multiplicity of the eigenvalue $2$ of $J$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The matrix $J$ is already in Jordan canonical form with three $2 \\times 2$ Jordan blocks: two blocks corresponding to eigenvalue $2$ and one block corresponding to eigenvalue $3$. The geometric multiplicity of an eigenvalue equals the number of Jordan blocks associated with that eigenvalue (equivalently, $\\dim \\ker(J - 2I) = 6 - \\operatorname{rank}(J - 2I) = 6 - 4 = 2$). Hence the geometric multiplicity of the eigenvalue $2$ is $2$."
+    },
+    {
+      "questionId": "gate_ma_2026_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Calculus",
+      "difficulty": "Medium",
+      "correctOption": "81",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 81.0,
+      "natMax": 81.0,
+      "questionTextEn": "Let $\\alpha = \\iint_S \\vec{F} \\cdot \\hat{n}\\,dS$, where $\\vec{F} = (2x + 3z)\\hat{i} + (xz - y)\\hat{j} + (y^2 + 2z)\\hat{k}$ and $S$ is the sphere with centre at $(3, -1, 2)$ and radius $9$. Here, $\\hat{n}$ is the unit normal drawn outward and $\\hat{i}, \\hat{j}, \\hat{k}$ are unit vectors.\nThen the value of $\\frac{1}{36\\pi}\\alpha$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "By Gauss's Divergence Theorem, $\\alpha = \\iiint_V (\\nabla \\cdot \\vec{F})\\,dV$, where $V$ is the solid ball of radius $R = 9$. Computing the divergence gives $\\nabla \\cdot \\vec{F} = \\frac{\\partial}{\\partial x}(2x + 3z) + \\frac{\\partial}{\\partial y}(xz - y) + \\frac{\\partial}{\\partial z}(y^2 + 2z) = 2 - 1 + 2 = 3$. Thus $\\alpha = 3 \\cdot \\frac{4}{3}\\pi R^3 = 4\\pi (9^3) = 4\\pi(729)$, and $\\frac{1}{36\\pi}\\alpha = \\frac{4 \\times 729}{36} = 81$."
+    },
+    {
+      "questionId": "gate_ma_2026_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Programming",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Consider the problem of maximizing\n$z = \\begin{pmatrix} x_1 & x_2 & x_3 \\end{pmatrix} \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 1 \\\\ 0 & 1 & 2 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix}$\nsubject to $\\begin{pmatrix} x_1 & x_2 & x_3 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = 1$, where $\\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} \\in \\mathbb{R}^3$.\nThen the maximum value of $z$ is ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "By the Rayleigh–Ritz theorem, the maximum of the quadratic form $x^\\top A x$ over the unit sphere $\\|x\\|_2 = 1$ for a real symmetric matrix $A$ equals its largest eigenvalue $\\lambda_{\\max}(A)$. The block-diagonal matrix $A = \\operatorname{diag}\\left(2, \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix}\\right)$ has eigenvalues $2$, $2 + 1 = 3$, and $2 - 1 = 1$. Therefore, the maximum value of $z$ is $\\lambda_{\\max}(A) = 3$."
+    },
+    {
+      "questionId": "gate_ma_2026_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $P_3(\\mathbb{R})$ be the vector space of all polynomials of degree at most three with real coefficients under usual polynomial addition and scalar multiplication. Let $T: P_3(\\mathbb{R}) \\to \\mathbb{R}^2$ be the linear transformation defined as $T(p) = (p(1), p'(1))$ for all $p \\in P_3(\\mathbb{R})$, where $p'$ is the derivative of $p$. Then the nullity of $T$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The linear map $T$ is onto $\\mathbb{R}^2$ because $T(1) = (1, 0)$ and $T(x - 1) = (0, 1)$ span $\\mathbb{R}^2$, so $\\operatorname{rank}(T) = 2$. Since $\\dim P_3(\\mathbb{R}) = 4$, the Rank–Nullity Theorem gives $\\operatorname{nullity}(T) = \\dim P_3(\\mathbb{R}) - \\operatorname{rank}(T) = 4 - 2 = 2$. (Equivalently, $\\ker(T) = \\{(x - 1)^2(ax + b) : a, b \\in \\mathbb{R}\\}$, which is $2$-dimensional.)"
+    },
+    {
+      "questionId": "gate_ma_2026_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Complex Analysis",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "The number of zeros of the complex polynomial $z^6 + 5z^3 + 4z + 11$ in the annulus $\\{z \\in \\mathbb{C} : 1 < |z| < 3\\}$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Let $p(z) = z^6 + 5z^3 + 4z + 11$. On the inner circle $|z| = 1$, taking $f(z) = 11$ and $g(z) = z^6 + 5z^3 + 4z$ gives $|g(z)| \\le 1 + 5 + 4 = 10 < 11 = |f(z)|$, so by Rouché's theorem $p(z)$ has $0$ zeros in $|z| \\le 1$. On the outer circle $|z| = 3$, taking $f(z) = z^6$ ($|f(z)| = 729$) and $g(z) = 5z^3 + 4z + 11$ ($|g(z)| \\le 5(27) + 12 + 11 = 158 < 729$) shows $p(z)$ has all $6$ zeros inside $|z| < 3$. Hence the number of zeros in the annulus $1 < |z| < 3$ is $6 - 0 = 6$."
+    },
+    {
+      "questionId": "gate_ma_2026_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $L^2[0,\\pi]$ denote the space of all real valued Lebesgue square integrable functions on $[0,\\pi]$. Let $T: L^2[0,\\pi] \\to L^2[0,\\pi]$ be defined as follows:\n$T(f(x)) = \\sin x \\int_0^\\pi f(t)\\cos t\\,dt + \\cos x \\int_0^\\pi f(t)\\sin t\\,dt$.\nThen the value of $\\frac{4}{\\pi}\\|T\\|$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The functions $e_1(x) = \\sqrt{\\frac{2}{\\pi}}\\sin x$ and $e_2(x) = \\sqrt{\\frac{2}{\\pi}}\\cos x$ are orthonormal in $L^2[0,\\pi]$, since $\\int_0^\\pi \\sin^2 x\\,dx = \\int_0^\\pi \\cos^2 x\\,dx = \\frac{\\pi}{2}$ and $\\int_0^\\pi \\sin x\\cos x\\,dx = 0$. Rewriting $T(f) = \\frac{\\pi}{2}\\bigl(\\langle f, e_2\\rangle e_1 + \\langle f, e_1\\rangle e_2\\bigr)$, orthogonality gives $\\|T(f)\\|_2^2 = \\left(\\frac{\\pi}{2}\\right)^2\\bigl(|\\langle f, e_1\\rangle|^2 + |\\langle f, e_2\\rangle|^2\\bigr) \\le \\left(\\frac{\\pi}{2}\\right)^2 \\|f\\|_2^2$ by Bessel's inequality, with equality for $f = e_1$. Hence $\\|T\\| = \\frac{\\pi}{2}$, and $\\frac{4}{\\pi}\\|T\\| = 2$."
+    },
+    {
+      "questionId": "gate_ma_2026_q61",
+      "questionNumber": 61,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Topology",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $\\Omega = \\{(x,y) \\in \\mathbb{R}^2 : x^2 + y^2 < 1\\}$ be the open unit disc and $\\partial\\Omega$ be its boundary. If $u(x,y)$ is the solution of the following Dirichlet problem:\n$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$ in $\\Omega$,\n$u(x,y) = x^2 - y^2$ on $\\partial\\Omega$,\nthen the value of $4\\left(u\\left(\\frac{1}{2}, 0\\right) - u\\left(0, \\frac{1}{2}\\right)\\right)$ is ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The polynomial $u(x,y) = x^2 - y^2$ is harmonic everywhere on $\\Omega$ because $u_{xx} + u_{yy} = 2 - 2 = 0$, and it trivially satisfies the boundary condition $u(x,y) = x^2 - y^2$ on $\\partial\\Omega$. By uniqueness of the solution to the Dirichlet problem, $u(x,y) = x^2 - y^2$ throughout $\\Omega$. Therefore, $4\\left(u\\left(\\frac{1}{2}, 0\\right) - u\\left(0, \\frac{1}{2}\\right)\\right) = 4\\left(\\frac{1}{4} - \\left(-\\frac{1}{4}\\right)\\right) = 4\\left(\\frac{1}{2}\\right) = 2$."
+    },
+    {
+      "questionId": "gate_ma_2026_q62",
+      "questionNumber": 62,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Topology",
+      "difficulty": "Medium",
+      "correctOption": "60",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 60.0,
+      "natMax": 60.0,
+      "questionTextEn": "Let $X = \\{5, 6, 7, 8, 9, 10\\}$ be equipped with the topology $\\tau = \\{\\emptyset, X, \\{5,6,7\\}, \\{8,9,10\\}\\}$. Then the number of subsets of $X$ which are neither open nor closed is ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The set $X$ has $6$ elements, so it has $2^6 = 64$ subsets in total. Notice that every open set in $\\tau$ has its complement also in $\\tau$, so the collection of closed sets coincides with $\\tau$ itself (only $4$ subsets are open or closed). Hence the number of subsets of $X$ that are neither open nor closed is $64 - 4 = 60$."
+    },
+    {
+      "questionId": "gate_ma_2026_q63",
+      "questionNumber": 63,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Linear Programming",
+      "difficulty": "Medium",
+      "correctOption": "206",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 206.0,
+      "natMax": 206.0,
+      "questionTextEn": "Let $\\alpha, \\beta \\in \\mathbb{R}$. If $(4, 0, 2, \\beta)$ is an optimal solution of the Linear Programming Problem:\nminimize $x_1 + 3x_2 + 2x_3 - \\alpha x_4$\nsubject to\n$4x_1 + x_2 + x_3 = 18$,\n$-3x_1 + 2x_3 + x_4 = 2$,\n$x_1, x_2, x_3, x_4 \\ge 0$,\nthen the maximum value of $22(\\alpha + \\beta)$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Feasibility of $(4, 0, 2, \\beta)$ in the second constraint gives $-3(4) + 2(2) + \\beta = 2 \\implies \\beta = 10$. Let $u_1, u_2$ be the dual variables; by complementary slackness, since $x_1 = 4 > 0$, $x_3 = 2 > 0$, and $x_4 = 10 > 0$, the dual constraints for $x_1, x_3, x_4$ must hold with equality: $4u_1 - 3u_2 = 1$, $u_1 + 2u_2 = 2$, and $u_2 = -\\alpha$ (along with $u_1 \\le 3$). Solving the first two equations yields $u_2 = \\frac{7}{11}$ and $u_1 = \\frac{8}{11} \\le 3$, forcing $\\alpha = -\\frac{7}{11}$, so $22(\\alpha + \\beta) = 22\\left(-\\frac{7}{11} + 10\\right) = -14 + 220 = 206$."
+    },
+    {
+      "questionId": "gate_ma_2026_q64",
+      "questionNumber": 64,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Calculus",
+      "difficulty": "Medium",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "Let $D = \\{(x,y) \\in \\mathbb{R}^2 : 0 \\le x \\le 2, 0 \\le y \\le 2\\}$ and let $f(t)$ denote the smallest integer greater than or equal to $t$. Then the value of the integral $\\iint_D f(x + y)\\,dx\\,dy$ is ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Partition the square $D = [0,2] \\times [0,2]$ along the diagonal lines $x + y = 1, 2, 3$ where $f(x+y) = \\lceil x+y \\rceil$ is constant (up to sets of measure zero). The four subregions have areas: $A_1 = \\frac{1}{2}$ (where $0 < x+y \\le 1$, $f=1$), $A_2 = 2 - \\frac{1}{2} = \\frac{3}{2}$ (where $1 < x+y \\le 2$, $f=2$), $A_3 = \\frac{3}{2}$ (where $2 < x+y \\le 3$, $f=3$), and $A_4 = \\frac{1}{2}$ (where $3 < x+y \\le 4$, $f=4$). Summing value times area gives $\\iint_D f(x+y)\\,dx\\,dy = 1\\left(\\frac{1}{2}\\right) + 2\\left(\\frac{3}{2}\\right) + 3\\left(\\frac{3}{2}\\right) + 4\\left(\\frac{1}{2}\\right) = \\frac{1 + 6 + 9 + 4}{2} = 10$."
+    },
+    {
+      "questionId": "gate_ma_2026_q65",
+      "questionNumber": 65,
+      "sectionId": "sec_ma",
+      "sectionTitle": "Mathematics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA 2026 Official Paper",
+      "topicTag": "Numerical Analysis",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "If Jacobi method is used to solve the following system of linear equations\n$\\begin{pmatrix} 1 & 2 & 1 \\\\ 0 & 2 & 2 \\\\ 1 & 1 & 1 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 2 \\\\ 2 \\end{pmatrix}$\nwith the initial guess $x^{(0)} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$ and $x^{(i)} = \\begin{pmatrix} x_1^{(i)} \\\\ x_2^{(i)} \\\\ x_3^{(i)} \\end{pmatrix}$, $i = 1, 2, 3, \\dots$, denotes the $i$-th iterate, then the value of $\\left|x_1^{(2)} + x_2^{(2)} + x_3^{(2)}\\right|$ is equal to ________. (answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The Jacobi iteration formulas from the three equations are $x_1^{(k+1)} = 2 - 2x_2^{(k)} - x_3^{(k)}$, $x_2^{(k+1)} = 1 - x_3^{(k)}$, and $x_3^{(k+1)} = 2 - x_1^{(k)} - x_2^{(k)}$. Starting from $x^{(0)} = (0, 0, 0)^\\top$, the first iterate is $x^{(1)} = (2, 1, 2)^\\top$. Substituting $x^{(1)}$ gives the second iterate $x^{(2)} = (2 - 2(1) - 2, \\; 1 - 2, \\; 2 - 2 - 1)^\\top = (-2, -1, -1)^\\top$, so $\\left|x_1^{(2)} + x_2^{(2)} + x_3^{(2)}\\right| = |-2 - 1 - 1| = 4$."
+    }
+  ]
+}

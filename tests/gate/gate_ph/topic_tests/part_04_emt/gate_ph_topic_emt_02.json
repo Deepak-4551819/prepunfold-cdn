@@ -1,0 +1,564 @@
+{
+  "testId": "gate_ph_topic_emt_02",
+  "categoryId": "gate_ph",
+  "test_id": "gate_ph_topic_emt_02",
+  "category_id": "gate_ph",
+  "title": "GATE Physics Topic Test: Electromagnetic Theory — Set 2",
+  "titleEn": "GATE Physics Topic Test: Electromagnetic Theory — Set 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_04_emt",
+  "part_id": "part_04_emt",
+  "partTitle": "Electromagnetic Theory",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE PH • Electromagnetic Theory • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "sectionTitleEn": "Electromagnetic Theory",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ph_topic_emt_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the Jones vector for right-circularly polarized light (using the $e^{i(kz - \\omega t)}$ convention)?",
+      "optionsEn": [
+        "$\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$",
+        "$\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ i \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$",
+        "$\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$"
+      ],
+      "explanationEn": "Circular polarization requires equal $x$ and $y$ amplitudes with a $\\pm 90^\\circ$ ($\\pm i$) phase difference; $\\frac{1}{\\sqrt{2}}(1, i)^T$ has $E_y$ leading $E_x$ by $\\pi/2$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Inside a uniformly polarized sphere with polarization $\\mathbf{P} = P_0 \\hat{z}$ (and no free charges), the electric field $\\mathbf{E}$ is:",
+      "optionsEn": [
+        "Proportional to $r$",
+        "Uniform and equal to $-\\frac{\\mathbf{P}}{3\\varepsilon_0}$",
+        "Zero everywhere",
+        "Uniform and equal to $+\\frac{\\mathbf{P}}{3\\varepsilon_0}$"
+      ],
+      "explanationEn": "The bound surface charge $\\sigma_b = P_0 \\cos\\theta$ produces a uniform internal depolarization field $\\mathbf{E} = -\\frac{\\mathbf{P}}{3\\varepsilon_0}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to Gauss's law in a linear isotropic dielectric medium, $\\nabla \\cdot \\mathbf{D}$ equals:",
+      "optionsEn": [
+        "Total charge density $\\rho_{\\text{free}} + \\rho_{\\text{bound}}$",
+        "Bound charge density $\\rho_{\\text{bound}}$",
+        "Zero everywhere",
+        "Free charge density $\\rho_{\\text{free}}$"
+      ],
+      "explanationEn": "The electric displacement $\\mathbf{D} = \\varepsilon_0 \\mathbf{E} + \\mathbf{P}$ absorbs bound charge density $\\rho_b = -\\nabla \\cdot \\mathbf{P}$, so $\\nabla \\cdot \\mathbf{D} = \\rho_{\\text{free}}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a rectangular metallic waveguide with cross-section $a > b$, which mode has the LOWEST cutoff frequency (the dominant mode)?",
+      "optionsEn": [
+        "$\\text{TE}_{01}$",
+        "$\\text{TM}_{11}$",
+        "$\\text{TE}_{10}$",
+        "$\\text{TE}_{11}$"
+      ],
+      "explanationEn": "Cutoff frequency $f_{mn} = \\frac{c}{2}\\sqrt{(m/a)^2 + (n/b)^2}$. For $a > b$, the smallest non-zero value is $m = 1, n = 0$ ($\\text{TE}_{10}$, since $\\text{TM}_{10}$ vanishes identically)."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A point charge $+q$ is placed at distance $d$ in front of an infinite grounded conducting plane. The electrostatic force on $+q$ is:",
+      "optionsEn": [
+        "Repulsive, of magnitude $\\frac{q^2}{16\\pi\\varepsilon_0 d^2}$",
+        "Zero",
+        "Attractive, of magnitude $\\frac{q^2}{4\\pi\\varepsilon_0 d^2}$",
+        "Attractive, of magnitude $\\frac{q^2}{16\\pi\\varepsilon_0 d^2}$"
+      ],
+      "explanationEn": "By the method of images, an image charge $-q$ sits at distance $2d$ from $+q$, giving an attractive Coulomb force $F = \\frac{q^2}{4\\pi\\varepsilon_0 (2d)^2} = \\frac{q^2}{16\\pi\\varepsilon_0 d^2}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about a static conductor in electrostatic equilibrium are ALWAYS TRUE?",
+      "optionsEn": [
+        "The electric field inside the bulk of the conductor is identically zero",
+        "Any net excess charge resides strictly on the outer surface of the conductor",
+        "The electric field just outside the surface is perpendicular to the surface with magnitude $\\sigma / \\varepsilon_0$",
+        "The electrostatic potential varies linearly across the surface of the conductor"
+      ],
+      "explanationEn": "Inside a static conductor $\\mathbf{E} = 0$ (A), net charge sits on the surface (B), and $\\mathbf{E}_{\\text{out}} = (\\sigma/\\varepsilon_0)\\hat{n}$ (C). The entire conductor is an equipotential (D is false)."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "A cube of side $a$ encloses a point charge $q = 8.854 \\times 10^{-12}\\text{ C}$ at its exact center. Taking $\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ F/m}$, what is the total electric flux through ALL six faces combined (in $\\text{N}\\cdot\\text{m}^2/\\text{C}$)?",
+      "optionsEn": [],
+      "explanationEn": "By Gauss's law, total flux $\\Phi_E = q / \\varepsilon_0 = 1\\text{ N}\\cdot\\text{m}^2/\\text{C}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "A uniform magnetic field $\\mathbf{B} = 2\\hat{z}\\text{ T}$ passes through a flat circular loop of area $0.5\\text{ m}^2$ whose normal makes an angle of $60^\\circ$ with the $z$-axis. What is the magnetic flux through the loop (in Webers)?",
+      "optionsEn": [],
+      "explanationEn": "$\\Phi_B = B A \\cos 60^\\circ = 2 \\times 0.5 \\times 0.5 = 0.5\\text{ Wb}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "40",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 40.0,
+      "natMax": 40.0,
+      "questionTextEn": "Two thin lenses of focal lengths $f_1 = 20\\text{ cm}$ and $f_2 = -40\\text{ cm}$ are placed in contact. What is the focal length of the combination (in cm)?",
+      "optionsEn": [],
+      "explanationEn": "$\\frac{1}{F} = \\frac{1}{20} - \\frac{1}{40} = \\frac{1}{40} \\implies F = 40\\text{ cm}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "A plane EM wave in vacuum has electric field amplitude $E_0 = 600\\text{ V/m}$. Taking $c = 3 \\times 10^8\\text{ m/s}$, what is its magnetic field amplitude $B_0$ in microtesla ($\\mu\\text{T}$)?",
+      "optionsEn": [],
+      "explanationEn": "$B_0 = E_0 / c = 600 / (3 \\times 10^8) = 2 \\times 10^{-6}\\text{ T} = 2\\,\\mu\\text{T}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The electrostatic potential in a region is $V(r) = \\frac{q}{4\\pi\\varepsilon_0}\\frac{e^{-\\alpha r}}{r}$ (screened Coulomb / Yukawa potential). For $r > 0$, what is the volume charge density $\\rho(r)$?",
+      "optionsEn": [
+        "$-\\frac{q \\alpha^2}{4\\pi}\\frac{e^{-\\alpha r}}{r}$",
+        "$-\\frac{q \\alpha}{4\\pi r^2} e^{-\\alpha r}$",
+        "$+\\frac{q \\alpha^2}{4\\pi}\\frac{e^{-\\alpha r}}{r}$",
+        "$0$"
+      ],
+      "explanationEn": "For $r > 0$, $\\nabla^2\\left(\\frac{e^{-\\alpha r}}{r}\\right) = \\alpha^2 \\frac{e^{-\\alpha r}}{r}$. By Poisson's equation $\\rho = -\\varepsilon_0 \\nabla^2 V = -\\frac{q \\alpha^2}{4\\pi}\\frac{e^{-\\alpha r}}{r}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a charge distribution with zero net charge ($Q = 0$) and zero net dipole moment ($\\mathbf{p} = 0$), but non-zero electric quadrupole moment, how does the electrostatic potential $V(r)$ fall off at large distances $r$?",
+      "optionsEn": [
+        "$1/r^4$",
+        "$1/r$",
+        "$1/r^2$",
+        "$1/r^3$"
+      ],
+      "explanationEn": "In the multipole expansion, monopole scales as $1/r$, dipole as $1/r^2$, and quadrupole as $1/r^3$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A neutral conducting sphere of radius $R$ is placed in a uniform external electric field $\\mathbf{E}_0 = E_0 \\hat{z}$. What is the induced surface charge density $\\sigma(\\theta)$ on the sphere?",
+      "optionsEn": [
+        "$\\varepsilon_0 E_0 \\cos\\theta$",
+        "$3\\varepsilon_0 E_0 \\cos\\theta$",
+        "$3\\varepsilon_0 E_0 \\sin\\theta$",
+        "$2\\varepsilon_0 E_0 \\cos\\theta$"
+      ],
+      "explanationEn": "The potential outside is $V(r, \\theta) = -E_0\\left(r - \\frac{R^3}{r^2}\\right)\\cos\\theta$. Thus $\\sigma(\\theta) = -\\varepsilon_0\\left.\\frac{\\partial V}{\\partial r}\\right|_{r=R} = 3\\varepsilon_0 E_0 \\cos\\theta$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A parallel-plate capacitor of plate area $A$ and separation $d$ has its lower half ($0 < z < d/2$) filled with a dielectric of permittivity $\\varepsilon_1$ and its upper half ($d/2 < z < d$) filled with a dielectric of permittivity $\\varepsilon_2$. What is its equivalent capacitance?",
+      "optionsEn": [
+        "$\\frac{A}{d}\\sqrt{\\varepsilon_1 \\varepsilon_2}$",
+        "$\\frac{A}{2d}(\\varepsilon_1 + \\varepsilon_2)$",
+        "$\\frac{2A}{d}\\left(\\frac{\\varepsilon_1 \\varepsilon_2}{\\varepsilon_1 + \\varepsilon_2}\\right)$",
+        "$\\frac{A}{d}(\\varepsilon_1 + \\varepsilon_2)$"
+      ],
+      "explanationEn": "The two slabs are in series, each with thickness $d/2$: $C_1 = 2\\varepsilon_1 A/d$, $C_2 = 2\\varepsilon_2 A/d$. Series combination gives $C = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{2A}{d}\\frac{\\varepsilon_1 \\varepsilon_2}{\\varepsilon_1 + \\varepsilon_2}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In relativistic electrodynamics, which of the following statements are TRUE?",
+      "optionsEn": [
+        "If $\\mathbf{E} \\cdot \\mathbf{B} = 0$ and $E < cB$ in one inertial frame, there exists another inertial frame where $\\mathbf{E}' = 0$",
+        "For a plane electromagnetic wave in vacuum, both invariants $E^2 - c^2 B^2$ and $\\mathbf{E} \\cdot \\mathbf{B}$ are zero",
+        "If $\\mathbf{E} \\cdot \\mathbf{B} \\neq 0$ in one inertial frame, neither $\\mathbf{E}'$ nor $\\mathbf{B}'$ can vanish in any inertial frame",
+        "If $\\mathbf{E} \\cdot \\mathbf{B} = 0$ and $E > cB$ in one inertial frame, there exists another inertial frame where $\\mathbf{B}' = 0$"
+      ],
+      "explanationEn": "All four statements follow directly from the invariance of $E^2 - c^2 B^2$ and $\\mathbf{E} \\cdot \\mathbf{B}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Hard",
+      "correctOption": "0.33",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.33,
+      "natMax": 0.34,
+      "questionTextEn": "A charge $+q$ is placed at distance $d$ from the center of a grounded conducting sphere of radius $R = d / 3$. What is the magnitude of the induced image charge $|q'|$ divided by $q$? (Round to 2 decimal places.)",
+      "optionsEn": [],
+      "explanationEn": "For a grounded conducting sphere of radius $R$ with external charge $q$ at distance $d$, $q' = -q(R/d) = -q/3$, so $|q'|/q = 1/3 \\approx 0.33$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "An unpolarized beam of intensity $I_0 = 64\\text{ W/m}^2$ passes sequentially through three ideal polarizers: the 2nd is at $45^\\circ$ to the 1st, and the 3rd is at $45^\\circ$ to the 2nd (so $90^\\circ$ to the 1st). What is the final transmitted intensity (in $\\text{W/m}^2$)?",
+      "optionsEn": [],
+      "explanationEn": "After 1st: $64/2 = 32$. After 2nd: $32\\cos^2 45^\\circ = 16$. After 3rd: $16\\cos^2 45^\\circ = 8\\text{ W/m}^2$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "0.2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.2,
+      "natMax": 0.2,
+      "questionTextEn": "Two point charges $+q$ and $-q$ are located at $(0, 0, +d)$ and $(0, 0, -d)$ respectively. If $q = 2\\text{ nC}$ and $d = 0.05\\text{ m}$, what is the magnitude of the electric dipole moment $p$ (in $\\text{nC}\\cdot\\text{m}$)?",
+      "optionsEn": [],
+      "explanationEn": "Separation between charges is $2d = 0.10\\text{ m}$, so $p = q(2d) = 2 \\times 0.10 = 0.2\\text{ nC}\\cdot\\text{m}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "1.25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.25,
+      "natMax": 1.25,
+      "questionTextEn": "A circular capacitor of plate radius $R = 0.1\\text{ m}$ is charged by a steady current $I = 5\\text{ A}$. What is the magnitude of the displacement current (in Amperes) passing through a concentric circular loop of radius $r = 0.05\\text{ m}$ between the plates?",
+      "optionsEn": [],
+      "explanationEn": "Uniform displacement current density gives $I_d(r) = I (r/R)^2 = 5 (0.05 / 0.1)^2 = 5/4 = 1.25\\text{ A}$."
+    },
+    {
+      "questionId": "gate_ph_topic_emt_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Topic • Electromagnetic Theory (Set 2)",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Hard",
+      "correctOption": "50",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 50.0,
+      "natMax": 50.0,
+      "questionTextEn": "Two long parallel wires separated by $d = 0.1\\text{ m}$ carry equal currents $I = 5\\text{ A}$ in the same direction. Taking $\\mu_0 = 4\\pi \\times 10^{-7}\\text{ N/A}^2$, what is the attractive force per unit length between them (in $\\mu\\text{N/m}$)?",
+      "optionsEn": [],
+      "explanationEn": "$\\frac{F}{L} = \\frac{\\mu_0 I^2}{2\\pi d} = \\frac{2 \\times 10^{-7} \\times 25}{0.1} = 5 \\times 10^{-5}\\text{ N/m} = 50\\,\\mu\\text{N/m}$."
+    }
+  ]
+}

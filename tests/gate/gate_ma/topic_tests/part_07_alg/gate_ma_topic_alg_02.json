@@ -1,0 +1,606 @@
+{
+  "testId": "gate_ma_topic_alg_02",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_alg_02",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Algebra — Set 2",
+  "titleEn": "GATE Mathematics Topic Test: Algebra — Set 2",
+  "partId": "part_07_alg",
+  "part_id": "part_07_alg",
+  "partTitle": "Algebra",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: बीजगणित — सेट 2",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Algebra • Set 2",
+  "sections": [
+    {
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "sectionTitleEn": "Algebra",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_alg_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Finite Abelian Groups",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following finite abelian groups is isomorphic to $\\mathbb{Z}_4 \\times \\mathbb{Z}_6$?",
+      "optionsEn": [
+        "$\\mathbb{Z}_3 \\times \\mathbb{Z}_8$",
+        "$\\mathbb{Z}_{24}$",
+        "$\\mathbb{Z}_2 \\times \\mathbb{Z}_2 \\times \\mathbb{Z}_6$",
+        "$\\mathbb{Z}_2 \\times \\mathbb{Z}_{12}$"
+      ],
+      "explanationEn": "Decompose into primary cyclic factors: $\\mathbb{Z}_4 \\times \\mathbb{Z}_6 \\cong \\mathbb{Z}_4 \\times \\mathbb{Z}_2 \\times \\mathbb{Z}_3 \\cong \\mathbb{Z}_2 \\times (\\mathbb{Z}_4 \\times \\mathbb{Z}_3) \\cong \\mathbb{Z}_2 \\times \\mathbb{Z}_{12}$ since $\\gcd(4,3)=1$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "UFD, PID & ED",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following integral domains is a Unique Factorization Domain (UFD) that is NOT a Principal Ideal Domain (PID)?",
+      "optionsEn": [
+        "$\\mathbb{Z}[\\sqrt{-5}]$",
+        "$\\mathbb{Z}[i]$",
+        "$\\mathbb{Z}[x]$",
+        "$\\mathbb{Q}[x]$"
+      ],
+      "explanationEn": "$\\mathbb{Z}[i]$ and $\\mathbb{Q}[x]$ are Euclidean domains, hence PIDs and UFDs. $\\mathbb{Z}[\\sqrt{-5}]$ is not a UFD because $6 = 2 \\cdot 3 = (1+\\sqrt{-5})(1-\\sqrt{-5})$. By Gauss's theorem, since $\\mathbb{Z}$ is a UFD, $\\mathbb{Z}[x]$ is a UFD; however, the ideal $\\langle 2, x \\rangle$ in $\\mathbb{Z}[x]$ is not principal, so $\\mathbb{Z}[x]$ is not a PID."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Cyclic Groups",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G = \\langle a \\rangle$ be a cyclic group of order $30$. The order of the element $a^{18}$ is:",
+      "optionsEn": [
+        "$10$",
+        "$15$",
+        "$5$",
+        "$6$"
+      ],
+      "explanationEn": "In a cyclic group of order $n$, the order of $a^k$ is $\\frac{n}{\\gcd(n, k)}$. Here $\\gcd(30, 18) = 6$, so $\\operatorname{ord}(a^{18}) = \\frac{30}{6} = 5$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Rings & Ideals",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $M_2(\\mathbb{R})$ be the ring of $2 \\times 2$ real matrices. The number of two-sided ideals of $M_2(\\mathbb{R})$ is:",
+      "optionsEn": [
+        "$2$",
+        "infinitely many",
+        "$3$",
+        "$4$"
+      ],
+      "explanationEn": "For any field $F$ and integer $n \\ge 1$, the matrix ring $M_n(F)$ is a simple ring: its only two-sided ideals are the zero ideal $\\{0\\}$ and $M_n(F)$ itself. Therefore $M_2(\\mathbb{R})$ has exactly $2$ two-sided ideals."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Cyclic Groups",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a cyclic group of order $24$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$G$ has a unique subgroup of order $8$.",
+        "$G$ has exactly $8$ generators.",
+        "Every quotient group of $G$ is cyclic.",
+        "$G$ has exactly $6$ distinct subgroups."
+      ],
+      "explanationEn": "(A) is true: a finite cyclic group has a unique subgroup of order $d$ for every divisor $d$ of $|G|$. (B) is true: the number of generators is $\\varphi(24) = 24(1-1/2)(1-1/3) = 8$. (C) is true: any homomorphic image of a cyclic group is cyclic. (D) is false: the number of subgroups equals the number of positive divisors of $24 = 2^3 \\cdot 3$, which is $(3+1)(1+1) = 8$, not $6$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Finite Fields",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $F = \\mathbb{F}_{16}$ be the finite field with $16$ elements. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The characteristic of $F$ is $2$.",
+        "$F$ contains a subfield isomorphic to $\\mathbb{F}_8$.",
+        "$F$ contains a subfield isomorphic to $\\mathbb{F}_4$.",
+        "Every element $\\alpha \\in F$ satisfies $\\alpha^{16} = \\alpha$."
+      ],
+      "explanationEn": "(A) is true since $16 = 2^4$. For finite fields, $\\mathbb{F}_{p^m} \\subseteq \\mathbb{F}_{p^n}$ iff $m \\mid n$. Since $3 \\nmid 4$ and $2 \\mid 4$, $\\mathbb{F}_8$ is not a subfield (B is false) while $\\mathbb{F}_4$ is a subfield (C is true). (D) is true: every nonzero element has order dividing $|F^\\times| = 15$, so $\\alpha^{15}=1$, and multiplying by $\\alpha$ gives $\\alpha^{16}=\\alpha$ for all $\\alpha \\in F$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Field Extensions",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $K \\subseteq L \\subseteq M$ be field extensions. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "If $[M:K]$ is finite, then $[M:K] = [M:L][L:K]$.",
+        "Every finite extension is an algebraic extension.",
+        "Every algebraic extension is a finite extension.",
+        "If $L/K$ is algebraic and $M/L$ is algebraic, then $M/K$ is algebraic."
+      ],
+      "explanationEn": "(A) is the Tower Law. (B) is true: if $[L:K]=n$, then for any $\\alpha \\in L$, the $n+1$ elements $1, \\alpha, \\dots, \\alpha^n$ are linearly dependent over $K$. (C) is false: the field of all algebraic numbers $\\overline{\\mathbb{Q}}$ is algebraic over $\\mathbb{Q}$ but has infinite degree. (D) is a standard theorem on transitivity of algebraic extensions."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Rings & Ideals",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The number of maximal ideals in the ring $\\mathbb{Z}_{180}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The maximal ideals of $\\mathbb{Z}_n$ correspond bijectively to the distinct prime divisors of $n$ (each prime $p \\mid n$ gives the maximal ideal $p\\mathbb{Z}_n$). Since $180 = 2^2 \\cdot 3^2 \\cdot 5$, there are exactly $3$ distinct prime factors ($2, 3, 5$), so $\\mathbb{Z}_{180}$ has $3$ maximal ideals."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Cyclic Groups",
+      "difficulty": "Easy",
+      "correctOption": "24",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 24.0,
+      "natMax": 24.0,
+      "questionTextEn": "The number of generators of the cyclic group $(\\mathbb{Z}_{84}, +)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The generators of $\\mathbb{Z}_{84}$ are the elements $k$ with $\\gcd(k, 84)=1$. Since $84 = 2^2 \\cdot 3 \\cdot 7$, the number of generators is $\\varphi(84) = 84\\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{7}\\right) = 84 \\cdot \\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{6}{7} = 24$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Group Actions",
+      "difficulty": "Medium",
+      "correctOption": "120",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 120.0,
+      "natMax": 120.0,
+      "questionTextEn": "In the symmetric group $S_6$, the size of the conjugacy class of the permutation $\\tau = (1\\;2\\;3)(4\\;5)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "In $S_6$, the conjugacy class of $\\tau$ consists of all permutations with cycle type $(3, 2, 1)$. The number of such permutations is $\\frac{6!}{3^1 \\cdot 1! \\cdot 2^1 \\cdot 1! \\cdot 1^1 \\cdot 1!} = \\frac{720}{6} = 120$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a finite group of order $56 = 2^3 \\cdot 7$. Which one of the following statements is ALWAYS true?",
+      "optionsEn": [
+        "$G$ has a unique Sylow $2$-subgroup.",
+        "$G$ must be abelian.",
+        "$G$ has either a normal Sylow $2$-subgroup or a normal Sylow $7$-subgroup (or both).",
+        "$G$ has a unique Sylow $7$-subgroup."
+      ],
+      "explanationEn": "By Sylow's theorems, $n_7 \\in \\{1, 8\\}$. If $n_7 = 1$, the Sylow $7$-subgroup is normal. If $n_7 = 8$, the $8$ Sylow $7$-subgroups contain $8 \\times 6 = 48$ elements of order $7$, leaving only $56 - 48 = 8$ elements in $G$. These $8$ remaining elements must form the unique (hence normal) Sylow $2$-subgroup ($n_2 = 1$). Thus in every case $G$ has a normal Sylow $2$-subgroup or a normal Sylow $7$-subgroup."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Rings & Ideals",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $R = C([0, 1], \\mathbb{R})$ be the ring of all continuous real-valued functions on $[0, 1]$ under pointwise addition and multiplication. Which one of the following ideals of $R$ is a MAXIMAL ideal?",
+      "optionsEn": [
+        "$I_2 = \\{f \\in R : f(x) = 0 \\text{ for all } x \\in [0, 1/2]\\}$",
+        "$I_4 = \\{f \\in R : \\int_0^1 f(x)\\,dx = 0\\}$",
+        "$I_3 = \\{f \\in R : f(1/3) = 0\\}$",
+        "$I_1 = \\{f \\in R : f(0) = f(1) = 0\\}$"
+      ],
+      "explanationEn": "For $I_3$, the evaluation map $\\operatorname{ev}_{1/3}: R \\to \\mathbb{R}$, $f \\mapsto f(1/3)$, is a surjective ring homomorphism with kernel $I_3$, so $R/I_3 \\cong \\mathbb{R}$, a field; hence $I_3$ is maximal. $I_1$ is strictly contained in $M_0 = \\{f: f(0)=0\\}$, $I_2$ is strictly contained in $M_0$, and $I_4$ is not even an ideal (not closed under multiplication by $x$)."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Group Actions",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a finite group of order $p^k$ ($p$ prime, $k \\ge 1$) acting on a finite set $X$. Let $X^G = \\{x \\in X : g \\cdot x = x \\text{ for all } g \\in G\\}$ be the set of fixed points. Which one of the following congruences ALWAYS holds?",
+      "optionsEn": [
+        "$|X^G| \\equiv 0 \\pmod p$",
+        "$|X^G| \\equiv |X| \\pmod p$",
+        "$|X^G| \\equiv 1 \\pmod p$",
+        "$|X^G| \\equiv |X| \\pmod{p^k}$"
+      ],
+      "explanationEn": "Partition $X$ into $G$-orbits: $|X| = |X^G| + \\sum_{i} |\\mathcal{O}_i|$, where each non-trivial orbit $\\mathcal{O}_i$ has size $|\\mathcal{O}_i| > 1$ dividing $|G| = p^k$, so $p \\mid |\\mathcal{O}_i|$. Reducing modulo $p$ gives $|X| \\equiv |X^G| \\pmod p$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Normal Subgroups & Quotient Groups",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a finite group and $Z(G)$ be its center. If $G/Z(G)$ is cyclic, then which one of the following statements MUST hold?",
+      "optionsEn": [
+        "$Z(G)$ is trivial.",
+        "$G$ is abelian, so $G = Z(G)$.",
+        "$G$ is cyclic.",
+        "$|G|$ is a prime power."
+      ],
+      "explanationEn": "Suppose $G/Z(G) = \\langle aZ(G) \\rangle$. Then any two elements $x, y \\in G$ can be written as $x = a^m z_1$ and $y = a^n z_2$ with $z_1, z_2 \\in Z(G)$. Since $z_1, z_2$ commute with all elements of $G$, $xy = a^{m+n} z_1 z_2 = a^{n+m} z_2 z_1 = yx$. Thus $G$ is abelian and $G = Z(G)$. Note $G = V_4$ shows $G$ need not be cyclic."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "UFD, PID & ED",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $R$ be an integral domain. Which of the following implications is/are ALWAYS true?",
+      "optionsEn": [
+        "If $R$ is a Euclidean Domain, then $R$ is a PID.",
+        "If $R$ is a PID, then every nonzero prime ideal of $R$ is maximal.",
+        "If $R$ is a UFD, then every irreducible element of $R$ is prime.",
+        "If $R$ is a PID, then $R[x]$ is a PID."
+      ],
+      "explanationEn": "(A), (B), and (C) are standard fundamental theorems of commutative algebra. (D) is false: $\\mathbb{Z}$ is a PID, yet $\\mathbb{Z}[x]$ is not a PID (in fact $R[x]$ is a PID if and only if $R$ is a field)."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Field Extensions",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $L = \\mathbb{Q}(\\sqrt[3]{2}, \\omega)$, where $\\omega = e^{2\\pi i/3}$ is a primitive cube root of unity. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$L$ is the splitting field of $x^3 - 2$ over $\\mathbb{Q}$.",
+        "$[L : \\mathbb{Q}] = 6$.",
+        "The Galois group $\\operatorname{Gal}(L/\\mathbb{Q})$ is abelian.",
+        "$\\mathbb{Q}(\\sqrt[3]{2})$ is a normal extension of $\\mathbb{Q}$."
+      ],
+      "explanationEn": "The roots of $x^3 - 2$ are $\\sqrt[3]{2}, \\sqrt[3]{2}\\omega, \\sqrt[3]{2}\\omega^2$, which generate $L$, so $L$ is its splitting field (A). Since $[\\mathbb{Q}(\\sqrt[3]{2}):\\mathbb{Q}]=3$ and $\\omega \\notin \\mathbb{R}$ has degree $2$ over $\\mathbb{Q}(\\sqrt[3]{2}) \\subset \\mathbb{R}$, $[L:\\mathbb{Q}] = 3 \\cdot 2 = 6$ (B). $\\operatorname{Gal}(L/\\mathbb{Q}) \\cong S_3$ is non-abelian (C is false), and $\\mathbb{Q}(\\sqrt[3]{2}) \\subset \\mathbb{R}$ contains one root of the irreducible polynomial $x^3 - 2$ but not its non-real roots, so it is not normal over $\\mathbb{Q}$ (D is false)."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Quotient Rings",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the ring $R = \\mathbb{Q}[x] / \\langle x^3 - x \\rangle$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$R$ is isomorphic to $\\mathbb{Q} \\times \\mathbb{Q} \\times \\mathbb{Q}$.",
+        "$R$ is an integral domain.",
+        "$R$ has exactly $8$ ideals.",
+        "$R$ has exactly $3$ maximal ideals."
+      ],
+      "explanationEn": "Over $\\mathbb{Q}$, $x^3 - x = x(x-1)(x+1)$ factors into $3$ distinct pairwise coprime linear polynomials. By the Chinese Remainder Theorem, $R \\cong \\mathbb{Q}[x]/\\langle x \\rangle \\times \\mathbb{Q}[x]/\\langle x-1 \\rangle \\times \\mathbb{Q}[x]/\\langle x+1 \\rangle \\cong \\mathbb{Q} \\times \\mathbb{Q} \\times \\mathbb{Q}$ (A). A direct product of $3$ fields is not an integral domain (B is false), has $2^3 = 8$ ideals (C), and has $3$ maximal ideals (D)."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Permutation Groups",
+      "difficulty": "Hard",
+      "correctOption": "18",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "In the symmetric group $S_6$, the order of the centralizer $C_{S_6}(\\sigma)$ of the permutation $\\sigma = (1\\;2\\;3)(4\\;5\\;6)$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The conjugacy class of $\\sigma$ in $S_6$ consists of all permutations of cycle type $(3, 3)$, whose size is $\\frac{6!}{3^2 \\cdot 2!} = \\frac{720}{18} = 40$. By the Orbit-Stabilizer Theorem, $|C_{S_6}(\\sigma)| = \\frac{|S_6|}{40} = \\frac{720}{40} = 18$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Finite Fields",
+      "difficulty": "Medium",
+      "correctOption": "32",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 32.0,
+      "natMax": 32.0,
+      "questionTextEn": "The number of primitive elements (generators of the multiplicative group $\\mathbb{F}_{81}^\\times$) in the finite field $\\mathbb{F}_{81}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The multiplicative group $\\mathbb{F}_{81}^\\times$ is cyclic of order $81 - 1 = 80$. The number of generators is $\\varphi(80) = \\varphi(2^4 \\cdot 5) = 80\\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{5}\\right) = 32$."
+    },
+    {
+      "questionId": "gate_ma_topic_alg_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Algebra (Set 2)",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Medium",
+      "correctOption": "36",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 36.0,
+      "natMax": 36.0,
+      "questionTextEn": "The total number of group homomorphisms from $\\mathbb{Z}_{12} \\times \\mathbb{Z}_{18}$ to $\\mathbb{Z}_6$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Since $\\mathbb{Z}_6$ is abelian, $\\operatorname{Hom}(\\mathbb{Z}_{12} \\times \\mathbb{Z}_{18}, \\mathbb{Z}_6) \\cong \\operatorname{Hom}(\\mathbb{Z}_{12}, \\mathbb{Z}_6) \\times \\operatorname{Hom}(\\mathbb{Z}_{18}, \\mathbb{Z}_6)$. Therefore the number of homomorphisms is $\\gcd(12, 6) \\cdot \\gcd(18, 6) = 6 \\times 6 = 36$."
+    }
+  ]
+}

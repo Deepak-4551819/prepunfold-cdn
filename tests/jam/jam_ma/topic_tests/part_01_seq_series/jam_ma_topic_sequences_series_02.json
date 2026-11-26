@@ -1,0 +1,605 @@
+{
+  "testId": "jam_ma_topic_sequences_series_02",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_topic_sequences_series_02",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 MA Topic Test: Sequences & Series of Real Numbers — Set 02",
+  "titleEn": "IIT JAM 2027 MA Topic Test: Sequences & Series of Real Numbers — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_01_seq_series",
+  "part_id": "part_01_seq_series",
+  "partTitle": "Sequences & Series of Real Numbers",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Sequences & Series of Real Numbers • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Bolzano-Weierstrass Theorem",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following statements about a sequence $(x_n)$ of real numbers is FALSE?",
+      "optionsEn": [
+        "Every bounded sequence has a convergent subsequence.",
+        "Every convergent sequence is bounded.",
+        "Every bounded monotone sequence is convergent.",
+        "Every sequence with a convergent subsequence is bounded."
+      ],
+      "explanationEn": "Statements (A), (B), and (C) are standard theorems of real analysis (Bolzano–Weierstrass Theorem, boundedness of convergent sequences, and Monotone Convergence Theorem). Statement (D) is FALSE: consider $x_{2k} = 0$ and $x_{2k-1} = k$ for $k \\in \\mathbb{N}$. The subsequence $(x_{2k})$ converges to $0$, yet $(x_n)$ is unbounded. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The interval of convergence of the power series $\\sum_{n=1}^{\\infty} \\frac{3^n}{n^2}(x - 1)^n$ is",
+      "optionsEn": [
+        "$\\left(\\frac{2}{3}, \\frac{4}{3}\\right)$",
+        "$\\left[\\frac{2}{3}, \\frac{4}{3}\\right)$",
+        "$\\left[\\frac{2}{3}, \\frac{4}{3}\\right]$",
+        "$\\left(\\frac{2}{3}, \\frac{4}{3}\\right]$"
+      ],
+      "explanationEn": "Here $a_n = \\frac{3^n}{n^2}$, so $\\frac{1}{R} = \\lim_{n \\to \\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = \\lim_{n \\to \\infty} 3 \\left(\\frac{n}{n+1}\\right)^2 = 3$, giving $R = \\frac{1}{3}$. The center is $x_0 = 1$, so the open interval of convergence is $\\left(\\frac{2}{3}, \\frac{4}{3}\\right)$. At both endpoints $x = \\frac{4}{3}$ and $x = \\frac{2}{3}$, $|3(x-1)| = 1$, so the series becomes $\\sum \\frac{1}{n^2}$ and $\\sum \\frac{(-1)^n}{n^2}$, both of which converge. Thus the interval of convergence is $\\left[\\frac{2}{3}, \\frac{4}{3}\\right]$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Term-by-Term Operations",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Suppose the power series $\\sum_{n=0}^{\\infty} a_n x^n$ has radius of convergence $R = 5$. Then the radius of convergence of the series $\\sum_{n=1}^{\\infty} n^2 a_n x^{n-1}$ is",
+      "optionsEn": [
+        "$25$",
+        "$\\frac{5}{2}$",
+        "$1$",
+        "$5$"
+      ],
+      "explanationEn": "Differentiating a power series term-by-term preserves the radius of convergence. Explicitly, $\\limsup_{n \\to \\infty} |n^2 a_n|^{1/n} = \\left(\\lim_{n \\to \\infty} (n^{1/n})^2\\right) \\limsup_{n \\to \\infty} |a_n|^{1/n} = 1 \\cdot \\frac{1}{R} = \\frac{1}{5}$, so the radius of convergence remains $5$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If the power series $\\sum_{n=0}^{\\infty} c_n (x + 3)^n$ diverges at $x = 1$, then it must also diverge at",
+      "optionsEn": [
+        "$x = -5$",
+        "$x = 0$",
+        "$x = -8$",
+        "$x = -7$"
+      ],
+      "explanationEn": "The series is centered at $x_0 = -3$. Since it diverges at $x = 1$, its radius of convergence satisfies $R \\le |1 - (-3)| = 4$. Hence it must diverge for all $x$ with $|x + 3| > 4$. Checking the options: $|-5 + 3| = 2 < 4$, $|0 + 3| = 3 < 4$, $|-7 + 3| = 4$ (boundary, convergence possible), and $|-8 + 3| = 5 > 4$. Thus it must diverge at $x = -8$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Exact Sums of Series",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The sum of the series $\\sum_{n=1}^{\\infty} \\frac{1}{(2n - 1)(2n + 1)}$ is",
+      "optionsEn": [
+        "$1$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$"
+      ],
+      "explanationEn": "Using partial fractions, $\\frac{1}{(2n - 1)(2n + 1)} = \\frac{1}{2}\\left(\\frac{1}{2n - 1} - \\frac{1}{2n + 1}\\right)$. The $N$-th partial sum telescopes to $S_N = \\frac{1}{2}\\left(1 - \\frac{1}{2N + 1}\\right)$. Letting $N \\to \\infty$ gives $\\frac{1}{2}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Comparison Tests",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the series $\\sum_{n=1}^{\\infty} \\left(\\frac{1}{n} - \\ln\\left(1 + \\frac{1}{n}\\right)\\right)$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "The series converges to a positive real number",
+        "The series diverges to $+\\infty$",
+        "The series converges conditionally only",
+        "The series converges to $0$"
+      ],
+      "explanationEn": "Using the Taylor expansion $\\ln(1 + u) = u - \\frac{u^2}{2} + O(u^3)$ for $u = \\frac{1}{n} > 0$, we have $\\frac{1}{n} - \\ln\\left(1 + \\frac{1}{n}\\right) = \\frac{1}{2n^2} + O\\left(\\frac{1}{n^3}\\right) > 0$ for all $n \\ge 1$ (since $\\ln(1+u) < u$ for $u > 0$). By the Limit Comparison Test with $\\sum \\frac{1}{n^2}$, the positive-term series converges to a strictly positive real number (in fact, the Euler–Mascheroni constant $\\gamma \\approx 0.5772$). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Exact Sums of Series",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The exact sum of the infinite series $\\sum_{n=0}^{\\infty} \\frac{n + 1}{n!}$ is",
+      "optionsEn": [
+        "$e$",
+        "$e + 1$",
+        "$3e$",
+        "$2e$"
+      ],
+      "explanationEn": "Split the series as $\\sum_{n=0}^{\\infty} \\frac{n}{n!} + \\sum_{n=0}^{\\infty} \\frac{1}{n!} = \\sum_{n=1}^{\\infty} \\frac{1}{(n-1)!} + e = e + e = 2e$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Term-by-Term Operations",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $|x| < 1$, let $f(x) = \\sum_{n=1}^{\\infty} \\frac{x^n}{n(n+1)}$. Then the value of $f\\left(\\frac{1}{2}\\right)$ is",
+      "optionsEn": [
+        "$\\ln 2$",
+        "$1 + \\ln 2$",
+        "$1 - \\ln 2$",
+        "$2 - 2\\ln 2$"
+      ],
+      "explanationEn": "Using partial fractions, $\\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$. For $0 < |x| < 1$, $f(x) = \\sum_{n=1}^{\\infty} \\frac{x^n}{n} - \\frac{1}{x} \\sum_{n=1}^{\\infty} \\frac{x^{n+1}}{n+1} = -\\ln(1 - x) - \\frac{1}{x}\\left(-\\ln(1 - x) - x\\right) = 1 + \\frac{1 - x}{x}\\ln(1 - x)$. Evaluating at $x = \\frac{1}{2}$ gives $f\\left(\\frac{1}{2}\\right) = 1 + \\ln\\left(\\frac{1}{2}\\right) = 1 - \\ln 2$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Exact Sums of Series",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The sum of the infinite series $\\sum_{n=1}^{\\infty} \\frac{n}{(n + 1)!}$ is equal to",
+      "optionsEn": [
+        "$e - 1$",
+        "$e - 2$",
+        "$1$",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "Write $\\frac{n}{(n+1)!} = \\frac{(n+1) - 1}{(n+1)!} = \\frac{1}{n!} - \\frac{1}{(n+1)!}$. The $N$-th partial sum telescopes cleanly: $S_N = \\sum_{n=1}^{N} \\left(\\frac{1}{n!} - \\frac{1}{(n+1)!}\\right) = \\frac{1}{1!} - \\frac{1}{(N+1)!} = 1 - \\frac{1}{(N+1)!}$. Taking $N \\to \\infty$ gives $1$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Monotone Sequences",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(x_n)$ be defined by $x_1 = 5$ and $x_{n+1} = \\frac{2x_n + 3}{4}$ for all $n \\in \\mathbb{N}$. Then $(x_n)$",
+      "optionsEn": [
+        "converges to $3$",
+        "diverges to $+\\infty$",
+        "is strictly decreasing and converges to $\\frac{3}{2}$",
+        "is strictly increasing and converges to $\\frac{3}{2}$"
+      ],
+      "explanationEn": "Observe that $x_{n+1} - \\frac{3}{2} = \\frac{2x_n + 3 - 6}{4} = \\frac{1}{2}\\left(x_n - \\frac{3}{2}\\right)$. By induction, $x_n - \\frac{3}{2} = \\frac{1}{2^{n-1}}\\left(5 - \\frac{3}{2}\\right) = \\frac{7}{2^n} > 0$, so $x_n = \\frac{3}{2} + \\frac{7}{2^n}$. Thus $(x_n)$ is strictly decreasing and converges to $\\frac{3}{2}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Comparison Tests",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following infinite series is/are convergent?",
+      "optionsEn": [
+        "$\\sum_{n=1}^{\\infty} \\frac{1}{n^2 + \\ln n}$",
+        "$\\sum_{n=1}^{\\infty} \\frac{2^n + n^3}{3^n + n^2}$",
+        "$\\sum_{n=1}^{\\infty} \\frac{n + 1}{n^2 + 3n + 5}$",
+        "$\\sum_{n=2}^{\\infty} \\frac{1}{\\sqrt{n} \\ln n}$"
+      ],
+      "explanationEn": "(A) $\\frac{1}{n^2 + \\ln n} \\le \\frac{1}{n^2}$ for $n \\ge 1$, so it converges by comparison with $\\sum \\frac{1}{n^2}$. TRUE. (B) $\\frac{2^n + n^3}{3^n + n^2} \\sim \\left(\\frac{2}{3}\\right)^n$, which converges by limit comparison with $\\sum (2/3)^n$. TRUE. (C) $\\frac{n+1}{n^2+3n+5} \\sim \\frac{1}{n}$, which diverges. FALSE. (D) For $n \\ge 2$, $\\ln n < \\sqrt{n}$, so $\\frac{1}{\\sqrt{n}\\ln n} > \\frac{1}{n}$, which diverges. FALSE. Therefore, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Completeness of R",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For each $n \\in \\mathbb{N}$, consider the collection of intervals $I_n$. For which of the following choices is the intersection $\\bigcap_{n=1}^{\\infty} I_n$ NON-EMPTY?",
+      "optionsEn": [
+        "$I_n = \\left[1 - \\frac{1}{n}, \\; 1 + \\frac{1}{n}\\right]$",
+        "$I_n = \\left(0, \\; 1 + \\frac{1}{n}\\right)$",
+        "$I_n = \\left(0, \\; \\frac{1}{n}\\right)$",
+        "$I_n = [n, \\infty)$"
+      ],
+      "explanationEn": "(A) Nested closed bounded intervals: $\\bigcap_{n=1}^{\\infty} \\left[1 - \\frac{1}{n}, 1 + \\frac{1}{n}\\right] = \\{1\\} \\neq \\emptyset$. TRUE. (B) For every $n \\ge 1$, $\\frac{1}{2} \\in \\left(0, 1 + \\frac{1}{n}\\right)$ (in fact the intersection is $(0, 1]$), which is non-empty. TRUE. (C) By the Archimedean property, for any $x > 0$ there exists $n$ with $\\frac{1}{n} < x$, so $\\bigcap_{n=1}^{\\infty} (0, 1/n) = \\emptyset$. FALSE. (D) No real number $x$ satisfies $x \\ge n$ for all $n \\in \\mathbb{N}$, so $\\bigcap_{n=1}^{\\infty} [n, \\infty) = \\emptyset$. FALSE. Therefore, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Cauchy Sequences",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(x_n)$ be a sequence of real numbers. Which of the following conditions necessarily implies/imply that $(x_n)$ is a Cauchy sequence?",
+      "optionsEn": [
+        "$|x_{n+1} - x_n| \\le \\frac{1}{n^2}$ for all $n \\in \\mathbb{N}$",
+        "$|x_{n+2} - x_{n+1}| \\le \\frac{3}{4} |x_{n+1} - x_n|$ for all $n \\in \\mathbb{N}$",
+        "$|x_{n+1} - x_n| \\le \\frac{1}{n}$ for all $n \\in \\mathbb{N}$",
+        "$(x_n)$ is monotone and bounded"
+      ],
+      "explanationEn": "(A) For $m > n$, $|x_m - x_n| \\le \\sum_{k=n}^{m-1} \\frac{1}{k^2} \\to 0$ as $n \\to \\infty$ since $\\sum \\frac{1}{k^2}$ converges; hence $(x_n)$ is Cauchy. TRUE. (B) $(x_n)$ is contractive with constant $\\frac{3}{4} < 1$, so $|x_m - x_n| \\le \\frac{(3/4)^{n-1}}{1 - 3/4}|x_2 - x_1| \\to 0$; hence Cauchy. TRUE. (C) Counterexample: $x_n = \\sum_{k=1}^n \\frac{1}{k}$ satisfies $|x_{n+1} - x_n| = \\frac{1}{n+1} < \\frac{1}{n}$ but diverges to $\\infty$. FALSE. (D) By the Monotone Convergence Theorem, every bounded monotone sequence converges in $\\mathbb{R}$, hence is Cauchy. TRUE. Therefore, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Monotone Sequences",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $\\alpha \\in \\mathbb{R}$, define $(x_n)$ by $x_1 = \\alpha$ and $x_{n+1} = \\frac{x_n^2 + 2}{3}$ for $n \\in \\mathbb{N}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "If $\\alpha = \\frac{3}{2}$, then $(x_n)$ converges to $1$.",
+        "If $\\alpha = \\frac{3}{2}$, then $(x_n)$ converges to $2$.",
+        "If $\\alpha = \\frac{5}{2}$, then $(x_n)$ diverges to $+\\infty$.",
+        "If $\\alpha = 0$, then $(x_n)$ diverges to $+\\infty$."
+      ],
+      "explanationEn": "Notice $x_{n+1} - x_n = \\frac{(x_n - 1)(x_n - 2)}{3}$ and $x_{n+1} - 1 = \\frac{(x_n - 1)(x_n + 1)}{3}$. If $\\alpha = \\frac{3}{2} \\in (1, 2)$, by induction $1 < x_n < 2$ and $x_{n+1} < x_n$, so $(x_n)$ decreases to the fixed point $1$; thus (A) is TRUE and (B) is FALSE. If $\\alpha = \\frac{5}{2} > 2$, then $x_{n+1} - x_n > 0$ and $x_n > 2$ strictly increases without an upper bound (since no fixed point exceeds $2$), so $x_n \\to +\\infty$; thus (C) is TRUE. If $\\alpha = 0$, $x_2 = \\frac{2}{3} \\in (0, 1)$, and $x_n$ increases monotonically to $1$ (since $x_n \\in [0, 1) \\implies x_{n+1} \\in [\\frac{2}{3}, 1)$ and $x_{n+1} > x_n$); thus (D) is FALSE. Therefore, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "The radius of convergence of the power series $\\sum_{n=0}^{\\infty} \\frac{n + 1}{9^n} x^{2n}$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "By the Ratio Test on the non-zero terms, $\\lim_{n \\to \\infty} \\left|\\frac{(n+2) x^{2n+2} / 9^{n+1}}{(n+1) x^{2n} / 9^n}\\right| = \\frac{|x|^2}{9} < 1 \\iff |x| < 3$. Thus the radius of convergence is $R = 3$."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Power Series",
+      "difficulty": "Easy",
+      "correctOption": "7.37 to 7.41",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.37,
+      "natMax": 7.41,
+      "questionTextEn": "The radius of convergence of the power series $\\sum_{n=1}^{\\infty} \\left(1 + \\frac{2}{n}\\right)^{-n^2} x^n$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "By the Cauchy–Hadamard formula, $\\frac{1}{R} = \\lim_{n \\to \\infty} \\left[\\left(1 + \\frac{2}{n}\\right)^{-n^2}\\right]^{1/n} = \\lim_{n \\to \\infty} \\left(1 + \\frac{2}{n}\\right)^{-n} = e^{-2}$. Therefore, $R = e^2 \\approx 7.39$."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Sequence Limits",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The value of $\\lim_{n \\to \\infty} \\left((n^2 + 3n)(4^n + 3^n)\\right)^{1/n}$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "Since $\\lim_{n \\to \\infty} (n^2 + 3n)^{1/n} = 1$ and $\\lim_{n \\to \\infty} (4^n + 3^n)^{1/n} = 4 \\lim_{n \\to \\infty} (1 + (3/4)^n)^{1/n} = 4$, the product converges to $1 \\cdot 4 = 4$."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Term-by-Term Operations",
+      "difficulty": "Easy",
+      "correctOption": "0.74 to 0.76",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.74,
+      "natMax": 0.76,
+      "questionTextEn": "The sum of the infinite series $\\sum_{n=1}^{\\infty} \\frac{n}{3^n}$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Using $\\sum_{n=1}^{\\infty} n x^n = \\frac{x}{(1 - x)^2}$ for $|x| < 1$ with $x = \\frac{1}{3}$ gives $\\frac{1/3}{(2/3)^2} = \\frac{3}{4} = 0.75$."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Limsup and Liminf",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "For $n \\in \\mathbb{N}$, let $a_n = \\frac{3n + 1}{n + 2} \\cdot \\frac{1 + (-1)^n}{2} + \\frac{2(-1)^n}{n}$. Then $\\limsup_{n \\to \\infty} a_n$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "For even $n = 2k$, $a_{2k} = \\frac{6k + 1}{2k + 2} + \\frac{1}{k} \\to 3$. For odd $n = 2k - 1$, $a_{2k-1} = -\\frac{2}{2k-1} \\to 0$. Thus $\\limsup_{n \\to \\infty} a_n = \\max(3, 0) = 3$."
+    },
+    {
+      "questionId": "jam_ma_topic_sequences_series_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Sequences & Series of Real Numbers (Set 02)",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": "0.49 to 0.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.49,
+      "natMax": 0.51,
+      "questionTextEn": "Let $\\sum_{n=0}^{\\infty} a_n x^n$ be the Maclaurin series expansion of $f(x) = \\frac{1}{1 - x - 2x^2}$. The radius of convergence of this power series is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Factor the denominator: $1 - x - 2x^2 = (1 + x)(1 - 2x)$. By partial fractions, $f(x) = \\frac{1/3}{1 + x} + \\frac{2/3}{1 - 2x} = \\sum_{n=0}^{\\infty} \\left(\\frac{(-1)^n}{3} + \\frac{2^{n+1}}{3}\\right) x^n$. Thus $a_n \\sim \\frac{2}{3} \\cdot 2^n$, so $\\limsup_{n \\to \\infty} |a_n|^{1/n} = 2$ and the radius of convergence is $R = \\frac{1}{2} = 0.50$."
+    }
+  ]
+}

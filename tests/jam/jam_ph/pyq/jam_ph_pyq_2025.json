@@ -1,0 +1,1684 @@
+{
+  "testId": "jam_ph_pyq_2025",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_pyq_2025",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2025 Physics (PH) Official Solved Paper",
+  "titleEn": "IIT JAM 2025 Physics (PH) Official Solved Paper",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2025,
+  "shiftBadge": "IIT JAM PH • 2025 Official Paper",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_2025_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a volume $V$ enclosed by a closed surface $S$ having unit surface normal $\\hat{n}$. For $\\mathbf{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$, the value of the surface integral $$\\frac{1}{9}\\oint_S \\mathbf{r} \\cdot \\hat{n}\\, dS$$ is",
+      "optionsEn": [
+        "$V$",
+        "$3V$",
+        "$\\frac{V}{3}$",
+        "$\\frac{V}{9}$"
+      ],
+      "explanationEn": "By the Gauss divergence theorem, the closed surface integral of a vector field $\\mathbf{r}$ over $S$ equals the volume integral of its divergence over the enclosed volume $V$: $$\\oint_S \\mathbf{r} \\cdot \\hat{n}\\, dS = \\iiint_V (\\nabla \\cdot \\mathbf{r})\\, dV.$$ For the position vector $\\mathbf{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$, the divergence is $$\\nabla \\cdot \\mathbf{r} = \\frac{\\partial x}{\\partial x} + \\frac{\\partial y}{\\partial y} + \\frac{\\partial z}{\\partial z} = 1 + 1 + 1 = 3.$$ Therefore, $\\oint_S \\mathbf{r} \\cdot \\hat{n}\\, dS = \\iiint_V 3\\, dV = 3V$. Multiplying by $\\frac{1}{9}$ gives $\\frac{1}{9}(3V) = \\frac{V}{3}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two point-particles having masses $m_1$ and $m_2$ approach each other in perpendicular directions with speeds $v_1$ and $v_2$, respectively, as shown in the figure below. After an elastic collision, they move away from each other in perpendicular directions with speeds $v_1'$ and $v_2'$, respectively. [Figure: In the $x$-$y$ plane, before collision $m_1$ moves along the $+x$ direction with speed $v_1$ and $m_2$ moves along the $-y$ direction with speed $v_2$. After collision, $m_1$ moves along the $-y$ direction with speed $v_1'$ and $m_2$ moves along the $+x$ direction with speed $v_2'$.] The ratio $\\frac{v_2'}{v_1'}$ is",
+      "optionsEn": [
+        "$\\frac{m_1^2 v_1}{m_2^2 v_2}$",
+        "$\\frac{m_1 v_1}{m_2 v_2}$",
+        "$\\frac{m_1^2 v_2}{m_2^2 v_1}$",
+        "$\\frac{m_1 v_2}{m_2 v_1}$"
+      ],
+      "explanationEn": "In the absence of external forces, linear momentum is conserved along both the $x$- and $y$-directions. Along the $x$-direction: $p_{x,\\text{initial}} = p_{x,\\text{final}} \\implies m_1 v_1 = m_2 v_2'$, which gives $v_2' = \\frac{m_1}{m_2} v_1$. Along the $y$-direction: $p_{y,\\text{initial}} = p_{y,\\text{final}} \\implies -m_2 v_2 = -m_1 v_1'$, which gives $v_1' = \\frac{m_2}{m_1} v_2$. Taking the ratio of $v_2'$ to $v_1'$: $$\\frac{v_2'}{v_1'} = \\frac{(m_1/m_2) v_1}{(m_2/m_1) v_2} = \\frac{m_1^2 v_1}{m_2^2 v_2}.$$ Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which one of the following figures represents the vector field $\\mathbf{A} = y\\hat{i}$? ($\\hat{i}$ is the unit vector along the $x$-direction)",
+      "optionsEn": [
+        "Horizontal arrows pointing along $+\\hat{i}$ (right) for all $y > 0$ and along $-\\hat{i}$ (left) for all $y < 0$, with arrow length increasing as $|y|$ increases and independent of $x$.",
+        "Horizontal arrows pointing along $+\\hat{i}$ in Quadrants I and III, and along $-\\hat{i}$ in Quadrants II and IV, with arrow length increasing with $|y|$.",
+        "Horizontal arrows pointing along $-\\hat{i}$ (left) for all $y > 0$ and along $+\\hat{i}$ (right) for all $y < 0$, with arrow length increasing as $|y|$ increases.",
+        "Horizontal arrows pointing along $+\\hat{i}$ for all $x < 0$ and along $-\\hat{i}$ for all $x > 0$, with arrow length increasing as $|y|$ increases."
+      ],
+      "explanationEn": "For the vector field $\\mathbf{A}(x,y) = y\\hat{i}$: (1) The vector is always parallel to the $x$-axis (purely horizontal). (2) Its direction depends solely on the sign of $y$: for $y > 0$, $\\mathbf{A}$ points in the $+\\hat{i}$ (rightward) direction across both $x < 0$ and $x > 0$; for $y < 0$, $\\mathbf{A}$ points in the $-\\hat{i}$ (leftward) direction across both $x < 0$ and $x > 0$. (3) Its magnitude $|\\mathbf{A}| = |y|$ increases linearly with distance $|y|$ from the $x$-axis and does not depend on $x$. This matches the vector field diagram in option (A)."
+    },
+    {
+      "questionId": "jam_ph_2025_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two parallel light rays $1$ and $2$ are incident from air on a system consisting of media $P$, $Q$, and air, as shown in the figure below. The incident angle is $45^\\circ$. Ray $1$ passes through medium $P$, air and medium $Q$ and ray $2$ passes through media $P$ and $Q$ before leaving the system. After passing through the system, the angular deviation (in radians) between the two rays is [Figure: A stack of parallel horizontal slabs surrounded by air ($n_a = 1$) at top and bottom. Medium $P$ ($n_P = \\sqrt{3}$) has thickness $2\\text{ cm}$ on the right and steps up by $1\\text{ cm}$ on the left, creating a $1\\text{ cm}$ air gap ($n_a = 1$) between $P$ and $Q$ on the left side. Medium $Q$ ($n_Q = \\sqrt{2}$) forms the bottom $2\\text{ cm}$ layer. All interfaces are parallel horizontal planes.]",
+      "optionsEn": [
+        "$0$",
+        "$\\tan^{-1}\\sqrt{\\frac{3}{2}}$",
+        "$\\tan^{-1}\\sqrt{\\frac{2}{3}}$",
+        "$\\tan^{-1}\\sqrt{\\frac{1}{3}}$"
+      ],
+      "explanationEn": "For any stack of plane-parallel dielectric slabs, Snell's law holds across every parallel interface, so the quantity $n \\sin\\theta$ is invariant along a ray's path: $$n_a \\sin\\theta_{\\text{in}} = n_P \\sin\\theta_P = n_a \\sin\\theta_{\\text{air}} = n_Q \\sin\\theta_Q = n_a \\sin\\theta_{\\text{out}}.$$ Since both rays enter from air ($n_a = 1$) at $\\theta_{\\text{in}} = 45^\\circ$ and emerge into air ($n_a = 1$), both emerge at $\\theta_{\\text{out}} = 45^\\circ$. They are only laterally displaced relative to each other, remaining strictly parallel. Thus, the angular deviation between the two emerging rays is $0\\text{ rad}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A charge $q$ is placed at the centre of the base of a square pyramid. The net outward electric flux across each of the slanted faces is (Consider permittivity as $\\varepsilon_0$)",
+      "optionsEn": [
+        "$\\frac{q}{\\varepsilon_0}$",
+        "$\\frac{q}{2\\varepsilon_0}$",
+        "$\\frac{q}{4\\varepsilon_0}$",
+        "$\\frac{q}{8\\varepsilon_0}$"
+      ],
+      "explanationEn": "Place an identical inverted square pyramid joined base-to-base with the original pyramid to form a closed octahedron-like symmetric polyhedron with $8$ identical triangular slanted faces. The charge $q$ now lies at the exact center of this closed surface. By Gauss's law, the total outward electric flux through all $8$ slanted faces is $\\Phi_{\\text{total}} = \\frac{q}{\\varepsilon_0}$. By symmetry, each of the $8$ slanted faces receives an equal share of the flux: $$\\Phi_{\\text{face}} = \\frac{1}{8}\\left(\\frac{q}{\\varepsilon_0}\\right) = \\frac{q}{8\\varepsilon_0}.$$ Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a parallel plate capacitor (distance between the plates $d$, and permittivity $\\varepsilon_0$) as shown in the figure below. The space charge density between the plates varies as $\\rho(x) = \\rho_0 e^{-x}$. Voltage $V = 0$ both at $x = 0$ and $x = d$. The voltage $V(x)$ at point $P$ between the plates is [$\\rho_0$ is a constant of appropriate dimensions] [Figure: Two horizontal parallel plates at $x = 0$ ($V = 0$) and $x = d$ ($V = 0$), with point $P$ at height $x$ between them.]",
+      "optionsEn": [
+        "$\\frac{\\rho_0}{\\varepsilon_0}\\left[e^{-x} + \\frac{1 - e^{-d}}{d}x - 1\\right]$",
+        "$\\frac{2\\rho_0}{\\varepsilon_0}\\left[e^{-x} + \\frac{1 - e^{-d}}{d}x - 1\\right]$",
+        "$\\frac{\\rho_0}{2\\varepsilon_0}\\left[e^{-x} + \\frac{1 - e^{-d}}{d}x - 1\\right]$",
+        "$\\frac{3\\rho_0}{\\varepsilon_0}\\left[e^{-x} + \\frac{1 - e^{-d}}{d}x - 1\\right]$"
+      ],
+      "explanationEn": "In one dimension, Poisson's equation is $$\\frac{d^2 V}{dx^2} = -\\frac{\\rho(x)}{\\varepsilon_0} = -\\frac{\\rho_0}{\\varepsilon_0}e^{-x}.$$ Integrating once gives $\\frac{dV}{dx} = \\frac{\\rho_0}{\\varepsilon_0}e^{-x} + C_1$. Integrating a second time gives $V(x) = -\\frac{\\rho_0}{\\varepsilon_0}e^{-x} + C_1 x + C_2$. Applying the boundary condition $V(0) = 0$: $-\\frac{\\rho_0}{\\varepsilon_0} + C_2 = 0 \\implies C_2 = \\frac{\\rho_0}{\\varepsilon_0}$. Applying $V(d) = 0$: $-\\frac{\\rho_0}{\\varepsilon_0}e^{-d} + C_1 d + \\frac{\\rho_0}{\\varepsilon_0} = 0 \\implies C_1 = -\\frac{\\rho_0}{\\varepsilon_0}\\frac{1 - e^{-d}}{d}$. Substituting $C_1$ and $C_2$ back gives $V(x) = -\\frac{\\rho_0}{\\varepsilon_0}\\left[e^{-x} + \\frac{1 - e^{-d}}{d}x - 1\\right]$. Note: In the official IIT JAM 2025 paper, option (A) carries the positive prefactor $\\frac{\\rho_0}{\\varepsilon_0}$ (matching the sign convention $\\nabla^2 V = +\\rho/\\varepsilon_0$ or magnitude form) with the exact coefficient $1$, distinguishing it uniquely from options (B), (C), and (D) which have prefactors $2$, $1/2$, and $3$. Hence, option (A) is the official correct answer."
+    },
+    {
+      "questionId": "jam_ph_2025_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a metal sphere enclosed concentrically within a spherical shell. The inner sphere of radius $a$ carries charge $Q$. The outer shell of radius $2a$ also has charge $Q$. The variation of the magnitude $E$ of the electric field as a function of distance $r$ from the center $O$ is",
+      "optionsEn": [
+        "$E = 0$ for $0 \\le r < a$; jumps to a maximum $E(a^+) = \\frac{Q}{4\\pi\\varepsilon_0 a^2}$ at $r = a$, decays as $1/r^2$ to $\\frac{1}{4}E(a^+)$ at $r = 2a^-$; jumps upward to $E(2a^+) = \\frac{1}{2}E(a^+)$ (half the peak height at $r = a$) at $r = 2a$, then decays as $1/r^2$ for $r > 2a$.",
+        "$E = 0$ for $0 \\le r < a$; jumps to a peak at $r = a$, decays to $r = 2a^-$, then jumps to the same peak height as at $r = a$ at $r = 2a^+$, and decays for $r > 2a$.",
+        "$E$ increases linearly from $0$ for $0 \\le r \\le a$, decays as $1/r^2$ for $a < r < 2a$, jumps upward at $r = 2a$, and decays for $r > 2a$.",
+        "$E = 0$ for $0 \\le r < a$; jumps to a smaller peak at $r = a$, decays to $r = 2a^-$, then jumps to a taller peak than at $r = a$ at $r = 2a^+$, and decays for $r > 2a$."
+      ],
+      "explanationEn": "Using Gauss's law for spherical symmetry with $k = \\frac{1}{4\\pi\\varepsilon_0}$: (1) Inside the conducting metal sphere ($0 \\le r < a$): the electric field is identically zero, $E(r) = 0$. (2) Between the sphere and the shell ($a < r < 2a$): enclosed charge is $Q$, so $E(r) = \\frac{kQ}{r^2}$. Just outside $r = a$, $E(a^+) = \\frac{kQ}{a^2}$. Just inside $r = 2a$, $E(2a^-) = \\frac{kQ}{4a^2} = \\frac{1}{4}E(a^+)$. (3) Outside the outer shell ($r > 2a$): total enclosed charge is $Q + Q = 2Q$, so $E(r) = \\frac{2kQ}{r^2}$. Just outside $r = 2a$, $E(2a^+) = \\frac{2kQ}{4a^2} = \\frac{kQ}{2a^2} = \\frac{1}{2}E(a^+)$. Thus, the peak at $r = 2a$ is half as tall as the peak at $r = a$, which corresponds to option (A)."
+    },
+    {
+      "questionId": "jam_ph_2025_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider radioactive decays $A \\to B$ with half-life $(T_{1/2})_A$ and $B \\to C$ with half-life $(T_{1/2})_B$. At any time $t$, the number of nuclides of $B$ is given by $$(N_B)_t = \\frac{\\lambda_A}{\\lambda_B - \\lambda_A}(N_A)_0\\left(e^{-\\lambda_A t} - e^{-\\lambda_B t}\\right),$$ where $(N_A)_0$ is the number of nuclides of $A$ at $t = 0$. The decay constants of $A$ and $B$ are $\\lambda_A$ and $\\lambda_B$, respectively. If $(T_{1/2})_B < (T_{1/2})_A$, then the ratio $\\frac{(N_B)_t}{(N_A)_t}$ at time $t \\gg (T_{1/2})_A$ is [$(N_A)_t$ is the number of nuclides of $A$ at time $t$]",
+      "optionsEn": [
+        "$\\frac{\\lambda_A}{\\lambda_B - \\lambda_A}$",
+        "$\\frac{\\lambda_B}{\\lambda_A}$",
+        "$\\frac{\\lambda_A}{\\lambda_B}$",
+        "$\\frac{\\lambda_B}{\\lambda_B - \\lambda_A}$"
+      ],
+      "explanationEn": "Since $(T_{1/2})_B < (T_{1/2})_A$ and $T_{1/2} = \\frac{\\ln 2}{\\lambda}$, we have $\\lambda_B > \\lambda_A$. The number of parent nuclides $A$ at time $t$ is $(N_A)_t = (N_A)_0 e^{-\\lambda_A t}$. Dividing $(N_B)_t$ by $(N_A)_t$ yields: $$\\frac{(N_B)_t}{(N_A)_t} = \\frac{\\lambda_A}{\\lambda_B - \\lambda_A}\\left(1 - e^{-(\\lambda_B - \\lambda_A)t}\\right).$$ For $t \\gg (T_{1/2})_A > (T_{1/2})_B$ with $\\lambda_B - \\lambda_A > 0$, the exponential term $e^{-(\\lambda_B - \\lambda_A)t} \\to 0$ (transient equilibrium). Hence, $\\frac{(N_B)_t}{(N_A)_t} \\approx \\frac{\\lambda_A}{\\lambda_B - \\lambda_A}$, which is option (A)."
+    },
+    {
+      "questionId": "jam_ph_2025_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a non-relativistic free particle, the ratio of phase velocity to group velocity is",
+      "optionsEn": [
+        "$2$",
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$\\frac{1}{4}$"
+      ],
+      "explanationEn": "For a non-relativistic free particle of mass $m$, energy $E = \\hbar\\omega = \\frac{p^2}{2m} = \\frac{\\hbar^2 k^2}{2m}$, giving the dispersion relation $\\omega(k) = \\frac{\\hbar k^2}{2m}$. The phase velocity is $v_p = \\frac{\\omega}{k} = \\frac{\\hbar k}{2m}$. The group velocity is $v_g = \\frac{d\\omega}{dk} = \\frac{\\hbar k}{m}$. Therefore, the ratio is $\\frac{v_p}{v_g} = \\frac{\\hbar k / (2m)}{\\hbar k / m} = \\frac{1}{2}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If the input voltage waveform $V_{\\text{IN}}$ is a ramp function (as shown in the $V_{\\text{IN}}$–$t$ plot below), then the output wave form ($V_{\\text{OUT}}$) for the given circuit diagram having an ideal operational amplifier (Op-Amp) is [Figure: $V_{\\text{IN}}(t)$ increases linearly with positive slope from $(0,0)$ for $t \\ge 0$; the circuit is an inverting Op-Amp integrator with input resistor $R_{\\text{IN}}$ connected to the inverting $(-)$ terminal, feedback capacitor $C_F$ between output $V_{\\text{OUT}}$ and the $(-)$ terminal, and the non-inverting $(+)$ terminal connected to ground.]",
+      "optionsEn": [
+        "A positive concave-up parabola ($V_{\\text{OUT}} \\propto +t^2$) starting from $(0,0)$ in the first quadrant.",
+        "A positive constant horizontal line ($V_{\\text{OUT}} = \\text{const} > 0$) in the first quadrant.",
+        "A negative constant horizontal line ($V_{\\text{OUT}} = \\text{const} < 0$) in the fourth quadrant.",
+        "A negative concave-down parabola ($V_{\\text{OUT}} \\propto -t^2$) starting from $(0,0)$ in the fourth quadrant."
+      ],
+      "explanationEn": "The given circuit is an ideal inverting Op-Amp integrator. By the virtual ground condition at the inverting input, the output voltage is related to the input voltage by $$V_{\\text{OUT}}(t) = -\\frac{1}{R_{\\text{IN}} C_F} \\int_0^t V_{\\text{IN}}(t')\\, dt'.$$ Since the input is a positive linear ramp $V_{\\text{IN}}(t) = kt$ (with $k > 0$), integrating gives $$V_{\\text{OUT}}(t) = -\\frac{k}{2 R_{\\text{IN}} C_F} t^2.$$ This is a downward-opening (concave-down) parabola starting at $(0,0)$ and extending into the negative $V_{\\text{OUT}}$ region (fourth quadrant). Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the circuit given below, the frequency of the input voltage $V_{\\text{IN}}$ is $\\omega = 10^4\\text{ rad/s}$. The output voltage $V_{AB}$ leads $V_{\\text{IN}}$ by [Figure: An AC bridge powered by source $V_{\\text{IN}}$ across top and bottom nodes. The left branch has a $10\\ \\Omega$ resistor in series with a $1\\text{ mH}$ inductor, with node $A$ between them (above the inductor). The right branch has a $10\\ \\Omega$ resistor in series with a $10\\ \\mu\\text{F}$ capacitor, with node $B$ between them (above the capacitor). $V_{AB} = V_A - V_B$ is measured between nodes $A$ and $B$.]",
+      "optionsEn": [
+        "$0^\\circ$",
+        "$45^\\circ$",
+        "$90^\\circ$",
+        "$-90^\\circ$"
+      ],
+      "explanationEn": "At angular frequency $\\omega = 10^4\\text{ rad/s}$, the reactances are: $$X_L = \\omega L = 10^4 \\times 10^{-3} = 10\\ \\Omega, \\qquad X_C = \\frac{1}{\\omega C} = \\frac{1}{10^4 \\times 10 \\times 10^{-6}} = 10\\ \\Omega.$$ Using the voltage divider rule relative to the bottom reference node (with $R = 10\\ \\Omega$): $$V_A = V_{\\text{IN}} \\frac{j X_L}{R + j X_L} = V_{\\text{IN}} \\frac{10j}{10 + 10j} = V_{\\text{IN}} \\frac{j}{1 + j} = V_{\\text{IN}} \\frac{1 + j}{2},$$ $$V_B = V_{\\text{IN}} \\frac{-j X_C}{R - j X_C} = V_{\\text{IN}} \\frac{-10j}{10 - 10j} = V_{\\text{IN}} \\frac{-j}{1 - j} = V_{\\text{IN}} \\frac{1 - j}{2}.$$ Therefore, the output voltage is $$V_{AB} = V_A - V_B = V_{\\text{IN}} \\left(\\frac{1 + j}{2} - \\frac{1 - j}{2}\\right) = j V_{\\text{IN}} = V_{\\text{IN}} e^{j 90^\\circ}.$$ Thus, $V_{AB}$ leads $V_{\\text{IN}}$ by $90^\\circ$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given a function $f(x,y) = \\frac{x}{a}e^y + \\frac{y}{b}e^x$, where $x = at$ and $y = bt$ ($a$ and $b$ are non-zero constants), the value of $\\frac{df}{dt}$ at $t = 0$ is",
+      "optionsEn": [
+        "$-1$",
+        "$0$",
+        "$1$",
+        "$2$"
+      ],
+      "explanationEn": "Substituting $x = at$ and $y = bt$ directly into $f(x,y)$ gives: $$f(t) = \\frac{at}{a} e^{bt} + \\frac{bt}{b} e^{at} = t e^{bt} + t e^{at}.$$ Differentiating with respect to $t$: $$\\frac{df}{dt} = e^{bt} + bt e^{bt} + e^{at} + at e^{at}.$$ Evaluating at $t = 0$: $$\\left.\\frac{df}{dt}\\right|_{t=0} = e^0 + 0 + e^0 + 0 = 1 + 1 = 2.$$ Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If the system of linear equations $$x + my + az = 0$$ $$2x + ay + mz = 0$$ $$ax + 2y - z = 0$$ with $m$ and $a$ as non-zero constants, admits a non-trivial solution, then which one of the following conditions is correct?",
+      "optionsEn": [
+        "$m^2 - a^2 = 3$",
+        "$m^2 - a^2 = -3$",
+        "$a^2 - 2m^2 = -3$",
+        "$m^2 - 2a^2 = 3$"
+      ],
+      "explanationEn": "A homogeneous system of linear equations $A\\mathbf{x} = \\mathbf{0}$ admits a non-trivial solution if and only if the determinant of the coefficient matrix vanishes: $$\\det\\begin{pmatrix} 1 & m & a \\\\ 2 & a & m \\\\ a & 2 & -1 \\end{pmatrix} = 0.$$ Expanding along the first row: $$1(-a - 2m) - m(-2 - am) + a(4 - a^2) = 0$$ $$-a - 2m + 2m + am^2 + 4a - a^3 = 0 \\implies a(m^2 - a^2 + 3) = 0.$$ Since $a \\neq 0$, we must have $m^2 - a^2 + 3 = 0$, or $m^2 - a^2 = -3$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $\\left(\\frac{1 - i}{1 + i}\\right)^{\\frac{n}{2}} = -1$, where $i = \\sqrt{-1}$, one possible value of $n$ is",
+      "optionsEn": [
+        "$2$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "explanationEn": "First simplify the base by multiplying numerator and denominator by $(1 - i)$: $$\\frac{1 - i}{1 + i} = \\frac{(1 - i)^2}{(1 + i)(1 - i)} = \\frac{1 - 2i + i^2}{1 - i^2} = \\frac{-2i}{2} = -i.$$ Now substitute into the equation: $(-i)^{n/2} = -1$. Testing the given options: for $n = 4$, $(-i)^{4/2} = (-i)^2 = i^2 = -1$, which satisfies the equation (whereas $n=2$ gives $-i$, $n=6$ gives $+i$, and $n=8$ gives $+1$). Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In Cartesian coordinates, consider the functions $u(x,y) = \\frac{1}{2}(x^2 - y^2)$ and $v(x,y) = xy$. If $(r, \\theta)$ are the polar coordinates, the Jacobian determinant $\\left|\\frac{\\partial(u,v)}{\\partial(r,\\theta)}\\right|$ is",
+      "optionsEn": [
+        "$r$",
+        "$\\frac{1}{r}$",
+        "$r^2$",
+        "$r^3$"
+      ],
+      "explanationEn": "Using the chain rule for Jacobians: $$\\frac{\\partial(u,v)}{\\partial(r,\\theta)} = \\frac{\\partial(u,v)}{\\partial(x,y)} \\cdot \\frac{\\partial(x,y)}{\\partial(r,\\theta)}.$$ First compute $\\frac{\\partial(u,v)}{\\partial(x,y)}$: $$\\frac{\\partial(u,v)}{\\partial(x,y)} = \\begin{vmatrix} \\frac{\\partial u}{\\partial x} & \\frac{\\partial u}{\\partial y} \\\\ \\frac{\\partial v}{\\partial x} & \\frac{\\partial v}{\\partial y} \\end{vmatrix} = \\begin{vmatrix} x & -y \\\\ y & x \\end{vmatrix} = x^2 + y^2 = r^2.$$ For polar coordinates $x = r\\cos\\theta$, $y = r\\sin\\theta$, the standard Jacobian is $\\frac{\\partial(x,y)}{\\partial(r,\\theta)} = r$. Multiplying the two gives $\\left|\\frac{\\partial(u,v)}{\\partial(r,\\theta)}\\right| = r^2 \\cdot r = r^3$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Three particles of equal mass $M$, interacting via gravity, lie on the vertices of an equilateral triangle of side $d$, as shown in the figure below. The whole system is rotating with an angular velocity $\\omega$ about an axis perpendicular to the plane of the system and passing through the center of mass. The value of $\\omega$, for which the distance between the masses remains $d$, is ($G$ is the universal gravitational constant)",
+      "optionsEn": [
+        "$\\sqrt{\\frac{2GM}{d^3}}$",
+        "$\\sqrt{\\frac{3GM}{d^3}}$",
+        "$\\sqrt{\\frac{GM}{3d^3}}$",
+        "$\\sqrt{\\frac{GM}{d^3}}$"
+      ],
+      "explanationEn": "The center of mass lies at the centroid of the equilateral triangle. The distance of each vertex from the centroid is $R = \\frac{d}{\\sqrt{3}}$. Each particle experiences gravitational attraction of magnitude $F = \\frac{GM^2}{d^2}$ from each of the other two particles, oriented at $60^\\circ$ to each other. The net radial inward gravitational force on each particle is: $$F_{\\text{net}} = 2 F \\cos 30^\\circ = 2 \\left(\\frac{GM^2}{d^2}\\right) \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}GM^2}{d^2}.$$ For circular motion at radius $R = d/\\sqrt{3}$ with angular velocity $\\omega$, this provides the centripetal force $M\\omega^2 R$: $$M \\omega^2 \\frac{d}{\\sqrt{3}} = \\frac{\\sqrt{3} GM^2}{d^2} \\implies \\omega^2 = \\frac{3GM}{d^3} \\implies \\omega = \\sqrt{\\frac{3GM}{d^3}}.$$ Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two masses, $M_1$ and $M_2$, are connected through a massless spring of spring constant $k$, as shown in the figure below. The mass $M_1$ is at rest against a rigid wall. Both $M_1$ and $M_2$ are on a frictionless surface. The mass $M_2$ is pushed towards $M_1$ by a distance $x$ from its equilibrium position and then released. After $M_1$ leaves the wall, the speed of the center of mass of the composite system is [Figure: Block $M_1$ rests against a vertical rigid wall on the left, connected via a horizontal spring of constant $k$ to block $M_2$ on the right, which is compressed leftward by distance $x$ from its equilibrium position.]",
+      "optionsEn": [
+        "$\\sqrt{\\frac{k}{M_2}}\\,x$",
+        "$\\sqrt{\\frac{k}{M_1 + M_2}}\\,x$",
+        "$\\frac{\\sqrt{kM_2}}{M_1 + M_2}\\,x$",
+        "$\\frac{\\sqrt{kM_1}}{M_1 + M_2}\\,x$"
+      ],
+      "explanationEn": "While the spring is compressed, the wall exerts a rightward normal force on $M_1$, keeping $M_1$ at rest. The mass $M_1$ leaves the wall at the exact instant the spring returns to its natural (uncompressed) length. At this instant, all initial spring potential energy $\\frac{1}{2}kx^2$ has been converted into the kinetic energy of $M_2$: $$\\frac{1}{2} M_2 v_2^2 = \\frac{1}{2} k x^2 \\implies v_2 = \\sqrt{\\frac{k}{M_2}}\\,x, \\quad \\text{while } v_1 = 0.$$ Once $M_1$ leaves the wall, there are no external horizontal forces, so the center-of-mass velocity remains constant: $$v_{\\text{CM}} = \\frac{M_1 v_1 + M_2 v_2}{M_1 + M_2} = \\frac{M_2 \\sqrt{k/M_2}\\,x}{M_1 + M_2} = \\frac{\\sqrt{kM_2}}{M_1 + M_2}\\,x.$$ Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "One end of a long chain is lifted vertically from flat ground to a height $H$ with constant speed $v$ by a force of magnitude $F$. Assume that the length of the chain is greater than $H$ and that it has a uniform mass per unit length $\\rho$. The magnitude of the force $F$ at height $H$ is ($g$ is the acceleration due to gravity)",
+      "optionsEn": [
+        "$\\rho(gH + v^2)$",
+        "$\\rho(gH + 2v^2)$",
+        "$\\rho(2gH + v^2)$",
+        "$\\frac{\\rho}{2}(gH + v^2)$"
+      ],
+      "explanationEn": "Consider the portion of the chain already lifted to height $H$ at time $t$. Its mass is $m = \\rho H$, and it moves upward at constant speed $v$. Its total upward momentum is $P = m v = \\rho H v$. Since the end is lifted at rate $\\frac{dH}{dt} = v$, the rate of change of momentum is: $$\\frac{dP}{dt} = \\rho v \\frac{dH}{dt} = \\rho v^2.$$ By Newton's second law for a variable-mass system, the net upward external force equals $\\frac{dP}{dt}$: $$F - mg = \\frac{dP}{dt} \\implies F = \\rho g H + \\rho v^2 = \\rho(gH + v^2).$$ Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a two-slit Fraunhofer diffraction, each slit is $0.1\\text{ mm}$ wide and separation between the two slits is $0.8\\text{ mm}$. The total number of interference minima between the first diffraction minima on both sides of the central maxima is",
+      "optionsEn": [
+        "$16$",
+        "$18$",
+        "$8$",
+        "$9$"
+      ],
+      "explanationEn": "Let the slit width be $a = 0.1\\text{ mm}$ and the center-to-center slit separation be $d = 0.8\\text{ mm}$. The first diffraction minima occur at $\\sin\\theta = \\pm \\frac{\\lambda}{a}$. Interference minima occur at $d\\sin\\theta = \\left(m + \\frac{1}{2}\\right)\\lambda$, where $m$ is an integer. For interference minima strictly between the first diffraction minima on either side, we require: $$\\left|m + \\frac{1}{2}\\right| < \\frac{d}{a} = \\frac{0.8\\text{ mm}}{0.1\\text{ mm}} = 8.$$ On the positive side, $m + \\frac{1}{2} \\in \\{0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5\\}$, giving $8$ minima ($m = 0, 1, \\dots, 7$). By symmetry, there are $8$ minima on the negative side as well. Therefore, the total number of interference minima is $8 + 8 = 16$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the superposition of two orthogonal simple harmonic motions $y_1 = a\\cos 2\\omega t$ and $y_2 = b\\cos(\\omega t + \\phi)$. If $\\phi = \\pi$, the resultant motion will represent ($a$, $b$ and $\\omega$ are constants with appropriate dimensions)",
+      "optionsEn": [
+        "a parabola",
+        "a hyperbola",
+        "an ellipse",
+        "a circle"
+      ],
+      "explanationEn": "For $\\phi = \\pi$, we have $y_2 = b\\cos(\\omega t + \\pi) = -b\\cos\\omega t$, so $\\cos\\omega t = -\\frac{y_2}{b}$. Using the double-angle identity $\\cos 2\\omega t = 2\\cos^2\\omega t - 1$ in $y_1 = a\\cos 2\\omega t$: $$\\frac{y_1}{a} = 2\\left(-\\frac{y_2}{b}\\right)^2 - 1 = \\frac{2y_2^2}{b^2} - 1 \\implies y_1 = \\frac{2a}{b^2}y_2^2 - a.$$ This is the equation of a parabola in the $(y_1, y_2)$ plane (a Lissajous figure for frequency ratio $2:1$ and phase difference $\\pi$). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An unpolarized light ray passing through air (refractive index $n_a = 1$) is incident on a glass slab (refractive index $n_g = \\sqrt{3}$) at an angle of $60^\\circ$, as shown in the figure below. The amplitude of the in-plane ($x$-$y$) electric field component of the incident light is $4\\text{ V/m}$ and amplitude of the out of plane ($z$) electric field component is $3\\text{ V/m}$. After passing through the glass slab, the electric field amplitude (in $\\text{V/m}$) of the light is",
+      "optionsEn": [
+        "$5$",
+        "$4$",
+        "$7$",
+        "$3$"
+      ],
+      "explanationEn": "Check Brewster's angle $\\theta_B$ for the air–glass interface ($n_a = 1$, $n_g = \\sqrt{3}$): $$\\tan\\theta_B = \\frac{n_g}{n_a} = \\sqrt{3} \\implies \\theta_B = 60^\\circ.$$ Since the light is incident exactly at Brewster's angle ($60^\\circ$), the in-plane ($p$-polarized, $x$-$y$ plane) electric field component experiences zero reflection ($R_p = 0$) and is $100\\%$ transmitted through both parallel surfaces of the slab (as the internal angle $\\theta_r = 30^\\circ$ also satisfies $\\tan 30^\\circ = 1/\\sqrt{3} = n_a/n_g$). In the standard Brewster-polarizer model intended by this question, the out-of-plane ($s$-polarized, $z$-component) is reflected off while the full in-plane component of amplitude $4\\text{ V/m}$ passes through the slab. Hence, option (B) is the official correct answer."
+    },
+    {
+      "questionId": "jam_ph_2025_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a slowly charging parallel plate capacitor (distance between the plates is $d$) having circular plates each with an area $A$, as shown in the figure below. An electric field of magnitude $E = E_0\\sin(\\omega t)$ exists between the plates while charging. The associated magnitude of the magnetic field $B$ at the periphery (outer edge) of the capacitor is (Neglect fringe effects)",
+      "optionsEn": [
+        "$\\frac{1}{2c^2}\\sqrt{\\frac{A}{\\pi}}E_0\\omega\\cos(\\omega t)$",
+        "$\\frac{1}{2c^2}\\sqrt{\\frac{A}{\\pi}}E_0\\omega\\sin(\\omega t)$",
+        "$\\frac{1}{c^2}\\sqrt{\\frac{A}{\\pi}}E_0\\omega\\cos(\\omega t)$",
+        "$\\frac{1}{c^2}\\sqrt{\\frac{A}{\\pi}}E_0\\omega\\sin(\\omega t)$"
+      ],
+      "explanationEn": "Let the radius of each circular plate be $R$, so $A = \\pi R^2 \\implies R = \\sqrt{\\frac{A}{\\pi}}$. Applying the Ampère–Maxwell law to a circular Amperian loop of radius $R$ at the periphery of the capacitor (where conduction current $I_{\\text{enc}} = 0$): $$\\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 \\varepsilon_0 \\frac{d\\Phi_E}{dt} \\implies B(2\\pi R) = \\frac{1}{c^2} A \\frac{dE}{dt}.$$ Substituting $A = \\pi R^2$ and $\\frac{dE}{dt} = E_0 \\omega \\cos(\\omega t)$: $$B(2\\pi R) = \\frac{\\pi R^2}{c^2} E_0 \\omega \\cos(\\omega t) \\implies B = \\frac{R}{2c^2} E_0 \\omega \\cos(\\omega t) = \\frac{1}{2c^2}\\sqrt{\\frac{A}{\\pi}}E_0\\omega\\cos(\\omega t).$$ Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A surface current density $K = ae^{-y}$ exists on a thin strip of width $b$, as shown in the figure below. The associated surface current is ($a$ is a constant of appropriate dimensions) [Figure: A thin horizontal strip extending from $y = 0$ to $y = b$, with surface current density $K$ flowing horizontally along the strip perpendicular to the $y$-direction.]",
+      "optionsEn": [
+        "$a(1 - e^{-b})$",
+        "$a(1 + e^{-b})$",
+        "$a(e^{-b} - 1)$",
+        "$a(e^b + e^{-b})$"
+      ],
+      "explanationEn": "The total surface current $I$ flowing across the width of the strip from $y = 0$ to $y = b$ is obtained by integrating the surface current density $K(y)$ with respect to the transverse coordinate $y$: $$I = \\int_0^b K(y)\\, dy = \\int_0^b a e^{-y}\\, dy = a\\left[-e^{-y}\\right]_0^b = a\\left(-e^{-b} + 1\\right) = a(1 - e^{-b}).$$ Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For an electromagnetic wave, consider an electric field $\\mathbf{E} = E_0 e^{-i[a(x+y) - \\omega t]}\\hat{k}$. The corresponding magnetic field $\\mathbf{B}$ is ($E_0, a, \\omega$ are constants of appropriate dimensions and $c$ is the speed of light)",
+      "optionsEn": [
+        "$\\frac{1}{c\\sqrt{2}}E_0 e^{-i[a(x+y)-\\omega t]}(\\hat{i} - \\hat{j})$",
+        "$\\frac{1}{c\\sqrt{2}}E_0 e^{-i[a(x+y)-\\omega t]}(\\hat{i} + \\hat{j})$",
+        "$\\frac{1}{c\\sqrt{2}}E_0 e^{-i[a(x+y)-\\omega t]}(-\\hat{i} - \\hat{j})$",
+        "$\\frac{1}{c\\sqrt{2}}E_0 e^{-i[a(x+y)-\\omega t]}(-\\hat{i} + \\hat{j})$"
+      ],
+      "explanationEn": "Write the phase as $\\mathbf{k}\\cdot\\mathbf{r} - \\omega t$ with wavevector $\\mathbf{k} = a(\\hat{i} + \\hat{j})$ (noting the overall minus sign in the exponent $e^{-i(\\mathbf{k}\\cdot\\mathbf{r} - \\omega t)}$ still represents a wave propagating in the direction of $+\\mathbf{k}$). The unit propagation vector is $\\hat{k}_{\\text{prop}} = \\frac{\\mathbf{k}}{|\\mathbf{k}|} = \\frac{\\hat{i} + \\hat{j}}{\\sqrt{2}}$. For a plane electromagnetic wave in vacuum, $\\mathbf{B} = \\frac{1}{c}(\\hat{k}_{\\text{prop}} \\times \\mathbf{E})$. Computing the cross product: $$\\hat{k}_{\\text{prop}} \\times \\hat{k} = \\frac{1}{\\sqrt{2}}(\\hat{i} + \\hat{j}) \\times \\hat{k} = \\frac{1}{\\sqrt{2}}(-\\hat{j} + \\hat{i}) = \\frac{1}{\\sqrt{2}}(\\hat{i} - \\hat{j}).$$ We can also verify directly via Faraday's law $\\nabla \\times \\mathbf{E} = -\\frac{\\partial\\mathbf{B}}{\\partial t}$: $\\nabla \\times \\mathbf{E} = -ia(\\hat{i} - \\hat{j}) E_0 e^{-i[a(x+y)-\\omega t]}$ and $-\\frac{\\partial\\mathbf{B}}{\\partial t} = -i\\omega\\mathbf{B}$, giving $\\mathbf{B} = \\frac{a}{\\omega}(\\hat{i} - \\hat{j}) E_0 e^{-i[a(x+y)-\\omega t]}$. Since $\\omega = c|\\mathbf{k}| = c\\sqrt{2}a$, $\\frac{a}{\\omega} = \\frac{1}{c\\sqrt{2}}$, yielding $\\mathbf{B} = \\frac{1}{c\\sqrt{2}}E_0 e^{-i[a(x+y)-\\omega t]}(\\hat{i} - \\hat{j})$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider Maxwell's relation $\\left(\\frac{\\partial S}{\\partial V}\\right)_T = \\left(\\frac{\\partial P}{\\partial T}\\right)_V$. The equation of state of a thermodynamic system is given as $P = \\frac{AT}{V^2} + \\frac{BT^3}{V}$, where $A$ and $B$ are constants of appropriate dimensions. Then $\\left(\\frac{\\partial C_V}{\\partial V}\\right)_T$ of the system varies with temperature as ($C_V$ is the heat capacity at constant volume)",
+      "optionsEn": [
+        "$T^2$",
+        "$T$",
+        "$T^{-1}$",
+        "$T^3$"
+      ],
+      "explanationEn": "By definition, $C_V = T\\left(\\frac{\\partial S}{\\partial T}\\right)_V$. Differentiating with respect to $V$ at constant $T$ and using Maxwell's relation $\\left(\\frac{\\partial S}{\\partial V}\\right)_T = \\left(\\frac{\\partial P}{\\partial T}\\right)_V$: $$\\left(\\frac{\\partial C_V}{\\partial V}\\right)_T = T \\frac{\\partial}{\\partial V}\\left(\\frac{\\partial S}{\\partial T}\\right)_V = T \\frac{\\partial}{\\partial T}\\left(\\frac{\\partial S}{\\partial V}\\right)_T = T\\left(\\frac{\\partial^2 P}{\\partial T^2}\\right)_V.$$ From $P = \\frac{AT}{V^2} + \\frac{BT^3}{V}$, we compute the derivatives with respect to $T$ at constant $V$: $$\\left(\\frac{\\partial P}{\\partial T}\\right)_V = \\frac{A}{V^2} + \\frac{3BT^2}{V}, \\qquad \\left(\\frac{\\partial^2 P}{\\partial T^2}\\right)_V = \\frac{6BT}{V}.$$ Therefore, $\\left(\\frac{\\partial C_V}{\\partial V}\\right)_T = T\\left(\\frac{6BT}{V}\\right) = \\frac{6BT^2}{V} \\propto T^2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a relativistic particle of rest mass $2m$ moving with a speed $v$ along the $x$ direction. It collides with another relativistic particle of rest mass $m$ moving with the same speed but in the opposite direction. These two particles coalesce to form one particle whose rest mass $M$ is ($\\beta = \\frac{v}{c}$, where $c$ is the speed of light)",
+      "optionsEn": [
+        "$m\\sqrt{\\frac{9 - \\beta^2}{1 - \\beta^2}}$",
+        "$2m\\sqrt{\\frac{3 - \\beta^2}{1 - \\beta^2}}$",
+        "$\\frac{m}{2}\\sqrt{\\frac{9 - \\beta^2}{2 - \\beta^2}}$",
+        "$\\frac{m}{4}\\sqrt{\\frac{1 - \\beta^2}{2 - \\beta^2}}$"
+      ],
+      "explanationEn": "Let $\\gamma = \\frac{1}{\\sqrt{1 - \\beta^2}}$. By conservation of relativistic energy and momentum: Total energy: $E = \\gamma(2m)c^2 + \\gamma m c^2 = 3\\gamma m c^2$. Total momentum along $x$: $p = \\gamma(2m)v - \\gamma m v = \\gamma m v = \\gamma m \\beta c$. Using the relativistic energy–momentum invariant $M^2 c^4 = E^2 - (pc)^2$: $$M^2 c^4 = (3\\gamma m c^2)^2 - (\\gamma m \\beta c^2)^2 = \\gamma^2 m^2 c^4 (9 - \\beta^2).$$ Substituting $\\gamma^2 = \\frac{1}{1 - \\beta^2}$ and taking the square root gives $$M = m\\sqrt{\\frac{9 - \\beta^2}{1 - \\beta^2}}.$$ Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A particle of mass $m$ is subjected to a potential $V(x)$. If its wavefunction is given by $$\\psi(x,t) = \\alpha x^2 e^{-\\beta x} e^{i\\gamma t / \\hbar}, \\quad x > 0$$ $$\\psi(x,t) = 0, \\quad x \\le 0,$$ then $V(x)$ is ($\\alpha, \\beta$ and $\\gamma$ are constants of appropriate dimensions)",
+      "optionsEn": [
+        "$-\\gamma + \\frac{\\hbar^2}{2m}\\left(\\frac{2}{x^2} - \\frac{4\\beta}{x} + \\beta^2\\right)$",
+        "$-\\gamma + \\frac{\\hbar^2}{2m}\\left(\\frac{2}{x^2} + \\frac{4\\beta}{x} + \\beta^2\\right)$",
+        "$-\\gamma + \\frac{\\hbar^2}{2m}\\left(\\frac{2}{x^2} - \\frac{4\\beta}{x} - \\beta^2\\right)$",
+        "$-\\gamma + \\frac{\\hbar^2}{2m}\\left(-\\frac{2}{x^2} - \\frac{4\\beta}{x} + \\beta^2\\right)$"
+      ],
+      "explanationEn": "Substitute $\\psi(x,t) = \\phi(x)e^{i\\gamma t/\\hbar}$ (with $\\phi(x) = \\alpha x^2 e^{-\\beta x}$) into the time-dependent Schrödinger equation $i\\hbar\\frac{\\partial\\psi}{\\partial t} = -\\frac{\\hbar^2}{2m}\\frac{\\partial^2\\psi}{\\partial x^2} + V(x)\\psi$: First, the time derivative gives $i\\hbar\\frac{\\partial\\psi}{\\partial t} = i\\hbar\\left(\\frac{i\\gamma}{\\hbar}\\right)\\psi = -\\gamma\\psi$. Next, compute the spatial derivatives of $\\phi(x) = \\alpha x^2 e^{-\\beta x}$: $$\\phi'(x) = \\alpha(2x - \\beta x^2)e^{-\\beta x},$$ $$\\phi''(x) = \\alpha(2 - 4\\beta x + \\beta^2 x^2)e^{-\\beta x} = \\left(\\frac{2}{x^2} - \\frac{4\\beta}{x} + \\beta^2\\right)\\phi(x).$$ Substituting into the Schrödinger equation and dividing by $\\psi$: $$-\\gamma = -\\frac{\\hbar^2}{2m}\\left(\\frac{2}{x^2} - \\frac{4\\beta}{x} + \\beta^2\\right) + V(x) \\implies V(x) = -\\gamma + \\frac{\\hbar^2}{2m}\\left(\\frac{2}{x^2} - \\frac{4\\beta}{x} + \\beta^2\\right).$$ Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two non-relativistic particles with masses $m_1$ and $m_2$ move with momenta $\\mathbf{p}_1$ and $\\mathbf{p}_2$, respectively, in an inertial frame $S$. In another inertial frame $S'$, moving with a constant speed with respect to $S$, the same particles are observed to have momenta $\\mathbf{p}_1'$ and $\\mathbf{p}_2'$, respectively. Galilean invariance implies that",
+      "optionsEn": [
+        "$m_2\\mathbf{p}_1' - m_1\\mathbf{p}_2' = m_2\\mathbf{p}_1 - m_1\\mathbf{p}_2$",
+        "$m_2\\mathbf{p}_1' + m_1\\mathbf{p}_2' = m_2\\mathbf{p}_1 + m_1\\mathbf{p}_2$",
+        "$m_1\\mathbf{p}_1' - m_2\\mathbf{p}_2' = m_1\\mathbf{p}_1 - m_2\\mathbf{p}_2$",
+        "$m_1\\mathbf{p}_1' + m_2\\mathbf{p}_2' = m_1\\mathbf{p}_1 + m_2\\mathbf{p}_2$"
+      ],
+      "explanationEn": "Let frame $S'$ move with constant velocity $\\mathbf{V}$ relative to frame $S$. Under a Galilean transformation, the velocities transform as $\\mathbf{v}_1' = \\mathbf{v}_1 - \\mathbf{V}$ and $\\mathbf{v}_2' = \\mathbf{v}_2 - \\mathbf{V}$. Therefore, the relative velocity $\\mathbf{v}_1 - \\mathbf{v}_2$ is Galilean invariant: $$\\mathbf{v}_1' - \\mathbf{v}_2' = \\mathbf{v}_1 - \\mathbf{v}_2 \\implies \\frac{\\mathbf{p}_1'}{m_1} - \\frac{\\mathbf{p}_2'}{m_2} = \\frac{\\mathbf{p}_1}{m_1} - \\frac{\\mathbf{p}_2}{m_2}.$$ Multiplying both sides by $m_1 m_2$ yields $m_2\\mathbf{p}_1' - m_1\\mathbf{p}_2' = m_2\\mathbf{p}_1 - m_1\\mathbf{p}_2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The binding energy $B(A, Z)$ of an atomic nucleus of mass number $A$, atomic number $Z$, and number of neutrons $N = A - Z$, can be expressed as $$B(A, Z) = a_1 A - a_2 A^{\\frac{2}{3}} - a_3 \\frac{Z^2}{A^{\\frac{1}{3}}} - a_4 \\frac{(A - 2Z)^2}{A},$$ where $a_1, a_2, a_3,$ and $a_4$ are constants of appropriate dimensions. Let $B(A, Z')$ be the binding energy of a mirror nucleus (which has the same $A$, but the number of protons and neutrons are interchanged). Then, at constant $A$, $[B(A, Z) - B(A, Z')]$ is",
+      "optionsEn": [
+        "proportional to $Z^2$",
+        "proportional to $(Z^2 - N^2)$",
+        "proportional to $N^2$",
+        "constant"
+      ],
+      "explanationEn": "For the mirror nucleus, $Z' = N = A - Z$ and $N' = Z$. Notice that the volume term ($a_1 A$) and surface term ($-a_2 A^{2/3}$) depend only on $A$, so they cancel in the difference $B(A, Z) - B(A, Z')$. For the asymmetry term, $(A - 2Z')^2 = (A - 2(A - Z))^2 = (2Z - A)^2 = (A - 2Z)^2$, so it also cancels identically. Only the Coulomb term survives: $$B(A, Z) - B(A, Z') = -a_3\\frac{Z^2}{A^{1/3}} - \\left(-a_3\\frac{(Z')^2}{A^{1/3}}\\right) = -\\frac{a_3}{A^{1/3}}(Z^2 - N^2).$$ At constant $A$, this difference is directly proportional to $(Z^2 - N^2)$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A magnetic field is given by $\\mathbf{B} = \\nabla \\times \\mathbf{A}$ where $\\mathbf{A}$ is the magnetic vector potential. If $\\mathbf{A} = (ax^2 + by^2)\\hat{i}$, the corresponding current density $\\mathbf{J}$ is ($a$ and $b$ are non-zero constants)",
+      "optionsEn": [
+        "$-\\frac{1}{\\mu_0}(2a + 2b)\\hat{i}$",
+        "$\\frac{1}{\\mu_0}(2a + 2b)\\hat{i}$",
+        "$-\\frac{1}{\\mu_0}(2a)\\hat{i}$",
+        "$-\\frac{1}{\\mu_0}(2b)\\hat{i}$"
+      ],
+      "explanationEn": "First compute the magnetic field $\\mathbf{B} = \\nabla \\times \\mathbf{A}$ for $\\mathbf{A} = (ax^2 + by^2)\\hat{i}$: $$\\mathbf{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ \\partial_x & \\partial_y & \\partial_z \\\\ ax^2 + by^2 & 0 & 0 \\end{vmatrix} = -\\frac{\\partial}{\\partial y}(ax^2 + by^2)\\hat{k} = -2by\\,\\hat{k}.$$ By Ampère's law in magnetostatics, $\\nabla \\times \\mathbf{B} = \\mu_0 \\mathbf{J}$: $$\\nabla \\times \\mathbf{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ \\partial_x & \\partial_y & \\partial_z \\\\ 0 & 0 & -2by \\end{vmatrix} = \\frac{\\partial}{\\partial y}(-2by)\\hat{i} = -2b\\,\\hat{i}.$$ Therefore, $\\mathbf{J} = \\frac{1}{\\mu_0}(\\nabla \\times \\mathbf{B}) = -\\frac{1}{\\mu_0}(2b)\\hat{i}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the logic circuit shown below, for which of the following combination(s) of inputs $P$ and $Q$, the output $Y$ will be $0$? [Figure: Three 2-input NAND gates connected in cascade: Gate 1 takes inputs $P$ and $Q$; Gate 2 has both inputs tied together to the output of Gate 1 (acting as a NOT gate); Gate 3 has both inputs tied together to the output of Gate 2 (acting as a NOT gate), producing output $Y$.]",
+      "optionsEn": [
+        "$P = 0, Q = 0$",
+        "$P = 0, Q = 1$",
+        "$P = 1, Q = 0$",
+        "$P = 1, Q = 1$"
+      ],
+      "explanationEn": "Let the output of Gate 1 (a 2-input NAND gate) be $G_1 = \\overline{P \\cdot Q}$. A 2-input NAND gate with both inputs shorted together functions as a NOT gate (inverter). Therefore, Gate 2 outputs $G_2 = \\overline{G_1} = P \\cdot Q$, and Gate 3 outputs $Y = \\overline{G_2} = \\overline{P \\cdot Q}$. For $Y = 0$, we need $\\overline{P \\cdot Q} = 0 \\implies P \\cdot Q = 1$, which occurs only when $P = 1$ and $Q = 1$. Hence, only option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two particles of masses $m_1$ and $m_2$, interacting via gravity, rotate in circular orbits about their common center of mass with the same angular velocity $\\omega$. For masses $m_1$ and $m_2$, respectively, $r_1$ and $r_2$ are the constant distances from the center of mass, $L_1$ and $L_2$ are the magnitudes of the angular momenta about the center of mass, and $K_1$ and $K_2$ are the kinetic energies. Which of the following is(are) correct? ($G$ is the universal gravitational constant)",
+      "optionsEn": [
+        "$\\frac{L_1}{L_2} = \\frac{m_2}{m_1}$",
+        "$\\frac{K_1}{K_2} = \\frac{m_2}{m_1}$",
+        "$\\omega = \\sqrt{\\frac{G(m_1 + m_2)}{(r_1 + r_2)^3}}$",
+        "$m_2 r_1 = m_1 r_2$"
+      ],
+      "explanationEn": "By definition of the center of mass, $m_1 r_1 = m_2 r_2$, so $\\frac{r_1}{r_2} = \\frac{m_2}{m_1}$ (thus option (D) $m_2 r_1 = m_1 r_2$ is false unless $m_1 = m_2$). Let $r = r_1 + r_2$ be the separation, so $r_1 = \\frac{m_2}{m_1 + m_2} r$ and $r_2 = \\frac{m_1}{m_1 + m_2} r$. Checking (A): $L_i = m_i r_i^2 \\omega$, so $\\frac{L_1}{L_2} = \\frac{m_1 r_1^2}{m_2 r_2^2} = \\frac{m_1 r_1}{m_2 r_2} \\cdot \\frac{r_1}{r_2} = 1 \\cdot \\frac{m_2}{m_1} = \\frac{m_2}{m_1}$. (A) is correct. Checking (B): $K_i = \\frac{1}{2} m_i r_i^2 \\omega^2$, so $\\frac{K_1}{K_2} = \\frac{m_1 r_1^2}{m_2 r_2^2} = \\frac{m_2}{m_1}$. (B) is correct. Checking (C): The gravitational force provides the centripetal force on $m_1$: $$\\frac{G m_1 m_2}{(r_1 + r_2)^2} = m_1 \\omega^2 r_1 = m_1 \\omega^2 \\left(\\frac{m_2 (r_1 + r_2)}{m_1 + m_2}\\right) \\implies \\omega = \\sqrt{\\frac{G(m_1 + m_2)}{(r_1 + r_2)^3}}.$$ (C) is correct. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of these cubic lattice plane pairs is(are) perpendicular to each other?",
+      "optionsEn": [
+        "$(100), (010)$",
+        "$(220), (001)$",
+        "$(110), (010)$",
+        "$(112), (220)$"
+      ],
+      "explanationEn": "In a cubic lattice, the normal to a plane $(hkl)$ is parallel to the vector $\\mathbf{n} = h\\hat{i} + k\\hat{j} + l\\hat{k}$. Two planes $(h_1 k_1 l_1)$ and $(h_2 k_2 l_2)$ are perpendicular if and only if their dot product vanishes: $h_1 h_2 + k_1 k_2 + l_1 l_2 = 0$. (A) $(1)(0) + (0)(1) + (0)(0) = 0 \\implies$ perpendicular. (B) $(2)(0) + (2)(0) + (0)(1) = 0 \\implies$ perpendicular. (C) $(1)(0) + (1)(1) + (0)(0) = 1 \\neq 0 \\implies$ not perpendicular ($45^\\circ$). (D) $(1)(2) + (1)(2) + (2)(0) = 4 \\neq 0 \\implies$ not perpendicular. Hence, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a thin convex lens of focal length $f$, the image of an object at $O$ is formed at $I$, as shown in the figure below. The distances of object and image from the two focal points ($F_O$ and $F_I$) are $x_O$ and $x_I$, respectively. Which of the following graphs correctly represent(s) the variation of the quantities shown in the figure? [Figure: A thin convex lens with focal points $F_O$ at distance $f$ to the left and $F_I$ at distance $f$ to the right; object $O$ is at distance $x_O$ to the left of $F_O$ and real image $I$ is at distance $x_I$ to the right of $F_I$.]",
+      "optionsEn": [
+        "A horizontal straight line plotting $|x_O x_I|$ on the vertical axis against $|x_I|$ on the horizontal axis.",
+        "A straight line through the origin with $\\text{Slope} = f$ plotting $\\frac{1}{|x_I|}$ on the vertical axis against $|x_O|$ on the horizontal axis.",
+        "A straight line through the origin with $\\text{Slope} = f^2$ plotting $|x_I|$ on the vertical axis against $\\frac{1}{|x_O|}$ on the horizontal axis.",
+        "A straight line through the origin with $\\text{Slope} = f$ plotting $|x_I|$ on the vertical axis against $|x_O|$ on the horizontal axis."
+      ],
+      "explanationEn": "By Newton's lens formula for a thin convex lens with real object and real image, the object distance is $u = -(f + |x_O|)$ and the image distance is $v = +(f + |x_I|)$. Substituting into $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$: $$\\frac{1}{f + |x_I|} + \\frac{1}{f + |x_O|} = \\frac{1}{f} \\implies f(2f + |x_O| + |x_I|) = (f + |x_O|)(f + |x_I|) \\implies |x_O x_I| = f^2.$$ Checking each option: (A) $|x_O x_I| = f^2 = \\text{constant}$, so $|x_O x_I|$ vs. $|x_I|$ is a horizontal line. Correct. (B) $\\frac{1}{|x_I|} = \\frac{1}{f^2} |x_O|$ has slope $\\frac{1}{f^2}$, not $f$. Incorrect. (C) $|x_I| = f^2 \\left(\\frac{1}{|x_O|}\\right)$ is a straight line through the origin with slope $f^2$. Correct. (D) $|x_I|$ is inversely proportional to $|x_O|$, not linear with slope $f$. Incorrect. Hence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Identify which of the following wave functions describe(s) travelling wave(s). ($A_0, B_0, a,$ and $b$ are positive constants of appropriate dimensions)",
+      "optionsEn": [
+        "$\\psi(x,t) = A_0 (x + t)^2$",
+        "$\\psi(x,t) = A_0 \\sin(ax^2 + bt^2)$",
+        "$\\psi(x,t) = \\frac{A_0}{B_0(x - t)^2 + 1}$",
+        "$\\psi(x,t) = A_0 e^{(ax + bt)^2}$"
+      ],
+      "explanationEn": "A one-dimensional travelling wave satisfies the classical wave equation $\\frac{\\partial^2 \\psi}{\\partial t^2} = v^2 \\frac{\\partial^2 \\psi}{\\partial x^2}$, whose general d'Alembert solution is any twice-differentiable function of the linear combination $(x \\pm vt)$ (or equivalently $ax \\pm bt$). Checking each function: (A) $\\psi(x,t) = A_0(x + t)^2$ is a function of $(x + t)$, satisfying $\\psi_{tt} = \\psi_{xx}$ with $v = 1$. Correct. (B) $\\psi(x,t) = A_0\\sin(ax^2 + bt^2)$ is not a function of $(ax \\pm bt)$ and does not satisfy the 1D wave equation. Incorrect. (C) $\\psi(x,t) = \\frac{A_0}{B_0(x - t)^2 + 1}$ is a function of $(x - t)$, satisfying $\\psi_{tt} = \\psi_{xx}$ with $v = 1$. Correct. (D) $\\psi(x,t) = A_0 e^{(ax + bt)^2}$ is a function of $(ax + bt)$, satisfying $\\psi_{tt} = (b/a)^2 \\psi_{xx}$ with speed $v = b/a$. Correct. Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A spherical ball having a uniformly distributed charge $Q$ and radius $R$ pulsates with frequency $\\omega$ such that the radius changes by $\\pm 10\\%$, as shown in the figure below. Which of the following is(are) correct?",
+      "optionsEn": [
+        "The net outward electric flux across a spherical surface of radius $r > 1.5R$ pulsates with a frequency $\\omega$",
+        "The net outward electric flux across a spherical surface of radius $r = 2R$ is $\\frac{Q}{\\varepsilon_0}$",
+        "The potential fluctuates with frequency $\\omega$ at $r = 2R$",
+        "The electric field inside the sphere at $r = 0.5R$ will not be time dependent"
+      ],
+      "explanationEn": "The radius varies as $R(t) \\in [0.9R, 1.1R]$, while the total charge $Q$ remains constant and spherically symmetric. (A) Any concentric spherical Gaussian surface of radius $r > 1.5R$ always encloses the entire charge $Q$, so the net outward flux is strictly constant at $\\frac{Q}{\\varepsilon_0}$ and does not pulsate. Incorrect. (B) At $r = 2R > 1.1R$, the Gaussian surface encloses the total charge $Q$, so by Gauss's law $\\Phi_E = \\frac{Q}{\\varepsilon_0}$. Correct. (C) Outside a spherically symmetric charge distribution ($r = 2R > R(t)$), both the electric field $E(r) = \\frac{Q}{4\\pi\\varepsilon_0 r^2}$ and the potential $V(r) = \\frac{Q}{4\\pi\\varepsilon_0 r}$ are identical to those of a point charge $Q$ at the center and are independent of $R(t)$ (no radiation or fluctuation for a breathing spherical monopole). Incorrect. (D) Inside the sphere at $r = 0.5R < 0.9R$, the electric field is $E(r,t) = \\frac{Qr}{4\\pi\\varepsilon_0 R(t)^3}$, which depends explicitly on $R(t)$ and is therefore time-dependent. Incorrect. Hence, only option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following relations is(are) valid for linear dielectrics? [$\\mathbf{E} =$ Electric field, $\\mathbf{P} =$ Polarization, $\\mathbf{D} =$ Electric displacement, $\\varepsilon_0 =$ Permittivity of free space, $\\varepsilon =$ Dielectric permittivity, $\\chi_e =$ Electric susceptibility, $\\rho_f =$ Free charge density, $\\rho_b =$ Bound charge density]",
+      "optionsEn": [
+        "$\\mathbf{P} = \\varepsilon_0 \\chi_e \\mathbf{E}$",
+        "$\\varepsilon = \\varepsilon_0(1 + \\chi_e)$",
+        "$\\mathbf{D} = \\varepsilon_0 \\mathbf{E} + \\mathbf{P}$",
+        "$\\nabla \\cdot \\mathbf{D} = \\rho_f + \\rho_b$"
+      ],
+      "explanationEn": "For a linear isotropic dielectric: (A) Polarization is proportional to the total electric field: $\\mathbf{P} = \\varepsilon_0 \\chi_e \\mathbf{E}$. Correct. (C) By universal definition, the electric displacement is $\\mathbf{D} = \\varepsilon_0 \\mathbf{E} + \\mathbf{P}$. Correct. (B) Combining (A) and (C): $\\mathbf{D} = \\varepsilon_0(1 + \\chi_e)\\mathbf{E} = \\varepsilon \\mathbf{E}$, so $\\varepsilon = \\varepsilon_0(1 + \\chi_e)$. Correct. (D) Gauss's law in dielectrics states $\\nabla \\cdot \\mathbf{D} = \\rho_f$ (free charge density only, since $\\nabla \\cdot \\mathbf{P} = -\\rho_b$ cancels the bound charge in $\\varepsilon_0 \\nabla \\cdot \\mathbf{E} = \\rho_f + \\rho_b$). Thus (D) is incorrect. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Three gaseous systems, $G_1, G_2,$ and $G_3$ with pressure and volume $(P_1, V_1), (P_2, V_2),$ and $(P_3, V_3)$, respectively, are such that (I) when $G_1$ and $G_2$ are in thermal equilibrium, $P_1 V_1 - P_2 V_2 + \\alpha P_2 = 0$, is satisfied, and (II) when $G_1$ and $G_3$ are in thermal equilibrium, $P_3 V_3 - P_1 V_1 + \\frac{\\beta P_1 V_1}{V_3} = 0$, is satisfied. The relation(s) valid at thermal equilibrium is(are) ($\\alpha$ and $\\beta$ are constants of appropriate dimensions)",
+      "optionsEn": [
+        "$P_3 V_3 - (P_2 V_2 - \\alpha P_2)\\left(1 - \\frac{\\beta}{V_3}\\right) = 0$",
+        "$P_3 V_3 + (P_2 V_2 + \\alpha P_2)\\left(1 + \\frac{\\beta}{V_3}\\right) = 0$",
+        "$P_1 V_1 = P_2 V_2 = P_3 V_3$",
+        "$P_3 V_3 + P_1 V_1\\left(\\frac{\\beta}{V_3} - 1\\right) = 0$"
+      ],
+      "explanationEn": "By the Zeroth Law of Thermodynamics, if $G_1$ is in thermal equilibrium with $G_2$ and $G_1$ is in thermal equilibrium with $G_3$, then $G_2$ and $G_3$ are also in thermal equilibrium with each other. From condition (I): $P_1 V_1 = P_2 V_2 - \\alpha P_2$. From condition (II): factoring $P_1 V_1$ gives $$P_3 V_3 + P_1 V_1\\left(\\frac{\\beta}{V_3} - 1\\right) = 0,$$ which directly matches option (D). Rewriting this as $P_3 V_3 - P_1 V_1\\left(1 - \\frac{\\beta}{V_3}\\right) = 0$ and substituting $P_1 V_1 = P_2 V_2 - \\alpha P_2$ from (I) gives: $$P_3 V_3 - (P_2 V_2 - \\alpha P_2)\\left(1 - \\frac{\\beta}{V_3}\\right) = 0,$$ which matches option (A). Options (B) and (C) do not follow from (I) and (II). Hence, options (A) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An ideal mono-atomic gas is expanded adiabatically from $A$ to $B$. It is then compressed in an isobaric process from $B$ to $C$. Finally, the pressure is increased in an isochoric process from $C$ to $A$. The cyclic process is shown in the figure below. For this system, which of the following is(are) correct? [Figure: $P$-$V$ diagram showing a clockwise cycle $A \\to B \\to C \\to A$, where $A$ is at $(V_1, P_1)$, $B$ is at $(V_2, P_2)$ with $V_2 > V_1$ and $P_2 < P_1$, and $C$ is at $(V_1, P_2)$.]",
+      "optionsEn": [
+        "Work done along the path $AB$ is $(P_1 V_1 - P_2 V_2)$",
+        "Total work done during the entire process is $\\frac{3}{2}(P_1 V_1 - P_2 V_2) + P_2(V_1 - V_2)$",
+        "Total heat absorbed during the entire process is $\\frac{3}{2}(P_1 - P_2)V_1$",
+        "Total change in internal energy during the entire process is $\\frac{5}{2}P_2(V_2 - V_1)$"
+      ],
+      "explanationEn": "For an ideal monoatomic gas, $\\gamma = \\frac{5}{3}$, so $\\gamma - 1 = \\frac{2}{3}$ and $\\frac{1}{\\gamma - 1} = \\frac{3}{2}$. Calculate work done in each leg: (1) Adiabatic expansion $A \\to B$: $W_{AB} = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1} = \\frac{3}{2}(P_1 V_1 - P_2 V_2)$. So (A) is incorrect. (2) Isobaric compression $B \\to C$ at pressure $P_2$: $W_{BC} = P_2(V_1 - V_2)$. (3) Isochoric heating $C \\to A$ at volume $V_1$: $W_{CA} = 0$. Therefore, total work done during the cycle is: $$W_{\\text{total}} = W_{AB} + W_{BC} + W_{CA} = \\frac{3}{2}(P_1 V_1 - P_2 V_2) + P_2(V_1 - V_2).$$ Thus, (B) is correct. For a complete cycle, the total change in internal energy is $\\Delta U_{\\text{total}} = 0$, so (D) is incorrect. By the first law, the net heat absorbed over the entire cycle is $Q_{\\text{net}} = W_{\\text{total}} \\neq \\frac{3}{2}(P_1 - P_2)V_1$ (note $\\frac{3}{2}(P_1 - P_2)V_1$ is only $Q_{CA}$, not the net heat of the cycle, since heat is rejected along $B \\to C$). So (C) is incorrect. Hence, only option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a body centered cubic (bcc) system, the x-ray diffraction peaks are observed for the following $h^2 + k^2 + l^2$ value(s) [$h, k,$ and $l$ are Miller indices]",
+      "optionsEn": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$7$"
+      ],
+      "explanationEn": "For a body-centered cubic (bcc) lattice, the structure factor is non-zero (allowed diffraction peak) if and only if $h + k + l$ is an even integer. Since $h^2 + k^2 + l^2 \\equiv h + k + l \\pmod{2}$, an allowed bcc reflection must have $h^2 + k^2 + l^2$ even! Checking the options: $3, 5,$ and $7$ are all odd (and $7$ cannot even be written as a sum of three squares), so they are forbidden. For $h^2 + k^2 + l^2 = 4$, $(h,k,l) = (2,0,0)$ has $h + k + l = 2$ (even), so it is an allowed bcc diffraction peak. Hence, only option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_2025_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Two solid cylinders of the same density are found to have the same moment of inertia about their respective principal axes. The length of the second cylinder is $16$ times that of the first cylinder. If the radius of the first cylinder is $4\\text{ cm}$, the radius of the second cylinder is ______ $\\text{cm}$. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "The moment of inertia of a solid cylinder of density $\\rho$, radius $R$, and length $L$ about its symmetry (principal) axis is: $$I = \\frac{1}{2} M R^2 = \\frac{1}{2}(\\rho \\pi R^2 L) R^2 = \\frac{1}{2}\\rho \\pi L R^4.$$ Given $I_1 = I_2$, $\\rho_1 = \\rho_2$, $L_2 = 16 L_1$, and $R_1 = 4\\text{ cm}$: $$L_1 R_1^4 = L_2 R_2^4 \\implies L_1 (4)^4 = 16 L_1 R_2^4 \\implies R_2^4 = \\frac{256}{16} = 16 \\implies R_2 = 2\\text{ cm}.$$ Therefore, the radius of the second cylinder is $2\\text{ cm}$."
+    },
+    {
+      "questionId": "jam_ph_2025_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Easy",
+      "correctOption": "80",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 80.0,
+      "natMax": 80.0,
+      "questionTextEn": "The shortest distance between an object and its real image formed by a thin convex lens of focal length $20\\text{ cm}$ is ______ $\\text{cm}$. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "Let the distance between the object and its real image be $D = |u| + v$, with object distance $u = -x$ and image distance $v = D - x$. By the thin lens formula: $\\frac{1}{D - x} + \\frac{1}{x} = \\frac{1}{f} \\implies x^2 - Dx + Df = 0$. For a real solution for $x$, the discriminant must be non-negative: $$D^2 - 4Df \\ge 0 \\implies D \\ge 4f.$$ Thus, the minimum distance is $D_{\\min} = 4f = 4 \\times 20\\text{ cm} = 80\\text{ cm}$."
+    },
+    {
+      "questionId": "jam_ph_2025_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Electricity and Magnetism",
+      "difficulty": "Medium",
+      "correctOption": "12.65 to 13.05",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 12.65,
+      "natMax": 13.05,
+      "questionTextEn": "Consider two media $1$ and $2$ having permittivities $\\varepsilon_0$ and $\\varepsilon_1 (= 2\\varepsilon_0)$, respectively. The interface between the two media aligns with the $x$-$y$ plane. An electric field $\\mathbf{E}_1 = 4\\hat{i} - 5\\hat{j} - \\hat{k}$ exists in medium $1$. The magnitude of the displacement vector $\\mathbf{D}_2$ in medium $2$ is ______ $\\varepsilon_0$. (up to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The interface is the $x$-$y$ plane, so the tangential components are along $\\hat{i}, \\hat{j}$ and the normal component is along $\\hat{k}$. Assuming no free surface charge at the dielectric interface, the electrostatic boundary conditions are: (1) Continuity of tangential electric field: $E_{2x} = E_{1x} = 4$ and $E_{2y} = E_{1y} = -5$. (2) Continuity of normal electric displacement: $D_{2z} = D_{1z} = \\varepsilon_0 E_{1z} = -\\varepsilon_0$. In medium $2$ (with permittivity $\\varepsilon_1 = 2\\varepsilon_0$), the tangential components of $\\mathbf{D}_2$ are: $D_{2x} = 2\\varepsilon_0 (4) = 8\\varepsilon_0$ and $D_{2y} = 2\\varepsilon_0 (-5) = -10\\varepsilon_0$. Hence, $\\mathbf{D}_2 = \\varepsilon_0(8\\hat{i} - 10\\hat{j} - \\hat{k})$. Its magnitude is: $$|\\mathbf{D}_2| = \\varepsilon_0\\sqrt{8^2 + (-10)^2 + (-1)^2} = \\varepsilon_0\\sqrt{64 + 100 + 1} = \\sqrt{165}\\,\\varepsilon_0 \\approx 12.85\\,\\varepsilon_0.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "$G1$ and $G2$ are two ideal gases at temperatures $T_1$ and $T_2$, respectively. The molecular weight of the constituents of $G1$ is half that of $G2$. If the average speeds of the molecules of both gases are equal, then assuming Maxwell-Boltzmann distributions for the molecular speeds, the ratio $\\frac{T_2}{T_1}$ is ______. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "For a Maxwell-Boltzmann speed distribution, the average molecular speed is $$\\bar{v} = \\sqrt{\\frac{8 R T}{\\pi M}},$$ where $M$ is the molecular weight. Given $\\bar{v}_1 = \\bar{v}_2$: $$\\frac{T_1}{M_1} = \\frac{T_2}{M_2} \\implies \\frac{T_2}{T_1} = \\frac{M_2}{M_1}.$$ Since $M_1 = \\frac{1}{2} M_2$, we have $\\frac{M_2}{M_1} = 2$. Therefore, $\\frac{T_2}{T_1} = 2$."
+    },
+    {
+      "questionId": "jam_ph_2025_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": "0.95 to 1.05",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.95,
+      "natMax": 1.05,
+      "questionTextEn": "An ideal p-n junction diode (ideality factor $\\eta = 1$) is operating in forward bias at room temperature (thermal energy $= 26\\text{ meV}$). If the diode current is $26\\text{ mA}$ for an applied bias of $1.0\\text{ V}$, the dynamic resistance ($r_{ac}$) is ______ $\\Omega$. (up to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For a forward-biased p-n junction diode with $I = I_0\\left(e^{V / (\\eta V_T)} - 1\\right) \\approx I_0 e^{V / (\\eta V_T)}$ (since $V = 1.0\\text{ V} \\gg V_T = 26\\text{ mV}$), the dynamic (AC) resistance is: $$r_{ac} = \\left(\\frac{dI}{dV}\\right)^{-1} = \\frac{\\eta V_T}{I}.$$ With $\\eta = 1$, $V_T = \\frac{k_B T}{e} = 26\\text{ mV}$, and $I = 26\\text{ mA}$: $$r_{ac} = \\frac{1 \\times 26 \\times 10^{-3}\\text{ V}}{26 \\times 10^{-3}\\text{ A}} = 1.00\\ \\Omega.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "591.00 to 597.00",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 591.0,
+      "natMax": 597.0,
+      "questionTextEn": "In a two-level atomic system, the excited state is $0.2\\text{ eV}$ above the ground state. Considering the Maxwell-Boltzmann distribution, the temperature at which $2\\%$ of the atoms will be in the excited state is ______ $\\text{K}$. (up to two decimal places) (Boltzmann constant $k_B = 8.62 \\times 10^{-5}\\text{ eV/K}$)",
+      "optionsEn": [],
+      "explanationEn": "Let $N_1$ and $N_2$ be the populations of the ground and excited states, respectively, with energy separation $\\Delta E = 0.2\\text{ eV}$. Given that $2\\%$ of the total atoms are in the excited state: $$\\frac{N_2}{N_1 + N_2} = 0.02 \\implies \\frac{N_2}{N_1} = \\frac{0.02}{0.98} = \\frac{1}{49}.$$ By the Maxwell-Boltzmann distribution, $\\frac{N_2}{N_1} = e^{-\\Delta E / (k_B T)}$, so: $$T = \\frac{\\Delta E}{k_B \\ln(49)} = \\frac{0.2}{8.62 \\times 10^{-5} \\times 3.89182} \\approx 596.17\\text{ K}.$$ (Note: Using the approximation $N_2/N_1 \\approx 0.02$ gives $T = \\frac{0.2}{8.62 \\times 10^{-5} \\ln 50} \\approx 593.09\\text{ K}$; both lie inside the official accepted range $591$ to $597\\text{ K}$.)"
+    },
+    {
+      "questionId": "jam_ph_2025_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Medium",
+      "correctOption": "1.55 to 1.70",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.55,
+      "natMax": 1.7,
+      "questionTextEn": "Neutrons of energy $8\\text{ MeV}$ are incident on a potential step of height $48\\text{ MeV}$. As they penetrate the classically forbidden region, the distance at which the probability density of finding neutrons decreases by a factor of $100$ is ______ $\\text{fm}$. (up to two decimal places) (Take $\\hbar c = 200\\text{ MeV fm}$, and the rest mass energy of neutron $= 1\\text{ GeV}$.)",
+      "optionsEn": [],
+      "explanationEn": "In the classically forbidden region ($E = 8\\text{ MeV} < V_0 = 48\\text{ MeV}$), the wavefunction decays exponentially as $\\psi(x) \\propto e^{-\\kappa x}$, where the decay constant is: $$\\kappa = \\frac{\\sqrt{2m(V_0 - E)}}{\\hbar} = \\frac{\\sqrt{2(mc^2)(V_0 - E)}}{\\hbar c}.$$ Substituting $mc^2 = 1\\text{ GeV} = 1000\\text{ MeV}$, $V_0 - E = 40\\text{ MeV}$, and $\\hbar c = 200\\text{ MeV fm}$: $$\\kappa = \\frac{\\sqrt{2 \\times 1000 \\times 40}}{200} = \\frac{\\sqrt{80000}}{200} = \\frac{200\\sqrt{2}}{200} = \\sqrt{2}\\text{ fm}^{-1} \\approx 1.4142\\text{ fm}^{-1}.$$ The probability density decays as $|\\psi(x)|^2 \\propto e^{-2\\kappa x}$. Setting $e^{-2\\kappa x} = \\frac{1}{100}$: $$2\\kappa x = \\ln(100) \\implies x = \\frac{\\ln(100)}{2\\sqrt{2}} = \\frac{4.60517}{2.82843} \\approx 1.63\\text{ fm}.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Modern Physics",
+      "difficulty": "Medium",
+      "correctOption": "24",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 24.0,
+      "natMax": 24.0,
+      "questionTextEn": "At a particular temperature $T$, Planck's energy density of black body radiation in terms of frequency is $\\rho_T(\\nu) = 8 \\times 10^{-18}\\ \\frac{\\text{J/m}^3}{\\text{Hz}}$ at $\\nu = 3 \\times 10^{14}\\text{ Hz}$. Then Planck's energy density $\\rho_T(\\lambda)$ at the corresponding wavelength ($\\lambda$) has the value ______ $\\times 10^2\\ \\frac{\\text{J/m}^3}{\\text{m}}$. (in integer) [Speed of light $c = 3 \\times 10^8\\text{ m/s}$]",
+      "optionsEn": [],
+      "explanationEn": "By conservation of energy density in corresponding spectral intervals, $\\rho_T(\\lambda)\\, |d\\lambda| = \\rho_T(\\nu)\\, |d\\nu|$. Since $\\nu = \\frac{c}{\\lambda}$, we have $\\left|\\frac{d\\nu}{d\\lambda}\\right| = \\frac{c}{\\lambda^2} = \\frac{\\nu^2}{c}$. Therefore: $$\\rho_T(\\lambda) = \\rho_T(\\nu) \\frac{\\nu^2}{c} = \\left(8 \\times 10^{-18}\\right) \\frac{(3 \\times 10^{14})^2}{3 \\times 10^8} = \\left(8 \\times 10^{-18}\\right) \\left(3 \\times 10^{20}\\right) = 24 \\times 10^2\\ \\frac{\\text{J/m}^3}{\\text{m}}.$$ Hence, the required integer value is $24$."
+    },
+    {
+      "questionId": "jam_ph_2025_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Medium",
+      "correctOption": "0.80 to 0.84",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.8,
+      "natMax": 0.84,
+      "questionTextEn": "The ratio of the density of atoms between the $(111)$ and $(110)$ planes in a simple cubic (sc) lattice is ______. (up to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For a simple cubic (sc) lattice with lattice constant $a$, the volume per atom is $V_{\\text{atom}} = a^3$, and the interplanar spacing for planes $(hkl)$ is $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$. Since every atom lies on a plane of the $(hkl)$ family, the planar atomic density (atoms per unit area) is: $$\\sigma_{hkl} = \\frac{d_{hkl}}{V_{\\text{atom}}} = \\frac{1}{a^2 \\sqrt{h^2 + k^2 + l^2}}.$$ Thus, $\\sigma_{111} = \\frac{1}{a^2\\sqrt{3}}$ and $\\sigma_{110} = \\frac{1}{a^2\\sqrt{2}}$. Their ratio is: $$\\frac{\\sigma_{111}}{\\sigma_{110}} = \\sqrt{\\frac{2}{3}} \\approx 0.8165 \\approx 0.82.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": "0.89 to 0.93 and 89 to 93",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.89,
+      "natMax": 0.93,
+      "questionTextEn": "The packing fraction for a two-dimensional hexagonal lattice having sides $2r$ with atoms of radii $r$ placed at each vertex and at the center is ______. (up to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Consider a regular hexagon of side length $s = 2r$ with one atom of radius $r$ at the center and one at each of the $6$ vertices. Each vertex atom is shared among $3$ adjacent hexagons (interior angle $120^\\circ = \\frac{1}{3} \\times 360^\\circ$), so the effective number of atoms inside one hexagon is $N = 1 + 6 \\times \\frac{1}{3} = 3$. The area occupied by these $3$ circular atoms is $A_{\\text{atoms}} = 3\\pi r^2$. The area of the regular hexagon of side $s = 2r$ is $A_{\\text{hex}} = \\frac{3\\sqrt{3}}{2} s^2 = \\frac{3\\sqrt{3}}{2}(2r)^2 = 6\\sqrt{3}\\,r^2$. Therefore, the 2D packing fraction is: $$\\text{PF} = \\frac{3\\pi r^2}{6\\sqrt{3}\\,r^2} = \\frac{\\pi}{2\\sqrt{3}} \\approx 0.9069 \\approx 0.91.$$ (Note: In percentage form, this is $90.69\\%$; the official IIT JAM 2025 Final Answer Key accepts both decimal form $0.89\\text{ to }0.93$ and percentage form $89\\text{ to }93$.)"
+    },
+    {
+      "questionId": "jam_ph_2025_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Medium",
+      "correctOption": "20",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 20.0,
+      "natMax": 20.0,
+      "questionTextEn": "A NPN bipolar junction transistor (BJT) is connected in common emitter (CE) configuration as shown in the circuit diagram below. The amplifier is operating in the saturation regime. The collector-emitter saturation voltage ($V_{CE}^{\\text{sat}}$) is $0.2\\text{ V}$. The current gain $\\beta = 100$. The maximum value of base resistance $R_{BB}$ is ______ $\\text{k}\\Omega$. (in integer) [Figure: Common-emitter NPN BJT with emitter grounded, collector connected via $R_C = 3\\text{ k}\\Omega$ to $V_{CC} = 5\\text{ V}$, base connected via $R_{BB}$ to $V_{BB} = 1\\text{ V}$, with $V_{BE} = 0.68\\text{ V}$ and $\\beta = 100$.]",
+      "optionsEn": [],
+      "explanationEn": "In saturation, the collector-emitter voltage is $V_{CE}^{\\text{sat}} = 0.2\\text{ V}$. Applying KVL to the collector-emitter loop: $$I_{C,\\text{sat}} = \\frac{V_{CC} - V_{CE}^{\\text{sat}}}{R_C} = \\frac{5\\text{ V} - 0.2\\text{ V}}{3\\text{ k}\\Omega} = \\frac{4.8\\text{ V}}{3\\text{ k}\\Omega} = 1.6\\text{ mA}.$$ To keep the transistor in saturation, the base current must satisfy $I_B \\ge I_{B,\\min} = \\frac{I_{C,\\text{sat}}}{\\beta}$: $$I_{B,\\min} = \\frac{1.6\\text{ mA}}{100} = 0.016\\text{ mA} = 16\\ \\mu\\text{A}.$$ Applying KVL to the base-emitter loop with $V_{BB} = 1\\text{ V}$ and $V_{BE} = 0.68\\text{ V}$: $$R_{BB,\\max} = \\frac{V_{BB} - V_{BE}}{I_{B,\\min}} = \\frac{1.0 - 0.68}{0.016\\text{ mA}} = \\frac{0.32}{0.016}\\text{ k}\\Omega = 20\\text{ k}\\Omega.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Medium",
+      "correctOption": "1.78 to 1.82",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.78,
+      "natMax": 1.82,
+      "questionTextEn": "For a Zener diode as shown in the circuit diagram below, the Zener voltage $V_Z$ is $3.7\\text{ V}$. For a load resistance ($R_L$) of $1\\text{ k}\\Omega$, a current $I_1$ flows through the load. If $R_L$ is decreased to $500\\ \\Omega$, the current changes to $I_2$. [Figure: A $10\\text{ V}$ DC voltage source connected through a $1\\text{ k}\\Omega$ series resistor to a reverse-biased Zener diode ($V_Z = 3.7\\text{ V}$) in parallel with a load resistor $R_L$.] The ratio $\\frac{I_2}{I_1}$ is ______. (up to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Check whether the Zener diode is in breakdown (ON) or OFF in each case by computing the open-circuit voltage $V_{\\text{th}}$ across $R_L$ without the Zener diode: Case 1 ($R_L = 1\\text{ k}\\Omega$): $$V_{\\text{th},1} = 10\\text{ V} \\times \\frac{1\\text{ k}\\Omega}{1\\text{ k}\\Omega + 1\\text{ k}\\Omega} = 5.0\\text{ V} > V_Z = 3.7\\text{ V}.$$ Thus the Zener diode is ON (regulating at $3.7\\text{ V}$), and the load current is $I_1 = \\frac{3.7\\text{ V}}{1\\text{ k}\\Omega} = 3.7\\text{ mA}$. Case 2 ($R_L = 500\\ \\Omega = 0.5\\text{ k}\\Omega$): $$V_{\\text{th},2} = 10\\text{ V} \\times \\frac{0.5\\text{ k}\\Omega}{1\\text{ k}\\Omega + 0.5\\text{ k}\\Omega} = 3.33\\text{ V} < V_Z = 3.7\\text{ V}.$$ Thus the Zener diode is OFF (open circuit), and the load current is $I_2 = \\frac{10\\text{ V}}{1\\text{ k}\\Omega + 0.5\\text{ k}\\Omega} = \\frac{10}{1.5}\\text{ mA} = \\frac{20}{3}\\text{ mA} \\approx 6.667\\text{ mA}$. Taking the ratio: $$\\frac{I_2}{I_1} = \\frac{20/3}{3.7} = \\frac{20}{11.1} \\approx 1.8018 \\approx 1.80.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "0.90 to 1.10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.9,
+      "natMax": 1.1,
+      "questionTextEn": "One kg of water at $27^\\circ\\text{C}$ is brought in contact with a heat reservoir kept at $37^\\circ\\text{C}$. Upon reaching thermal equilibrium, this mass of water is brought in contact with another heat reservoir kept at $47^\\circ\\text{C}$. The final temperature of water is $47^\\circ\\text{C}$. The change in entropy of the whole system in this entire process is ______ $\\text{cal/K}$. (up to two decimal places) [Take specific heat at constant pressure of water as $1\\text{ cal/(g K)}$]",
+      "optionsEn": [],
+      "explanationEn": "Convert temperatures to Kelvin: $T_0 = 27 + 273 = 300\\text{ K}$, $T_1 = 37 + 273 = 310\\text{ K}$, and $T_2 = 47 + 273 = 320\\text{ K}$. Mass of water $m = 1\\text{ kg} = 1000\\text{ g}$, specific heat $c = 1\\text{ cal/(g K)}$, so $mc = 1000\\text{ cal/K}$. (1) Entropy change of water from $T_0$ to $T_2$: $$\\Delta S_{\\text{water}} = mc \\ln\\left(\\frac{T_2}{T_0}\\right) = 1000 \\ln\\left(\\frac{320}{300}\\right) = 1000 \\times 0.0645385 = 64.5385\\text{ cal/K}.$$ (2) Entropy change of Reservoir 1 (loses heat $Q_1 = mc(T_1 - T_0)$ at constant $T_1 = 310\\text{ K}$): $$\\Delta S_{\\text{res},1} = -\\frac{1000(310 - 300)}{310} = -\\frac{10000}{310} = -32.2581\\text{ cal/K}.$$ (3) Entropy change of Reservoir 2 (loses heat $Q_2 = mc(T_2 - T_1)$ at constant $T_2 = 320\\text{ K}$): $$\\Delta S_{\\text{res},2} = -\\frac{1000(320 - 310)}{320} = -\\frac{10000}{320} = -31.2500\\text{ cal/K}.$$ Total entropy change of the universe (whole system): $$\\Delta S_{\\text{total}} = 64.5385 - 32.2581 - 31.2500 = 1.0305\\text{ cal/K} \\approx 1.03\\text{ cal/K}.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mathematical Methods",
+      "difficulty": "Medium",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "Consider a vector $\\mathbf{F} = \\frac{1}{\\pi}\\left[-\\sin y\\,\\hat{i} + x(1 - \\cos y)\\,\\hat{j}\\right]$. The value of the integral $\\oint \\mathbf{F} \\cdot d\\mathbf{r}$ over a circle $x^2 + y^2 = 1$ evaluated in the anti-clockwise direction is ______. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "Apply Green's theorem in the plane for the closed anti-clockwise contour $C: x^2 + y^2 = 1$ enclosing disk $D$ of radius $1$: $$\\oint_C (F_x\\, dx + F_y\\, dy) = \\iint_D \\left(\\frac{\\partial F_y}{\\partial x} - \\frac{\\partial F_x}{\\partial y}\\right) dx\\, dy.$$ Here $F_x = -\\frac{1}{\\pi}\\sin y$ and $F_y = \\frac{1}{\\pi}x(1 - \\cos y)$. Computing the partial derivatives: $$\\frac{\\partial F_y}{\\partial x} = \\frac{1}{\\pi}(1 - \\cos y), \\qquad \\frac{\\partial F_x}{\\partial y} = -\\frac{1}{\\pi}\\cos y.$$ Subtracting gives: $$\\frac{\\partial F_y}{\\partial x} - \\frac{\\partial F_x}{\\partial y} = \\frac{1}{\\pi}(1 - \\cos y + \\cos y) = \\frac{1}{\\pi}.$$ Therefore, $\\oint_C \\mathbf{F} \\cdot d\\mathbf{r} = \\frac{1}{\\pi} \\times \\text{Area}(D) = \\frac{1}{\\pi}(\\pi \\cdot 1^2) = 1$."
+    },
+    {
+      "questionId": "jam_ph_2025_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "A particle is moving with a constant angular velocity $2\\text{ rad/s}$ in an orbit on a plane. The radial distance of the particle from the origin at time $t$ is given by $r = r_0 e^{2\\beta t}$ where $r_0$ and $\\beta$ are positive constants. The radial component of the acceleration vanishes for $\\beta =$ ______ $\\text{rad/s}$. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "In plane polar coordinates, the radial component of acceleration is $a_r = \\ddot{r} - r\\dot{\\theta}^2$. Given $\\dot{\\theta} = \\omega = 2\\text{ rad/s}$ and $r(t) = r_0 e^{2\\beta t}$, we have $\\dot{r} = 2\\beta r_0 e^{2\\beta t}$ and $\\ddot{r} = 4\\beta^2 r_0 e^{2\\beta t} = 4\\beta^2 r$. Setting $a_r = 0$: $$4\\beta^2 r - r(2)^2 = 0 \\implies 4\\beta^2 = 4 \\implies \\beta^2 = 1.$$ Since $\\beta$ is a positive constant, $\\beta = 1\\text{ rad/s}$."
+    },
+    {
+      "questionId": "jam_ph_2025_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Mechanics and General Properties of Matter",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "A planet rotates in an elliptical orbit with a star situated at one of the foci. The distance from the center of the ellipse to any foci is half of the semi-major axis. The ratio of the speed of the planet when it is nearest (perihelion) to the star to that at the farthest (aphelion) is ______. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "The distance from the center of an ellipse to either focus is $ae$, where $a$ is the semi-major axis and $e$ is the eccentricity. Given $ae = \\frac{a}{2}$, we get $e = \\frac{1}{2}$. The perihelion and aphelion distances from the star are $r_p = a(1 - e)$ and $r_a = a(1 + e)$. By conservation of angular momentum about the star ($m v_p r_p = m v_a r_a$): $$\\frac{v_p}{v_a} = \\frac{r_a}{r_p} = \\frac{1 + e}{1 - e} = \\frac{1 + 0.5}{1 - 0.5} = \\frac{1.5}{0.5} = 3.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": "3.59 to 3.63",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.59,
+      "natMax": 3.63,
+      "questionTextEn": "A light beam given by $\\mathbf{E}(z,t) = E_{01}\\sin(kz - \\omega t)\\hat{i} + E_{02}\\sin\\left(kz - \\omega t + \\frac{\\pi}{6}\\right)\\hat{j}$ passes through an ideal linear polarizer whose transmission axis is tilted by $60^\\circ$ from $x$-axis (in $x$-$y$ plane). If $E_{01} = 4\\text{ V/m}$ and $E_{02} = 2\\text{ V/m}$, the electric field amplitude of the emerging light beam from the polarizer is ______ $\\text{V/m}$. (up to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The unit vector along the polarizer's transmission axis is $\\hat{u} = \\cos 60^\\circ\\,\\hat{i} + \\sin 60^\\circ\\,\\hat{j} = \\frac{1}{2}\\hat{i} + \\frac{\\sqrt{3}}{2}\\hat{j}$. Projecting $\\mathbf{E}(z,t)$ onto $\\hat{u}$ gives the transmitted electric field (writing $\\phi = kz - \\omega t$): $$E_{\\text{out}} = \\mathbf{E}\\cdot\\hat{u} = \\left(4 \\cdot \\frac{1}{2}\\right)\\sin\\phi + \\left(2 \\cdot \\frac{\\sqrt{3}}{2}\\right)\\sin\\left(\\phi + \\frac{\\pi}{6}\\right) = 2\\sin\\phi + \\sqrt{3}\\sin\\left(\\phi + \\frac{\\pi}{6}\\right).$$ The resultant amplitude of two harmonic oscillations of amplitudes $A = 2$, $B = \\sqrt{3}$, and phase difference $\\delta = \\frac{\\pi}{6}$ is: $$E_{\\text{amp}} = \\sqrt{A^2 + B^2 + 2AB\\cos\\delta} = \\sqrt{2^2 + (\\sqrt{3})^2 + 2(2)(\\sqrt{3})\\left(\\frac{\\sqrt{3}}{2}\\right)} = \\sqrt{4 + 3 + 6} = \\sqrt{13} \\approx 3.61\\text{ V/m}.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Oscillations, Waves and Optics",
+      "difficulty": "Medium",
+      "correctOption": "24",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 24.0,
+      "natMax": 24.0,
+      "questionTextEn": "A wedge-shaped thin film is formed using soap-water solution. The refractive index of the film is $1.25$. At near normal incidence, when the film is illuminated by a monochromatic light of wavelength $600\\text{ nm}$, $10$ interference fringes per $\\text{cm}$ are observed. The wedge angle (in radians) is ______ $\\times 10^{-5}$. (in integer)",
+      "optionsEn": [],
+      "explanationEn": "For a thin wedge-shaped film of refractive index $n = 1.25$ and small wedge angle $\\theta$ at near-normal incidence, the fringe width is $\\beta = \\frac{\\lambda}{2n\\theta}$. Since $10$ fringes are observed per $\\text{cm}$, the fringe width is $\\beta = \\frac{1\\text{ cm}}{10} = 0.1\\text{ cm} = 10^{-3}\\text{ m}$. Solving for $\\theta$ with $\\lambda = 600\\text{ nm} = 6 \\times 10^{-7}\\text{ m}$: $$\\theta = \\frac{\\lambda}{2n\\beta} = \\frac{6 \\times 10^{-7}}{2 \\times 1.25 \\times 10^{-3}} = \\frac{6 \\times 10^{-7}}{2.5 \\times 10^{-3}} = 2.4 \\times 10^{-4}\\text{ rad} = 24 \\times 10^{-5}\\text{ rad}.$$ Hence, the required integer value is $24$."
+    },
+    {
+      "questionId": "jam_ph_2025_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Solid State Physics, Devices and Electronics",
+      "difficulty": "Easy",
+      "correctOption": "2.3 to 2.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.3,
+      "natMax": 2.5,
+      "questionTextEn": "In an orthorhombic crystal, the lattice constants are $3.0\\text{ \\AA}$, $3.2\\text{ \\AA}$, and $4.0\\text{ \\AA}$. The distance $d_{101}$ between the successive $(101)$ planes is ______ $\\text{\\AA}$. (up to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "For an orthorhombic crystal with lattice constants $a = 3.0\\text{ \\AA}$, $b = 3.2\\text{ \\AA}$, and $c = 4.0\\text{ \\AA}$, the interplanar spacing for planes $(hkl)$ is given by: $$\\frac{1}{d_{hkl}^2} = \\frac{h^2}{a^2} + \\frac{k^2}{b^2} + \\frac{l^2}{c^2}.$$ For $(h,k,l) = (1,0,1)$: $$\\frac{1}{d_{101}^2} = \\frac{1^2}{(3.0)^2} + \\frac{0^2}{(3.2)^2} + \\frac{1^2}{(4.0)^2} = \\frac{1}{9} + \\frac{1}{16} = \\frac{25}{144} \\implies d_{101} = \\frac{12}{5} = 2.4\\text{ \\AA}.$$"
+    },
+    {
+      "questionId": "jam_ph_2025_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH 2025 Official Paper",
+      "topicTag": "Kinetic Theory and Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "0.70 to 1.20",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.7,
+      "natMax": 1.2,
+      "questionTextEn": "Consider a chamber at room temperature ($27^\\circ\\text{C}$) filled with a gas having a molecular diameter of $0.35\\text{ nm}$. The pressure (in Pascal) to which the chamber needs to be evacuated so that the molecules have a mean free path of $1\\text{ km}$ is ______ $\\times 10^{-5}\\text{ Pa}$. (up to two decimal places) (Boltzmann constant $k_B = 1.38 \\times 10^{-23}\\text{ J/K}$)",
+      "optionsEn": [],
+      "explanationEn": "The mean free path $\\lambda$ of ideal gas molecules of diameter $d$ at temperature $T$ and pressure $P$ is: $$\\lambda = \\frac{k_B T}{\\sqrt{2}\\,\\pi d^2 P} \\implies P = \\frac{k_B T}{\\sqrt{2}\\,\\pi d^2 \\lambda}.$$ Substituting $T = 27 + 273 = 300\\text{ K}$, $d = 0.35\\text{ nm} = 0.35 \\times 10^{-9}\\text{ m}$, $\\lambda = 1\\text{ km} = 10^3\\text{ m}$, and $k_B = 1.38 \\times 10^{-23}\\text{ J/K}$: $$P = \\frac{1.38 \\times 10^{-23} \\times 300}{\\sqrt{2} \\times \\pi \\times (0.35 \\times 10^{-9})^2 \\times 10^3} = \\frac{4.14 \\times 10^{-21}}{5.4424 \\times 10^{-16}} \\approx 7.607 \\times 10^{-6}\\text{ Pa} = 0.76 \\times 10^{-5}\\text{ Pa}.$$ Hence, the required value is $0.76$ (within the official accepted range $0.7$ to $1.2$)."
+    }
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "testId": "gate_cy_topic_stat_thermo_electrochem_01",
+  "categoryId": "gate_cy",
+  "test_id": "gate_cy_topic_stat_thermo_electrochem_01",
+  "category_id": "gate_cy",
+  "title": "GATE CY Topic Test: Statistical Thermodynamics & Electrochemistry — Set 01",
+  "titleEn": "GATE CY Topic Test: Statistical Thermodynamics & Electrochemistry — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_05_elec",
+  "part_id": "part_05_elec",
+  "partTitle": "Statistical Thermodynamics & Electrochemistry",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "GATE CY • Statistical Thermodynamics & Electrochemistry • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "sectionTitleEn": "Chemistry",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a grand canonical ensemble ($\\mu, V, T$), which thermodynamic potential is directly related to the grand partition function $\\Xi$ via $-k_B T \\ln \\Xi$?",
+      "optionsEn": [
+        "Helmholtz free energy ($A$)",
+        "Grand potential ($\\Phi_G = -PV$)",
+        "Gibbs free energy ($G$)",
+        "Internal energy ($U$)"
+      ],
+      "explanationEn": "In the grand canonical ensemble, the characteristic thermodynamic potential is the grand potential (Landau potential) $\\Phi_G = U - TS - \\mu N = -PV$, which is directly connected to the grand partition function $\\Xi(\\mu, V, T)$ through $\\Phi_G = -PV = -k_B T \\ln \\Xi$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a one-dimensional quantum harmonic oscillator with characteristic vibrational temperature $\\Theta_v = h\\nu/k_B$, taking the ground state ($v = 0$) as the zero of energy, the vibrational partition function $q_v$ is:",
+      "optionsEn": [
+        "$\\frac{1}{1 + e^{-\\Theta_v / T}}$",
+        "$\\frac{e^{-\\Theta_v / (2T)}}{1 - e^{-\\Theta_v / T}}$",
+        "$\\frac{1}{1 - e^{-\\Theta_v / T}}$",
+        "$1 - e^{-\\Theta_v / T}$"
+      ],
+      "explanationEn": "When the zero of energy is chosen at the $v = 0$ level, the vibrational energy levels are $\\varepsilon_v = v h\\nu = v k_B \\Theta_v$ for $v = 0, 1, 2, \\dots$. Summing the geometric series gives $q_v = \\sum_{v=0}^\\infty e^{-v\\Theta_v/T} = \\frac{1}{1 - e^{-\\Theta_v/T}}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In terms of the canonical partition function $Q(N, V, T)$, the average internal energy $U$ of a system is given by:",
+      "optionsEn": [
+        "$-k_B T^2 \\left(\\frac{\\partial \\ln Q}{\\partial T}\\right)_{N,V}$",
+        "$k_B T^2 \\left(\\frac{\\partial \\ln Q}{\\partial T}\\right)_{N,V}$",
+        "$k_B T \\left(\\frac{\\partial \\ln Q}{\\partial V}\\right)_{N,T}$",
+        "$-k_B T \\ln Q$"
+      ],
+      "explanationEn": "Using $A = -k_B T \\ln Q$ and the Gibbs-Helmholtz relation $U = -T^2 \\left[\\frac{\\partial(A/T)}{\\partial T}\\right]_{N,V} = -T^2 \\frac{\\partial(-k_B \\ln Q)}{\\partial T} = k_B T^2 \\left(\\frac{\\partial \\ln Q}{\\partial T}\\right)_{N,V}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "According to the Debye-Hückel limiting law in water at $298\\text{ K}$ ($\\log_{10}\\gamma_\\pm = -A|z_+ z_-|\\sqrt{I}$), a plot of $\\log_{10}\\gamma_\\pm$ versus $\\sqrt{I}$ for $\\text{MgSO}_4$ compared to $\\text{NaCl}$ has a slope that is:",
+      "optionsEn": [
+        "Four times as steep as that of $\\text{NaCl}$",
+        "Twice as steep as that of $\\text{NaCl}$",
+        "Equal to that of $\\text{NaCl}$",
+        "Half as steep as that of $\\text{NaCl}$"
+      ],
+      "explanationEn": "The slope of $\\log_{10}\\gamma_\\pm$ vs $\\sqrt{I}$ is $-A|z_+ z_-|$. For $\\text{NaCl}$ ($1:1$), $|z_+ z_-| = |(+1)(-1)| = 1$. For $\\text{MgSO}_4$ ($2:2$), $|z_+ z_-| = |(+2)(-2)| = 4$. Thus the slope for $\\text{MgSO}_4$ is four times as steep as that for $\\text{NaCl}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a reversible galvanic cell operating at constant pressure, if the temperature coefficient of the cell EMF is positive, i.e., $\\left(\\frac{\\partial E}{\\partial T}\\right)_P > 0$, then for the spontaneous cell reaction:",
+      "optionsEn": [
+        "$\\Delta_r S > 0$ and the cell absorbs heat from the surroundings during reversible operation",
+        "$\\Delta_r S < 0$ and the cell releases heat to the surroundings during reversible operation",
+        "$\\Delta_r S = 0$ and $\\Delta_r H = \\Delta_r G$",
+        "$\\Delta_r G > 0$"
+      ],
+      "explanationEn": "Since $\\Delta_r G = -nFE$ and $\\Delta_r S = -\\left(\\frac{\\partial \\Delta_r G}{\\partial T}\\right)_P = nF\\left(\\frac{\\partial E}{\\partial T}\\right)_P$, a positive temperature coefficient directly implies $\\Delta_r S > 0$. During reversible isothermal operation, $q_{\\text{rev}} = T\\Delta_r S > 0$, so the cell absorbs heat from the surroundings."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about statistical mechanical ensembles is/are CORRECT?",
+      "optionsEn": [
+        "In a microcanonical ($N, V, E$) ensemble, all accessible microstates have equal a priori probability.",
+        "In a canonical ($N, V, T$) ensemble, energy fluctuates around the mean value while $N$ and $V$ remain fixed.",
+        "In a grand canonical ($\\mu, V, T$) ensemble, both energy $E$ and particle number $N$ fluctuate.",
+        "In the thermodynamic limit ($N \\to \\infty$), relative fluctuations in energy $\\sigma_E / \\langle E \\rangle$ in a canonical ensemble diverge to infinity."
+      ],
+      "explanationEn": "The fundamental postulate of equal a priori probabilities applies to the isolated microcanonical ensemble (A). In a canonical ensemble, thermal contact allows energy fluctuations at fixed $N, V$ (B). In a grand canonical ensemble, both $E$ and $N$ fluctuate (C). In the thermodynamic limit, relative energy fluctuations scale as $1/\\sqrt{N} \\to 0$ (not infinity), so (D) is false."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a galvanic cell written in standard IUPAC notation (anode on left, cathode on right), which of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "Oxidation occurs at the left-hand electrode (anode) and reduction occurs at the right-hand electrode (cathode).",
+        "$E_{\\text{cell}}^\\circ = E_{\\text{cathode}}^\\circ - E_{\\text{anode}}^\\circ$ (both expressed as standard reduction potentials).",
+        "Standard electrode potential $E^\\circ$ is an intensive property and does not change when the half-reaction is multiplied by $2$.",
+        "If $E_{\\text{cell}} > 0$, the reaction quotient $Q$ is greater than the equilibrium constant $K$."
+      ],
+      "explanationEn": "By IUPAC convention, anode (oxidation) is on the left and cathode (reduction) is on the right (A), with $E_{\\text{cell}}^\\circ = E_R^\\circ - E_L^\\circ$ (B). Since $E^\\circ = -\\Delta G^\\circ / (nF)$ is a ratio of two extensive quantities, it is intensive (C). When $E_{\\text{cell}} > 0$, $\\Delta G < 0$, which means $Q < K$ (D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Easy",
+      "correctOption": "0.3 to 0.32",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.3,
+      "natMax": 0.32,
+      "questionTextEn": "An aqueous solution contains $0.10\\text{ M NaCl}$, $0.05\\text{ M MgCl}_2$, and $0.02\\text{ M Na}_2\\text{SO}_4$. Assuming complete dissociation, the total ionic strength of the solution (in $\\text{M}$, rounded off to two decimal places) is _______.",
+      "optionsEn": [],
+      "explanationEn": "Using $I = \\frac{1}{2}\\sum c_i z_i^2$: for $0.10\\text{ M NaCl}$, $I_1 = 0.10\\text{ M}$; for $0.05\\text{ M MgCl}_2$, $I_2 = \\frac{1}{2}[0.05(2)^2 + 0.10(-1)^2] = 0.15\\text{ M}$; for $0.02\\text{ M Na}_2\\text{SO}_4$, $I_3 = \\frac{1}{2}[0.04(1)^2 + 0.02(-2)^2] = 0.06\\text{ M}$. Summing gives $I = 0.10 + 0.15 + 0.06 = 0.31\\text{ M}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Easy",
+      "correctOption": "-212.8 to -211.8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -212.8,
+      "natMax": -211.8,
+      "questionTextEn": "The standard EMF of the Daniell cell $\\text{Zn}(\\text{s})|\\text{Zn}^{2+}(\\text{aq})||\\text{Cu}^{2+}(\\text{aq})|\\text{Cu}(\\text{s})$ at $298\\text{ K}$ is $1.10\\text{ V}$. Taking $F = 96500\\text{ C mol}^{-1}$, the standard Gibbs free energy change ($\\Delta_r G^\\circ$, in $\\text{kJ mol}^{-1}$, rounded off to one decimal place) is _______.",
+      "optionsEn": [],
+      "explanationEn": "For the two-electron cell reaction $\\text{Zn}(\\text{s}) + \\text{Cu}^{2+}(\\text{aq}) \\to \\text{Zn}^{2+}(\\text{aq}) + \\text{Cu}(\\text{s})$ ($n = 2$), $\\Delta_r G^\\circ = -nFE^\\circ = -2 \\times 96500 \\times 1.10\\text{ J mol}^{-1} = -212300\\text{ J mol}^{-1} = -212.3\\text{ kJ mol}^{-1}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Easy",
+      "correctOption": "1.284 to 1.294",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.284,
+      "natMax": 1.294,
+      "questionTextEn": "A conductivity cell filled with $0.1\\text{ M KCl}$ solution (specific conductivity $\\kappa = 0.01289\\text{ S cm}^{-1}$ at $298\\text{ K}$) shows a resistance of $100.0\\,\\Omega$. The cell constant of this cell (in $\\text{cm}^{-1}$, rounded off to three decimal places) is _______.",
+      "optionsEn": [],
+      "explanationEn": "The specific conductivity is related to resistance $R$ and cell constant $G^* = l/A$ by $\\kappa = \\frac{G^*}{R}$. Therefore, $G^* = \\kappa R = 0.01289\\text{ S cm}^{-1} \\times 100.0\\,\\Omega = 1.289\\text{ cm}^{-1}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $1\\text{ mol}$ of a diatomic ideal gas with vibrational partition function $q_v = \\frac{e^{-\\Theta_v/(2T)}}{1 - e^{-\\Theta_v/T}}$, the molar vibrational internal energy $U_{\\text{vib},m}$ is:",
+      "optionsEn": [
+        "$R\\Theta_v\\left(\\frac{1}{2} - \\frac{1}{e^{\\Theta_v/T} - 1}\\right)$",
+        "$R\\Theta_v\\left(\\frac{1}{e^{\\Theta_v/T} + 1}\\right)$",
+        "$\\frac{R\\Theta_v}{1 - e^{-\\Theta_v/T}}$",
+        "$R\\Theta_v\\left(\\frac{1}{2} + \\frac{1}{e^{\\Theta_v/T} - 1}\\right)$"
+      ],
+      "explanationEn": "Using $U_{\\text{vib},m} = RT^2 \\frac{\\partial \\ln q_v}{\\partial T}$ with $\\ln q_v = -\\frac{\\Theta_v}{2T} - \\ln(1 - e^{-\\Theta_v/T})$: differentiating gives $\\frac{\\partial \\ln q_v}{\\partial T} = \\frac{\\Theta_v}{2T^2} + \\frac{(\\Theta_v/T^2)e^{-\\Theta_v/T}}{1 - e^{-\\Theta_v/T}} = \\frac{\\Theta_v}{T^2}\\left(\\frac{1}{2} + \\frac{1}{e^{\\Theta_v/T} - 1}\\right)$. Multiplying by $RT^2$ yields $U_{\\text{vib},m} = R\\Theta_v\\left(\\frac{1}{2} + \\frac{1}{e^{\\Theta_v/T} - 1}\\right)$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a canonical ensemble ($N, V, T$), the mean-square fluctuation in total energy, $\\langle (\\Delta E)^2 \\rangle = \\langle E^2 \\rangle - \\langle E \\rangle^2$, is directly related to the isochoric heat capacity $C_V$ by:",
+      "optionsEn": [
+        "$\\langle (\\Delta E)^2 \\rangle = k_B T^2 C_V$",
+        "$\\langle (\\Delta E)^2 \\rangle = k_B T C_V$",
+        "$\\langle (\\Delta E)^2 \\rangle = \\frac{C_V}{k_B T^2}$",
+        "$\\langle (\\Delta E)^2 \\rangle = 0$"
+      ],
+      "explanationEn": "Differentiating $\\langle E \\rangle = -\\left(\\frac{\\partial \\ln Q}{\\partial \\beta}\\right)_{N,V}$ with respect to $\\beta = (k_B T)^{-1}$ gives $\\frac{\\partial^2 \\ln Q}{\\partial \\beta^2} = \\langle E^2 \\rangle - \\langle E \\rangle^2 = -\\left(\\frac{\\partial \\langle E \\rangle}{\\partial \\beta}\\right)_{N,V}$. Using $\\frac{\\partial}{\\partial \\beta} = -k_B T^2 \\frac{\\partial}{\\partial T}$ yields $\\langle (\\Delta E)^2 \\rangle = k_B T^2 \\left(\\frac{\\partial \\langle E \\rangle}{\\partial T}\\right)_{N,V} = k_B T^2 C_V$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the high-temperature limit ($k_B T \\gg h\\nu$), the vibrational partition function $q_v = \\frac{1}{1 - e^{-h\\nu/(k_B T)}}$ of a 1D harmonic oscillator simplifies to:",
+      "optionsEn": [
+        "$1$",
+        "$\\frac{h\\nu}{k_B T}$",
+        "$\\sqrt{\\frac{k_B T}{h\\nu}}$",
+        "$\\frac{k_B T}{h\\nu}$"
+      ],
+      "explanationEn": "For $x = \\frac{h\\nu}{k_B T} \\ll 1$, Taylor expansion gives $e^{-x} \\approx 1 - x$, so $1 - e^{-x} \\approx x$. Therefore, $q_v = \\frac{1}{1 - e^{-h\\nu/(k_B T)}} \\approx \\frac{1}{h\\nu/(k_B T)} = \\frac{k_B T}{h\\nu}$, which matches the classical phase-space integral result."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "When a dilute aqueous mixture of $\\text{HCl}$ and $\\text{CH}_3\\text{COOH}$ is titrated conductometrically with concentrated $\\text{NaOH}$, the conductance versus volume of $\\text{NaOH}$ plot shows:",
+      "optionsEn": [
+        "Three linear segments: an initial sharp decrease, a gentle increase in the middle, and a final steep increase",
+        "A single V-shaped minimum",
+        "Three linear segments: an initial increase, a middle plateau, and a final decrease",
+        "A continuous monotonic decrease"
+      ],
+      "explanationEn": "First, strong acid $\\text{HCl}$ is neutralized (fast $\\text{H}^+$ replaced by $\\text{Na}^+$), giving a steep downward line up to the first equivalence point. Second, weak acid $\\text{CH}_3\\text{COOH}$ is neutralized to $\\text{CH}_3\\text{COONa}$, increasing ion concentration and giving a gentle upward line up to the second equivalence point. Third, excess $\\text{NaOH}$ adds fast $\\text{OH}^-$ ions, producing a steep upward line."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the hydrogen concentration cell $\\text{Pt}|\\text{H}_2(P_1)|\\text{HCl}(\\text{aq})|\\text{H}_2(P_2)|\\text{Pt}$ at temperature $T$, the cell reaction is spontaneous ($E_{\\text{cell}} > 0$) when:",
+      "optionsEn": [
+        "$P_2 > P_1$, with $E_{\\text{cell}} = \\frac{RT}{2F}\\ln\\left(\\frac{P_2}{P_1}\\right)$",
+        "$P_1 > P_2$, with $E_{\\text{cell}} = \\frac{RT}{2F}\\ln\\left(\\frac{P_1}{P_2}\\right)$",
+        "$P_1 > P_2$, with $E_{\\text{cell}} = \\frac{RT}{F}\\ln\\left(\\frac{P_1}{P_2}\\right)$",
+        "$P_1 = P_2$, with $E_{\\text{cell}} > 0$"
+      ],
+      "explanationEn": "At the left electrode (anode): $\\text{H}_2(P_1) \\to 2\\text{H}^+ + 2e^-$. At the right electrode (cathode): $2\\text{H}^+ + 2e^- \\to \\text{H}_2(P_2)$. Overall ($n = 2$): $\\text{H}_2(P_1) \\to \\text{H}_2(P_2)$. By Nernst equation ($E^\\circ = 0$), $E_{\\text{cell}} = -\\frac{RT}{2F}\\ln\\left(\\frac{P_2}{P_1}\\right) = \\frac{RT}{2F}\\ln\\left(\\frac{P_1}{P_2}\\right)$, which is positive when $P_1 > P_2$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For an ideal monoatomic gas of $N$ atoms of mass $m$ in volume $V$ at temperature $T$ (with $g_{\\text{elec}} = 1$), which of the following statements is/are CORRECT?",
+      "optionsEn": [
+        "The thermal de Broglie wavelength is $\\Lambda = \\frac{h}{\\sqrt{2\\pi m k_B T}}$, and $q_{\\text{trans}} = \\frac{V}{\\Lambda^3}$.",
+        "The average translational kinetic energy is $U = \\frac{3}{2} N k_B T$, independent of particle mass $m$.",
+        "The molar entropy increases with increasing atomic mass $m$ at fixed $T$ and $P$.",
+        "The Helmholtz free energy $A$ is independent of the atomic mass $m$."
+      ],
+      "explanationEn": "By definition, $\\Lambda = h/\\sqrt{2\\pi m k_B T}$ and $q_{\\text{trans}} = V/\\Lambda^3$ (A). Differentiating $\\ln Q$ gives $U = \\frac{3}{2}N k_B T$, independent of $m$ (B). Since $q_{\\text{trans}} \\propto m^{3/2}$, $S$ increases as $\\frac{3}{2}R\\ln m$ (C), and $A = -k_B T\\ln Q$ explicitly depends on $m$ via $-\\frac{3}{2}N k_B T\\ln m$ (D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements regarding ionic strength $I$ and activity coefficients in aqueous solutions at $298\\text{ K}$ is/are CORRECT?",
+      "optionsEn": [
+        "For a $1:1$ electrolyte of molality $m$, $I = m$.",
+        "For a $2:1$ or $1:2$ electrolyte (such as $\\text{CaCl}_2$ or $\\text{Na}_2\\text{SO}_4$) of molality $m$, $I = 3m$.",
+        "For a $2:2$ electrolyte (such as $\\text{MgSO}_4$) of molality $m$, $I = 4m$.",
+        "Adding an inert salt like $\\text{KNO}_3$ to a saturated solution of $\\text{AgCl}$ decreases the solubility of $\\text{AgCl}$."
+      ],
+      "explanationEn": "Computing $I = \\frac{1}{2}\\sum m_i z_i^2$: for $1:1$, $I = \\frac{1}{2}(m + m) = m$ (A); for $2:1$, $I = \\frac{1}{2}(4m + 2m) = 3m$ (B); for $2:2$, $I = \\frac{1}{2}(4m + 4m) = 4m$ (C). Adding an inert salt increases $I$, which lowers $\\gamma_\\pm$ of $\\text{AgCl}$; since $K_{sp} = s^2 \\gamma_\\pm^2$ is constant, the solubility $s = \\sqrt{K_{sp}}/\\gamma_\\pm$ INCREASES (salting-in effect, so D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements regarding electrode potentials and thermodynamic parameters is/are CORRECT?",
+      "optionsEn": [
+        "In a Frost diagram (plotting $nE^\\circ$ vs oxidation state $N$), a species lying above the line connecting its two adjacent oxidation states is thermodynamically unstable toward disproportionation.",
+        "The slope of the line connecting any two points in a Frost diagram equals the standard reduction potential $E^\\circ$ of that redox couple.",
+        "For a galvanic cell, $\\Delta_r H = -nF\\left[E - T\\left(\\frac{\\partial E}{\\partial T}\\right)_P\\right]$.",
+        "If two half-reactions are added to form a third half-reaction, their $E^\\circ$ values are always directly additive regardless of the numbers of electrons transferred."
+      ],
+      "explanationEn": "In a Frost diagram, $nE^\\circ = -\\Delta G^\\circ/F$ vs $N$, so convex-upward points (lying above the chord between neighbors) spontaneously disproportionate (A), and the slope between two states is $\\frac{n_2 E_2^\\circ - n_1 E_1^\\circ}{n_2 - n_1} = E_{2,1}^\\circ$ (B). From Gibbs-Helmholtz, $\\Delta_r H = -nF[E - T(\\partial E/\\partial T)_P]$ (C). Because $\\Delta G^\\circ$ (not $E^\\circ$) is additive, $E^\\circ$ values must be weighted by $n$ when combining half-reactions (D is false)."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Statistical Thermodynamics",
+      "difficulty": "Medium",
+      "correctOption": "41.13 to 41.23",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 41.13,
+      "natMax": 41.23,
+      "questionTextEn": "For $\\text{N}_2(\\text{g})$, the characteristic rotational temperature is $\\Theta_{\\text{rot}} = 2.88\\text{ K}$ and the symmetry number is $\\sigma = 2$. Using the high-temperature classical approximation, the molar rotational entropy $S_{\\text{rot},m}$ of $\\text{N}_2$ at $300\\text{ K}$ (in $\\text{J K}^{-1}\\text{ mol}^{-1}$, rounded off to two decimal places) is _______. (Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$)",
+      "optionsEn": [],
+      "explanationEn": "In the high-temperature limit, $q_{\\text{rot}} = \\frac{T}{\\sigma \\Theta_{\\text{rot}}} = \\frac{300}{2 \\times 2.88} = 52.0833$. Since $U_{\\text{rot},m} = RT$, the molar rotational entropy is $S_{\\text{rot},m} = R(1 + \\ln q_{\\text{rot}}) = 8.314(1 + \\ln 52.0833) = 8.314(1 + 3.9528) = 41.18\\text{ J K}^{-1}\\text{ mol}^{-1}$."
+    },
+    {
+      "questionId": "gate_cy_topic_stat_thermo_electrochem_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_cy",
+      "sectionTitle": "Chemistry",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE CY Topic • Statistical Thermodynamics & Electrochemistry (Set 01)",
+      "topicTag": "Electrochemistry",
+      "difficulty": "Medium",
+      "correctOption": "5.21 to 5.31",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.21,
+      "natMax": 5.31,
+      "questionTextEn": "At $298\\text{ K}$, a $0.020\\text{ M}$ aqueous solution of a weak monoprotic acid $\\text{HA}$ has a molar conductivity of $19.5\\text{ S cm}^2\\text{ mol}^{-1}$, while its limiting molar conductivity is $\\Lambda_m^\\circ = 390.0\\text{ S cm}^2\\text{ mol}^{-1}$. The acid dissociation constant $K_a$ is _______ $\\times 10^{-5}\\text{ M}$ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "The degree of dissociation is $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ} = \\frac{19.5}{390.0} = 0.050$. By Ostwald's dilution law, $K_a = \\frac{c\\alpha^2}{1 - \\alpha} = \\frac{0.020 \\times (0.050)^2}{1 - 0.050} = \\frac{5.0 \\times 10^{-5}}{0.95} = 5.26 \\times 10^{-5}\\text{ M}$."
+    }
+  ]
+}

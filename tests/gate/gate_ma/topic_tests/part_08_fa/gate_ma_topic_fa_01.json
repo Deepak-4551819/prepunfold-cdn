@@ -1,0 +1,624 @@
+{
+  "testId": "gate_ma_topic_fa_01",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_topic_fa_01",
+  "category_id": "gate_ma",
+  "title": "GATE Mathematics Topic Test: Functional Analysis — Set 1",
+  "titleEn": "GATE Mathematics Topic Test: Functional Analysis — Set 1",
+  "partId": "part_08_fa",
+  "part_id": "part_08_fa",
+  "partTitle": "Functional Analysis",
+  "titleHi": "गेट गणित टॉपिक टेस्ट: फलनिक विश्लेषण — सेट 1",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Functional Analysis • Set 1",
+  "sections": [
+    {
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "sectionTitleEn": "Functional Analysis",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_topic_fa_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Compact Linear Operators",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be an infinite-dimensional normed linear space. The identity operator $I: X \\to X$ is:",
+      "optionsEn": [
+        "bounded but NOT compact.",
+        "compact but NOT bounded.",
+        "compact and bounded.",
+        "neither bounded nor compact."
+      ],
+      "explanationEn": "We have $\\|Ix\\| = \\|x\\|$, so $I$ is bounded with $\\|I\\| = 1$. However, $I(B_X) = B_X$ is not relatively compact (its closure $B_X$ is not compact) because $X$ is infinite-dimensional. Thus $I$ is not compact."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Dual Spaces",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The continuous dual space $(c_0)^*$ of the Banach space $(c_0, \\|\\cdot\\|_\\infty)$ is isometrically isomorphic to:",
+      "optionsEn": [
+        "$c_0$",
+        "$\\ell^\\infty$",
+        "$\\ell^2$",
+        "$\\ell^1$"
+      ],
+      "explanationEn": "Every bounded linear functional $f \\in (c_0)^*$ is uniquely represented as $f(x) = \\sum_{n=1}^\\infty x_n y_n$ for a sequence $y = (y_n) \\in \\ell^1$, with $\\|f\\| = \\|y\\|_1$. Thus $(c_0)^* \\cong \\ell^1$ isometrically."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Spectral Theorem",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T: H \\to H$ be a compact self-adjoint operator on an infinite-dimensional Hilbert space $H$. Which one of the following statements about the eigenvalues of $T$ is ALWAYS true?",
+      "optionsEn": [
+        "All eigenvalues of $T$ are real and the only possible accumulation point of the eigenvalues is $0$.",
+        "Every nonzero eigenvalue of $T$ has infinite multiplicity.",
+        "$0$ cannot be an eigenvalue of $T$.",
+        "$T$ has no eigenvalues."
+      ],
+      "explanationEn": "Since $T$ is self-adjoint, all its eigenvalues are real. Since $T$ is compact, for every $\\varepsilon > 0$ there are at most finitely many eigenvalues with $|\\lambda| \\ge \\varepsilon$, and each nonzero eigenspace is finite-dimensional. Hence $0$ is the only possible limit point of the eigenvalues."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Bounded Linear Operators",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $R: \\ell^2 \\to \\ell^2$ be the right shift operator $R(x_1, x_2, x_3, \\dots) = (0, x_1, x_2, \\dots)$. The Hilbert adjoint $R^*$ of $R$ is:",
+      "optionsEn": [
+        "$R$ itself.",
+        "$-R$.",
+        "the left shift operator $L(x_1, x_2, x_3, \\dots) = (x_2, x_3, x_4, \\dots)$.",
+        "the zero operator."
+      ],
+      "explanationEn": "For all $x, y \\in \\ell^2$, $\\langle Rx, y \\rangle = \\sum_{n=1}^\\infty x_n \\overline{y_{n+1}} = \\langle x, Ly \\rangle$, where $L(y_1, y_2, \\dots) = (y_2, y_3, \\dots)$ is the left shift operator. Hence $R^* = L$."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Bounded Linear Operators",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ and $Y$ be normed linear spaces. The space $\\mathcal{B}(X, Y)$ of all bounded linear operators from $X$ to $Y$ equipped with the operator norm is a Banach space whenever:",
+      "optionsEn": [
+        "$X$ is a Banach space (even if $Y$ is not).",
+        "$Y$ is separable.",
+        "$X$ is separable.",
+        "$Y$ is a Banach space (even if $X$ is not)."
+      ],
+      "explanationEn": "A standard theorem states that $\\mathcal{B}(X, Y)$ is complete if $Y$ is complete (and conversely, if $X \\neq \\{0\\}$ and $\\mathcal{B}(X, Y)$ is complete, then $Y$ must be complete). In particular, the dual space $X^* = \\mathcal{B}(X, \\mathbb{K})$ is always a Banach space even when $X$ is incomplete."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Hahn-Banach Theorem",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a normed linear space. Which of the following statements is/are consequences of the Hahn-Banach Theorem?",
+      "optionsEn": [
+        "If $f(x) = 0$ for all $f \\in X^*$, then $x = 0$.",
+        "For every $x \\in X$, $\\|x\\| = \\sup\\{|f(x)| : f \\in X^*, \\|f\\| \\le 1\\}$.",
+        "The canonical map $J: X \\to X^{**}$ defined by $(Jx)(f) = f(x)$ is an isometric embedding.",
+        "Every bounded linear functional on a subspace $M \\subseteq X$ has a UNIQUE norm-preserving extension to $X$."
+      ],
+      "explanationEn": "(A), (B), and (C) are direct classical consequences of the Hahn-Banach theorem. (D) is false: norm-preserving extensions need not be unique in non-strictly-convex duals (e.g., on $(\\mathbb{R}^2, \\|\\cdot\\|_1)$, $g(x, 0) = x$ extends to $f_c(x, y) = x + cy$ with $\\|f_c\\| = 1$ for any $c \\in [-1, 1]$)."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Hilbert Spaces",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H$ be a Hilbert space and $P: H \\to H$ be a nonzero orthogonal projection onto a closed subspace $M \\subsetneq H$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$P^2 = P$",
+        "$P^* = P$",
+        "$\\|P\\| = 1$",
+        "$P$ is invertible."
+      ],
+      "explanationEn": "An orthogonal projection $P$ onto a closed subspace $M$ is idempotent ($P^2 = P$) and self-adjoint ($P^* = P$). Since $M \\neq \\{0\\}$, there is a unit vector $x \\in M$ with $\\|Px\\| = \\|x\\| = 1$, and by Pythagoras $\\|Px\\|^2 \\le \\|Px\\|^2 + \\|(I-P)x\\|^2 = \\|x\\|^2$, so $\\|P\\| = 1$. Since $M \\subsetneq H$, $\\ker(P) = M^\\perp \\neq \\{0\\}$, so $P$ is not invertible."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Open Mapping & Closed Graph Theorems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ and $Y$ be Banach spaces and $T: X \\to Y$ be a bounded linear operator. Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "If $T$ is surjective, then $T$ is an open map.",
+        "If $T$ is injective and has closed range, then there exists $c > 0$ such that $\\|Tx\\| \\ge c\\|x\\|$ for all $x \\in X$.",
+        "The graph of $T$ is a closed subspace of $X \\times Y$.",
+        "If $T$ is injective, then its range $R(T)$ must be closed in $Y$."
+      ],
+      "explanationEn": "(A) is the Open Mapping Theorem. (B) follows from the Bounded Inverse Theorem applied to the bijection $T: X \\to R(T)$, where $R(T)$ is Banach since it is closed in $Y$. (C) holds for every continuous map into a Hausdorff space. (D) is false: $T(x_n) = (x_n/n)$ on $\\ell^2$ is bounded and injective, but its range is not closed."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Dual Spaces",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Consider the linear functional $g: (\\mathbb{R}^3, \\|\\cdot\\|_1) \\to \\mathbb{R}$ defined by $g(x_1, x_2, x_3) = 2x_1 - 5x_2 + 3x_3$. The operator norm $\\|g\\|$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The dual norm of $\\|\\cdot\\|_1$ is $\\|\\cdot\\|_\\infty$. Hence $\\|g\\| = \\max\\{|2|, |-5|, |3|\\} = 5$, attained at $x = (0, -1, 0)$."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Bounded Linear Operators",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $T: \\ell^2 \\to \\ell^2$ be the diagonal linear operator defined by $T(x_1, x_2, x_3, \\dots) = \\left(\\frac{3}{2}x_1, \\frac{5}{3}x_2, \\dots, \\frac{2n+1}{n+1}x_n, \\dots\\right)$. The operator norm $\\|T\\|$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "For a diagonal operator $T(x_n) = (\\lambda_n x_n)$ on $\\ell^2$, $\\|T\\| = \\sup_{n \\ge 1} |\\lambda_n|$. Since $\\frac{2n+1}{n+1} = 2 - \\frac{1}{n+1}$ increases strictly to $2$ as $n \\to \\infty$, we have $\\|T\\| = 2$."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Bounded Linear Operators",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $R: \\ell^2 \\to \\ell^2$ be the right shift operator $R(x_1, x_2, \\dots) = (0, x_1, x_2, \\dots)$ over $\\mathbb{C}$. Which one of the following statements about $R$ is TRUE?",
+      "optionsEn": [
+        "$0$ is an eigenvalue of $R$.",
+        "$R$ is a compact operator.",
+        "$R$ is an isometry and has no eigenvalues.",
+        "$R$ is a unitary operator."
+      ],
+      "explanationEn": "We have $\\|Rx\\|_2 = \\|x\\|_2$ for all $x \\in \\ell^2$, so $R$ is an isometry (hence injective, so $0$ is not an eigenvalue). If $Rx = \\lambda x$ with $\\lambda \\neq 0$, then $0 = \\lambda x_1 \\implies x_1 = 0$, $x_1 = \\lambda x_2 \\implies x_2 = 0$, and by induction $x = 0$; hence $R$ has no eigenvalues. $R$ is not surjective (so not unitary) and not compact (since $\\|Re_n - Re_m\\|_2 = \\sqrt{2}$)."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Uniform Boundedness Principle",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X = (c_{00}, \\|\\cdot\\|_\\infty)$ be the normed space of sequences with finitely many nonzero terms, and define $f_n \\in X^*$ by $f_n(x) = n x_n$ for each $n \\ge 1$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "For every $x \\in X$, $\\sup_n |f_n(x)| < \\infty$, yet $\\sup_n \\|f_n\\| = \\infty$.",
+        "There exists $x \\in X$ such that $\\sup_n |f_n(x)| = \\infty$.",
+        "$\\sup_n \\|f_n\\| = 1$.",
+        "This contradicts the Principle of Uniform Boundedness."
+      ],
+      "explanationEn": "For any fixed $x \\in c_{00}$, $x_n = 0$ for all sufficiently large $n$, so $f_n(x) = n x_n = 0$ eventually; thus $\\sup_n |f_n(x)| < \\infty$. However, $\\|f_n\\| = n$ (attained at $e_n$), so $\\sup_n \\|f_n\\| = \\infty$. This does not contradict the Uniform Boundedness Principle because $c_{00}$ is not complete (not a Banach space)."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Closed Graph Theorem",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a Banach space and $T: X \\to X$ be a linear operator such that $f \\circ T \\in X^*$ for every bounded linear functional $f \\in X^*$. Then:",
+      "optionsEn": [
+        "$T$ must be a finite-rank operator.",
+        "$T$ can still be unbounded if $X$ is non-reflexive.",
+        "$T$ must be a compact operator.",
+        "$T$ must be a bounded linear operator."
+      ],
+      "explanationEn": "Suppose $x_n \\to x$ and $Tx_n \\to y$ in $X$. For every $f \\in X^*$, continuity of $f$ gives $f(Tx_n) \\to f(y)$, while continuity of $f \\circ T \\in X^*$ gives $f(Tx_n) \\to f(Tx)$. Hence $f(y - Tx) = 0$ for all $f \\in X^*$, so $y = Tx$ by the Hahn-Banach Theorem. Thus $T$ has a closed graph, and by the Closed Graph Theorem $T$ is bounded."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Projection Theorem",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $K$ be a nonempty closed convex subset of a Hilbert space $H$, and let $x \\in H$. Let $y_0 \\in K$ be the unique element minimizing $\\|x - y\\|$ over $y \\in K$. For a real Hilbert space $H$, $y_0 \\in K$ is uniquely characterized by the variational inequality:",
+      "optionsEn": [
+        "$\\langle x - y_0, y - y_0 \\rangle \\ge 0$ for all $y \\in K$.",
+        "$\\langle x - y_0, y - y_0 \\rangle \\le 0$ for all $y \\in K$.",
+        "$\\langle x - y_0, y \\rangle = 0$ for all $y \\in K$.",
+        "$\\|y_0\\| \\le \\|y\\|$ for all $y \\in K$."
+      ],
+      "explanationEn": "For any $y \\in K$ and $t \\in (0, 1]$, $(1-t)y_0 + t y = y_0 + t(y - y_0) \\in K$ by convexity. Thus $\\|x - y_0\\|^2 \\le \\|x - y_0 - t(y - y_0)\\|^2 = \\|x - y_0\\|^2 - 2t\\langle x - y_0, y - y_0 \\rangle + t^2 \\|y - y_0\\|^2$. Dividing by $t > 0$ and letting $t \\to 0^+$ yields $\\langle x - y_0, y - y_0 \\rangle \\le 0$ for all $y \\in K$."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Bounded Linear Operators",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T: (C^1[0, 1], \\|\\cdot\\|_\\infty) \\to (C[0, 1], \\|\\cdot\\|_\\infty)$ be the differentiation operator $T(f) = f'$. Which one of the following statements is TRUE?",
+      "optionsEn": [
+        "$T$ is unbounded, and its graph is NOT closed in $(C^1[0, 1], \\|\\cdot\\|_\\infty) \\times (C[0, 1], \\|\\cdot\\|_\\infty)$.",
+        "$T$ is a compact operator.",
+        "$T$ is unbounded, but its graph IS closed in $(C^1[0, 1], \\|\\cdot\\|_\\infty) \\times (C[0, 1], \\|\\cdot\\|_\\infty)$.",
+        "$T$ is bounded with $\\|T\\| = 1$."
+      ],
+      "explanationEn": "For $f_n(t) = t^n$, $\\|f_n\\|_\\infty = 1$ while $\\|Tf_n\\|_\\infty = \\|n t^{n-1}\\|_\\infty = n \\to \\infty$, so $T$ is unbounded. However, if $f_n \\to f$ uniformly and $f_n' \\to g$ uniformly on $[0, 1]$, a standard theorem of real analysis yields $f' = g$, so the graph of $T$ is closed. This does not contradict the Closed Graph Theorem because $(C^1[0, 1], \\|\\cdot\\|_\\infty)$ is not complete."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Uniform Boundedness Principle",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements is/are valid consequences of the Principle of Uniform Boundedness?",
+      "optionsEn": [
+        "If $X$ is a Banach space and $S \\subseteq X$ is weakly bounded (i.e., $\\sup_{x \\in S} |f(x)| < \\infty$ for every $f \\in X^*$), then $S$ is norm-bounded.",
+        "If $X$ is a normed space and $F \\subseteq X^*$ is pointwise bounded (i.e., $\\sup_{f \\in F} |f(x)| < \\infty$ for every $x \\in X$), then $F$ is norm-bounded even when $X$ is NOT complete.",
+        "If $X$ is a Banach space and $(x_n)$ is a weakly convergent sequence in $X$, then $(x_n)$ is norm-bounded.",
+        "Every Banach space has a countable Hamel basis (algebraic basis)."
+      ],
+      "explanationEn": "(A) is true: apply UBP to the family $\\{J(x) : x \\in S\\} \\subseteq X^{**}$ on the Banach space $X^*$ (since $X^*$ is always Banach, even if $X$ isn't!). (B) is false: completeness of $X$ is essential (counterexample: $f_n(x) = n x_n$ on $c_{00}$). (C) follows immediately from (A) since every weakly convergent sequence is weakly bounded. (D) is false: by the Baire Category Theorem, no infinite-dimensional Banach space can have a countably infinite Hamel basis."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Separability",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following Banach spaces is/are SEPARABLE?",
+      "optionsEn": [
+        "$(c_0, \\|\\cdot\\|_\\infty)$",
+        "$(c, \\|\\cdot\\|_\\infty)$, the space of all convergent sequences",
+        "$(\\ell^p, \\|\\cdot\\|_p)$ for $p = 4$",
+        "$\\mathcal{B}(\\ell^2, \\ell^2)$ with the operator norm"
+      ],
+      "explanationEn": "(A) $c_0$ is separable (sequences in $c_{00}$ with rational/Gaussian-rational entries are countable and dense). (B) $c = c_0 \\oplus \\operatorname{span}\\{(1, 1, 1, \\dots)\\}$ is separable. (C) $\\ell^p$ is separable for all $1 \\le p < \\infty$. (D) $\\mathcal{B}(\\ell^2, \\ell^2)$ is non-separable because the diagonal operators $D_a(x_n) = (a_n x_n)$ for $a \\in \\ell^\\infty$ form an isometric copy of the non-separable space $\\ell^\\infty$ inside $\\mathcal{B}(\\ell^2, \\ell^2)$."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Normed Linear Spaces",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the sequence spaces $\\ell^p$ for $1 \\le p \\le \\infty$. Which of the following inclusions and inequalities is/are TRUE?",
+      "optionsEn": [
+        "$\\ell^1 \\subsetneq \\ell^2 \\subsetneq \\ell^\\infty$.",
+        "For every $x \\in \\ell^1$, $\\|x\\|_\\infty \\le \\|x\\|_2 \\le \\|x\\|_1$.",
+        "$\\ell^1$ is a closed subspace of $(\\ell^2, \\|\\cdot\\|_2)$.",
+        "$\\ell^1$ is a dense subspace of $(\\ell^2, \\|\\cdot\\|_2)$."
+      ],
+      "explanationEn": "For $1 \\le p < q \\le \\infty$, $\\ell^p \\subsetneq \\ell^q$ and $\\|x\\|_q \\le \\|x\\|_p$ (A, B). Since $c_{00} \\subset \\ell^1 \\subset \\ell^2$ and $c_{00}$ is dense in $\\ell^2$, $\\ell^1$ is a proper dense subspace of $\\ell^2$ (D is true, and hence $\\ell^1$ cannot be closed in $\\ell^2$, so C is false)."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Spectral Theorem",
+      "difficulty": "Hard",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "Consider the compact self-adjoint integral operator $T: L^2[-1, 1] \\to L^2[-1, 1]$ defined by $(Tf)(t) = \\int_{-1}^1 (3 + 6ts) f(s)\\,ds$. The sum of all distinct nonzero eigenvalues of $T$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The range of $T$ is $\\operatorname{span}\\{1, t\\}$, and $1$ and $t$ are orthogonal in $L^2[-1, 1]$. Applying $T$ to each basis function: $(T1)(t) = \\int_{-1}^1 (3 + 6ts)\\,ds = 6 = 6 \\cdot 1$, giving eigenvalue $\\lambda_1 = 6$; and $(Tt)(t) = \\int_{-1}^1 (3 + 6ts)s\\,ds = 6t \\int_{-1}^1 s^2\\,ds = 6t \\cdot \\frac{2}{3} = 4t$, giving eigenvalue $\\lambda_2 = 4$. Thus the sum of distinct nonzero eigenvalues is $6 + 4 = 10$."
+    },
+    {
+      "questionId": "gate_ma_topic_fa_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Topic • Functional Analysis (Set 1)",
+      "topicTag": "Orthonormal Bases",
+      "difficulty": "Medium",
+      "correctOption": "17",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 17.0,
+      "natMax": 17.0,
+      "questionTextEn": "In the real Hilbert space $L^2[-\\pi, \\pi]$ with inner product $\\langle f, g \\rangle = \\int_{-\\pi}^{\\pi} f(t)g(t)\\,dt$, let $M = \\operatorname{span}\\{1, \\cos t, \\sin t\\}$ and let $P_M$ be the orthogonal projection onto $M$. For $f(t) = 2 + 3\\cos t + 4\\cos(2t)$, the value of $\\frac{\\|P_M f\\|^2}{\\pi}$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "The functions $1, \\cos t, \\sin t, \\cos(2t)$ are mutually orthogonal in $L^2[-\\pi, \\pi]$. Hence $P_M f(t) = 2 + 3\\cos t$, and by Pythagoras $\\|P_M f\\|^2 = \\int_{-\\pi}^{\\pi} 4\\,dt + \\int_{-\\pi}^{\\pi} 9\\cos^2 t\\,dt = 8\\pi + 9\\pi = 17\\pi$. Thus $\\frac{\\|P_M f\\|^2}{\\pi} = 17$."
+    }
+  ]
+}

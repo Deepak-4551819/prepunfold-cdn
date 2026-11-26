@@ -1,0 +1,611 @@
+{
+  "testId": "jam_ph_topic_mathematical_methods_01",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_topic_mathematical_methods_01",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2027 PH Topic Test: Mathematical Methods — Set 01",
+  "titleEn": "IIT JAM 2027 PH Topic Test: Mathematical Methods — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_01_math_methods",
+  "part_id": "part_01_math_methods",
+  "partTitle": "Mathematical Methods",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM PH • Mathematical Methods • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If the vector field $\\vec{F}(x, y, z) = (ax + 4y)\\hat{i} + (3y - z)\\hat{j} + (x - 5z)\\hat{k}$ is solenoidal, then the value of the constant $a$ is",
+      "optionsEn": [
+        "$2$",
+        "$-2$",
+        "$8$",
+        "$1$"
+      ],
+      "explanationEn": "A vector field is solenoidal if $\\nabla \\cdot \\vec{F} = 0$. Computing the divergence gives $\\frac{\\partial F_x}{\\partial x} + \\frac{\\partial F_y}{\\partial y} + \\frac{\\partial F_z}{\\partial z} = a + 3 - 5 = 0 \\implies a = 2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Jacobian and Coordinate Transformations",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In transforming from Cartesian coordinates $(x, y, z)$ to spherical polar coordinates $(r, \\theta, \\phi)$, where $x = r\\sin\\theta\\cos\\phi$, $y = r\\sin\\theta\\sin\\phi$, and $z = r\\cos\\theta$, the Jacobian $\\frac{\\partial(x, y, z)}{\\partial(r, \\theta, \\phi)}$ is",
+      "optionsEn": [
+        "$r^2\\cos\\theta$",
+        "$r^2\\sin\\theta$",
+        "$r^2\\sin\\phi$",
+        "$r\\sin\\theta$"
+      ],
+      "explanationEn": "Computing the $3 \\times 3$ Jacobian determinant $\\det\\frac{\\partial(x,y,z)}{\\partial(r,\\theta,\\phi)}$ yields $r^2\\sin\\theta(\\cos^2\\phi + \\sin^2\\phi)(\\sin^2\\theta + \\cos^2\\theta) = r^2\\sin\\theta$, corresponding to the volume element $dV = r^2\\sin\\theta\\,dr\\,d\\theta\\,d\\phi$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The directional derivative of the scalar field $\\phi(x, y, z) = x^2 y + y z^2$ at the point $(1, 2, 1)$ along the direction of the vector $\\vec{v} = 2\\hat{i} - \\hat{j} + 2\\hat{k}$ is",
+      "optionsEn": [
+        "$\\frac{10}{3}$",
+        "$\\frac{16}{3}$",
+        "$14$",
+        "$\\frac{14}{3}$"
+      ],
+      "explanationEn": "The gradient is $\\nabla\\phi = (2xy)\\hat{i} + (x^2 + z^2)\\hat{j} + (2yz)\\hat{k}$. At $(1, 2, 1)$, $\\nabla\\phi = 4\\hat{i} + 2\\hat{j} + 4\\hat{k}$. The unit vector along $\\vec{v}$ is $\\hat{u} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{3}$. Thus, $D_{\\hat{u}}\\phi = \\nabla\\phi \\cdot \\hat{u} = \\frac{8 - 2 + 8}{3} = \\frac{14}{3}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Calculus of Single Variable",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the limit $\\lim_{x \\to 0} \\frac{\\sin(3x) - 3x}{x^3}$ is",
+      "optionsEn": [
+        "$-\\frac{9}{2}$",
+        "$\\frac{9}{2}$",
+        "$0$",
+        "$-\\frac{3}{2}$"
+      ],
+      "explanationEn": "Using the Maclaurin expansion $\\sin(3x) = 3x - \\frac{(3x)^3}{3!} + O(x^5) = 3x - \\frac{9}{2}x^3 + O(x^5)$, we get $\\frac{\\sin(3x) - 3x}{x^3} = -\\frac{9}{2} + O(x^2) \\to -\\frac{9}{2}$ as $x \\to 0$. Thus, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The solution of the differential equation $\\frac{dy}{dx} = 2xy$ subject to the initial condition $y(0) = 3$ is",
+      "optionsEn": [
+        "$y(x) = 3e^{x^2/2}$",
+        "$y(x) = 3e^{2x^2}$",
+        "$y(x) = 3e^{x^2}$",
+        "$y(x) = 3 + e^{x^2}$"
+      ],
+      "explanationEn": "Separating variables gives $\\frac{dy}{y} = 2x\\,dx$. Integrating both sides yields $\\ln|y| = x^2 + C \\implies y(x) = Ae^{x^2}$. Applying $y(0) = 3$ gives $A = 3$, so $y(x) = 3e^{x^2}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Matrices and Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the matrix $A = \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$, using the Cayley–Hamilton theorem, $A^3$ can be expressed in terms of $A$ and the $2\\times 2$ identity matrix $I$ as",
+      "optionsEn": [
+        "$3A + 2I$",
+        "$7A - 6I$",
+        "$7A + 6I$",
+        "$5A + 6I$"
+      ],
+      "explanationEn": "The characteristic polynomial of $A$ is $\\det(A - \\lambda I) = (1 - \\lambda)^2 - 4 = \\lambda^2 - 2\\lambda - 3 = 0$. By the Cayley–Hamilton theorem, $A^2 = 2A + 3I$. Multiplying by $A$ gives $A^3 = 2A^2 + 3A = 2(2A + 3I) + 3A = 7A + 6I$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the vector field $\\vec{A} = y^2\\hat{i} + x^2\\hat{j}$, the vector $\\nabla \\times (\\nabla \\times \\vec{A})$ is equal to",
+      "optionsEn": [
+        "$2\\hat{i} + 2\\hat{j}$",
+        "$-2\\hat{i} - 2\\hat{j}$",
+        "$\\vec{0}$",
+        "$-2\\hat{i} + 2\\hat{j}$"
+      ],
+      "explanationEn": "First compute $\\nabla \\times \\vec{A} = \\left(\\frac{\\partial(x^2)}{\\partial x} - \\frac{\\partial(y^2)}{\\partial y}\\right)\\hat{k} = (2x - 2y)\\hat{k}$. Taking the curl again gives $\\nabla \\times [(2x - 2y)\\hat{k}] = \\frac{\\partial(2x - 2y)}{\\partial y}\\hat{i} - \\frac{\\partial(2x - 2y)}{\\partial x}\\hat{j} = -2\\hat{i} - 2\\hat{j}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The line integral of the conservative vector field $\\vec{F} = (2xy + z^3)\\hat{i} + (x^2 + 2yz)\\hat{j} + (3xz^2 + y^2)\\hat{k}$ from the origin $(0, 0, 0)$ to the point $(1, 2, 1)$ is",
+      "optionsEn": [
+        "$5$",
+        "$6$",
+        "$7$",
+        "$9$"
+      ],
+      "explanationEn": "Since $\\nabla \\times \\vec{F} = \\vec{0}$, $\\vec{F} = \\nabla\\phi$ with scalar potential $\\phi(x, y, z) = x^2 y + xz^3 + y^2 z$. By the fundamental theorem of line integrals, $\\int_{(0,0,0)}^{(1,2,1)} \\vec{F}\\cdot d\\vec{r} = \\phi(1, 2, 1) - \\phi(0, 0, 0) = (1^2\\cdot 2 + 1\\cdot 1^3 + 2^2\\cdot 1) - 0 = 2 + 1 + 4 = 7$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Complex Numbers",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For real numbers $x$ and $y$, the squared modulus $|\\sin(x + iy)|^2$ is equal to",
+      "optionsEn": [
+        "$\\sin^2 x + \\cosh^2 y$",
+        "$\\sin^2 x + \\sinh^2 y$",
+        "$\\sin^2 x - \\sinh^2 y$",
+        "$\\cos^2 x + \\sinh^2 y$"
+      ],
+      "explanationEn": "Using $\\sin(x + iy) = \\sin x\\cosh y + i\\cos x\\sinh y$, we get $|\\sin(x + iy)|^2 = \\sin^2 x\\cosh^2 y + \\cos^2 x\\sinh^2 y = \\sin^2 x(1 + \\sinh^2 y) + (1 - \\sin^2 x)\\sinh^2 y = \\sin^2 x + \\sinh^2 y$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Matrices and Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An eigenvector corresponding to the larger eigenvalue of the matrix $M = \\begin{pmatrix} 5 & 4 \\\\ 1 & 2 \\end{pmatrix}$ is",
+      "optionsEn": [
+        "$\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 4 \\\\ -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$"
+      ],
+      "explanationEn": "The characteristic equation is $(5 - \\lambda)(2 - \\lambda) - 4 = \\lambda^2 - 7\\lambda + 6 = (\\lambda - 6)(\\lambda - 1) = 0$, so the larger eigenvalue is $\\lambda = 6$. Solving $(M - 6I)\\vec{v} = \\vec{0}$ gives $-v_1 + 4v_2 = 0 \\implies v_1 = 4v_2$, giving the eigenvector $\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Matrices and Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $U$ be an $n \\times n$ unitary matrix ($U^\\dagger U = I$). Which of the following statement(s) is/are ALWAYS true?",
+      "optionsEn": [
+        "For any two vectors $\\vec{u}, \\vec{v} \\in \\mathbb{C}^n$, $(U\\vec{u})^\\dagger (U\\vec{v}) = \\vec{u}^\\dagger \\vec{v}$",
+        "Every eigenvalue $\\lambda$ of $U$ satisfies $|\\lambda| = 1$",
+        "$\\text{Tr}(U)$ is always real",
+        "$|\\det(U)| = 1$"
+      ],
+      "explanationEn": "(D) True: $\\det(U^\\dagger U) = |\\det U|^2 = 1 \\implies |\\det U| = 1$. (B) True: If $U\\vec{v} = \\lambda\\vec{v}$, then $\\|U\\vec{v}\\|^2 = |\\lambda|^2\\|\\vec{v}\\|^2 = \\|\\vec{v}\\|^2 \\implies |\\lambda| = 1$. (A) True: $(U\\vec{u})^\\dagger(U\\vec{v}) = \\vec{u}^\\dagger U^\\dagger U \\vec{v} = \\vec{u}^\\dagger \\vec{v}$ (unitary operators preserve inner products). (C) False: e.g., $U = iI$ is unitary with purely imaginary trace $in$. Hence, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Exact and Imperfect Differentials",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following differential forms $\\omega = P(x, y)\\,dx + Q(x, y)\\,dy$ is/are EXACT differentials in $\\mathbb{R}^2$?",
+      "optionsEn": [
+        "$(x^2 + y)\\,dx + (x - y^2)\\,dy$",
+        "$(2xy + \\cos x)\\,dx + (x^2 + 3y^2)\\,dy$",
+        "$y\\,dx - x\\,dy$",
+        "$e^x\\sin y\\,dx + e^x\\cos y\\,dy$"
+      ],
+      "explanationEn": "Check the exactness condition $\\frac{\\partial P}{\\partial y} = \\frac{\\partial Q}{\\partial x}$: (B) $2x = 2x$ (exact); (C) $1 \\neq -1$ (inexact); (D) $e^x\\cos y = e^x\\cos y$ (exact, $d(e^x\\sin y)$); (A) $1 = 1$ (exact, $d(\\frac{x^3}{3} + xy - \\frac{y^3}{3})$). Hence, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Vector Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ be the position vector in $\\mathbb{R}^3$ with $r = |\\vec{r}| > 0$, and let $\\vec{c}$ be a constant vector. Which of the following vector identities is/are TRUE?",
+      "optionsEn": [
+        "$\\nabla(\\vec{c} \\cdot \\vec{r}) = \\vec{c}$",
+        "$\\nabla \\times (\\vec{c} \\times \\vec{r}) = \\vec{c}$",
+        "$\\nabla \\cdot (\\vec{c} \\times \\vec{r}) = 0$",
+        "$\\nabla \\times \\vec{r} = \\vec{0}$"
+      ],
+      "explanationEn": "(D) True: $\\nabla \\times \\vec{r} = \\vec{0}$ since $\\vec{r} = \\nabla(r^2/2)$. (A) True: $\\nabla(c_x x + c_y y + c_z z) = c_x\\hat{i} + c_y\\hat{j} + c_z\\hat{k} = \\vec{c}$. (C) True: $\\nabla \\cdot (\\vec{c} \\times \\vec{r}) = \\vec{r}\\cdot(\\nabla\\times\\vec{c}) - \\vec{c}\\cdot(\\nabla\\times\\vec{r}) = 0$. (B) False: $\\nabla \\times (\\vec{c} \\times \\vec{r}) = \\vec{c}(\\nabla\\cdot\\vec{r}) - (\\vec{c}\\cdot\\nabla)\\vec{r} = 3\\vec{c} - \\vec{c} = 2\\vec{c} \\neq \\vec{c}$. Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Complex Numbers",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $z_1, z_2, z_3$ be the three distinct complex roots of the equation $z^3 + 8 = 0$. Which of the following statement(s) is/are true?",
+      "optionsEn": [
+        "The sum $z_1 + z_2 + z_3 = 0$",
+        "The product $z_1 z_2 z_3 = 8$",
+        "All three roots lie on a circle of radius $2$ centered at the origin",
+        "One of the roots is $1 + i\\sqrt{3}$"
+      ],
+      "explanationEn": "Writing $-8 = 8e^{i(\\pi + 2\\pi k)}$ ($k = 0, 1, 2$) gives the three roots $z_k = 2e^{i(\\pi + 2\\pi k)/3}$: $z_0 = 2e^{i\\pi/3} = 1 + i\\sqrt{3}$, $z_1 = -2$, and $z_2 = 1 - i\\sqrt{3}$. All have $|z_k| = 2$ (A is true), $z_0 = 1 + i\\sqrt{3}$ (C is true), their sum is $0$ by Vieta's formula (B is true), and their product is $-8 \\neq 8$ (D is false). Hence, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Calculus of Single Variable",
+      "difficulty": "Easy",
+      "correctOption": "3.75",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.75,
+      "natMax": 3.75,
+      "questionTextEn": "The value of the ratio $\\frac{\\Gamma(7/2)}{\\Gamma(3/2)}$ is ____. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Using the recurrence relation $\\Gamma(z + 1) = z\\Gamma(z)$, we have $\\Gamma(7/2) = \\frac{5}{2}\\Gamma(5/2) = \\frac{5}{2}\\cdot\\frac{3}{2}\\Gamma(3/2)$, so the ratio is $\\frac{15}{4} = 3.75$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Fourier Series",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "A periodic function of period $4$ is given by $f(x) = 3x^2$ for $-2 < x < 2$. The constant term $\\frac{a_0}{2}$ in its Fourier series expansion is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The constant term is the average value over one period: $\\frac{a_0}{2} = \\frac{1}{4}\\int_{-2}^{2} 3x^2\\,dx = \\frac{1}{4}\\left[x^3\\right]_{-2}^{2} = \\frac{8 - (-8)}{4} = 4$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Partial Derivatives",
+      "difficulty": "Easy",
+      "correctOption": "7",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 7.0,
+      "natMax": 7.0,
+      "questionTextEn": "If $z(x, y) = x^2 y$, where $x = t^2$ and $y = t^3$, then the value of $\\frac{dz}{dt}$ at $t = 1$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Substituting $x = t^2$ and $y = t^3$ gives $z(t) = (t^2)^2(t^3) = t^7$. Differentiating gives $\\frac{dz}{dt} = 7t^6$, which equals $7$ at $t = 1$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Multiple Integrals",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The value of the double integral $\\int_0^1 \\int_0^2 6xy^2\\,dx\\,dy$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Evaluating the inner integral: $\\int_0^2 6xy^2\\,dx = [3x^2 y^2]_0^2 = 12y^2$. Integrating over $y$: $\\int_0^1 12y^2\\,dy = [4y^3]_0^1 = 4$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Exact and Imperfect Differentials",
+      "difficulty": "Easy",
+      "correctOption": "19",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 19.0,
+      "natMax": 19.0,
+      "questionTextEn": "The line integral $\\int_{(0,0)}^{(2,3)} [(2x + y)\\,dx + (x + 2y)\\,dy]$ along any smooth path from $(0, 0)$ to $(2, 3)$ is ____. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The integrand is the exact differential $d(x^2 + xy + y^2)$. Therefore, the integral depends only on the endpoints: $[x^2 + xy + y^2]_{(0,0)}^{(2,3)} = 2^2 + (2)(3) + 3^2 - 0 = 19$."
+    },
+    {
+      "questionId": "jam_ph_topic_mathematical_methods_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Mathematical Methods (Set 01)",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "3.75",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.75,
+      "natMax": 3.75,
+      "questionTextEn": "If $y(x)$ is the solution of $\\frac{dy}{dx} + 2y = 6e^x$ satisfying $y(0) = 1$, then the value of $y(\\ln 2)$ is ____. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Multiplying by the integrating factor $e^{2x}$ gives $\\frac{d}{dx}(e^{2x} y) = 6e^{3x} \\implies e^{2x} y = 2e^{3x} + C \\implies y(x) = 2e^x + Ce^{-2x}$. Using $y(0) = 1$ yields $2 + C = 1 \\implies C = -1$. Thus $y(\\ln 2) = 2(2) - 2^{-2} = 4 - 0.25 = 3.75$."
+    }
+  ]
+}

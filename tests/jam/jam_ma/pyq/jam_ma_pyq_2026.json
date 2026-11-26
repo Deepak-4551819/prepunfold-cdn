@@ -1,0 +1,1694 @@
+{
+  "testId": "jam_ma_pyq_2026",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_pyq_2026",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2026 Mathematics (MA) Official Solved Paper",
+  "titleEn": "IIT JAM 2026 Mathematics (MA) Official Solved Paper",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 60,
+  "total_questions": 60,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2026,
+  "shiftBadge": "IIT JAM MA • 2026 Official Paper",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 30,
+      "totalMarks": 50.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 10,
+      "totalMarks": 20.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 20,
+      "totalMarks": 30.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_2026_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For each positive integer $n$, let $x_n = 1 - (-1)^n + \\frac{1}{n}$ and $y_n = \\left(1 + \\frac{1}{2n}\\right)^{3n}$. Which ONE of the following statements about the sequences $(x_n)$ and $(y_n)$ is TRUE?",
+      "optionsEn": [
+        "$(x_n)$ and $(y_n)$ are convergent.",
+        "$(x_n)$ is not convergent and $(y_n)$ is not convergent.",
+        "$(x_n)$ is convergent and $(y_n)$ is not convergent.",
+        "$(x_n)$ is not convergent and $(y_n)$ is convergent."
+      ],
+      "explanationEn": "Examine each sequence separately. For $(x_n)$, we have $x_n = 1 - (-1)^n + \\frac{1}{n}$. Along even indices $n = 2k$, $x_{2k} = 1 - 1 + \\frac{1}{2k} = \\frac{1}{2k} \\to 0$ as $k \\to \\infty$. Along odd indices $n = 2k-1$, $x_{2k-1} = 1 - (-1) + \\frac{1}{2k-1} = 2 + \\frac{1}{2k-1} \\to 2$ as $k \\to \\infty$. Since $(x_n)$ has two subsequences converging to different limits ($0$ and $2$), $(x_n)$ is not convergent. For $(y_n)$, rewrite $y_n = \\left(1 + \\frac{1}{2n}\\right)^{3n} = \\left[\\left(1 + \\frac{1}{2n}\\right)^{2n}\\right]^{3/2}$. Using the standard limit $\\lim_{m \\to \\infty} \\left(1 + \\frac{1}{m}\\right)^m = e$, we obtain $\\lim_{n \\to \\infty} y_n = e^{3/2}$, so $(y_n)$ is convergent. Hence, $(x_n)$ is not convergent and $(y_n)$ is convergent. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For each positive integer $n$, define $x_n = (-1)^n$. Which ONE of the following statements about the sequence $(x_n)$ is FALSE?",
+      "optionsEn": [
+        "There exists $\\epsilon > 0$ such that $|x_n - 1| < \\epsilon$ for all positive integers $n$.",
+        "There exists $\\epsilon > 0$ such that for all $M > 0$ there exists a positive integer $N > M$ for which $|x_N - 1| > \\epsilon$.",
+        "For all $\\epsilon > 0$ and $M > 0$ there exists a positive integer $N$ such that $N > M$ and $|x_N - 1| < \\epsilon$.",
+        "For all $\\epsilon > 0$ and $M > 0$ there exists a positive integer $N$ such that $N > M$ and $|x_N - 1| > \\epsilon$."
+      ],
+      "explanationEn": "For $x_n = (-1)^n$, the distance $|x_n - 1|$ equals $0$ when $n$ is even and $2$ when $n$ is odd. Check each statement: (A) Choosing $\\epsilon = 3 > 0$, we have $|x_n - 1| \\le 2 < 3$ for all positive integers $n$, so (A) is TRUE. (B) Choosing $\\epsilon = 1 > 0$, for any $M > 0$ we can pick an odd integer $N > M$, giving $|x_N - 1| = 2 > 1 = \\epsilon$, so (B) is TRUE. (C) For any $\\epsilon > 0$ and $M > 0$, picking an even integer $N > M$ gives $|x_N - 1| = 0 < \\epsilon$, so (C) is TRUE. (D) Claims that for ALL $\\epsilon > 0$ and $M > 0$, there exists $N > M$ with $|x_N - 1| > \\epsilon$. Taking $\\epsilon = 5$ (or any $\\epsilon \\ge 2$), we have $|x_N - 1| \\in \\{0, 2\\}$, which is never strictly greater than $5$. Thus statement (D) is FALSE. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : (1, 4) \\to \\mathbb{R}$ be a differentiable function such that $f'(x) = (f(x) - \\pi x)^2 + \\pi$ for all $x \\in (1, 4)$. Which ONE of the following is a possible value of $f(3) - f(2)$?",
+      "optionsEn": [
+        "$\\pi + \\frac{1}{6}$",
+        "$\\pi - \\frac{1}{6}$",
+        "$\\frac{\\pi}{2} + \\frac{1}{3}$",
+        "$\\frac{\\pi}{2} + \\frac{1}{2}$"
+      ],
+      "explanationEn": "Define $g(x) = f(x) - \\pi x$ on $(1, 4)$. Then $g'(x) = f'(x) - \\pi = (f(x) - \\pi x)^2 = (g(x))^2 \\ge 0$ for all $x \\in (1, 4)$. Notice that $g'(x) = g(x)^2$ is a separable differential equation. If $g(x_0) = 0$ at some point $x_0$, uniqueness gives $g(x) \\equiv 0$, yielding $f(3) - f(2) = \\pi$. Otherwise $g(x) \\ne 0$ on $(1, 4)$, so $\\frac{g'(x)}{g(x)^2} = 1 \\implies -\\frac{1}{g(x)} = x - c \\implies g(x) = \\frac{1}{c - x}$ for a constant $c \\notin (1, 4)$ (so that $g$ has no blow-up inside $(1, 4)$). Since $g'(x) \\ge 0$, $g$ is non-decreasing, so $g(3) - g(2) \\ge 0$, meaning $f(3) - f(2) = \\pi + (g(3) - g(2)) \\ge \\pi$. This immediately rules out (B), (C), and (D), all of which are strictly less than $\\pi$ (since $\\frac{\\pi}{2} + \\frac{1}{2} < \\pi$). To confirm (A) is attainable, solve $g(3) - g(2) = \\frac{1}{c-3} - \\frac{1}{c-2} = \\frac{1}{(c-3)(c-2)} = \\frac{1}{6}$, which gives $(c-3)(c-2) = 6 \\implies c^2 - 5c = 0 \\implies c = 0$ or $c = 5$. Both $c = 0$ and $c = 5$ lie outside $(1, 4)$, giving valid differentiable solutions on $(1, 4)$ with $f(3) - f(2) = \\pi + \\frac{1}{6}$. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The general solution of the differential equation $x \\sin\\left(\\frac{y}{x}\\right) \\frac{dy}{dx} = y \\sin\\left(\\frac{y}{x}\\right) + \\frac{x}{2}$, $x > 0$ is given by _____.",
+      "optionsEn": [
+        "$\\cos\\left(\\frac{x}{y}\\right) + \\log_e(x^2) = K$, where $K$ is an arbitrary constant",
+        "$\\cos\\left(\\frac{y}{x}\\right) + \\log_e(x^2) = K$, where $K$ is an arbitrary constant",
+        "$\\cos\\left(\\frac{x}{y}\\right) + \\log_e(\\sqrt{x}) = K$, where $K$ is an arbitrary constant",
+        "$\\cos\\left(\\frac{y}{x}\\right) + \\log_e(\\sqrt{x}) = K$, where $K$ is an arbitrary constant"
+      ],
+      "explanationEn": "The differential equation is $x \\sin\\left(\\frac{y}{x}\\right) \\frac{dy}{dx} = y \\sin\\left(\\frac{y}{x}\\right) + \\frac{x}{2}$ for $x > 0$. This is a homogeneous first-order ODE. Substitute $y = vx$, so $\\frac{dy}{dx} = v + x \\frac{dv}{dx}$. Substituting into the equation gives $x \\sin(v) \\left(v + x \\frac{dv}{dx}\\right) = vx \\sin(v) + \\frac{x}{2}$. Expanding and cancelling $vx \\sin(v)$ on both sides leaves $x^2 \\sin(v) \\frac{dv}{dx} = \\frac{x}{2}$. Since $x > 0$, divide by $x^2$ to separate variables: $\\sin(v) \\, dv = \\frac{dx}{2x}$. Integrating both sides yields $-\\cos(v) = \\frac{1}{2} \\log_e(x) + C$, where $C$ is an arbitrary constant. Rearranging and noting $\\frac{1}{2} \\log_e(x) = \\log_e(\\sqrt{x})$ gives $\\cos\\left(\\frac{y}{x}\\right) + \\log_e(\\sqrt{x}) = K$, where $K = -C$ is an arbitrary constant. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R}^3 \\to \\mathbb{R}$ be a continuous function. Then $\\int_{0}^{2} \\int_{0}^{x} \\int_{0}^{y} f(x, y, z) \\, dz \\, dy \\, dx = $ _____.",
+      "optionsEn": [
+        "$\\int_{0}^{2} \\int_{0}^{y} \\int_{y}^{2} f(x, y, z) \\, dx \\, dz \\, dy$",
+        "$\\int_{0}^{2} \\int_{0}^{x} \\int_{z}^{2} f(x, y, z) \\, dy \\, dz \\, dx$",
+        "$\\int_{0}^{2} \\int_{y}^{2} \\int_{0}^{x} f(x, y, z) \\, dz \\, dx \\, dy$",
+        "$\\int_{0}^{2} \\int_{z}^{2} \\int_{0}^{x} f(x, y, z) \\, dy \\, dx \\, dz$"
+      ],
+      "explanationEn": "The given iterated integral $\\int_{0}^{2} \\int_{0}^{x} \\int_{0}^{y} f(x, y, z) \\, dz \\, dy \\, dx$ is over the tetrahedral region $E = \\{(x, y, z) \\in \\mathbb{R}^3 : 0 \\le x \\le 2, \\; 0 \\le y \\le x, \\; 0 \\le z \\le y\\}$, which is concisely described by the chain of inequalities $0 \\le z \\le y \\le x \\le 2$. Check the order $dx \\, dz \\, dy$ in option (A): the outermost variable $y$ ranges over $0 \\le y \\le 2$; for a fixed $y$, $z$ satisfies $0 \\le z \\le y$; and for fixed $(y, z)$, $x$ satisfies $y \\le x \\le 2$. This describes the exact same region $0 \\le z \\le y \\le x \\le 2$, giving $\\int_{0}^{2} \\int_{0}^{y} \\int_{y}^{2} f(x, y, z) \\, dx \\, dz \\, dy$. In (B), $y$ goes up to $2$ instead of $x$; in (C), $z$ goes up to $x$ instead of $y$; in (D), $y$ starts at $0$ instead of $z$. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : (1, 2) \\to \\mathbb{R}$ be a continuous function satisfying $\\lim_{x \\to 1^+} f(x) = 3$ and $\\lim_{x \\to 2^-} f(x) = 3$. Then which ONE of the following is necessarily TRUE?",
+      "optionsEn": [
+        "$f$ is bounded and $f$ has a maximum or a minimum but not both.",
+        "$f$ is bounded and $f$ has a maximum or a minimum or both.",
+        "$f$ is bounded and $f$ has neither a maximum nor a minimum.",
+        "$f$ is unbounded and $f$ has either no maximum or no minimum."
+      ],
+      "explanationEn": "Define the extension $g : [1, 2] \\to \\mathbb{R}$ by $g(x) = f(x)$ for $x \\in (1, 2)$ and $g(1) = g(2) = 3$. Because $f$ is continuous on $(1, 2)$ and $\\lim_{x \\to 1^+} f(x) = 3 = \\lim_{x \\to 2^-} f(x)$, the function $g$ is continuous on the compact interval $[1, 2]$. By the Extreme Value Theorem, $g$ is bounded on $[1, 2]$ and attains both its global maximum $M$ and global minimum $m$ on $[1, 2]$; hence $f$ is bounded on $(1, 2)$. If $f$ is constant ($f(x) \\equiv 3$), then $f$ attains both its maximum and minimum on $(1, 2)$. If $f$ is not constant, then there exists $x_0 \\in (1, 2)$ with $f(x_0) \\ne 3$: if $f(x_0) > 3$, then $M > 3$ cannot be attained at the endpoints $1, 2$, so $M$ is attained in $(1, 2)$; similarly, if $f(x_0) < 3$, then $m < 3$ is attained in $(1, 2)$. Thus $f$ must have at least a maximum, or a minimum, or both (and (A) fails for $f(x) = 3 + \\sin(2\\pi x)$, which has both). Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a twice differentiable function such that $f(n) = 1$ for all $n \\in \\mathbb{Z}$. Which ONE of the following statements is necessarily TRUE?",
+      "optionsEn": [
+        "$f'(n) = 0$ for all $n \\in \\mathbb{Z}$.",
+        "$f'(x) = 0$ for infinitely many $x \\in \\mathbb{R} \\setminus \\mathbb{Z}$.",
+        "$f''(n) = 0$ for all $n \\in \\mathbb{Z}$.",
+        "$f''(x) = 0$ for infinitely many $x \\in \\mathbb{R} \\setminus \\mathbb{Z}$."
+      ],
+      "explanationEn": "Since $f$ is continuous on $[n, n+1]$ and differentiable on $(n, n+1)$ with $f(n) = 1 = f(n+1)$ for every integer $n \\in \\mathbb{Z}$, Rolle's Theorem guarantees that for each $n \\in \\mathbb{Z}$ there exists a point $c_n \\in (n, n+1)$ such that $f'(c_n) = 0$. Because the open intervals $(n, n+1)$ are pairwise disjoint and contain no integers, the points $\\{c_n : n \\in \\mathbb{Z}\\}$ form an infinite subset of $\\mathbb{R} \\setminus \\mathbb{Z}$ on which $f'(x) = 0$, proving (B) is necessarily TRUE. To rule out the other options, consider $f(x) = 1 + \\sin(\\pi x)$: then $f(n) = 1$ for all $n \\in \\mathbb{Z}$, but $f'(n) = \\pi(-1)^n \\ne 0$ (ruling out A); for (C), take $f(x) = 1 + \\sin^2(\\pi x)$, where $f''(n) = 2\\pi^2 \\ne 0$; for (D), take $f(x) = 1 + \\sin(\\pi x)$, where $f''(x) = -\\pi^2 \\sin(\\pi x) = 0$ holds ONLY at $x \\in \\mathbb{Z}$, so $f''(x) \\ne 0$ for all $x \\in \\mathbb{R} \\setminus \\mathbb{Z}$. Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A$ be an invertible $5 \\times 5$ real matrix. Let $B$ be the matrix obtained by interchanging the second and third columns of $A$ and then adding $3$ times the third column to the fifth column. Which ONE of the following statements is TRUE?",
+      "optionsEn": [
+        "$B^{-1}$ is obtained by interchanging the second and third rows of $A^{-1}$, and then adding $3$ times the third row to the fifth row.",
+        "$B^{-1}$ is obtained by interchanging the second and third rows of $A^{-1}$, and then adding $-3$ times the fifth row to the third row.",
+        "$B^{-1}$ is obtained by adding $-3$ times the third row to the fifth row, and then interchanging the second and third rows of $A^{-1}$.",
+        "$B^{-1}$ is obtained by adding $3$ times the fifth row to the third row, and then interchanging the second and third rows of $A^{-1}$."
+      ],
+      "explanationEn": "Column operations on $A$ correspond to right-multiplication by elementary matrices. Let $E_1$ be the $5 \\times 5$ permutation matrix that interchanges columns 2 and 3 (so $E_1^{-1} = E_1$), and let $E_2 = I + 3 e_{3,5}$ be the elementary matrix whose right-multiplication adds $3$ times column 3 to column 5 (so $E_2^{-1} = I - 3 e_{3,5}$). Since $B$ is obtained by first applying $E_1$ and then $E_2$ on the right, we have $B = A E_1 E_2$. Taking inverses gives $B^{-1} = E_2^{-1} E_1^{-1} A^{-1} = (I - 3 e_{3,5}) E_1 A^{-1}$. Left-multiplication acts on rows: first, $E_1 A^{-1}$ interchanges the second and third rows of $A^{-1}$. Next, left-multiplying by $E_2^{-1} = I - 3 e_{3,5}$ replaces Row 3 with $(\\text{Row } 3) - 3(\\text{Row } 5)$, i.e., adds $-3$ times the fifth row to the third row. Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which ONE of the following statements is FALSE?",
+      "optionsEn": [
+        "$S_3$ is isomorphic to a subgroup of $S_4$.",
+        "$\\mathbb{Z}_3$ is isomorphic to a subgroup of $S_4$.",
+        "$S_3$ is isomorphic to a quotient group of $S_4$.",
+        "$\\mathbb{Z}_6$ is isomorphic to a quotient group of $S_4$."
+      ],
+      "explanationEn": "Check each statement about the symmetric group $S_4$ (of order $24$): (A) Fixing the symbol $4$ gives a subgroup of $S_4$ isomorphic to $S_3$, so (A) is TRUE. (B) The subgroup generated by any 3-cycle, such as $\\langle (1\\,2\\,3) \\rangle$, is isomorphic to $\\mathbb{Z}_3$, so (B) is TRUE. (C) The Klein four-group $V_4 = \\{e, (1\\,2)(3\\,4), (1\\,3)(2\\,4), (1\\,4)(2\\,3)\\}$ is a normal subgroup of $S_4$ of order $4$, and the quotient $S_4 / V_4 \\cong S_3$, so (C) is TRUE. (D) The only normal subgroups of $S_4$ are $\\{e\\}$ (order 1), $V_4$ (order 4), $A_4$ (order 12), and $S_4$ (order 24). To obtain a quotient group of order $6$, we must quotient by a normal subgroup of order $24/6 = 4$; the unique normal subgroup of order $4$ is $V_4$, and $S_4 / V_4 \\cong S_3$ is non-abelian, whereas $\\mathbb{Z}_6$ is abelian. Hence $\\mathbb{Z}_6$ is NOT isomorphic to any quotient group of $S_4$, making (D) FALSE. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $T$ be the triangular region in the plane with vertices at $(0, 0)$, $(1, 0)$ and $(1, 1)$. Let $f$ be a function defined from $T$ to $\\mathbb{R}$ given in polar coordinates. Then the double integral of $f$ over $T$ is equal to _____.",
+      "optionsEn": [
+        "$\\int_{0}^{\\sqrt{2}} \\left(\\int_{0}^{\\pi/4} f \\, d\\theta\\right) r \\, dr + \\int_{1}^{\\sqrt{2}} \\left(\\int_{0}^{\\cos^{-1}(1/r)} f \\, d\\theta\\right) r \\, dr$",
+        "$\\int_{0}^{\\sqrt{2}} \\left(\\int_{0}^{\\pi/4} f \\, d\\theta\\right) r \\, dr - \\int_{1}^{\\sqrt{2}} \\left(\\int_{0}^{\\cos^{-1}(1/r)} f \\, d\\theta\\right) r \\, dr$",
+        "$\\int_{0}^{\\sqrt{2}} \\left(\\int_{0}^{\\pi/4} f \\, d\\theta\\right) r \\, dr + \\int_{1}^{\\sqrt{2}} \\left(\\int_{0}^{\\sin^{-1}(1/r)} f \\, d\\theta\\right) r \\, dr$",
+        "$\\int_{0}^{\\sqrt{2}} \\left(\\int_{0}^{\\pi/4} f \\, d\\theta\\right) r \\, dr - \\int_{1}^{\\sqrt{2}} \\left(\\int_{0}^{\\sin^{-1}(1/r)} f \\, d\\theta\\right) r \\, dr$"
+      ],
+      "explanationEn": "Official Key: Marks to All (MTA). Let us analyze both the intended geometry and why IIT Bombay awarded MTA. The triangle $T$ with vertices $(0,0)$, $(1,0)$, and $(1,1)$ is bounded by $y = 0$ ($\\theta = 0$), $y = x$ ($\\theta = \\pi/4$), and $x = 1$ ($r\\cos\\theta = 1$, i.e., $\\theta = \\cos^{-1}(1/r)$ for $1 \\le r \\le \\sqrt{2}$). In polar coordinates, $T$ splits into $0 \\le r \\le 1, \\; 0 \\le \\theta \\le \\pi/4$ and $1 \\le r \\le \\sqrt{2}, \\; \\cos^{-1}(1/r) \\le \\theta \\le \\pi/4$, so $\\iint_T f \\, dA = \\int_0^1 \\left(\\int_0^{\\pi/4} f \\, d\\theta\\right) r \\, dr + \\int_1^{\\sqrt{2}} \\left(\\int_{\\cos^{-1}(1/r)}^{\\pi/4} f \\, d\\theta\\right) r \\, dr$. Formally, if $f$ were defined on the entire circular sector $S = \\{0 \\le r \\le \\sqrt{2}, \\; 0 \\le \\theta \\le \\pi/4\\}$, subtracting the extra region $S \\setminus T = \\{1 < r \\le \\sqrt{2}, \\; 0 \\le \\theta < \\cos^{-1}(1/r)\\}$ would yield option (B): $\\int_0^{\\sqrt{2}} \\left(\\int_0^{\\pi/4} f \\, d\\theta\\right) r \\, dr - \\int_1^{\\sqrt{2}} \\left(\\int_0^{\\cos^{-1}(1/r)} f \\, d\\theta\\right) r \\, dr$. However, the problem explicitly states that $f$ is defined only from $T$ to $\\mathbb{R}$. On $S \\setminus T$, we have $x = r\\cos\\theta > 1$, which lies outside $T$, so $f$ is undefined there and both integrals in every option (A)–(D) are mathematically ill-defined. Consequently, IIT Bombay awarded Marks to All (MTA) with zero negative marking."
+    },
+    {
+      "questionId": "jam_ma_2026_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given a sequence of real numbers $(a_n)$, define $b_n = \\begin{cases} a_n, & \\text{if } a_n \\ge 0 \\\\ 0, & \\text{if } a_n < 0 \\end{cases}$ and $c_n = \\begin{cases} a_n, & \\text{if } a_n < 0 \\\\ 0, & \\text{if } a_n \\ge 0 \\end{cases}$ for each positive integer $n$. Which ONE of the following statements is TRUE?",
+      "optionsEn": [
+        "If $\\sum_{n=1}^{\\infty} a_n$ does not converge, then $\\sum_{n=1}^{\\infty} b_n$ does not converge.",
+        "If $\\sum_{n=1}^{\\infty} a_n$ converges but $\\sum_{n=1}^{\\infty} |a_n|$ does not converge, then $\\sum_{n=1}^{\\infty} b_n$ converges.",
+        "If $\\sum_{n=1}^{\\infty} a_n$ converges but $\\sum_{n=1}^{\\infty} |a_n|$ does not converge, then $\\sum_{n=1}^{\\infty} b_n$ does not converge.",
+        "If $\\sum_{n=1}^{\\infty} a_n$ converges, then $\\sum_{n=1}^{\\infty} b_n$ converges or $\\sum_{n=1}^{\\infty} c_n$ converges."
+      ],
+      "explanationEn": "Notice that $b_n = \\max(a_n, 0) \\ge 0$ and $c_n = \\min(a_n, 0) \\le 0$, so $a_n = b_n + c_n$ and $|a_n| = b_n - c_n$. Adding these identities yields $b_n = \\frac{1}{2}(|a_n| + a_n)$ and $-c_n = \\frac{1}{2}(|a_n| - a_n)$. Suppose $\\sum_{n=1}^{\\infty} a_n$ converges conditionally (i.e., $\\sum a_n$ converges but $\\sum |a_n| = \\infty$). If $\\sum b_n$ were convergent, then $\\sum |a_n| = \\sum (2b_n - a_n) = 2\\sum b_n - \\sum a_n$ would also converge, a contradiction. Similarly, $\\sum c_n$ must also diverge (to $-\\infty$). Thus (C) is TRUE, while (B) and (D) are FALSE (any conditionally convergent series like $\\sum \\frac{(-1)^n}{n}$ refutes B and D). For (A), take $a_n = -1$ for all $n$: then $\\sum a_n$ diverges, yet $b_n = 0$ for all $n$, so $\\sum b_n = 0$ converges, refuting (A). Therefore, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For which one of the following pairs of values of $a$ and $b$, does the series $\\sum_{k=1}^{\\infty} \\frac{(3x)^k}{2^{\\sqrt{k}}(1 - x)^k}$ converge for all $x \\in (a, b)$?",
+      "optionsEn": [
+        "$a = \\frac{-1}{4}$ and $b = \\frac{1}{2}$",
+        "$a = -1$ and $b = \\frac{1}{5}$",
+        "$a = \\frac{-1}{2}$ and $b = \\frac{1}{4}$",
+        "$a = \\frac{-1}{4}$ and $b = \\frac{1}{3}$"
+      ],
+      "explanationEn": "Write the general term as $u_k = \\frac{1}{2^{\\sqrt{k}}} \\left(\\frac{3x}{1 - x}\\right)^k$ (for $x \\ne 1$). Apply Cauchy's Root Test: $|u_k|^{1/k} = \\frac{1}{2^{1/\\sqrt{k}}} \\left|\\frac{3x}{1 - x}\\right|$. As $k \\to \\infty$, $2^{1/\\sqrt{k}} \\to 2^0 = 1$, so $\\lim_{k \\to \\infty} |u_k|^{1/k} = \\left|\\frac{3x}{1 - x}\\right|$. The series converges absolutely whenever $\\left|\\frac{3x}{1 - x}\\right| < 1$ and diverges whenever $\\left|\\frac{3x}{1 - x}\\right| > 1$. Solve $|3x| < |1 - x| \\iff 9x^2 < (1 - x)^2 = 1 - 2x + x^2 \\iff 8x^2 + 2x - 1 < 0 \\iff (4x - 1)(2x + 1) < 0$. This holds precisely for $x \\in \\left(-\\frac{1}{2}, \\frac{1}{4}\\right)$. Checking the options: (A) contains $x = 1/3 > 1/4$, (B) contains $x = -3/4 < -1/2$, (D) contains $x = 0.3 > 1/4$, while (C) is the exact open interval $\\left(-\\frac{1}{2}, \\frac{1}{4}\\right)$. Therefore, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function that has derivatives of all orders. Which ONE of the following statements is FALSE?",
+      "optionsEn": [
+        "If $f$ is a polynomial in $x$ of degree at most $5$, then $f^{(6)}(x) = 0$ for all $x \\in \\mathbb{R}$.",
+        "If $f^{(6)}(x) = 0$ for all $x \\in \\mathbb{R}$, then $f$ is a polynomial in $x$ of degree at most $5$.",
+        "If $f^{(k)}(a) = 0$ for all $1 \\le k \\le 5$ and $f^{(6)}(a) > 0$ for some $a \\in \\mathbb{R}$, then $f(x)$ has a local minimum at $a$.",
+        "If $f^{(k)}(a) = 0$ for all $1 \\le k \\le 6$ and $f^{(7)}(a) < 0$ for some $a \\in \\mathbb{R}$, then $f(x)$ has a local maximum at $a$."
+      ],
+      "explanationEn": "Check each statement for a smooth function $f : \\mathbb{R} \\to \\mathbb{R}$: (A) Differentiating any polynomial of degree at most $5$ six times yields $0$, so (A) is TRUE. (B) Integrating $f^{(6)}(x) = 0$ six times shows $f(x)$ is a polynomial of degree at most $5$, so (B) is TRUE. (C) By Taylor's theorem around $a$, since $f^{(k)}(a) = 0$ for $1 \\le k \\le 5$, we have $f(x) - f(a) = \\frac{f^{(6)}(a)}{6!}(x - a)^6 + o((x - a)^6)$. Since $6$ is even and $f^{(6)}(a) > 0$, $f(x) - f(a) > 0$ for all $x \\ne a$ sufficiently close to $a$, so $f$ has a strict local minimum at $a$; thus (C) is TRUE. (D) If $f^{(k)}(a) = 0$ for $1 \\le k \\le 6$ and $f^{(7)}(a) < 0$, then $f(x) - f(a) = \\frac{f^{(7)}(a)}{7!}(x - a)^7 + o((x - a)^7)$. Because $7$ is odd, $(x - a)^7$ changes sign across $x = a$ (negative for $x < a$, positive for $x > a$), so $f(x) > f(a)$ for $x < a$ and $f(x) < f(a)$ for $x > a$ near $a$. Thus $a$ is an inflection point, NOT a local maximum (e.g., $f(x) = -x^7$ at $a = 0$). Hence (D) is FALSE. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A$ be a $5 \\times 3$ real matrix of rank $2$ and $b$ be a non-zero $5 \\times 1$ real column vector. Suppose $\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and $\\begin{pmatrix} 4 \\\\ 5 \\\\ 6 \\end{pmatrix}$ are two solutions of the system of linear equations $Ax = b$. Which ONE of the following is also a solution of $Ax = b$?",
+      "optionsEn": [
+        "$\\begin{pmatrix} 3 \\\\ 3 \\\\ 3 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\\\ 7 \\\\ 9 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 5 \\\\ 6 \\\\ 9 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 7 \\\\ 8 \\\\ 9 \\end{pmatrix}$"
+      ],
+      "explanationEn": "Let $x_1 = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and $x_2 = \\begin{pmatrix} 4 \\\\ 5 \\\\ 6 \\end{pmatrix}$ be two solutions of $Ax = b$. By the Rank-Nullity Theorem for the $5 \\times 3$ matrix $A$ of rank $2$, $\\operatorname{nullity}(A) = 3 - 2 = 1$. Since $A(x_2 - x_1) = b - b = 0$, the non-zero vector $v = x_2 - x_1 = \\begin{pmatrix} 3 \\\\ 3 \\\\ 3 \\end{pmatrix}$ spans $\\operatorname{nullspace}(A)$. Hence the complete solution set of $Ax = b$ is the affine line $x(t) = x_1 + t \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 1 + t \\\\ 2 + t \\\\ 3 + t \\end{pmatrix}$ for $t \\in \\mathbb{R}$. Equivalently, every solution $(u_1, u_2, u_3)^T$ satisfies $u_2 - u_1 = 1$ and $u_3 - u_2 = 1$. Checking the options: only (D) $\\begin{pmatrix} 7 \\\\ 8 \\\\ 9 \\end{pmatrix}$ has consecutive differences equal to $1$ (corresponding to $t = 6$). Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R}^2 \\to \\mathbb{R}$ be the function given by $f(x, y) = (x^2 - 1)^2 + (y^2 - 1)^2$ for all $(x, y) \\in \\mathbb{R}^2$. Which ONE of the following statements is TRUE?",
+      "optionsEn": [
+        "$f$ has local maxima at exactly two points.",
+        "$f$ has local minima at exactly two points.",
+        "$f$ has local minima at exactly three points.",
+        "$f$ has exactly four saddle points."
+      ],
+      "explanationEn": "Compute the first partial derivatives of $f(x, y) = (x^2 - 1)^2 + (y^2 - 1)^2$: $f_x = 4x(x^2 - 1) = 0 \\implies x \\in \\{-1, 0, 1\\}$, and $f_y = 4y(y^2 - 1) = 0 \\implies y \\in \\{-1, 0, 1\\}$. Thus there are $3 \\times 3 = 9$ critical points. The Hessian matrix is diagonal: $H(x, y) = \\begin{pmatrix} 4(3x^2 - 1) & 0 \\\\ 0 & 4(3y^2 - 1) \\end{pmatrix}$, with determinant $D = 16(3x^2 - 1)(3y^2 - 1)$. Classify all 9 critical points: (1) At $(0, 0)$: $f_{xx} = -4 < 0$ and $f_{yy} = -4 < 0$ ($D = 16 > 0$), giving $1$ local maximum. (2) At $(\\pm 1, \\pm 1)$ (4 points): $f_{xx} = 8 > 0$ and $f_{yy} = 8 > 0$ ($D = 64 > 0$), giving $4$ local minima (where $f = 0$). (3) At $(\\pm 1, 0)$ and $(0, \\pm 1)$ (4 points): one diagonal entry is $8 > 0$ and the other is $-4 < 0$, so $D = -32 < 0$, giving exactly $4$ saddle points. Thus (D) is TRUE (while A, B, C have wrong counts). Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The orthogonal trajectories of the family of curves $y = -3x - 3 + m e^x$ for a real parameter $m$ are given by _____.",
+      "optionsEn": [
+        "$x = \\frac{y}{3} - \\frac{1}{9} + k e^{-3y}$, $k$ is a real parameter",
+        "$x = \\frac{y}{3} - \\frac{1}{9} + k e^{3y}$, $k$ is a real parameter",
+        "$x = \\frac{-y}{3} + \\frac{1}{9} + k e^{-3y}$, $k$ is a real parameter",
+        "$x = \\frac{-y}{3} + \\frac{1}{9} + k e^{3y}$, $k$ is a real parameter"
+      ],
+      "explanationEn": "First find the differential equation of the given family $y = -3x - 3 + m e^x$. Differentiating with respect to $x$ gives $\\frac{dy}{dx} = -3 + m e^x$. From the family equation, $m e^x = y + 3x + 3$, so $\\frac{dy}{dx} = y + 3x$. To find the orthogonal trajectories, replace $\\frac{dy}{dx}$ by $-\\frac{dx}{dy}$: $-\\frac{dx}{dy} = y + 3x \\implies \\frac{dx}{dy} + 3x = -y$. This is a first-order linear ODE in $x(y)$ with integrating factor $\\mu(y) = e^{\\int 3 \\, dy} = e^{3y}$. Multiplying through gives $\\frac{d}{dy}(x e^{3y}) = -y e^{3y}$. Integrating by parts: $x e^{3y} = -\\left(\\frac{y e^{3y}}{3} - \\frac{e^{3y}}{9}\\right) + k = \\left(-\\frac{y}{3} + \\frac{1}{9}\\right) e^{3y} + k$. Dividing by $e^{3y}$ yields $x = \\frac{-y}{3} + \\frac{1}{9} + k e^{-3y}$, where $k$ is a real parameter. Therefore, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R}^2 \\to \\mathbb{R}$ be the function defined by $f(x, y) = \\begin{cases} \\frac{5x^2 y - 4y^3}{x^2 + y^2}, & (x, y) \\ne (0, 0) \\\\ 0, & (x, y) = (0, 0) \\end{cases}$. Which ONE of the following statements is FALSE?",
+      "optionsEn": [
+        "$f$ is continuous at $(0, 0)$",
+        "$\\frac{\\partial f}{\\partial x}$ at $(0, 1) = 0$",
+        "$\\frac{\\partial f}{\\partial y}$ at $(1, 0) = 5$",
+        "$\\frac{\\partial f}{\\partial y}$ is continuous at $(0, 0)$"
+      ],
+      "explanationEn": "Check each statement for $f(x, y) = \\frac{5x^2 y - 4y^3}{x^2 + y^2}$ ($(x, y) \\ne (0,0)$) and $f(0, 0) = 0$: (A) Using polar coordinates $x = r\\cos\\theta, y = r\\sin\\theta$, $|f(x, y)| = r |5\\cos^2\\theta\\sin\\theta - 4\\sin^3\\theta| \\le 9r \\to 0$ as $r \\to 0$, so $f$ is continuous at $(0, 0)$. (A) is TRUE. (B) For $(x, y) \\ne (0, 0)$, $f_x(x, y) = \\frac{10xy(x^2 + y^2) - 2x(5x^2 y - 4y^3)}{(x^2 + y^2)^2} = \\frac{18xy^3}{(x^2 + y^2)^2}$. At $(0, 1)$, $f_x(0, 1) = 0$. (B) is TRUE. (C) For $(x, y) \\ne (0, 0)$, $f_y(x, y) = \\frac{(5x^2 - 12y^2)(x^2 + y^2) - 2y(5x^2 y - 4y^3)}{(x^2 + y^2)^2} = \\frac{5x^4 - 17x^2 y^2 - 4y^4}{(x^2 + y^2)^2}$. At $(1, 0)$, $f_y(1, 0) = 5$. (C) is TRUE. (D) At $(0, 0)$, $f_y(0, 0) = \\lim_{h \\to 0} \\frac{f(0, h) - f(0, 0)}{h} = \\lim_{h \\to 0} \\frac{-4h}{h} = -4$. However, along the $x$-axis ($y = 0, x \\ne 0$), $f_y(x, 0) = \\frac{5x^4}{x^4} = 5 \\to 5 \\ne -4$ as $x \\to 0$. Thus $\\frac{\\partial f}{\\partial y}$ is NOT continuous at $(0, 0)$, so (D) is FALSE. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\phi : \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\to \\mathbb{R}$ be the solution of the differential equation $(\\cos x) \\frac{dy}{dx} - y = 2y^2(\\sin x - 1) \\cos x$ satisfying $\\phi(0) = \\frac{1}{2}$. Then $\\phi\\left(\\frac{\\pi}{4}\\right) = $ _____.",
+      "optionsEn": [
+        "$2$",
+        "$\\frac{3 + 2\\sqrt{2}}{2}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{\\sqrt{2}}$"
+      ],
+      "explanationEn": "The differential equation $(\\cos x) \\frac{dy}{dx} - y = 2y^2(\\sin x - 1)\\cos x$ is a Bernoulli equation. Dividing by $y^2 \\cos x$ (valid on $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$ where $\\cos x > 0$) gives $y^{-2} \\frac{dy}{dx} - (\\sec x) y^{-1} = 2(\\sin x - 1)$. Substitute $u = y^{-1}$, so $\\frac{du}{dx} = -y^{-2} \\frac{dy}{dx}$, which transforms the equation into the linear ODE $\\frac{du}{dx} + (\\sec x) u = 2(1 - \\sin x)$. The integrating factor is $\\mu(x) = e^{\\int \\sec x \\, dx} = \\sec x + \\tan x = \\frac{1 + \\sin x}{\\cos x}$. Multiplying through gives $\\frac{d}{dx}\\left[u(\\sec x + \\tan x)\\right] = 2(1 - \\sin x) \\frac{1 + \\sin x}{\\cos x} = 2\\frac{\\cos^2 x}{\\cos x} = 2\\cos x$. Integrating yields $u(\\sec x + \\tan x) = 2\\sin x + C$. Using $\\phi(0) = \\frac{1}{2} \\implies u(0) = 2$, we get $2(1 + 0) = 0 + C \\implies C = 2$. Hence $u \\frac{1 + \\sin x}{\\cos x} = 2(1 + \\sin x)$, so $u(x) = 2\\cos x$ and $\\phi(x) = \\frac{1}{2\\cos x}$. Evaluating at $x = \\frac{\\pi}{4}$ gives $\\phi\\left(\\frac{\\pi}{4}\\right) = \\frac{1}{2(1/\\sqrt{2})} = \\frac{1}{\\sqrt{2}}$. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of the following expression $\\lim_{x \\to \\infty} \\int_{0}^{x} e^{-t} |\\sin t| \\, dt$ is _____.",
+      "optionsEn": [
+        "$\\frac{e^{\\pi} + 1}{2(e^{\\pi} - 1)}$",
+        "$\\frac{e^{\\pi} - 1}{2(e^{\\pi} + 1)}$",
+        "$\\frac{2(e^{\\pi} + 1)}{e^{\\pi} - 1}$",
+        "$\\frac{2(e^{\\pi} - 1)}{e^{\\pi} + 1}$"
+      ],
+      "explanationEn": "Since $e^{-t} |\\sin t| \\ge 0$, we split the improper integral over intervals of length $\\pi$: $I = \\int_{0}^{\\infty} e^{-t} |\\sin t| \\, dt = \\sum_{k=0}^{\\infty} \\int_{k\\pi}^{(k+1)\\pi} e^{-t} |\\sin t| \\, dt$. Substituting $t = k\\pi + u$ (with $u \\in [0, \\pi]$, where $|\\sin(k\\pi + u)| = \\sin u$) gives $I = \\sum_{k=0}^{\\infty} e^{-k\\pi} \\int_{0}^{\\pi} e^{-u} \\sin u \\, du = \\frac{1}{1 - e^{-\\pi}} \\int_{0}^{\\pi} e^{-u} \\sin u \\, du$. Using the standard antiderivative $\\int e^{-u} \\sin u \\, du = -\\frac{e^{-u}(\\sin u + \\cos u)}{2}$, we evaluate $\\int_{0}^{\\pi} e^{-u} \\sin u \\, du = \\left[-\\frac{e^{-u}(\\sin u + \\cos u)}{2}\\right]_{0}^{\\pi} = \\frac{e^{-\\pi} + 1}{2}$. Therefore, $I = \\frac{1 + e^{-\\pi}}{2(1 - e^{-\\pi})} = \\frac{e^{\\pi} + 1}{2(e^{\\pi} - 1)}$. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The semi-circle $y = \\sqrt{6x - 5 - x^2}$ is rotated clockwise by the angle $\\frac{\\pi}{2}$ in the plane about the origin. What is the area of the planar region traced out by the semi-circle?",
+      "optionsEn": [
+        "$6\\pi$",
+        "$4\\pi$",
+        "$2\\pi$",
+        "$\\pi$"
+      ],
+      "explanationEn": "Rewrite $y = \\sqrt{6x - 5 - x^2}$ as $(x - 3)^2 + y^2 = 4$ with $y \\ge 0$. This is the upper semicircle centered at $(3, 0)$ of radius $2$, extending along the $x$-axis from $(1, 0)$ to $(5, 0)$. In polar coordinates $(r, \\theta)$, every point on the semicircle satisfies $r^2 = x^2 + y^2 = 6x - 5$, so $x = \\frac{r^2 + 5}{6}$ and $y = \\sqrt{r^2 - x^2} \\ge 0$. Since $x \\in [1, 5]$, $r$ ranges continuously from $r_{\\min} = 1$ to $r_{\\max} = 5$, and for each fixed $r \\in [1, 5]$, there is a UNIQUE angle $\\theta(r) \\in [0, \\pi/2)$ on the semicircle. When the semicircle is rotated clockwise about the origin by $\\frac{\\pi}{2}$, the point at radius $r$ sweeps a circular arc of radius $r$ and angular length $\\frac{\\pi}{2}$, namely $\\theta \\in [\\theta(r) - \\frac{\\pi}{2}, \\theta(r)]$. Hence the area of the traced planar region is $\\int_{1}^{5} \\left(\\int_{\\theta(r) - \\pi/2}^{\\theta(r)} d\\theta\\right) r \\, dr = \\frac{\\pi}{2} \\int_{1}^{5} r \\, dr = \\frac{\\pi}{4}(25 - 1) = 6\\pi$. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : [1, 9] \\to \\mathbb{R}$ be a non-constant continuous function such that $f(1) = f(9)$. Which ONE of the following statements is necessarily TRUE?",
+      "optionsEn": [
+        "There exists $c \\in [4, 8]$ such that $f(c) = f(c + 1)$.",
+        "There exists $c \\in [3, 7]$ such that $f(c) = f(c + 2)$.",
+        "There exists $c \\in [2, 6]$ such that $f(c) = f(c + 3)$.",
+        "There exists $c \\in [1, 5]$ such that $f(c) = f(c + 4)$."
+      ],
+      "explanationEn": "Define the continuous function $g : [1, 5] \\to \\mathbb{R}$ by $g(x) = f(x + 4) - f(x)$. Notice that $g(1) + g(5) = (f(5) - f(1)) + (f(9) - f(5)) = f(9) - f(1) = 0$, so $g(5) = -g(1)$. If $g(1) = 0$, then $c = 1 \\in [1, 5]$ satisfies $f(1) = f(5)$. If $g(1) \\ne 0$, then $g(1)$ and $g(5)$ have opposite signs, so by the Intermediate Value Theorem there exists $c \\in (1, 5)$ with $g(c) = 0$, i.e., $f(c) = f(c + 4)$. This proves (D) is necessarily TRUE (the Universal Chord Theorem for chord length $L/2 = 4$). Why do (A), (B), (C) fail? For (A), take a continuous piecewise-linear function on $[1, 9]$ that increases on $[1, 4]$, is linear on $[4, 9]$ strictly decreasing from $f(4) = 1$ to $f(9) = 0$ (with $f(1) = 0$): then $f$ is strictly decreasing on $[4, 9]$, so $f(c) > f(c+1)$ for all $c \\in [4, 8]$. The same construction (increasing on $[1, 2]$ and strictly decreasing on $[2, 9]$) refutes (A), (B), and (C) simultaneously. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $S$ be the solid of intersection of two solid spheres $S_1, S_2$ given by $S_1 : x^2 + y^2 + (z - 1)^2 \\le 4$ and $S_2 : x^2 + y^2 + (z + 1)^2 \\le 4$. Which ONE of the following iterated integrals expresses the volume of $S$?",
+      "optionsEn": [
+        "$8 \\int_{0}^{\\sqrt{3}} \\int_{0}^{\\sqrt{3 - x^2}} \\left(\\sqrt{4 - x^2 - y^2} - 1\\right) dy \\, dx$",
+        "$8 \\int_{0}^{2} \\int_{0}^{\\sqrt{4 - x^2}} \\left(\\sqrt{4 - x^2 - y^2} - 1\\right) dy \\, dx$",
+        "$2 \\int_{0}^{2} \\int_{0}^{\\sqrt{4 - x^2}} \\left(\\sqrt{4 - x^2 - y^2} - 1\\right) dy \\, dx$",
+        "$2 \\int_{0}^{\\sqrt{3}} \\int_{0}^{\\sqrt{3 - x^2}} \\left(\\sqrt{4 - x^2 - y^2} - 1\\right) dy \\, dx$"
+      ],
+      "explanationEn": "The solid $S = S_1 \\cap S_2$ is symmetric with respect to all three coordinate planes ($x = 0$, $y = 0$, $z = 0$). For $z \\ge 0$, the upper boundary of $S$ is given by the lower-centered sphere $S_2$: $x^2 + y^2 + (z + 1)^2 = 4 \\implies z = \\sqrt{4 - x^2 - y^2} - 1$. The two spheres intersect in the plane $z = 0$, where $x^2 + y^2 + 1 = 4 \\implies x^2 + y^2 = 3$, a disk of radius $\\sqrt{3}$. In the first octant ($x \\ge 0, y \\ge 0, z \\ge 0$), the projection onto the $xy$-plane is the quarter-disk $0 \\le x \\le \\sqrt{3}, \\; 0 \\le y \\le \\sqrt{3 - x^2}$, and $z$ ranges from $0$ to $\\sqrt{4 - x^2 - y^2} - 1$. By symmetry across all $8$ octants, the total volume of $S$ is $V = 8 \\int_{0}^{\\sqrt{3}} \\int_{0}^{\\sqrt{3 - x^2}} \\left(\\sqrt{4 - x^2 - y^2} - 1\\right) dy \\, dx$. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the differential equation $\\frac{d^2 y}{dx^2} + 3\\frac{dy}{dx} + 2y = \\sin(e^x)$. Which ONE of the following is a particular solution of this differential equation?",
+      "optionsEn": [
+        "$-e^{-x} \\sin(e^x)$",
+        "$-e^{-2x} \\sin(e^x)$",
+        "$-e^{-x} (\\sin(e^x) + \\cos(e^x))$",
+        "$-e^{-2x} (\\sin(e^x) + \\cos(e^x))$"
+      ],
+      "explanationEn": "Substitute $t = e^x$ into $\\frac{d^2 y}{dx^2} + 3\\frac{dy}{dx} + 2y = \\sin(e^x)$. Since $\\frac{dy}{dx} = t \\frac{dy}{dt}$ and $\\frac{d^2 y}{dx^2} = t^2 \\frac{d^2 y}{dt^2} + t \\frac{dy}{dt}$, the ODE becomes the Euler-Cauchy equation $t^2 \\frac{d^2 y}{dt^2} + 4t \\frac{dy}{dt} + 2y = \\sin t$. Notice that the left-hand side is an exact second derivative: $\\frac{d^2}{dt^2}(t^2 y) = t^2 y'' + 4t y' + 2y$. Thus $\\frac{d^2}{dt^2}(t^2 y) = \\sin t$. Integrating twice with respect to $t$ (setting integration constants to $0$ for a particular solution) gives $\\frac{d}{dt}(t^2 y) = -\\cos t$ and $t^2 y = -\\sin t$. Hence $y_p = -\\frac{\\sin t}{t^2} = -e^{-2x} \\sin(e^x)$. Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $e_1, e_2, e_3, e_4, e_5$ denote the standard basis vectors of the real vector space $\\mathbb{R}^5$. Let $V$ be the subspace of $\\mathbb{R}^5$ spanned by the vectors $e_1 + e_2, e_2 + e_3, e_3 + e_4 + e_5$. Consider the real vector space $M_{2,5}(\\mathbb{R})$. Let $S = \\{P \\in M_{2,5}(\\mathbb{R}) \\mid \\operatorname{nullspace}(P) = V\\}$. Which ONE of the following statements is TRUE?",
+      "optionsEn": [
+        "$S$ is the empty set.",
+        "$S = \\{0\\}$.",
+        "$S$ is non-empty and $S$ is not a subspace of $M_{2,5}(\\mathbb{R})$.",
+        "$S$ is a nonzero subspace of $M_{2,5}(\\mathbb{R})$."
+      ],
+      "explanationEn": "The three spanning vectors of $V$, namely $v_1 = (1, 1, 0, 0, 0)^T$, $v_2 = (0, 1, 1, 0, 0)^T$, and $v_3 = (0, 0, 1, 1, 1)^T$, are linearly independent (their leading 1s are in positions 1, 2, 3), so $\\dim(V) = 3$. For $P \\in M_{2,5}(\\mathbb{R})$ to have $\\operatorname{nullspace}(P) = V$, we need $\\operatorname{nullity}(P) = 3$ and hence $\\operatorname{rank}(P) = 5 - 3 = 2$. Because $V^\\perp \\subset \\mathbb{R}^5$ has dimension $5 - 3 = 2$, choosing any basis $\\{r_1, r_2\\}$ of $V^\\perp$ as the two rows of $P$ yields a matrix $P \\in M_{2,5}(\\mathbb{R})$ with $\\operatorname{nullspace}(P) = V$, so $S$ is non-empty (ruling out A and B). However, the zero matrix $0 \\in M_{2,5}(\\mathbb{R})$ has $\\operatorname{nullspace}(0) = \\mathbb{R}^5 \\ne V$, so $0 \\notin S$. Since a subspace must contain the zero vector, $S$ is not a subspace of $M_{2,5}(\\mathbb{R})$. Therefore, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P$ be a nonzero complex $n \\times n$ matrix such that $v^* P v \\ge 0$ for all column vectors $v$ in $\\mathbb{C}^n$. Which ONE of the following statements is necessarily TRUE?",
+      "optionsEn": [
+        "All eigenvalues of $P$ are negative real numbers.",
+        "If $v_1, v_2$ are column vectors in $\\mathbb{C}^n$ such that $P v_1 = v_2$ and $P v_2 = v_1$, then $v_1 = v_2$.",
+        "$v^* P v \\ne 0$ for all nonzero column vectors $v$ in $\\mathbb{C}^n$.",
+        "All eigenvalues of $P^*$ are negative real numbers."
+      ],
+      "explanationEn": "Since $v^* P v \\ge 0$ (in particular, real and non-negative) for all $v \\in \\mathbb{C}^n$, $P$ is a Hermitian positive semidefinite matrix ($P^* = P$). Thus all eigenvalues of $P$ (and of $P^* = P$) are non-negative real numbers, ruling out (A) and (D). For (C), $P$ can be singular (e.g., $P = \\operatorname{diag}(1, 0, \\dots, 0)$ for $n \\ge 2$), in which case $v^* P v = 0$ for nonzero $v \\in \\ker(P)$, so (C) is not necessarily true. For (B), suppose $P v_1 = v_2$ and $P v_2 = v_1$. Subtracting gives $P(v_1 - v_2) = -(v_1 - v_2)$. If $v_1 - v_2 \\ne 0$, then $-1$ would be an eigenvalue of $P$, contradicting the fact that every eigenvalue $\\lambda$ of $P$ satisfies $\\lambda \\ge 0$ (since $v^* P v = \\lambda \\|v\\|^2 \\ge 0$). Hence $v_1 - v_2 = 0$, i.e., $v_1 = v_2$. Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : G \\to \\mathbb{Z}$ be a surjective group homomorphism from an abelian group $G$ to the additive group of integers $\\mathbb{Z}$. Let $K$ denote the kernel of $f$. Which ONE of the following statements is FALSE?",
+      "optionsEn": [
+        "There exists a group homomorphism $\\phi : \\mathbb{Z} \\to G$ such that $f \\circ \\phi$ is the identity homomorphism.",
+        "$K$ is isomorphic to a quotient group of $G$.",
+        "For all non-zero homomorphisms $\\alpha : \\mathbb{Z} \\to G$ and $\\beta : G \\to K$, the composition $\\beta \\circ \\alpha$ is non-zero.",
+        "$G$ has a subgroup isomorphic to $\\mathbb{Z}$."
+      ],
+      "explanationEn": "Since $f : G \\to \\mathbb{Z}$ is a surjective homomorphism onto the free abelian group $\\mathbb{Z}$, choose any $g_0 \\in G$ with $f(g_0) = 1$ and define $\\phi : \\mathbb{Z} \\to G$ by $\\phi(n) = n g_0$. Then $\\phi$ is an injective homomorphism with $f(\\phi(n)) = n f(g_0) = n$, so $f \\circ \\phi = \\operatorname{id}_{\\mathbb{Z}}$; this proves (A) and (D) (since $\\phi(\\mathbb{Z}) \\cong \\mathbb{Z}$ is a subgroup of $G$). Moreover, because $G$ is abelian, the short exact sequence splits: $G \\cong K \\oplus \\phi(\\mathbb{Z}) \\cong K \\oplus \\mathbb{Z}$, so $G / \\phi(\\mathbb{Z}) \\cong K$, proving (B) is TRUE. For (C), take $G = \\mathbb{Z} \\oplus \\mathbb{Z}$ with $f(a, b) = b$ (so $K = \\mathbb{Z} \\oplus \\{0\\}$), $\\alpha : \\mathbb{Z} \\to G$ given by $\\alpha(n) = (0, n)$ (non-zero), and $\\beta : G \\to K$ given by $\\beta(a, b) = (a, 0)$ (non-zero). Then $(\\beta \\circ \\alpha)(n) = \\beta(0, n) = (0, 0)$ for all $n$, so $\\beta \\circ \\alpha = 0$. Thus (C) is FALSE. Therefore, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which ONE of the following statements is FALSE?",
+      "optionsEn": [
+        "There is a surjective group homomorphism from the additive group of rational numbers to the multiplicative group of all complex roots of unity.",
+        "The multiplicative group of complex numbers of modulus one is isomorphic to a quotient group of the additive group of real numbers.",
+        "Any group homomorphism from the multiplicative group of nonzero complex numbers into the group of all invertible $2 \\times 2$ matrices with real entries has nontrivial kernel.",
+        "There exists a group homomorphism from the symmetric group on $n$ symbols into the multiplicative group of all invertible $n \\times n$ matrices with real entries, which has a trivial kernel."
+      ],
+      "explanationEn": "Evaluate each group-theoretic statement: (A) The map $\\varphi : (\\mathbb{Q}, +) \\to \\mu_\\infty$ (complex roots of unity) given by $\\varphi(q) = e^{2\\pi i q}$ is a surjective group homomorphism (since every $n$-th root of unity is $e^{2\\pi i k/n}$ with $k/n \\in \\mathbb{Q}$), so (A) is TRUE. (B) The map $\\psi : (\\mathbb{R}, +) \\to S^1$ given by $\\psi(t) = e^{2\\pi i t}$ is a surjective homomorphism with kernel $\\mathbb{Z}$, so $S^1 \\cong \\mathbb{R}/\\mathbb{Z}$, making (B) TRUE. (C) The map $\\Phi : \\mathbb{C}^* \\to GL_2(\\mathbb{R})$ defined by $\\Phi(a + bi) = \\begin{pmatrix} a & -b \\\\ b & a \\end{pmatrix}$ is an INJECTIVE group homomorphism (its kernel is $\\{1\\}$, trivial, because $\\Phi(a+bi) = I \\iff a=1, b=0$). Hence claiming that every homomorphism $\\mathbb{C}^* \\to GL_2(\\mathbb{R})$ has nontrivial kernel is FALSE! (D) The standard permutation representation $\\rho : S_n \\to GL_n(\\mathbb{R})$ sending each permutation $\\sigma$ to its permutation matrix $P_\\sigma$ is an injective homomorphism (trivial kernel), so (D) is TRUE. Therefore, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any two points $P, Q \\in \\mathbb{R}^3$, let $\\operatorname{vect}(P, Q)$ denote the vector from the point $P$ to the point $Q$ and let $d(P, Q)$ denote the length of $\\operatorname{vect}(P, Q)$. Let $F : \\mathbb{R}^3 \\to \\mathbb{R}^3$ be a linear transformation such that $d(F(P), F(Q)) = d(P, Q)$ for all $P, Q \\in \\mathbb{R}^3$. Which ONE of the following statements is FALSE?",
+      "optionsEn": [
+        "$F$ is an injective map.",
+        "$F$ is a surjective map.",
+        "For any four points $P, Q, R, S$ in $\\mathbb{R}^3$, we have $\\operatorname{vect}(F(P), F(Q)) \\cdot \\operatorname{vect}(F(R), F(S)) = \\operatorname{vect}(P, Q) \\cdot \\operatorname{vect}(R, S)$, where $\\cdot$ denotes the usual dot product in $\\mathbb{R}^3$.",
+        "For any four points $P, Q, R, S$ in $\\mathbb{R}^3$, we have $\\operatorname{vect}(F(P), F(Q)) \\times \\operatorname{vect}(F(R), F(S)) = \\operatorname{vect}(P, Q) \\times \\operatorname{vect}(R, S)$, where $\\times$ denotes the usual cross product in $\\mathbb{R}^3$."
+      ],
+      "explanationEn": "Since $F : \\mathbb{R}^3 \\to \\mathbb{R}^3$ is a linear transformation preserving distances, taking $Q = 0$ gives $\\|F(P)\\| = d(F(P), 0) = d(P, 0) = \\|P\\|$ for all $P \\in \\mathbb{R}^3$, so $F$ is an orthogonal linear operator. (A) If $F(P) = 0$, then $\\|P\\| = \\|F(P)\\| = 0 \\implies P = 0$, so $F$ is injective; TRUE. (B) Any injective linear map on the finite-dimensional space $\\mathbb{R}^3$ is also surjective by the Rank-Nullity Theorem; TRUE. (C) By the polarization identity $u \\cdot v = \\frac{1}{2}(\\|u + v\\|^2 - \\|u\\|^2 - \\|v\\|^2)$ and linearity ($\\operatorname{vect}(F(P), F(Q)) = F(Q) - F(P) = F(\\operatorname{vect}(P, Q))$), $F$ preserves all dot products; TRUE. (D) For an orthogonal operator $F$, $F(u) \\times F(v) = (\\det F) F(u \\times v)$, which need not equal $u \\times v$. For example, take the reflection $F(x, y, z) = (x, -y, z)$ across the $xz$-plane with $u = e_1$ and $v = e_2$: then $F(e_1) \\times F(e_2) = e_1 \\times (-e_2) = -e_3 \\ne e_3 = e_1 \\times e_2$. Hence (D) is FALSE. Therefore, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For each positive integer $n$, let $x_n = 1 + \\frac{1}{2} + \\cdots + \\frac{1}{n} - \\log_e n$ and $y_n = \\int_{1}^{n} \\frac{\\cos t}{t^2} \\, dt$. Which ONE of the following statements about the sequences $(x_n)$ and $(y_n)$ is TRUE?",
+      "optionsEn": [
+        "$(x_n)$ and $(y_n)$ are convergent.",
+        "$(x_n)$ is convergent and $(y_n)$ is not convergent.",
+        "$(x_n)$ is not convergent and $(y_n)$ is convergent.",
+        "$(x_n)$ is not convergent and $(y_n)$ is not convergent."
+      ],
+      "explanationEn": "First examine $(x_n)$, where $x_n = \\sum_{k=1}^{n} \\frac{1}{k} - \\log_e n$. Note that $x_{n+1} - x_n = \\frac{1}{n+1} - \\log_e\\left(1 + \\frac{1}{n}\\right) = \\frac{1}{n+1} - \\int_{n}^{n+1} \\frac{dt}{t} < 0$ (since $\\frac{1}{t} > \\frac{1}{n+1}$ on $(n, n+1)$), so $(x_n)$ is strictly decreasing. Also, $\\sum_{k=1}^{n} \\frac{1}{k} > \\sum_{k=1}^{n-1} \\int_{k}^{k+1} \\frac{dt}{t} = \\log_e n$, so $x_n > 0$ for all $n$. By the Monotone Convergence Theorem, $(x_n)$ converges (to the Euler-Mascheroni constant $\\gamma \\approx 0.5772$). Next examine $(y_n)$, where $y_n = \\int_{1}^{n} \\frac{\\cos t}{t^2} \\, dt$. Since $\\left|\\frac{\\cos t}{t^2}\\right| \\le \\frac{1}{t^2}$ and $\\int_{1}^{\\infty} \\frac{dt}{t^2} = 1 < \\infty$, the improper integral $\\int_{1}^{\\infty} \\frac{\\cos t}{t^2} \\, dt$ converges absolutely by the Comparison Test. Hence $\\lim_{n \\to \\infty} y_n = \\int_{1}^{\\infty} \\frac{\\cos t}{t^2} \\, dt$ exists and is finite, so $(y_n)$ is convergent. Therefore, both $(x_n)$ and $(y_n)$ are convergent, and option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be the power set of $\\{1, 2, 3, 4\\}$. Let the binary operation $\\Delta$ on $G$ be $A \\Delta B = (A \\setminus B) \\cup (B \\setminus A)$. Which ONE of the following statements is TRUE?",
+      "optionsEn": [
+        "$\\{1\\}$ is an identity element of $(G, \\Delta)$.",
+        "$(G, \\Delta)$ is an abelian group but not cyclic.",
+        "$(G, \\Delta)$ is a group and has an element of order $4$.",
+        "$(G, \\Delta)$ is a group and has an element of order $8$."
+      ],
+      "explanationEn": "The power set $G = \\mathcal{P}(\\{1, 2, 3, 4\\})$ has $|G| = 2^4 = 16$ elements under symmetric difference $A \\Delta B = (A \\setminus B) \\cup (B \\setminus A)$. The operation $\\Delta$ is associative and commutative, the identity element is the empty set $\\emptyset$ (since $A \\Delta \\emptyset = A$, ruling out A), and every element is its own inverse because $A \\Delta A = \\emptyset$. Thus every non-identity element $A \\ne \\emptyset$ has order $2$! Consequently, $(G, \\Delta) \\cong \\mathbb{Z}_2 \\times \\mathbb{Z}_2 \\times \\mathbb{Z}_2 \\times \\mathbb{Z}_2$ has no elements of order $4$, $8$, or $16$ (ruling out C, D, and proving $G$ is not cyclic). Hence $(G, \\Delta)$ is an abelian group but not cyclic. Therefore, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following functions $f : \\mathbb{R} \\to \\mathbb{R}$ has/have a local minimum at $x = 0$?",
+      "optionsEn": [
+        "$f(x) = \\sin |x|$",
+        "$f(x) = \\sin x + \\frac{x^3}{6}$",
+        "$f(x) = x^4 + x^2 + 3$",
+        "$f(x) = \\min \\{ x - [x], 1 - x + [x] \\}$"
+      ],
+      "explanationEn": "Check whether $f(x) \\ge f(0)$ in a neighborhood of $x = 0$ for each function: (A) For $f(x) = \\sin|x|$, $f(0) = 0$, and for all $x \\in (-\\pi, \\pi)$ we have $|x| \\in [0, \\pi) \\implies \\sin|x| \\ge 0 = f(0)$. Thus $f$ has a local minimum at $x = 0$, so (A) is TRUE. (B) For $f(x) = \\sin x + \\frac{x^3}{6}$, $f'(0) = \\cos 0 + 0 = 1 \\ne 0$, so $f$ is strictly increasing near $x = 0$ and has no local extremum at $0$; (B) is FALSE. (C) For $f(x) = x^4 + x^2 + 3$, $f(0) = 3$ and $f(x) = 3 + x^2 + x^4 \\ge 3 = f(0)$ for all $x \\in \\mathbb{R}$. Thus $x = 0$ is a global (hence local) minimum, so (C) is TRUE. (D) For $f(x) = \\min\\{x - [x], 1 - x + [x]\\}$, notice $f(x) = \\operatorname{dist}(x, \\mathbb{Z}) \\ge 0$ for all $x \\in \\mathbb{R}$, with $f(0) = \\min\\{0, 1\\} = 0$. Thus $x = 0$ is a global (hence local) minimum, so (D) is TRUE. Therefore, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "There exists a monotone sequence that does not converge but has a convergent subsequence.",
+        "There exists a sequence that has a bounded subsequence but does not have any convergent subsequence.",
+        "There exists a sequence $(x_n)$ such that given any positive integer $m$, $(x_n)$ has a subsequence converging to $m$.",
+        "There exists a sequence $(x_n)$ such that $(|x_{n+1} - x_n|)$ converges to $0$ but $(x_n)$ does not converge."
+      ],
+      "explanationEn": "Analyze each statement about real sequences: (A) FALSE: If a monotone sequence $(x_n)$ has a convergent subsequence, that subsequence is bounded, which forces the entire monotone sequence $(x_n)$ to be bounded; by the Monotone Convergence Theorem, $(x_n)$ must converge. (B) FALSE: By the Bolzano-Weierstrass Theorem, any bounded subsequence itself contains a convergent subsequence, which is also a subsequence of the original sequence. (C) TRUE: Consider the sequence $1, 1, 2, 1, 2, 3, 1, 2, 3, 4, \\dots$ (repeating every positive integer $m$ infinitely often). For every positive integer $m$, the constant subsequence $(m, m, m, \\dots)$ converges to $m$. (D) TRUE: Consider the harmonic partial sums $x_n = \\sum_{k=1}^{n} \\frac{1}{k}$ (or $x_n = \\sqrt{n}$). Then $|x_{n+1} - x_n| = \\frac{1}{n+1} \\to 0$, yet $x_n \\to \\infty$ does not converge. Therefore, options (C) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following functions is/are differentiable at $x = 1$?",
+      "optionsEn": [
+        "$f(x) = |x - 1|^3$",
+        "$f(x) = |x^2 - 1|$",
+        "$f(x) = \\begin{cases} x^2 e^{-x^2}, & |x| \\le 1 \\\\ e^{-1}, & |x| > 1 \\end{cases}$",
+        "$f(x) = [x]$"
+      ],
+      "explanationEn": "Check differentiability at $x = 1$ for each function: (A) For $f(x) = |x - 1|^3$, $\\frac{f(1+h) - f(1)}{h} = \\frac{|h|^3}{h} = |h| h \\to 0$ as $h \\to 0$. Thus $f'(1) = 0$ exists, so (A) is TRUE. (B) For $f(x) = |x^2 - 1|$, as $x \\to 1^+$, $\\frac{f(x) - f(1)}{x - 1} = x + 1 \\to 2$, while as $x \\to 1^-$, $\\frac{f(x) - f(1)}{x - 1} = -(x + 1) \\to -2 \\ne 2$. Hence not differentiable at $1$; (B) is FALSE. (C) At $x = 1$, $f(1) = e^{-1}$ and $f$ is continuous at $1$. For $x > 1$, $f(x) = e^{-1}$ is constant, so the right-hand derivative is $f'_+(1) = 0$. For $|x| < 1$, $f'(x) = (2x - 2x^3) e^{-x^2}$, so the left-hand derivative is $f'_-(1) = \\lim_{x \\to 1^-} (2x - 2x^3) e^{-x^2} = (2 - 2) e^{-1} = 0 = f'_+(1)$. Thus $f$ is differentiable at $x = 1$ with $f'(1) = 0$, so (C) is TRUE. (D) $f(x) = [x]$ has a jump discontinuity at $x = 1$ ($\\lim_{x \\to 1^-} [x] = 0 \\ne 1 = [1]$), hence is not differentiable at $1$; (D) is FALSE. Therefore, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be the function given by $f(x) = \\begin{cases} \\cos x, & x \\in \\mathbb{Q} \\\\ 0, & x \\notin \\mathbb{Q} \\end{cases}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$f(x)$ is continuous at $0$.",
+        "$f(x)$ is continuous at $\\frac{\\pi}{2}$.",
+        "$f(x)$ is Riemann integrable on $[0, 1]$ and $\\int_{0}^{1} f(x) \\, dx = \\sin 1$.",
+        "$f(x)$ is Riemann integrable on $[0, 1]$ and $\\int_{0}^{1} f(x) \\, dx = 0$."
+      ],
+      "explanationEn": "Check continuity and Riemann integrability of $f(x) = \\cos x$ for $x \\in \\mathbb{Q}$ and $0$ for $x \\notin \\mathbb{Q}$: (A) At $x = 0$, $f(0) = \\cos 0 = 1$, but along irrationals $x_n \\to 0$, $f(x_n) = 0 \\to 0 \\ne 1$, so $f$ is discontinuous at $0$; (A) is FALSE. (B) At $x = \\frac{\\pi}{2} \\notin \\mathbb{Q}$, $f(\\pi/2) = 0$. For any $x \\in \\mathbb{R}$, $|f(x) - f(\\pi/2)| = |f(x)| \\le |\\cos x| \\to |\\cos(\\pi/2)| = 0$ as $x \\to \\frac{\\pi}{2}$. Thus $f$ is continuous at $\\frac{\\pi}{2}$, so (B) is TRUE. (C) & (D) On $[0, 1]$, $\\cos x \\ge \\cos 1 > 0$. On every subinterval of any partition $P$ of $[0, 1]$, both rationals and irrationals are dense, so the lower Darboux sum is $L(P, f) = 0$, whereas the upper Darboux sum approaches $\\int_0^1 \\cos x \\, dx = \\sin 1 > 0$. Since the lower integral ($0$) does not equal the upper integral ($\\sin 1$), $f$ is NOT Riemann integrable on $[0, 1]$, making both (C) and (D) FALSE. Therefore, only option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the differential equation $(2y \\cos x - xy \\sin x) \\, dx + 2x \\cos x \\, dy = 0$ for $x \\in \\left(0, \\frac{\\pi}{4}\\right)$. Which of the following is/are integrating factor(s) of the differential equation?",
+      "optionsEn": [
+        "$\\frac{1}{xy}$",
+        "$xy$",
+        "$\\sec x$",
+        "$\\sqrt{\\sec x}$"
+      ],
+      "explanationEn": "Write the ODE as $M \\, dx + N \\, dy = 0$ with $M = 2y\\cos x - xy\\sin x$ and $N = 2x\\cos x$. Compute $M_y = 2\\cos x - x\\sin x$ and $N_x = 2\\cos x - 2x\\sin x$, so $M_y - N_x = x\\sin x$. Notice $\\frac{M_y - N_x}{N} = \\frac{x\\sin x}{2x\\cos x} = \\frac{1}{2}\\tan x$, which depends on $x$ alone. Hence one integrating factor is $\\mu_1(x) = e^{\\int \\frac{1}{2}\\tan x \\, dx} = e^{\\frac{1}{2}\\log_e(\\sec x)} = \\sqrt{\\sec x}$, proving (D) is TRUE. Multiplying the ODE by $\\sqrt{\\sec x}$ yields the exact equation $d(2xy\\sqrt{\\cos x}) = 0$, so the general solution is $u(x, y) = xy\\sqrt{\\cos x} = C$. Every other integrating factor has the form $\\mu = \\mu_1 \\cdot h(u) = \\sqrt{\\sec x} \\cdot h(xy\\sqrt{\\cos x})$ for a nonzero function $h$. For (B), taking $h(u) = u$ gives $\\mu = \\sqrt{\\sec x} \\cdot (xy\\sqrt{\\cos x}) = xy$, and indeed $xyM \\, dx + xyN \\, dy = d(x^2 y^2 \\cos x) = 0$, so (B) is TRUE. For (A), $\\frac{M}{xy} = \\frac{2\\cos x}{x} - \\sin x$ and $\\frac{N}{xy} = \\frac{2\\cos x}{y}$ satisfy $\\partial_y(\\frac{M}{xy}) = 0 \\ne -\\frac{2\\sin x}{y} = \\partial_x(\\frac{N}{xy})$, so (A) is FALSE. For (C), $M\\sec x = 2y - xy\\tan x$ and $N\\sec x = 2x$ satisfy $\\partial_y(M\\sec x) = 2 - x\\tan x \\ne 2 = \\partial_x(N\\sec x)$, so (C) is FALSE. Therefore, options (B) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f(x, y) = \\begin{cases} \\frac{x^2 y}{1 + x^2} \\sin(1/x), & x \\ne 0 \\\\ 0, & x = 0 \\end{cases}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\lim_{y \\to 0} \\lim_{x \\to 0} f(x, y)$ exists.",
+        "$\\frac{\\partial f}{\\partial x}$ is continuous at the point $(0, 1)$.",
+        "$\\frac{\\partial f}{\\partial y}$ is continuous at the point $(0, 1)$.",
+        "$\\lim_{(x, y) \\to (0, 0)} \\frac{f(x, y)}{\\sqrt{x^2 + y^2}}$ does not exist."
+      ],
+      "explanationEn": "Analyze each statement for $f(x, y) = \\frac{x^2 y}{1 + x^2} \\sin(1/x)$ ($x \\ne 0$) and $f(0, y) = 0$: (A) For any fixed $y$, $|f(x, y)| \\le x^2 |y| \\to 0$ as $x \\to 0$, so $\\lim_{x \\to 0} f(x, y) = 0$ for all $y$, and hence $\\lim_{y \\to 0} \\lim_{x \\to 0} f(x, y) = 0$ exists; (A) is TRUE. (B) At $(0, 1)$, $f_x(0, 1) = \\lim_{h \\to 0} \\frac{f(h, 1) - f(0, 1)}{h} = \\lim_{h \\to 0} \\frac{h}{1 + h^2} \\sin(1/h) = 0$. For $x \\ne 0$, $f_x(x, y) = \\frac{2xy}{(1+x^2)^2} \\sin(1/x) - \\frac{y}{1+x^2} \\cos(1/x)$. As $(x, y) \\to (0, 1)$ with $x \\ne 0$, the term $-\\frac{y}{1+x^2}\\cos(1/x)$ oscillates between $-1$ and $1$ and has no limit. Thus $f_x$ is NOT continuous at $(0, 1)$; (B) is FALSE. (C) For $x \\ne 0$, $f_y(x, y) = \\frac{x^2}{1+x^2} \\sin(1/x)$, and for $x = 0$, $f_y(0, y) = 0$. As $(x, y) \\to (0, 1)$, $|f_y(x, y)| \\le x^2 \\to 0 = f_y(0, 1)$, so $f_y$ IS continuous at $(0, 1)$; (C) is TRUE. (D) For $(x, y) \\ne (0, 0)$, $\\left|\\frac{f(x, y)}{\\sqrt{x^2 + y^2}}\\right| \\le \\frac{x^2 |y|}{\\sqrt{x^2 + y^2}} \\le |x||y| \\to 0$ as $(x, y) \\to (0, 0)$, so the limit DOES exist (and equals $0$); (D) is FALSE. Therefore, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P = \\begin{bmatrix} 0 & 1 & 0 & 0 & 0 \\\\ 1 & 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 & 1 \\\\ 0 & 0 & 1 & 0 & 0 \\end{bmatrix} \\in M_5(\\mathbb{C})$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\operatorname{nullity}(P - I) \\ge 2$, where $I$ is the $5 \\times 5$ identity matrix.",
+        "$P$ has $4$ distinct eigenvalues in $\\mathbb{C}$.",
+        "$P$ has $3$ distinct eigenvalues in $\\mathbb{R}$.",
+        "If $\\lambda$ is an eigenvalue of $P$, then there exists a positive integer $n$ such that $\\lambda^n = 1$."
+      ],
+      "explanationEn": "Observe that $P$ is a block-diagonal permutation matrix $P = P_1 \\oplus P_2$, where $P_1 = \\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$ (a 2-cycle) and $P_2 = \\begin{bmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 1 & 0 & 0 \\end{bmatrix}$ (a 3-cycle). The characteristic polynomial of $P$ is $\\det(\\lambda I - P) = (\\lambda^2 - 1)(\\lambda^3 - 1) = (\\lambda - 1)^2 (\\lambda + 1)(\\lambda - \\omega)(\\lambda - \\omega^2)$, where $\\omega = e^{2\\pi i/3}$. Check each option: (A) Since $P$ is unitary (hence diagonalizable over $\\mathbb{C}$), the geometric multiplicity of $\\lambda = 1$ equals its algebraic multiplicity $2$, so $\\operatorname{nullity}(P - I) = 2 \\ge 2$ (specifically, $(1,1,0,0,0)^T$ and $(0,0,1,1,1)^T$ span $\\ker(P - I)$). (A) is TRUE. (B) The distinct eigenvalues of $P$ in $\\mathbb{C}$ are $1, -1, \\omega, \\omega^2$ — exactly $4$ distinct eigenvalues. (B) is TRUE. (C) The distinct real eigenvalues of $P$ are only $1$ and $-1$ (just $2$, not $3$), so (C) is FALSE. (D) Since $P_1^2 = I_2$ and $P_2^3 = I_3$, we have $P^6 = I_5$, so every eigenvalue $\\lambda$ of $P$ satisfies $\\lambda^6 = 1$ (taking $n = 6$). (D) is TRUE. Therefore, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\binom{n}{r}$ denote the number of ways of choosing $r$ distinct objects out of $n$ distinct objects. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\sum_{k=0}^{6} (-1)^k \\binom{13}{2k} = -64$.",
+        "$\\sum_{k=0}^{6} (-1)^k \\binom{13}{2k+1} = 128$.",
+        "$\\sum_{k=0}^{6} (-1)^k \\binom{13}{2k} = 64$.",
+        "$\\sum_{k=0}^{6} (-1)^k \\binom{13}{2k+1} = -128$."
+      ],
+      "explanationEn": "Use the binomial expansion of $(1 + i)^{13}$: $(1 + i)^{13} = \\sum_{r=0}^{13} \\binom{13}{r} i^r = \\sum_{k=0}^{6} (-1)^k \\binom{13}{2k} + i \\sum_{k=0}^{6} (-1)^k \\binom{13}{2k + 1}$. In polar form, $1 + i = \\sqrt{2} e^{i\\pi/4}$, so $(1 + i)^{13} = (\\sqrt{2})^{13} e^{i 13\\pi/4} = 64\\sqrt{2} \\left(\\cos\\frac{13\\pi}{4} + i\\sin\\frac{13\\pi}{4}\\right)$. Since $\\frac{13\\pi}{4} = 3\\pi + \\frac{\\pi}{4}$, we have $\\cos\\frac{13\\pi}{4} = -\\frac{1}{\\sqrt{2}}$ and $\\sin\\frac{13\\pi}{4} = -\\frac{1}{\\sqrt{2}}$. Thus $(1 + i)^{13} = 64\\sqrt{2}\\left(-\\frac{1}{\\sqrt{2}} - \\frac{i}{\\sqrt{2}}\\right) = -64 - 64i$. Comparing real and imaginary parts yields $\\sum_{k=0}^{6} (-1)^k \\binom{13}{2k} = -64$ and $\\sum_{k=0}^{6} (-1)^k \\binom{13}{2k+1} = -64$. Hence only (A) is TRUE, while (B), (C), and (D) are FALSE. Therefore, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider matrices $P$ of order $4 \\times 6$ and $Q$ of order $6 \\times 4$ with real entries such that $PQ = 0$ and $QP = 0$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\operatorname{rangespace}(P) \\subseteq \\operatorname{nullspace}(Q)$ and $\\operatorname{rangespace}(Q) \\subseteq \\operatorname{nullspace}(P)$.",
+        "$\\operatorname{rank}(P) + \\operatorname{rank}(Q) \\le 4$.",
+        "If $\\operatorname{rangespace}(P) = \\operatorname{nullspace}(Q)$, then $\\operatorname{rank}(P) + \\operatorname{rank}(Q) = 4$.",
+        "$\\operatorname{rangespace}(Q) = \\operatorname{nullspace}(P)$."
+      ],
+      "explanationEn": "Here $P : \\mathbb{R}^6 \\to \\mathbb{R}^4$ and $Q : \\mathbb{R}^4 \\to \\mathbb{R}^6$ satisfy $QP = 0$ and $PQ = 0$. (A) For any $x \\in \\mathbb{R}^6$, $Q(Px) = (QP)x = 0$, so $\\operatorname{rangespace}(P) \\subseteq \\operatorname{nullspace}(Q)$. Similarly, for any $y \\in \\mathbb{R}^4$, $P(Qy) = (PQ)y = 0$, so $\\operatorname{rangespace}(Q) \\subseteq \\operatorname{nullspace}(P)$. Thus (A) is TRUE. (B) From $\\operatorname{rangespace}(P) \\subseteq \\operatorname{nullspace}(Q)$, taking dimensions gives $\\operatorname{rank}(P) \\le \\operatorname{nullity}(Q)$. By the Rank-Nullity Theorem applied to the $6 \\times 4$ matrix $Q$, $\\operatorname{rank}(Q) + \\operatorname{nullity}(Q) = 4$. Hence $\\operatorname{rank}(P) + \\operatorname{rank}(Q) \\le \\operatorname{nullity}(Q) + \\operatorname{rank}(Q) = 4$, proving (B) is TRUE. (C) If $\\operatorname{rangespace}(P) = \\operatorname{nullspace}(Q)$, then $\\operatorname{rank}(P) = \\operatorname{nullity}(Q)$, so $\\operatorname{rank}(P) + \\operatorname{rank}(Q) = \\operatorname{nullity}(Q) + \\operatorname{rank}(Q) = 4$, proving (C) is TRUE. (D) Taking $P = 0$ and $Q = 0$ gives $\\operatorname{rangespace}(Q) = \\{0\\} \\ne \\mathbb{R}^6 = \\operatorname{nullspace}(P)$, so (D) is FALSE. Therefore, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be the subset of $\\mathbb{R}$ defined by $V = \\left\\{ \\frac{a + b\\sqrt{2}}{c + d\\sqrt{2}} : a, b, c, d \\in \\mathbb{Q}, c^2 + d^2 \\ne 0 \\right\\}$. Which of the following statements is/are FALSE?",
+      "optionsEn": [
+        "$V$ is closed under the usual addition in $\\mathbb{R}$.",
+        "$V$ is a subspace of the real vector space $\\mathbb{R}$.",
+        "$V$ is a two dimensional subspace of the vector space $\\mathbb{R}$ over $\\mathbb{Q}$.",
+        "$V$ is a four dimensional subspace of the vector space $\\mathbb{R}$ over $\\mathbb{Q}$."
+      ],
+      "explanationEn": "Rationalizing the denominator of any element of $V$ (noting $c^2 - 2d^2 \\ne 0$ for $c, d \\in \\mathbb{Q}$ not both zero, since $\\sqrt{2}$ is irrational): $\\frac{a + b\\sqrt{2}}{c + d\\sqrt{2}} = \\frac{(a + b\\sqrt{2})(c - d\\sqrt{2})}{c^2 - 2d^2} = \\frac{ac - 2bd}{c^2 - 2d^2} + \\frac{bc - ad}{c^2 - 2d^2}\\sqrt{2} \\in \\mathbb{Q}(\\sqrt{2})$. Conversely, setting $c = 1, d = 0$ shows every $a + b\\sqrt{2}$ ($a, b \\in \\mathbb{Q}$) lies in $V$. Hence $V = \\mathbb{Q}(\\sqrt{2}) = \\{p + q\\sqrt{2} : p, q \\in \\mathbb{Q}\\}$. Check each statement: (A) $V = \\mathbb{Q}(\\sqrt{2})$ is a field, hence closed under addition in $\\mathbb{R}$; (A) is TRUE. (B) $V$ is NOT a subspace of $\\mathbb{R}$ over $\\mathbb{R}$, because $1 \\in V$ and $\\pi \\in \\mathbb{R}$ (or $\\sqrt{3} \\in \\mathbb{R}$), yet $\\pi \\cdot 1 = \\pi \\notin \\mathbb{Q}(\\sqrt{2})$; (B) is FALSE. (C) Over $\\mathbb{Q}$, $\\{1, \\sqrt{2}\\}$ is a basis of $V$, so $\\dim_{\\mathbb{Q}}(V) = 2$; (C) is TRUE. (D) Since $\\dim_{\\mathbb{Q}}(V) = 2 \\ne 4$, (D) is FALSE. Since the question asks which statements are FALSE, options (B) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_2026_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The radius of convergence of the series $\\sum_{n=1}^{\\infty} \\frac{(n!)^2}{(2n)!} (\\log_e n)^{-1} x^n$ is _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Let $a_n = \\frac{(n!)^2}{(2n)!} (\\log_e n)^{-1}$ for $n \\ge 2$ (the radius of convergence depends only on the tail as $n \\to \\infty$). Compute the ratio of consecutive coefficients: $\\left|\\frac{a_{n+1}}{a_n}\\right| = \\frac{((n+1)!)^2}{(2n+2)!} \\cdot \\frac{(2n)!}{(n!)^2} \\cdot \\frac{\\log_e n}{\\log_e(n+1)} = \\frac{(n+1)^2}{(2n+2)(2n+1)} \\cdot \\frac{\\log_e n}{\\log_e(n+1)}$. As $n \\to \\infty$, $\\frac{(n+1)^2}{(2n+2)(2n+1)} = \\frac{n+1}{2(2n+1)} \\to \\frac{1}{4}$ and $\\frac{\\log_e n}{\\log_e(n+1)} \\to 1$. Thus $\\lim_{n \\to \\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = \\frac{1}{4}$, so the radius of convergence is $R = \\frac{1}{1/4} = 4$. Rounded off to one decimal place, the answer is 4.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "$\\int_{0}^{1} \\left( \\sum_{k=1}^{\\infty} \\frac{(\\log_e 2)^k x^{k-1}}{(k - 1)!} \\right) dx = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Recognize the power series inside the integral by substituting $m = k - 1$: $\\sum_{k=1}^{\\infty} \\frac{(\\log_e 2)^k x^{k-1}}{(k-1)!} = (\\log_e 2) \\sum_{m=0}^{\\infty} \\frac{(x \\log_e 2)^m}{m!} = (\\log_e 2) e^{x \\log_e 2} = (\\log_e 2) \\cdot 2^x$. Now integrate from $0$ to $1$: $\\int_{0}^{1} (\\log_e 2) \\cdot 2^x \\, dx = \\left[ 2^x \\right]_{0}^{1} = 2^1 - 2^0 = 2 - 1 = 1$. (Equivalently, term-by-term integration gives $\\sum_{k=1}^{\\infty} \\frac{(\\log_e 2)^k}{k!} = e^{\\log_e 2} - 1 = 2 - 1 = 1$.) Rounded off to one decimal place, the answer is 1.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "$\\lim_{n \\to \\infty} \\left( \\frac{n^2 + 1}{\\sqrt{n^6 + 1}} + \\cdots + \\frac{n^2 + n}{\\sqrt{n^6 + n}} \\right) = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Let $S_n = \\sum_{k=1}^{n} \\frac{n^2 + k}{\\sqrt{n^6 + k}}$. Bound $S_n$ using the Squeeze Theorem: For every $1 \\le k \\le n$, $\\sqrt{n^6 + 1} \\le \\sqrt{n^6 + k} \\le \\sqrt{n^6 + n}$, so $\\frac{1}{\\sqrt{n^6 + n}} \\sum_{k=1}^{n} (n^2 + k) \\le S_n \\le \\frac{1}{\\sqrt{n^6 + 1}} \\sum_{k=1}^{n} (n^2 + k)$. Compute the numerator sum: $\\sum_{k=1}^{n} (n^2 + k) = n^3 + \\frac{n(n+1)}{2}$. Dividing numerator and denominator by $n^3$ gives $\\frac{1 + \\frac{1}{2n} + \\frac{1}{2n^2}}{\\sqrt{1 + \\frac{1}{n^5}}} \\le S_n \\le \\frac{1 + \\frac{1}{2n} + \\frac{1}{2n^2}}{\\sqrt{1 + \\frac{1}{n^6}}}$. As $n \\to \\infty$, both the lower and upper bounds converge to $\\frac{1}{1} = 1$. By the Squeeze Theorem, $\\lim_{n \\to \\infty} S_n = 1$. Rounded off to one decimal place, the answer is 1.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "$\\lim_{x \\to 0} \\left( \\frac{1}{x} - \\frac{1}{\\sin x} + e^{\\frac{1 - \\cos x}{x}} \\right) = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Split the limit into two parts as $x \\to 0$: First, $\\lim_{x \\to 0} \\left(\\frac{1}{x} - \\frac{1}{\\sin x}\\right) = \\lim_{x \\to 0} \\frac{\\sin x - x}{x \\sin x}$. Using $\\sin x = x - \\frac{x^3}{6} + O(x^5)$, this becomes $\\lim_{x \\to 0} \\frac{-x^3/6 + O(x^5)}{x^2 + O(x^4)} = 0$. Second, $\\lim_{x \\to 0} \\frac{1 - \\cos x}{x} = \\lim_{x \\to 0} \\frac{x^2/2 + O(x^4)}{x} = 0$, so by continuity of the exponential function, $\\lim_{x \\to 0} e^{\\frac{1 - \\cos x}{x}} = e^0 = 1$. Combining both limits yields $0 + 1 = 1$. Rounded off to one decimal place, the answer is 1.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "Let $\\alpha$ and $\\beta$ be real numbers such that the differential equation $(y^3 + \\alpha x y^4 - 5x + \\cos 2y) \\, dx + (3xy^2 + 20 x^2 y^3 + \\beta x \\sin 2y) \\, dy = 0$ is exact. Then $\\alpha + \\beta = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Write the ODE in the form $M(x, y) \\, dx + N(x, y) \\, dy = 0$, where $M(x, y) = y^3 + \\alpha x y^4 - 5x + \\cos 2y$ and $N(x, y) = 3xy^2 + 20x^2 y^3 + \\beta x \\sin 2y$. For the differential equation to be exact, we require $\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$ identically: $\\frac{\\partial M}{\\partial y} = 3y^2 + 4\\alpha x y^3 - 2\\sin 2y$, and $\\frac{\\partial N}{\\partial x} = 3y^2 + 40 x y^3 + \\beta \\sin 2y$. Equating the coefficients of $x y^3$ and $\\sin 2y$ gives $4\\alpha = 40 \\implies \\alpha = 10$ and $\\beta = -2$. Therefore, $\\alpha + \\beta = 10 + (-2) = 8$. Rounded off to one decimal place, the answer is 8.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $z = \\cos(4x + 5y)$, where $x = \\frac{\\pi}{2} + 2\\theta$, $y = -\\left(\\frac{\\pi}{4} + \\theta\\right)$. Then $\\left.\\frac{dz}{d\\theta}\\right|_{\\theta = \\frac{\\pi}{4}} = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Substitute $x = \\frac{\\pi}{2} + 2\\theta$ and $y = -\\left(\\frac{\\pi}{4} + \\theta\\right)$ directly into $4x + 5y$: $4x + 5y = 4\\left(\\frac{\\pi}{2} + 2\\theta\\right) - 5\\left(\\frac{\\pi}{4} + \\theta\\right) = 2\\pi + 8\\theta - \\frac{5\\pi}{4} - 5\\theta = \\frac{3\\pi}{4} + 3\\theta$. Thus $z(\\theta) = \\cos\\left(\\frac{3\\pi}{4} + 3\\theta\\right)$. Differentiating with respect to $\\theta$ gives $\\frac{dz}{d\\theta} = -3\\sin\\left(\\frac{3\\pi}{4} + 3\\theta\\right)$. Evaluating at $\\theta = \\frac{\\pi}{4}$ gives $\\frac{3\\pi}{4} + \\frac{3\\pi}{4} = \\frac{3\\pi}{2}$, where $\\sin\\left(\\frac{3\\pi}{2}\\right) = -1$. Hence $\\left.\\frac{dz}{d\\theta}\\right|_{\\theta = \\pi/4} = -3(-1) = 3$. Rounded off to one decimal place, the answer is 3.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Group Theory",
+      "difficulty": "Easy",
+      "correctOption": "8",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 8.0,
+      "natMax": 8.0,
+      "questionTextEn": "Let $C_n$ denote a cyclic group having $n$ elements. If there is a surjective group homomorphism from $C_n$ to $C_{30}$, then the total number of such distinct surjective homomorphisms is _____.",
+      "optionsEn": [],
+      "explanationEn": "Let $C_n = \\langle g \\rangle$. Any group homomorphism $\\varphi : C_n \\to C_{30}$ is uniquely determined by the image $\\varphi(g) \\in C_{30}$. For $\\varphi$ to be surjective, $\\varphi(g)$ must generate $C_{30}$ (i.e., $\\operatorname{ord}(\\varphi(g)) = 30$). Because we are given that at least one surjective homomorphism exists, $30$ must divide $n$ (so $\\varphi(g)^n = e$ holds automatically for every generator of $C_{30}$). Thus every generator of $C_{30}$ defines a distinct surjective homomorphism from $C_n$ onto $C_{30}$. The number of generators of $C_{30}$ is Euler's totient $\\phi(30) = \\phi(2 \\cdot 3 \\cdot 5) = 30\\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{5}\\right) = 8$. Therefore, the total number of distinct surjective homomorphisms is 8."
+    },
+    {
+      "questionId": "jam_ma_2026_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Easy",
+      "correctOption": "-4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -4.0,
+      "natMax": -4.0,
+      "questionTextEn": "$\\int_{0}^{3} \\left( |x - 1| - x[x] \\right) dx = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Split the integral $\\int_{0}^{3} (|x - 1| - x[x]) \\, dx$ at the integer points $x = 1$ and $x = 2$: On $[0, 1)$: $|x - 1| = 1 - x$ and $[x] = 0$, so $\\int_{0}^{1} (1 - x) \\, dx = \\left[x - \\frac{x^2}{2}\\right]_0^1 = \\frac{1}{2}$. On $[1, 2)$: $|x - 1| = x - 1$ and $[x] = 1$, so $|x - 1| - x[x] = (x - 1) - x = -1$, giving $\\int_{1}^{2} (-1) \\, dx = -1$. On $[2, 3)$: $|x - 1| = x - 1$ and $[x] = 2$, so $|x - 1| - x[x] = (x - 1) - 2x = -x - 1$, giving $\\int_{2}^{3} (-x - 1) \\, dx = \\left[-\\frac{x^2}{2} - x\\right]_2^3 = \\left(-\\frac{9}{2} - 3\\right) - (-2 - 2) = -\\frac{15}{2} + 4 = -\\frac{7}{2}$. Summing the three pieces yields $\\frac{1}{2} - 1 - \\frac{7}{2} = -4$. Rounded off to one decimal place, the answer is -4.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $A \\in M_3(\\mathbb{C})$. Suppose the column vector $v = \\begin{pmatrix} \\sqrt{5}i \\\\ 2i \\\\ x \\end{pmatrix}$ in $\\mathbb{C}^3$ belongs to the intersection of $\\operatorname{nullspace}(A)$ and $\\operatorname{rangespace}(A^T)$. Then $|x| = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Since $v \\in \\operatorname{nullspace}(A)$, we have $Av = 0$. Since $v \\in \\operatorname{rangespace}(A^T)$, there exists $u \\in \\mathbb{C}^3$ such that $v = A^T u$. Now compute the bilinear (unconjugated) product $v^T v$: $v^T v = (A^T u)^T v = u^T A v = u^T (0) = 0$. Substituting $v = (\\sqrt{5}i, \\; 2i, \\; x)^T$ into $v^T v = 0$ gives $(\\sqrt{5}i)^2 + (2i)^2 + x^2 = 0 \\implies -5 - 4 + x^2 = 0 \\implies x^2 = 9 \\implies x = \\pm 3$. In either case, $|x| = 3$. Rounded off to one decimal place, the answer is 3.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "Let $P$ be a $5 \\times 5$ real matrix with $\\det(P) = 2$. Let $Q$ be the matrix of cofactors of $P$. Then $\\det(Q) = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Let $P$ be a $5 \\times 5$ real matrix with $\\det(P) = 2$, and let $Q$ be its cofactor matrix. The adjugate (classical adjoint) of $P$ is $\\operatorname{adj}(P) = Q^T$, and it satisfies $P \\cdot \\operatorname{adj}(P) = \\det(P) I_5$. Taking determinants of both sides yields $\\det(P) \\det(\\operatorname{adj}(P)) = (\\det(P))^5$. Since $\\det(P) = 2 \\ne 0$ and $\\det(Q) = \\det(Q^T) = \\det(\\operatorname{adj}(P))$, we obtain $\\det(Q) = (\\det(P))^{5 - 1} = 2^4 = 16$. Rounded off to one decimal place, the answer is 16.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Ordinary Differential Equations",
+      "difficulty": "Medium",
+      "correctOption": "-1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -1.0,
+      "natMax": -1.0,
+      "questionTextEn": "Let $\\alpha, \\beta$ and $\\gamma$ be fixed real numbers such that $y(x) = C_1 e^{-x} + C_2 e^{2x} + \\alpha x e^{-x}$, where $C_1$ and $C_2$ are arbitrary real constants, is the general solution of the differential equation $\\frac{d^2 y}{dx^2} + \\beta \\frac{dy}{dx} + \\gamma y = -e^{-x}$. Then $\\alpha(\\beta + \\gamma) = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "From the homogeneous part $y_h(x) = C_1 e^{-x} + C_2 e^{2x}$, the characteristic roots are $r = -1$ and $r = 2$. Hence the characteristic polynomial is $(r + 1)(r - 2) = r^2 - r - 2 = 0$, which identifies $\\beta = -1$ and $\\gamma = -2$. Next, substitute the particular solution $y_p(x) = \\alpha x e^{-x}$ into $y'' - y' - 2y = -e^{-x}$: $y_p' = \\alpha(1 - x)e^{-x}$ and $y_p'' = \\alpha(x - 2)e^{-x}$. Therefore, $y_p'' - y_p' - 2y_p = \\alpha[(x - 2) - (1 - x) - 2x]e^{-x} = -3\\alpha e^{-x}$. Equating $-3\\alpha e^{-x} = -e^{-x}$ gives $\\alpha = \\frac{1}{3}$. Finally, $\\alpha(\\beta + \\gamma) = \\frac{1}{3}(-1 + (-2)) = \\frac{1}{3}(-3) = -1$. Rounded off to one decimal place, the answer is -1.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Multivariable Calculus",
+      "difficulty": "Medium",
+      "correctOption": "0.24 to 0.26",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.24,
+      "natMax": 0.26,
+      "questionTextEn": "Let the function $f : \\mathbb{R}^2 \\to \\mathbb{R}$ be defined by $f(x, y) = \\begin{cases} 4x^2 \\tan^{-1}\\left(\\frac{y}{2x}\\right) + y^3 \\tan^{-1}\\left(\\frac{x}{4y^2}\\right), & xy \\ne 0 \\\\ 0, & \\text{otherwise} \\end{cases}$. Then $\\left(\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial f}{\\partial x}\\right)\\right)$ at $(0, 0)$ is _____ (rounded off to two decimal places).",
+      "optionsEn": [],
+      "explanationEn": "We need $f_{xy}(0, 0) = \\left.\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial f}{\\partial x}\\right)\\right|_{(0,0)} = \\lim_{y \\to 0} \\frac{f_x(0, y) - f_x(0, 0)}{y}$. First compute $f_x(0, 0) = \\lim_{h \\to 0} \\frac{f(h, 0) - f(0, 0)}{h} = \\lim_{h \\to 0} \\frac{0 - 0}{h} = 0$. Next, for any $y \\ne 0$, compute $f_x(0, y) = \\lim_{h \\to 0} \\frac{f(h, y) - f(0, y)}{h} = \\lim_{h \\to 0} \\left[ 4h \\tan^{-1}\\left(\\frac{y}{2h}\\right) + \\frac{y^3}{h} \\tan^{-1}\\left(\\frac{h}{4y^2}\\right) \\right]$. As $h \\to 0$, $|4h \\tan^{-1}(y/(2h))| \\le 2\\pi |h| \\to 0$. For the second term, using $\\lim_{u \\to 0} \\frac{\\tan^{-1} u}{u} = 1$ with $u = \\frac{h}{4y^2}$, we get $\\lim_{h \\to 0} \\frac{y^3}{4y^2} \\cdot \\frac{\\tan^{-1}(h/(4y^2))}{h/(4y^2)} = \\frac{y}{4}$. Thus $f_x(0, y) = \\frac{y}{4}$ for all $y \\in \\mathbb{R}$, and hence $f_{xy}(0, 0) = \\lim_{y \\to 0} \\frac{y/4 - 0}{y} = \\frac{1}{4} = 0.25$. Rounded off to two decimal places, the answer is 0.25 (official range: 0.24 to 0.26)."
+    },
+    {
+      "questionId": "jam_ma_2026_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "1.1 to 1.3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.1,
+      "natMax": 1.3,
+      "questionTextEn": "The double integral of $f(x, y) = x$ over the triangular region with vertices at $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$, $(1, 2)$ and $(1, -1)$ is _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "The triangle $T$ has vertices $A\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$, $B(1, 2)$, and $C(1, -1)$. Notice $BC$ is a vertical segment along $x = 1$ of length $2 - (-1) = 3$, and the perpendicular distance (height) from $A$ to $x = 1$ is $1 - \\left(-\\frac{1}{2}\\right) = \\frac{3}{2}$. Thus $\\operatorname{Area}(T) = \\frac{1}{2} \\times 3 \\times \\frac{3}{2} = \\frac{9}{4}$. Since the integrand $f(x, y) = x$ is linear, the double integral equals the $x$-coordinate of the centroid multiplied by the area: $\\bar{x} = \\frac{-1/2 + 1 + 1}{3} = \\frac{1}{2}$, so $\\iint_T x \\, dA = \\bar{x} \\cdot \\operatorname{Area}(T) = \\frac{1}{2} \\cdot \\frac{9}{4} = \\frac{9}{8} = 1.125$. (Alternatively, directly: $\\int_{-1/2}^{1} x [(x + 1) - (-x)] \\, dx = \\int_{-1/2}^{1} (2x^2 + x) \\, dx = \\left[\\frac{2x^3}{3} + \\frac{x^2}{2}\\right]_{-1/2}^{1} = \\frac{9}{8} = 1.125$.) Rounded off to one decimal place, the answer is 1.1 (official range: 1.1 to 1.3)."
+    },
+    {
+      "questionId": "jam_ma_2026_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "0.4 to 0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.4,
+      "natMax": 0.5,
+      "questionTextEn": "Let $f(x) = \\int_{0}^{e^{\\sin x}} \\int_{0}^{\\log_e y} e^{-\\left(\\frac{1}{\\sqrt{2}}\\right)} (1 - t^2) \\, dt \\, dy$. Then $f'(\\pi/4) = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Let $G(y) = \\int_{0}^{\\log_e y} e^{-1/\\sqrt{2}} (1 - t^2) \\, dt$, so $f(x) = \\int_{0}^{e^{\\sin x}} G(y) \\, dy$. By the Fundamental Theorem of Calculus and the Chain Rule, $f'(x) = G(e^{\\sin x}) \\cdot \\frac{d}{dx}(e^{\\sin x}) = \\left(e^{-1/\\sqrt{2}} \\int_{0}^{\\sin x} (1 - t^2) \\, dt\\right) \\cdot (\\cos x) e^{\\sin x}$. Evaluate at $x = \\frac{\\pi}{4}$, where $\\sin\\left(\\frac{\\pi}{4}\\right) = \\cos\\left(\\frac{\\pi}{4}\\right) = \\frac{1}{\\sqrt{2}}$: the exponential factors cancel cleanly since $e^{-1/\\sqrt{2}} \\cdot e^{1/\\sqrt{2}} = 1$. Thus $f'\\left(\\frac{\\pi}{4}\\right) = \\frac{1}{\\sqrt{2}} \\int_{0}^{1/\\sqrt{2}} (1 - t^2) \\, dt = \\frac{1}{\\sqrt{2}} \\left[t - \\frac{t^3}{3}\\right]_{0}^{1/\\sqrt{2}} = \\frac{1}{\\sqrt{2}} \\left(\\frac{1}{\\sqrt{2}} - \\frac{1}{6\\sqrt{2}}\\right) = \\frac{1}{2} \\cdot \\frac{5}{6} = \\frac{5}{12} \\approx 0.4167$. Rounded off to one decimal place, the answer is 0.4 (official range: 0.4 to 0.5)."
+    },
+    {
+      "questionId": "jam_ma_2026_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Integral Calculus",
+      "difficulty": "Medium",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "The volume of the tetrahedron bounded by the planes $x = 1, y = 2, z = 3$ and $12x + 8y + 6z = 70$ is _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Translate coordinates to the corner $(1, 2, 3)$ by setting $u = x - 1$, $v = y - 2$, and $w = z - 3$. The bounding planes $x = 1, y = 2, z = 3$ become the coordinate planes $u = 0, v = 0, w = 0$. The fourth plane $12x + 8y + 6z = 70$ becomes $12(u + 1) + 8(v + 2) + 6(w + 3) = 70$, which simplifies to $12u + 8v + 6w = 70 - (12 + 16 + 18) = 24$, or in intercept form $\\frac{u}{2} + \\frac{v}{3} + \\frac{w}{4} = 1$. The volume of a right-angled tetrahedron with axis intercepts $a = 2, b = 3, c = 4$ is $V = \\frac{1}{6} a b c = \\frac{1}{6}(2)(3)(4) = 4$. Rounded off to one decimal place, the answer is 4.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "-1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -1.0,
+      "natMax": -1.0,
+      "questionTextEn": "Let $M \\in M_3(\\mathbb{R})$. If $M \\begin{pmatrix} \\sqrt{15} \\\\ \\sqrt{15} \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} \\sqrt{3} \\\\ \\sqrt{2} \\\\ -5 \\end{pmatrix}$, $M \\begin{pmatrix} 0 \\\\ 0 \\\\ \\sqrt{30} \\end{pmatrix} = \\begin{pmatrix} \\sqrt{15} \\\\ \\sqrt{10} \\\\ \\sqrt{5} \\end{pmatrix}$, $M \\begin{pmatrix} -\\sqrt{15} \\\\ \\sqrt{15} \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} \\sqrt{12} \\\\ -\\sqrt{18} \\\\ 0 \\end{pmatrix}$, then $\\det(M) = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Assemble the three input column vectors into $U$ and the three output column vectors into $V$ so that $M U = V$, where $U = \\begin{pmatrix} \\sqrt{15} & 0 & -\\sqrt{15} \\\\ \\sqrt{15} & 0 & \\sqrt{15} \\\\ 0 & \\sqrt{30} & 0 \\end{pmatrix}$ and $V = \\begin{pmatrix} \\sqrt{3} & \\sqrt{15} & \\sqrt{12} \\\\ \\sqrt{2} & \\sqrt{10} & -\\sqrt{18} \\\\ -5 & \\sqrt{5} & 0 \\end{pmatrix}$. Compute $\\det(U)$ by expanding along the third row: $\\det(U) = -\\sqrt{30} \\det\\begin{pmatrix} \\sqrt{15} & -\\sqrt{15} \\\\ \\sqrt{15} & \\sqrt{15} \\end{pmatrix} = -\\sqrt{30}(15 + 15) = -30\\sqrt{30}$. Compute $\\det(V)$ by expanding along the third row (noting $\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{18} = 3\\sqrt{2}$): $\\det(V) = -5 \\det\\begin{pmatrix} \\sqrt{15} & 2\\sqrt{3} \\\\ \\sqrt{10} & -3\\sqrt{2} \\end{pmatrix} - \\sqrt{5} \\det\\begin{pmatrix} \\sqrt{3} & 2\\sqrt{3} \\\\ \\sqrt{2} & -3\\sqrt{2} \\end{pmatrix}$ $= -5(-3\\sqrt{30} - 2\\sqrt{30}) - \\sqrt{5}(-3\\sqrt{6} - 2\\sqrt{6}) = 25\\sqrt{30} + 5\\sqrt{30} = 30\\sqrt{30}$. Therefore, $\\det(M) = \\frac{\\det(V)}{\\det(U)} = \\frac{30\\sqrt{30}}{-30\\sqrt{30}} = -1$. Rounded off to one decimal place, the answer is -1.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "Let $a, b \\in \\mathbb{R}$. If the system of linear equations $x + 2y + 2z = 1$, $2x + 3y + z = 2$, $ax + 5y + bz = b$ has infinitely many solutions, then $a + b = $ _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "Write the augmented matrix $[A \\mid d]$ of the system: $R_1 = (1, 2, 2 \\mid 1)$, $R_2 = (2, 3, 1 \\mid 2)$, $R_3 = (a, 5, b \\mid b)$. Notice $R_1$ and $R_2$ are linearly independent (their first two entries have determinant $1(3) - 2(2) = -1 \\ne 0$). For the system to have infinitely many solutions, $R_3$ must be a linear combination of $R_1$ and $R_2$: $R_3 = c_1 R_1 + c_2 R_2$ for some $c_1, c_2 \\in \\mathbb{R}$. Equating the four components gives: (i) $c_1 + 2c_2 = a$, (ii) $2c_1 + 3c_2 = 5$, (iii) $2c_1 + c_2 = b$, and (iv) $c_1 + 2c_2 = b$. From (iii) and (iv), $2c_1 + c_2 = c_1 + 2c_2 \\implies c_1 = c_2$. Substituting $c_1 = c_2$ into (ii) gives $5c_1 = 5 \\implies c_1 = c_2 = 1$. Then (i) and (iv) yield $a = 1 + 2 = 3$ and $b = 1 + 2 = 3$, so $a + b = 6$. Rounded off to one decimal place, the answer is 6.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "165",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 165.0,
+      "natMax": 165.0,
+      "questionTextEn": "A fruit shop has $4$ different types of bananas. The number of ways in which $12$ bananas can be bought with at least one banana from each type, is _____.",
+      "optionsEn": [],
+      "explanationEn": "Let $x_1, x_2, x_3, x_4$ be the numbers of bananas bought from each of the $4$ different types. We need the number of integer solutions to $x_1 + x_2 + x_3 + x_4 = 12$ with $x_i \\ge 1$ for each $i \\in \\{1, 2, 3, 4\\}$. By the stars-and-bars theorem for positive integer solutions, the number of ways is $\\binom{12 - 1}{4 - 1} = \\binom{11}{3} = \\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1} = 165$. Therefore, the answer is 165."
+    },
+    {
+      "questionId": "jam_ma_2026_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "Let $A$ be a $3 \\times 3$ real matrix such that given any column vector $x \\in \\mathbb{R}^3$, the column vector $Ax$ is the reflection of $x$ about the plane $\\{(a, b, -a - b) : a, b \\in \\mathbb{R}\\}$. Then the sum of the diagonal elements of $A$ is _____ (rounded off to one decimal place).",
+      "optionsEn": [],
+      "explanationEn": "The plane $W = \\{(a, b, -a - b) : a, b \\in \\mathbb{R}\\} = \\{(x, y, z) \\in \\mathbb{R}^3 : x + y + z = 0\\}$ is a 2-dimensional subspace of $\\mathbb{R}^3$ with normal vector $n = (1, 1, 1)^T$. For the reflection $A$ across $W$: every vector $w \\in W$ is fixed ($Aw = w$, giving eigenvalue $1$ with multiplicity $2$), and the normal vector $n$ is negated ($An = -n$, giving eigenvalue $-1$ with multiplicity $1$). The sum of the diagonal elements of $A$ is its trace, which equals the sum of its eigenvalues: $\\operatorname{tr}(A) = 1 + 1 + (-1) = 1$. Rounded off to one decimal place, the answer is 1.0."
+    },
+    {
+      "questionId": "jam_ma_2026_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA 2026 Official Paper",
+      "topicTag": "Real Analysis",
+      "difficulty": "Medium",
+      "correctOption": "924",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 924.0,
+      "natMax": 924.0,
+      "questionTextEn": "Let $\\binom{n}{r}$ denote the number of ways of choosing $r$ distinct objects out of $n$ distinct objects. Then, $\\binom{5}{0} + \\binom{6}{1} + \\binom{7}{2} + \\binom{8}{3} + \\binom{9}{4} + \\binom{10}{5} + \\binom{11}{6} = $ _____.",
+      "optionsEn": [],
+      "explanationEn": "Use the Hockey-Stick Identity (or repeated Pascal's identity): since $\\binom{5}{0} = \\binom{6}{0}$, we telescope the sum step by step using $\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}$: $\\binom{6}{0} + \\binom{6}{1} = \\binom{7}{1}$, then $\\binom{7}{1} + \\binom{7}{2} = \\binom{8}{2}$, continuing up to $\\binom{11}{5} + \\binom{11}{6} = \\binom{12}{6}$. Alternatively, by symmetry $\\binom{5+k}{k} = \\binom{5+k}{5}$, so $\\sum_{k=0}^{6} \\binom{5+k}{5} = \\binom{12}{6}$. Compute $\\binom{12}{6} = \\frac{12 \\times 11 \\times 10 \\times 9 \\times 8 \\times 7}{6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1} = 924$. Therefore, the answer is 924."
+    }
+  ]
+}

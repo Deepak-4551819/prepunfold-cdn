@@ -1,0 +1,611 @@
+{
+  "testId": "jam_ph_topic_electricity_magnetism_01",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_topic_electricity_magnetism_01",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2027 PH Topic Test: Electricity and Magnetism — Set 01",
+  "titleEn": "IIT JAM 2027 PH Topic Test: Electricity and Magnetism — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_04_electricity_magnetism",
+  "part_id": "part_04_electricity_magnetism",
+  "partTitle": "Electricity and Magnetism",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM PH • Electricity and Magnetism • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "AC Circuits",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a series $RLC$ AC circuit driven at angular frequency $\\omega$, the resistance is $R = 30\\ \\Omega$, inductive reactance is $X_L = 70\\ \\Omega$, and capacitive reactance is $X_C = 30\\ \\Omega$. The power factor $\\cos\\phi$ of the circuit is",
+      "optionsEn": [
+        "$0.60$",
+        "$0.80$",
+        "$0.50$",
+        "$0.75$"
+      ],
+      "explanationEn": "The impedance is $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + 40^2} = 50\\ \\Omega$. Thus the power factor is $\\cos\\phi = \\frac{R}{Z} = \\frac{30}{50} = 0.60$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Poynting Vector & Radiation Pressure",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A plane electromagnetic wave of average intensity $I$ is incident normally on a flat surface. The ratio of the radiation pressure exerted on a perfectly reflecting mirror to that exerted on a perfectly absorbing black surface is",
+      "optionsEn": [
+        "$4$",
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$2$"
+      ],
+      "explanationEn": "For normal incidence, $P_{\\text{abs}} = \\frac{I}{c}$ and $P_{\\text{ref}} = \\frac{2I}{c}$ (momentum reverses upon reflection), so their ratio is $2$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Magnetic Dipole",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A planar current loop of area $A$ carrying steady current $I$ has magnetic dipole moment $\\vec{m} = m\\hat{n}$. When placed in a uniform magnetic field $\\vec{B}$ at angle $\\theta$ between $\\vec{m}$ and $\\vec{B}$, the net force and the magnitude of the torque on the loop are, respectively,",
+      "optionsEn": [
+        "$0$ and $IAB\\cos\\theta$",
+        "$0$ and $IAB\\sin\\theta$",
+        "$IAB\\cos\\theta$ and $IAB\\sin\\theta$",
+        "$IAB\\sin\\theta$ and $0$"
+      ],
+      "explanationEn": "In a uniform magnetic field, the net force on any closed current loop is $\\vec{F} = I(\\oint d\\vec{l})\\times\\vec{B} = \\vec{0}$, while the torque is $\\vec{\\tau} = \\vec{m}\\times\\vec{B}$ with magnitude $IAB\\sin\\theta$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Lorentz Force",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A non-relativistic proton enters a uniform magnetic field $\\vec{B}$ perpendicularly with speed $v$ and executes circular motion with time period $T$. If a second proton enters the same magnetic field perpendicularly with speed $2v$, its time period is",
+      "optionsEn": [
+        "$\\frac{T}{2}$",
+        "$2T$",
+        "$T$",
+        "$4T$"
+      ],
+      "explanationEn": "The cyclotron period $T = \\frac{2\\pi m}{qB}$ is independent of the particle's speed $v$ (non-relativistically), so the period remains $T$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Lorentz Force",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A beam of singly charged ions enters a region containing crossed uniform electric field $\\vec{E} = E_0\\hat{y}$ and magnetic field $\\vec{B} = B_0\\hat{z}$. For an ion moving along $+\\hat{x}$ to pass through undeflected, its speed must be",
+      "optionsEn": [
+        "$\\frac{E_0}{B_0}$",
+        "$E_0 B_0$",
+        "$\\sqrt{\\frac{E_0}{B_0}}$",
+        "$\\frac{B_0}{E_0}$"
+      ],
+      "explanationEn": "The Lorentz force is $\\vec{F} = q(E_0\\hat{y} + v\\hat{x}\\times B_0\\hat{z}) = q(E_0 - vB_0)\\hat{y}$. Setting $\\vec{F} = \\vec{0}$ gives $v = \\frac{E_0}{B_0}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Capacitance & Dielectrics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A parallel-plate capacitor of plate area $A$ and plate separation $d$ has air capacitance $C_0$. A dielectric slab of area $A$, thickness $d/2$, and relative permittivity $\\varepsilon_r = 3$ is inserted parallel to the plates. The new capacitance is",
+      "optionsEn": [
+        "$\\frac{3}{2}C_0$",
+        "$\\frac{3}{4}C_0$",
+        "$2C_0$",
+        "$\\frac{4}{3}C_0$"
+      ],
+      "explanationEn": "The capacitor behaves as two capacitors in series: an air gap of thickness $d/2$ ($C_1 = 2C_0$) and a dielectric layer of thickness $d/2$ ($C_2 = 2\\varepsilon_r C_0 = 6C_0$). Thus $C = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{12C_0}{8} = \\frac{3}{2}C_0$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Electromagnetic Waves",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a sinusoidal plane electromagnetic wave propagating in a lossless linear medium of permittivity $\\varepsilon$ and permeability $\\mu$, the ratio of the time-averaged electric energy density $\\langle u_E \\rangle$ to the time-averaged magnetic energy density $\\langle u_B \\rangle$ is",
+      "optionsEn": [
+        "$1$",
+        "$\\sqrt{\\frac{\\varepsilon}{\\mu}}$",
+        "$\\frac{\\varepsilon}{\\mu}$",
+        "$\\frac{1}{2}$"
+      ],
+      "explanationEn": "Since $E_0 = v B_0 = \\frac{B_0}{\\sqrt{\\mu\\varepsilon}}$, we have $\\langle u_E \\rangle = \\frac{1}{4}\\varepsilon E_0^2 = \\frac{1}{4}\\varepsilon\\left(\\frac{B_0^2}{\\mu\\varepsilon}\\right) = \\frac{B_0^2}{4\\mu} = \\langle u_B \\rangle$. Thus the ratio is $1$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Poynting Vector & Radiation Pressure",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A plane electromagnetic wave of average intensity $I$ is incident on a perfectly reflecting flat mirror at an angle of incidence $\\theta$ with respect to the surface normal. The radiation pressure exerted on the mirror is",
+      "optionsEn": [
+        "$\\frac{2I\\sin^2\\theta}{c}$",
+        "$\\frac{2I\\cos^2\\theta}{c}$",
+        "$\\frac{I\\cos^2\\theta}{c}$",
+        "$\\frac{2I\\cos\\theta}{c}$"
+      ],
+      "explanationEn": "The power intercepted per unit surface area is $I\\cos\\theta$, and the normal component of momentum change per unit energy upon perfect reflection is $\\frac{2\\cos\\theta}{c}$. Multiplying gives $P_{\\text{rad}} = \\frac{2I\\cos^2\\theta}{c}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Electrostatic Energy",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The total electrostatic self-energy required to assemble a uniformly charged solid non-conducting sphere of total charge $Q$ and radius $R$ in vacuum is",
+      "optionsEn": [
+        "$\\frac{3Q^2}{20\\pi\\varepsilon_0 R}$",
+        "$\\frac{Q^2}{8\\pi\\varepsilon_0 R}$",
+        "$\\frac{3Q^2}{10\\pi\\varepsilon_0 R}$",
+        "$\\frac{Q^2}{4\\pi\\varepsilon_0 R}$"
+      ],
+      "explanationEn": "Integrating $U = \\int \\frac{1}{2}\\varepsilon_0 E^2\\,d\\tau$ gives $U_{\\text{in}} = \\frac{Q^2}{40\\pi\\varepsilon_0 R}$ and $U_{\\text{out}} = \\frac{Q^2}{8\\pi\\varepsilon_0 R}$. Summing both yields $U = \\left(\\frac{1}{40} + \\frac{5}{40}\\right)\\frac{Q^2}{\\pi\\varepsilon_0 R} = \\frac{3Q^2}{20\\pi\\varepsilon_0 R}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "DC Circuits",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Twelve identical resistors, each of resistance $R$, are connected along the twelve edges of a cube. The equivalent resistance measured between two diagonally opposite corners (across a body diagonal) of the cube is",
+      "optionsEn": [
+        "$\\frac{5}{6}R$",
+        "$\\frac{3}{4}R$",
+        "$\\frac{2}{3}R$",
+        "$\\frac{7}{12}R$"
+      ],
+      "explanationEn": "By symmetry, a current $I$ entering one corner splits equally into three edges ($I/3$ each), then splits into six edges ($I/6$ each), and finally recombines through three edges ($I/3$ each) into the opposite corner. The total voltage drop is $V = \\left(\\frac{I}{3} + \\frac{I}{6} + \\frac{I}{3}\\right)R = \\frac{5}{6}IR$, so $R_{\\text{eq}} = \\frac{5}{6}R$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Electrostatics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a static charge-free region of space where the electrostatic potential $V(x, y, z)$ satisfies Laplace's equation $\\nabla^2 V = 0$. Which of the following statements is/are correct?",
+      "optionsEn": [
+        "The value of $V$ at any interior point equals the average of $V$ over any spherical surface centered at that point lying wholly within the region",
+        "$V$ cannot have a strict local maximum or strict local minimum anywhere in the interior of the charge-free region",
+        "The electric field magnitude $|\\vec{E}|$ must be spatially constant throughout the region",
+        "A free point test charge cannot be held in stable mechanical equilibrium solely by electrostatic forces in this region"
+      ],
+      "explanationEn": "Harmonic functions ($\\nabla^2 V = 0$) obey the mean-value theorem and have no interior local extrema (first two True), which directly implies Earnshaw's theorem: no stable electrostatic equilibrium for a point charge (True). However, $|\\vec{E}|$ need not be uniform—for instance $V = x^2 - y^2$ has $\\nabla^2 V = 0$ and non-uniform $\\vec{E}$ (False)."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "AC Circuits",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A series $RLC$ circuit is driven by a sinusoidal AC source of constant RMS voltage $V_0$ and variable angular frequency $\\omega$. Which of the following statements is/are correct?",
+      "optionsEn": [
+        "At resonance, the instantaneous voltage across the inductor and the instantaneous voltage across the capacitor are in phase with each other",
+        "At the resonant frequency $\\omega_0 = \\frac{1}{\\sqrt{LC}}$, the circuit impedance reaches its minimum value $Z = R$",
+        "The half-power bandwidth of the resonance curve is $\\Delta\\omega = \\frac{R}{L}$",
+        "For $\\omega > \\omega_0$, the circuit is net inductive and the current lags the source voltage"
+      ],
+      "explanationEn": "At $\\omega = \\omega_0$, $X_L = X_C$ so $Z_{\\min} = R$ (True). For $\\omega > \\omega_0$, $X_L > X_C$ so current lags voltage (True). Bandwidth is $\\Delta\\omega = \\omega_0 / Q = R/L$ (True). At resonance, $V_L$ and $V_C$ have equal amplitudes and are $180^\\circ$ out of phase (canceling each other), not in phase (False)."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Electromagnetic Waves",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Compare a plane monochromatic electromagnetic wave propagating in a good conductor ($\\sigma \\gg \\omega\\varepsilon$) versus a lossless non-magnetic dielectric ($\\sigma = 0, \\varepsilon_r > 1$). Which of the following statements is/are correct?",
+      "optionsEn": [
+        "In a good conductor, the magnetic energy density greatly exceeds the electric energy density",
+        "In a good conductor, the skin depth increases as the electrical conductivity $\\sigma$ increases",
+        "In a lossless dielectric, the wave amplitude remains constant as it propagates and $\\vec{E}$ and $\\vec{B}$ are in phase",
+        "In a good conductor, the magnetic field lags behind the electric field by a phase angle of approximately $45^\\circ$"
+      ],
+      "explanationEn": "In a good conductor, the complex wavevector $k = (1 + i)/\\delta$ gives $\\vec{B} = (k/\\omega)(\\hat{n}\\times\\vec{E})$, so $\\vec{B}$ lags $\\vec{E}$ by $45^\\circ$ (True) and $u_B / u_E \\approx \\sigma/(\\omega\\varepsilon) \\gg 1$ (True). In a lossless dielectric, $k$ is real so there is no attenuation and $\\vec{E}, \\vec{B}$ are in phase (True). Since $\\delta = \\sqrt{2/(\\mu\\sigma\\omega)}$, higher $\\sigma$ decreases $\\delta$ (False)."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Lorentz Force",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about magnetic forces on steady current-carrying conductors is/are correct?",
+      "optionsEn": [
+        "A semicircular wire of radius $R$ carrying current $I$ in a uniform magnetic field $\\vec{B}$ perpendicular to its plane experiences the same net magnetic force as a straight wire of length $2R$ carrying current $I$ along its diameter",
+        "Two long perpendicular (skew) wires carrying steady currents exert zero net torque on each other",
+        "Two long parallel wires carrying steady currents in the same direction attract each other",
+        "The net magnetic force on any closed rigid current loop placed in a spatially uniform magnetic field is zero"
+      ],
+      "explanationEn": "Parallel currents attract (True), a closed loop in uniform $\\vec{B}$ has $\\vec{F} = I(\\oint d\\vec{l})\\times\\vec{B} = \\vec{0}$ (True), and for any open wire in uniform $\\vec{B}$, $\\vec{F} = I\\vec{L}_{\\text{eff}}\\times\\vec{B}$ depends only on the vector displacement between endpoints ($2R$, True). Skew perpendicular wires exert a non-zero torque tending to align them parallel (False)."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "DC Circuits",
+      "difficulty": "Easy",
+      "correctOption": "16",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 16.0,
+      "natMax": 16.0,
+      "questionTextEn": "A $24\\text{ V}$ ideal DC voltage source is connected across a series combination of a $4\\ \\Omega$ resistor and an $8\\ \\Omega$ resistor. The Thevenin equivalent voltage across the terminals of the $8\\ \\Omega$ resistor is ______ $\\text{V}$. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "By voltage division, the open-circuit voltage across the $8\\ \\Omega$ resistor is $V_{\\text{th}} = 24 \\times \\frac{8}{4 + 8} = 16\\text{ V}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "AC Circuits",
+      "difficulty": "Easy",
+      "correctOption": "1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.0,
+      "natMax": 1.0,
+      "questionTextEn": "An AC voltage source of $100\\text{ V}$ (RMS) drives a series $RC$ circuit with resistance $R = 60\\ \\Omega$ and capacitive reactance $X_C = 80\\ \\Omega$. The RMS current in the circuit is ______ $\\text{A}$. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The impedance is $Z = \\sqrt{R^2 + X_C^2} = \\sqrt{60^2 + 80^2} = 100\\ \\Omega$, so $I_{\\text{rms}} = \\frac{V_{\\text{rms}}}{Z} = \\frac{100}{100} = 1\\text{ A}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Electrostatics",
+      "difficulty": "Easy",
+      "correctOption": "-3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": -3.0,
+      "natMax": -3.0,
+      "questionTextEn": "Three point charges $+q$, $+q$, and $-2q$ are placed at the three vertices of an equilateral triangle of side $a$. If the total electrostatic potential energy of the system is $\\frac{\\alpha q^2}{4\\pi\\varepsilon_0 a}$, the integer value of $\\alpha$ is ______. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "Summing over all three pairs: $U = \\frac{1}{4\\pi\\varepsilon_0 a}[(+q)(+q) + (+q)(-2q) + (+q)(-2q)] = \\frac{-3q^2}{4\\pi\\varepsilon_0 a}$, so $\\alpha = -3$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Faraday's Law",
+      "difficulty": "Easy",
+      "correctOption": "20",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 20.0,
+      "natMax": 20.0,
+      "questionTextEn": "A $100$-turn flat coil of area $0.02\\text{ m}^2$ is placed perpendicular to a uniform magnetic field that decreases linearly from $0.5\\text{ T}$ to $0.1\\text{ T}$ in $0.04\\text{ s}$. The magnitude of the induced emf in the coil is ______ $\\text{V}$. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "By Faraday's law, $|\\mathcal{E}| = N A \\left|\\frac{\\Delta B}{\\Delta t}\\right| = 100 \\times 0.02 \\times \\frac{0.4}{0.04} = 20\\text{ V}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "AC Circuits",
+      "difficulty": "Easy",
+      "correctOption": "1000",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1000.0,
+      "natMax": 1000.0,
+      "questionTextEn": "A series $RLC$ circuit contains an inductor $L = 100\\text{ mH}$, a capacitor $C = 10\\ \\mu\\text{F}$, and a resistor $R = 20\\ \\Omega$. Its resonant angular frequency $\\omega_0$ is ______ $\\text{rad/s}$. (Answer in integer)",
+      "optionsEn": [],
+      "explanationEn": "The resonant angular frequency is $\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{0.1 \\times 10^{-5}}} = \\frac{1}{10^{-3}} = 1000\\text{ rad/s}$."
+    },
+    {
+      "questionId": "jam_ph_topic_electricity_magnetism_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Electricity and Magnetism (Set 01)",
+      "topicTag": "Capacitance & Dielectrics",
+      "difficulty": "Medium",
+      "correctOption": "80.21 to 80.31",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 80.21,
+      "natMax": 80.31,
+      "questionTextEn": "A long cylindrical capacitor has inner conductor radius $a = 1.0\\text{ cm}$ and outer conductor radius $b = 4.0\\text{ cm}$. The space between the conductors is completely filled with a dielectric of relative permittivity $\\varepsilon_r = 2.0$. Taking $\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ F/m}$, the capacitance per unit length is ______ $\\text{pF/m}$. (Round off to 2 decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For a dielectric-filled cylindrical capacitor, $\\frac{C}{L} = \\frac{2\\pi\\varepsilon_0\\varepsilon_r}{\\ln(b/a)} = \\frac{2\\pi(8.854 \\times 10^{-12})(2.0)}{\\ln 4} \\approx 80.26 \\times 10^{-12}\\text{ F/m} = 80.26\\text{ pF/m}$."
+    }
+  ]
+}

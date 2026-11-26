@@ -1,0 +1,607 @@
+{
+  "testId": "jam_ma_topic_single_var_calculus_01",
+  "categoryId": "jam_ma",
+  "test_id": "jam_ma_topic_single_var_calculus_01",
+  "category_id": "jam_ma",
+  "title": "IIT JAM 2027 MA Topic Test: Real Analysis: Functions of One Variable — Set 01",
+  "titleEn": "IIT JAM 2027 MA Topic Test: Real Analysis: Functions of One Variable — Set 01",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_02_single_var",
+  "part_id": "part_02_single_var",
+  "partTitle": "Functions of One Real Variable",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM MA • Functions of One Real Variable • Set 01",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Differentiability",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For the function $f(x) = |x - 2| + |x + 3|$ on $\\mathbb{R}$, the set of points where $f$ is NOT differentiable is",
+      "optionsEn": [
+        "$\\emptyset$",
+        "$\\{2\\}$",
+        "$\\{-3\\}$",
+        "$\\{-3, 2\\}$"
+      ],
+      "explanationEn": "At $x = 2$, $|x + 3|$ is smooth while $|x - 2|$ has a corner (left derivative $-1$, right derivative $+1$), so $f$ is not differentiable at $x = 2$. Similarly, at $x = -3$, $|x - 2|$ is smooth while $|x + 3|$ has a corner, so $f$ is not differentiable at $x = -3$. Everywhere else $f$ is locally linear and hence differentiable. Thus the set is $\\{-3, 2\\}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Cauchy's Mean Value Theorem",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $f(x) = x^2$ and $g(x) = x^3$ on $[1, 2]$, the value of $c \\in (1, 2)$ satisfying Cauchy's Mean Value Theorem is",
+      "optionsEn": [
+        "$\\frac{3}{2}$",
+        "$\\frac{14}{9}$",
+        "$\\frac{7}{5}$",
+        "$\\frac{11}{7}$"
+      ],
+      "explanationEn": "Cauchy's MVT states $\\frac{f'(c)}{g'(c)} = \\frac{f(2) - f(1)}{g(2) - g(1)}$, which gives $\\frac{2c}{3c^2} = \\frac{4 - 1}{8 - 1} = \\frac{3}{7}$. Simplifying $\\frac{2}{3c} = \\frac{3}{7}$ yields $c = \\frac{14}{9} \\in (1, 2)$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Intermediate Value Property",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : [0, 1] \\to [0, 1]$ be a continuous function. Which one of the following is ALWAYS true?",
+      "optionsEn": [
+        "There exists $c \\in [0, 1]$ such that $f(c) = c$.",
+        "$f$ is differentiable at some point in $(0, 1)$.",
+        "$f$ is strictly monotone on $[0, 1]$.",
+        "$f(0) = 0$ or $f(1) = 1$."
+      ],
+      "explanationEn": "Define $g(x) = f(x) - x$ on $[0, 1]$. Since $f([0, 1]) \\subseteq [0, 1]$, we have $g(0) = f(0) \\ge 0$ and $g(1) = f(1) - 1 \\le 0$. Because $g$ is continuous on $[0, 1]$, the Intermediate Value Theorem guarantees the existence of $c \\in [0, 1]$ such that $g(c) = 0$, i.e., $f(c) = c$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\lim_{x \\to 0} \\left(1 + 2\\sin x\\right)^{1/x}$ is",
+      "optionsEn": [
+        "$e^2$",
+        "$e$",
+        "$1$",
+        "$e^{1/2}$"
+      ],
+      "explanationEn": "Taking logarithms gives $\\lim_{x \\to 0} \\frac{\\ln(1 + 2\\sin x)}{x} = \\lim_{x \\to 0} \\frac{\\ln(1 + 2\\sin x)}{2\\sin x} \\cdot \\frac{2\\sin x}{x} = 1 \\cdot 2 = 2$. Exponentiating yields $e^2$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Taylor and Maclaurin Series",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The coefficient of $x^4$ in the Maclaurin series of $f(x) = \\ln(1 + 2x)$ is",
+      "optionsEn": [
+        "$4$",
+        "$-2$",
+        "$-4$",
+        "$-\\frac{1}{4}$"
+      ],
+      "explanationEn": "Since $\\ln(1 + u) = u - \\frac{u^2}{2} + \\frac{u^3}{3} - \\frac{u^4}{4} + \\cdots$, substituting $u = 2x$ gives the $x^4$-term as $-\\frac{(2x)^4}{4} = -4x^4$. Thus the coefficient is $-4$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The value of $\\lim_{x \\to 0} \\left(\\frac{1}{x^2} - \\frac{1}{\\sin^2 x}\\right)$ is",
+      "optionsEn": [
+        "$0$",
+        "$-\\frac{1}{3}$",
+        "$\\frac{1}{3}$",
+        "$-\\frac{1}{6}$"
+      ],
+      "explanationEn": "Combine fractions: $\\frac{\\sin^2 x - x^2}{x^2 \\sin^2 x}$. Using $\\sin x = x - \\frac{x^3}{6} + O(x^5)$, we have $\\sin^2 x = x^2 - \\frac{x^4}{3} + O(x^6)$, so $\\sin^2 x - x^2 = -\\frac{x^4}{3} + O(x^6)$. Meanwhile $x^2 \\sin^2 x = x^4 + O(x^6)$. Dividing and taking $x \\to 0$ gives $-\\frac{1}{3}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Riemann Integrability",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Suppose $f : [0, 1] \\to [0, 1]$ is Riemann integrable and $g : [0, 1] \\to \\mathbb{R}$ is continuous. Then which one of the following is ALWAYS true?",
+      "optionsEn": [
+        "$g \\circ f$ is Riemann integrable on $[0, 1]$.",
+        "$f \\circ g$ is Riemann integrable on $[0, 1]$.",
+        "$f$ is continuous almost everywhere and has only finitely many discontinuities.",
+        "$\\int_0^1 (g \\circ f)(x)\\,dx = g\\left(\\int_0^1 f(x)\\,dx\\right)$."
+      ],
+      "explanationEn": "If $f$ is Riemann integrable on $[0, 1]$ and $g$ is continuous on the compact range $[0, 1]$, then $g \\circ f$ is bounded and every point of continuity of $f$ is a point of continuity of $g \\circ f$; thus the discontinuity set of $g \\circ f$ is contained in that of $f$ (measure zero), so $g \\circ f$ is Riemann integrable. (By contrast, $f \\circ g$ need not be Riemann integrable even if $g$ is continuous, $f$ can have countably infinitely many discontinuities like Thomae's function, and (D) fails for nonlinear $g$.) Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Rolle's Theorem",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The polynomial $p(x) = x^5 + 5x + 1$ has",
+      "optionsEn": [
+        "exactly one real root",
+        "exactly three real roots",
+        "five distinct real roots",
+        "no real roots"
+      ],
+      "explanationEn": "Since $p$ is a polynomial of odd degree $5$, $\\lim_{x \\to -\\infty} p(x) = -\\infty$ and $\\lim_{x \\to +\\infty} p(x) = +\\infty$, so by the Intermediate Value Theorem $p$ has at least one real root. Moreover, $p'(x) = 5x^4 + 5 \\ge 5 > 0$ for all $x \\in \\mathbb{R}$, so $p$ is strictly increasing (or by Rolle's Theorem, cannot have two distinct real roots). Therefore, $p$ has exactly one real root. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Taylor and Maclaurin Series",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $P_3(x) = 1 + x + \\frac{x^2}{2} + \\frac{x^3}{6}$ be the degree-$3$ Maclaurin polynomial of $e^x$. Using the Lagrange form of the remainder and $e < 3$, the error $|e^x - P_3(x)|$ on $[0, 1]$ is bounded above by",
+      "optionsEn": [
+        "$\\frac{1}{24}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{4}$"
+      ],
+      "explanationEn": "By Taylor's theorem with Lagrange remainder, $e^x - P_3(x) = \\frac{e^\\xi}{4!} x^4$ for some $\\xi \\in (0, x) \\subseteq (0, 1)$. On $[0, 1]$, $0 \\le x^4 \\le 1$ and $e^\\xi < e < 3$, so $|e^x - P_3(x)| < \\frac{3}{24} = \\frac{1}{8}$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Mean Value Theorem",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : [0, \\infty) \\to \\mathbb{R}$ be differentiable on $(0, \\infty)$ and continuous on $[0, \\infty)$. If $\\lim_{x \\to \\infty} f'(x) = 3$, then $\\lim_{x \\to \\infty} \\big(f(x + 2) - f(x)\\big)$ is equal to",
+      "optionsEn": [
+        "$3$",
+        "$6$",
+        "$0$",
+        "not necessarily existent"
+      ],
+      "explanationEn": "For each $x > 0$, applying the Mean Value Theorem to $f$ on $[x, x + 2]$ yields a point $c_x \\in (x, x + 2)$ such that $f(x + 2) - f(x) = 2 f'(c_x)$. As $x \\to \\infty$, we have $c_x > x \\to \\infty$, so $f'(c_x) \\to 3$, and therefore $\\lim_{x \\to \\infty} (f(x + 2) - f(x)) = 2 \\cdot 3 = 6$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Uniform Continuity",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a continuous periodic function with period $T > 0$. Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "$f$ is bounded on $\\mathbb{R}$.",
+        "$f$ is uniformly continuous on $\\mathbb{R}$.",
+        "$f$ is Lipschitz continuous on $\\mathbb{R}$.",
+        "$f$ attains both its global maximum and global minimum on $\\mathbb{R}$."
+      ],
+      "explanationEn": "Since $f$ is continuous on the compact interval $[0, T]$, it is bounded and attains its global maximum and minimum on $[0, T]$; by $T$-periodicity, the same bounds and extrema hold on all of $\\mathbb{R}$, proving (A) and (D). Moreover, $f$ is uniformly continuous on $[0, 2T]$; for any $x, y \\in \\mathbb{R}$ with $|x - y| < T$, shifting both by the same integer multiple of $T$ places them in $[0, 2T]$, proving uniform continuity on $\\mathbb{R}$ ((B) is TRUE). However, (C) is FALSE: $f(x) = \\sqrt{|\\sin x|}$ is continuous and $\\pi$-periodic, yet not Lipschitz near $x = 0$. Therefore, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Fundamental Theorem of Calculus",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $F(x) = \\int_{0}^{x} e^{-t^2}\\,dt$ for $x \\in \\mathbb{R}$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$F$ is an odd function on $\\mathbb{R}$.",
+        "$F$ is strictly increasing and bounded on $\\mathbb{R}$.",
+        "$F$ is convex on $[0, \\infty)$.",
+        "$F'(x) = 0$ for some $x \\in \\mathbb{R}$."
+      ],
+      "explanationEn": "(A) Substituting $u = -t$ gives $F(-x) = \\int_0^{-x} e^{-t^2}\\,dt = -\\int_0^x e^{-u^2}\\,du = -F(x)$, so $F$ is odd. TRUE. (B) $F'(x) = e^{-x^2} > 0$ for all $x \\in \\mathbb{R}$, so $F$ is strictly increasing (ruling out (D)); also $|F(x)| < \\int_0^\\infty e^{-t^2}\\,dt = \\frac{\\sqrt{\\pi}}{2}$, so $F$ is bounded. TRUE. (C) $F''(x) = -2x e^{-x^2} \\le 0$ on $[0, \\infty)$, so $F$ is concave (not convex) on $[0, \\infty)$. FALSE. Therefore, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Intermediate Value Property",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f : [0, 1] \\to \\mathbb{R}$ be a continuous function. Which of the following sets can be the image $f([0, 1])$?",
+      "optionsEn": [
+        "$[2, 5]$",
+        "$\\{7\\}$",
+        "$(0, 1)$",
+        "$[0, 1] \\cup [2, 3]$"
+      ],
+      "explanationEn": "By the Extreme Value Theorem and Intermediate Value Theorem, the continuous image of a compact connected interval $[0, 1]$ must be compact and connected—that is, either a closed bounded interval $[m, M]$ or a single point $\\{c\\}$. Thus $[2, 5]$ (e.g., $f(x) = 2 + 3x$) and $\\{7\\}$ (e.g., $f(x) \\equiv 7$) are possible, whereas $(0, 1)$ is not compact and $[0, 1] \\cup [2, 3]$ is not connected. Therefore, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Differentiability",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following functions $f : \\mathbb{R} \\to \\mathbb{R}$ is/are differentiable at $x = 0$?",
+      "optionsEn": [
+        "$f(x) = x |x|$",
+        "$f(x) = \\sqrt{|x|}$",
+        "$f(x) = \\sin(x^2) + |x|^3$",
+        "$f(x) = \\begin{cases} x^2 \\cos\\left(\\frac{1}{x}\\right) & \\text{if } x \\neq 0, \\\\ 0 & \\text{if } x = 0 \\end{cases}$"
+      ],
+      "explanationEn": "(A) $\\frac{f(h) - f(0)}{h} = |h| \\to 0$, so $f'(0) = 0$. TRUE. (B) $\\frac{\\sqrt{|h|}}{h} = \\operatorname{sgn}(h) |h|^{-1/2}$ diverges as $h \\to 0$, so not differentiable. FALSE. (C) $\\frac{\\sin(h^2) + |h|^3}{h} = h \\cdot \\frac{\\sin(h^2)}{h^2} + \\operatorname{sgn}(h) h^2 \\to 0$, so $f'(0) = 0$. TRUE. (D) $\\left|\\frac{f(h) - f(0)}{h}\\right| = |h \\cos(1/h)| \\le |h| \\to 0$, so $f'(0) = 0$. TRUE. Therefore, options (A), (C), and (D) are correct."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Leibniz Integral Rule",
+      "difficulty": "Easy",
+      "correctOption": "0.49 to 0.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.49,
+      "natMax": 0.51,
+      "questionTextEn": "Let $F(x) = \\int_{0}^{1} e^{xt}\\,dt$ for $x \\in \\mathbb{R}$. Then $F'(0)$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Differentiating under the integral sign gives $F'(x) = \\int_0^1 t e^{xt}\\,dt$. Evaluating at $x = 0$ yields $F'(0) = \\int_0^1 t\\,dt = \\frac{1}{2} = 0.50$."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Continuity",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = ax + 3$ for $x \\le 2$ and $f(x) = x^2 + 5$ for $x > 2$. The value of $a$ for which $f$ is continuous on $\\mathbb{R}$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "For continuity at $x = 2$, the left-hand limit $f(2) = 2a + 3$ must equal the right-hand limit $\\lim_{x \\to 2^+} (x^2 + 5) = 9$. Solving $2a + 3 = 9$ gives $a = 3$."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Continuity",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Let $\\lfloor t \\rfloor$ denote the greatest integer less than or equal to $t$. The number of points in the open interval $(0, 3)$ at which $f(x) = \\lfloor 2x \\rfloor$ is discontinuous is ________.",
+      "optionsEn": [],
+      "explanationEn": "The function $\\lfloor 2x \\rfloor$ has a jump discontinuity precisely when $2x \\in \\mathbb{Z}$. For $x \\in (0, 3)$, $2x \\in (0, 6)$, which contains the integers $1, 2, 3, 4, 5$, corresponding to $x \\in \\{0.5, 1.0, 1.5, 2.0, 2.5\\}$. Thus there are $5$ points of discontinuity."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "L'Hôpital's Rule and Limits",
+      "difficulty": "Easy",
+      "correctOption": "4.49 to 4.51",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.49,
+      "natMax": 4.51,
+      "questionTextEn": "The value of $\\lim_{x \\to 0} \\frac{1 - \\cos(3x)}{x^2}$ is equal to ________. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "Using $1 - \\cos(3x) = 2\\sin^2\\left(\\frac{3x}{2}\\right)$, we get $\\lim_{x \\to 0} \\frac{2\\sin^2(3x/2)}{x^2} = 2 \\cdot \\left(\\frac{3}{2}\\right)^2 = \\frac{9}{2} = 4.50$."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Lipschitz Functions",
+      "difficulty": "Easy",
+      "correctOption": "10",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 10.0,
+      "natMax": 10.0,
+      "questionTextEn": "The smallest Lipschitz constant $K$ for the function $f(x) = 3x^2 - 2x$ on the interval $[0, 2]$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "For a $C^1$ function on $[0, 2]$, the smallest Lipschitz constant is $\\max_{x \\in [0, 2]} |f'(x)|$. Here $f'(x) = 6x - 2$ ranges from $-2$ (at $x = 0$) to $10$ (at $x = 2$), so $\\max_{x \\in [0, 2]} |f'(x)| = 10$."
+    },
+    {
+      "questionId": "jam_ma_topic_single_var_calculus_01_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM MA Topic • Functions of One Real Variable (Set 01)",
+      "topicTag": "Leibniz Integral Rule",
+      "difficulty": "Medium",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "Let $F(x) = \\int_{0}^{x} (x - t) e^t \\, dt$ for $x \\in \\mathbb{R}$. Then the value of $F''(\\ln 5)$ is equal to ________.",
+      "optionsEn": [],
+      "explanationEn": "By the Leibniz integral rule, $F'(x) = (x - x)e^x + \\int_0^x e^t\\,dt = \\int_0^x e^t\\,dt$. Differentiating again by the Fundamental Theorem of Calculus gives $F''(x) = e^x$. Therefore, $F''(\\ln 5) = e^{\\ln 5} = 5$."
+    }
+  ]
+}

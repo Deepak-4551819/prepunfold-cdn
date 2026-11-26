@@ -3,13 +3,12 @@
   "categoryId": "gate_ph",
   "test_id": "gate_ph_mock_06",
   "category_id": "gate_ph",
-  "title": "GATE Physics (PH) Full Length Mock Test 06",
-  "titleEn": "GATE Physics (PH) Full Length Mock Test 06",
-  "titleHi": "GATE भौतिकी (PH) संपूर्ण मॉक टेस्ट 06",
+  "title": "GATE 2027 Physics (PH) Full-Length Mock Test 06",
+  "titleEn": "GATE 2027 Physics (PH) Full-Length Mock Test 06",
   "testType": "FULL_MOCK",
   "test_type": "FULL_MOCK",
-  "isFree": true,
-  "is_free": true,
+  "isFree": false,
+  "is_free": false,
   "durationMinutes": 180,
   "duration_minutes": 180,
   "totalQuestions": 65,
@@ -18,35 +17,149 @@
   "positiveMarks": 2.0,
   "negativeMarks": 0.33,
   "examYear": 2027,
-  "shiftBadge": "GATE PH • Full Mock Test 06",
+  "shiftBadge": "GATE PH • Full Mock 06",
   "sections": [
     {
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
       "sectionTitleEn": "General Aptitude",
-      "sectionTitleHi": "सामान्य अभिरुचि",
       "questionCount": 10,
       "totalMarks": 15.0
     },
     {
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics (11 Sections)",
-      "sectionTitleEn": "Physics (11 Sections)",
-      "sectionTitleHi": "भौतिकी (11 खंड)",
-      "questionCount": 55,
-      "totalMarks": 85.0
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "sectionTitleEn": "Mathematical Physics",
+      "questionCount": 6,
+      "totalMarks": 9.0
+    },
+    {
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "sectionTitleEn": "Classical Mechanics",
+      "questionCount": 7,
+      "totalMarks": 11.0
+    },
+    {
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "sectionTitleEn": "Electromagnetic Theory",
+      "questionCount": 6,
+      "totalMarks": 9.0
+    },
+    {
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "sectionTitleEn": "Quantum Mechanics",
+      "questionCount": 7,
+      "totalMarks": 11.0
+    },
+    {
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "sectionTitleEn": "Thermodynamics and Statistical Physics",
+      "questionCount": 7,
+      "totalMarks": 11.0
+    },
+    {
+      "sectionId": "sec_amp",
+      "sectionTitle": "Atomic and Molecular Physics",
+      "sectionTitleEn": "Atomic and Molecular Physics",
+      "questionCount": 5,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "sectionTitleEn": "Solid State Physics",
+      "questionCount": 6,
+      "totalMarks": 9.0
+    },
+    {
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "sectionTitleEn": "Electronics",
+      "questionCount": 5,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "sectionTitleEn": "Nuclear and Particle Physics",
+      "questionCount": 6,
+      "totalMarks": 9.0
     }
   ],
   "questions": [
     {
-      "questionId": "gate_ph_mock_06_q001",
+      "questionId": "gate_ph_mock_06_q01",
       "questionNumber": 1,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If the side of an equilateral triangle is $6\\text{ cm}$, what is its area?",
+      "optionsEn": [
+        "$9\\sqrt{3}\\text{ cm}^2$",
+        "$18\\sqrt{3}\\text{ cm}^2$",
+        "$12\\sqrt{3}\\text{ cm}^2$",
+        "$36\\sqrt{3}\\text{ cm}^2$"
+      ],
+      "explanationEn": "Area = $\\frac{\\sqrt{3}}{4} s^2 = \\frac{\\sqrt{3}}{4}(36) = 9\\sqrt{3}\\text{ cm}^2$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $x + y = 9$ and $xy = 14$, what is the value of $x^3 + y^3$?",
+      "optionsEn": [
+        "369",
+        "351",
+        "415",
+        "289"
+      ],
+      "explanationEn": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 9^3 - 3(14)(9) = 729 - 378 = 351$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Verbal Ability",
       "difficulty": "Easy",
       "correctOption": "D",
@@ -59,211 +172,115 @@
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "Select the word that is most nearly SIMILAR in meaning to the given word:\nRESILIENT",
+      "questionTextEn": "Choose the closest synonym for 'UBIQUITOUS'.",
       "optionsEn": [
-        "RIGID",
-        "BRITTLE",
-        "FRAGILE",
-        "FLEXIBLE"
+        "Hidden",
+        "Rare",
+        "Ancient",
+        "Omnipresent"
       ],
-      "explanationEn": "'RESILIENT' means lasting for a very short time or being flexible. The most appropriate synonym is 'FLEXIBLE'.",
-      "questionTextHi": "दिए गए शब्द के सबसे निकटतम समानार्थक (SIMILAR) शब्द का चयन करें:\nRESILIENT",
-      "optionsHi": [
-        "RIGID",
-        "BRITTLE",
-        "FRAGILE",
-        "FLEXIBLE"
-      ],
-      "explanationHi": "'RESILIENT' का अर्थ 'लचीला / शीघ्र संभलने वाला' होता है। इसका सही समानार्थक 'FLEXIBLE' है।"
+      "explanationEn": "'Ubiquitous' means found everywhere, matching 'omnipresent'."
     },
     {
-      "questionId": "gate_ph_mock_06_q002",
-      "questionNumber": 2,
-      "sectionId": "sec_ga",
-      "sectionTitle": "General Aptitude",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Verbal Ability",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "Choose the grammatically correct option to fill in the blank:\nHardly had the professor entered the hall ______ the students stood up.",
-      "optionsEn": [
-        "when",
-        "than",
-        "then",
-        "while"
-      ],
-      "explanationEn": "'Hardly... when' is the correct correlative conjunction. Correct option is 'when'.",
-      "questionTextHi": "रिक्त स्थान की पूर्ति के लिए व्याकरण की दृष्टि से सही विकल्प चुनें:\nHardly had the professor entered the hall ______ the students stood up.",
-      "optionsHi": [
-        "when",
-        "than",
-        "then",
-        "while"
-      ],
-      "explanationHi": "सही विकल्प 'when' है। 'Hardly... when' is the correct correlative conjunction."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q003",
-      "questionNumber": 3,
-      "sectionId": "sec_ga",
-      "sectionTitle": "General Aptitude",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantitative Aptitude",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "If $x + \\frac{1}{x} = 3$, the value of $x^2 + \\frac{1}{x^2}$ is:",
-      "optionsEn": [
-        "7",
-        "9",
-        "11",
-        "6"
-      ],
-      "explanationEn": "(x + 1/x)^2 - 2 = 9 - 2 = 7.",
-      "questionTextHi": "If $x + \\frac{1}{x} = 3$, the value of $x^2 + \\frac{1}{x^2}$ is:",
-      "optionsHi": [
-        "7",
-        "9",
-        "11",
-        "6"
-      ],
-      "explanationHi": "(x + 1/x)^2 - 2 = 9 - 2 = 7."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q004",
+      "questionId": "gate_ph_mock_06_q04",
       "questionNumber": 4,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Logical Reasoning",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantitative Aptitude",
       "difficulty": "Easy",
-      "correctOption": "A",
+      "correctOption": "B",
       "correctOptionsList": [
-        "A"
+        "B"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "correct_indices": [
-        0
+        1
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "A person walks $10\\text{ m}$ North, turns right and walks $5\\text{ m}$, then turns right and walks $10\\text{ m}$. How far is he from his starting point?",
+      "questionTextEn": "If the mean of five numbers is 18 and one number is removed, the mean of the remaining four numbers becomes 16. What was the removed number?",
       "optionsEn": [
-        "$5\\text{ m}$",
-        "$10\\text{ m}$",
-        "$15\\text{ m}$",
-        "$0\\text{ m}$"
+        "22",
+        "26",
+        "28",
+        "24"
       ],
-      "explanationEn": "Forms a rectangle: distance = 5 m East.",
-      "questionTextHi": "A person walks $10\\text{ m}$ North, turns right and walks $5\\text{ m}$, then turns right and walks $10\\text{ m}$. How far is he from his starting point?",
-      "optionsHi": [
-        "$5\\text{ m}$",
-        "$10\\text{ m}$",
-        "$15\\text{ m}$",
-        "$0\\text{ m}$"
-      ],
-      "explanationHi": "Forms a rectangle: distance = 5 m East."
+      "explanationEn": "Original sum = $5 \\times 18 = 90$; new sum = $4 \\times 16 = 64$. Removed number = $90 - 64 = 26$."
     },
     {
-      "questionId": "gate_ph_mock_06_q005",
+      "questionId": "gate_ph_mock_06_q05",
       "questionNumber": 5,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
-      "questionType": "NAT",
+      "questionType": "MCQ",
       "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Quantitative Aptitude",
       "difficulty": "Easy",
-      "correctOption": "48",
+      "correctOption": "B",
       "correctOptionsList": [
-        "48"
+        "B"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 48.0,
-      "natMax": 48.0,
-      "questionTextEn": "If the area of a square is $144\\text{ cm}^2$, its perimeter in cm is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "Side = 12 cm -> Perimeter = 4*12 = 48 cm.",
-      "questionTextHi": "If the area of a square is $144\\text{ cm}^2$, its perimeter in cm is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "Side = 12 cm -> Perimeter = 4*12 = 48 cm."
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A shopkeeper sells an oscilloscope at a 10% loss for ₹27,000. What was its cost price?",
+      "optionsEn": [
+        "₹31,000",
+        "₹30,000",
+        "₹28,500",
+        "₹29,700"
+      ],
+      "explanationEn": "$0.90 \\times \\text{CP} = 27000 \\implies \\text{CP} = 27000 / 0.90 = ₹30,000$."
     },
     {
-      "questionId": "gate_ph_mock_06_q006",
+      "questionId": "gate_ph_mock_06_q06",
       "questionNumber": 6,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
       "questionType": "MCQ",
       "positiveMarks": 2.0,
       "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Reading Comprehension",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantitative Aptitude",
       "difficulty": "Medium",
-      "correctOption": "B",
+      "correctOption": "D",
       "correctOptionsList": [
-        "B"
+        "D"
       ],
-      "correct_index": 1,
+      "correct_index": 3,
       "correct_indices": [
-        1
+        3
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "Passage:\n'A mathematical model of a physical process is necessarily an abstraction that isolates dominant mechanisms while suppressing secondary fluctuations. Consequently, the predictive accuracy of a model is bounded by the validity domain of its underlying assumptions.'\nWhich statement follows logically?",
+      "questionTextEn": "What is the value of $\\lim_{x \\to 0} \\frac{e^{3x} - 1}{x}$?",
       "optionsEn": [
-        "A model is invalid if it ignores any physical fluctuation.",
-        "Predictions of a model cannot be trusted outside its foundational assumption domain.",
-        "Mathematical abstractions are unnecessary for engineering predictions.",
-        "Secondary fluctuations always dominate over primary mechanisms."
+        "$e^3$",
+        "1",
+        "0",
+        "3"
       ],
-      "explanationEn": "Directly follows from the bounded validity domain statement.",
-      "questionTextHi": "Passage:\n'A mathematical model of a physical process is necessarily an abstraction that isolates dominant mechanisms while suppressing secondary fluctuations. Consequently, the predictive accuracy of a model is bounded by the validity domain of its underlying assumptions.'\nWhich statement follows logically?",
-      "optionsHi": [
-        "A model is invalid if it ignores any physical fluctuation.",
-        "Predictions of a model cannot be trusted outside its foundational assumption domain.",
-        "Mathematical abstractions are unnecessary for engineering predictions.",
-        "Secondary fluctuations always dominate over primary mechanisms."
-      ],
-      "explanationHi": "Directly follows from the bounded validity domain statement."
+      "explanationEn": "Using Taylor expansion $e^{3x} = 1 + 3x + \\frac{9x^2}{2} + \\dots$, $\\frac{e^{3x} - 1}{x} \\to 3$ as $x \\to 0$."
     },
     {
-      "questionId": "gate_ph_mock_06_q007",
+      "questionId": "gate_ph_mock_06_q07",
       "questionNumber": 7,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
       "questionType": "MCQ",
       "positiveMarks": 2.0,
       "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Probability & Combinatorics",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantitative Aptitude",
       "difficulty": "Medium",
       "correctOption": "A",
       "correctOptionsList": [
@@ -275,162 +292,146 @@
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "A box contains 3 defective and 7 non-defective bulbs. Two bulbs are drawn at random. What is the probability that at least one bulb is defective?",
+      "questionTextEn": "In an arithmetic progression, the 5th term is $19$ and the 12th term is $47$. What is the sum of the first $10$ terms of this progression?",
       "optionsEn": [
-        "$8/15$",
-        "$7/15$",
-        "$1/3$",
-        "$2/3$"
+        "$210$",
+        "$240$",
+        "$195$",
+        "$225$"
       ],
-      "explanationEn": "P(none defective) = 7C2 / 10C2 = 21/45 = 7/15. P(at least one) = 1 - 7/15 = 8/15.",
-      "questionTextHi": "A box contains 3 defective and 7 non-defective bulbs. Two bulbs are drawn at random. What is the probability that at least one bulb is defective?",
-      "optionsHi": [
-        "$8/15$",
-        "$7/15$",
-        "$1/3$",
-        "$2/3$"
-      ],
-      "explanationHi": "P(none defective) = 7C2 / 10C2 = 21/45 = 7/15. P(at least one) = 1 - 7/15 = 8/15."
+      "explanationEn": "Common difference $d = \\frac{47 - 19}{12 - 5} = 4$. First term $a = 19 - 4(4) = 3$. Sum of first $10$ terms $S_{10} = \\frac{10}{2}[2(3) + 9(4)] = 5(6 + 36) = 210$."
     },
     {
-      "questionId": "gate_ph_mock_06_q008",
+      "questionId": "gate_ph_mock_06_q08",
       "questionNumber": 8,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
       "questionType": "MCQ",
       "positiveMarks": 2.0,
       "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Analytical Reasoning",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Verbal Ability",
       "difficulty": "Medium",
-      "correctOption": "A",
+      "correctOption": "D",
       "correctOptionsList": [
-        "A"
+        "D"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "correct_indices": [
-        0
+        3
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "Six books A, B, C, D, E, F are stacked. B, C, E have blue covers; others red. Only D and F are new; others old. A, C, D are law reports; others physics. Which book is a new red-covered law report?",
+      "questionTextEn": "Passage: 'Peer review filters out obvious methodological flaws, yet it rarely detects subtle fabrication unless raw datasets are openly archived.'\nThe author implies that:",
       "optionsEn": [
-        "D",
-        "F",
-        "A",
-        "C"
+        "Peer review should be abolished.",
+        "Raw datasets never contain errors.",
+        "Most published papers contain fabricated data.",
+        "Open data archiving complements peer review in catching subtle fabrication."
       ],
-      "explanationEn": "D is new, red cover, and law report.",
-      "questionTextHi": "Six books A, B, C, D, E, F are stacked. B, C, E have blue covers; others red. Only D and F are new; others old. A, C, D are law reports; others physics. Which book is a new red-covered law report?",
-      "optionsHi": [
-        "D",
-        "F",
-        "A",
-        "C"
-      ],
-      "explanationHi": "D is new, red cover, and law report."
+      "explanationEn": "The passage notes that peer review catches obvious flaws while open raw data is needed to catch subtle fabrication, implying the two are complementary."
     },
     {
-      "questionId": "gate_ph_mock_06_q009",
+      "questionId": "gate_ph_mock_06_q09",
       "questionNumber": 9,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
-      "questionType": "NAT",
+      "questionType": "MCQ",
       "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Quantitative Aptitude",
       "difficulty": "Medium",
-      "correctOption": "1275",
+      "correctOption": "B",
       "correctOptionsList": [
-        "1275"
+        "B"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 1275.0,
-      "natMax": 1275.0,
-      "questionTextEn": "The sum of the series $1 + 2 + 3 + \\dots + 50$ is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "50 * 51 / 2 = 1275.",
-      "questionTextHi": "The sum of the series $1 + 2 + 3 + \\dots + 50$ is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "50 * 51 / 2 = 1275."
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $f(x) = x^2 - 6x + 13$ for all real $x$, what is the minimum value of $f(x)$?",
+      "optionsEn": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "explanationEn": "Completing the square: $f(x) = (x - 3)^2 + 4 \\ge 4$, attaining its minimum value 4 at $x = 3$."
     },
     {
-      "questionId": "gate_ph_mock_06_q010",
+      "questionId": "gate_ph_mock_06_q10",
       "questionNumber": 10,
       "sectionId": "sec_ga",
       "sectionTitle": "General Aptitude",
-      "questionType": "NAT",
+      "questionType": "MCQ",
       "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Quantitative Aptitude",
       "difficulty": "Medium",
-      "correctOption": "4",
+      "correctOption": "D",
       "correctOptionsList": [
-        "4"
+        "D"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 4.0,
-      "natMax": 4.0,
-      "questionTextEn": "If $\\log_2(x) + \\log_2(x - 2) = 3$, the positive value of $x$ is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "x(x-2) = 2^3 = 8 -> x^2 - 2x - 8 = 0 -> (x-4)(x+2) = 0 -> x = 4.",
-      "questionTextHi": "If $\\log_2(x) + \\log_2(x - 2) = 3$, the positive value of $x$ is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "x(x-2) = 2^3 = 8 -> x^2 - 2x - 8 = 0 -> (x-4)(x+2) = 0 -> x = 4."
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two dice are rolled. What is the probability that the sum of the two numbers shown is a prime number?",
+      "optionsEn": [
+        "1/2",
+        "11/36",
+        "7/18",
+        "5/12"
+      ],
+      "explanationEn": "Prime sums from 2 to 12 are 2 (1 way), 3 (2 ways), 5 (4 ways), 7 (6 ways), 11 (2 ways). Total = $1+2+4+6+2 = 15$ ways out of 36, giving $15/36 = 5/12$."
     },
     {
-      "questionId": "{tid}_q011",
+      "questionId": "gate_ph_mock_06_q11",
       "questionNumber": 11,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Measurements and Error Analysis",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Mathematical Physics",
       "difficulty": "Easy",
-      "correctOption": "A",
+      "correctOption": "D",
       "correctOptionsList": [
-        "A"
+        "D"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "correct_indices": [
-        0
+        3
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "The least count of a vernier caliper with main scale division of $1\\text{ mm}$ and 10 vernier divisions matching 9 main scale divisions is:",
+      "questionTextEn": "Which of the following is the generating identity for the Kronecker delta and Levi-Civita symbol contraction $\\varepsilon_{ijk}\\varepsilon_{ilm}$ in 3D?",
       "optionsEn": [
-        "$0.1\\text{ mm}$",
-        "$0.01\\text{ mm}$",
-        "$0.05\\text{ mm}$",
-        "$0.2\\text{ mm}$"
+        "$\\delta_{jk}\\delta_{lm}$",
+        "$2\\delta_{jl}\\delta_{km}$",
+        "$\\delta_{jl}\\delta_{km} + \\delta_{jm}\\delta_{kl}$",
+        "$\\delta_{jl}\\delta_{km} - \\delta_{jm}\\delta_{kl}$"
       ],
-      "explanationEn": "$\\text{Least count} = 1\\text{ MSD} - 1\\text{ VSD} = 1\\text{ mm} - 0.9\\text{ mm} = 0.1\\text{ mm}$.",
-      "questionTextHi": "The least count of a vernier caliper with main scale division of $1\\text{ mm}$ and 10 vernier divisions matching 9 main scale divisions is:",
-      "optionsHi": [
-        "$0.1\\text{ mm}$",
-        "$0.01\\text{ mm}$",
-        "$0.05\\text{ mm}$",
-        "$0.2\\text{ mm}$"
-      ],
-      "explanationHi": "$\\text{Least count} = 1\\text{ MSD} - 1\\text{ VSD} = 1\\text{ mm} - 0.9\\text{ mm} = 0.1\\text{ mm}$."
+      "explanationEn": "The standard epsilon-delta identity in 3D is $\\varepsilon_{ijk}\\varepsilon_{ilm} = \\delta_{jl}\\delta_{km} - \\delta_{jm}\\delta_{kl}$."
     },
     {
-      "questionId": "{tid}_q012",
+      "questionId": "gate_ph_mock_06_q12",
       "questionNumber": 12,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Mathematical Physics",
-      "difficulty": "Easy",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
       "correctOption": "A",
       "correctOptionsList": [
         "A"
@@ -441,71 +442,55 @@
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "Under a coordinate transformation $x'^i = a^i_j x^j$, a rank-2 covariant tensor $T_{ij}$ transforms as:",
+      "questionTextEn": "What is the phase space trajectory of a 1D undamped simple harmonic oscillator of mass $m$, frequency $\\omega$, and total energy $E$?",
       "optionsEn": [
-        "$T'_{ij} = \\frac{\\partial x^k}{\\partial x'^i} \\frac{\\partial x^l}{\\partial x'^j} T_{kl}$",
-        "$T'_{ij} = \\frac{\\partial x'^i}{\\partial x^k} \\frac{\\partial x'^j}{\\partial x^l} T_{kl}$",
-        "$T'_{ij} = \\frac{\\partial x^k}{\\partial x'^i} T_{kj}$",
-        "$T'_{ij} = a^i_j T_{ij}$"
+        "An ellipse of area $2\\pi E / \\omega$",
+        "A hyperbola",
+        "A straight line",
+        "A parabola"
       ],
-      "explanationEn": "Covariant tensor indices transform with inverse partial derivatives: $T'_{ij} = \\frac{\\partial x^k}{\\partial x'^i} \\frac{\\partial x^l}{\\partial x'^j} T_{kl}$.",
-      "questionTextHi": "निर्देशांक रूपांतरण के अंतर्गत कोटि-2 सहपरिवर्ती (कोवेरिएंट) टेंसर $T_{ij}$ का रूपांतरण नियम क्या है?",
-      "optionsHi": [
-        "$T'_{ij} = \\frac{\\partial x^k}{\\partial x'^i} \\frac{\\partial x^l}{\\partial x'^j} T_{kl}$",
-        "$T'_{ij} = \\frac{\\partial x'^i}{\\partial x^k} \\frac{\\partial x'^j}{\\partial x^l} T_{kl}$",
-        "$T'_{ij} = \\frac{\\partial x^k}{\\partial x'^i} T_{kj}$",
-        "$T'_{ij} = a^i_j T_{ij}$"
-      ],
-      "explanationHi": "सहपरिवर्ती टेंसर सूचकांक आंशिक अवकलजों के व्युत्क्रम से रूपांतरित होते हैं: $T'_{ij} = \\frac{\\partial x^k}{\\partial x'^i} \\frac{\\partial x^l}{\\partial x'^j} T_{kl}$।"
+      "explanationEn": "$\\frac{p^2}{2mE} + \\frac{x^2}{2E/(m\\omega^2)} = 1$ is an ellipse with semi-axes $a = \\sqrt{2E/(m\\omega^2)}$ and $b = \\sqrt{2mE}$, giving area $\\pi ab = \\frac{2\\pi E}{\\omega}$."
     },
     {
-      "questionId": "{tid}_q013",
+      "questionId": "gate_ph_mock_06_q13",
       "questionNumber": 13,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Mathematical Physics",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electromagnetic Theory",
       "difficulty": "Easy",
-      "correctOption": "B",
+      "correctOption": "D",
       "correctOptionsList": [
-        "B"
+        "D"
       ],
-      "correct_index": 1,
+      "correct_index": 3,
       "correct_indices": [
-        1
+        3
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "The residue of the function $f(z) = \\frac{\\cos z}{z^3}$ at the pole $z = 0$ is:",
+      "questionTextEn": "Which of the following modes CANNOT propagate inside a hollow metallic rectangular waveguide?",
       "optionsEn": [
-        "$0$",
-        "$-\\frac{1}{2}$",
-        "$\\frac{1}{2}$",
-        "$1$"
+        "$\\text{TE}_{10}$",
+        "$\\text{TM}_{11}$",
+        "$\\text{TE}_{01}$",
+        "TEM (Transverse Electromagnetic)"
       ],
-      "explanationEn": "Expanding $\\cos z = 1 - \\frac{z^2}{2!} + \\frac{z^4}{4!} - \\dots$, we have $f(z) = \\frac{1}{z^3} - \\frac{1}{2z} + \\frac{z}{24} - \\dots$. The coefficient of $1/z$ is $-1/2$.",
-      "questionTextHi": "ध्रुव $z = 0$ पर फलन $f(z) = \\frac{\\cos z}{z^3}$ का अवशेष क्या है?",
-      "optionsHi": [
-        "$0$",
-        "$-\\frac{1}{2}$",
-        "$\\frac{1}{2}$",
-        "$1$"
-      ],
-      "explanationHi": "लॉरेंट श्रेणी में $1/z$ का गुणांक $-1/2$ है।"
+      "explanationEn": "A TEM wave requires $\\nabla_\\perp^2 \\phi = 0$ with a single equipotential conductor boundary, forcing $\\phi = \\text{const}$ and $\\mathbf{E} = 0$. At least two separate conductors are needed for TEM modes."
     },
     {
-      "questionId": "{tid}_q014",
+      "questionId": "gate_ph_mock_06_q14",
       "questionNumber": 14,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Classical Mechanics",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantum Mechanics",
       "difficulty": "Easy",
       "correctOption": "A",
       "correctOptionsList": [
@@ -517,784 +502,86 @@
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "A particle moves in a circular orbit under an attractive central force $F(r) = -k/r^2$. The ratio of its kinetic energy $T$ to its potential energy $V(r) = -k/r$ is:",
+      "questionTextEn": "What is the probability current density $J_x$ for a real-valued 1D wavefunction $\\psi(x)$?",
       "optionsEn": [
-        "$-1/2$",
-        "$+1/2$",
-        "$-1$",
-        "$+2$"
+        "$0$",
+        "Constant non-zero",
+        "$\\frac{\\hbar}{m}|\\psi|^2$",
+        "$\\frac{\\hbar}{m}\\psi\\psi'$"
       ],
-      "explanationEn": "By the Virial theorem for $V(r) \\propto r^n$ with $n = -1$: $2\\langle T \\rangle = n \\langle V \\rangle = -\\langle V \\rangle \\implies T = -\\frac{1}{2} V$. Hence $T/V = -1/2$.",
-      "questionTextHi": "केंद्रीय बल $F(r) = -k/r^2$ में वृत्ताकार कक्षा में गतिमान कण के लिए गतिज ऊर्जा $T$ और स्थितिज ऊर्जा $V$ का अनुपात क्या है?",
-      "optionsHi": [
-        "$-1/2$",
-        "$+1/2$",
-        "$-1$",
-        "$+2$"
-      ],
-      "explanationHi": "विरियल प्रमेय से $2T = -V \\implies T/V = -1/2$।"
+      "explanationEn": "$J_x = \\frac{\\hbar}{2mi}(\\psi^* \\psi' - \\psi \\psi'^*)$. If $\\psi$ is real ($\\psi^* = \\psi$), the two terms cancel identically, giving $J_x = 0$."
     },
     {
-      "questionId": "{tid}_q015",
+      "questionId": "gate_ph_mock_06_q15",
       "questionNumber": 15,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Classical Mechanics",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Thermodynamics and Statistical Physics",
       "difficulty": "Easy",
-      "correctOption": "C",
+      "correctOption": "D",
       "correctOptionsList": [
-        "C"
+        "D"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "correct_indices": [
-        2
+        3
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "The Poisson bracket between angular momentum component $L_x$ and linear momentum component $p_y$ is:",
+      "questionTextEn": "For a 3D ideal classical gas at temperature $T$, the ratio of the root-mean-square speed $v_{\\text{rms}}$ to the most probable speed $v_{\\text{mp}}$ is:",
       "optionsEn": [
-        "$0$",
-        "$-p_z$",
-        "$p_z$",
-        "$L_z$"
+        "$\\sqrt{3}$",
+        "$\\sqrt{2/3}$",
+        "$\\sqrt{8/\\pi}$",
+        "$\\sqrt{3/2}$"
       ],
-      "explanationEn": "$\\{L_x, p_y\\} = \\{y p_z - z p_y, p_y\\} = \\{y, p_y\\} p_z = (1) p_z = p_z$.",
-      "questionTextHi": "कोणीय संवेग घटक $L_x$ और रेखीय संवेग घटक $p_y$ के बीच प्वासों कोष्ठक का मान क्या है?",
-      "optionsHi": [
-        "$0$",
-        "$-p_z$",
-        "$p_z$",
-        "$L_z$"
-      ],
-      "explanationHi": "$\\{L_x, p_y\\} = p_z$।"
+      "explanationEn": "$v_{\\text{rms}} = \\sqrt{3k_B T/m}$ and $v_{\\text{mp}} = \\sqrt{2k_B T/m}$, so $v_{\\text{rms}} / v_{\\text{mp}} = \\sqrt{3/2}$."
     },
     {
-      "questionId": "{tid}_q016",
+      "questionId": "gate_ph_mock_06_q16",
       "questionNumber": 16,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "sectionId": "sec_amp",
+      "sectionTitle": "Atomic and Molecular Physics",
       "questionType": "MCQ",
       "positiveMarks": 1.0,
       "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electromagnetic Theory",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "The electromagnetic wave equation in terms of the magnetic vector potential $\\mathbf{A}$ in Lorenz gauge $\\nabla \\cdot \\mathbf{A} + \\frac{1}{c^2} \\frac{\\partial V}{\\partial t} = 0$ in vacuum with current density $\\mathbf{J}$ is:",
-      "optionsEn": [
-        "$\\nabla^2 \\mathbf{A} - \\frac{1}{c^2} \\frac{\\partial^2 \\mathbf{A}}{\\partial t^2} = -\\mu_0 \\mathbf{J}$",
-        "$\\nabla^2 \\mathbf{A} = -\\mu_0 \\mathbf{J}$",
-        "$\\nabla \\times \\mathbf{A} = \\mathbf{B}$",
-        "$\\nabla^2 \\mathbf{A} + \\mu_0 \\epsilon_0 \\mathbf{A} = 0$"
-      ],
-      "explanationEn": "In Lorenz gauge, Maxwell's curl equations decouple into the inhomogeneous wave equation $\\nabla^2 \\mathbf{A} - \\frac{1}{c^2} \\frac{\\partial^2 \\mathbf{A}}{\\partial t^2} = -\\mu_0 \\mathbf{J}$.",
-      "questionTextHi": "लॉरेंज गेज में चुंबकीय सदिश विभव $\\mathbf{A}$ के लिए तरंग समीकरण क्या है?",
-      "optionsHi": [
-        "$\\nabla^2 \\mathbf{A} - \\frac{1}{c^2} \\frac{\\partial^2 \\mathbf{A}}{\\partial t^2} = -\\mu_0 \\mathbf{J}$",
-        "$\\nabla^2 \\mathbf{A} = -\\mu_0 \\mathbf{J}$",
-        "$\\nabla \\times \\mathbf{A} = \\mathbf{B}$",
-        "$\\nabla^2 \\mathbf{A} + \\mu_0 \\epsilon_0 \\mathbf{A} = 0$"
-      ],
-      "explanationHi": "लॉरेंज गेज में $\\nabla^2 \\mathbf{A} - \\frac{1}{c^2} \\frac{\\partial^2 \\mathbf{A}}{\\partial t^2} = -\\mu_0 \\mathbf{J}$।"
-    },
-    {
-      "questionId": "{tid}_q017",
-      "questionNumber": 17,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electromagnetic Theory",
-      "difficulty": "Easy",
-      "correctOption": "B",
-      "correctOptionsList": [
-        "B"
-      ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "For an electromagnetic wave propagating inside a hollow rectangular waveguide of width $a$, the phase velocity $v_p$ and group velocity $v_g$ satisfy:",
-      "optionsEn": [
-        "$v_p v_g = c$",
-        "$v_p v_g = c^2$",
-        "$v_p = v_g = c$",
-        "$v_p / v_g = c^2$"
-      ],
-      "explanationEn": "In waveguides with dispersion $\\omega^2 = c^2 k^2 + \\omega_c^2$, $v_p = \\omega/k$ and $v_g = d\\omega/dk$, leading directly to $v_p v_g = c^2$.",
-      "questionTextHi": "आयताकार वेवगाइड में कला वेग $v_p$ तथा समूह वेग $v_g$ में क्या संबंध है?",
-      "optionsHi": [
-        "$v_p v_g = c$",
-        "$v_p v_g = c^2$",
-        "$v_p = v_g = c$",
-        "$v_p / v_g = c^2$"
-      ],
-      "explanationHi": "$v_p v_g = c^2$।"
-    },
-    {
-      "questionId": "{tid}_q018",
-      "questionNumber": 18,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantum Mechanics",
-      "difficulty": "Easy",
-      "correctOption": "C",
-      "correctOptionsList": [
-        "C"
-      ],
-      "correct_index": 2,
-      "correct_indices": [
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "For a quantum particle in a one-dimensional delta-function potential well $V(x) = -\\alpha \\delta(x)$ with $\\alpha > 0$, the bound-state energy is:",
-      "optionsEn": [
-        "$-\\frac{m\\alpha}{2\\hbar^2}$",
-        "$-\\frac{m^2\\alpha^2}{\\hbar^2}$",
-        "$-\\frac{m\\alpha^2}{2\\hbar^2}$",
-        "$-\\frac{2m\\alpha^2}{\\hbar^2}$"
-      ],
-      "explanationEn": "Integrating the Schrödinger equation across $x = 0$ gives discontinuity $\\Delta\\psi' = -\\frac{2m\\alpha}{\\hbar^2} \\psi(0) \\implies \\kappa = \\frac{m\\alpha}{\\hbar^2}$. Then $E = -\\frac{\\hbar^2 \\kappa^2}{2m} = -\\frac{m\\alpha^2}{2\\hbar^2}$.",
-      "questionTextHi": "एक-विमीय डेल्टा-फलन विभव $V(x) = -\\alpha \\delta(x)$ ($\\alpha > 0$) में बद्ध अवस्था की ऊर्जा क्या है?",
-      "optionsHi": [
-        "$-\\frac{m\\alpha}{2\\hbar^2}$",
-        "$-\\frac{m^2\\alpha^2}{\\hbar^2}$",
-        "$-\\frac{m\\alpha^2}{2\\hbar^2}$",
-        "$-\\frac{2m\\alpha^2}{\\hbar^2}$"
-      ],
-      "explanationHi": "$E = -\\frac{m\\alpha^2}{2\\hbar^2}$।"
-    },
-    {
-      "questionId": "{tid}_q019",
-      "questionNumber": 19,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantum Mechanics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "For a particle confined in a two-dimensional symmetric square box of side $L$ with infinite walls, the energy of state $(n_x, n_y)$ is $E = \\frac{\\pi^2 \\hbar^2}{2m L^2} (n_x^2 + n_y^2)$. The degeneracy of the first excited energy level is:",
-      "optionsEn": [
-        "2",
-        "1",
-        "3",
-        "4"
-      ],
-      "explanationEn": "The ground state is $(1, 1)$ (non-degenerate). The first excited level has $n_x^2 + n_y^2 = 1^2 + 2^2 = 5$, achieved by two states: $(1, 2)$ and $(2, 1)$, giving a degeneracy of 2.",
-      "questionTextHi": "द्वि-विमीय सममित वर्गाकार बॉक्स में प्रथम उत्तेजित ऊर्जा स्तर की अपभ्रष्टता (डीजेनेरेसी) क्या है?",
-      "optionsHi": [
-        "2",
-        "1",
-        "3",
-        "4"
-      ],
-      "explanationHi": "अवस्थाएँ $(1, 2)$ तथा $(2, 1)$ समान ऊर्जा $5 \\frac{\\pi^2 \\hbar^2}{2mL^2}$ रखती हैं, अतः अपभ्रष्टता 2 है।"
-    },
-    {
-      "questionId": "{tid}_q020",
-      "questionNumber": 20,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In an optical medium with normal dispersion, the refractive index $n$ increases with frequency $\\omega$. Consequently, the phase velocity $v_p$ and group velocity $v_g$ satisfy:",
-      "optionsEn": [
-        "$v_g < v_p$",
-        "$v_g > v_p$",
-        "$v_g = v_p$",
-        "$v_g v_p = c^2$"
-      ],
-      "explanationEn": "Using $v_g = \\frac{v_p}{1 + \\frac{\\omega}{n} \\frac{dn}{d\\omega}}$, in normal dispersion $\\frac{dn}{d\\omega} > 0$, so $v_g < v_p$.",
-      "questionTextHi": "In an optical medium with normal dispersion, the refractive index $n$ increases with frequency $\\omega$. Consequently, the phase velocity $v_p$ and group velocity $v_g$ satisfy:",
-      "optionsHi": [
-        "$v_g < v_p$",
-        "$v_g > v_p$",
-        "$v_g = v_p$",
-        "$v_g v_p = c^2$"
-      ],
-      "explanationHi": "Using $v_g = \\frac{v_p}{1 + \\frac{\\omega}{n} \\frac{dn}{d\\omega}}$, in normal dispersion $\\frac{dn}{d\\omega} > 0$, so $v_g < v_p$."
-    },
-    {
-      "questionId": "{tid}_q021",
-      "questionNumber": 21,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
-      "difficulty": "Easy",
-      "correctOption": "B",
-      "correctOptionsList": [
-        "B"
-      ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In a double-slit Fraunhofer diffraction pattern, if the slit width is $a$ and slit separation is $d$, the condition for missing orders (absent spectra) is:",
-      "optionsEn": [
-        "$\\frac{d}{a} = \\text{fraction}$",
-        "$\\frac{d}{a} = \\text{integer}$",
-        "$d = a$",
-        "$d = 2a$ only"
-      ],
-      "explanationEn": "Missing orders occur when an interference maximum coincides with a diffraction minimum: $d \\sin \\theta = m \\lambda$ and $a \\sin \\theta = p \\lambda \\implies m = p (d/a)$. For this to occur, $d/a$ must be an integer ratio.",
-      "questionTextHi": "द्वि-स्लिट विवर्तन में लुप्त कोटियों (मिसिंग ऑर्डर्स) के लिए शर्त क्या है?",
-      "optionsHi": [
-        "$\\frac{d}{a} = \\text{भिन्न}$",
-        "$\\frac{d}{a} = \\text{पूर्णांक}$",
-        "$d = a$",
-        "$d = 2a$ केवल"
-      ],
-      "explanationHi": "$d/a$ का मान एक पूर्णांक होना चाहिए।"
-    },
-    {
-      "questionId": "{tid}_q022",
-      "questionNumber": 22,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Thermodynamics and Statistical Physics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "For an ideal Fermi gas at temperature $T \\ll T_F$, the electronic specific heat $C_V$ is proportional to:",
-      "optionsEn": [
-        "$T$",
-        "$T^3$",
-        "$T^{3/2}$",
-        "$T^2$"
-      ],
-      "explanationEn": "Only electrons within $k_B T$ of the Fermi level are thermally excited, so $C_V = \\frac{\\pi^2}{2} N k_B \\left(\\frac{T}{T_F}\\right) \\propto T$.",
-      "questionTextHi": "$T \\ll T_F$ पर आदर्श फर्मी गैस की इलेक्ट्रॉनिक विशिष्ट ऊष्मा $C_V$ किसके समानुपाती होती है?",
-      "optionsHi": [
-        "$T$",
-        "$T^3$",
-        "$T^{3/2}$",
-        "$T^2$"
-      ],
-      "explanationHi": "$C_V \\propto T$।"
-    },
-    {
-      "questionId": "{tid}_q023",
-      "questionNumber": 23,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Thermodynamics and Statistical Physics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In a 3D ideal Bose gas below the condensation temperature ($T < T_c$), the chemical potential $\\mu$ is identically:",
-      "optionsEn": [
-        "$0$",
-        "$k_B T$",
-        "$E_F$",
-        "$-\\infty$"
-      ],
-      "explanationEn": "Macroscopic occupation of the single-particle ground state ($E = 0$) in the thermodynamic limit forces $\\mu = 0$ for $T < T_c$.",
-      "questionTextHi": "3D आदर्श बोस गैस में $T < T_c$ पर रासायनिक विभव $\\mu$ क्या होता है?",
-      "optionsHi": [
-        "$0$",
-        "$k_B T$",
-        "$E_F$",
-        "$-\\infty$"
-      ],
-      "explanationHi": "संक्रमण ताप से नीचे रासायनिक विभव $\\mu = 0$ होता है।"
-    },
-    {
-      "questionId": "{tid}_q024",
-      "questionNumber": 24,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Atomic and Molecular Physics",
-      "difficulty": "Easy",
-      "correctOption": "C",
-      "correctOptionsList": [
-        "C"
-      ],
-      "correct_index": 2,
-      "correct_indices": [
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In Mössbauer spectroscopy, recoil-free emission and absorption of $\\gamma$-rays is made possible because:",
-      "optionsEn": [
-        "The nucleus is isolated in free space",
-        "The gamma-ray energy is completely zero",
-        "The recoil momentum is absorbed by the crystal lattice as a whole, making recoil energy negligibly small",
-        "Temperature is maintained at absolute zero"
-      ],
-      "explanationEn": "When bound in a crystal lattice, the entire macroscopic crystal ($M \\gg m_{\\text{nucleus}}$) absorbs the recoil momentum, making the recoil kinetic energy $E_R = \\frac{p^2}{2M_{\\text{crystal}}} \\approx 0$.",
-      "questionTextHi": "मेसबॉअर स्पेक्ट्रोस्कोपी में $\\gamma$-किरणों का प्रतिक्षेप-मुक्त (रिकॉइल-फ्री) उत्सर्जन कैसे संभव होता है?",
-      "optionsHi": [
-        "नाभिक मुक्त आकाश में स्थित होता है",
-        "गामा किरण ऊर्जा शून्य होती है",
-        "प्रतिक्षेप संवेग पूरे क्रिस्टल जालक द्वारा अवशोषित होता है जिससे प्रतिक्षेप ऊर्जा नगण्य हो जाती है",
-        "तापमान शून्य होता है"
-      ],
-      "explanationHi": "प्रतिक्षेप ऊर्जा पूरे क्रिस्टल जालक द्वारा वहन की जाती है, जिससे $E_R \\approx 0$ होता है।"
-    },
-    {
-      "questionId": "{tid}_q025",
-      "questionNumber": 25,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Atomic and Molecular Physics",
-      "difficulty": "Easy",
-      "correctOption": "B",
-      "correctOptionsList": [
-        "B"
-      ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "The Paschen-Back effect occurs when the external magnetic field is so strong that:",
-      "optionsEn": [
-        "Spin-orbit coupling is stronger than the magnetic interaction",
-        "The magnetic interaction dominates over the spin-orbit coupling, uncoupling $\\mathbf{L}$ and $\\mathbf{S}$",
-        "Hyperfine structure dominates",
-        "Nuclear spin flips completely"
-      ],
-      "explanationEn": "In the Paschen-Back effect, the strong magnetic field uncouples $\\mathbf{L}$ and $\\mathbf{S}$, so $m_l$ and $m_s$ become good quantum numbers instead of $j$ and $m_j$.",
-      "questionTextHi": "पाशन-बैक प्रभाव कब उत्पन्न होता है?",
-      "optionsHi": [
-        "चक्रण-कक्षा युग्मन बहुत प्रबल हो",
-        "बाह्य चुंबकीय क्षेत्र इतना प्रबल हो कि $\\mathbf{L}$ और $\\mathbf{S}$ का युग्मन टूट जाता है",
-        "अतिसूक्ष्म संरचना हावी हो",
-        "नाभिकीय चक्रण पलट जाए"
-      ],
-      "explanationHi": "प्रबल चुंबकीय क्षेत्र में $\\mathbf{L}$ और $\\mathbf{S}$ अलग-अलग $B$ के परितः पुरःसरण करते हैं।"
-    },
-    {
-      "questionId": "{tid}_q026",
-      "questionNumber": 26,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Solid State Physics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In an ideal metal-semiconductor contact (n-type semiconductor with work function $\\Phi_s$ and metal with work function $\\Phi_m$), a rectifying Schottky barrier is formed when:",
-      "optionsEn": [
-        "$\\Phi_m > \\Phi_s$",
-        "$\\Phi_m < \\Phi_s$",
-        "$\\Phi_m = \\Phi_s$",
-        "Independent of work functions"
-      ],
-      "explanationEn": "For an n-type semiconductor, a rectifying Schottky barrier requires $\\Phi_m > \\Phi_s$ so that electrons flow from semiconductor to metal until equilibrium band bending creates a barrier $\\Phi_B = \\Phi_m - \\chi$.",
-      "questionTextHi": "धातु-अर्धचालक संपर्क (n-प्रकार) में दिष्टकारी शोट्की रोधिका कब बनती है?",
-      "optionsHi": [
-        "$\\Phi_m > \\Phi_s$",
-        "$\\Phi_m < \\Phi_s$",
-        "$\\Phi_m = \\Phi_s$",
-        "कार्यफलनों से स्वतंत्र"
-      ],
-      "explanationHi": "n-प्रकार अर्धचालक के लिए शोट्की रोधिका हेतु $\\Phi_m > \\Phi_s$ आवश्यक है।"
-    },
-    {
-      "questionId": "{tid}_q027",
-      "questionNumber": 27,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Solid State Physics",
-      "difficulty": "Easy",
-      "correctOption": "B",
-      "correctOptionsList": [
-        "B"
-      ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In an intrinsic semiconductor, the Fermi level $E_F$ is located at:",
-      "optionsEn": [
-        "The top of the valence band",
-        "Approximately in the middle of the bandgap: $E_F = \\frac{E_c + E_v}{2} + \\frac{3}{4} k_B T \\ln(m_h^* / m_e^*)$",
-        "The bottom of the conduction band",
-        "Directly at the donor energy level"
-      ],
-      "explanationEn": "From carrier statistics $n = p$, $E_F = \\frac{E_c + E_v}{2} + \\frac{3}{4} k_B T \\ln(m_h^* / m_e^*)$, which lies very close to the center of the bandgap.",
-      "questionTextHi": "नैज अर्धचालक में फर्मी स्तर $E_F$ कहाँ स्थित होता है?",
-      "optionsHi": [
-        "संयोजी बैंड के शीर्ष पर",
-        "लगभग बैंड अंतराल के मध्य में",
-        "चालन बैंड के तल पर",
-        "दाता ऊर्जा स्तर पर"
-      ],
-      "explanationHi": "नैज अर्धचालक में $E_F$ बैंड अंतराल के ठीक मध्य के समीप होता है।"
-    },
-    {
-      "questionId": "{tid}_q028",
-      "questionNumber": 28,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electronics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "An astable multivibrator constructed using an operational amplifier with positive feedback operates as:",
-      "optionsEn": [
-        "A free-running relaxation oscillator producing a square waveform",
-        "A linear audio amplifier",
-        "A digital counter",
-        "A high-pass filter"
-      ],
-      "explanationEn": "An op-amp astable multivibrator switches between positive and negative saturation voltages as a timing capacitor charges and discharges through a resistor, producing a continuous square wave.",
-      "questionTextHi": "ऑप-एम्प द्वारा निर्मित अस्टेबल मल्टीवाइब्रेटर किस रूप में कार्य करता है?",
-      "optionsHi": [
-        "वर्गाकार तरंग उत्पन्न करने वाले मुक्त दोलक के रूप में",
-        "रैखिक प्रवर्धक",
-        "डिजिटल काउंटर",
-        "हाई-पास फिल्टर"
-      ],
-      "explanationHi": "यह निरंतर वर्गाकार तरंग उत्पन्न करने वाला रिलैक्सेशन दोलक है।"
-    },
-    {
-      "questionId": "{tid}_q029",
-      "questionNumber": 29,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electronics",
-      "difficulty": "Easy",
-      "correctOption": "C",
-      "correctOptionsList": [
-        "C"
-      ],
-      "correct_index": 2,
-      "correct_indices": [
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A Schmitt trigger circuit uses which type of feedback to create hysteresis?",
-      "optionsEn": [
-        "Negative feedback only",
-        "No feedback",
-        "Positive feedback",
-        "Both negative and capacitive feedback"
-      ],
-      "explanationEn": "Positive feedback applied to the non-inverting terminal creates two distinct threshold voltages ($V_{UT}$ and $V_{LT}$), producing hysteresis.",
-      "questionTextHi": "श्मिट ट्रिगर परिपथ में हिस्टैरिसीस उत्पन्न करने के लिए किस प्रकार का पुनर्निवेश उपयोग किया जाता है?",
-      "optionsHi": [
-        "केवल ऋणात्मक पुनर्निवेश",
-        "कोई पुनर्निवेश नहीं",
-        "धनात्मक पुनर्निवेश",
-        "दोनों"
-      ],
-      "explanationHi": "अ-प्रतिलोमी टर्मिनल पर धनात्मक पुनर्निवेश से हिस्टैरिसीस उत्पन्न होता है।"
-    },
-    {
-      "questionId": "{tid}_q030",
-      "questionNumber": 30,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Nuclear and Particle Physics",
-      "difficulty": "Easy",
-      "correctOption": "B",
-      "correctOptionsList": [
-        "B"
-      ],
-      "correct_index": 1,
-      "correct_indices": [
-        1
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In the Weizsäcker semi-empirical mass formula, the asymmetry energy term proportional to $(A - 2Z)^2 / A$ arises due to:",
-      "optionsEn": [
-        "Electrostatic Coulomb repulsion",
-        "The Pauli exclusion principle acting differently when proton and neutron numbers differ",
-        "Nuclear surface tension",
-        "Pairing interaction between like nucleons"
-      ],
-      "explanationEn": "Protons and neutrons occupy separate Fermi levels. Any difference $(N - Z) = A - 2Z$ forces nucleons to occupy higher kinetic energy states, reducing binding energy.",
-      "questionTextHi": "अर्ध-आनुभविक द्रव्यमान सूत्र में असममिति ऊर्जा पद $(A - 2Z)^2/A$ का मूल कारण क्या है?",
-      "optionsHi": [
-        "कूलॉम प्रतिकर्षण",
-        "पाउली अपवर्जन सिद्धांत",
-        "पृष्ठ तनाव",
-        "युग्मन बल"
-      ],
-      "explanationHi": "प्रोटॉन और न्यूट्रॉन के अलग-अलग फर्मी स्तरों में भरने पर पाउली सिद्धांत के कारण ऊर्जा में वृद्धि होती है।"
-    },
-    {
-      "questionId": "{tid}_q031",
-      "questionNumber": 31,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.33,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Nuclear and Particle Physics",
-      "difficulty": "Easy",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "The quark structure of the neutral pion $\\pi^0$ is represented by the superposition:",
-      "optionsEn": [
-        "$\\frac{1}{\\sqrt{2}} (u \\bar{u} - d \\bar{d})$",
-        "$u \\bar{d}$",
-        "$d \\bar{u}$",
-        "$s \\bar{s}$"
-      ],
-      "explanationEn": "The neutral pion is the $I = 1, I_3 = 0$ member of the pseudoscalar meson octet, described by $\\frac{1}{\\sqrt{2}} (u \\bar{u} - d \\bar{d})$.",
-      "questionTextHi": "उदासीन पायन $\\pi^0$ की क्वार्क संरचना क्या है?",
-      "optionsHi": [
-        "$\\frac{1}{\\sqrt{2}} (u \\bar{u} - d \\bar{d})$",
-        "$u \\bar{d}$",
-        "$d \\bar{u}$",
-        "$s \\bar{s}$"
-      ],
-      "explanationHi": "$\\pi^0 = \\frac{1}{\\sqrt{2}} (u \\bar{u} - d \\bar{d})$।"
-    },
-    {
-      "questionId": "{tid}_q032",
-      "questionNumber": 32,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Measurements and Error Analysis",
-      "difficulty": "Easy",
-      "correctOption": "5",
-      "correctOptionsList": [
-        "5"
-      ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 5.0,
-      "natMax": 5.0,
-      "questionTextEn": "A quantity $Z = X^2 Y^{1/2}$ is calculated from independent measurements. If the percentage uncertainty in $X$ is $2.0\\%$ and in $Y$ is $6.0\\%$, the percentage standard uncertainty in $Z$ is ______\\% (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "Relative uncertainty: $(\\Delta Z / Z)^2 = (2 \\Delta X / X)^2 + (0.5 \\Delta Y / Y)^2 = (2 \\times 1.5)^2 + (0.5 \\times 4.0)^2 = 3.0^2 + 2.0^2 = 9 + 4 = 13 \\implies \\Delta Z/Z = \\sqrt{13} \\approx 3.61\\%$. Wait, if $\\Delta X / X = 1.5\\%$ and $\\Delta Y / Y = 4\\%$, let's set $\\Delta X / X = 1.5\\%, \\Delta Y / Y = 4\\%$ -> $3^2 + 2^2 = 13$. For integer: if $\\Delta X/X = 1.5\\%$ and $\\Delta Y/Y = 4.0\\%$, $\\sqrt{13} \\approx 3.6$. If $\\Delta X / X = 1.5\\%$ and $\\Delta Y/Y = 4.0\\%$, let's set $\\Delta X/X = 1.5\\%$ with $(2 \\times 1.5) = 3$ and $0.5 \\times 4 = 2$. What if $\\Delta X/X = 1.5\\%$ and $\\Delta Y/Y = 4\\%$? What if $(\\Delta Z/Z) = \\sqrt{3^2 + 4^2} = 5\\%$ with $\\Delta Y/Y = 8\\%$? Let $\\Delta X/X = 2\\%$ and $\\Delta Y/Y = 6\\%$: $(2 \\times 2)^2 + (0.5 \\times 6)^2 = 4^2 + 3^2 = 25 \\implies 5\\%$! Let's use $5\\%$.",
-      "questionTextHi": "राशि $Z = X^2 Y^{1/2}$ में यदि $X$ में त्रुटि $2.0\\%$ तथा $Y$ में $6.0\\%$ है, तो $Z$ में प्रतिशत अनिश्चितता ______\\% है।",
-      "optionsHi": [],
-      "explanationHi": "$\\Delta Z/Z = \\sqrt{(2 \\times 2.0)^2 + (0.5 \\times 6.0)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5\\%$।"
-    },
-    {
-      "questionId": "{tid}_q033",
-      "questionNumber": 33,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
-      "difficulty": "Easy",
-      "correctOption": "4",
-      "correctOptionsList": [
-        "4"
-      ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 4.0,
-      "natMax": 4.0,
-      "questionTextEn": "In a double-slit interference experiment, the distance between the two slits is $d = 0.8\\text{ mm}$ and the width of each slit is $a = 0.2\\text{ mm}$. The ratio $d/a$ which determines the missing order of interference is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "$d/a = 0.8 / 0.2 = 4$. Thus, the 4th, 8th, 12th ... interference maxima are missing.",
-      "questionTextHi": "द्वि-स्लिट प्रयोग में $d = 0.8\\text{ mm}$ तथा $a = 0.2\\text{ mm}$ के लिए अनुपात $d/a$ ______ है।",
-      "optionsHi": [],
-      "explanationHi": "$d/a = 0.8 / 0.2 = 4$।"
-    },
-    {
-      "questionId": "{tid}_q034",
-      "questionNumber": 34,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantum Mechanics",
-      "difficulty": "Easy",
-      "correctOption": "9",
-      "correctOptionsList": [
-        "9"
-      ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 9.0,
-      "natMax": 9.0,
-      "questionTextEn": "For an electron in a hydrogen atom in the state with principal quantum number $n = 3$, the total orbital spatial degeneracy (summing over all allowed orbital states $\\sum_{l=0}^{n-1} (2l+1)$, excluding spin) is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "Degeneracy without spin is $n^2 = 3^2 = 9$.",
-      "questionTextHi": "हाइड्रोजन परमाणु में $n = 3$ स्तर के लिए कुल कक्षीय अपभ्रष्टता (चक्रण रहित) ______ है।",
-      "optionsHi": [],
-      "explanationHi": "$n^2 = 3^2 = 9$।"
-    },
-    {
-      "questionId": "{tid}_q035",
-      "questionNumber": 35,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
-      "positiveMarks": 1.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electronics",
-      "difficulty": "Easy",
-      "correctOption": "100",
-      "correctOptionsList": [
-        "100"
-      ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 100.0,
-      "natMax": 100.0,
-      "questionTextEn": "In a full-wave bridge rectifier operating from a $50\\text{ Hz}$ AC power line, the fundamental ripple frequency in the rectified DC output in Hz is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "For full-wave rectification, the ripple frequency is twice the input AC line frequency: $f_{\\text{ripple}} = 2 f_{\\text{line}} = 2 \\times 50\\text{ Hz} = 100\\text{ Hz}$. Wait, let's make the answer 100 Hz or adjust text: ripple frequency is 100 Hz.",
-      "questionTextHi": "$50\\text{ Hz}$ प्रत्यावर्ती लाइन से संचालित पूर्ण-तरंग दिष्टकारी के निर्गत में रिपल आवृत्ति ______ Hz होती है।",
-      "optionsHi": [],
-      "explanationHi": "$f_{\\text{ripple}} = 2 \\times 50 = 100\\text{ Hz}$।"
-    },
-    {
-      "questionId": "gate_ph_mock_06_q036",
-      "questionNumber": 36,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Measurements and Error Analysis",
       "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In Electron Spin Resonance (ESR / EPR), why are resonance frequencies typically in the microwave (GHz) range for $B_0 \\sim 0.3\\text{ T}$, whereas proton NMR at the same field is in the radiofrequency (MHz) range?",
+      "optionsEn": [
+        "Because ESR uses electric fields",
+        "Because the electron magnetic moment is $\\sim 658$ times larger than the proton magnetic moment due to the electron's much smaller mass",
+        "Because electrons have spin 1 while protons have spin 1/2",
+        "Because protons have no magnetic moment"
+      ],
+      "explanationEn": "Since $\\mu_B / \\mu_N = m_p / m_e \\approx 1836$ (and $g_e \\approx 2$ vs $g_p \\approx 5.58$), the electron Larmor frequency is $\\sim 658\\times$ higher than the proton Larmor frequency at the same $B_0$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
       "correctOption": "A",
       "correctOptionsList": [
         "A"
@@ -1305,735 +592,181 @@
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "In a lock-in amplifier, an input signal $V_{\\text{in}}(t) = V_s \\cos(\\omega_s t + \\phi) + V_n(t)$ where $V_n(t)$ is broad-band noise, is multiplied by a square-wave reference signal $V_{\\text{ref}}(t)$ of fundamental frequency $\\omega_r$. If $\\omega_s = \\omega_r$ and the phase difference is adjusted to $\\phi = 0$, the DC output from the low-pass filter with unity gain is proportional to:",
+      "questionTextEn": "For an electron in a 1D energy band $E(k)$, its effective mass $m^*$ is given by:",
       "optionsEn": [
-        "$V_s$",
-        "$V_s / 2$",
-        "$0$",
-        "$V_s \\cos(2\\omega_r t)$"
+        "$\\hbar^2 \\left(\\frac{d^2 E}{dk^2}\\right)^{-1}$",
+        "$\\hbar \\left(\\frac{dE}{dk}\\right)^{-1}$",
+        "$\\frac{1}{\\hbar^2}\\frac{d^2 E}{dk^2}$",
+        "$\\frac{2E}{k^2}$"
       ],
-      "explanationEn": "Multiplying $\\cos(\\omega_r t) \\times \\cos(\\omega_r t) = \\frac{1}{2}[1 + \\cos(2\\omega_r t)]$. The low-pass filter eliminates the AC $2\\omega_r$ component and all noise at $\\omega \\ne \\omega_r$, leaving a pure DC output proportional to $V_s$.",
-      "questionTextHi": "In a lock-in amplifier, an input signal $V_{\\text{in}}(t) = V_s \\cos(\\omega_s t + \\phi) + V_n(t)$ where $V_n(t)$ is broad-band noise, is multiplied by a square-wave reference signal $V_{\\text{ref}}(t)$ of fundamental frequency $\\omega_r$. If $\\omega_s = \\omega_r$ and the phase difference is adjusted to $\\phi = 0$, the DC output from the low-pass filter with unity gain is proportional to:",
-      "optionsHi": [
-        "$V_s$",
-        "$V_s / 2$",
-        "$0$",
-        "$V_s \\cos(2\\omega_r t)$"
-      ],
-      "explanationHi": "Multiplying $\\cos(\\omega_r t) \\times \\cos(\\omega_r t) = \\frac{1}{2}[1 + \\cos(2\\omega_r t)]$. The low-pass filter eliminates the AC $2\\omega_r$ component and all noise at $\\omega \\ne \\omega_r$, leaving a pure DC output proportional to $V_s$."
+      "explanationEn": "Differentiating group velocity $v_g = \\frac{1}{\\hbar}\\frac{dE}{dk}$ gives $\\frac{1}{m^*} = \\frac{1}{\\hbar^2}\\frac{d^2 E}{dk^2} \\implies m^* = \\hbar^2 (d^2 E/dk^2)^{-1}$."
     },
     {
-      "questionId": "gate_ph_mock_06_q037",
-      "questionNumber": 37,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "questionId": "gate_ph_mock_06_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
       "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the reciprocal lattice of a Face-Centered Cubic (FCC) Bravais lattice?",
+      "optionsEn": [
+        "Simple Cubic (SC)",
+        "Body-Centered Cubic (BCC)",
+        "Hexagonal",
+        "Face-Centered Cubic (FCC)"
+      ],
+      "explanationEn": "The reciprocal lattice of an FCC lattice of conventional side $a$ is a BCC lattice of conventional side $4\\pi/a$ (and vice versa)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electronics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a Bipolar Junction Transistor (BJT) operating in the forward-active region:",
+      "optionsEn": [
+        "Both junctions are forward biased",
+        "Emitter-base junction is forward biased and collector-base junction is reverse biased",
+        "Both junctions are reverse biased",
+        "Emitter-base junction is reverse biased and collector-base junction is forward biased"
+      ],
+      "explanationEn": "Forward-active amplification requires an injecting forward-biased emitter-base junction and a collecting reverse-biased collector-base junction."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Nuclear Force",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following is NOT a property of the strong nuclear force between nucleons?",
+      "optionsEn": [
+        "It is approximately charge-independent",
+        "It is spin-dependent",
+        "It is strictly a central force depending only on inter-nucleon distance",
+        "It is short-ranged and saturates"
+      ],
+      "explanationEn": "The non-zero electric quadrupole moment of the deuteron proves that the nuclear force has a non-central tensor component depending on spin orientation relative to the separation vector."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Beta Decay",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A nuclear $\\beta$-decay transition between states $0^+ \\to 0^+$ is classified as:",
+      "optionsEn": [
+        "First-forbidden transition",
+        "Pure Fermi allowed transition",
+        "Mixed Fermi and Gamow-Teller transition",
+        "Pure Gamow-Teller allowed transition"
+      ],
+      "explanationEn": "Allowed transitions require $\\Delta L = 0$ (no parity change). For $0^+ \\to 0^+$, $\\Delta J = 0$ with $J_i = J_f = 0$; Gamow-Teller transitions forbid $0 \\to 0$, so it must be a pure Fermi transition ($S = 0$)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Mathematical Physics",
       "difficulty": "Medium",
-      "correctOption": "A",
+      "correctOption": null,
       "correctOptionsList": [
-        "A"
+        "A",
+        "B",
+        "C"
       ],
-      "correct_index": 0,
+      "correct_index": null,
       "correct_indices": [
-        0
+        0,
+        1,
+        2
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "The value of the contour integral $\\oint_{|z|=2} \\frac{z^3 + 1}{(z - 1)^2 (z + 3)} \\, dz$ evaluated counterclockwise along the circle $|z| = 2$ in the complex plane is:",
+      "questionTextEn": "Which of the following statements about Fourier series and Fourier transforms are TRUE?",
       "optionsEn": [
-        "$\\frac{5\\pi i}{4}$",
-        "$\\frac{3\\pi i}{4}$",
-        "$\\frac{7\\pi i}{4}$",
-        "$2\\pi i$"
+        "By Parseval's theorem, the total energy $\\int_{-\\infty}^\\infty |f(x)|^2 dx$ is preserved in Fourier space (up to the normalization convention)",
+        "The Fourier transform of a convolution $(f * g)(x)$ is proportional to the product $\\tilde{f}(k)\\tilde{g}(k)$",
+        "Compressing a pulse in time broadens its frequency spectrum",
+        "A strictly band-limited non-zero signal can also be strictly time-limited"
       ],
-      "explanationEn": "Only the double pole at $z = 1$ lies inside $|z| = 2$. By Cauchy's Residue Theorem, $\\text{Res}(f, 1) = \\lim_{z \\to 1} \\frac{d}{dz}\\left[\\frac{z^3 + 1}{z + 3}\\right] = \\left. \\frac{3z^2(z+3) - (z^3+1)}{(z+3)^2} \\right|_{z=1} = \\frac{12 - 2}{16} = \\frac{5}{8}$. Thus, $\\oint = 2\\pi i (5/8) = \\frac{5\\pi i}{4}$.",
-      "questionTextHi": "The value of the contour integral $\\oint_{|z|=2} \\frac{z^3 + 1}{(z - 1)^2 (z + 3)} \\, dz$ evaluated counterclockwise along the circle $|z| = 2$ in the complex plane is:",
-      "optionsHi": [
-        "$\\frac{5\\pi i}{4}$",
-        "$\\frac{3\\pi i}{4}$",
-        "$\\frac{7\\pi i}{4}$",
-        "$2\\pi i$"
-      ],
-      "explanationHi": "Only the double pole at $z = 1$ lies inside $|z| = 2$. By Cauchy's Residue Theorem, $\\text{Res}(f, 1) = \\lim_{z \\to 1} \\frac{d}{dz}\\left[\\frac{z^3 + 1}{z + 3}\\right] = \\left. \\frac{3z^2(z+3) - (z^3+1)}{(z+3)^2} \\right|_{z=1} = \\frac{12 - 2}{16} = \\frac{5}{8}$. Thus, $\\oint = 2\\pi i (5/8) = \\frac{5\\pi i}{4}$."
+      "explanationEn": "Parseval's theorem (A), the convolution theorem (B), and time-frequency scaling (C) are all true. By the Paley-Wiener / uncertainty principle, no non-zero function can be both compactly supported in time and band-limited in frequency (D is false)."
     },
     {
-      "questionId": "gate_ph_mock_06_q038",
-      "questionNumber": 38,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
+      "questionId": "gate_ph_mock_06_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Classical Mechanics",
       "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A canonical transformation from $(q, p)$ to $(Q, P)$ is generated by the generating function of the second kind $F_2(q, P) = q^2 P$. The new coordinate $Q$ and momentum $P$ in terms of $(q, p)$ are:",
-      "optionsEn": [
-        "$Q = q^2, \\quad P = \\frac{p}{2q}$",
-        "$Q = 2q P, \\quad P = \\frac{p}{q^2}$",
-        "$Q = \\frac{q}{2}, \\quad P = 2pq$",
-        "$Q = q^2, \\quad P = 2pq$"
-      ],
-      "explanationEn": "$p = \\frac{\\partial F_2}{\\partial q} = 2q P \\implies P = \\frac{p}{2q}$. $Q = \\frac{\\partial F_2}{\\partial P} = q^2$.",
-      "questionTextHi": "A canonical transformation from $(q, p)$ to $(Q, P)$ is generated by the generating function of the second kind $F_2(q, P) = q^2 P$. The new coordinate $Q$ and momentum $P$ in terms of $(q, p)$ are:",
-      "optionsHi": [
-        "$Q = q^2, \\quad P = \\frac{p}{2q}$",
-        "$Q = 2q P, \\quad P = \\frac{p}{q^2}$",
-        "$Q = \\frac{q}{2}, \\quad P = 2pq$",
-        "$Q = q^2, \\quad P = 2pq$"
-      ],
-      "explanationHi": "$p = \\frac{\\partial F_2}{\\partial q} = 2q P \\implies P = \\frac{p}{2q}$. $Q = \\frac{\\partial F_2}{\\partial P} = q^2$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q039",
-      "questionNumber": 39,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electromagnetic Theory",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A hollow rectangular waveguide of width $a = 4\\text{ cm}$ and height $b = 2\\text{ cm}$ operates in air. The cutoff frequency for the $\\text{TE}_{11}$ mode is:",
-      "optionsEn": [
-        "$8.39\\text{ GHz}$",
-        "$3.75\\text{ GHz}$",
-        "$7.50\\text{ GHz}$",
-        "$9.15\\text{ GHz}$"
-      ],
-      "explanationEn": "$f_c = \\frac{c}{2} \\sqrt{(1/a)^2 + (1/b)^2} = \\frac{3 \\times 10^8}{2} \\sqrt{(25)^2 + (50)^2} = 1.5 \\times 10^8 \\times \\sqrt{3125} \\approx 8.385 \\times 10^9\\text{ Hz} = 8.39\\text{ GHz}$.",
-      "questionTextHi": "A hollow rectangular waveguide of width $a = 4\\text{ cm}$ and height $b = 2\\text{ cm}$ operates in air. The cutoff frequency for the $\\text{TE}_{11}$ mode is:",
-      "optionsHi": [
-        "$8.39\\text{ GHz}$",
-        "$3.75\\text{ GHz}$",
-        "$7.50\\text{ GHz}$",
-        "$9.15\\text{ GHz}$"
-      ],
-      "explanationHi": "$f_c = \\frac{c}{2} \\sqrt{(1/a)^2 + (1/b)^2} = \\frac{3 \\times 10^8}{2} \\sqrt{(25)^2 + (50)^2} = 1.5 \\times 10^8 \\times \\sqrt{3125} \\approx 8.385 \\times 10^9\\text{ Hz} = 8.39\\text{ GHz}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q040",
-      "questionNumber": 40,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantum Mechanics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A one-dimensional quantum harmonic oscillator of mass $m$ and frequency $\\omega$ is perturbed by $H' = \\lambda x^4$. Using first-order time-independent perturbation theory, the shift in the ground state energy is:",
-      "optionsEn": [
-        "$\\frac{3 \\lambda \\hbar^2}{4 m^2 \\omega^2}$",
-        "$\\frac{\\lambda \\hbar^2}{4 m^2 \\omega^2}$",
-        "$\\frac{3 \\lambda \\hbar^2}{2 m^2 \\omega^2}$",
-        "$\\frac{\\lambda \\hbar^2}{2 m^2 \\omega^2}$"
-      ],
-      "explanationEn": "For the ground state of a harmonic oscillator, $\\langle x^4 \\rangle_0 = 3 \\langle x^2 \\rangle_0^2 = 3 \\left(\\frac{\\hbar}{2m\\omega}\\right)^2 = \\frac{3\\hbar^2}{4m^2\\omega^2}$. Hence $\\Delta E_0^{(1)} = \\frac{3\\lambda\\hbar^2}{4m^2\\omega^2}$.",
-      "questionTextHi": "A one-dimensional quantum harmonic oscillator of mass $m$ and frequency $\\omega$ is perturbed by $H' = \\lambda x^4$. Using first-order time-independent perturbation theory, the shift in the ground state energy is:",
-      "optionsHi": [
-        "$\\frac{3 \\lambda \\hbar^2}{4 m^2 \\omega^2}$",
-        "$\\frac{\\lambda \\hbar^2}{4 m^2 \\omega^2}$",
-        "$\\frac{3 \\lambda \\hbar^2}{2 m^2 \\omega^2}$",
-        "$\\frac{\\lambda \\hbar^2}{2 m^2 \\omega^2}$"
-      ],
-      "explanationHi": "For the ground state of a harmonic oscillator, $\\langle x^4 \\rangle_0 = 3 \\langle x^2 \\rangle_0^2 = 3 \\left(\\frac{\\hbar}{2m\\omega}\\right)^2 = \\frac{3\\hbar^2}{4m^2\\omega^2}$. Hence $\\Delta E_0^{(1)} = \\frac{3\\lambda\\hbar^2}{4m^2\\omega^2}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q041",
-      "questionNumber": 41,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A Fabry-Pérot etalon has plate separation $d = 1.0\\text{ cm}$ filled with air ($n = 1$). The Free Spectral Range (FSR) in terms of frequency $\\Delta \\nu_{\\text{FSR}}$ is:",
-      "optionsEn": [
-        "$15.0\\text{ GHz}$",
-        "$30.0\\text{ GHz}$",
-        "$7.5\\text{ GHz}$",
-        "$1.5\\text{ GHz}$"
-      ],
-      "explanationEn": "$\\Delta \\nu_{\\text{FSR}} = \\frac{c}{2 n d} = \\frac{3.0 \\times 10^8\\text{ m/s}}{2(1)(0.01\\text{ m})} = \\frac{3.0 \\times 10^8}{0.02} = 1.5 \\times 10^{10}\\text{ Hz} = 15.0\\text{ GHz}$.",
-      "questionTextHi": "A Fabry-Pérot etalon has plate separation $d = 1.0\\text{ cm}$ filled with air ($n = 1$). The Free Spectral Range (FSR) in terms of frequency $\\Delta \\nu_{\\text{FSR}}$ is:",
-      "optionsHi": [
-        "$15.0\\text{ GHz}$",
-        "$30.0\\text{ GHz}$",
-        "$7.5\\text{ GHz}$",
-        "$1.5\\text{ GHz}$"
-      ],
-      "explanationHi": "$\\Delta \\nu_{\\text{FSR}} = \\frac{c}{2 n d} = \\frac{3.0 \\times 10^8\\text{ m/s}}{2(1)(0.01\\text{ m})} = \\frac{3.0 \\times 10^8}{0.02} = 1.5 \\times 10^{10}\\text{ Hz} = 15.0\\text{ GHz}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q042",
-      "questionNumber": 42,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Thermodynamics and Statistical Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "For a 2D non-relativistic ideal electron gas of spin-$1/2$ and surface density $n = N/A$, the density of states $g(E)$ and the Fermi energy $E_F$ are:",
-      "optionsEn": [
-        "$g(E)$ is constant (independent of $E$), and $E_F = \\frac{\\pi \\hbar^2 n}{m}$",
-        "$g(E) \\propto \\sqrt{E}$, and $E_F = \\frac{\\pi \\hbar^2 n}{m}$",
-        "$g(E) \\propto E$, and $E_F = \\frac{2\\pi \\hbar^2 n}{m}$",
-        "$g(E)$ is constant, and $E_F = \\frac{2\\pi \\hbar^2 n}{m}$"
-      ],
-      "explanationEn": "In 2D, $g(E) = \\frac{A m}{\\pi \\hbar^2}$ (energy-independent). Total particle count $N = \\int_0^{E_F} g(E) dE = \\frac{A m}{\\pi \\hbar^2} E_F \\implies E_F = \\frac{\\pi \\hbar^2 n}{m}$.",
-      "questionTextHi": "For a 2D non-relativistic ideal electron gas of spin-$1/2$ and surface density $n = N/A$, the density of states $g(E)$ and the Fermi energy $E_F$ are:",
-      "optionsHi": [
-        "$g(E)$ is constant (independent of $E$), and $E_F = \\frac{\\pi \\hbar^2 n}{m}$",
-        "$g(E) \\propto \\sqrt{E}$, and $E_F = \\frac{\\pi \\hbar^2 n}{m}$",
-        "$g(E) \\propto E$, and $E_F = \\frac{2\\pi \\hbar^2 n}{m}$",
-        "$g(E)$ is constant, and $E_F = \\frac{2\\pi \\hbar^2 n}{m}$"
-      ],
-      "explanationHi": "In 2D, $g(E) = \\frac{A m}{\\pi \\hbar^2}$ (energy-independent). Total particle count $N = \\int_0^{E_F} g(E) dE = \\frac{A m}{\\pi \\hbar^2} E_F \\implies E_F = \\frac{\\pi \\hbar^2 n}{m}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q043",
-      "questionNumber": 43,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Atomic and Molecular Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "The Landé $g$-factor for the atomic spectroscopic term $^3P_2$ is:",
-      "optionsEn": [
-        "$\\frac{3}{2}$",
-        "$\\frac{4}{3}$",
-        "$\\frac{5}{4}$",
-        "$1$"
-      ],
-      "explanationEn": "For $^3P_2$: $S = 1, L = 1, J = 2$. $g = 1 + \\frac{J(J+1) + S(S+1) - L(L+1)}{2J(J+1)} = 1 + \\frac{6 + 2 - 2}{2(6)} = 1 + \\frac{1}{2} = \\frac{3}{2}$.",
-      "questionTextHi": "The Landé $g$-factor for the atomic spectroscopic term $^3P_2$ is:",
-      "optionsHi": [
-        "$\\frac{3}{2}$",
-        "$\\frac{4}{3}$",
-        "$\\frac{5}{4}$",
-        "$1$"
-      ],
-      "explanationHi": "For $^3P_2$: $S = 1, L = 1, J = 2$. $g = 1 + \\frac{J(J+1) + S(S+1) - L(L+1)}{2J(J+1)} = 1 + \\frac{6 + 2 - 2}{2(6)} = 1 + \\frac{1}{2} = \\frac{3}{2}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q044",
-      "questionNumber": 44,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Solid State Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A monovalent metal crystallizes in a face-centered cubic (FCC) lattice with lattice constant $a = 0.4\\text{ nm}$. The Hall coefficient $R_H$ in the free electron model is closest to:",
-      "optionsEn": [
-        "$-1.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$",
-        "$-2.5 \\times 10^{-10}\\text{ m}^3/\\text{C}$",
-        "$-4.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$",
-        "$+1.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$"
-      ],
-      "explanationEn": "In FCC, $n = 4/a^3 = 4/(0.4 \\times 10^{-9})^3 = 6.25 \\times 10^{28}\\text{ m}^{-3}$. $R_H = -\\frac{1}{ne} = -\\frac{1}{6.25 \\times 10^{28} \\times 1.6 \\times 10^{-19}} = -1.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$.",
-      "questionTextHi": "A monovalent metal crystallizes in a face-centered cubic (FCC) lattice with lattice constant $a = 0.4\\text{ nm}$. The Hall coefficient $R_H$ in the free electron model is closest to:",
-      "optionsHi": [
-        "$-1.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$",
-        "$-2.5 \\times 10^{-10}\\text{ m}^3/\\text{C}$",
-        "$-4.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$",
-        "$+1.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$"
-      ],
-      "explanationHi": "In FCC, $n = 4/a^3 = 4/(0.4 \\times 10^{-9})^3 = 6.25 \\times 10^{28}\\text{ m}^{-3}$. $R_H = -\\frac{1}{ne} = -\\frac{1}{6.25 \\times 10^{28} \\times 1.6 \\times 10^{-19}} = -1.0 \\times 10^{-10}\\text{ m}^3/\\text{C}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q045",
-      "questionNumber": 45,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Electronics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "An op-amp astable multivibrator has feedback resistors $R_1 = R_2 = 10\\text{ k}\\Omega$ setting the non-inverting threshold $\\beta = R_1/(R_1 + R_2) = 0.5$. If the timing network has $R = 100\\text{ k}\\Omega$ and $C = 0.1\\,\\mu\\text{F}$, the period of oscillation $T = 2 R C \\ln\\left(\\frac{1+\\beta}{1-\\beta}\\right)$ is closest to:",
-      "optionsEn": [
-        "$22\\text{ ms}$",
-        "$11\\text{ ms}$",
-        "$44\\text{ ms}$",
-        "$5\\text{ ms}$"
-      ],
-      "explanationEn": "$RC = 10^5 \\times 10^{-7} = 0.01\\text{ s} = 10\\text{ ms}$. $\\ln(\\frac{1.5}{0.5}) = \\ln(3) \\approx 1.0986$. $T = 2(10\\text{ ms})(1.0986) \\approx 21.97\\text{ ms} \\approx 22\\text{ ms}$.",
-      "questionTextHi": "An op-amp astable multivibrator has feedback resistors $R_1 = R_2 = 10\\text{ k}\\Omega$ setting the non-inverting threshold $\\beta = R_1/(R_1 + R_2) = 0.5$. If the timing network has $R = 100\\text{ k}\\Omega$ and $C = 0.1\\,\\mu\\text{F}$, the period of oscillation $T = 2 R C \\ln\\left(\\frac{1+\\beta}{1-\\beta}\\right)$ is closest to:",
-      "optionsHi": [
-        "$22\\text{ ms}$",
-        "$11\\text{ ms}$",
-        "$44\\text{ ms}$",
-        "$5\\text{ ms}$"
-      ],
-      "explanationHi": "$RC = 10^5 \\times 10^{-7} = 0.01\\text{ s} = 10\\text{ ms}$. $\\ln(\\frac{1.5}{0.5}) = \\ln(3) \\approx 1.0986$. $T = 2(10\\text{ ms})(1.0986) \\approx 21.97\\text{ ms} \\approx 22\\text{ ms}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q046",
-      "questionNumber": 46,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Nuclear and Particle Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "According to the single-particle extreme nuclear shell model, the spin and parity ($J^P$) of the ground state of $^{27}_{13}\\text{Al}$ are:",
-      "optionsEn": [
-        "$\\frac{5}{2}^+$",
-        "$\\frac{1}{2}^+$",
-        "$\\frac{3}{2}^-$",
-        "$\\frac{1}{2}^-$"
-      ],
-      "explanationEn": "$Z = 13$ (odd) has 13th proton in the $1d_{5/2}$ state ($l = 2$, even parity $+1$, $j = 5/2$). Thus, $J^P = \\frac{5}{2}^+$.",
-      "questionTextHi": "According to the single-particle extreme nuclear shell model, the spin and parity ($J^P$) of the ground state of $^{27}_{13}\\text{Al}$ are:",
-      "optionsHi": [
-        "$\\frac{5}{2}^+$",
-        "$\\frac{1}{2}^+$",
-        "$\\frac{3}{2}^-$",
-        "$\\frac{1}{2}^-$"
-      ],
-      "explanationHi": "$Z = 13$ (odd) has 13th proton in the $1d_{5/2}$ state ($l = 2$, even parity $+1$, $j = 5/2$). Thus, $J^P = \\frac{5}{2}^+$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q047",
-      "questionNumber": 47,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Measurements and Error Analysis",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A full-wave bridge rectifier is supplied by a $50\\text{ Hz}$ AC line. It supplies a load $R_L = 500\\,\\Omega$ through a filter capacitor $C = 1000\\,\\mu\\text{F}$. The ripple factor of the DC output is approximately:",
-      "optionsEn": [
-        "$0.58\\%$",
-        "$2.89\\%$",
-        "$1.15\\%$",
-        "$5.77\\%$"
-      ],
-      "explanationEn": "For full-wave rectification at $f = 50\\text{ Hz}$, $r = \\frac{1}{4\\sqrt{3} f R_L C} = \\frac{1}{4(1.732)(50)(500)(10^{-3})} = \\frac{1}{173.2} \\approx 0.00577 = 0.58\\%$.",
-      "questionTextHi": "A full-wave bridge rectifier is supplied by a $50\\text{ Hz}$ AC line. It supplies a load $R_L = 500\\,\\Omega$ through a filter capacitor $C = 1000\\,\\mu\\text{F}$. The ripple factor of the DC output is approximately:",
-      "optionsHi": [
-        "$0.58\\%$",
-        "$2.89\\%$",
-        "$1.15\\%$",
-        "$5.77\\%$"
-      ],
-      "explanationHi": "For full-wave rectification at $f = 50\\text{ Hz}$, $r = \\frac{1}{4\\sqrt{3} f R_L C} = \\frac{1}{4(1.732)(50)(500)(10^{-3})} = \\frac{1}{173.2} \\approx 0.00577 = 0.58\\%$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q048",
-      "questionNumber": 48,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "An astronomical telescope with an objective lens of diameter $D = 1.22\\text{ m}$ observes two stars emitting visible light of wavelength $\\lambda = 600\\text{ nm}$. According to the Rayleigh criterion, the minimum angular separation that can be resolved is:",
-      "optionsEn": [
-        "$6.0 \\times 10^{-7}\\text{ rad}$",
-        "$1.2 \\times 10^{-6}\\text{ rad}$",
-        "$3.0 \\times 10^{-7}\\text{ rad}$",
-        "$5.0 \\times 10^{-7}\\text{ rad}$"
-      ],
-      "explanationEn": "$\\theta_{\\text{min}} = 1.22 \\frac{\\lambda}{D} = 1.22 \\frac{600 \\times 10^{-9}}{1.22} = 6.0 \\times 10^{-7}\\text{ rad}$.",
-      "questionTextHi": "An astronomical telescope with an objective lens of diameter $D = 1.22\\text{ m}$ observes two stars emitting visible light of wavelength $\\lambda = 600\\text{ nm}$. According to the Rayleigh criterion, the minimum angular separation that can be resolved is:",
-      "optionsHi": [
-        "$6.0 \\times 10^{-7}\\text{ rad}$",
-        "$1.2 \\times 10^{-6}\\text{ rad}$",
-        "$3.0 \\times 10^{-7}\\text{ rad}$",
-        "$5.0 \\times 10^{-7}\\text{ rad}$"
-      ],
-      "explanationHi": "$\\theta_{\\text{min}} = 1.22 \\frac{\\lambda}{D} = 1.22 \\frac{600 \\times 10^{-9}}{1.22} = 6.0 \\times 10^{-7}\\text{ rad}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q049",
-      "questionNumber": 49,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantum Mechanics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "Two angular momenta $j_1 = 1$ and $j_2 = 1$ are coupled. The possible total angular momentum quantum numbers $J$ and the total number of coupled states are:",
-      "optionsEn": [
-        "$J = 0, 1, 2$ with total 9 states",
-        "$J = 1, 2$ with total 8 states",
-        "$J = 0, 1, 2$ with total 6 states",
-        "$J = 0, 2$ with total 5 states"
-      ],
-      "explanationEn": "$|1 - 1| \\le J \\le 1 + 1 \\implies J = 0, 1, 2$. Total states = $(2(0)+1) + (2(1)+1) + (2(2)+1) = 1 + 3 + 5 = 9$.",
-      "questionTextHi": "Two angular momenta $j_1 = 1$ and $j_2 = 1$ are coupled. The possible total angular momentum quantum numbers $J$ and the total number of coupled states are:",
-      "optionsHi": [
-        "$J = 0, 1, 2$ with total 9 states",
-        "$J = 1, 2$ with total 8 states",
-        "$J = 0, 1, 2$ with total 6 states",
-        "$J = 0, 2$ with total 5 states"
-      ],
-      "explanationHi": "$|1 - 1| \\le J \\le 1 + 1 \\implies J = 0, 1, 2$. Total states = $(2(0)+1) + (2(1)+1) + (2(2)+1) = 1 + 3 + 5 = 9$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q050",
-      "questionNumber": 50,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MCQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.67,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Solid State Physics",
-      "difficulty": "Medium",
-      "correctOption": "A",
-      "correctOptionsList": [
-        "A"
-      ],
-      "correct_index": 0,
-      "correct_indices": [
-        0
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "In an n-type semiconductor at room temperature, the donor concentration is $N_D = 10^{16}\\text{ cm}^{-3}$ and intrinsic carrier concentration is $n_i = 10^{10}\\text{ cm}^{-3}$. Assuming complete ionization of donors, the hole concentration $p$ is:",
-      "optionsEn": [
-        "$10^4\\text{ cm}^{-3}$",
-        "$10^6\\text{ cm}^{-3}$",
-        "$10^{10}\\text{ cm}^{-3}$",
-        "$10^{12}\\text{ cm}^{-3}$"
-      ],
-      "explanationEn": "By the law of mass action, $n p = n_i^2$. Since $n \\approx N_D = 10^{16}\\text{ cm}^{-3}$, $p = n_i^2 / N_D = (10^{10})^2 / 10^{16} = 10^{20} / 10^{16} = 10^4\\text{ cm}^{-3}$.",
-      "questionTextHi": "In an n-type semiconductor at room temperature, the donor concentration is $N_D = 10^{16}\\text{ cm}^{-3}$ and intrinsic carrier concentration is $n_i = 10^{10}\\text{ cm}^{-3}$. Assuming complete ionization of donors, the hole concentration $p$ is:",
-      "optionsHi": [
-        "$10^4\\text{ cm}^{-3}$",
-        "$10^6\\text{ cm}^{-3}$",
-        "$10^{10}\\text{ cm}^{-3}$",
-        "$10^{12}\\text{ cm}^{-3}$"
-      ],
-      "explanationHi": "By the law of mass action, $n p = n_i^2$. Since $n \\approx N_D = 10^{16}\\text{ cm}^{-3}$, $p = n_i^2 / N_D = (10^{10})^2 / 10^{16} = 10^{20} / 10^{16} = 10^4\\text{ cm}^{-3}$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q051",
-      "questionNumber": 51,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MSQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Measurements and Error Analysis",
-      "difficulty": "Hard",
-      "correctOption": "A,B,C",
-      "correctOptionsList": [
-        "A",
-        "B",
-        "C"
-      ],
-      "correct_index": null,
-      "correct_indices": [
-        0,
-        1,
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "Which of the following statements regarding experimental measurements and error analysis is/are CORRECT?\n(A) The four-probe method eliminates contact resistance by measuring voltage across probes that carry virtually zero current.\n(B) Random errors can be reduced by averaging multiple independent measurements, whereas systematic errors cannot.\n(C) Single-point star grounding helps eliminate ground loops by preventing circulating noise currents.\n(D) The ripple factor of a full-wave rectifier is independent of load resistance $R_L$.",
-      "optionsEn": [
-        "The four-probe method eliminates contact resistance by measuring voltage across probes that carry virtually zero current.",
-        "Random errors can be reduced by averaging multiple independent measurements, whereas systematic errors cannot.",
-        "Single-point star grounding helps eliminate ground loops by preventing circulating noise currents.",
-        "The ripple factor of a full-wave rectifier is independent of load resistance $R_L$."
-      ],
-      "explanationEn": "A, B, C are correct. D is false because ripple factor $r \\propto 1/(R_L C)$.",
-      "questionTextHi": "Which of the following statements regarding experimental measurements and error analysis is/are CORRECT?\n(A) The four-probe method eliminates contact resistance by measuring voltage across probes that carry virtually zero current.\n(B) Random errors can be reduced by averaging multiple independent measurements, whereas systematic errors cannot.\n(C) Single-point star grounding helps eliminate ground loops by preventing circulating noise currents.\n(D) The ripple factor of a full-wave rectifier is independent of load resistance $R_L$.",
-      "optionsHi": [
-        "The four-probe method eliminates contact resistance by measuring voltage across probes that carry virtually zero current.",
-        "Random errors can be reduced by averaging multiple independent measurements, whereas systematic errors cannot.",
-        "Single-point star grounding helps eliminate ground loops by preventing circulating noise currents.",
-        "The ripple factor of a full-wave rectifier is independent of load resistance $R_L$."
-      ],
-      "explanationHi": "A, B, C are correct. D is false because ripple factor $r \\propto 1/(R_L C)$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q052",
-      "questionNumber": 52,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MSQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
-      "difficulty": "Hard",
-      "correctOption": "A,B,C",
-      "correctOptionsList": [
-        "A",
-        "B",
-        "C"
-      ],
-      "correct_index": null,
-      "correct_indices": [
-        0,
-        1,
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "Which of the following statements regarding optical polarization and interference is/are CORRECT?\n(A) A quarter-wave plate converts linearly polarized light at $45^\\circ$ to its optic axis into circularly polarized light.\n(B) In a Fabry-Pérot interferometer, higher mirror reflectivity $R$ leads to higher coefficient of finesse and narrower transmission peaks.\n(C) At Brewster's angle, the reflected and refracted beams are mutually perpendicular.\n(D) The Jones vector $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ represents vertically polarized light.",
-      "optionsEn": [
-        "A quarter-wave plate converts linearly polarized light at $45^\\circ$ to its optic axis into circularly polarized light.",
-        "In a Fabry-Pérot interferometer, higher mirror reflectivity $R$ leads to higher coefficient of finesse and narrower transmission peaks.",
-        "At Brewster's angle, the reflected and refracted beams are mutually perpendicular.",
-        "The Jones vector $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ represents vertically polarized light."
-      ],
-      "explanationEn": "A, B, C are correct. D is false because $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ represents horizontally polarized light.",
-      "questionTextHi": "Which of the following statements regarding optical polarization and interference is/are CORRECT?\n(A) A quarter-wave plate converts linearly polarized light at $45^\\circ$ to its optic axis into circularly polarized light.\n(B) In a Fabry-Pérot interferometer, higher mirror reflectivity $R$ leads to higher coefficient of finesse and narrower transmission peaks.\n(C) At Brewster's angle, the reflected and refracted beams are mutually perpendicular.\n(D) The Jones vector $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ represents vertically polarized light.",
-      "optionsHi": [
-        "A quarter-wave plate converts linearly polarized light at $45^\\circ$ to its optic axis into circularly polarized light.",
-        "In a Fabry-Pérot interferometer, higher mirror reflectivity $R$ leads to higher coefficient of finesse and narrower transmission peaks.",
-        "At Brewster's angle, the reflected and refracted beams are mutually perpendicular.",
-        "The Jones vector $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ represents vertically polarized light."
-      ],
-      "explanationHi": "A, B, C are correct. D is false because $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ represents horizontally polarized light."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q053",
-      "questionNumber": 53,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MSQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Classical Mechanics",
-      "difficulty": "Hard",
-      "correctOption": "A,B,C",
-      "correctOptionsList": [
-        "A",
-        "B",
-        "C"
-      ],
-      "correct_index": null,
-      "correct_indices": [
-        0,
-        1,
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "A classical particle of mass $m$ moves in a central potential $V(r) = -k/r$ ($k > 0$). Which of the following quantities is/are conserved during its motion?\n(A) Total mechanical energy $E$\n(B) Total angular momentum vector $\\mathbf{L}$\n(C) Laplace-Runge-Lenz vector $\\mathbf{A} = \\mathbf{p} \\times \\mathbf{L} - m k \\hat{\\mathbf{r}}$\n(D) Linear momentum vector $\\mathbf{p}$",
-      "optionsEn": [
-        "Total mechanical energy $E$",
-        "Total angular momentum vector $\\mathbf{L}$",
-        "Laplace-Runge-Lenz vector $\\mathbf{A} = \\mathbf{p} \\times \\mathbf{L} - m k \\hat{\\mathbf{r}}$",
-        "Linear momentum vector $\\mathbf{p}$"
-      ],
-      "explanationEn": "A, B, C are strictly conserved in a $1/r$ central potential. Linear momentum is not conserved due to the central force.",
-      "questionTextHi": "A classical particle of mass $m$ moves in a central potential $V(r) = -k/r$ ($k > 0$). Which of the following quantities is/are conserved during its motion?\n(A) Total mechanical energy $E$\n(B) Total angular momentum vector $\\mathbf{L}$\n(C) Laplace-Runge-Lenz vector $\\mathbf{A} = \\mathbf{p} \\times \\mathbf{L} - m k \\hat{\\mathbf{r}}$\n(D) Linear momentum vector $\\mathbf{p}$",
-      "optionsHi": [
-        "Total mechanical energy $E$",
-        "Total angular momentum vector $\\mathbf{L}$",
-        "Laplace-Runge-Lenz vector $\\mathbf{A} = \\mathbf{p} \\times \\mathbf{L} - m k \\hat{\\mathbf{r}}$",
-        "Linear momentum vector $\\mathbf{p}$"
-      ],
-      "explanationHi": "A, B, C are strictly conserved in a $1/r$ central potential. Linear momentum is not conserved due to the central force."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q054",
-      "questionNumber": 54,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MSQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Quantum Mechanics",
-      "difficulty": "Hard",
-      "correctOption": "A,B,C",
-      "correctOptionsList": [
-        "A",
-        "B",
-        "C"
-      ],
-      "correct_index": null,
-      "correct_indices": [
-        0,
-        1,
-        2
-      ],
-      "natMin": null,
-      "natMax": null,
-      "questionTextEn": "Which of the following statements about quantum mechanical systems is/are CORRECT?\n(A) For a particle in an infinite 1D square well, the energy levels satisfy $E_n \\propto n^2$.\n(B) A 1D attractive delta-function potential $V(x) = -\\alpha \\delta(x)$ ($\\alpha > 0$) has exactly one bound state.\n(C) The ground state of a 1D harmonic oscillator minimizes the Heisenberg uncertainty product $\\Delta x \\, \\Delta p = \\hbar/2$.\n(D) The parity of the spherical harmonic $Y_l^m(\\theta, \\phi)$ under spatial inversion is $(-1)^m$.",
-      "optionsEn": [
-        "For a particle in an infinite 1D square well, the energy levels satisfy $E_n \\propto n^2$.",
-        "A 1D attractive delta-function potential has exactly one bound state.",
-        "The ground state of a 1D harmonic oscillator minimizes the Heisenberg uncertainty product $\\Delta x \\, \\Delta p = \\hbar/2$.",
-        "The parity of the spherical harmonic $Y_l^m(\\theta, \\phi)$ under spatial inversion is $(-1)^m$."
-      ],
-      "explanationEn": "A, B, C are true. D is false because parity is $(-1)^l$, determined by orbital quantum number $l$, not $m$.",
-      "questionTextHi": "Which of the following statements about quantum mechanical systems is/are CORRECT?\n(A) For a particle in an infinite 1D square well, the energy levels satisfy $E_n \\propto n^2$.\n(B) A 1D attractive delta-function potential $V(x) = -\\alpha \\delta(x)$ ($\\alpha > 0$) has exactly one bound state.\n(C) The ground state of a 1D harmonic oscillator minimizes the Heisenberg uncertainty product $\\Delta x \\, \\Delta p = \\hbar/2$.\n(D) The parity of the spherical harmonic $Y_l^m(\\theta, \\phi)$ under spatial inversion is $(-1)^m$.",
-      "optionsHi": [
-        "For a particle in an infinite 1D square well, the energy levels satisfy $E_n \\propto n^2$.",
-        "A 1D attractive delta-function potential has exactly one bound state.",
-        "The ground state of a 1D harmonic oscillator minimizes the Heisenberg uncertainty product $\\Delta x \\, \\Delta p = \\hbar/2$.",
-        "The parity of the spherical harmonic $Y_l^m(\\theta, \\phi)$ under spatial inversion is $(-1)^m$."
-      ],
-      "explanationHi": "A, B, C are true. D is false because parity is $(-1)^l$, determined by orbital quantum number $l$, not $m$."
-    },
-    {
-      "questionId": "gate_ph_mock_06_q055",
-      "questionNumber": 55,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "MSQ",
-      "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Solid State Physics",
-      "difficulty": "Hard",
-      "correctOption": "A,B,C,D",
+      "correctOption": null,
       "correctOptionsList": [
         "A",
         "B",
@@ -2049,282 +782,1084 @@
       ],
       "natMin": null,
       "natMax": null,
-      "questionTextEn": "Which of the following statements regarding superconductors and semiconductors is/are CORRECT?\n(A) Below the critical field $H_c$, a Type-I superconductor expels magnetic flux completely (Meissner effect).\n(B) In a superconductor, the London penetration depth $\\lambda_L$ is given by $\\sqrt{\\frac{m}{\\mu_0 n_s e^2}}$.\n(C) For an intrinsic semiconductor, the electrical conductivity increases exponentially with temperature.\n(D) In an n-type semiconductor, the Fermi level moves closer to the conduction band as donor doping concentration increases.",
+      "questionTextEn": "Which of the following statements about Poisson brackets $[f, g]$ are ALWAYS TRUE?",
       "optionsEn": [
-        "Below the critical field $H_c$, a Type-I superconductor expels magnetic flux completely (Meissner effect).",
-        "In a superconductor, the London penetration depth $\\lambda_L$ is given by $\\sqrt{\\frac{m}{\\mu_0 n_s e^2}}$.",
-        "For an intrinsic semiconductor, the electrical conductivity increases exponentially with temperature.",
-        "In an n-type semiconductor, the Fermi level moves closer to the conduction band as donor doping concentration increases."
+        "$[f, g] = -[g, f]$ (antisymmetry)",
+        "$[f, [g, h]] + [g, [h, f]] + [h, [f, g]] = 0$ (Jacobi identity)",
+        "$[f, gh] = g[f, h] + [f, g]h$ (Leibniz product rule)",
+        "Poisson brackets are invariant under all canonical transformations"
       ],
-      "explanationEn": "All four statements (A, B, C, D) are exact physical facts.",
-      "questionTextHi": "Which of the following statements regarding superconductors and semiconductors is/are CORRECT?\n(A) Below the critical field $H_c$, a Type-I superconductor expels magnetic flux completely (Meissner effect).\n(B) In a superconductor, the London penetration depth $\\lambda_L$ is given by $\\sqrt{\\frac{m}{\\mu_0 n_s e^2}}$.\n(C) For an intrinsic semiconductor, the electrical conductivity increases exponentially with temperature.\n(D) In an n-type semiconductor, the Fermi level moves closer to the conduction band as donor doping concentration increases.",
-      "optionsHi": [
-        "Below the critical field $H_c$, a Type-I superconductor expels magnetic flux completely (Meissner effect).",
-        "In a superconductor, the London penetration depth $\\lambda_L$ is given by $\\sqrt{\\frac{m}{\\mu_0 n_s e^2}}$.",
-        "For an intrinsic semiconductor, the electrical conductivity increases exponentially with temperature.",
-        "In an n-type semiconductor, the Fermi level moves closer to the conduction band as donor doping concentration increases."
-      ],
-      "explanationHi": "All four statements (A, B, C, D) are exact physical facts."
+      "explanationEn": "All four statements are fundamental properties of classical Poisson brackets."
     },
     {
-      "questionId": "gate_ph_mock_06_q056",
-      "questionNumber": 56,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
+      "questionId": "gate_ph_mock_06_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
       "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Measurements and Error Analysis",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electromagnetic Theory",
       "difficulty": "Medium",
-      "correctOption": "1.1",
+      "correctOption": null,
       "correctOptionsList": [
-        "1.1"
+        "A",
+        "B",
+        "D"
       ],
       "correct_index": null,
-      "correct_indices": [],
-      "natMin": 1.1,
-      "natMax": 1.2,
-      "questionTextEn": "The resistance of a semiconductor sample is calculated from $R = V/I$. If $V = (100.0 \\pm 0.5)\\text{ V}$ and $I = (2.00 \\pm 0.02)\\text{ A}$, the percentage standard uncertainty in $R$ is ______\\% (rounded off to one decimal place).",
-      "optionsEn": [],
-      "explanationEn": "$\\Delta R/R = \\sqrt{(\\Delta V/V)^2 + (\\Delta I/I)^2} = \\sqrt{(0.5/100)^2 + (0.02/2)^2} = \\sqrt{(0.005)^2 + (0.010)^2} = \\sqrt{25 \\times 10^{-6} + 100 \\times 10^{-6}} = \\sqrt{1.25 \\times 10^{-4}} \\approx 0.01118 = 1.1\\%$.",
-      "questionTextHi": "The resistance of a semiconductor sample is calculated from $R = V/I$. If $V = (100.0 \\pm 0.5)\\text{ V}$ and $I = (2.00 \\pm 0.02)\\text{ A}$, the percentage standard uncertainty in $R$ is ______\\% (rounded off to one decimal place).",
-      "optionsHi": [],
-      "explanationHi": "$\\Delta R/R = \\sqrt{(\\Delta V/V)^2 + (\\Delta I/I)^2} = \\sqrt{(0.5/100)^2 + (0.02/2)^2} = \\sqrt{(0.005)^2 + (0.010)^2} = \\sqrt{25 \\times 10^{-6} + 100 \\times 10^{-6}} = \\sqrt{1.25 \\times 10^{-4}} \\approx 0.01118 = 1.1\\%$."
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about plasma oscillations (cold collisionless electron plasma with plasma frequency $\\omega_p = \\sqrt{\\frac{n e^2}{m_e \\varepsilon_0}}$) are TRUE?",
+      "optionsEn": [
+        "Electromagnetic waves with frequency $\\omega < \\omega_p$ cannot propagate and are reflected",
+        "For $\\omega > \\omega_p$, the phase velocity exceeds $c$ while the group velocity is less than $c$",
+        "The refractive index is $n(\\omega) = \\sqrt{1 + \\omega_p^2 / \\omega^2}$",
+        "The dispersion relation for transverse EM waves is $\\omega^2 = \\omega_p^2 + c^2 k^2$"
+      ],
+      "explanationEn": "A, B, and C are exact consequences of $\\omega^2 = \\omega_p^2 + c^2 k^2$. The refractive index is $n(\\omega) = \\sqrt{1 - \\omega_p^2/\\omega^2}$ (with a minus sign), so D is false."
     },
     {
-      "questionId": "gate_ph_mock_06_q057",
-      "questionNumber": 57,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
-      "positiveMarks": 2.0,
+      "questionId": "gate_ph_mock_06_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
       "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about a 1D quantum harmonic oscillator with Hamiltonian $\\hat{H} = \\hbar\\omega(\\hat{a}^\\dagger \\hat{a} + 1/2)$ are TRUE?",
+      "optionsEn": [
+        "In the ground state $|0\\rangle$, $\\Delta x \\cdot \\Delta p_x = \\hbar / 2$ (minimum uncertainty state)",
+        "For any eigenstate $|n\\rangle$, $\\langle T \\rangle = \\langle V \\rangle = \\frac{1}{2}E_n$",
+        "All energy levels are doubly degenerate",
+        "$\\hat{a}|n\\rangle = \\sqrt{n}|n - 1\\rangle$ and $\\hat{a}^\\dagger|n\\rangle = \\sqrt{n + 1}|n + 1\\rangle$"
+      ],
+      "explanationEn": "A, B, and C are exact properties of the 1D harmonic oscillator. All 1D bound states are non-degenerate (D is false)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a 3D ideal Bose gas below its condensation temperature ($0 < T < T_c$), which of the following statements are TRUE?",
+      "optionsEn": [
+        "The chemical potential is pinned at $\\mu = 0$",
+        "The pressure $P$ is independent of the volume $V$ at fixed $T$ (depends only on $T$ as $P \\propto T^{5/2}$)",
+        "The fraction of particles in the ground state is $\\frac{N_0}{N} = 1 - \\left(\\frac{T}{T_c}\\right)^{3/2}$",
+        "The heat capacity $C_V$ scales as $T^{3/2}$"
+      ],
+      "explanationEn": "All four statements are exact classic properties of the 3D Bose-Einstein condensate below $T_c$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Mathematical Physics",
       "difficulty": "Medium",
       "correctOption": "4",
-      "correctOptionsList": [
-        "4"
-      ],
+      "correctOptionsList": [],
       "correct_index": null,
       "correct_indices": [],
       "natMin": 4.0,
       "natMax": 4.0,
-      "questionTextEn": "Consider the boundary value problem $\\frac{d^2 y}{dx^2} + \\lambda y = 0$ with $y(0) = 0$ and $y(\\pi) = 0$. The eigenvalue $\\lambda$ corresponding to the second lowest eigenstate ($n = 2$) is ______ (answer in integer).",
+      "questionTextEn": "The period of a simple pendulum is $T = 2\\pi\\sqrt{L/g}$. If $L$ is measured with $2\\%$ uncertainty and $T$ with $1\\%$ uncertainty, what is the maximum percentage uncertainty in the inferred value of $g$?",
       "optionsEn": [],
-      "explanationEn": "$y(x) = A \\sin(\\sqrt{\\lambda} x) \\implies \\sqrt{\\lambda} \\pi = n \\pi \\implies \\lambda = n^2$. For $n = 2$, $\\lambda = 4$.",
-      "questionTextHi": "Consider the boundary value problem $\\frac{d^2 y}{dx^2} + \\lambda y = 0$ with $y(0) = 0$ and $y(\\pi) = 0$. The eigenvalue $\\lambda$ corresponding to the second lowest eigenstate ($n = 2$) is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "$y(x) = A \\sin(\\sqrt{\\lambda} x) \\implies \\sqrt{\\lambda} \\pi = n \\pi \\implies \\lambda = n^2$. For $n = 2$, $\\lambda = 4$."
+      "explanationEn": "Since $g = 4\\pi^2 L / T^2$, $\\frac{\\Delta g}{g} = \\frac{\\Delta L}{L} + 2\\frac{\\Delta T}{T} = 2\\% + 2(1\\%) = 4\\%$."
     },
     {
-      "questionId": "gate_ph_mock_06_q058",
-      "questionNumber": 58,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "questionId": "gate_ph_mock_06_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
       "questionType": "NAT",
-      "positiveMarks": 2.0,
+      "positiveMarks": 1.0,
       "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Classical Mechanics",
       "difficulty": "Medium",
-      "correctOption": "3",
-      "correctOptionsList": [
-        "3"
-      ],
+      "correctOption": "4",
+      "correctOptionsList": [],
       "correct_index": null,
       "correct_indices": [],
-      "natMin": 3.0,
-      "natMax": 3.0,
-      "questionTextEn": "A particle moves in a circular orbit under central force $F(r) = -k/r^n$. For stable circular orbits under small radial perturbations, the condition is $n < n_{\\text{max}}$. The value of $n_{\\text{max}}$ is ______ (answer in integer).",
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "For an elliptical Kepler orbit with semi-major axis $a = 10\\text{ AU}$ and eccentricity $e = 0.6$, what is the perihelion distance $r_p$ (in AU)?",
       "optionsEn": [],
-      "explanationEn": "Stability requires $V''_{\\text{eff}}(r_0) > 0 \\implies 3 - n > 0 \\implies n < 3$.",
-      "questionTextHi": "A particle moves in a circular orbit under central force $F(r) = -k/r^n$. For stable circular orbits under small radial perturbations, the condition is $n < n_{\\text{max}}$. The value of $n_{\\text{max}}$ is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "Stability requires $V''_{\\text{eff}}(r_0) > 0 \\implies 3 - n > 0 \\implies n < 3$."
+      "explanationEn": "$r_p = a(1 - e) = 10(1 - 0.6) = 4\\text{ AU}$."
     },
     {
-      "questionId": "gate_ph_mock_06_q059",
-      "questionNumber": 59,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "questionId": "gate_ph_mock_06_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
       "questionType": "NAT",
-      "positiveMarks": 2.0,
+      "positiveMarks": 1.0,
       "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Electromagnetic Theory",
       "difficulty": "Medium",
-      "correctOption": "6.6",
-      "correctOptionsList": [
-        "6.6"
-      ],
+      "correctOption": "18",
+      "correctOptionsList": [],
       "correct_index": null,
       "correct_indices": [],
-      "natMin": 6.3,
-      "natMax": 6.9,
-      "questionTextEn": "A plane electromagnetic wave of frequency $f = 100\\text{ MHz}$ propagates in copper (conductivity $\\sigma = 5.8 \\times 10^7\\,\\Omega^{-1}\\text{m}^{-1}$, $\\mu = \\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$). The skin depth in micrometers ($\\mu\\text{m}$, rounded off to one decimal place) is ______.",
+      "natMin": 18.0,
+      "natMax": 18.0,
+      "questionTextEn": "A coil of self-inductance $L = 4\\text{ H}$ carries a steady current $I = 3\\text{ A}$. What is the magnetic energy stored in the coil (in Joules)?",
       "optionsEn": [],
-      "explanationEn": "$\\delta = \\frac{1}{\\sqrt{\\pi f \\mu \\sigma}} = \\frac{1}{\\sqrt{\\pi \\times 10^8 \\times 4\\pi \\times 10^{-7} \\times 5.8 \\times 10^7}} \\approx 6.6\\,\\mu\\text{m}$.",
-      "questionTextHi": "A plane electromagnetic wave of frequency $f = 100\\text{ MHz}$ propagates in copper (conductivity $\\sigma = 5.8 \\times 10^7\\,\\Omega^{-1}\\text{m}^{-1}$, $\\mu = \\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$). The skin depth in micrometers ($\\mu\\text{m}$, rounded off to one decimal place) is ______.",
-      "optionsHi": [],
-      "explanationHi": "$\\delta = \\frac{1}{\\sqrt{\\pi f \\mu \\sigma}} = \\frac{1}{\\sqrt{\\pi \\times 10^8 \\times 4\\pi \\times 10^{-7} \\times 5.8 \\times 10^7}} \\approx 6.6\\,\\mu\\text{m}$."
+      "explanationEn": "$U = \\frac{1}{2} L I^2 = \\frac{1}{2}(4)(9) = 18\\text{ J}$."
     },
     {
-      "questionId": "gate_ph_mock_06_q060",
-      "questionNumber": 60,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "questionId": "gate_ph_mock_06_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
       "questionType": "NAT",
-      "positiveMarks": 2.0,
+      "positiveMarks": 1.0,
       "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Quantum Mechanics",
+      "difficulty": "Easy",
+      "correctOption": "32",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 32.0,
+      "natMax": 32.0,
+      "questionTextEn": "What is the degeneracy of the $n = 4$ energy level of the hydrogen atom INCLUDING electron spin?",
+      "optionsEn": [],
+      "explanationEn": "Including spin, degeneracy = $2n^2 = 2(4^2) = 32$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Thermodynamics and Statistical Physics",
       "difficulty": "Medium",
+      "correctOption": "0.25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.25,
+      "natMax": 0.25,
+      "questionTextEn": "At temperature $T$, the Fermi-Dirac occupation probability for an energy level at $\\epsilon = \\mu + k_B T \\ln 3$ is:",
+      "optionsEn": [],
+      "explanationEn": "$f(\\epsilon) = \\frac{1}{e^{(\\epsilon - \\mu)/k_B T} + 1} = \\frac{1}{e^{\\ln 3} + 1} = \\frac{1}{3 + 1} = 0.25$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_amp",
+      "sectionTitle": "Atomic and Molecular Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Atomic and Molecular Physics",
+      "difficulty": "Medium",
+      "correctOption": "500",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 500.0,
+      "natMax": 500.0,
+      "questionTextEn": "In a helium-neon laser emitting at $\\lambda = 632.8\\text{ nm}$, an optical Fabry-Perot cavity of length $L = 30\\text{ cm}$ (refractive index $n = 1$) is used. Taking $c = 3 \\times 10^8\\text{ m/s}$, what is the frequency spacing $\\Delta\\nu = c / (2L)$ between adjacent longitudinal modes (in MHz)?",
+      "optionsEn": [],
+      "explanationEn": "$\\Delta\\nu = \\frac{3 \\times 10^8}{2 \\times 0.30} = 5 \\times 10^8\\text{ Hz} = 500\\text{ MHz}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "For a 1D crystal with lattice constant $a = 3.1416\\,\\text{\\AA}$, what is the width of the first Brillouin zone ($2\\pi/a$) in $\\text{\\AA}^{-1}$?",
+      "optionsEn": [],
+      "explanationEn": "Width = $\\frac{2\\pi}{a} = \\frac{2(3.1416)}{3.1416} = 2.0\\,\\text{\\AA}^{-1}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "200",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 200.0,
+      "natMax": 200.0,
+      "questionTextEn": "An op-amp has a slew rate of $S = 6.28\\text{ V}/\\mu\\text{s}$. What is the maximum undistorted frequency $f_{\\max} = \\frac{S}{2\\pi V_p}$ (in kHz) for a sinusoidal output of peak amplitude $V_p = 5\\text{ V}$?",
+      "optionsEn": [],
+      "explanationEn": "$f_{\\max} = \\frac{6.28 \\times 10^6}{2\\pi(5)} = \\frac{6.28 \\times 10^6}{31.416} \\approx 200\\text{ kHz}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Radioactive Decay",
+      "difficulty": "Easy",
       "correctOption": "8",
-      "correctOptionsList": [
-        "8"
-      ],
+      "correctOptionsList": [],
       "correct_index": null,
       "correct_indices": [],
       "natMin": 8.0,
       "natMax": 8.0,
-      "questionTextEn": "A particle of mass $m$ is in an attractive delta-function potential well $V(x) = -\\alpha \\delta(x)$ in 1D. If the binding energy of the state is $E_b = 2.0\\text{ eV}$, and the strength $\\alpha$ is doubled to $2\\alpha$, the new binding energy in eV is ______ (answer in integer).",
+      "questionTextEn": "In the decay chain $^{238}_{92}\\text{U} \\to {}^{206}_{82}\\text{Pb}$, the total number of $\\alpha$-particles emitted is ________. (in integer)",
       "optionsEn": [],
-      "explanationEn": "Bound state energy $E_b = \\frac{m \\alpha^2}{2\\hbar^2} \\propto \\alpha^2$. Doubling $\\alpha$ quadruples the binding energy: $2.0 \\times 4 = 8.0\\text{ eV}$.",
-      "questionTextHi": "A particle of mass $m$ is in an attractive delta-function potential well $V(x) = -\\alpha \\delta(x)$ in 1D. If the binding energy of the state is $E_b = 2.0\\text{ eV}$, and the strength $\\alpha$ is doubled to $2\\alpha$, the new binding energy in eV is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "Bound state energy $E_b = \\frac{m \\alpha^2}{2\\hbar^2} \\propto \\alpha^2$. Doubling $\\alpha$ quadruples the binding energy: $2.0 \\times 4 = 8.0\\text{ eV}$."
+      "explanationEn": "Only $\\alpha$-decay changes the mass number $A$ (by $4$). Thus $N_\\alpha = (238 - 206)/4 = 32/4 = 8$."
     },
     {
-      "questionId": "gate_ph_mock_06_q061",
-      "questionNumber": 61,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
+      "questionId": "gate_ph_mock_06_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MCQ",
       "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Optical Physics",
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Mathematical Physics",
       "difficulty": "Medium",
-      "correctOption": "600",
+      "correctOption": "B",
       "correctOptionsList": [
-        "600"
+        "B"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 600.0,
-      "natMax": 600.0,
-      "questionTextEn": "In a Michelson interferometer, when the movable mirror is displaced by $150\\,\\mu\\text{m}$, 500 interference fringes cross the field of view. The wavelength of the light in nanometers is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "$2 \\Delta d = N \\lambda \\implies \\lambda = \\frac{2(150 \\times 10^{-6}\\text{ m})}{500} = 600 \\times 10^{-9}\\text{ m} = 600\\text{ nm}$.",
-      "questionTextHi": "In a Michelson interferometer, when the movable mirror is displaced by $150\\,\\mu\\text{m}$, 500 interference fringes cross the field of view. The wavelength of the light in nanometers is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "$2 \\Delta d = N \\lambda \\implies \\lambda = \\frac{2(150 \\times 10^{-6}\\text{ m})}{500} = 600 \\times 10^{-9}\\text{ m} = 600\\text{ nm}$."
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the residue of $f(z) = \\frac{e^{2z}}{(z - 1)^3}$ at the pole $z = 1$?",
+      "optionsEn": [
+        "$4e^2$",
+        "$2e^2$",
+        "$e^2$",
+        "$\\frac{1}{2}e^2$"
+      ],
+      "explanationEn": "For a pole of order $m = 3$: $\\text{Res}(f, 1) = \\frac{1}{(3-1)!} \\left.\\frac{d^2}{dz^2}(e^{2z})\\right|_{z=1} = \\frac{1}{2}(4e^2) = 2e^2$."
     },
     {
-      "questionId": "gate_ph_mock_06_q062",
-      "questionNumber": 62,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
+      "questionId": "gate_ph_mock_06_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
       "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A symmetric top ($I_1 = I_2 \\neq I_3$) undergoes torque-free precession with spin component $\\omega_3$ along its symmetry axis. What is the angular frequency $\\Omega_p$ of precession of the angular velocity vector $\\boldsymbol{\\omega}$ around the body symmetry axis?",
+      "optionsEn": [
+        "$\\frac{I_1}{I_3}\\omega_3$",
+        "$\\frac{I_1 - I_3}{I_3}\\omega_3$",
+        "$\\frac{I_3}{I_1}\\omega_3$",
+        "$\\frac{I_3 - I_1}{I_1}\\omega_3$"
+      ],
+      "explanationEn": "From Euler's torque-free equations, $I_1 \\dot{\\omega}_1 + (I_3 - I_1)\\omega_3 \\omega_2 = 0$ and $I_1 \\dot{\\omega}_2 - (I_3 - I_1)\\omega_3 \\omega_1 = 0$, giving harmonic precession at frequency $\\Omega_p = \\frac{I_3 - I_1}{I_1}\\omega_3$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the differential scattering cross-section $\\frac{d\\sigma}{d\\Omega}$ for classical elastic scattering of point particles from an impenetrable hard sphere of radius $R$?",
+      "optionsEn": [
+        "$\\frac{R^2}{4}$ (isotropic)",
+        "$R^2 \\cos\\theta$",
+        "$\\frac{R^2}{4\\sin^4(\\theta/2)}$",
+        "$\\pi R^2$"
+      ],
+      "explanationEn": "Impact parameter $b = R\\cos(\\theta/2)$, so $\\frac{d\\sigma}{d\\Omega} = \\frac{b}{\\sin\\theta}\\left|\\frac{db}{d\\theta}\\right| = \\frac{R\\cos(\\theta/2)}{2\\sin(\\theta/2)\\cos(\\theta/2)} \\cdot \\frac{R}{2}\\sin(\\theta/2) = \\frac{R^2}{4}$ (isotropic, integrating to total cross-section $\\pi R^2$)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A point charge $+q$ is placed at $(a, b)$ in the first quadrant bounded by two perpendicular semi-infinite grounded conducting planes along the $x$-axis ($y = 0$) and $y$-axis ($x = 0$). How many image charges are required, and what are their signs and locations?",
+      "optionsEn": [
+        "1 image charge: $-q$ at $(-a, -b)$",
+        "3 image charges: all $-q$ at $(-a, b), (a, -b), (-a, -b)$",
+        "3 image charges: $-q$ at $(-a, b)$, $-q$ at $(a, -b)$, and $+q$ at $(-a, -b)$",
+        "2 image charges: $-q$ at $(-a, b)$ and $-q$ at $(a, -b)$"
+      ],
+      "explanationEn": "Two planes meeting at $90^\\circ$ require $\\frac{360^\\circ}{90^\\circ} - 1 = 3$ image charges: $-q$ at $(-a, b)$, $-q$ at $(a, -b)$, and $+q$ at $(-a, -b)$ to make $V = 0$ on both planes."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Using the variational trial function $\\psi(x) = A e^{-\\alpha x^2}$ for the 1D harmonic oscillator $H = \\frac{p^2}{2m} + \\frac{1}{2}m\\omega^2 x^2$, minimizing $\\langle H \\rangle(\\alpha)$ with respect to $\\alpha$ yields:",
+      "optionsEn": [
+        "$\\frac{1}{\\sqrt{2}}\\hbar\\omega$",
+        "The exact ground-state energy $\\frac{1}{2}\\hbar\\omega$",
+        "$\\hbar\\omega$",
+        "$\\frac{3}{4}\\hbar\\omega$"
+      ],
+      "explanationEn": "Because the exact ground state of the 1D harmonic oscillator IS a Gaussian $e^{-m\\omega x^2/(2\\hbar)}$, the variational minimum recovers the exact ground-state energy $\\frac{1}{2}\\hbar\\omega$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In low-energy $s$-wave ($l = 0$) quantum scattering from an impenetrable hard sphere of radius $R$, what is the total scattering cross-section $\\sigma_{\\text{tot}}$ as $kR \\to 0$?",
+      "optionsEn": [
+        "$\\pi R^2$",
+        "$\\frac{1}{2}\\pi R^2$",
+        "$2\\pi R^2$",
+        "$4\\pi R^2$"
+      ],
+      "explanationEn": "The $s$-wave phase shift for a hard sphere is $\\delta_0 = -kR$, giving $\\sigma_{\\text{tot}} = \\frac{4\\pi}{k^2}\\sin^2(kR) \\to 4\\pi R^2$ (four times the classical geometric cross-section!)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Thermodynamics and Statistical Physics",
-      "difficulty": "Medium",
-      "correctOption": "16",
+      "difficulty": "Hard",
+      "correctOption": "D",
       "correctOptionsList": [
-        "16"
+        "D"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 16.0,
-      "natMax": 16.0,
-      "questionTextEn": "A spherical blackbody of radius $R_1 = 10\\text{ cm}$ at temperature $T_1 = 2000\\text{ K}$ radiates power $P_1$. A second blackbody of the same radius at $T_2 = 1000\\text{ K}$ radiates power $P_2$. The ratio $P_1 / P_2$ is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "By Stefan-Boltzmann law, $P \\propto T^4$. $P_1 / P_2 = (2000/1000)^4 = 2^4 = 16$.",
-      "questionTextHi": "A spherical blackbody of radius $R_1 = 10\\text{ cm}$ at temperature $T_1 = 2000\\text{ K}$ radiates power $P_1$. A second blackbody of the same radius at $T_2 = 1000\\text{ K}$ radiates power $P_2$. The ratio $P_1 / P_2$ is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "By Stefan-Boltzmann law, $P \\propto T^4$. $P_1 / P_2 = (2000/1000)^4 = 2^4 = 16$."
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a 1D classical gas of $N$ non-interacting particles in a harmonic trap $V(x) = \\frac{1}{2}m\\omega^2 x^2$ at temperature $T$. What is the single-particle canonical partition function $z$?",
+      "optionsEn": [
+        "$\\frac{2\\pi k_B T}{\\hbar \\omega}$",
+        "$\\sqrt{\\frac{k_B T}{\\hbar \\omega}}$",
+        "$\\left(\\frac{k_B T}{\\hbar \\omega}\\right)^2$",
+        "$\\frac{k_B T}{\\hbar \\omega}$"
+      ],
+      "explanationEn": "$z = \\frac{1}{h}\\int_{-\\infty}^\\infty dp\\,e^{-\\beta p^2/(2m)} \\int_{-\\infty}^\\infty dx\\,e^{-\\beta m\\omega^2 x^2/2} = \\frac{1}{h}\\sqrt{\\frac{2\\pi m}{\\beta}}\\sqrt{\\frac{2\\pi}{\\beta m\\omega^2}} = \\frac{2\\pi}{h\\beta\\omega} = \\frac{k_B T}{\\hbar\\omega}$."
     },
     {
-      "questionId": "gate_ph_mock_06_q063",
-      "questionNumber": 63,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
+      "questionId": "gate_ph_mock_06_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "MCQ",
       "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The chemical potential $\\mu$ of a 3D classical ideal monatomic gas is related to the thermal de Broglie wavelength $\\lambda_T$ and number density $n = N/V$ by:",
+      "optionsEn": [
+        "$\\mu = k_B T \\ln(n \\lambda_T^3)$",
+        "$\\mu = 0$",
+        "$\\mu = k_B T (n \\lambda_T^3)$",
+        "$\\mu = -k_B T \\ln(n \\lambda_T^3)$"
+      ],
+      "explanationEn": "From $F = -N k_B T [\\ln(V/(N\\lambda_T^3)) + 1]$, $\\mu = (\\partial F/\\partial N)_{T,V} = k_B T \\ln(n\\lambda_T^3)$ (which is negative in the classical regime $n\\lambda_T^3 \\ll 1$)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_amp",
+      "sectionTitle": "Atomic and Molecular Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Atomic and Molecular Physics",
-      "difficulty": "Medium",
-      "correctOption": "40.8",
+      "difficulty": "Hard",
+      "correctOption": "C",
       "correctOptionsList": [
-        "40.8"
+        "C"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 40.5,
-      "natMax": 41.1,
-      "questionTextEn": "In a singly ionized helium atom ($\\text{He}^+, Z = 2$), the excitation energy required to transition an electron from $n = 1$ to $n = 2$ in eV (rounded off to one decimal place, taking Rydberg energy $= 13.6\\text{ eV}$) is ______.",
-      "optionsEn": [],
-      "explanationEn": "$\\Delta E = 13.6 \\times Z^2 (1 - 1/4) = 13.6 \\times 4 \\times (3/4) = 40.8\\text{ eV}$.",
-      "questionTextHi": "In a singly ionized helium atom ($\\text{He}^+, Z = 2$), the excitation energy required to transition an electron from $n = 1$ to $n = 2$ in eV (rounded off to one decimal place, taking Rydberg energy $= 13.6\\text{ eV}$) is ______.",
-      "optionsHi": [],
-      "explanationHi": "$\\Delta E = 13.6 \\times Z^2 (1 - 1/4) = 13.6 \\times 4 \\times (3/4) = 40.8\\text{ eV}$."
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In the normal Doppler broadening of a spectral line of frequency $\\nu_0$ emitted by atoms of mass $M$ in a gas at temperature $T$, the Full Width at Half Maximum (FWHM) $\\Delta\\nu_D$ scales as:",
+      "optionsEn": [
+        "$\\nu_0 \\sqrt{\\frac{M}{T}}$",
+        "$\\nu_0 \\frac{T}{M}$",
+        "$\\nu_0 \\sqrt{\\frac{T}{M}}$",
+        "$\\sqrt{\\nu_0 T}$"
+      ],
+      "explanationEn": "Doppler FWHM is $\\Delta\\nu_D = \\frac{2\\nu_0}{c}\\sqrt{\\frac{2 k_B T \\ln 2}{M}} \\propto \\nu_0 \\sqrt{T/M}$."
     },
     {
-      "questionId": "gate_ph_mock_06_q064",
-      "questionNumber": 64,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
-      "questionType": "NAT",
+      "questionId": "gate_ph_mock_06_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "MCQ",
       "positiveMarks": 2.0,
-      "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a 1D tight-binding energy band $E(k) = E_0 - 2t\\cos(ka)$ ($t > 0$), what is the electron effective mass $m^*$ at the bottom of the band ($k = 0$) and at the top of the band ($k = \\pi/a$)?",
+      "optionsEn": [
+        "Bottom: $-\\frac{\\hbar^2}{2ta^2}$; Top: $+\\frac{\\hbar^2}{2ta^2}$",
+        "Both equal to $+\\frac{\\hbar^2}{2ta^2}$",
+        "Infinite at both points",
+        "Bottom: $+\\frac{\\hbar^2}{2ta^2}$; Top: $-\\frac{\\hbar^2}{2ta^2}$"
+      ],
+      "explanationEn": "$\\frac{d^2 E}{dk^2} = 2ta^2\\cos(ka)$. At $k = 0$, $\\cos 0 = +1 \\implies m^* = +\\frac{\\hbar^2}{2ta^2}$. At $k = \\pi/a$, $\\cos\\pi = -1 \\implies m^* = -\\frac{\\hbar^2}{2ta^2}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
       "topicTag": "Electronics",
       "difficulty": "Medium",
-      "correctOption": "100",
+      "correctOption": "A",
       "correctOptionsList": [
-        "100"
+        "A"
       ],
-      "correct_index": null,
-      "correct_indices": [],
-      "natMin": 100.0,
-      "natMax": 100.0,
-      "questionTextEn": "A common-emitter BJT transistor amplifier has load resistance $R_C = 2\\text{ k}\\Omega$ and transconductance $g_m = 50\\text{ mS}$. The magnitude of the small-signal voltage gain $|A_v|$ is ______ (answer in integer).",
-      "optionsEn": [],
-      "explanationEn": "$|A_v| = g_m R_C = 0.050 \\times 2000 = 100$.",
-      "questionTextHi": "A common-emitter BJT transistor amplifier has load resistance $R_C = 2\\text{ k}\\Omega$ and transconductance $g_m = 50\\text{ mS}$. The magnitude of the small-signal voltage gain $|A_v|$ is ______ (answer in integer).",
-      "optionsHi": [],
-      "explanationHi": "$|A_v| = g_m R_C = 0.050 \\times 2000 = 100$."
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An ideal op-amp active low-pass filter has input resistor $R_1 = 10\\,\\text{k}\\Omega$, feedback resistor $R_f = 100\\,\\text{k}\\Omega$, and feedback capacitor $C_f = 10\\text{ nF}$ in parallel with $R_f$. What are its DC gain magnitude and $-3\\text{ dB}$ corner frequency?",
+      "optionsEn": [
+        "DC gain $= 10$, $f_c \\approx 159\\text{ Hz}$",
+        "DC gain $= 10$, $f_c \\approx 1590\\text{ Hz}$",
+        "DC gain $= 11$, $f_c \\approx 159\\text{ Hz}$",
+        "DC gain $= 1$, $f_c \\approx 15.9\\text{ Hz}$"
+      ],
+      "explanationEn": "At DC, $C_f$ is open so $|A_0| = R_f / R_1 = 10$. Corner frequency $f_c = \\frac{1}{2\\pi R_f C_f} = \\frac{1}{2\\pi(10^5)(10^{-8})} = \\frac{1000}{2\\pi} \\approx 159.2\\text{ Hz}$."
     },
     {
-      "questionId": "gate_ph_mock_06_q065",
-      "questionNumber": 65,
-      "sectionId": "sec_ph",
-      "sectionTitle": "Physics",
+      "questionId": "gate_ph_mock_06_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Nuclear Shell Model",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a nucleus with a single unpaired neutron in the $1f_{7/2}$ orbital ($j = l + \\frac{1}{2}$, $g_l = 0$, $g_s = -3.826$), the Schmidt value of its nuclear magnetic dipole moment is:",
+      "optionsEn": [
+        "$+1.91\\,\\mu_N$",
+        "$-3.83\\,\\mu_N$",
+        "$-1.91\\,\\mu_N$",
+        "$0\\,\\mu_N$"
+      ],
+      "explanationEn": "For an odd neutron ($g_l = 0$) with $j = l + 1/2$, the Schmidt limit is $\\mu = \\frac{1}{2} g_s = \\frac{1}{2}(-3.826) = -1.913\\,\\mu_N$, independent of $j$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Mathematical Physics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about special functions are TRUE?",
+      "optionsEn": [
+        "Hermite polynomials $H_n(x)$ are orthogonal on $(-\\infty, \\infty)$ with weight function $w(x) = e^{-x^2}$",
+        "Laguerre polynomials $L_n(x)$ are orthogonal on $[0, \\infty)$ with weight function $w(x) = e^{-x}$",
+        "Legendre polynomials $P_n(x)$ are orthogonal on $[-1, 1]$ with weight function $w(x) = 1$",
+        "Bessel functions $J_n(x)$ are polynomials of degree $n$"
+      ],
+      "explanationEn": "A, B, and C state the exact orthogonality intervals and weight functions. Bessel functions $J_n(x)$ are infinite power series (not finite polynomials), so D is false."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements about Sinusoidal Oscillators are TRUE?",
+      "optionsEn": [
+        "Wien bridge and RC phase-shift oscillators are commonly used for audio and low-frequency ranges",
+        "No oscillator requires an active amplifying element",
+        "Quartz crystal oscillators achieve extremely high frequency stability due to their very high mechanical quality factor ($Q \\sim 10^4 - 10^6$)",
+        "Hartley (tapped inductor) and Colpitts (tapped capacitor) LC oscillators are used at radio frequencies (RF)"
+      ],
+      "explanationEn": "A, B, and C are exact. Real passive tanks have resistive losses, so sustained oscillation requires an active element to supply loop gain $|A\\beta| \\ge 1$ (D is false)."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Particle Physics - Conservation Laws",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following decays are ALLOWED (by strong, electromagnetic, or weak interactions)?",
+      "optionsEn": [
+        "$\\Delta^{++} \\to p + \\pi^+$",
+        "$K^+ \\to \\mu^+ + \\nu_\\mu$",
+        "$p \\to \\pi^0 + e^+$",
+        "$\\Sigma^0 \\to \\Lambda^0 + \\gamma$"
+      ],
+      "explanationEn": "$K^+ \\to \\mu^+ + \\nu_\\mu$ is an allowed weak decay; $\\Sigma^0 \\to \\Lambda^0 + \\gamma$ is an allowed EM decay; $\\Delta^{++} \\to p + \\pi^+$ is an allowed strong decay. Proton decay $p \\to \\pi^0 + e^+$ violates baryon and lepton number conservation in the Standard Model."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_mp",
+      "sectionTitle": "Mathematical Physics",
       "questionType": "NAT",
       "positiveMarks": 2.0,
       "negativeMarks": 0.0,
-      "pyqTag": "GATE PH Full Mock 06",
-      "topicTag": "Nuclear and Particle Physics",
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Mathematical Physics",
       "difficulty": "Medium",
-      "correctOption": "17.60",
-      "correctOptionsList": [
-        "17.60"
-      ],
+      "correctOption": "4.5",
+      "correctOptionsList": [],
       "correct_index": null,
       "correct_indices": [],
-      "natMin": 17.5,
-      "natMax": 17.7,
-      "questionTextEn": "Consider the nuclear fusion reaction $^2_1\\text{H} + ^3_1\\text{H} \\to ^4_2\\text{He} + ^1_0\\text{n}$. Given the atomic mass excesses: $\\Delta(^2\\text{H}) = 13.14\\text{ MeV}$, $\\Delta(^3\\text{H}) = 14.95\\text{ MeV}$, $\\Delta(^4\\text{He}) = 2.42\\text{ MeV}$, $\\Delta(\\text{n}) = 8.07\\text{ MeV}$. The $Q$-value in MeV (rounded off to two decimal places) is ______.",
+      "natMin": 4.5,
+      "natMax": 4.5,
+      "questionTextEn": "What is the value of the contour integral $\\frac{1}{2\\pi i}\\oint_{|z|=2} \\frac{e^{3z}}{z^3}\\,dz$?",
       "optionsEn": [],
-      "explanationEn": "$Q = (13.14 + 14.95) - (2.42 + 8.07) = 28.09 - 10.49 = 17.60\\text{ MeV}$.",
-      "questionTextHi": "Consider the nuclear fusion reaction $^2_1\\text{H} + ^3_1\\text{H} \\to ^4_2\\text{He} + ^1_0\\text{n}$. Given the atomic mass excesses: $\\Delta(^2\\text{H}) = 13.14\\text{ MeV}$, $\\Delta(^3\\text{H}) = 14.95\\text{ MeV}$, $\\Delta(^4\\text{He}) = 2.42\\text{ MeV}$, $\\Delta(\\text{n}) = 8.07\\text{ MeV}$. The $Q$-value in MeV (rounded off to two decimal places) is ______.",
-      "optionsHi": [],
-      "explanationHi": "$Q = (13.14 + 14.95) - (2.42 + 8.07) = 28.09 - 10.49 = 17.60\\text{ MeV}$."
+      "explanationEn": "Expanding $e^{3z} = 1 + 3z + \\frac{9}{2}z^2 + \\dots$, the coefficient of $1/z$ in $e^{3z}/z^3$ is $9/2 = 4.5$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "50",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 50.0,
+      "natMax": 50.0,
+      "questionTextEn": "A clock on a satellite moving at speed $v = 0.8c$ ticks 30 seconds of proper time. How many seconds elapse in the stationary observer's frame?",
+      "optionsEn": [],
+      "explanationEn": "$\\gamma = \\frac{1}{\\sqrt{1 - 0.64}} = \\frac{5}{3}$, so $\\Delta t = \\gamma \\Delta\\tau = \\frac{5}{3}(30) = 50\\text{ s}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_cm",
+      "sectionTitle": "Classical Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Classical Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "3.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.5,
+      "natMax": 3.5,
+      "questionTextEn": "A solid sphere of mass $M$ and radius $R$ rolls without slipping down an inclined plane of angle $30^\\circ$ ($\\sin 30^\\circ = 0.5$). Taking $g = 9.8\\text{ m/s}^2$, what is the linear acceleration of its center of mass (in $\\text{m/s}^2$)?",
+      "optionsEn": [],
+      "explanationEn": "$a = \\frac{g\\sin\\theta}{1 + I/(MR^2)} = \\frac{9.8 \\times 0.5}{1 + 2/5} = \\frac{4.9}{1.4} = 3.5\\text{ m/s}^2$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Medium",
+      "correctOption": "25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 25.0,
+      "natMax": 25.0,
+      "questionTextEn": "Two coherent light waves of intensities $I_1 = 9\\text{ W/m}^2$ and $I_2 = 4\\text{ W/m}^2$ interfere. What is the ratio of maximum intensity to minimum intensity ($I_{\\max} / I_{\\min}$)?",
+      "optionsEn": [],
+      "explanationEn": "$\\frac{I_{\\max}}{I_{\\min}} = \\left(\\frac{\\sqrt{I_1} + \\sqrt{I_2}}{\\sqrt{I_1} - \\sqrt{I_2}}\\right)^2 = \\left(\\frac{3 + 2}{3 - 2}\\right)^2 = 5^2 = 25$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_emt",
+      "sectionTitle": "Electromagnetic Theory",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electromagnetic Theory",
+      "difficulty": "Hard",
+      "correctOption": "0.25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.25,
+      "natMax": 0.25,
+      "questionTextEn": "A plane EM wave in air ($n_1 = 1$) strikes a dielectric ($n_2 = 2$) at angle of incidence $30^\\circ$. What is $\\sin\\theta_t$, where $\\theta_t$ is the angle of refraction?",
+      "optionsEn": [],
+      "explanationEn": "By Snell's law: $1 \\cdot \\sin 30^\\circ = 2 \\cdot \\sin\\theta_t \\implies \\sin\\theta_t = 0.5 / 2 = 0.25$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Medium",
+      "correctOption": "0.75",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.75,
+      "natMax": 0.75,
+      "questionTextEn": "In a Stern-Gerlach experiment, a beam of silver atoms (spin $1/2$) exits an SG-z apparatus in the $|+z\\rangle$ state and enters a second SG apparatus oriented at angle $\\theta = 60^\\circ$ to the $z$-axis. What fraction of atoms exits in the 'spin-up' channel of the second apparatus?",
+      "optionsEn": [],
+      "explanationEn": "$P(\\text{up}) = \\cos^2(\\theta/2) = \\cos^2(30^\\circ) = (\\sqrt{3}/2)^2 = 0.75$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_qm",
+      "sectionTitle": "Quantum Mechanics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Quantum Mechanics",
+      "difficulty": "Hard",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "For a 2-level system with Hamiltonian $H = \\begin{pmatrix} 2 & 3 \\\\ 3 & 2 \\end{pmatrix}$ (in eV), what is the energy gap $\\Delta E = E_+ - E_-$ between its two energy eigenvalues (in eV)?",
+      "optionsEn": [],
+      "explanationEn": "Eigenvalues are $2 \\pm 3$, i.e., $5\\text{ eV}$ and $-1\\text{ eV}$. Energy gap $\\Delta E = 5 - (-1) = 6\\text{ eV}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Medium",
+      "correctOption": "2.45",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.44,
+      "natMax": 2.46,
+      "questionTextEn": "A substance has latent heat of fusion $L = 334\\text{ kJ/kg}$ at its melting point $T = 273\\text{ K}$. What is the entropy increase when $2\\text{ kg}$ of the solid melts reversibly at $273\\text{ K}$ (in kJ/K, rounded to 2 decimal places)?",
+      "optionsEn": [],
+      "explanationEn": "$\\Delta S = \\frac{m L}{T} = \\frac{2 \\times 334}{273} = \\frac{668}{273} \\approx 2.447 \\approx 2.45\\text{ kJ/K}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_tsp",
+      "sectionTitle": "Thermodynamics and Statistical Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Thermodynamics and Statistical Physics",
+      "difficulty": "Hard",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "In a 3D ideal Fermi gas at $T = 0$, the Fermi wavevector is $k_F$. If a 3D sample is compressed isotropically so that its linear side length $L$ is halved ($L \\to L/2$), by what factor does the Fermi energy $E_F$ increase?",
+      "optionsEn": [],
+      "explanationEn": "Halving $L$ reduces volume by $8$ (density $n \\to 8n$). Since $E_F \\propto n^{2/3}$, $E_F$ increases by $8^{2/3} = 4$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_amp",
+      "sectionTitle": "Atomic and Molecular Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Atomic and Molecular Physics",
+      "difficulty": "Medium",
+      "correctOption": "14",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "In the Normal Zeeman effect at $B = 1.0\\text{ T}$, taking $\\frac{e}{4\\pi m_e} = 14.0\\text{ GHz/T}$, what is the frequency shift $\\Delta\\nu$ (in GHz) of the outer $\\sigma$-components from the central $\\pi$-component?",
+      "optionsEn": [],
+      "explanationEn": "Larmor frequency shift $\\Delta\\nu = \\frac{eB}{4\\pi m_e} = 14.0 \\times 1.0 = 14.0\\text{ GHz}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q61",
+      "questionNumber": 61,
+      "sectionId": "sec_amp",
+      "sectionTitle": "Atomic and Molecular Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Atomic and Molecular Physics",
+      "difficulty": "Medium",
+      "correctOption": "0.37",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.36,
+      "natMax": 0.38,
+      "questionTextEn": "For an atomic gas at $T = 300\\text{ K}$ ($k_B T \\approx 208\\text{ cm}^{-1}$), a rotational Raman line has Raman shift $\\Delta\\bar{\\nu} = 208\\text{ cm}^{-1}$. What is the approximate Boltzmann ratio $I_{\\text{anti-Stokes}} / I_{\\text{Stokes}} \\approx e^{-\\Delta\\bar{\\nu}/(k_B T)}$? (Round to 2 decimal places.)",
+      "optionsEn": [],
+      "explanationEn": "$e^{-208/208} = e^{-1} \\approx 0.368 \\approx 0.37$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q62",
+      "questionNumber": 62,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Hard",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "In a 1D tight-binding chain with lattice constant $a$ and $E(k) = -2t\\cos(ka)$, at what value of $k a / \\pi$ (in $(0, 1)$) does the electron group velocity reach its MAXIMUM magnitude?",
+      "optionsEn": [],
+      "explanationEn": "$v_g = \\frac{2ta}{\\hbar}\\sin(ka)$, which is maximized at $ka = \\pi/2$, giving $ka/\\pi = 0.5$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q63",
+      "questionNumber": 63,
+      "sectionId": "sec_ssp",
+      "sectionTitle": "Solid State Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Solid State Physics",
+      "difficulty": "Medium",
+      "correctOption": "1.73",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.72,
+      "natMax": 1.74,
+      "questionTextEn": "In a simple cubic lattice of lattice constant $a$, what is the ratio $d_{100} / d_{111}$ of the interplanar spacings of the $(100)$ and $(111)$ planes? (Round to 2 decimal places.)",
+      "optionsEn": [],
+      "explanationEn": "$d_{100} = a$ and $d_{111} = a/\\sqrt{3}$, so $d_{100}/d_{111} = \\sqrt{3} \\approx 1.73$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q64",
+      "questionNumber": 64,
+      "sectionId": "sec_elec",
+      "sectionTitle": "Electronics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Electronics",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "In a Silicon BJT voltage-divider bias circuit, $V_{CC} = 12\\text{ V}$, $R_1 = 20\\,\\text{k}\\Omega$ (top), $R_2 = 10\\,\\text{k}\\Omega$ (bottom), $R_E = 1.1\\,\\text{k}\\Omega$, and $V_{BE} = 0.7\\text{ V}$. Assuming $\\beta$ is very large (stiff divider, $I_B \\approx 0$), what is the emitter current $I_E$ (in mA)?",
+      "optionsEn": [],
+      "explanationEn": "Base voltage $V_B \\approx 12 \\times \\frac{10}{20 + 10} = 4.0\\text{ V}$. Emitter voltage $V_E = V_B - 0.7 = 3.3\\text{ V}$. $I_E = 3.3 / 1.1\\text{ k}\\Omega = 3.0\\text{ mA}$."
+    },
+    {
+      "questionId": "gate_ph_mock_06_q65",
+      "questionNumber": 65,
+      "sectionId": "sec_npp",
+      "sectionTitle": "Nuclear and Particle Physics",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE PH Mock 06",
+      "topicTag": "Nuclear Shell Model",
+      "difficulty": "Medium",
+      "correctOption": "6.79",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.78,
+      "natMax": 6.8,
+      "questionTextEn": "For an odd-proton nucleus with its unpaired proton in the $1g_{9/2}$ orbital ($j = l + \\frac{1}{2}$), the Schmidt value of the magnetic moment (in units of $\\mu_N$, taking $g_l = 1$ and $g_s = 5.586$) is ________. (rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For $j = l + 1/2 = 9/2$, $\\mu = (j - 1/2)g_l + \\frac{1}{2}g_s = 4(1) + 2.793 = 6.793\\,\\mu_N \\approx 6.79\\,\\mu_N$."
     }
   ]
 }

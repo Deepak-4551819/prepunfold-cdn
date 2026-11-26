@@ -1,0 +1,607 @@
+{
+  "testId": "jam_ph_topic_solid_state_electronics_02",
+  "categoryId": "jam_ph",
+  "test_id": "jam_ph_topic_solid_state_electronics_02",
+  "category_id": "jam_ph",
+  "title": "IIT JAM 2027 PH Topic Test: Solid State Physics, Devices and Electronics — Set 02",
+  "titleEn": "IIT JAM 2027 PH Topic Test: Solid State Physics, Devices and Electronics — Set 02",
+  "testType": "TOPIC",
+  "test_type": "TOPIC",
+  "partId": "part_06_solid_state_electronics",
+  "part_id": "part_06_solid_state_electronics",
+  "partTitle": "Solid State Physics, Devices and Electronics",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 45,
+  "duration_minutes": 45,
+  "totalQuestions": 20,
+  "total_questions": 20,
+  "maxMarks": 30.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "shiftBadge": "IIT JAM PH • Solid State Physics, Devices and Electronics • Set 02",
+  "sections": [
+    {
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "sectionTitleEn": "Section A (MCQ)",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "sectionTitleEn": "Section B (MSQ)",
+      "questionCount": 4,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "sectionTitleEn": "Section C (NAT)",
+      "questionCount": 6,
+      "totalMarks": 7.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Universal Gates",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The minimum number of $2$-input NAND gates required to implement a $2$-input OR gate is:",
+      "optionsEn": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "explanationEn": "By De Morgan's law, $A + B = \\overline{\\bar{A} \\cdot \\bar{B}}$. Implementing $\\bar{A}$ requires $1$ NAND gate (inputs shorted), $\\bar{B}$ requires $1$ NAND gate, and combining them with a third NAND gate yields $\\overline{\\bar{A}\\cdot\\bar{B}} = A + B$, for a minimum total of $3$ NAND gates. Hence, the correct option is (B)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Oscillators",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For a feedback amplifier with open-loop voltage gain $A(\\omega)$ and feedback network transfer function $\\beta(\\omega)$ to sustain steady sinusoidal oscillations at angular frequency $\\omega_0$, the Barkhausen criterion requires:",
+      "optionsEn": [
+        "$|A(\\omega_0)\\beta(\\omega_0)| = 1$ and the total phase shift around the loop is $180^\\circ$",
+        "$|A(\\omega_0)\\beta(\\omega_0)| \\ll 1$ and the total phase shift around the loop is $0^\\circ$",
+        "$|A(\\omega_0)\\beta(\\omega_0)| = 1$ and the total phase shift around the loop is $0^\\circ$ (or an integer multiple of $360^\\circ$)",
+        "$|A(\\omega_0)\\beta(\\omega_0)| = 0$ and the total phase shift around the loop is $360^\\circ$"
+      ],
+      "explanationEn": "Sustained sinusoidal oscillation requires positive feedback with unit loop gain at $\\omega_0$: the Barkhausen criterion states that $A(\\omega_0)\\beta(\\omega_0) = 1$, i.e., $|A(\\omega_0)\\beta(\\omega_0)| = 1$ and $\\angle[A(\\omega_0)\\beta(\\omega_0)] = 0^\\circ$ (or $360^\\circ n$, $n \\in \\mathbb{Z}$). Hence, the correct option is (C)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Boolean Algebra",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "By De Morgan's theorems, the Boolean expression $\\overline{A + \\bar{B}C}$ is logically equivalent to:",
+      "optionsEn": [
+        "$\\bar{A} + B\\bar{C}$",
+        "$\\bar{A}B\\bar{C}$",
+        "$\\bar{A}(\\bar{B} + C)$",
+        "$\\bar{A}(B + \\bar{C})$"
+      ],
+      "explanationEn": "Applying De Morgan's law $\\overline{X + Y} = \\bar{X}\\bar{Y}$ gives $\\overline{A + \\bar{B}C} = \\bar{A} \\cdot \\overline{\\bar{B}C}$. Applying $\\overline{PQ} = \\bar{P} + \\bar{Q}$ to the second factor gives $\\overline{\\bar{B}C} = \\bar{\\bar{B}} + \\bar{C} = B + \\bar{C}$. Thus, the expression simplifies to $\\bar{A}(B + \\bar{C})$. Hence, the correct option is (D)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Hall Effect",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a Hall effect experiment on a heavily doped $p$-type semiconductor with hole concentration $p$ and elementary charge $e > 0$, the Hall coefficient $R_H$ is approximately:",
+      "optionsEn": [
+        "$+\\frac{1}{pe}$",
+        "$-\\frac{1}{pe}$",
+        "$+\\frac{p}{e}$",
+        "$-\\frac{e}{p}$"
+      ],
+      "explanationEn": "For a single-carrier conductor with charge $q$ and carrier density $n_c$, the Hall coefficient is $R_H = \\frac{1}{n_c q}$. In a heavily doped $p$-type semiconductor, holes ($q = +e$, concentration $p$) dominate conduction, so $R_H \\approx +\\frac{1}{pe} > 0$. Hence, the correct option is (A)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "X-Ray Diffraction",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a powder X-ray diffraction experiment on a monoatomic face-centered cubic (FCC) crystal, the diffraction peak appearing at the smallest Bragg angle corresponds to the crystal planes:",
+      "optionsEn": [
+        "$(111)$",
+        "$(110)$",
+        "$(100)$",
+        "$(200)$"
+      ],
+      "explanationEn": "For an FCC lattice, the geometrical structure factor is non-zero only when the Miller indices $h, k, l$ are either all even or all odd. The smallest Bragg angle corresponds to the smallest value of $h^2 + k^2 + l^2$ among allowed reflections. Here $(100)$ and $(110)$ have mixed parity (forbidden), while $(111)$ is all odd with $h^2 + k^2 + l^2 = 3$, smaller than $(200)$ which has $h^2 + k^2 + l^2 = 4$. Hence, the correct option is (A)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Logic Gates",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\odot B = \\overline{A \\oplus B}$ denote the $2$-input XNOR operation. For three binary variables $A, B, C$, the cascaded XNOR output $Y = (A \\odot B) \\odot C$ is identically equal to:",
+      "optionsEn": [
+        "$\\overline{A \\oplus B \\oplus C}$",
+        "$ABC + \\bar{A}\\bar{B}\\bar{C}$",
+        "$A \\oplus B \\oplus C$",
+        "$A + B + C$"
+      ],
+      "explanationEn": "Using $X \\odot Y = \\overline{X \\oplus Y} = X \\oplus Y \\oplus 1$, we have $(A \\odot B) \\odot C = (A \\oplus B \\oplus 1) \\oplus C \\oplus 1 = A \\oplus B \\oplus C \\oplus (1 \\oplus 1) = A \\oplus B \\oplus C \\oplus 0 = A \\oplus B \\oplus C$. (Unlike for an even number of inputs, for an odd number of inputs cascaded XNOR is identical to cascaded XOR.) Hence, the correct option is (C)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Binary Arithmetic",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The $8$-bit binary string $(11010110)_2$ represents a signed integer in $2$'s complement form. Its decimal value is:",
+      "optionsEn": [
+        "$-42$",
+        "$-41$",
+        "$-86$",
+        "$+214$"
+      ],
+      "explanationEn": "Since the MSB is $1$, the number is negative. Taking the $2$'s complement gives its magnitude: $1$'s complement of $11010110$ is $00101001$; adding $1$ yields $(00101010)_2 = 32 + 8 + 2 = 42$. Thus, the signed decimal value is $-42$. (Equivalently, $-128 + 64 + 16 + 4 + 2 = -42$.) Hence, the correct option is (A)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Miller Indices",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a face-centered cubic (FCC) crystal, the ratio of the interplanar spacings $d_{111} : d_{200} : d_{220}$ is:",
+      "optionsEn": [
+        "$1 : \\frac{1}{\\sqrt{2}} : \\frac{1}{\\sqrt{3}}$",
+        "$\\sqrt{3} : 2 : 2\\sqrt{2}$",
+        "$1 : \\frac{\\sqrt{3}}{2} : \\sqrt{\\frac{3}{8}}$",
+        "$\\frac{1}{\\sqrt{3}} : \\frac{1}{\\sqrt{2}} : \\frac{1}{2}$"
+      ],
+      "explanationEn": "For a cubic crystal of lattice constant $a$, $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$. Therefore, $d_{111} = \\frac{a}{\\sqrt{3}}$, $d_{200} = \\frac{a}{2}$, and $d_{220} = \\frac{a}{\\sqrt{8}}$. Dividing all three by $d_{111} = \\frac{a}{\\sqrt{3}}$ gives $1 : \\frac{\\sqrt{3}}{2} : \\sqrt{\\frac{3}{8}}$. Hence, the correct option is (C)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Hall Effect",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a Hall effect experiment on an $n$-type semiconductor bar, a longitudinal electric field $E_x$ drives a current along $+\\hat{x}$ in the presence of a transverse magnetic field $B_z$ along $+\\hat{z}$. If $\\mu_e$ is the electron mobility, the Hall angle $\\theta_H$ (defined by $\\tan\\theta_H = |E_y / E_x|$, where $E_y$ is the transverse Hall field) is equal to:",
+      "optionsEn": [
+        "$\\tan^{-1}\\left(\\frac{\\mu_e}{B_z}\\right)$",
+        "$\\tan^{-1}(\\mu_e B_z)$",
+        "$\\tan^{-1}\\left(\\frac{B_z}{\\mu_e}\\right)$",
+        "$\\tan^{-1}(e \\mu_e B_z)$"
+      ],
+      "explanationEn": "In steady state, the transverse Hall electric force balances the magnetic Lorentz force on drifting electrons: $e|E_y| = e v_d B_z \\implies |E_y| = v_d B_z$. Since the drift speed is $v_d = \\mu_e |E_x|$, we obtain $|E_y| = \\mu_e B_z |E_x|$, so $\\tan\\theta_H = \\left|\\frac{E_y}{E_x}\\right| = \\mu_e B_z$, giving $\\theta_H = \\tan^{-1}(\\mu_e B_z)$. Hence, the correct option is (B)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_a",
+      "sectionTitle": "Section A (MCQ)",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Semiconductors",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "In a non-degenerate $n$-type semiconductor at a fixed temperature $T$ in the exhaustion (extrinsic) regime, all donors are ionized. If the donor concentration $N_d$ is increased by a factor of $e^2$ (while remaining non-degenerate), the Fermi level $E_F$:",
+      "optionsEn": [
+        "remains unchanged",
+        "shifts downward toward the valence band by $2k_B T$",
+        "shifts upward toward the conduction band by $k_B T$",
+        "shifts upward toward the conduction band by $2k_B T$"
+      ],
+      "explanationEn": "In a non-degenerate $n$-type semiconductor with $n \\approx N_d = N_C \\exp\\left(-\\frac{E_C - E_F}{k_B T}\\right)$, the Fermi level is $E_F = E_C - k_B T \\ln\\left(\\frac{N_C}{N_d}\\right) = E_C + k_B T \\ln\\left(\\frac{N_d}{N_C}\\right)$. When $N_d \\to e^2 N_d$, the change in $E_F$ is $\\Delta E_F = k_B T \\ln(e^2) = +2k_B T$, shifting $E_F$ upward toward the conduction band by $2k_B T$. Hence, the correct option is (D)."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Number Systems",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following representations is/are equal to the decimal integer $(173)_{10}$?",
+      "optionsEn": [
+        "$(10101101)_2$",
+        "$(257)_8$",
+        "$(\\text{AD})_{16}$",
+        "$(\\text{B}3)_{16}$"
+      ],
+      "explanationEn": "Check each representation: (A) $(10101101)_2 = 128 + 32 + 8 + 4 + 1 = 173$ (True). (B) $(257)_8 = 2(64) + 5(8) + 7 = 175 \\neq 173$ (False). (C) $(\\text{AD})_{16} = 10(16) + 13 = 173$ (True). (D) $(\\text{B}3)_{16} = 11(16) + 3 = 179 \\neq 173$ (False). Hence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Boolean Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following Boolean identities hold(s) for all binary variables $A, B, C \\in \\{0, 1\\}$?",
+      "optionsEn": [
+        "$A + BC = (A + B)(A + C)$",
+        "$A + \\bar{A}B = A + B$",
+        "$\\overline{A \\cdot B} = \\bar{A} + \\bar{B}$",
+        "$(A + B)(\\bar{A} + \\bar{B}) = \\overline{A \\oplus B}$"
+      ],
+      "explanationEn": "(A) Distributive law of OR over AND: $(A+B)(A+C) = AA + AC + AB + BC = A(1+C+B) + BC = A + BC$ (True). (B) Absorption identity: $A + \\bar{A}B = (A + \\bar{A})(A + B) = A + B$ (True). (C) De Morgan's theorem (True). (D) $(A+B)(\\bar{A}+\\bar{B}) = A\\bar{B} + \\bar{A}B = A \\oplus B$, NOT $\\overline{A \\oplus B}$ (False). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Binary Arithmetic",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statement(s) is/are true for an $n$-bit signed $2$'s complement integer representation?",
+      "optionsEn": [
+        "The representable range of integers is from $-2^{n-1}$ to $+(2^{n-1} - 1)$",
+        "There is a unique representation for zero (all bits equal to $0$)",
+        "The most significant bit (MSB) is $1$ for all negative integers and $0$ for all non-negative integers",
+        "Taking the $2$'s complement of $-2^{n-1}$ yields $+2^{n-1}$ without overflow"
+      ],
+      "explanationEn": "(A) An $n$-bit $2$'s complement system covers $[-2^{n-1}, 2^{n-1}-1]$ (True). (B) Unlike $1$'s complement and sign-magnitude, zero has only one representation: $00\\dots 0$ (True). (C) The MSB carries weight $-2^{n-1}$, so it is $1$ for negative numbers and $0$ for non-negative numbers (True). (D) Because $+2^{n-1}$ lies outside the representable range, negating $-2^{n-1}$ causes arithmetic overflow and returns $-2^{n-1}$ itself (False). Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_b",
+      "sectionTitle": "Section B (MSQ)",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Logic Gates",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For binary variables $A, B \\in \\{0, 1\\}$, which of the following statement(s) about XOR ($\\oplus$) and XNOR ($\\odot$) is/are correct?",
+      "optionsEn": [
+        "$A \\oplus A = 1$ and $A \\oplus \\bar{A} = 0$",
+        "$A \\oplus B = \\bar{A} \\oplus \\bar{B}$",
+        "If $A \\oplus B = C$, then $A \\oplus C = \\bar{B}$",
+        "$A \\odot B = AB + \\bar{A}\\bar{B}$"
+      ],
+      "explanationEn": "(A) Identical inputs to XOR give $0$ and complementary inputs give $1$, so (A) is reversed (False). (B) $\\bar{A}\\oplus\\bar{B} = (\\bar{A})B + A(\\bar{B}) = A\\oplus B$ (True). (C) If $A \\oplus B = C$, then $A \\oplus C = A \\oplus (A \\oplus B) = B$, not $\\bar{B}$ (False). (D) XNOR outputs $1$ when $A = B$, i.e., $AB + \\bar{A}\\bar{B}$ (True). Hence, options (B) and (D) are correct."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Miller Indices",
+      "difficulty": "Easy",
+      "correctOption": "1.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.5,
+      "natMax": 1.5,
+      "questionTextEn": "A simple cubic crystal has a lattice constant of $4.50\\text{ \\AA}$. The interplanar spacing $d_{221}$ between adjacent $(221)$ planes is ______ $\\text{\\AA}$. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "For a cubic crystal, the interplanar spacing is $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$. Substituting $a = 4.50\\text{ \\AA}$ and $(h, k, l) = (2, 2, 1)$ gives $d_{221} = \\frac{4.50}{\\sqrt{2^2 + 2^2 + 1^2}} = \\frac{4.50}{\\sqrt{9}} = \\frac{4.50}{3} = 1.50\\text{ \\AA}$."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "p-n Junction Diode",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "A silicon $p$-$n$ junction diode with ideality factor $\\eta = 2$ operates in forward bias at a DC current of $10\\text{ mA}$ at a temperature where the thermal voltage is $V_T = 25\\text{ mV}$. Its small-signal dynamic resistance $r_d$ is ______ $\\Omega$. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "In forward bias ($I \\gg I_s$), the dynamic resistance is $r_d = \\frac{\\eta V_T}{I} = \\frac{2 \\times 25\\text{ mV}}{10\\text{ mA}} = 5.0\\ \\Omega$."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "X-Ray Diffraction",
+      "difficulty": "Easy",
+      "correctOption": "29.9 to 30.1",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 29.9,
+      "natMax": 30.1,
+      "questionTextEn": "X-rays of wavelength $2.00\\text{ \\AA}$ undergo first-order Bragg reflection from the $(111)$ planes of an FCC crystal with lattice constant $a = 3.464\\text{ \\AA}$. The Bragg angle $\\theta$ is ______ degrees. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "The interplanar spacing for the $(111)$ planes is $d_{111} = \\frac{a}{\\sqrt{1^2 + 1^2 + 1^2}} = \\frac{3.464}{\\sqrt{3}} \\approx 2.000\\text{ \\AA}$. From Bragg's law $2d_{111}\\sin\\theta = n\\lambda$ with $n = 1$ and $\\lambda = 2.00\\text{ \\AA}$: $\\sin\\theta = \\frac{2.00}{2 \\times 2.000} = 0.500$, giving $\\theta = 30.0^\\circ$."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Op-Amp Circuits",
+      "difficulty": "Easy",
+      "correctOption": "6",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 6.0,
+      "natMax": 6.0,
+      "questionTextEn": "An ideal Op-Amp is connected in the non-inverting configuration with input voltage $V_{\\text{in}} = 1.2\\text{ V}$ applied to the $(+)$ terminal, resistor $R_1 = 4\\text{ k}\\Omega$ between the $(-)$ terminal and ground, and feedback resistor $R_f = 16\\text{ k}\\Omega$. Assuming power rails of $\\pm 15\\text{ V}$, the output voltage $V_o$ is ______ $\\text{V}$. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "For an ideal non-inverting amplifier, $V_o = \\left(1 + \\frac{R_f}{R_1}\\right) V_{\\text{in}} = \\left(1 + \\frac{16}{4}\\right)(1.2\\text{ V}) = 5 \\times 1.2\\text{ V} = 6.0\\text{ V}$."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Semiconductors",
+      "difficulty": "Easy",
+      "correctOption": "1.2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1.2,
+      "natMax": 1.2,
+      "questionTextEn": "A germanium sample at $300\\text{ K}$ has an intrinsic carrier concentration of $2.4 \\times 10^{13}\\text{ cm}^{-3}$. It is uniformly doped with $4.8 \\times 10^{16}\\text{ cm}^{-3}$ fully ionized acceptor atoms. The equilibrium electron concentration is ______ $\\times 10^{10}\\text{ cm}^{-3}$. (Rounded off to one decimal place)",
+      "optionsEn": [],
+      "explanationEn": "Since $N_a \\gg n_i$, the equilibrium hole concentration is $p_0 \\approx N_a = 4.8 \\times 10^{16}\\text{ cm}^{-3}$. By the mass-action law $n_0 p_0 = n_i^2$, the equilibrium electron concentration is $n_0 = \\frac{n_i^2}{p_0} = \\frac{(2.4 \\times 10^{13})^2}{4.8 \\times 10^{16}} = \\frac{5.76 \\times 10^{26}}{4.8 \\times 10^{16}} = 1.2 \\times 10^{10}\\text{ cm}^{-3}$."
+    },
+    {
+      "questionId": "jam_ph_topic_solid_state_electronics_02_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_c",
+      "sectionTitle": "Section C (NAT)",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "IIT JAM PH Topic • Solid State Physics, Devices and Electronics (Set 02)",
+      "topicTag": "Oscillators",
+      "difficulty": "Medium",
+      "correctOption": "15.9 to 15.94",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 15.9,
+      "natMax": 15.94,
+      "questionTextEn": "A Colpitts oscillator has a tank circuit with inductance $L = 0.5\\text{ mH}$ and series capacitors $C_1 = 300\\text{ nF}$ and $C_2 = 600\\text{ nF}$. The frequency of oscillation is ______ $\\text{kHz}$. (Rounded off to two decimal places)",
+      "optionsEn": [],
+      "explanationEn": "The equivalent series capacitance of the tank circuit is $C_{\\text{eq}} = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{300 \\times 600}{300 + 600}\\text{ nF} = 200\\text{ nF} = 2 \\times 10^{-7}\\text{ F}$. Therefore, $L C_{\\text{eq}} = (5 \\times 10^{-4})(2 \\times 10^{-7}) = 10^{-10}\\text{ s}^2$, and the oscillation frequency is $f_0 = \\frac{1}{2\\pi\\sqrt{L C_{\\text{eq}}}} = \\frac{10^5}{2\\pi}\\text{ Hz} \\approx 15.92\\text{ kHz}$."
+    }
+  ]
+}

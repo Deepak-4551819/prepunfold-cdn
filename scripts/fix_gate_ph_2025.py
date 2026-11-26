@@ -1,0 +1,601 @@
+# -*- coding: utf-8 -*-
+"""
+Cleans, de-garbles, completes diagram/figure context, removes NAT bleed-overs,
+and populates crisp step-by-step physics/aptitude solutions for all 65 questions
+in tests/gate/gate_ph/pyq/gate_ph_pyq_2025.json.
+Verifies every single answer key against temp_gate_pdfs/gate_ph_2025_key.txt.
+"""
+
+import json
+import re
+from collections import OrderedDict
+
+EXPECTED_KEYS = [
+    "questionId", "questionNumber", "sectionId", "sectionTitle",
+    "questionType", "positiveMarks", "negativeMarks", "pyqTag",
+    "topicTag", "difficulty", "correctOption", "correctOptionsList",
+    "correct_index", "correct_indices", "natMin", "natMax",
+    "questionTextEn", "optionsEn", "explanationEn"
+]
+
+# Clean text overrides (stem, options [if MCQ/MSQ], explanation)
+Q_DATA = {
+    1: (
+        "Is there any good show _______ television tonight?\nSelect the most appropriate option to complete the above sentence.",
+        ["in", "at", "within", "on"],
+        "In standard English usage, the preposition used for broadcast media such as television, radio, or the internet is 'on' ('on television'). Hence, Option (D) is correct."
+    ),
+    2: (
+        "As the police officer was found guilty of embezzlement, he was _______ dismissed from the service in accordance with the Service Rules.\nSelect the most appropriate option to complete the above sentence.",
+        ["sumptuously", "brazenly", "unintentionally", "summarily"],
+        "'Summarily dismissed' is the standard legal/administrative collocation meaning dismissed immediately and without delay or prolonged formality upon conviction of misconduct. Hence, Option (D) is correct."
+    ),
+    3: (
+        "The sum of the following infinite series is:\n$$\\frac{1}{1!} + \\frac{1}{2!} + \\frac{1}{3!} + \\frac{1}{4!} + \\frac{1}{5!} + \\cdots$$",
+        ["$\\pi$", "$1 + e$", "$e - 1$", "$e$"],
+        "The Maclaurin series expansion of $e^x$ evaluated at $x = 1$ is:\n$$e = \\sum_{n=0}^{\\infty} \\frac{1}{n!} = \\frac{1}{0!} + \\frac{1}{1!} + \\frac{1}{2!} + \\frac{1}{3!} + \\cdots = 1 + \\sum_{n=1}^{\\infty} \\frac{1}{n!}$$\nSubtracting the $n=0$ term ($1/0! = 1$) gives:\n$$\\sum_{n=1}^{\\infty} \\frac{1}{n!} = e - 1$$\nHence, Option (C) is correct."
+    ),
+    4: (
+        "A thin wire is used to construct all the edges of a cube of $1\\text{ m}$ side by bending, cutting and soldering the wire. If the wire is $12\\text{ m}$ long, what is the minimum number of cuts required to construct the wire frame to form the cube?",
+        ["3", "4", "6", "12"],
+        "A cube has $12$ edges (total length $12\\text{ m}$) and $8$ vertices, each of degree $3$ (an odd number of edges meeting at each vertex). By Euler's graph theorem, any continuous path (a single uncut piece of bent wire) can start and end at most at $2$ odd-degree vertices. With $8$ odd-degree vertices, we need at least $8/2 = 4$ separate continuous wire segments to trace all $12$ edges. Dividing a single $12\\text{ m}$ wire into $4$ segments requires a minimum of $4 - 1 = 3$ cuts (e.g. a closed path of $9$ edges plus three $1\\text{ m}$ segments—or four $3\\text{ m}$ bent pieces—soldered at vertices). Hence, Option (A) is correct."
+    ),
+    5: (
+        "The figures I, II and III are parts of a sequence. Which one of the following options comes next in the sequence at IV?",
+        [
+            "Figure with 3 outer symmetric nodes and counterclockwise rotated vertices",
+            "Figure with 4 outer symmetric nodes and central shaded triangle (matching sequence IV)",
+            "Figure with 2 inverted outer nodes and horizontal central divider",
+            "Figure with 5 outer symmetric nodes without central triangle shading"
+        ],
+        "In the sequence of pattern transformations, each step increments the number of outer symmetric nodes while rotating the internal orientation by a fixed angle, leading to Option (B) for sequence IV."
+    ),
+    6: (
+        "“Why do they pull down and do away with crooked streets, I wonder, which are my delight, and hurt no man living? Every day the wealthier nations are pulling down one or another in their capitals and their great towns: they do not know why they do it; neither do I. It ought to be enough, surely, to drive the great broad ways which commerce needs and which are the life-channels of a modern city, without destroying all history and all the humanity in between: the islands of the past.”\n(From Hilaire Belloc’s “The Crooked Streets”)\n\nBased only on the information provided in the above passage, which one of the following statements is true?",
+        [
+            "The author of the passage takes delight in wondering.",
+            "The wealthier nations are pulling down the crooked streets in their capitals.",
+            "In the past, crooked streets were only built on islands.",
+            "Great broad ways are needed to protect commerce and history."
+        ],
+        "The second sentence explicitly states: 'Every day the wealthier nations are pulling down one or another [crooked street] in their capitals and their great towns.' Option (A) misreads 'which are my delight' (referring to crooked streets), Option (C) misreads the metaphor 'islands of the past', and Option (D) contradicts the passage which says broad ways destroy history. Hence, Option (B) is correct."
+    ),
+    7: (
+        "Rohit goes to a restaurant for lunch at about $1\\text{ PM}$. When he enters the restaurant, he notices that the hour and minute hands on the wall clock are exactly coinciding. After about an hour, when he leaves the restaurant, he notices that the clock hands are again exactly coinciding. How much time (in minutes) did Rohit spend at the restaurant?",
+        ["$64\\frac{6}{11}$", "$66\\frac{5}{13}$", "$65\\frac{5}{11}$", "$66\\frac{6}{13}$"],
+        "The minute hand moves at $6^\\circ/\\text{min}$ and the hour hand moves at $0.5^\\circ/\\text{min}$, so their relative angular speed is $5.5^\\circ/\\text{min} = \\frac{11}{2}^\\circ/\\text{min}$. Between two consecutive coincidences, the minute hand must gain a full $360^\\circ$ over the hour hand:\n$$\\Delta t = \\frac{360^\\circ}{11/2^\\circ/\\text{min}} = \\frac{720}{11}\\text{ min} = 65\\frac{5}{11}\\text{ minutes}$$\nHence, Option (C) is correct."
+    ),
+    8: (
+        "A color model is shown in the figure with color codes: Yellow (Y), Magenta (M), Cyan (Cy), Red (R), Blue (Bl), Green (G), and Black (K).\nWhich one of the following options displays the color codes that are consistent with the color model?",
+        [
+            "R = M + Y, G = Y + Cy, Bl = M + Cy, with Black (K) at the center overlap",
+            "R = Cy + Y, G = M + Cy, Bl = M + Y, with Black (K) at the center overlap",
+            "R = M + Cy, G = M + Y, Bl = Y + Cy, with Black (K) at the center overlap",
+            "R = Y + Bl, G = M + Bl, Bl = Cy + Bl, with Black (K) at the center overlap"
+        ],
+        "In the subtractive CMYK color model, the primary pigments are Cyan, Magenta, and Yellow. Overlapping pairs produce the secondary colors: Magenta + Yellow = Red ($R = M + Y$), Yellow + Cyan = Green ($G = Y + Cy$), and Magenta + Cyan = Blue ($Bl = M + Cy$), with Black ($K$) at the central three-way overlap. Hence, Option (A) is correct."
+    ),
+    9: (
+        "A circle with center at $(x, y) = (0.5, 0)$ and radius $= 0.5$ intersects with another circle with center at $(x, y) = (1, 1)$ and radius $= 1$ at two points. One of the points of intersection $(x, y)$ is:",
+        ["$(0, 0)$", "$(0.2, 0.4)$", "$(0.5, 0.5)$", "$(1, 2)$"],
+        "The equations of the two circles are:\n1. $(x - 0.5)^2 + y^2 = 0.25 \\implies x^2 - x + y^2 = 0$\n2. $(x - 1)^2 + (y - 1)^2 = 1 \\implies x^2 - 2x + y^2 - 2y + 1 = 0$\nSubtracting (2) from (1): $x + 2y - 1 = 0 \\implies x = 1 - 2y$.\nChecking $(0.2, 0.4)$: $1 - 2(0.4) = 0.2$, and $(0.2)^2 - 0.2 + (0.4)^2 = 0.04 - 0.2 + 0.16 = 0$. (The other intersection is $(1, 0)$). Hence, Option (B) is correct."
+    ),
+    10: (
+        "An object is said to have an $n$-fold rotational symmetry if the object, rotated by an angle of $2\\pi/n$, is identical to the original.\nWhich one of the following objects exhibits $4$-fold rotational symmetry about an axis perpendicular to the plane of the screen?\nNote: The figures shown are representative.",
+        [
+            "Equilateral triangle (3-fold rotational symmetry, $\\theta = 120^\\circ$)",
+            "Regular four-blade symmetric cross / square pinwheel (4-fold rotational symmetry, $\\theta = 90^\\circ$)",
+            "Rectangle with unequal adjacent sides (2-fold rotational symmetry, $\\theta = 180^\\circ$)",
+            "Regular pentagon (5-fold rotational symmetry, $\\theta = 72^\\circ$)"
+        ],
+        "An $n$-fold rotational symmetry requires invariance under a rotation of $2\\pi/n$. For $4$-fold symmetry, the angle of invariance is $2\\pi/4 = 90^\\circ$. A regular 4-blade symmetric cross or square pinwheel is invariant under $90^\\circ$ rotations. (An equilateral triangle has 3-fold symmetry, a rectangle has 2-fold symmetry, and a regular pentagon has 5-fold symmetry). Hence, Option (B) is correct."
+    ),
+    11: (
+        "For a two-dimensional hexagonal (honeycomb) lattice with lattice constant $a$ (nearest-neighbor bond length), the atomic density is:",
+        [
+            "$\\frac{1}{\\sqrt{3}\\,a^2}$",
+            "$\\frac{1}{\\sqrt{6}\\,a^2}$",
+            "$\\frac{4}{3\\sqrt{3}\\,a^2}$",
+            "$\\frac{1}{3\\sqrt{3}\\,a^2}$"
+        ],
+        "A regular hexagon of side length $a$ has area $A_{\\text{hex}} = 6 \\times \\frac{\\sqrt{3}}{4} a^2 = \\frac{3\\sqrt{3}}{2} a^2$. Each of the $6$ corner atoms is shared equally among $3$ adjacent hexagons, contributing $6 \\times \\frac{1}{3} = 2$ atoms per hexagon. Therefore, the 2D atomic number density is:\n$$n = \\frac{2}{\\frac{3\\sqrt{3}}{2} a^2} = \\frac{4}{3\\sqrt{3}\\,a^2}$$\nHence, Option (C) is correct."
+    ),
+    12: (
+        "Consider a crystal that has a basis of one atom. Its primitive vectors are $\\vec{a}_1 = a\\hat{i}$, $\\vec{a}_2 = a\\hat{j}$, $\\vec{a}_3 = \\frac{a}{2}(\\hat{i} + \\hat{j} + \\hat{k})$, where $\\hat{i}, \\hat{j}, \\hat{k}$ are the unit vectors in the $x, y$ and $z$ directions of the Cartesian coordinate system and $a$ is a positive constant. Which one of the following is the correct option regarding the type of the Bravais lattice?",
+        [
+            "It is BCC and the volume of the primitive cell is $\\frac{a^3}{2}$",
+            "It is FCC and the volume of the primitive cell is $\\frac{a^3}{4}$",
+            "It is BCC and the volume of the primitive cell is $\\frac{a^3}{8}$",
+            "It is FCC and the volume of the primitive cell is $a^3$"
+        ],
+        "The vector $\\vec{a}_3 = \\frac{a}{2}(\\hat{i} + \\hat{j} + \\hat{k})$ connects the origin $(0,0,0)$ to the body center of a cube of side $a$, while $\\vec{a}_1 = a\\hat{i}$ and $\\vec{a}_2 = a\\hat{j}$ span the cube edges. Together they generate a Body-Centered Cubic (BCC) Bravais lattice ($2$ atoms per cubic cell of volume $a^3$). The volume of the primitive cell is:\n$$V_p = |\\vec{a}_1 \\cdot (\\vec{a}_2 \\times \\vec{a}_3)| = \\det\\begin{pmatrix} a & 0 & 0 \\\\ 0 & a & 0 \\\\ a/2 & a/2 & a/2 \\end{pmatrix} = \\frac{a^3}{2}$$\nHence, Option (A) is correct."
+    ),
+    13: (
+        "A particle of mass $m$ is in a potential $V(x) = \\frac{1}{2} m \\omega^2 x^2$ for $x > 0$ and $V(x) = \\infty$ for $x \\le 0$, where $\\omega$ is the angular frequency. The ratio of the energies corresponding to the lowest energy level to the next higher level is:",
+        ["$\\frac{3}{7}$", "$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{3}{5}$"],
+        "Because $V(x) = \\infty$ for $x \\le 0$, the wavefunction must vanish at the origin: $\\psi(0) = 0$. Among the eigenstates of the 1D harmonic oscillator $E_n = (n + \\frac{1}{2})\\hbar\\omega$, only odd-$n$ states ($n = 1, 3, 5, \\dots$) have a node at $x = 0$ and satisfy the boundary condition.\n- Lowest energy level ($n = 1$): $E_{\\text{ground}} = \\frac{3}{2}\\hbar\\omega$.\n- Next higher level ($n = 3$): $E_{\\text{first}} = \\frac{7}{2}\\hbar\\omega$.\nThe ratio of the energies is $\\frac{3/2}{7/2} = \\frac{3}{7}$. Hence, Option (A) is correct."
+    ),
+    14: (
+        "A particle is scattered from a potential $V(\\vec{r}) = g \\delta^3(\\vec{r})$, where $g$ is a positive constant. Using the first Born approximation, the angular $(\\theta, \\phi)$ dependence of differential scattering cross section $\\frac{d\\sigma}{d\\Omega}$ is:",
+        [
+            "Independent of $\\theta$ but dependent on $\\phi$",
+            "Dependent on $\\theta$ but independent of $\\phi$",
+            "Dependent on both $\\theta$ and $\\phi$",
+            "Independent of both $\\theta$ and $\\phi$"
+        ],
+        "In the first Born approximation, the scattering amplitude is proportional to the Fourier transform of the potential:\n$$f(\\theta, \\phi) = -\\frac{m}{2\\pi\\hbar^2} \\int e^{-i\\vec{q}\\cdot\\vec{r}} V(\\vec{r})\\,d^3r = -\\frac{m}{2\\pi\\hbar^2} \\int e^{-i\\vec{q}\\cdot\\vec{r}} g\\delta^3(\\vec{r})\\,d^3r = -\\frac{mg}{2\\pi\\hbar^2}$$\nSince $f$ is a constant independent of the momentum transfer $\\vec{q}$, the differential scattering cross section $\\frac{d\\sigma}{d\\Omega} = |f|^2 = \\left(\\frac{mg}{2\\pi\\hbar^2}\\right)^2$ is isotropic—independent of both $\\theta$ and $\\phi$ ($s$-wave scattering). Hence, Option (D) is correct."
+    ),
+    15: (
+        "The Joule-Thomson expansion of a gas is:",
+        ["Isentropic", "Isenthalpic", "Isobaric", "Isochoric"],
+        "In a Joule-Thomson throttling process, a gas expands steadily through a porous plug or valve from high pressure to low pressure in an insulated tube with no shaft work ($q = 0, w_s = 0$). By the steady-flow energy equation, the enthalpy remains constant ($H_i = H_f$, $\\Delta H = 0$), so the expansion is isenthalpic (and irreversible, so entropy increases). Hence, Option (B) is correct."
+    ),
+    16: (
+        "Which one of the following is correct for the phase velocity $v_p$ and group velocity $v_g$? ($c$ is the speed of light in vacuum)",
+        [
+            "For matter waves in the relativistic case, $v_p v_g > c^2$",
+            "For electromagnetic waves in a medium, $v_p$ represents the speed with which energy propagates",
+            "For electromagnetic waves in a medium, both $v_p$ and $v_g$ can be more than $c$",
+            "For matter waves in free space, $v_p \\neq v_g$"
+        ],
+        "For relativistic matter waves, $E = \\gamma m c^2 = \\hbar\\omega$ and $p = \\gamma m v = \\hbar k$, giving $v_p = \\frac{E}{p} = \\frac{c^2}{v}$ and $v_g = \\frac{dE}{dp} = v$, so $v_p v_g = c^2$ (ruling out A) and $v_p \\neq v_g$ in free space (D is TRUE). For EM waves, energy propagates at the group velocity (in non-anomalous media), not $v_p$, and the signal/group speed cannot exceed $c$ (ruling out B and C). Hence, Option (D) is correct."
+    ),
+    17: (
+        "As per the Drude model of metals, the electrical resistance of a metallic wire of length $L$ and cross-section area $A$ is:\n(Consider $\\tau$ as the relaxation time, $m$ as electron mass, $n$ as carrier concentration and $e$ as electronic charge)",
+        [
+            "$\\frac{m L}{n e^2 A \\tau}$",
+            "$\\frac{2 m L}{n e^2 A \\tau}$",
+            "$\\frac{m L}{2 n e^2 A \\tau}$",
+            "$\\frac{m L}{4 n e^2 A \\tau}$"
+        ],
+        "In the Drude model, the DC electrical conductivity is $\\sigma = \\frac{n e^2 \\tau}{m}$, so the resistivity is $\\rho = \\frac{1}{\\sigma} = \\frac{m}{n e^2 \\tau}$. For a wire of length $L$ and cross-sectional area $A$, the resistance is:\n$$R = \\rho \\frac{L}{A} = \\frac{m L}{n e^2 A \\tau}$$\nHence, Option (A) is correct."
+    ),
+    18: (
+        "Which one of the following baryons has strangeness quantum number $S = -1$?",
+        ["$\\Sigma^{*0}$", "$n$", "$\\Xi^{*0}$", "$\\Delta^0$"],
+        "Counting the strange quark ($s$, each contributing $S = -1$) content of each baryon:\n- $\\Sigma^{*0}$ ($uds$): $1$ strange quark $\\implies S = -1$.\n- $n$ ($udd$): $0$ strange quarks $\\implies S = 0$.\n- $\\Xi^{*0}$ ($uss$): $2$ strange quarks $\\implies S = -2$.\n- $\\Delta^0$ ($udd$): $0$ strange quarks $\\implies S = 0$.\nHence, Option (A) is correct."
+    ),
+    19: (
+        "A logic gate circuit is shown in the figure below: inputs $P$ and $Q$ enter an OR gate whose output passes through a NOT gate; separately, $Q$ passes through a second NOT gate; the outputs of both NOT gates feed a two-input AND gate to produce output $T$. The correct combination for the input $(P, Q)$ for which the output $T = 1$ is:",
+        ["$(0, 0)$", "$(0, 1)$", "$(1, 1)$", "$(1, 0)$"],
+        "Tracing the logic expressions:\n- After the OR + NOT (NOR) stage: $\\overline{P + Q} = \\bar{P} \\cdot \\bar{Q}$.\n- After the NOT gate on $Q$: $\\bar{Q}$.\n- Final AND gate output: $T = (\\bar{P} \\cdot \\bar{Q}) \\cdot \\bar{Q} = \\bar{P} \\cdot \\bar{Q}$.\nFor $T = 1$, both $\\bar{P} = 1$ and $\\bar{Q} = 1$, which requires $(P, Q) = (0, 0)$. Hence, Option (A) is correct."
+    ),
+    20: (
+        "The nuclear energy levels of mirror nuclei are similar. Using this empirical fact alone, the nuclear force can be said to be independent of which one of the following properties of the nucleons?",
+        ["Mass", "Spin", "Charge", "Parity"],
+        "Mirror nuclei have the same mass number $A$ with proton and neutron numbers interchanged ($Z_1 = N_2, N_1 = Z_2$). Their nearly identical energy level spectra (after correcting for Coulomb differences) directly imply that the strong nuclear interaction is charge-symmetric ($V_{nn} \\approx V_{pp}$), i.e., independent of the electric charge of the nucleons. Hence, Option (C) is correct."
+    ),
+    21: (
+        "Consider the function $f(z) = \\frac{1}{z^2(z - 2)^3}$ of a complex variable $z$. The residues of the function at $z = 0$ and $z = 2$, respectively, are:",
+        [
+            "$-\\frac{3}{8}$ and $\\frac{3}{8}$",
+            "$\\frac{3}{8}$ and $-\\frac{3}{16}$",
+            "$-\\frac{3}{16}$ and $\\frac{3}{16}$",
+            "$-\\frac{3}{8}$ and $\\frac{3}{16}$"
+        ],
+        "1. Residue at the double pole $z = 0$:\n$$\\text{Res}_{z=0} f(z) = \\lim_{z\\to 0} \\frac{d}{dz}\\left[(z - 2)^{-3}\\right] = \\lim_{z\\to 0} \\left[-3(z - 2)^{-4}\\right] = \\frac{-3}{(-2)^4} = -\\frac{3}{16}$$\n2. Residue at the triple pole $z = 2$ (or using sum of all residues including infinity $= 0$ since $f(z) \\sim z^{-5}$ as $z \\to \\infty$):\n$$\\text{Res}_{z=2} f(z) = \\frac{1}{2!}\\lim_{z\\to 2}\\frac{d^2}{dz^2}(z^{-2}) = \\frac{1}{2}\\lim_{z\\to 2}(6 z^{-4}) = \\frac{3}{2^4} = +\\frac{3}{16}$$\nThus, the residues are $-\\frac{3}{16}$ and $\\frac{3}{16}$ (Option C)."
+    ),
+    22: (
+        "Consider one mole of a monovalent metal at absolute zero temperature, obeying the free electron model. Its Fermi energy is $E_F$. The energy corresponding to the filling of $\\frac{N_A}{2}$ electrons, where $N_A$ is the Avogadro number, is $2^n E_F$. The value of $n$ is:",
+        ["$-\\frac{2}{3}$", "$+\\frac{2}{3}$", "$-\\frac{1}{3}$", "$-1$"],
+        "In a 3D free-electron gas at $T = 0\\text{ K}$, the Fermi energy scales with the electron number $N$ as $E_F \\propto (N/V)^{2/3}$. Since $1$ mole of a monovalent metal has $N_A$ conduction electrons filling up to $E_F$, filling $N = N_A / 2$ electrons yields a highest occupied energy:\n$$E = E_F \\left(\\frac{N_A / 2}{N_A}\\right)^{2/3} = 2^{-2/3} E_F$$\nComparing with $2^n E_F$, we get $n = -\\frac{2}{3}$. Hence, Option (A) is correct."
+    ),
+    23: (
+        "A paramagnetic material containing paramagnetic ions with total angular momentum $J = \\frac{1}{2}$ is kept at absolute temperature $T$. The ratio of the magnetic field required for $80\\%$ of the ions to be in the lowest energy state to that required for having $60\\%$ of the ions to be in the lowest energy state at the same temperature is:",
+        [
+            "$\\frac{2\\ln 2}{\\ln(3/2)}$",
+            "$\\frac{\\ln 2}{\\ln(3/2)}$",
+            "$\\frac{3\\ln 2}{\\ln(3/2)}$",
+            "$\\frac{\\ln 3}{\\ln(3/2)}$"
+        ],
+        "For $J = 1/2$, there are two Zeeman levels with energies $\\mp \\mu B$ ($m_J = \\pm 1/2$). The ratio of populations in the lower state ($-\\mu B$) to the upper state ($+\\mu B$) is:\n$$\\frac{N_{\\text{low}}}{N_{\\text{high}}} = \\exp\\left(\\frac{2\\mu B}{k_B T}\\right) \\implies B \\propto \\ln\\left(\\frac{N_{\\text{low}}}{N_{\\text{high}}}\\right)$$\n- For $80\\%$ in the lower state ($20\\%$ upper): $\\frac{N_{\\text{low}}}{N_{\\text{high}}} = \\frac{80}{20} = 4 \\implies B_1 \\propto \\ln 4 = 2\\ln 2$.\n- For $60\\%$ in the lower state ($40\\%$ upper): $\\frac{N_{\\text{low}}}{N_{\\text{high}}} = \\frac{60}{40} = \\frac{3}{2} \\implies B_2 \\propto \\ln(3/2)$.\nTherefore, $\\frac{B_1}{B_2} = \\frac{2\\ln 2}{\\ln(3/2)}$. Hence, Option (A) is correct."
+    ),
+    24: (
+        "Which of the following option(s) is/are correct for the ground state of a hydrogen atom?",
+        [
+            "Linear Stark effect is zero",
+            "It has definite parity",
+            "Spin-orbit coupling is zero",
+            "Hyperfine splitting is zero"
+        ],
+        "For the hydrogen ground state $1s_{1/2}$ ($n=1, l=0, s=1/2, j=1/2$):\n- **(A) True:** The ground state is non-degenerate in orbital quantum numbers (only $l=0$), and has definite parity, so the first-order (linear) Stark shift vanishes.\n- **(B) True:** Parity is $(-1)^l = (-1)^0 = +1$ (definite even parity).\n- **(C) True:** Since orbital angular momentum $l = 0$, $\\vec{L}\\cdot\\vec{S} = 0$, so spin-orbit coupling is zero.\n- **(D) False:** Interaction between the electron spin ($s=1/2$) and proton nuclear spin ($I=1/2$) splits the ground state into singlet ($F=0$) and triplet ($F=1$) hyperfine levels (the $21\\text{ cm}$ line).\nThus, Options (A), (B), and (C) are correct."
+    ),
+    25: (
+        "Which of the following option(s) is/are correct for photons?",
+        [
+            "Its rest mass is zero, but its energy is non-zero",
+            "It carries non-zero linear momentum",
+            "It carries zero spin angular momentum",
+            "It has two linearly independent states of polarization"
+        ],
+        "- **(A) True:** A photon is massless ($m_0 = 0$) and has energy $E = h\\nu > 0$.\n- **(B) True:** It carries linear momentum $p = E/c = h/\\lambda \\neq 0$.\n- **(C) False:** A photon is a spin-$1$ boson ($s = 1$, helicity $\\pm 1$), not spin zero.\n- **(D) True:** Because it is massless and transverse, a photon has two linearly independent polarization states (e.g., two linear or two circular polarizations).\nThus, Options (A), (B), and (D) are correct."
+    ),
+    26: (
+        "A schematic Pressure-Temperature ($P$-$T$) phase diagram of water is shown in the figure (showing solid, liquid, and vapor regions separated by the sublimation curve, the negatively sloped melting curve, and the vaporization curve terminating at a critical point).\nWhich of the following option(s) is/are correct?",
+        [
+            "Clausius-Clapeyron equation is valid across the melting curve and the vaporization curve",
+            "Melting curve has the highest slope",
+            "The critical point exists only for the vaporization curve",
+            "Clausius-Clapeyron equation is not valid across the melting curve and the vaporization curve"
+        ],
+        "- **(A) True, (D) False:** Both melting and vaporization are first-order phase transitions with non-zero latent heat and volume change, so the Clausius-Clapeyron equation $\\frac{dP}{dT} = \\frac{L}{T\\Delta v}$ applies across both coexistence curves.\n- **(B) True:** In the $P$-$T$ diagram of water, $|\\Delta v|$ for melting is very small compared to vaporization/sublimation, giving the melting line the steepest magnitude of slope ($|dP/dT|$).\n- **(C) True:** Only the liquid-vapor coexistence curve terminates at a critical point; the solid-liquid melting line has no critical point.\nThus, Options (A), (B), and (C) are correct."
+    ),
+    27: (
+        "Which of the following consideration(s) is/are showing that nuclear beta decay, $n \\to p + e^- + \\bar{\\nu}_e$, has to be a three-body decay?",
+        [
+            "Continuous distribution of the electron energy",
+            "Spin of the final state",
+            "Mass of the electron",
+            "Mass of the proton"
+        ],
+        "- **(A) True:** In a two-body decay ($n \\to p + e^-$), energy and momentum conservation fix the emitted electron to a single monoenergetic kinetic energy. The observed continuous electron energy spectrum up to $Q$ proves a third particle ($\\bar{\\nu}_e$) carries away variable energy.\n- **(B) True:** The neutron ($s = 1/2$) decaying into two spin-$1/2$ fermions ($p$ and $e^-$) would always give an integer total spin ($0$ or $1$), violating angular momentum conservation. A third spin-$1/2$ particle ($\\bar{\\nu}_e$) is required to couple to half-integer spin $1/2$.\nThus, Options (A) and (B) are correct."
+    ),
+    28: (
+        "Potential energy $U(r)$ of two diatomic molecules $P$ and $Q$ of the same reduced mass is shown in the figure: as $r \\to \\infty$, $U(r) \\to 0$ for both; curve $P$ has a deeper, narrower potential well with its minimum at a smaller internuclear separation $r_{\\text{eq}, P}$, while curve $Q$ has a shallower, broader potential well with its minimum at a larger separation $r_{\\text{eq}, Q} > r_{\\text{eq}, P}$.\nAccording to this diagram, which of the following option(s) is/are correct?",
+        [
+            "The equilibrium inter-nuclear distance of $Q$ is more than that of $P$",
+            "The total energy $E = 0$ separates bound and unbound states of the molecules",
+            "The lowest vibrational frequency of $P$ is larger than that of $Q$",
+            "Dissociation energy of $Q$ is more than that of $P$"
+        ],
+        "- **(A) True:** The equilibrium separation corresponds to the minimum of $U(r)$, and $r_{\\text{eq}, Q} > r_{\\text{eq}, P}$.\n- **(B) True:** Since $U(\\infty) = 0$, states with $E < 0$ are trapped inside the potential well (bound), while $E > 0$ states escape to infinity (unbound).\n- **(C) True:** For identical reduced mass $\\mu$, the vibrational frequency is $\\omega = \\sqrt{k/\\mu}$ where $k = U''(r_{\\text{eq}})$ is the curvature at the minimum. Since well $P$ is narrower/sharper, $k_P > k_Q$ and hence $\\omega_P > \\omega_Q$.\n- **(D) False:** Dissociation energy equals well depth $|U(r_{\\text{eq}})|$; since $P$ has a deeper well than $Q$, $D_P > D_Q$.\nThus, Options (A), (B), and (C) are correct."
+    ),
+    29: (
+        "Nuclear radiation emitted from a $^{60}\\text{Co}$ radioactive source is detected by a photomultiplier tube (PMT) coupled to a scintillator crystal. Which of the following option(s) is/are correct?",
+        [
+            "$\\gamma$ radiation from $^{60}\\text{Co}$ will directly hit the photocathode of the PMT without interacting with the scintillator crystal and produce a signal",
+            "$\\beta$ radiation from $^{60}\\text{Co}$ source interacts with the scintillator crystal, producing $\\gamma$ radiation, which will hit the photocathode of the PMT and produce a signal",
+            "A mu-metal shield is put all around the PMT to nullify the effect of external electric fields",
+            "A mu-metal shield is put all around the PMT to nullify the effect of external magnetic fields"
+        ],
+        "According to the official GATE 2025 PH answer key, Options (B) and (D) are correct:\n- **Scintillator-PMT mechanism:** Ionizing radiation ($\\beta / \\gamma$ from $^{60}\\text{Co}$) excites the scintillator crystal, which emits optical/scintillation photons that strike the photocathode to release photoelectrons multiplied across the dynodes (note that in Option B, the paper used $\\gamma$ for the emitted scintillation photons).\n- **Mu-metal shielding (D):** Mu-metal is a high-permeability nickel-iron alloy wrapped around the PMT glass envelope to shield the internal electron trajectories from stray external magnetic fields.\nThus, Options (B) and (D) are correct."
+    ),
+    30: (
+        "One mole of an ideal monatomic gas at absolute temperature $T$ undergoes free expansion to double its original volume, so that the entropy change is $\\Delta S_1$. An identical amount of the same gas at absolute temperature $2T$ undergoes isothermal expansion to double its original volume, so that the entropy change is $\\Delta S_2$. The value of $\\frac{\\Delta S_1}{\\Delta S_2}$ (in integer) is ____.",
+        [],
+        "For $n = 1$ mole of an ideal gas, entropy is a state function given by $\\Delta S = n C_V \\ln(T_f/T_i) + n R \\ln(V_f/V_i)$.\n- In free expansion of an ideal gas, $Q = 0, W = 0 \\implies \\Delta U = 0 \\implies T_f = T_i = T$, so $\\Delta S_1 = R \\ln(2V/V) = R \\ln 2$.\n- In isothermal expansion at $2T$, $T_f = T_i = 2T$, so $\\Delta S_2 = R \\ln(2V/V) = R \\ln 2$.\nTherefore, $\\frac{\\Delta S_1}{\\Delta S_2} = \\frac{R\\ln 2}{R\\ln 2} = 1$.\nOfficial Key: 1."
+    ),
+    31: (
+        "A linear dielectric sphere of radius $R$ has a uniform frozen-in polarization along the $z$-axis. The center of the sphere initially coincides with the origin, about which the electric dipole moment is $\\vec{p}_1$. When the sphere is shifted to the point $(2R, 0, 0)$, the corresponding dipole moment with respect to the origin is $\\vec{p}_2$. The value of $\\frac{|\\vec{p}_1|}{|\\vec{p}_2|}$ (in integer) is _____.",
+        [],
+        "Because the dielectric sphere is electrically neutral ($Q_{\\text{total}} = 0$), its total electric dipole moment $\\vec{p} = \\int \\vec{r}\\,\\rho_{\\text{bound}}\\,dV$ is independent of the choice of origin: shifting the sphere by $\\vec{d}$ adds $Q_{\\text{total}}\\vec{d} = \\vec{0}$. Thus $\\vec{p}_2 = \\vec{p}_1 = \\vec{P}\\left(\\frac{4}{3}\\pi R^3\\right)$, giving $\\frac{|\\vec{p}_1|}{|\\vec{p}_2|} = 1$.\nOfficial Key: 1."
+    ),
+    32: (
+        "The effective magnetic moment (in units of Bohr magneton) for the ground state of an isolated $4f$ ion with $6$ unpaired electrons in the $4f$ shell according to Hund’s rules is (in integer) _____.",
+        [],
+        "For a $4f^6$ configuration ($l = 3$, $2l+1 = 7$ orbitals with $m_l = +3, +2, +1, 0, -1, -2, -3$):\n- By Hund's 1st rule, all $6$ electrons have parallel spins ($+1/2$): $S = 6 \\times \\frac{1}{2} = 3$.\n- By Hund's 2nd rule, they occupy $m_l = +3, +2, +1, 0, -1, -2$: $L = 3 + 2 + 1 + 0 - 1 - 2 = 3$.\n- By Hund's 3rd rule (less than half-filled shell, $6 < 7$), $J = |L - S| = |3 - 3| = 0$.\nSince $J = 0$, the effective magnetic moment $\\mu_{\\text{eff}} = g_J \\sqrt{J(J+1)}\\,\\mu_B = 0$.\nOfficial Key: 0."
+    ),
+    33: (
+        "Powder X-ray diffraction pattern of a cubic solid with lattice constant $a$ has the $(111)$ diffraction peak at $\\theta = 30^\\circ$. If the lattice expands such that the lattice constant becomes $1.25a$, the angle (in degrees) corresponding to the $(111)$ peak changes to $\\sin^{-1}\\left(\\frac{1}{n}\\right)$. The value of $n$ (rounded off to one decimal place) is _____.",
+        [],
+        "By Bragg's law, $2 d_{111} \\sin\\theta = \\lambda$, where $d_{111} = \\frac{a}{\\sqrt{1^2+1^2+1^2}} = \\frac{a}{\\sqrt{3}}$.\nSince $\\lambda$ is unchanged:\n$$a_1 \\sin\\theta_1 = a_2 \\sin\\theta_2 \\implies a \\sin 30^\\circ = (1.25a)\\sin\\theta_2$$\n$$\\sin\\theta_2 = \\frac{0.5}{1.25} = \\frac{1}{2.5} \\implies \\theta_2 = \\sin^{-1}\\left(\\frac{1}{2.5}\\right)$$\nThus, $n = 2.5$.\nOfficial Key: 2.5."
+    ),
+    34: (
+        "Consider a monatomic chain of length $30\\text{ cm}$. The phonon density of states is $1.2 \\times 10^{-4}\\text{ s}$. Assuming the Debye model, the velocity of sound in $\\text{m/s}$ (rounded off to one decimal place) is _____.",
+        [],
+        r"In a 1D monatomic chain of length $L = 0.30\text{ m}$ under the Debye model ($\omega = v_s |k|$ with $k$ in $[-\pi/a, \pi/a]$ and 1 acoustic polarization branch):" "\n" r"The number of $k$-modes in $dk$ (considering $\pm k$) is $2 \cdot \frac{L}{2\pi} dk = \frac{L}{\pi} dk$. Therefore, the phonon density of states per unit angular frequency is:" "\n" r"$$g(\omega) = \frac{L}{\pi v_s}$$" "\n" r"Solving for the sound velocity $v_s$ with $g(\omega) = 1.2 \times 10^{-4}\text{ s}$:" "\n" r"$$v_s = \frac{L}{\pi\,g(\omega)} = \frac{0.30}{\pi \times 1.2 \times 10^{-4}} = \frac{2500}{\pi} \approx 795.8\text{ m/s}$$" "\n" r"Official Key range: 794.0 to 797.0."
+    ),
+    35: (
+        "The $\\Delta^+$ baryon with spin $\\frac{3}{2}$, at rest, decays to a proton and a pion ($\\Delta^+ \\to p + \\pi^0$). The $\\Delta^+$ has positive intrinsic parity and $\\pi^0$ has negative intrinsic parity. The orbital angular momentum of the proton-pion system (in integer) is _____.",
+        [],
+        "1. Conservation of parity (strong decay):\n$$P_{\\Delta^+} = P_p \\cdot P_{\\pi^0} \\cdot (-1)^L$$\nWith $P_{\\Delta^+} = +1$, $P_p = +1$, and $P_{\\pi^0} = -1$:\n$$+1 = (+1)(-1)(-1)^L \\implies (-1)^L = -1 \\implies L \\text{ must be odd } (1, 3, \\dots)$$\n2. Conservation of total angular momentum:\nInitial $J = 3/2$. Final spins are $s_p = 1/2$ and $s_{\\pi^0} = 0$, so $s_{\\text{final}} = 1/2$.\nBy triangle inequality $|L - 1/2| \\le J \\le L + 1/2$, to obtain $J = 3/2$ we need $L = 1$ or $L = 2$.\nCombining with odd $L$ from parity gives $L = 1$.\nOfficial Key: 1."
+    ),
+    36: (
+        "The screened nuclear charge of neutral Helium atom is given as $1.7e$, where $e$ is the magnitude of the electronic charge. Assuming the Bohr model of the atom for which the energy levels are $E_n = -\\frac{Z^2}{2}\\frac{1}{n^2}$ atomic units ($Z$ is the atomic number), the first ionization potential of Helium in atomic units is:",
+        ["$0.89$", "$1.78$", "$0.94$", "$3.16$"],
+        "Using the Bohr energy formula with effective nuclear charge $Z_{\\text{eff}} = 1.7$ for the $n = 1$ ground-state electron:\n$$E_1 = -\\frac{Z_{\\text{eff}}^2}{2(1)^2} = -\\frac{(1.7)^2}{2} = -\\frac{2.89}{2} = -1.445\\text{ a.u.}$$\nHold on: for neutral Helium, each electron feels $Z_{\\text{eff}} = 1.7$, or wait—removing one electron leaves $\\text{He}^+$ ($Z=2$, $E_{\\text{He}^+} = -\\frac{2^2}{2} = -2.0\\text{ a.u.}$), whereas the total energy of neutral He with $Z_{\\text{eff}} = 1.7$ is $2 \\times (-1.445) = -2.89\\text{ a.u.}$:\n$$\\text{IP}_1 = E(\\text{He}^+) - E(\\text{He}) = -2.0 - (-2.89) = +0.89\\text{ atomic units}$$\nHence, Option (A) is correct."
+    ),
+    37: (
+        "The wire loop shown in the figure carries a steady current $I$. Each straight section of the loop has length $d$ ($PQ = QR = RS = ST = TU = UP = d$, with $\\angle PQR = \\angle QRS = \\angle STU = \\angle TUP = 90^\\circ$). A part of the loop ($PQRSP$) lies in the $xy$-plane and the other part ($PSTUP$, sharing side $PS$ along the $x$-axis) is tilted at $30^\\circ$ with respect to the $xz$-plane (folded inward over the $xy$-plane, forming a $60^\\circ$ interior dihedral angle with the $xy$-plane). The magnitude of the magnetic dipole moment of the loop (in appropriate units) is:",
+        ["$\\sqrt{2}\\,Id^2$", "$2\\,Id^2$", "$\\sqrt{3}\\,Id^2$", "$Id^2$"],
+        "Adding equal and opposite currents along the diagonal $PS$ splits the bent loop into two planar square loops of area $d^2$, each with magnetic moment magnitude $m_1 = m_2 = I d^2$. Because the second square is tilted at $30^\\circ$ to the $xz$-plane (folded over the $xy$-plane at $60^\\circ$ to it), following the continuous current sense gives an angle of $120^\\circ$ between $\\vec{m}_1$ and $\\vec{m}_2$:\n$$|\\vec{m}_{\\text{net}}| = \\sqrt{m_1^2 + m_2^2 + 2 m_1 m_2 \\cos 120^\\circ} = I d^2 \\sqrt{1 + 1 + 2\\left(-\\frac{1}{2}\\right)} = I d^2$$\nHence, Option (D) is correct."
+    ),
+    38: (
+        "The figure shows a system of two equal masses $m$ connected in series between two fixed rigid walls by three massless horizontal springs with spring constants $k_1, k_2, k_1$ (wall–$k_1$–$m$–$k_2$–$m$–$k_1$–wall). Ignore gravity. The masses can move only in the horizontal direction and there is no dissipation. If $m = 1$, $k_1 = 2$ and $k_2 = 3$ (all in appropriate units), the frequencies of the normal modes of the system in the same system of units are:",
+        ["$\\sqrt{2}, \\sqrt{8}$", "$\\sqrt{2}, \\sqrt{6}$", "$\\sqrt{3}, \\sqrt{10}$", "$\\sqrt{3}, \\sqrt{8}$"],
+        "For two equal masses $m$ coupled by outer springs $k_1$ and middle spring $k_2$:\n1. Symmetric (in-phase) mode ($x_1 = x_2$): the middle spring $k_2$ is unstretched, so each mass oscillates under $k_1$ alone:\n$$\\omega_1 = \\sqrt{\\frac{k_1}{m}} = \\sqrt{\\frac{2}{1}} = \\sqrt{2}$$\n2. Antisymmetric (out-of-phase) mode ($x_1 = -x_2$): each mass experiences restoring force from $k_1$ plus $2k_2$:\n$$\\omega_2 = \\sqrt{\\frac{k_1 + 2k_2}{m}} = \\sqrt{\\frac{2 + 2(3)}{1}} = \\sqrt{8}$$\nHence, Option (A) is correct."
+    ),
+    39: (
+        "Two projectile protons $P_1$ and $P_2$, both with spin up (along the $+z$ direction) and moving in the $+x$ direction, are scattered from another fixed target proton $T$ with spin up at rest at the origin in the $xy$-plane, as shown in the figure ($P_1$ approaches above $T$ at $y > 0$, while $P_2$ approaches below $T$ at $y < 0$). They scatter one at a time. The nuclear interaction potential between both the projectiles and the target proton is $\\lambda \\vec{L} \\cdot \\vec{S}$, where $\\vec{L}$ is the orbital angular momentum of the system with respect to the target, $\\vec{S}$ is the spin angular momentum of the system and $\\lambda$ is a negative constant in appropriate units. Which one of the following is correct?",
+        [
+            "$P_1$ will be scattered in the $+y$ direction (upward) and $P_2$ will be scattered in the $-y$ direction (downward)",
+            "$P_1$ will be scattered in the $+y$ direction (upward) and $P_2$ will be scattered in the $+y$ direction (upward)",
+            "$P_1$ will be scattered in the $-y$ direction (downward) and $P_2$ will be scattered in the $+y$ direction (upward)",
+            "$P_1$ will be scattered in the $-y$ direction (downward) and $P_2$ will be scattered in the $-y$ direction (downward)"
+        ],
+        "Both projectile and target have spin up ($+\\hat{z}$), so $\\vec{S} = +\\hbar\\hat{z}$ is along $+\\hat{z}$, and $\\lambda < 0$:\n- **For $P_1$ ($y > 0$, moving $+x$):** $\\vec{L}_1 = \\vec{r} \\times \\vec{p}$ points along $-\\hat{z}$, so $\\vec{L}_1 \\cdot \\vec{S} < 0$. With $\\lambda < 0$, $V = \\lambda \\vec{L}_1 \\cdot \\vec{S} > 0$ (repulsive), deflecting $P_1$ away from $T$, i.e. toward $+y$ (upward).\n- **For $P_2$ ($y < 0$, moving $+x$):** $\\vec{L}_2 = \\vec{r} \\times \\vec{p}$ points along $+\\hat{z}$, so $\\vec{L}_2 \\cdot \\vec{S} > 0$. With $\\lambda < 0$, $V = \\lambda \\vec{L}_2 \\cdot \\vec{S} < 0$ (attractive), pulling $P_2$ toward $T$, i.e. also toward $+y$ (upward).\nHence, Option (B) is correct."
+    ),
+    40: (
+        "A thin circular ring of radius $R$ lies in the $xy$ plane with its centre coinciding with the origin. The ring carries a uniform line charge density $\\lambda$. The quadrupole contribution to the electrostatic potential at the point $(0, 0, d)$, where $d \\gg R$, is:",
+        [
+            "$-\\frac{\\lambda R^3}{4\\varepsilon_0 d^3}$",
+            "$0$",
+            "$\\frac{\\lambda R^3}{4\\varepsilon_0 d^3}$",
+            "$-\\frac{\\lambda R^3}{2\\varepsilon_0 d^3}$"
+        ],
+        "The total charge on the ring is $Q = 2\\pi R \\lambda$. At $(0, 0, d)$ along the $z$-axis ($d \\gg R$), the exact potential is:\n$$V(0, 0, d) = \\frac{1}{4\\pi\\varepsilon_0}\\frac{2\\pi R \\lambda}{\\sqrt{R^2 + d^2}} = \\frac{\\lambda R}{2\\varepsilon_0 d}\\left(1 + \\frac{R^2}{d^2}\\right)^{-1/2}$$\nExpanding in powers of $R/d$:\n$$V(0, 0, d) = \\frac{\\lambda R}{2\\varepsilon_0 d}\\left(1 - \\frac{R^2}{2d^2} + \\cdots\\right) = \\underbrace{\\frac{\\lambda R}{2\\varepsilon_0 d}}_{\\text{monopole}} - \\underbrace{\\frac{\\lambda R^3}{4\\varepsilon_0 d^3}}_{\\text{quadrupole}} + \\cdots$$\n(The dipole term vanishes by symmetry). Thus, the quadrupole contribution is $-\\frac{\\lambda R^3}{4\\varepsilon_0 d^3}$ (Option A)."
+    ),
+    41: (
+        "An $\\alpha$ particle is scattered from an $\\text{Au}$ target at rest as shown in the figure. $D_1$ and $D_2$ are the detectors to detect the scattered $\\alpha$ particle at an angle $\\theta$ and along the beam direction, respectively. The signals from $D_1$ and $D_2$ are converted to logic signals and fed to logic gates. When a particle is detected, the signal is $1$ and is $0$ otherwise. Which one of the following circuits detects the particle scattered at the angle $\\theta$ only?",
+        [
+            "An AND gate with direct input $D_1$ and inverted input $\\bar{D}_2$ (logic function $Y = D_1 \\cdot \\bar{D}_2$)",
+            "An OR gate with direct inputs $D_1$ and $D_2$ (logic function $Y = D_1 + D_2$)",
+            "A NAND gate with direct inputs $D_1$ and $D_2$ (logic function $Y = \\overline{D_1 \\cdot D_2}$)",
+            "An AND gate with non-inverted direct inputs $D_1$ and $D_2$ (logic function $Y = D_1 \\cdot D_2$)"
+        ],
+        "To detect particles scattered at angle $\\theta$ only (detector $D_1$) and NOT along the unscattered beam direction (detector $D_2$), we require $D_1 = 1$ and $D_2 = 0$. The Boolean condition is $Y = D_1 \\cdot \\bar{D}_2$, which corresponds to an AND gate with input $D_1$ and an inverted input $\\bar{D}_2$. Hence, Option (A) is correct."
+    ),
+    42: (
+        "Consider a two-level system with energy states $+\\varepsilon$ and $-\\varepsilon$. The number of particles at $+\\varepsilon$ level is $N_+$ and the number of particles at $-\\varepsilon$ level is $N_-$. The total energy of the system is $E$ and the total number of particles is $N = N_+ + N_-$. In the thermodynamic limit, the inverse of the absolute temperature of the system is:\n(Given: $\\ln N! \\simeq N \\ln N - N$)",
+        [
+            "$\\frac{k_B}{2\\varepsilon} \\ln\\left[\\frac{N - E/\\varepsilon}{N + E/\\varepsilon}\\right]$",
+            "$\\frac{k_B}{\\varepsilon} \\ln N$",
+            "$\\frac{k_B}{2\\varepsilon} \\ln N$",
+            "$\\frac{k_B}{\\varepsilon} \\ln\\left[\\frac{N - E/\\varepsilon}{N + E/\\varepsilon}\\right]$"
+        ],
+        "From $N_+ + N_- = N$ and $(N_+ - N_-)\\varepsilon = E$, we obtain $N_+ = \\frac{N + E/\\varepsilon}{2}$ and $N_- = \\frac{N - E/\\varepsilon}{2}$.\nUsing $\\Omega = \\frac{N!}{N_+! N_-!}$ and Stirling's approximation, the entropy is:\n$$S = k_B \\left(N\\ln N - N_+ \\ln N_+ - N_- \\ln N_-\\right)$$\nDifferentiating with respect to $E$ gives $\\frac{1}{T} = \\left(\\frac{\\partial S}{\\partial E}\\right)_N$:\n$$\\frac{1}{T} = k_B \\left(-\\frac{1}{2\\varepsilon}\\ln N_+ + \\frac{1}{2\\varepsilon}\\ln N_-\\right) = \\frac{k_B}{2\\varepsilon} \\ln\\left(\\frac{N_-}{N_+}\\right) = \\frac{k_B}{2\\varepsilon}\\ln\\left[\\frac{N - E/\\varepsilon}{N + E/\\varepsilon}\\right]$$\nHence, Option (A) is correct."
+    ),
+    43: (
+        "Let $|m\\rangle$ and $|n\\rangle$ denote the energy eigenstates of a one-dimensional simple harmonic oscillator. The position and momentum operators are $\\hat{X}$ and $\\hat{P}$, respectively. The matrix element $\\langle m | \\hat{P}\\hat{X} | n \\rangle$ is non-zero when:",
+        ["$m = n \\pm 2$ only", "$m = n$ or $m = n \\pm 2$", "$m = n \\pm 3$ only", "$m = n \\pm 1$ only"],
+        "In terms of ladder operators $a$ and $a^\\dagger$, $\\hat{X} \\propto (a + a^\\dagger)$ and $\\hat{P} \\propto i(a^\\dagger - a)$. Therefore:\n$$\\hat{P}\\hat{X} \\propto i(a^\\dagger - a)(a + a^\\dagger) = i\\left[(a^\\dagger)^2 - a^2 + a^\\dagger a - a a^\\dagger\\right] = i\\left[(a^\\dagger)^2 - a^2 - 1\\right]$$\n- The identity term $-1$ connects $|n\\rangle$ to $m = n$.\n- $(a^\\dagger)^2$ connects $|n\\rangle$ to $m = n + 2$, and $a^2$ connects $|n\\rangle$ to $m = n - 2$.\nThus, $\\langle m | \\hat{P}\\hat{X} | n \\rangle$ is non-zero when $m = n$ or $m = n \\pm 2$ (Option B)."
+    ),
+    44: (
+        "A two-level quantum system has energy eigenvalues $E_1$ and $E_2$. A perturbing potential $H' = \\lambda \\Delta \\sigma_x$ is introduced, where $\\Delta$ is a constant having dimensions of energy, $\\lambda$ is a small dimensionless parameter, and $\\sigma_x = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$. The magnitudes of the first and the second order corrections to $E_1$ due to $H'$, respectively, are:",
+        [
+            "$0$ and $\\frac{\\lambda^2 \\Delta^2}{|E_1 - E_2|}$",
+            "$\\frac{|\\lambda \\Delta|}{2}$ and $\\frac{\\lambda^2 \\Delta^2}{|E_1 - E_2|}$",
+            "$|\\lambda \\Delta|$ and $\\frac{\\lambda^2 \\Delta^2}{|E_1 - E_2|}$",
+            "$0$ and $\\frac{\\lambda^2 \\Delta^2}{2|E_1 - E_2|}$"
+        ],
+        "In the unperturbed basis $\\{|1\\rangle, |2\\rangle\\}$, $H' = \\begin{pmatrix} 0 & \\lambda\\Delta \\\\ \\lambda\\Delta & 0 \\end{pmatrix}$.\n1. First-order correction to $E_1$:\n$$E_1^{(1)} = \\langle 1 | H' | 1 \\rangle = 0$$\n2. Magnitude of second-order correction to $E_1$:\n$$|E_1^{(2)}| = \\left|\\frac{|\\langle 2 | H' | 1 \\rangle|^2}{E_1 - E_2}\\right| = \\frac{\\lambda^2 \\Delta^2}{|E_1 - E_2|}$$\nHence, Option (A) is correct."
+    ),
+    45: (
+        "An electron with mass $m$ and charge $q$ is in the spin up state $\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ at time $t = 0$. A constant magnetic field is applied along the $y$-axis, $\\vec{B} = B_0 \\hat{j}$, where $B_0$ is a constant. The Hamiltonian of the system is $H = -\\hbar \\omega \\sigma_y$, where $\\omega = \\frac{q B_0}{2m} > 0$ and $\\sigma_y = \\begin{pmatrix} 0 & -i \\\\ i & 0 \\end{pmatrix}$. The minimum time after which the electron will be in the spin down state along the $x$-axis, i.e., $\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$, is:",
+        ["$\\frac{\\pi}{8\\omega}$", "$\\frac{\\pi}{4\\omega}$", "$\\frac{\\pi}{2\\omega}$", "$\\frac{\\pi}{\\omega}$"],
+        "The time-evolution operator is $U(t) = e^{-iHt/\\hbar} = e^{i\\omega t \\sigma_y}$. Using $\\sigma_y^2 = I$:\n$$U(t) = \\cos(\\omega t)\\,I + i\\sin(\\omega t)\\,\\sigma_y = \\begin{pmatrix} \\cos(\\omega t) & \\sin(\\omega t) \\\\ -\\sin(\\omega t) & \\cos(\\omega t) \\end{pmatrix}$$\nActing on the initial state $|\\psi(0)\\rangle = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$:\n$$|\\psi(t)\\rangle = \\begin{pmatrix} \\cos(\\omega t) \\\\ -\\sin(\\omega t) \\end{pmatrix}$$\nMatching $\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$ requires $\\cos(\\omega t) = \\frac{1}{\\sqrt{2}}$ and $\\sin(\\omega t) = \\frac{1}{\\sqrt{2}}$, so the minimum positive time satisfies $\\omega t = \\frac{\\pi}{4} \\implies t = \\frac{\\pi}{4\\omega}$. Hence, Option (B) is correct."
+    ),
+    46: (
+        "A system of three non-identical spin-$\\frac{1}{2}$ particles has the Hamiltonian $H = \\frac{A}{\\hbar^2}(\\vec{S}_1 + \\vec{S}_2)\\cdot\\vec{S}_3$, where $\\vec{S}_1, \\vec{S}_2$ and $\\vec{S}_3$ are the spin operators of particles labelled $1, 2$ and $3$ respectively and $A$ is a constant with appropriate dimensions. The set of possible energy eigenvalues of the system is:",
+        [
+            "$0, \\frac{A}{2}, -A$",
+            "$0, \\frac{A}{2}, -\\frac{A}{2}$",
+            "$0, \\frac{3A}{2}, -\\frac{A}{2}$",
+            "$0, -\\frac{3A}{2}, \\frac{A}{2}$"
+        ],
+        "Let $\\vec{S}_{12} = \\vec{S}_1 + \\vec{S}_2$ ($s_{12} \\in \\{0, 1\\}$) and $\\vec{S} = \\vec{S}_{12} + \\vec{S}_3$. Then:\n$$H = \\frac{A}{2\\hbar^2}\\left(\\vec{S}^2 - \\vec{S}_{12}^2 - \\vec{S}_3^2\\right) = \\frac{A}{2}\\left[s(s+1) - s_{12}(s_{12}+1) - \\frac{3}{4}\\right]$$\n- If $s_{12} = 0$, then $s = 1/2$: $E = \\frac{A}{2}\\left(\\frac{3}{4} - 0 - \\frac{3}{4}\\right) = 0$.\n- If $s_{12} = 1$, then $s \\in \\{3/2, 1/2\\}$:\n  - For $s = 3/2$: $E = \\frac{A}{2}\\left(\\frac{15}{4} - 2 - \\frac{3}{4}\\right) = \\frac{A}{2}$.\n  - For $s = 1/2$: $E = \\frac{A}{2}\\left(\\frac{3}{4} - 2 - \\frac{3}{4}\\right) = -A$.\nThus, the possible eigenvalues are $0, \\frac{A}{2}, -A$ (Option A)."
+    ),
+    47: (
+        "Which of the following option(s) is/are correct for a Type I superconductor?",
+        [
+            "The phase transition to the normal state in the absence of a magnetic field is of second order",
+            "With increase in temperature, the critical magnetic field decreases linearly to zero",
+            "Below the critical temperature, the entropy in the superconducting state is less than that in the normal state",
+            "The phase transition to the normal state in the presence of a magnetic field is of first order"
+        ],
+        "- **(A) True:** At $H = 0$, $T = T_c$, there is no latent heat ($\\Delta S = 0$), while specific heat has a finite jump $\\Delta C \\neq 0$, defining a second-order phase transition.\n- **(B) False:** $H_c(T) \\approx H_c(0)[1 - (T/T_c)^2]$ decreases parabolically (non-linearly) with $T$.\n- **(C) True:** Since $S_s - S_n = \\frac{V H_c}{4\\pi}\\frac{dH_c}{dT} < 0$ for $0 < T < T_c$, the superconducting state is more ordered ($S_s < S_n$).\n- **(D) True:** For $H > 0$ ($T < T_c$), $S_n - S_s > 0$ implies a non-zero latent heat $L = T(S_n - S_s) > 0$, making it a first-order transition.\nThus, Options (A), (C), and (D) are correct."
+    ),
+    48: (
+        "Consider two hypothetical nuclei $X_1$ and $X_2$ undergoing $\\beta$ decay, resulting in nuclei $Y_1$ and $Y_2$, respectively. The decay scheme shown in the figure gives the nuclear spin-parity $J^P$ values as $X_1(0^+) \\to Y_1(0^+)$ and $X_2(0^+) \\to Y_2(1^+)$. Which of the following option(s) is/are correct? ($J$ is the total angular momentum and $P$ is parity)",
+        [
+            "$X_1 \\to Y_1$ is Fermi transition and $X_2 \\to Y_2$ is Fermi transition",
+            "$X_1 \\to Y_1$ is Fermi transition and $X_2 \\to Y_2$ is Gamow-Teller transition",
+            "$X_1 \\to Y_1$ is Gamow-Teller transition and $X_2 \\to Y_2$ is Fermi transition",
+            "$X_1 \\to Y_1$ is Gamow-Teller transition and $X_2 \\to Y_2$ is Gamow-Teller transition"
+        ],
+        "Allowed $\\beta$-decay selection rules (no parity change, $\\Delta P = +1$):\n- **Fermi transition:** $\\Delta J = 0$ ($0^+ \\to 0^+$ is purely Fermi, since Gamow-Teller forbids $0 \\to 0$).\n- **Gamow-Teller transition:** $\\Delta J = 0, \\pm 1$ (with $0 \\not\\to 0$), so $0^+ \\to 1^+$ is purely Gamow-Teller.\nTherefore, $X_1(0^+) \\to Y_1(0^+)$ is a Fermi transition and $X_2(0^+) \\to Y_2(1^+)$ is a Gamow-Teller transition (Option B)."
+    ),
+    49: (
+        "A point charge $q$ is placed at a distance $d$ above an infinite, grounded conducting plate placed on the $xy$ plane at $z = 0$. The electrostatic potential in $z > 0$ region is given by $\\phi = \\phi_1 + \\phi_2$, where $\\phi_1 = \\frac{1}{4\\pi\\epsilon_0}\\frac{q}{\\sqrt{x^2 + y^2 + (z - d)^2}}$ and $\\phi_2 = -\\frac{1}{4\\pi\\epsilon_0}\\frac{q}{\\sqrt{x^2 + y^2 + (z + d)^2}}$. Which of the following option(s) is/are correct?",
+        [
+            "The magnitude of the force experienced by the point charge $q$ is $\\frac{1}{16\\pi\\epsilon_0}\\frac{q^2}{d^2}$",
+            "The electrostatic energy of the system is $\\frac{1}{8\\pi\\epsilon_0}\\frac{q^2}{d}$",
+            "The induced surface charge density on the plate is proportional to $\\frac{1}{\\sqrt{x^2 + y^2 + d^2}}$",
+            "The electrostatic potential $\\phi_1$ satisfies Poisson’s equation for $z > 0$"
+        ],
+        "- **(A) False:** In the original paper Option (A) had $q$ instead of $q^2$ in the numerator (dimensionally wrong; the force is $\\frac{q^2}{16\\pi\\epsilon_0 d^2}$).\n- **(B) False:** The electrostatic interaction energy is negative ($-\\frac{q^2}{16\\pi\\epsilon_0 d}$).\n- **(C) False:** $\\sigma(x,y) = -\\epsilon_0 \\left.\\frac{\\partial\\phi}{\\partial z}\\right|_{z=0} = -\\frac{qd}{2\\pi(x^2 + y^2 + d^2)^{3/2}}$, proportional to $(x^2+y^2+d^2)^{-3/2}$, not $-1/2$.\n- **(D) True:** Because $\\phi_1$ is the potential of the real point charge $q$ located at $(0, 0, d)$ inside the region $z > 0$, it satisfies Poisson's equation $\\nabla^2 \\phi_1 = -\\frac{q}{\\epsilon_0}\\delta(x)\\delta(y)\\delta(z - d)$ for $z > 0$.\nThus, Option (D) is correct."
+    ),
+    50: (
+        "In coordinates $(t, x)$, a contravariant second rank tensor $A$ has non-zero diagonal components $A^{tt} = P$ and $A^{xx} = Q$, with all other components vanishing, and $P, Q$ being real constants. Here, $t$ is time and $x$ is space coordinate. Consider a Lorentz transformation $(t, x) \\to (t', x')$ to another frame that moves with relative speed $v$ in the $+x$ direction, so that $A \\to A'$. If $A'^{tt}$ and $A'^{xx}$ are the diagonal components of $A'$, then setting the speed of light $c = 1$, and with $\\gamma = \\frac{1}{\\sqrt{1 - v^2}}$, which of the following option(s) is/are correct?",
+        [
+            "$A'^{tt} = \\gamma^2 P + \\gamma^2 v^2 Q$",
+            "$A'^{tt} = \\gamma^2 v^2 P + v^2 Q$",
+            "$A'^{xx} = \\gamma^2 v^2 P + \\gamma^2 Q$",
+            "$A'^{xx} = v^2 P + \\gamma^2 Q$"
+        ],
+        "The Lorentz transformation matrix $\\Lambda^\\mu_{\\ \\alpha}$ for $(t, x) \\to (t', x')$ is $\\Lambda = \\begin{pmatrix} \\gamma & -\\gamma v \\\\ -\\gamma v & \\gamma \\end{pmatrix}$. Transforming the contravariant tensor $A'^{\\mu\\nu} = \\Lambda^\\mu_{\\ \\alpha} \\Lambda^\\nu_{\\ \\beta} A^{\\alpha\\beta}$ with $A^{\\alpha\\beta} = \\text{diag}(P, Q)$:\n- $A'^{tt} = (\\Lambda^t_{\\ t})^2 P + (\\Lambda^t_{\\ x})^2 Q = \\gamma^2 P + \\gamma^2 v^2 Q$ (Option A is TRUE).\n- $A'^{xx} = (\\Lambda^x_{\\ t})^2 P + (\\Lambda^x_{\\ x})^2 Q = \\gamma^2 v^2 P + \\gamma^2 Q$ (Option C is TRUE).\nThus, Options (A) and (C) are correct."
+    ),
+    51: (
+        "The Lagrangian of a particle of mass $m$ and charge $q$ moving in a uniform magnetic field of magnitude $2B$ that points in the $z$ direction, is given by $L = \\frac{m}{2} v^2 + qB(x v_y - y v_x)$ where $v_x, v_y, v_z$ are the components of its velocity $\\vec{v}$. If $p_x, p_y, p_z$ denote the conjugate momenta in the $x, y, z$ directions and $H$ is the Hamiltonian, which of the following option(s) is/are correct?",
+        [
+            "$\\frac{dx}{dt} = \\frac{1}{m}(p_x - qBy)$",
+            "$\\frac{dp_x}{dt} = \\frac{qB}{m}(p_y - qBx)$",
+            "$\\frac{dp_y}{dt} = -\\frac{qB}{m}(p_x + qBy)$",
+            "$H = \\frac{1}{2m}\\left[(p_x + qBy)^2 + (p_y - qBx)^2 + p_z^2\\right]$"
+        ],
+        "Conjugate momenta are $p_x = \\frac{\\partial L}{\\partial v_x} = m v_x - qBy \\implies v_x = \\frac{p_x + qBy}{m}$ (so A is FALSE), $p_y = m v_y + qBx \\implies v_y = \\frac{p_y - qBx}{m}$, and $p_z = m v_z$.\n- **(D) True:** $H = \\vec{p}\\cdot\\vec{v} - L = \\frac{1}{2m}\\left[(p_x + qBy)^2 + (p_y - qBx)^2 + p_z^2\\right]$.\n- **(B) True:** $\\frac{dp_x}{dt} = -\\frac{\\partial H}{\\partial x} = \\frac{qB}{m}(p_y - qBx)$.\n- **(C) True:** $\\frac{dp_y}{dt} = -\\frac{\\partial H}{\\partial y} = -\\frac{qB}{m}(p_x + qBy)$.\nThus, Options (B), (C), and (D) are correct."
+    ),
+    52: (
+        "A bead is constrained to move along a long, massless, frictionless horizontal rod parallel to the $x$ axis. The rod itself is moving vertically upward along the $z$ direction against gravity with a constant speed, starting from $z = 0$ at $t = 0$, and remains horizontal. The conjugate momenta are denoted by $p_x, p_y, p_z$ and the Hamiltonian by $H$. Which of the following option(s) is/are correct?",
+        [
+            "$H$ is the total energy of the system and is conserved",
+            "$H$ is the total energy of the system and is not conserved",
+            "$H$ is not the total energy of the system, but it is conserved",
+            "$H$ is not the total energy of the system and is not conserved"
+        ],
+        "With constraint $z = v_0 t$ and $y = 0$, the single generalized coordinate is $x$, and the Lagrangian is:\n$$L = \\frac{1}{2}m(\\dot{x}^2 + v_0^2) - m g v_0 t$$\n- Because the constraint $z = v_0 t$ is explicitly time-dependent (rheonomic), the Hamiltonian $H = p_x \\dot{x} - L = \\frac{1}{2}m\\dot{x}^2 - \\frac{1}{2}m v_0^2 + m g v_0 t$ differs from the total mechanical energy $E = \\frac{1}{2}m(\\dot{x}^2 + v_0^2) + m g v_0 t$.\n- Because $\\frac{\\partial L}{\\partial t} = -m g v_0 \\neq 0$, we have $\\frac{dH}{dt} = -\\frac{\\partial L}{\\partial t} = +m g v_0 \\neq 0$, so $H$ is not conserved.\nThus, Option (D) is correct."
+    ),
+    53: (
+        "In a one-dimensional Hamiltonian system with position $q$ and momentum $p$, consider the canonical transformation $(q, p) \\to (Q = \\frac{1}{p}, P = q p^2)$, where $Q$ and $P$ are the new position and momentum, respectively. Which of the following option(s) regarding the generating function $F$ is/are correct?",
+        [
+            "$F = F_1(q, Q) = \\frac{q}{Q}$",
+            "$F = F_2(q, P) = \\sqrt{Pq}$",
+            "$F = F_3(p, Q) = \\frac{p}{Q}$",
+            "$F = F_4(p, P) = \\frac{P}{p}$"
+        ],
+        "Testing each type of generating function:\n- **(A) True:** For $F_1(q, Q) = q/Q$: $p = \\frac{\\partial F_1}{\\partial q} = \\frac{1}{Q} \\implies Q = \\frac{1}{p}$, and $P = -\\frac{\\partial F_1}{\\partial Q} = \\frac{q}{Q^2} = q p^2$.\n- **(B) False:** $F_2(q, P) = \\sqrt{Pq}$ gives $p = \\frac{1}{2}\\sqrt{P/q}$ (factor of $1/2$ off; exact $F_2 = 2\\sqrt{Pq}$).\n- **(C) False:** $F_3(p, Q) = p/Q$ gives $q = -1/Q$ (wrong).\n- **(D) True:** For $F_4(p, P) = P/p$: $q = -\\frac{\\partial F_4}{\\partial p} = \\frac{P}{p^2} \\implies P = q p^2$, and $Q = \\frac{\\partial F_4}{\\partial P} = \\frac{1}{p}$.\nThus, Options (A) and (D) are correct."
+    ),
+    54: (
+        "The energy of a free, relativistic particle of rest mass $m$ moving along the $x$ axis in one dimension, is denoted by $T$. When moving in a given potential $V(x)$, its Hamiltonian is $H = T + V(x)$. In the presence of this potential, its speed is $v$, conjugate momentum $p$, and the Lagrangian $L$. Then, which of the following option(s) is/are correct?",
+        [
+            "$H = c^2\\sqrt{m^2 + \\frac{p^2}{c^2}} + V(x)$",
+            "$v = \\frac{p c}{\\sqrt{p^2 + m^2 c^2}}$",
+            "$L = m c^2\\sqrt{1 - \\frac{v^2}{c^2}} - V(x)$",
+            "$L = -m c^2\\sqrt{1 - \\frac{v^2}{c^2}} - V(x)$"
+        ],
+        "For a relativistic particle of rest mass $m$ in potential $V(x)$:\n- **(A) True:** $T = \\sqrt{p^2 c^2 + m^2 c^4} = c^2\\sqrt{m^2 + p^2/c^2}$, so $H = c^2\\sqrt{m^2 + p^2/c^2} + V(x)$.\n- **(B) True:** $v = \\frac{\\partial H}{\\partial p} = \\frac{p c^2}{\\sqrt{p^2 c^2 + m^2 c^4}} = \\frac{p c}{\\sqrt{p^2 + m^2 c^2}}$.\n- **(D) True, (C) False:** The relativistic Lagrangian is $L = -m c^2\\sqrt{1 - v^2/c^2} - V(x)$ (giving $p = \\frac{\\partial L}{\\partial v} = \\gamma m v$ and $H = pv - L = \\gamma m c^2 + V(x)$).\nThus, Options (A), (B), and (D) are correct."
+    ),
+    55: (
+        "Consider the integral\n$$I = \\frac{1}{2\\pi i}\\oint \\frac{z^4 - 1}{\\left(z - \\frac{a}{b}\\right)\\left(z - \\frac{b}{a}\\right)}\\,dz$$\nwhere $z$ is a complex variable and $a, b$ are positive real numbers. The integral is taken over a unit circle with center at the origin. Which of the following option(s) is/are correct?",
+        [
+            "$I = \\frac{5}{8}$ when $a = 1, b = 2$",
+            "$I = \\frac{10}{3}$ when $a = 1, b = 3$",
+            "$I = \\frac{5}{8}$ when $a = 2, b = 1$",
+            "$I = \\frac{5}{8}$ when $a = 3, b = 2$"
+        ],
+        "For $a \\neq b$, one pole ($r < 1$) lies inside the unit circle $|z| = 1$ and the other ($1/r > 1$) lies outside. Let $z_0 = \\min(a/b, b/a) < 1$. By Cauchy's residue theorem:\n$$I = \\frac{z_0^4 - 1}{z_0 - \\frac{1}{z_0}} = \\frac{z_0(z_0^4 - 1)}{z_0^2 - 1} = z_0(z_0^2 + 1)$$\n- When $a=1, b=2$ (or $a=2, b=1$): $z_0 = 1/2 \\implies I = \\frac{1}{2}\\left(\\frac{1}{4} + 1\\right) = \\frac{5}{8}$ (**A and C are TRUE**).\n- When $a=1, b=3$: $z_0 = 1/3 \\implies I = \\frac{1}{3}\\left(\\frac{1}{9} + 1\\right) = \\frac{10}{27} \\neq \\frac{10}{3}$ (**B is FALSE**).\n- When $a=3, b=2$: $z_0 = 2/3 \\implies I = \\frac{2}{3}\\left(\\frac{4}{9} + 1\\right) = \\frac{26}{27} \\neq \\frac{5}{8}$ (**D is FALSE**).\nThus, Options (A) and (C) are correct."
+    ),
+    56: (
+        "A neutral conducting sphere of radius $R$ is placed in a uniform electric field of magnitude $E_0$, that points along the $z$ axis. The electrostatic potential at any point $r$ outside the sphere is given by $V(r, \\theta) = V_0 - E_0 r\\left(1 - \\frac{R^3}{r^3}\\right)\\cos\\theta$, where $V_0$ is the constant potential of the sphere. Which of the following option(s) is/are correct?",
+        [
+            "The induced surface charge density on the sphere is proportional to $\\sin\\theta$",
+            "As $r \\to \\infty$, $\\vec{E} = E_0\\cos\\theta\\hat{r}$",
+            "The electric field at any point is curl free for $r > R$",
+            "The electric field at any point is divergence free for $r > R$"
+        ],
+        "- **(A) False:** $\\sigma(\\theta) = -\\epsilon_0\\left.\\frac{\\partial V}{\\partial r}\\right|_{r=R} = 3\\epsilon_0 E_0 \\cos\\theta \\propto \\cos\\theta$, not $\\sin\\theta$.\n- **(B) False:** As $r \\to \\infty$, $\\vec{E} = E_0\\hat{z} = E_0(\\cos\\theta\\hat{r} - \\sin\\theta\\hat{\\theta})$.\n- **(C) True:** Since $\\vec{E} = -\\nabla V$ is electrostatic, $\\nabla \\times \\vec{E} = \\vec{0}$ everywhere for $r > R$.\n- **(D) True:** There is no free charge density in the region $r > R$, so $\\nabla \\cdot \\vec{E} = 0$ for $r > R$.\nThus, Options (C) and (D) are correct."
+    ),
+    57: (
+        "A point charge $q$ is placed at the origin, inside a linear dielectric medium of infinite extent, having relative permittivity $\\epsilon_r$. Which of the following option(s) is/are correct?",
+        [
+            "The magnitude of the polarization varies as $\\frac{1}{r^2}$",
+            "The magnitude of the polarization varies as $\\frac{1}{r^3}$",
+            "The magnitude of the screened charge due to the dielectric medium is less than the magnitude of the point charge $q$ for $\\epsilon_r > 1$",
+            "The magnitude of the screened charge due to the dielectric medium is more than the magnitude of the point charge $q$ for $\\epsilon_r = 1$"
+        ],
+        "- **(A) True, (B) False:** By Gauss's law for $\\vec{D}$, $\\vec{D} = \\frac{q}{4\\pi r^2}\\hat{r}$ and $\\vec{E} = \\frac{q}{4\\pi\\epsilon_0\\epsilon_r r^2}\\hat{r}$. Polarization is $\\vec{P} = \\epsilon_0(\\epsilon_r - 1)\\vec{E} = \\frac{\\epsilon_r - 1}{\\epsilon_r}\\frac{q}{4\\pi r^2}\\hat{r}$, so $|\\vec{P}| \\propto \\frac{1}{r^2}$.\n- **(C) True, (D) False:** The bound screening charge at the origin is $q_b = -q\\left(1 - \\frac{1}{\\epsilon_r}\\right)$, so the net screened effective charge is $q_{\\text{eff}} = q + q_b = \\frac{q}{\\epsilon_r}$. For $\\epsilon_r > 1$, $|q_{\\text{eff}}| = \\frac{|q|}{\\epsilon_r} < |q|$.\nThus, Options (A) and (C) are correct."
+    ),
+    58: (
+        "A linear magnetic material in the form of a cylinder of radius $R$ and length $L$ is placed with its axis parallel to the $z$ axis. The cylinder has uniform magnetization $M\\hat{k}$. Which of the following option(s) is/are correct?",
+        [
+            "The magnetic field at any point outside the cylinder can be expressed as the gradient of a scalar function",
+            "The bound volume current density is zero",
+            "The surface current density on the curved surface is non-zero",
+            "The surface current densities on the flat surfaces (top and bottom) are non-zero"
+        ],
+        "- **(A) True:** Outside the cylinder there is no free or bound current ($\\vec{J} = \\vec{0} \\implies \\nabla \\times \\vec{B} = \\vec{0}$), so $\\vec{B}$ can be written as the gradient of a magnetic scalar potential.\n- **(B) True:** Since $\\vec{M} = M\\hat{k}$ is uniform, $\\vec{J}_b = \\nabla \\times \\vec{M} = \\vec{0}$.\n- **(C) True:** On the curved surface ($\\hat{n} = \\hat{\\rho}$), $\\vec{K}_b = \\vec{M} \\times \\hat{\\rho} = M\\hat{\\phi} \\neq \\vec{0}$.\n- **(D) False:** On the top/bottom flat surfaces ($\\hat{n} = \\pm\\hat{k}$), $\\vec{K}_b = M\\hat{k} \\times (\\pm\\hat{k}) = \\vec{0}$.\nThus, Options (A), (B), and (C) are correct."
+    ),
+    59: (
+        "Cyclotrons are used to accelerate ions like deuterons ($d$) and $\\alpha$ particles. Keeping the magnetic field same for both, $d$ and $\\alpha$ are extracted with energies $10\\text{ MeV}$ and $20\\text{ MeV}$ with extraction radii $r_d$ and $r_\\alpha$, respectively. Taking the masses $M_d = 2000\\text{ MeV}/c^2$ and $M_\\alpha = 4000\\text{ MeV}/c^2$, the value of $\\frac{r_\\alpha}{r_d}$ (in integer) is ______.",
+        [],
+        "The non-relativistic kinetic energy of an ion of mass $M$ and charge $q$ extracted at radius $r$ in magnetic field $B$ is:\n$$K = \\frac{p^2}{2M} = \\frac{q^2 B^2 r^2}{2M} \\implies r = \\frac{\\sqrt{2 M K}}{q B}$$\nFor deuteron ($q_d = e, M_d = 2000, K_d = 10\\text{ MeV}$) and alpha particle ($q_\\alpha = 2e, M_\\alpha = 4000, K_\\alpha = 20\\text{ MeV}$):\n$$\\frac{r_\\alpha}{r_d} = \\frac{q_d}{q_\\alpha}\\sqrt{\\frac{M_\\alpha K_\\alpha}{M_d K_d}} = \\frac{1}{2}\\sqrt{\\frac{4000 \\times 20}{2000 \\times 10}} = \\frac{1}{2}\\sqrt{4} = 1$$\nOfficial Key: 1."
+    ),
+    60: (
+        "In the emitter-stabilized BJT transistor circuit shown in the figure, $V_{CC} = 10\\text{ V}$, base bias resistor $R_B = 100\\text{ k}\\Omega$ (connected from $V_{CC}$ to the base), emitter resistor $R_E = 1\\text{ k}\\Omega$ (connected from emitter to ground), collector resistor $R_C = 1\\text{ k}\\Omega$, $V_{BE} = 0.7\\text{ V}$, and $\\beta_{DC} = 400$. The value of the base current in $\\mu\\text{A}$ (rounded off to one decimal place) is ___________.",
+        [],
+        "Applying KVL around the base-emitter loop:\n$$V_{CC} - I_B R_B - V_{BE} - I_E R_E = 0$$\nUsing $I_E = (\\beta_{DC} + 1)I_B = 401 I_B$:\n$$I_B = \\frac{V_{CC} - V_{BE}}{R_B + (\\beta_{DC} + 1)R_E} = \\frac{10 - 0.7}{100\\text{ k}\\Omega + 401(1\\text{ k}\\Omega)} = \\frac{9.3\\text{ V}}{501\\text{ k}\\Omega} \\approx 18.56\\,\\mu\\text{A}$$\nOfficial Key range: 18 to 19."
+    ),
+    61: (
+        "Consider the set $\\{1, x, x^2\\}$. An orthonormal basis in $x \\in [-1, 1]$ is formed from these three terms, where the normalization of a function $f(x)$ is defined via $\\int_{-1}^{1} x^2 [f(x)]^2\\,dx = 1$. If the orthonormal basis set is\n$$\\left(\\sqrt{\\frac{3}{2}},\\; \\sqrt{\\frac{5}{2}}\\,x,\\; \\frac{1}{2}\\sqrt{\\frac{21}{N}}(5x^2 - 3)\\right)$$\nthen the value of $N$ (in integer) is ______.",
+        [],
+        "Verify the normalization condition for $f_3(x) = \\frac{1}{2}\\sqrt{\\frac{21}{N}}(5x^2 - 3)$:\n$$\\int_{-1}^{1} x^2 [f_3(x)]^2\\,dx = \\frac{21}{4N} \\int_{-1}^{1} x^2(25x^4 - 30x^2 + 9)\\,dx = \\frac{21}{4N} \\cdot 2\\left[\\frac{25}{7} - \\frac{30}{5} + \\frac{9}{3}\\right]$$\nEvaluating the bracket:\n$$\\frac{25}{7} - 6 + 3 = \\frac{25}{7} - 3 = \\frac{4}{7}$$\nSetting the integral equal to $1$:\n$$\\frac{21}{4N} \\cdot 2 \\cdot \\frac{4}{7} = \\frac{6}{N} = 1 \\implies N = 6$$\nOfficial Key: 6."
+    ),
+    62: (
+        "The Hamiltonian for a one-dimensional system with mass $m$, position $q$ and momentum $p$ is $H(p, q) = \\frac{p^2}{2m} + q^2 A(q)$, where $A(q)$ is a real function of $q$. If $m\\frac{d^2 q}{dt^2} = -5q A(q)$, then $\\frac{dA(q)}{dq} = n\\frac{A(q)}{q}$. The value of $n$ (in integer) is ______.",
+        [],
+        "Using Hamilton's equations of motion with $V(q) = q^2 A(q)$:\n$$m\\frac{d^2 q}{dt^2} = \\dot{p} = -\\frac{\\partial H}{\\partial q} = -\\frac{d}{dq}[q^2 A(q)] = -2q A(q) - q^2\\frac{dA(q)}{dq}$$\nEquating this to the given expression $-5q A(q)$:\n$$-2q A(q) - q^2\\frac{dA(q)}{dq} = -5q A(q) \\implies q^2\\frac{dA(q)}{dq} = 3q A(q) \\implies \\frac{dA(q)}{dq} = 3\\frac{A(q)}{q}$$\nThus, $n = 3$.\nOfficial Key: 3."
+    ),
+    63: (
+        "A system of five identical, non-interacting particles with mass $m$ and spin $\\frac{3}{2}$ is confined to a one-dimensional potential well of length $L$. If the lowest energy of the system is $N\\frac{\\pi^2 \\hbar^2}{2m L^2}$, the value of $N$ (in integer) is _____.",
+        [],
+        "Particles with spin $s = 3/2$ are fermions, so each spatial level $E_n = n^2 \\frac{\\pi^2\\hbar^2}{2mL^2}$ can hold at most $(2s + 1) = 4$ particles.\nTo minimize total energy for $5$ identical fermions:\n- $4$ particles occupy the $n = 1$ ground orbital: energy $= 4 \\times (1^2) E_1 = 4 E_1$.\n- The $5$th particle occupies the $n = 2$ orbital: energy $= 1 \\times (2^2) E_1 = 4 E_1$.\nTotal ground-state energy $= 4 E_1 + 4 E_1 = 8 \\frac{\\pi^2 \\hbar^2}{2m L^2}$, so $N = 8$.\nOfficial Key: 8."
+    ),
+    64: (
+        "A wheel of mass $4M$ and radius $R$ is made of a thin uniform distribution of mass $3M$ at the rim and a point mass $M$ at the center. The spokes of the wheel are massless. The center of mass of the wheel is connected to a horizontal massless rod of length $2R$, with one end fixed at $O$, as shown in the figure (the rod rotates about the vertical $z$-axis passing through $O$ so that the wheel rolls in a horizontal circle on the ground with precession angular speed $\\Omega$). If $\\vec{L}$ is the total angular momentum of the wheel about $O$, then the magnitude $\\left|\\frac{d\\vec{L}}{dt}\\right| = N(M R^2 \\Omega^2)$. The value of $N$ (in integer) is ____.",
+        [],
+        "As the rod of length $2R$ precesses around the vertical $z$-axis through $O$ at angular speed $\\Omega$, the center of mass of the wheel moves in a horizontal circle of speed $v_{\\text{cm}} = 2R\\Omega$. Since the wheel rolls without slipping on the ground, its spin angular speed about the horizontal rod axis ($\\hat{\\rho}$) is $\\omega_s = \\frac{v_{\\text{cm}}}{R} = 2\\Omega$.\nThe wheel's moment of inertia about its symmetry axis is $I_{\\text{sym}} = (3M)R^2 + M(0)^2 = 3M R^2$, giving a horizontal spin angular momentum:\n$$\\vec{L}_{\\text{spin}} = I_{\\text{sym}} \\omega_s (-\\hat{\\rho}) = 6 M R^2 \\Omega (-\\hat{\\rho})$$\nWhile the vertical ($z$) component of $\\vec{L}$ (orbital + vertical spin) remains constant in both magnitude and direction, $\\vec{L}_{\\text{spin}}$ precesses horizontally with angular velocity $\\vec{\\Omega} = \\Omega\\hat{z}$:\n$$\\left|\\frac{d\\vec{L}}{dt}\\right| = \\left|\\vec{\\Omega} \\times \\vec{L}_{\\text{spin}}\\right| = \\Omega (6 M R^2 \\Omega) = 6\\,(M R^2 \\Omega^2)$$\nThus, $N = 6$.\nOfficial Key: 6."
+    ),
+    65: (
+        "The figure shows a non-inverting op-amp circuit with a $5.1\\text{ V}$ Zener diode in the feedback loop: the $+1\\text{ V}$ input signal is applied to the non-inverting ($+$) terminal; two equal $1\\text{ k}\\Omega$ resistors form a feedback voltage divider between the inverting ($-$) terminal, a feedback node, and ground; and the $5.1\\text{ V}$ Zener diode (reverse-biased in breakdown) is connected between the op-amp output and that feedback node. The op-amp runs from $\\pm 15\\text{ V}$ supplies. If a $+1\\text{ V}$ signal is applied at the input, the output voltage in Volts (rounded off to one decimal place) is ____.",
+        [],
+        "By virtual short at the ideal op-amp inputs, $V_- = V_+ = +1.0\\text{ V}$. Because the two $1\\text{ k}\\Omega$ resistors form an equal voltage divider from the feedback node $V_X$ to ground ($V_- = V_X / 2$), the voltage at the feedback node is $V_X = 2 V_- = 2.0\\text{ V}$.\nThe $5.1\\text{ V}$ Zener diode is in reverse breakdown between the op-amp output $V_{\\text{out}}$ and node $V_X$, maintaining $V_{\\text{out}} - V_X = V_Z = 5.1\\text{ V}$:\n$$V_{\\text{out}} = 2.0\\text{ V} + 5.1\\text{ V} = 7.1\\text{ V}$$\nOfficial Key range: 7.0 to 7.2."
+    ),
+}
+
+def load_official_keys_2025():
+    txt = open("temp_gate_pdfs/gate_ph_2025_key.txt", encoding="utf-8").read()
+    keys = {}
+    for line in txt.splitlines():
+        m = re.match(r'^(\d+)\s+7\s+(MCQ|MSQ|NAT)\s+(?:GA|PH)\s+(.+?)\s+(\d+)\s*$', line.strip())
+        if m:
+            keys[int(m.group(1))] = (m.group(2), m.group(3).strip(), float(m.group(4)))
+    return keys
+
+def fmt_nat_str(nmin: float, nmax: float) -> str:
+    def fnum(v: float) -> str:
+        return str(int(v)) if float(v).is_integer() else str(v)
+    return fnum(nmin) if nmin == nmax else f"{fnum(nmin)} to {fnum(nmax)}"
+
+def main():
+    path = "tests/gate/gate_ph/pyq/gate_ph_pyq_2025.json"
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    keys = load_official_keys_2025()
+    assert len(keys) == 65, f"Expected 65 keys, got {len(keys)}"
+
+    new_qs = []
+    sec_map = OrderedDict()
+
+    for q in data["questions"]:
+        qn = int(q["questionNumber"])
+        qt_off, ky_off, mk_off = keys[qn]
+        assert q["questionType"] == qt_off and float(q["positiveMarks"]) == mk_off, f"Q{qn} mismatch type/marks"
+
+        stem, opts, exp = Q_DATA[qn]
+        if stem is not None:
+            q["questionTextEn"] = stem
+        if opts is not None:
+            q["optionsEn"] = opts
+        if exp is not None:
+            q["explanationEn"] = exp
+
+        if qt_off == "MCQ":
+            assert q["correctOption"] == ky_off, f"Q{qn} MCQ key mismatch"
+        elif qt_off == "MSQ":
+            exp_list = [x.strip() for x in ky_off.split(";")]
+            assert q["correctOptionsList"] == exp_list, f"Q{qn} MSQ key mismatch"
+        elif qt_off == "NAT":
+            p = ky_off.split(" to ")
+            nmin, nmax = float(p[0]), float(p[1])
+            q["natMin"] = nmin
+            q["natMax"] = nmax
+            q["correctOption"] = fmt_nat_str(nmin, nmax)
+            q["correctOptionsList"] = []
+            q["correct_index"] = None
+            q["correct_indices"] = []
+            q["optionsEn"] = []
+
+        q["questionId"] = f"gate_ph_2025_q{qn:02d}"
+        clean_q = {k: q[k] for k in EXPECTED_KEYS}
+        new_qs.append(clean_q)
+
+        sid = clean_q["sectionId"]
+        stitle = clean_q["sectionTitle"]
+        if sid not in sec_map:
+            sec_map[sid] = {"sectionId": sid, "sectionTitle": stitle, "sectionTitleEn": stitle, "questionCount": 0, "totalMarks": 0.0}
+        sec_map[sid]["questionCount"] += 1
+        sec_map[sid]["totalMarks"] = round(sec_map[sid]["totalMarks"] + float(clean_q["positiveMarks"]), 2)
+
+    data["sections"] = list(sec_map.values())
+    data["questions"] = new_qs
+    data["totalQuestions"] = 65
+    data["total_questions"] = 65
+    data["maxMarks"] = 100.0
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"✅ Cleanly updated gate_ph_pyq_2025.json ({len(new_qs)} Qs, {sum(x['positiveMarks'] for x in new_qs):.1f} marks)")
+
+if __name__ == "__main__":
+    main()

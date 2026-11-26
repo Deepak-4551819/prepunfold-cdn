@@ -1,0 +1,2001 @@
+{
+  "testId": "gate_ma_mock_09",
+  "categoryId": "gate_ma",
+  "test_id": "gate_ma_mock_09",
+  "category_id": "gate_ma",
+  "title": "GATE 2027 Mathematics (MA) Full-Length Mock Test 09",
+  "titleEn": "GATE 2027 Mathematics (MA) Full-Length Mock Test 09",
+  "titleHi": "GATE 2027 गणित (MA) संपूर्ण मॉक टेस्ट 09",
+  "testType": "FULL_MOCK",
+  "test_type": "FULL_MOCK",
+  "isFree": false,
+  "is_free": false,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 65,
+  "total_questions": 65,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2027,
+  "exam_year_tag": "2027",
+  "examYearTag": "2027",
+  "shiftBadge": "GATE MA • Full Mock 09",
+  "sections": [
+    {
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "sectionTitleEn": "General Aptitude",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "sectionTitleEn": "Linear Algebra",
+      "questionCount": 7,
+      "totalMarks": 11.0
+    },
+    {
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "sectionTitleEn": "Calculus",
+      "questionCount": 6,
+      "totalMarks": 9.0
+    },
+    {
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "sectionTitleEn": "Real Analysis",
+      "questionCount": 7,
+      "totalMarks": 11.0
+    },
+    {
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "sectionTitleEn": "Linear Programming",
+      "questionCount": 3,
+      "totalMarks": 4.0
+    },
+    {
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "sectionTitleEn": "Partial Differential Equations",
+      "questionCount": 4,
+      "totalMarks": 6.0
+    },
+    {
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "sectionTitleEn": "Topology",
+      "questionCount": 4,
+      "totalMarks": 6.0
+    },
+    {
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "sectionTitleEn": "Complex Analysis",
+      "questionCount": 6,
+      "totalMarks": 10.0
+    },
+    {
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "sectionTitleEn": "Functional Analysis",
+      "questionCount": 4,
+      "totalMarks": 6.0
+    },
+    {
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "sectionTitleEn": "Numerical Analysis",
+      "questionCount": 4,
+      "totalMarks": 6.0
+    },
+    {
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "sectionTitleEn": "Ordinary Differential Equations",
+      "questionCount": 5,
+      "totalMarks": 8.0
+    },
+    {
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "sectionTitleEn": "Algebra",
+      "questionCount": 5,
+      "totalMarks": 8.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_ma_mock_09_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The remainder when $2^{100}$ is divided by 7 is:",
+      "optionsEn": [
+        "1",
+        "6",
+        "4",
+        "2"
+      ],
+      "explanationEn": "Note that $2^3 = 8 \\equiv 1 \\pmod 7$. Writing $100 = 3 \\times 33 + 1$, we get $2^{100} = (2^3)^{33} \\cdot 2 \\equiv 1^{33} \\cdot 2 = 2 \\pmod 7$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Analytical Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A hiker walks $6\\text{ km}$ North, turns right and walks $8\\text{ km}$, then turns right again and walks $6\\text{ km}$. How far and in which direction is the hiker from the starting point?",
+      "optionsEn": [
+        "$8\\text{ km}$ East",
+        "$10\\text{ km}$ North-East",
+        "$14\\text{ km}$ East",
+        "$8\\text{ km}$ West"
+      ],
+      "explanationEn": "Walking $6\\text{ km}$ North, $8\\text{ km}$ East, and $6\\text{ km}$ South brings the hiker to $(8, 0)$ relative to the start, i.e., $8\\text{ km}$ due East."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "How many lines of reflectional symmetry does a regular hexagon have?",
+      "optionsEn": [
+        "6",
+        "3",
+        "9",
+        "12"
+      ],
+      "explanationEn": "A regular $n$-gon has exactly $n$ lines of reflectional symmetry. For a regular hexagon ($n=6$), there are 3 lines through opposite vertices and 3 lines through midpoints of opposite edges, totaling 6."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Verbal Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Choose the word CLOSEST in meaning to 'LACONIC':",
+      "optionsEn": [
+        "Verbose",
+        "Melancholic",
+        "Garrulous",
+        "Terse"
+      ],
+      "explanationEn": "'Laconic' means using very few words, which is synonymous with 'Terse'. 'Verbose' and 'Garrulous' are antonyms."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If the radius of a right circular cylinder is increased by $20\\%$ and its height is decreased by $25\\%$, the volume of the cylinder:",
+      "optionsEn": [
+        "remains unchanged",
+        "increases by $8\\%$",
+        "increases by $5\\%$",
+        "decreases by $8\\%$"
+      ],
+      "explanationEn": "New volume $V' = \\pi (1.2r)^2 (0.75h) = 1.44 \\times 0.75 \\, V = 1.08 V$, which is an $8\\%$ increase."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A fair coin is tossed repeatedly until two consecutive heads ($HH$) appear. What is the expected number of tosses?",
+      "optionsEn": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "explanationEn": "Let $E$ be the expected tosses from start. On toss 1: T (prob $1/2$) wastes 1 toss ($1 + E$); H followed by H (prob $1/4$) takes 2 tosses; H followed by T (prob $1/4$) wastes 2 tosses ($2 + E$). Thus $E = \\frac{1}{2}(1+E) + \\frac{1}{4}(2) + \\frac{1}{4}(2+E) = \\frac{3}{2} + \\frac{3}{4}E \\implies \\frac{1}{4}E = \\frac{3}{2} \\implies E = 6$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Two real numbers $x$ and $y$ are chosen independently and uniformly at random from the interval $[0, 2]$. What is the probability that $|x - y| \\le 1$?",
+      "optionsEn": [
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{3}{4}$"
+      ],
+      "explanationEn": "The sample space is the square $[0,2]^2$ of area $4$. The excluded region $|x - y| > 1$ consists of two right triangles of legs $1$ and $1$, total area $2 \\times \\frac{1}{2}(1)(1) = 1$. Thus $P(|x - y| \\le 1) = \\frac{4 - 1}{4} = \\frac{3}{4}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If a regular 2D triangle of vertices $(0,0), (2,0), (1, \\sqrt{3})$ is reflected first across the line $y = x$ and then across the $y$-axis, this composite transformation is equivalent to a single rotation about the origin by what counterclockwise angle?",
+      "optionsEn": [
+        "$180^\\circ$",
+        "$270^\\circ$",
+        "$90^\\circ$",
+        "$45^\\circ$"
+      ],
+      "explanationEn": "Reflection across $y = x$ maps $(x, y) \\mapsto (y, x)$. Subsequent reflection across the $y$-axis maps $(y, x) \\mapsto (-y, x)$, which is precisely a $90^\\circ$ counterclockwise rotation about the origin."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For positive real numbers $x$ and $y$ satisfying $x + 2y = 12$, what is the maximum possible value of $x^2 y$?",
+      "optionsEn": [
+        "$96$",
+        "$144$",
+        "$64$",
+        "$128$"
+      ],
+      "explanationEn": "Write $x + 2y = \\frac{x}{2} + \\frac{x}{2} + 2y = 12$. By AM-GM on $\\frac{x}{2}, \\frac{x}{2}, 2y$: $\\left(\\frac{12}{3}\\right)^3 \\ge \\frac{x}{2}\\cdot\\frac{x}{2}\\cdot 2y = \\frac{x^2 y}{2} \\implies x^2 y \\le 2 \\times 64 = 128$, achieved at $x = 8, y = 2$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If $x + \\frac{1}{x} = 3$, what is the value of $x^4 + \\frac{1}{x^4}$?",
+      "optionsEn": [
+        "47",
+        "51",
+        "79",
+        "49"
+      ],
+      "explanationEn": "First, $x^2 + \\frac{1}{x^2} = \\left(x + \\frac{1}{x}\\right)^2 - 2 = 9 - 2 = 7$. Squaring again gives $x^4 + \\frac{1}{x^4} = 7^2 - 2 = 47$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Gram-Schmidt Process",
+      "difficulty": "Easy",
+      "correctOption": "4",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 4.0,
+      "natMax": 4.0,
+      "questionTextEn": "Apply the Gram-Schmidt orthogonalization process (without normalizing) to the ordered pair $v_1 = (1, 1, 1, 1)^T$, $v_2 = (1, 1, 5, 5)^T$ in $\\mathbb{R}^4$ with the standard inner product, obtaining $u_1 = v_1$ and $u_2 = v_2 - \\frac{\\langle v_2, u_1 \\rangle}{\\langle u_1, u_1 \\rangle} u_1$. What is the Euclidean norm $\\|u_2\\|$?",
+      "optionsEn": [],
+      "explanationEn": "We have $\\langle v_2, u_1 \\rangle = 1 + 1 + 5 + 5 = 12$ and $\\langle u_1, u_1 \\rangle = 4$, so $u_2 = (1, 1, 5, 5)^T - 3(1, 1, 1, 1)^T = (-2, -2, 2, 2)^T$. Therefore $\\|u_2\\| = \\sqrt{4 + 4 + 4 + 4} = \\sqrt{16} = 4$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Jacobians and Change of Variables",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the transformation $u = x + y$, $v = x - y$ on $\\mathbb{R}^2$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "The Jacobian $\\frac{\\partial(u, v)}{\\partial(x, y)}$ is equal to $-2$.",
+        "The inverse Jacobian $\\frac{\\partial(x, y)}{\\partial(u, v)}$ is equal to $-\\frac{1}{2}$.",
+        "The area element transforms as $dx\\,dy = \\frac{1}{2}\\,du\\,dv$.",
+        "The transformation preserves Euclidean areas without scaling."
+      ],
+      "explanationEn": "$\\frac{\\partial(u,v)}{\\partial(x,y)} = \\det\\begin{pmatrix} 1 & 1 \\\\ 1 & -1 \\end{pmatrix} = -2$ (A true). Hence $\\frac{\\partial(x,y)}{\\partial(u,v)} = -\\frac{1}{2}$ (B true) and $dx\\,dy = \\left|-\\frac{1}{2}\\right| du\\,dv = \\frac{1}{2}du\\,dv$ (C true, D false)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Lebesgue Integral",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following convergence theorems hold for Lebesgue integration on a measure space $(X, \\mathcal{M}, \\mu)$?",
+      "optionsEn": [
+        "Monotone Convergence Theorem: if $0 \\le f_1 \\le f_2 \\le \\dots$ are measurable and $f_n \\to f$ pointwise, then $\\int f_n\\,d\\mu \\to \\int f\\,d\\mu$",
+        "Dominated Convergence Theorem: if $f_n \\to f$ a.e. and $|f_n| \\le g$ a.e. for some $g \\in L^1(\\mu)$, then $\\int |f_n - f|\\,d\\mu \\to 0$",
+        "If $f_n \\to f$ uniformly on a finite measure space ($\\mu(X) < \\infty$), then $\\int_X f_n\\,d\\mu \\to \\int_X f\\,d\\mu$",
+        "If $f_n \\ge 0$ and $f_n \\to 0$ pointwise on $\\mathbb{R}$, then $\\int_{\\mathbb{R}} f_n\\,dm \\to 0$"
+      ],
+      "explanationEn": "(A) is MCT, (B) is DCT, and (C) holds because $|\\int f_n - \\int f| \\le \\|f_n - f\\|_\\infty \\mu(X) \\to 0$ when $\\mu(X) < \\infty$. (D) is false without a dominating integrable function (e.g., $f_n = \\chi_{[n, n+1]}$ converges pointwise to $0$ while $\\int f_n = 1$ for all $n$)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Graphical Method",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "When solving a two-variable linear programming problem by the graphical method, which of the following statements are TRUE?",
+      "optionsEn": [
+        "If the feasible region is bounded and nonempty, the objective function attains both its maximum and minimum at extreme points (corner points)",
+        "If two adjacent corner points yield the same optimal objective value, then every point on the edge joining them is also optimal",
+        "An unbounded feasible region always implies an unbounded optimal objective value",
+        "The level curves (iso-profit lines) of the objective function are parallel straight lines"
+      ],
+      "explanationEn": "(A) By the Fundamental Theorem of LP, a linear function on a nonempty compact polyhedron attains its extrema at vertices. (B) Convex combinations of optimal solutions are optimal. (D) $c_1 x_1 + c_2 x_2 = k$ defines parallel lines as $k$ varies. (C) is false: e.g., minimizing $x_1 + x_2$ over $x_1, x_2 \\ge 0$ has an unbounded feasible region yet a finite minimum of $0$ at $(0, 0)$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Uniform Convergence",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the sequence of functions $f_n(x) = \\frac{nx}{1 + n^2 x^2}$ for $x \\in [0, 1]$. Which of the following statements is TRUE?",
+      "optionsEn": [
+        "$f_n \\to 0$ pointwise on $[0, 1]$, and $\\lim_{n \\to \\infty} \\int_0^1 f_n(x)\\,dx = 0$, but the convergence is NOT uniform on $[0, 1]$",
+        "$f_n \\to 0$ uniformly on $[0, 1]$",
+        "$\\lim_{n \\to \\infty} \\int_0^1 f_n(x)\\,dx = \\frac{1}{2}$",
+        "$f_n$ does not converge pointwise at $x = 0$"
+      ],
+      "explanationEn": "For $x = 0$, $f_n(0) = 0$; for $x > 0$, $f_n(x) \\to 0$, so $f_n \\to 0$ pointwise on $[0, 1]$. However, $f_n(1/n) = 1/2$ for all $n$, so $\\sup_{[0,1]} |f_n(x)| = 1/2 \\not\\to 0$ and convergence is not uniform. Meanwhile, $\\int_0^1 \\frac{nx}{1 + n^2 x^2}\\,dx = \\frac{\\ln(1 + n^2)}{2n} \\to 0$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Classification & Canonical Forms",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which change of variables reduces the PDE $u_{xx} - 9 u_{yy} + u_x = 0$ to the canonical form $u_{\\xi\\eta} + \\frac{1}{12}(u_\\xi - u_\\eta) = 0$?",
+      "optionsEn": [
+        "$\\xi = x - 3y,\\; \\eta = x + 3y$",
+        "$\\xi = y - 3x,\\; \\eta = y + 3x$",
+        "$\\xi = 3x - y,\\; \\eta = 3x + y$",
+        "$\\xi = x - 9y,\\; \\eta = x + 9y$"
+      ],
+      "explanationEn": "With $A = 1, B = 0, C = -9$, the characteristic ODE is $\\frac{dy}{dx} = \\pm 3$, giving $\\xi = y - 3x$ and $\\eta = y + 3x$. By the chain rule, $u_x = -3u_\\xi + 3u_\\eta$, $u_{xx} = 9(u_{\\xi\\xi} - 2u_{\\xi\\eta} + u_{\\eta\\eta})$, and $u_{yy} = u_{\\xi\\xi} + 2u_{\\xi\\eta} + u_{\\eta\\eta}$. Substituting into $u_{xx} - 9u_{yy} + u_x = 0$ yields $-36 u_{\\xi\\eta} - 3u_\\xi + 3u_\\eta = 0$, i.e., $u_{\\xi\\eta} + \\frac{1}{12}(u_\\xi - u_\\eta) = 0$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Subspace Topology",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $Y$ be a subspace of a topological space $X$, and let $A \\subseteq Y$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "The closure of $A$ in $Y$ equals $\\overline{A} \\cap Y$, where $\\overline{A}$ is the closure of $A$ in $X$",
+        "The interior of $A$ in $Y$ equals $\\operatorname{int}_X(A) \\cap Y$",
+        "If $Y$ is open in $X$ and $A$ is open in $Y$, then $A$ is open in $X$",
+        "If $Y$ is closed in $X$ and $A$ is closed in $Y$, then $A$ is closed in $X$"
+      ],
+      "explanationEn": "(A), (C), and (D) are standard subspace properties. Statement (B) is false in general: take $X = \\mathbb{R}$, $Y = \\{0\\}$, and $A = \\{0\\}$. Then $\\operatorname{int}_Y(A) = \\{0\\}$, whereas $\\operatorname{int}_X(A) \\cap Y = \\emptyset \\cap \\{0\\} = \\emptyset$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "First-Order PDEs",
+      "difficulty": "Easy",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Let $u(x, t)$ solve the initial value problem $u_t + u u_x = 0$ for $t > 0$ with $u(x, 0) = x$. The value of $u(6, 2)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "Along characteristics, $u$ is constant and $x = x_0 + u t$. Since $u = u(x_0, 0) = x_0$, we have $x = u + ut = u(1 + t)$, which gives $u(x, t) = \\frac{x}{1 + t}$. At $(6, 2)$, $u(6, 2) = \\frac{6}{1 + 2} = 2$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Power Series",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "The radius of convergence of the power series $\\sum_{n=0}^{\\infty} \\frac{(2n)!}{(n!)^2 8^n}\\,z^n$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Let $a_n = \\frac{(2n)!}{(n!)^2 8^n}$. By the ratio test, $\\frac{1}{R} = \\lim_{n \\to \\infty}\\left|\\frac{a_{n+1}}{a_n}\\right| = \\lim_{n \\to \\infty}\\frac{(2n+2)(2n+1)}{8(n+1)^2} = \\frac{4}{8} = \\frac{1}{2}$. Hence $R = 2$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Open Mapping Theorem",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ and $Y$ be Banach spaces and $T: X \\to Y$ be a bijective bounded linear operator. By the Open Mapping Theorem (Bounded Inverse Theorem), which one of the following is GUARANTEED?",
+      "optionsEn": [
+        "$T$ is an isometry.",
+        "$T$ is a compact operator.",
+        "$X$ and $Y$ must be Hilbert spaces.",
+        "$T^{-1}: Y \\to X$ is a bounded linear operator."
+      ],
+      "explanationEn": "Because $X$ and $Y$ are Banach spaces and $T: X \\to Y$ is a surjective bounded linear operator, the Open Mapping Theorem implies that $T$ maps open sets to open sets. Since $T$ is bijective, $(T^{-1})^{-1}(U) = T(U)$ is open for every open $U \\subseteq X$, so $T^{-1}$ is continuous (hence bounded)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Zeros and Singularities",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following functions has a removable singularity at $z = 0$?",
+      "optionsEn": [
+        "$\\frac{\\sin(3z)}{z}$",
+        "$\\frac{1 - \\cos z}{z^2}$",
+        "$z \\sin\\left(\\frac{1}{z}\\right)$",
+        "$\\frac{\\tan z - z}{z^3}$"
+      ],
+      "explanationEn": "A singularity at $z = 0$ is removable iff $\\lim_{z \\to 0} f(z)$ exists finitely. (A) $\\lim_{z\\to 0}\\frac{\\sin 3z}{z} = 3$. (B) $\\lim_{z\\to 0}\\frac{1-\\cos z}{z^2} = \\frac{1}{2}$. (C) $z\\sin(1/z) = 1 - \\frac{1}{6z^2} + \\frac{1}{120z^4} - \\cdots$ has infinitely many negative powers, so $0$ is an essential singularity. (D) Since $\\tan z = z + \\frac{z^3}{3} + O(z^5)$, $\\lim_{z\\to 0}\\frac{\\tan z - z}{z^3} = \\frac{1}{3}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Duality Theory",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "Consider the primal LPP: Maximize $Z = 5x_1 + 4x_2$ subject to $2x_1 + x_2 \\le 10$, $x_1 + 2x_2 \\le 8$, and $x_1, x_2 \\ge 0$. Let $(y_1^*, y_2^*)$ be the unique optimal solution of the dual minimization problem (where $y_1, y_2$ correspond to the first and second constraints, respectively). What is the value of $y_1^*$?",
+      "optionsEn": [],
+      "explanationEn": "The dual LPP is: Minimize $W = 10y_1 + 8y_2$ subject to $2y_1 + y_2 \\ge 5$, $y_1 + 2y_2 \\ge 4$, and $y_1, y_2 \\ge 0$. The primal optimal point $(4, 2)$ has $x_1^* > 0$ and $x_2^* > 0$, so by complementary slackness both dual constraints are binding: $2y_1^* + y_2^* = 5$ and $y_1^* + 2y_2^* = 4$. Solving gives $y_1^* = 2$ and $y_2^* = 1$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Numerical ODEs",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "When any explicit $2$-stage Runge-Kutta method of order $2$ is applied to the linear ODE $y' = \\lambda y$ with step size $h$, the update takes the form $y_{n+1} = R(h\\lambda) y_n$. What is the stability function $R(z)$ (where $z = h\\lambda$)?",
+      "optionsEn": [
+        "$1 + z + z^2$",
+        "$1 + z$",
+        "$1 + z + \\frac{z^2}{2}$",
+        "$\\frac{1 + z/2}{1 - z/2}$"
+      ],
+      "explanationEn": "Every explicit $2$-stage RK2 method has the form $y_{n+1} = y_n + h[(1 - w_2)k_1 + w_2 k_2]$ with $w_2 \\alpha = \\frac{1}{2}$ and $k_1 = \\lambda y_n$, $k_2 = \\lambda(y_n + \\alpha h k_1) = \\lambda(1 + \\alpha z)y_n$. Substituting yields $y_{n+1} = [1 + (1 - w_2)z + w_2 z(1 + \\alpha z)]y_n = \\left(1 + z + \\frac{z^2}{2}\\right)y_n$, matching the Taylor polynomial of $e^z$ up to degree $2$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Gradient, Divergence and Curl",
+      "difficulty": "Medium",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "For the vector field $\\vec{F}(x, y, z) = yz\\hat{i} + 2xz\\hat{j} + 3xy\\hat{k}$, the Euclidean magnitude $|\\nabla \\times \\vec{F}|$ at the point $(2, 1, 1)$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "$\\nabla \\times \\vec{F} = (3x - 2x)\\hat{i} + (y - 3y)\\hat{j} + (2z - z)\\hat{k} = x\\hat{i} - 2y\\hat{j} + z\\hat{k}$. At $(2, 1, 1)$, $\\nabla \\times \\vec{F} = (2, -2, 1)$, whose magnitude is $\\sqrt{2^2 + (-2)^2 + 1^2} = \\sqrt{9} = 3$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Series Solutions",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Let $y(x) = \\sum_{n=0}^{\\infty} a_n x^n$ be the power series solution of $y'' - 2x y' - 4y = 0$ satisfying $y(0) = 1$ and $y'(0) = 3$. The value of $a_3$ is ______.",
+      "optionsEn": [],
+      "explanationEn": "Substituting $y = \\sum_{n=0}^{\\infty} a_n x^n$ yields $\\sum_{n=0}^{\\infty} [(n+2)(n+1)a_{n+2} - (2n + 4)a_n]x^n = 0$, so $a_{n+2} = \\frac{2a_n}{n + 1}$. With $a_1 = y'(0) = 3$, setting $n = 1$ gives $a_3 = \\frac{2a_1}{2} = 3$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Vector Spaces",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $V$ be the vector space $\\mathbb{C}^3$ viewed as a vector space over the field $\\mathbb{R}$, and let $W = \\{(z_1, z_2, z_3) \\in \\mathbb{C}^3 : z_1 + \\overline{z_2} = 0 \\text{ and } \\operatorname{Re}(z_3) = 0\\}$. What is $\\dim_{\\mathbb{R}}(W)$?",
+      "optionsEn": [
+        "$5$",
+        "$4$",
+        "$2$",
+        "$3$"
+      ],
+      "explanationEn": "Over $\\mathbb{R}$, $\\dim_{\\mathbb{R}}(\\mathbb{C}^3) = 6$. Writing $z_k = x_k + i y_k$ with $x_k, y_k \\in \\mathbb{R}$, the condition $z_1 + \\overline{z_2} = 0$ imposes two linearly independent real equations: $x_1 + x_2 = 0$ and $y_1 - y_2 = 0$. The condition $\\operatorname{Re}(z_3) = 0$ imposes one more independent real equation $x_3 = 0$. Hence $\\dim_{\\mathbb{R}}(W) = 6 - 3 = 3$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Tychonoff Theorem",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $I = [0, 1]$ with the usual topology, and let $J$ be an uncountable index set. By Tychonoff's theorem, the product space $I^J = \\prod_{\\alpha \\in J} [0, 1]$ equipped with the product topology is:",
+      "optionsEn": [
+        "neither compact nor Hausdorff",
+        "compact and metrizable",
+        "Hausdorff and metrizable, but not compact",
+        "compact and Hausdorff, but not metrizable"
+      ],
+      "explanationEn": "Since $[0, 1]$ is compact and Hausdorff, Tychonoff's theorem implies $I^J$ is compact, and any product of Hausdorff spaces is Hausdorff. However, an uncountable product of spaces with more than one point is not first countable, hence not metrizable."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Bessel Functions",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For $x > 0$, the Bessel function of the first kind $J_{1/2}(x)$ is equal to:",
+      "optionsEn": [
+        "$\\sqrt{\\frac{2}{\\pi x}}\\sin x$",
+        "$\\sqrt{\\frac{2}{\\pi x}}\\cos x$",
+        "$\\frac{\\sin x}{x}$",
+        "$\\sqrt{\\frac{\\pi}{2x}}\\sin x$"
+      ],
+      "explanationEn": "Using the series definition $J_{\\nu}(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k}{k!\\,\\Gamma(k + \\nu + 1)}\\left(\\frac{x}{2}\\right)^{2k+\\nu}$ with $\\nu = \\frac{1}{2}$ and $\\Gamma\\left(k + \\frac{3}{2}\\right) = \\frac{(2k+1)!\\sqrt{\\pi}}{2^{2k+1} k!}$ yields $J_{1/2}(x) = \\sqrt{\\frac{2}{\\pi x}}\\sum_{k=0}^{\\infty}\\frac{(-1)^k x^{2k+1}}{(2k+1)!} = \\sqrt{\\frac{2}{\\pi x}}\\sin x$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Lebesgue Integral",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A bounded function $f: [a, b] \\to \\mathbb{R}$ is Riemann integrable on $[a, b]$ if and only if:",
+      "optionsEn": [
+        "$f$ is Lebesgue measurable on $[a, b]$",
+        "the set of points of discontinuity of $f$ in $[a, b]$ has Lebesgue measure zero",
+        "the set of points of discontinuity of $f$ in $[a, b]$ is countable",
+        "$f$ is continuous on $[a, b]$"
+      ],
+      "explanationEn": "By Lebesgue's criterion for Riemann integrability, a bounded function on a compact interval $[a, b]$ is Riemann integrable if and only if its set of discontinuities has Lebesgue measure zero (which can be uncountable, such as the Cantor set)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Bounded Linear Operators",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H$ be a complex Hilbert space and $T \\in \\mathcal{B}(H)$. Which of the following statements is/are ALWAYS true?",
+      "optionsEn": [
+        "$\\|T^*\\| = \\|T\\|$",
+        "$\\|T^* T\\| = \\|T\\|^2$",
+        "$\\ker(T^*) = (\\operatorname{Ran}(T))^\\perp$",
+        "$T^* T = T T^*$"
+      ],
+      "explanationEn": "(A) and (B) are the $C^*$-identity properties of the Hilbert adjoint. (C) holds since $y \\in \\ker(T^*) \\iff \\langle x, T^*y \\rangle = 0\\;\\forall x \\iff \\langle Tx, y \\rangle = 0\\;\\forall x \\iff y \\in (\\operatorname{Ran}(T))^\\perp$. (D) holds only for normal operators, not arbitrary $T \\in \\mathcal{B}(H)$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Group Homomorphisms",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\phi: G \\to H$ be a surjective group homomorphism with kernel $K$. If $G$ is a finite group of order $48$ and $|K| = 6$, then the order of $H$ is:",
+      "optionsEn": [
+        "$6$",
+        "$8$",
+        "$42$",
+        "$12$"
+      ],
+      "explanationEn": "By the First Isomorphism Theorem, $G/K \\cong \\phi(G) = H$ since $\\phi$ is surjective. Therefore, $|H| = |G/K| = \\frac{|G|}{|K|} = \\frac{48}{6} = 8$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Easy",
+      "correctOption": "1620",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 1620.0,
+      "natMax": 1620.0,
+      "questionTextEn": "Using Simpson's $1/3$ rule with $n = 2$ equal subintervals, the approximate value of $\\int_{0}^{6} x^4\\,dx$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "With $n = 2$ on $[0, 6]$, the step size is $h = 3$ and the nodes are $0, 3, 6$. Simpson's $1/3$ rule yields $\\frac{h}{3}[f(0) + 4f(3) + f(6)] = \\frac{3}{3}[0^4 + 4(3^4) + 6^4] = 0 + 324 + 1296 = 1620$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Polynomial Rings",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following polynomials is/are irreducible over $\\mathbb{Q}$?",
+      "optionsEn": [
+        "$x^3 - 2$",
+        "$x^4 + 1$",
+        "$x^4 + 4$",
+        "$x^2 + x + 1$"
+      ],
+      "explanationEn": "(A) is irreducible by Eisenstein at $p=2$. (B) is the $8$-th cyclotomic polynomial $\\Phi_8(x)$, irreducible over $\\mathbb{Q}$ (also Eisenstein at $p=2$ after substituting $x+1$). (C) is reducible by Sophie Germain's identity: $x^4 + 4 = (x^2 - 2x + 2)(x^2 + 2x + 2)$. (D) is a quadratic with discriminant $-3 < 0$, so it has no rational roots and is irreducible over $\\mathbb{Q}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Systems of Linear Equations",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_{m \\times n}(\\mathbb{R})$ and consider the linear system $Ax = b$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "If $Ax = 0$ has only the trivial solution, then $\\operatorname{rank}(A) = n$",
+        "If $Ax = b$ has a solution for every $b \\in \\mathbb{R}^m$, then $m \\le n$",
+        "If $m < n$, then $Ax = 0$ has infinitely many solutions",
+        "If $Ax = b_1$ and $Ax = b_2$ are consistent, then $Ax = b_1 + b_2$ is consistent"
+      ],
+      "explanationEn": "All four statements hold: (A) trivial kernel implies nullity $0$, so $\\operatorname{rank}(A) = n$; (B) surjectivity onto $\\mathbb{R}^m$ implies $\\operatorname{rank}(A) = m \\le n$; (C) $m < n$ implies $\\operatorname{nullity}(A) = n - \\operatorname{rank}(A) \\ge n - m \\ge 1$, giving infinitely many solutions over $\\mathbb{R}$; (D) the column space of $A$ is closed under addition."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Vector Calculus Identities",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any smooth scalar field $f$ and smooth vector field $\\vec{F}$ on $\\mathbb{R}^3$, which of the following vector identities is ALWAYS true?",
+      "optionsEn": [
+        "$\\nabla \\times (\\nabla f) = f\\vec{F}$",
+        "$\\nabla \\cdot (\\nabla \\times \\vec{F}) = \\nabla^2 f$",
+        "$\\nabla \\cdot (f\\vec{F}) = f(\\nabla \\cdot \\vec{F}) + \\nabla f \\cdot \\vec{F}$",
+        "$\\nabla \\cdot (f\\vec{F}) = f(\\nabla \\cdot \\vec{F}) - \\nabla f \\cdot \\vec{F}$"
+      ],
+      "explanationEn": "By the product rule for divergence, $\\nabla \\cdot (f\\vec{F}) = \\sum_i \\partial_i(f F_i) = f(\\nabla \\cdot \\vec{F}) + \\nabla f \\cdot \\vec{F}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Cauchy's Integral Formula",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $C$ be the positively oriented circle $|z| = 3$. The value of $\\oint_C \\frac{e^{iz}}{z^2 - 2z}\\,dz$ is:",
+      "optionsEn": [
+        "$2\\pi i (e^{2i} - 1)$",
+        "$\\pi (1 - e^{2i})$",
+        "$\\pi i (e^{2i} - 1)$",
+        "$\\pi i (e^{2i} + 1)$"
+      ],
+      "explanationEn": "The integrand has simple poles at $z = 0$ and $z = 2$, both inside $|z| = 3$. Using partial fractions $\\frac{1}{z(z-2)} = \\frac{1}{2}\\left(\\frac{1}{z-2} - \\frac{1}{z}\\right)$ and Cauchy's integral formula, the integral equals $2\\pi i \\cdot \\frac{1}{2}(e^{2i} - e^0) = \\pi i(e^{2i} - 1)$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Sturm-Liouville Problems",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the boundary value problem $y'' + y = \\sin x$ on $[0, \\pi]$ with $y(0) = 0$ and $y(\\pi) = 0$. How many solutions does this problem have?",
+      "optionsEn": [
+        "No solution",
+        "Infinitely many solutions",
+        "A unique solution",
+        "Exactly two solutions"
+      ],
+      "explanationEn": "The general solution of $y'' + y = \\sin x$ is $y(x) = c_1\\cos x + c_2\\sin x - \\frac{1}{2}x\\cos x$. The condition $y(0) = 0$ gives $c_1 = 0$. Then $y(\\pi) = c_2\\sin\\pi - \\frac{1}{2}\\pi\\cos\\pi = \\frac{\\pi}{2} \\neq 0$ for every $c_2 \\in \\mathbb{R}$. Hence no solution exists (consistent with the Fredholm alternative, as $\\int_0^{\\pi} \\sin^2 x\\,dx \\neq 0$)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Contraction Mapping Principle",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $(X, d)$ be a complete metric space and $T: X \\to X$ be a contraction with constant $c \\in (0, 1)$ and unique fixed point $x^*$. For any starting point $x_0 \\in X$, define $x_{n+1} = T(x_n)$. Which of the following error bounds are ALWAYS true for every $n \\ge 1$?",
+      "optionsEn": [
+        "$d(x_n, x^*) \\le \\frac{c^n}{1 - c} d(x_1, x_0)$",
+        "$d(x_n, x^*) \\le \\frac{c}{1 - c} d(x_n, x_{n-1})$",
+        "$d(x_n, x^*) \\le c^n d(x_0, x^*)$",
+        "$d(x_n, x^*) \\le \\frac{1}{n} d(x_1, x_0)$"
+      ],
+      "explanationEn": "(A), (B), and (C) are the standard a priori, a posteriori, and direct contraction error bounds in the Banach Fixed Point Theorem. (D) can fail for $c$ close to $1$ and small $n$ (e.g., $n = 1$, $c = 0.9$, $T(x) = 0.9x$, $x_0 = 10$: $d(x_1, x^*) = 9$, while $d(x_1, x_0) = 1$)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Existence and Uniqueness",
+      "difficulty": "Hard",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the initial value problem $y' = \\frac{y \\cos x}{1 + y^2} + e^{-x^2}$, $y(0) = 2$. Which of the following statements is TRUE?",
+      "optionsEn": [
+        "A solution exists on $(-\\infty, \\infty)$, but it is not unique.",
+        "A unique solution exists locally, but it blows up in finite positive time.",
+        "A unique solution exists on the entire real line $(-\\infty, \\infty)$.",
+        "No solution exists for $x < 0$."
+      ],
+      "explanationEn": "Let $f(x, y) = \\frac{y\\cos x}{1 + y^2} + e^{-x^2}$. Notice that $\\left|\\frac{\\partial f}{\\partial y}\\right| = \\left|\\frac{(1 - y^2)\\cos x}{(1 + y^2)^2}\\right| \\le 1$ for all $(x, y) \\in \\mathbb{R}^2$. Because $f$ is continuous on $\\mathbb{R}^2$ and globally Lipschitz in $y$ with constant $L = 1$, the global Picard-Lindelöf theorem guarantees a unique solution defined on all of $(-\\infty, \\infty)$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Group Actions",
+      "difficulty": "Hard",
+      "correctOption": "14",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 14.0,
+      "natMax": 14.0,
+      "questionTextEn": "The number of distinct circular necklaces of $6$ beads that can be made using $2$ available colors, where two necklaces are considered identical if one can be obtained from the other by a rotation (flips not allowed), is ______.",
+      "optionsEn": [],
+      "explanationEn": "The cyclic group $C_6$ acts on the $2^6$ colorings of $6$ labeled positions. For a rotation by $k$ steps ($0 \\le k \\le 5$), the number of cycles is $\\gcd(6, k)$, so the number of fixed colorings is $2^{\\gcd(6, k)}$. By Burnside's Lemma, the number of orbits is $\\frac{1}{6}(2^6 + 2^1 + 2^2 + 2^3 + 2^2 + 2^1) = \\frac{64 + 2 + 4 + 8 + 4 + 2}{6} = \\frac{84}{6} = 14$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Numerical Integration",
+      "difficulty": "Medium",
+      "correctOption": "0.9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.9,
+      "natMax": 0.9,
+      "questionTextEn": "Let $I = \\int_0^3 x^4\\,dx$, and let $Q$ be its approximation computed by Simpson's $3/8$ rule using the four equally spaced nodes $0, 1, 2, 3$. The absolute error $|Q - I|$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "With $h = 1$, Simpson's $3/8$ rule gives $Q = \\frac{3h}{8}[f(0) + 3f(1) + 3f(2) + f(3)] = \\frac{3}{8}[0 + 3(1) + 3(16) + 81] = \\frac{3}{8}(132) = 49.5$. The exact integral is $I = \\frac{3^5}{5} = 48.6$. Therefore, $|Q - I| = |49.5 - 48.6| = 0.9$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Compactness",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a topological space, $Y$ be a compact topological space, and $f : X \\to Y$ be a function whose graph $\\Gamma_f = \\{(x, f(x)) : x \\in X\\}$ is closed in $X \\times Y$. Which of the following statements is ALWAYS true?",
+      "optionsEn": [
+        "$f$ is a closed map",
+        "$f$ need not be continuous unless $Y$ is Hausdorff",
+        "$f$ is continuous",
+        "$f$ is continuous only when $X$ is also Hausdorff"
+      ],
+      "explanationEn": "This is the Closed Graph Theorem for compact codomains: for any closed subset $K \\subseteq Y$, $K$ is compact. By the Tube Lemma, the projection $\\pi_X : X \\times K \\to X$ is a closed map. Since $f^{-1}(K) = \\pi_X(\\Gamma_f \\cap (X \\times K))$ and $\\Gamma_f \\cap (X \\times K)$ is closed in $X \\times K$, it follows that $f^{-1}(K)$ is closed in $X$. Thus $f$ is continuous (no Hausdorff assumption on $X$ or $Y$ is needed)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Residue Theorem",
+      "difficulty": "Medium",
+      "correctOption": "2.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.5,
+      "natMax": 2.5,
+      "questionTextEn": "Let $C$ be the positively oriented unit circle $|z| = 1$. The value of $\\frac{1}{2\\pi i} \\oint_C \\frac{e^{3z}\\cos(2z)}{z^3}\\,dz$ (exact decimal value) is ______.",
+      "optionsEn": [],
+      "explanationEn": "The integral equals the residue at $z = 0$, which is the coefficient of $z^2$ in $e^{3z}\\cos(2z) = \\left(1 + 3z + \\frac{9}{2}z^2 + \\cdots\\right)\\left(1 - 2z^2 + \\cdots\\right)$. This coefficient is $\\frac{9}{2} - 2 = 2.5$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Rouché's Theorem",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The number of roots (counted with multiplicity) of the equation $e^z - 4z^3 + 1 = 0$ inside the open unit disk $|z| < 1$ is:",
+      "optionsEn": [
+        "$4$",
+        "$2$",
+        "$1$",
+        "$3$"
+      ],
+      "explanationEn": "Set $f(z) = -4z^3$ and $g(z) = e^z + 1$. On $|z| = 1$, $|f(z)| = 4$, whereas $|g(z)| \\le |e^z| + 1 = e^{\\operatorname{Re}(z)} + 1 \\le e + 1 \\approx 3.718 < 4 = |f(z)|$. By Rouché's theorem, $f + g$ has the same number of zeros in $|z| < 1$ as $-4z^3$, which is $3$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Uniform Convergence",
+      "difficulty": "Medium",
+      "correctOption": "2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 2.0,
+      "natMax": 2.0,
+      "questionTextEn": "For $n \\ge 1$, define $f_n(x) = \\frac{4 n x}{1 + n^2 x^2}$ on $[0, 1]$. Compute $\\lim_{n \\to \\infty} \\left(\\sup_{x \\in [0, 1]} f_n(x)\\right)$.",
+      "optionsEn": [],
+      "explanationEn": "Setting $u = nx \\in [0, n]$, we have $f_n(x) = \\frac{4u}{1 + u^2}$. By AM-GM, $\\frac{4u}{1 + u^2} \\le 2$, with equality achieved at $u = 1$, i.e., $x = \\frac{1}{n} \\in [0, 1]$ for every $n \\ge 1$. Hence $\\sup_{x \\in [0, 1]} f_n(x) = 2$ for all $n \\ge 1$, and the limit is $2$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_ode",
+      "sectionTitle": "Ordinary Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Laplace Transforms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: [0, \\infty) \\to \\mathbb{R}$ be continuously differentiable and of exponential order with Laplace transform $F(s) = \\mathcal{L}\\{f(t)\\}(s)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$\\lim_{s \\to \\infty} F(s) = 0$.",
+        "$\\lim_{s \\to \\infty} s F(s) = f(0^+)$.",
+        "If $F(s) = \\frac{3s + 5}{s(s + 2)(s + 1)}$, then $\\lim_{t \\to \\infty} f(t) = \\frac{5}{2}$.",
+        "If $F(s) = \\frac{1}{s^2 + 1}$, then $\\lim_{t \\to \\infty} f(t) = \\lim_{s \\to 0^+} s F(s) = 0$."
+      ],
+      "explanationEn": "(A) True: standard property of Laplace transforms of functions of exponential order. (B) True by the Initial Value Theorem. (C) True: all non-zero poles of $sF(s) = \\frac{3s + 5}{(s+2)(s+1)}$ lie strictly in $\\operatorname{Re}(s) < 0$, so the Final Value Theorem gives $\\lim_{t\\to\\infty} f(t) = \\lim_{s\\to 0^+} sF(s) = \\frac{5}{2}$. (D) False: $f(t) = \\sin t$ has no limit as $t \\to \\infty$ because $sF(s)$ has poles $\\pm i$ on the imaginary axis, violating the Final Value Theorem hypothesis."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Quadratic Forms",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_n(\\mathbb{R})$ be a real symmetric positive semidefinite matrix ($x^T A x \\ge 0$ for all $x \\in \\mathbb{R}^n$). Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "There exists a real matrix $B \\in M_n(\\mathbb{R})$ such that $A = B^T B$",
+        "$\\det(A) \\ge 0$",
+        "$a_{ii} a_{jj} \\ge a_{ij}^2$ for all $1 \\le i, j \\le n$",
+        "If $a_{ii} = 0$ for some $i$, then the entire $i$-th row and $i$-th column of $A$ are zero"
+      ],
+      "explanationEn": "Orthogonally diagonalize $A = Q \\Lambda Q^T$ with $\\Lambda \\ge 0$; setting $B = \\Lambda^{1/2} Q^T$ gives $A = B^T B$ (A). All eigenvalues $\\lambda_i \\ge 0$, so $\\det(A) \\ge 0$ (B). Every $2 \\times 2$ principal submatrix $\\begin{pmatrix} a_{ii} & a_{ij} \\\\ a_{ij} & a_{jj} \\end{pmatrix}$ is positive semidefinite, so $a_{ii} a_{jj} - a_{ij}^2 \\ge 0$ (C). If $a_{ii} = 0$, then (C) forces $a_{ij}^2 \\le 0 \\implies a_{ij} = 0$ for all $j$, and by symmetry $a_{ji} = 0$ (D)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Normal Subgroups & Quotient Groups",
+      "difficulty": "Hard",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $G$ be a group and $G' = [G, G]$ be its commutator subgroup. For a normal subgroup $N \\trianglelefteq G$, the quotient group $G/N$ is abelian if and only if:",
+      "optionsEn": [
+        "$N \\subseteq G'$",
+        "$G' \\subseteq N$",
+        "$N \\cap G' = \\{e\\}$",
+        "$N = Z(G)$"
+      ],
+      "explanationEn": "For any $a, b \\in G$, the cosets $aN$ and $bN$ commute in $G/N$ iff $(aN)(bN)(aN)^{-1}(bN)^{-1} = N$, which holds iff $aba^{-1}b^{-1} \\in N$. Thus $G/N$ is abelian iff $N$ contains every commutator $aba^{-1}b^{-1}$, i.e., iff $G' \\subseteq N$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Lagrange Multipliers",
+      "difficulty": "Medium",
+      "correctOption": "36",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 36.0,
+      "natMax": 36.0,
+      "questionTextEn": "The minimum value of $f(x, y, z) = x^2 + y^2 + z^2$ subject to the plane constraint $x + 2y + 2z = 18$ is _____.",
+      "optionsEn": [],
+      "explanationEn": "By Lagrange multipliers, $(2x, 2y, 2z) = \\lambda(1, 2, 2)$, giving $x = \\frac{\\lambda}{2}, y = \\lambda, z = \\lambda$. Substituting into $x + 2y + 2z = 18$ yields $\\frac{9}{2}\\lambda = 18 \\implies \\lambda = 4$, so $(x, y, z) = (2, 4, 4)$ and $f_{\\min} = 4 + 16 + 16 = 36$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Uniform Continuity",
+      "difficulty": "Hard",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: (0, \\infty) \\to \\mathbb{R}$ be continuous, and suppose $\\lim_{x \\to 0^+} f(x) = L_1 \\in \\mathbb{R}$ and $\\lim_{x \\to \\infty} f(x) = L_2 \\in \\mathbb{R}$. Which of the following MUST be true?",
+      "optionsEn": [
+        "$f$ is uniformly continuous on $(0, \\infty)$",
+        "$f$ is Lipschitz continuous on $(0, \\infty)$",
+        "$f$ attains both its supremum and infimum on $(0, \\infty)$",
+        "$f$ is differentiable on $(0, \\infty)$"
+      ],
+      "explanationEn": "Given $\\varepsilon > 0$, choose $M > 0$ such that $|f(x) - L_2| < \\varepsilon/2$ for all $x \\ge M$. Extend $f$ continuously to $[0, M + 1]$ by setting $f(0) = L_1$; since $[0, M + 1]$ is compact, $f$ is uniformly continuous on $[0, M + 1]$ with some $\\delta \\in (0, 1)$. For any $x, y > 0$ with $|x - y| < \\delta$, either both lie in $[0, M + 1]$ or both lie in $[M, \\infty)$, giving $|f(x) - f(y)| < \\varepsilon$. Lipschitzness (B) fails for $\\sqrt{x}/(1 + \\sqrt{x})$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_na",
+      "sectionTitle": "Numerical Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Nonlinear Equations",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "To find the roots $1$ and $2$ of $x^2 - 3x + 2 = 0$, consider the following fixed-point iterations $x_{n+1} = g(x_n)$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "For $g_1(x) = \\frac{x^2 + 2}{3}$, the iteration converges locally to $1$ but diverges locally from $2$.",
+        "For $g_2(x) = \\sqrt{3x - 2}$, the iteration converges locally to $2$.",
+        "For $g_3(x) = 3 - \\frac{2}{x}$, the iteration converges locally to $1$.",
+        "For $g_4(x) = \\frac{x^2 - 2}{2x - 3}$, the iteration converges quadratically to $2$ when started sufficiently close to $2$."
+      ],
+      "explanationEn": "Check $|g'(\\xi)|$: For $g_1(x) = \\frac{x^2+2}{3}$, $g_1'(x) = \\frac{2x}{3}$, so $g_1'(1) = \\frac{2}{3} < 1$ (converges) and $g_1'(2) = \\frac{4}{3} > 1$ (diverges), making (A) true. For $g_2(x) = \\sqrt{3x-2}$, $g_2'(2) = \\frac{3}{2\\sqrt{4}} = \\frac{3}{4} < 1$, so (B) is true. For $g_3(x) = 3 - \\frac{2}{x}$, $g_3'(x) = \\frac{2}{x^2}$, so $g_3'(1) = 2 > 1$ (diverges from $1$), making (C) false. Finally, $g_4(x) = x - \\frac{x^2-3x+2}{2x-3} = \\frac{x^2-2}{2x-3}$ is the Newton-Raphson map for a simple root at $2$, so $g_4'(2) = 0$ and convergence is quadratic (D is true)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Laplace Equation & Maximum Principle",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider Laplace's equation $\\Delta u = u_{rr} + \\frac{1}{r}u_r + \\frac{1}{r^2}u_{\\theta\\theta} = 0$ in polar coordinates $(r, \\theta)$. Which of the following functions satisfy $\\Delta u = 0$ in the punctured plane $\\mathbb{R}^2 \\setminus \\{(0, 0)\\}$?",
+      "optionsEn": [
+        "$u(r, \\theta) = \\ln r$",
+        "$u(r, \\theta) = r^{-2} \\cos(2\\theta)$",
+        "$u(r, \\theta) = r^3 \\sin(3\\theta)$",
+        "$u(r, \\theta) = r \\cos(2\\theta)$"
+      ],
+      "explanationEn": "Separated harmonic functions in $\\mathbb{R}^2 \\setminus \\{0\\}$ are linear combinations of $1$, $\\ln r$, $r^n \\cos(n\\theta)$, $r^n \\sin(n\\theta)$, $r^{-n}\\cos(n\\theta)$, and $r^{-n}\\sin(n\\theta)$ for integers $n \\ge 1$. Thus (A), (B), and (C) are harmonic on $\\mathbb{R}^2 \\setminus \\{0\\}$. For (D), $\\Delta(r\\cos 2\\theta) = \\left(0 + \\frac{1}{r} - \\frac{4}{r}\\right)\\cos 2\\theta = -\\frac{3}{r}\\cos 2\\theta \\neq 0$, so (D) is false."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Jordan Canonical Form",
+      "difficulty": "Hard",
+      "correctOption": "9",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 9.0,
+      "natMax": 9.0,
+      "questionTextEn": "Let $J \\in M_5(\\mathbb{C})$ be the nilpotent Jordan matrix consisting of one Jordan block of size $3$ and one Jordan block of size $2$. What is the dimension of the complex vector space $C(J) = \\{X \\in M_5(\\mathbb{C}) : XJ = JX\\}$?",
+      "optionsEn": [],
+      "explanationEn": "For a nilpotent Jordan matrix with block sizes $p_1 \\ge p_2 \\ge \\dots \\ge p_r$, the dimension of the centralizer $C(J)$ is $\\sum_{i=1}^r (2i - 1) p_i$. Here $p_1 = 3$ and $p_2 = 2$, so $\\dim_{\\mathbb{C}} C(J) = 1(3) + 3(2) = 3 + 6 = 9$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_pde",
+      "sectionTitle": "Partial Differential Equations",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Transform Methods",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\hat{u}(\\omega, t) = \\int_{-\\infty}^{\\infty} u(x, t)e^{-i\\omega x}\\,dx$ be the spatial Fourier transform of the solution to $u_{tt} = c^2 u_{xx}$ ($x \\in \\mathbb{R}, t > 0$) with $u(x, 0) = f(x)$ and $u_t(x, 0) = g(x)$. Then $\\hat{u}(\\omega, t)$ is:",
+      "optionsEn": [
+        "$\\hat{f}(\\omega)\\cos(c\\omega t) + \\hat{g}(\\omega)\\frac{\\sin(c\\omega t)}{c\\omega}$",
+        "$\\hat{f}(\\omega)\\cos(c\\omega t) + \\hat{g}(\\omega)\\sin(c\\omega t)$",
+        "$\\hat{f}(\\omega)\\cosh(c\\omega t) + \\hat{g}(\\omega)\\frac{\\sinh(c\\omega t)}{c\\omega}$",
+        "$\\hat{f}(\\omega)e^{-c\\omega^2 t} + \\hat{g}(\\omega)t e^{-c\\omega^2 t}$"
+      ],
+      "explanationEn": "Taking the spatial Fourier transform converts $u_{tt} = c^2 u_{xx}$ into the ODE $\\hat{u}_{tt} + c^2 \\omega^2 \\hat{u} = 0$ with $\\hat{u}(\\omega, 0) = \\hat{f}(\\omega)$ and $\\hat{u}_t(\\omega, 0) = \\hat{g}(\\omega)$. Solving this harmonic oscillator ODE gives $\\hat{u}(\\omega, t) = \\hat{f}(\\omega)\\cos(c\\omega t) + \\hat{g}(\\omega)\\frac{\\sin(c\\omega t)}{c\\omega}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Projection Theorem",
+      "difficulty": "Hard",
+      "correctOption": "180",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 180.0,
+      "natMax": 180.0,
+      "questionTextEn": "In the real Hilbert space $L^2[0, 1]$, let $d = \\inf_{a, b \\in \\mathbb{R}} \\left(\\int_0^1 |t^2 - (a + bt)|^2\\,dt\\right)^{1/2}$ be the shortest distance from $f(t) = t^2$ to the subspace $\\operatorname{span}\\{1, t\\}$. The value of $\\frac{1}{d^2}$ (in integer) is ______.",
+      "optionsEn": [],
+      "explanationEn": "The best approximation $p(t) = a + bt$ satisfies the orthogonality conditions $\\int_0^1 (t^2 - a - bt)\\,dt = 0$ and $\\int_0^1 t(t^2 - a - bt)\\,dt = 0$, yielding $a + \\frac{b}{2} = \\frac{1}{3}$ and $\\frac{a}{2} + \\frac{b}{3} = \\frac{1}{4}$. Solving gives $b = 1$ and $a = -\\frac{1}{6}$, so $t^2 - p(t) = t^2 - t + \\frac{1}{6}$. Then $d^2 = \\int_0^1 \\left(t^2 - t + \\frac{1}{6}\\right)^2 dt = \\frac{1}{5} - \\frac{1}{2} + \\frac{4}{9} - \\frac{1}{6} + \\frac{1}{36} = \\frac{1}{180}$, hence $\\frac{1}{d^2} = 180$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Jordan Canonical Form",
+      "difficulty": "Medium",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "What is the Jordan canonical form of the companion matrix\n$$C = \\begin{pmatrix} 0 & 0 & -4 \\\\ 1 & 0 & 0 \\\\ 0 & 1 & 3 \\end{pmatrix}?$$",
+      "optionsEn": [
+        "$\\operatorname{diag}(2, 2, -1)$",
+        "$\\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -2 & 1 & 0 \\\\ 0 & -2 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & -1 & 1 \\\\ 0 & 0 & -1 \\end{pmatrix}$"
+      ],
+      "explanationEn": "The characteristic polynomial of a companion matrix equals its minimal polynomial. Here $\\chi_C(t) = m_C(t) = t^3 - 3t^2 + 4 = (t - 2)^2(t + 1)$. Since $(t-2)^2$ appears in $m_C(t)$, eigenvalue $2$ has a single Jordan block of size $2$, and eigenvalue $-1$ has a block of size $1$, giving option (B)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Directional Derivatives",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The directional derivative of $f(x, y, z) = xy^2 + yz^3$ at $(2, -1, 1)$ in the direction of the normal to the surface $x\\log z - y^2 = -4$ at $(-1, 2, 1)$ is:",
+      "optionsEn": [
+        "$\\frac{15}{\\sqrt{17}}$",
+        "$-\\frac{11}{\\sqrt{17}}$",
+        "$-\\frac{15}{\\sqrt{17}}$",
+        "$\\frac{11}{\\sqrt{17}}$"
+      ],
+      "explanationEn": "For $f$, $\\nabla f = (y^2, 2xy + z^3, 3yz^2)$, so $\\nabla f(2, -1, 1) = (1, -3, -3)$. For $g(x, y, z) = x\\ln z - y^2$, $\\nabla g = (\\ln z, -2y, x/z)$, so $\\nabla g(-1, 2, 1) = (0, -4, -1)$ with magnitude $\\sqrt{17}$. The directional derivative is $\\frac{(1)(0) + (-3)(-4) + (-3)(-1)}{\\sqrt{17}} = \\frac{15}{\\sqrt{17}}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_cal",
+      "sectionTitle": "Calculus",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Double Integrals",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the iterated integrals $I_1 = \\int_0^1 \\left(\\int_0^1 \\frac{x^2 - y^2}{(x^2 + y^2)^2}\\,dy\\right)dx$ and $I_2 = \\int_0^1 \\left(\\int_0^1 \\frac{x^2 - y^2}{(x^2 + y^2)^2}\\,dx\\right)dy$. Which of the following statements is/are TRUE?",
+      "optionsEn": [
+        "$I_1 = \\frac{\\pi}{4}$.",
+        "$I_2 = -\\frac{\\pi}{4}$.",
+        "$I_1 = I_2$ by Fubini's theorem.",
+        "$\\iint_{[0,1]^2} \\left|\\frac{x^2 - y^2}{(x^2 + y^2)^2}\\right|\\,dx\\,dy = \\infty$."
+      ],
+      "explanationEn": "Note $\\frac{\\partial}{\\partial y}\\left(\\frac{y}{x^2+y^2}\\right) = \\frac{x^2 - y^2}{(x^2+y^2)^2}$. Thus $I_1 = \\int_0^1 \\frac{1}{x^2+1}\\,dx = \\frac{\\pi}{4}$ (A true). By antisymmetry in $x$ and $y$, $I_2 = -I_1 = -\\frac{\\pi}{4}$ (B true, C false). Since $I_1 \\neq I_2$, Fubini-Tonelli implies the absolute integral must diverge to $\\infty$ (D true)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_lp",
+      "sectionTitle": "Linear Programming",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Linear Programming Models",
+      "difficulty": "Medium",
+      "correctOption": "22",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 22.0,
+      "natMax": 22.0,
+      "questionTextEn": "Consider the LPP: Maximize $Z = 3x_1 + 2x_2 + x_3$ subject to $x_1 + x_2 + x_3 = 8$, $x_1 - x_2 \\le 4$, $x_2 \\le 5$, $x_1 \\ge 0$, $x_3 \\ge 0$, and $x_2$ unrestricted in sign. What is the optimal value of $Z$?",
+      "optionsEn": [],
+      "explanationEn": "Using $x_3 = 8 - x_1 - x_2 \\ge 0$, the objective becomes $Z = 8 + 2x_1 + x_2$ subject to $x_1 + x_2 \\le 8$, $x_1 - x_2 \\le 4$, $x_2 \\le 5$, and $x_1 \\ge 0$. Adding $x_1 + x_2 \\le 8$ and $x_1 - x_2 \\le 4$ gives $2x_1 \\le 12 \\implies x_1 \\le 6$. Moreover, $2x_1 + x_2 = \\frac{3}{2}(x_1 + x_2) + \\frac{1}{2}(x_1 - x_2) \\le \\frac{3}{2}(8) + \\frac{1}{2}(4) = 14$, achieved at $x_1 = 6, x_2 = 2, x_3 = 0$. Hence $Z^* = 3(6) + 2(2) + 1(0) = 22$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_ra",
+      "sectionTitle": "Real Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Measurable Functions",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: [0, 1] \\to \\mathbb{R}$ be a Lebesgue measurable function. By Lusin's Theorem, for every $\\varepsilon > 0$ there exists a closed set $F \\subseteq [0, 1]$ such that:",
+      "optionsEn": [
+        "$m(F) < \\varepsilon$ and $f$ is differentiable on $F$",
+        "$f$ is uniformly continuous on $[0, 1] \\setminus F$",
+        "$m([0, 1] \\setminus F) < \\varepsilon$ and the restriction $f|_F$ is continuous on $F$",
+        "$m([0, 1] \\setminus F) = 0$ and $f$ is continuous at every point of $F$"
+      ],
+      "explanationEn": "Lusin's Theorem states that for any Lebesgue measurable function $f$ on $[0, 1]$ and any $\\varepsilon > 0$, there exists a closed (compact) subset $F \\subseteq [0, 1]$ with $m([0, 1] \\setminus F) < \\varepsilon$ such that the restricted map $f|_F: F \\to \\mathbb{R}$ is continuous."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q61",
+      "questionNumber": 61,
+      "sectionId": "sec_top",
+      "sectionTitle": "Topology",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Basic Concepts of Topology",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A$ be a subset of a topological space $X$, and let $\\partial A = \\overline{A} \\cap \\overline{X \\setminus A}$ denote the boundary of $A$. Which of the following statements are ALWAYS true?",
+      "optionsEn": [
+        "$\\partial A$ is always a closed subset of $X$",
+        "$A$ is closed if and only if $\\partial A \\subseteq A$",
+        "$A$ is open if and only if $A \\cap \\partial A = \\emptyset$",
+        "$\\partial(\\partial A) = \\partial A$"
+      ],
+      "explanationEn": "(A) $\\partial A$ is the intersection of two closed sets, hence closed. (B) Since $\\overline{A} = A \\cup \\partial A$, $A = \\overline{A} \\iff \\partial A \\subseteq A$. (C) Since $\\operatorname{int}(A) = A \\setminus \\partial A$, $A = \\operatorname{int}(A) \\iff A \\cap \\partial A = \\emptyset$. (D) is false in general: in $\\mathbb{R}$, for $A = \\mathbb{Q}$, $\\partial \\mathbb{Q} = \\mathbb{R}$, whereas $\\partial(\\partial \\mathbb{Q}) = \\partial \\mathbb{R} = \\emptyset \\neq \\mathbb{R}$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q62",
+      "questionNumber": 62,
+      "sectionId": "sec_ca",
+      "sectionTitle": "Complex Analysis",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Cauchy's Integral Formula",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f$ be analytic on the open disk $|z| < 4$ and satisfy $|f(z)| \\le 12$ for all $|z| < 4$. Which of the following inequalities MUST hold?",
+      "optionsEn": [
+        "$|f'(0)| \\le 3$",
+        "$|f''(0)| \\le \\frac{3}{2}$",
+        "$|f'''(0)| \\le \\frac{9}{8}$",
+        "$|f'(2)| \\le 6$"
+      ],
+      "explanationEn": "By Cauchy's inequality on $|z - z_0| < R$, $|f^{(n)}(z_0)| \\le \\frac{n! M}{R^n}$ with $M = 12$. At $z_0 = 0$, we can take $R \\to 4^-$: (A) $|f'(0)| \\le \\frac{1! \\cdot 12}{4} = 3$. (B) $|f''(0)| \\le \\frac{2! \\cdot 12}{4^2} = \\frac{24}{16} = \\frac{3}{2}$. (C) $|f'''(0)| \\le \\frac{3! \\cdot 12}{4^3} = \\frac{72}{64} = \\frac{9}{8}$. (D) Around $z_0 = 2$, the largest disk inside $|z| < 4$ has radius $R = 2$, giving $|f'(2)| \\le \\frac{1! \\cdot 12}{2} = 6$."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q63",
+      "questionNumber": 63,
+      "sectionId": "sec_la",
+      "sectionTitle": "Linear Algebra",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Eigenvalues and Eigenvectors",
+      "difficulty": "Hard",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $A \\in M_n(\\mathbb{C})$ satisfy $\\operatorname{tr}(A^k) = 0$ for all integers $k = 1, 2, \\dots, n$. Which of the following MUST be true?",
+      "optionsEn": [
+        "$A$ is skew-Hermitian",
+        "$A$ is diagonalizable",
+        "$A = 0$",
+        "$A$ is nilpotent"
+      ],
+      "explanationEn": "By Newton's identities over a field of characteristic $0$, the power sums $p_k = \\operatorname{tr}(A^k) = 0$ for $1 \\le k \\le n$ force all elementary symmetric polynomials $e_1, \\dots, e_n$ of the eigenvalues of $A$ to vanish. Hence $\\chi_A(t) = t^n$, so all eigenvalues are $0$ and $A$ is nilpotent ($A^n = 0$)."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q64",
+      "questionNumber": 64,
+      "sectionId": "sec_alg",
+      "sectionTitle": "Algebra",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Sylow's Theorems",
+      "difficulty": "Hard",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following integers $n$ has the property that NO group of order $n$ can be simple?",
+      "optionsEn": [
+        "$36$",
+        "$45$",
+        "$60$",
+        "$105$"
+      ],
+      "explanationEn": "(A) For $|G|=36=2^2\\cdot 3^2$, $n_3 \\in \\{1, 4\\}$. If $n_3 = 4$, conjugation on the $4$ Sylow $3$-subgroups gives a nontrivial homomorphism $G \\to S_4$, which cannot be injective since $36 \\nmid 24$, so $G$ has a proper nontrivial normal subgroup. (B) For $|G|=45=3^2\\cdot 5$, $n_5 = 1$, so not simple. (C) $A_5$ is a simple group of order $60$. (D) For $|G|=105=3\\cdot 5\\cdot 7$, counting elements shows either $n_5 = 1$ or $n_7 = 1$ (if $n_5=21$ and $n_7=15$, we get $21\\cdot 4 + 15\\cdot 6 = 174 > 105$), so not simple."
+    },
+    {
+      "questionId": "gate_ma_mock_09_q65",
+      "questionNumber": 65,
+      "sectionId": "sec_fa",
+      "sectionTitle": "Functional Analysis",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE MA Mock 09",
+      "topicTag": "Normed Linear Spaces",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $X$ be a normed linear space and $M$ be a proper closed subspace of $X$. By Riesz's Lemma, for every $\\theta \\in (0, 1)$, there exists $x_\\theta \\in X$ with $\\|x_\\theta\\| = 1$ such that:",
+      "optionsEn": [
+        "$\\operatorname{dist}(x_\\theta, M) \\le \\theta$",
+        "$\\|x_\\theta - y\\| = 1$ for all $y \\in M$",
+        "$\\operatorname{dist}(x_\\theta, M) = 1$ for every Banach space $X$",
+        "$\\operatorname{dist}(x_\\theta, M) \\ge \\theta$"
+      ],
+      "explanationEn": "Riesz's Lemma states that for any proper closed subspace $M$ of a normed space $X$ and any $0 < \\theta < 1$, there exists a unit vector $x_\\theta \\in X$ with $\\inf_{y \\in M} \\|x_\\theta - y\\| \\ge \\theta$. Note that $\\theta = 1$ cannot always be achieved in non-reflexive Banach spaces (e.g., $M = \\ker(f)$ in $c_0$ for a functional $f$ not attaining its norm)."
+    }
+  ]
+}
