@@ -2,7 +2,7 @@ import os
 import json
 import re
 
-TESTS_DIR = "tests/tgt_pgt_history"
+TESTS_DIR = "tests/teaching/tgt_pgt_history"
 
 ARTIFACT_PATTERNS = [
     r'uee@', r'kewâ', r'cesÙ', r'fह्',

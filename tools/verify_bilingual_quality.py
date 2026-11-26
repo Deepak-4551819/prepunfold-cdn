@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-TESTS_DIR = "tests/tgt_pgt_history"
+TESTS_DIR = "tests/teaching/tgt_pgt_history"
 MANIFEST_FILE = "manifest.json"
 MASTER_MANIFEST = "manifest_tgt_pgt_history_master.json"
 
@@ -22,7 +22,7 @@ def audit_all_chapters():
     results = []
     total_extracted_q = 0
 
-    print("Auditing 30 chapter files in tests/tgt_pgt_history...")
+    print("Auditing 30 chapter files in tests/teaching/tgt_pgt_history...")
     print("=" * 100)
     print(f"{'File':<52} | {'Qs':<4} | {'Dur':<4} | {'EmptyOpts':<9} | {'SameEnHi':<8} | {'Artifacts':<9} | {'Status'}")
     print("-" * 100)
@@ -44,19 +44,16 @@ def audit_all_chapters():
         artifact_count = 0
 
         for q in questions:
-            # Check options
             opts_hi = q.get('optionsHi', [])
             opts_en = q.get('optionsEn', [])
             if len(opts_hi) < 4 or any(not str(o).strip() for o in opts_hi) or len(opts_en) < 4 or any(not str(o).strip() for o in opts_en):
                 empty_opts_count += 1
 
-            # Check question and options identical
             q_hi = str(q.get('questionTextHi') or '').strip()
             q_en = str(q.get('questionTextEn') or '').strip()
             if (q_hi and q_en and q_hi == q_en) or ([str(o).strip() for o in opts_hi] == [str(o).strip() for o in opts_en]):
                 same_en_hi_count += 1
 
-            # Check artifacts
             texts = [q_hi, str(q.get('explanationHi') or '')] + [str(o) for o in opts_hi]
             for t in texts:
                 artifact_count += check_artifacts(t)
@@ -83,14 +80,15 @@ def audit_all_chapters():
     hist_tests = [t for t in manifest.get('tests', []) if (t.get('categoryId') or t.get('category_id')) == 'tgt_pgt_history']
     print(f"Total tgt_pgt_history tests in manifest.json: {len(hist_tests)}")
 
-    old_papers = [t for t in hist_tests if 'teaching/tgt_pgt_history' in (t.get('jsonUrl') or t.get('filePath') or t.get('path') or '')]
-    print(f"Old low-question paper references remaining: {len(old_papers)}")
-    if len(old_papers) == 0:
+    old_pyq_papers = [t for t in hist_tests if '/pyq/' in (t.get('jsonUrl') or t.get('filePath') or t.get('path') or '') or '/sectional_tests/' in (t.get('jsonUrl') or t.get('filePath') or t.get('path') or '')]
+    print(f"Old pyq/sectional_tests paper references remaining: {len(old_pyq_papers)}")
+    if len(old_pyq_papers) == 0:
         print("[PASS] 100% of old TGT/PGT History papers have been removed from manifest.json.")
     else:
         print("[FAIL] Some old papers still exist in manifest.json.")
 
     duration_mismatches = []
+    path_mismatches = []
     for t in hist_tests:
         tid = t.get('testId') or t.get('test_id')
         dur = t.get('durationMinutes') or t.get('duration_minutes')
@@ -99,10 +97,19 @@ def audit_all_chapters():
         if dur != expected:
             duration_mismatches.append((tid, dur, expected))
 
+        path = t.get('path') or t.get('filePath') or ''
+        if not path.startswith('tests/teaching/tgt_pgt_history/'):
+            path_mismatches.append((tid, path))
+
     if not duration_mismatches:
         print("[PASS] durationMinutes == min(420, max(60, totalQuestions)) for 100% of tests in manifest.json.")
     else:
         print(f"[FAIL] Duration mismatches in manifest.json: {duration_mismatches}")
+
+    if not path_mismatches:
+        print("[PASS] All tgt_pgt_history tests correctly point to tests/teaching/tgt_pgt_history/")
+    else:
+        print(f"[FAIL] Path mismatches in manifest.json: {path_mismatches}")
 
     with open(MASTER_MANIFEST, 'r', encoding='utf-8') as f:
         master = json.load(f)
