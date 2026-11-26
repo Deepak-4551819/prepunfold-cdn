@@ -1,0 +1,1879 @@
+{
+  "testId": "gate_da_pyq_2024",
+  "categoryId": "gate_da",
+  "test_id": "gate_da_pyq_2024",
+  "category_id": "gate_da",
+  "title": "GATE 2024 Data Science & Artificial Intelligence (DA) Official Solved Paper",
+  "titleEn": "GATE 2024 Data Science & Artificial Intelligence (DA) Official Solved Paper",
+  "testType": "PYQ",
+  "test_type": "PYQ",
+  "isFree": true,
+  "is_free": true,
+  "durationMinutes": 180,
+  "duration_minutes": 180,
+  "totalQuestions": 65,
+  "total_questions": 65,
+  "maxMarks": 100.0,
+  "positiveMarks": 2.0,
+  "negativeMarks": 0.33,
+  "examYear": 2024,
+  "shiftBadge": "GATE DA • 2024 Official Paper",
+  "sections": [
+    {
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "sectionTitleEn": "General Aptitude",
+      "questionCount": 10,
+      "totalMarks": 15.0
+    },
+    {
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "sectionTitleEn": "Data Science & Artificial Intelligence",
+      "questionCount": 55,
+      "totalMarks": 85.0
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "gate_da_2024_q01",
+      "questionNumber": 1,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Verbal Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "If '$\\rightarrow$' denotes increasing order of intensity, then the meaning of the words [sick $\\rightarrow$ infirm $\\rightarrow$ moribund] is analogous to [silly $\\rightarrow$ ________ $\\rightarrow$ daft].\n\nWhich one of the given options is appropriate to fill the blank?",
+      "optionsEn": [
+        "frown",
+        "fawn",
+        "vein",
+        "vain"
+      ],
+      "explanationEn": "In [sick -> infirm -> moribund], the words progress from mild to severe weakness/illness. Similarly, [silly -> vain -> daft] progresses in intensity of foolishness/triviality: 'vain' (empty, foolish, or excessively proud) bridges 'silly' and 'daft' (foolish/absurd), whereas 'frown', 'fawn', and 'vein' are unrelated in meaning. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q02",
+      "questionNumber": 2,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.02]\n\nThe 15 parts of the given figure are to be painted such that no two adjacent parts with shared boundaries (excluding corners) have the same color. The minimum number of colors required is",
+      "optionsEn": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "explanationEn": "The central circle is divided into 3 sectors that all share boundaries pairwise, forming a triangle ($K_3$), which requires at least 3 colors. Surrounding this central circle is a ring of 4 regions inside the inscribed rectangle, and each inner sector shares boundaries with multiple surrounding regions; specifically, the top two sectors and bottom sector each border outer trapezoidal regions that also border one another, creating a $K_4$ adjacency requirement (or an odd wheel/planar obstruction requiring a 4th color). By the Four Color Theorem, any planar map can be properly colored with at most 4 colors, and 3 colors are insufficient here. Thus, the minimum number of colors required is 4. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q03",
+      "questionNumber": 3,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "How many 4-digit positive integers divisible by 3 can be formed using only the digits $\\{1, 3, 4, 6, 7\\}$, such that no digit appears more than once in a number?",
+      "optionsEn": [
+        "24",
+        "48",
+        "72",
+        "12"
+      ],
+      "explanationEn": "A number is divisible by 3 if and only if the sum of its digits is divisible by 3. The sum of all 5 digits is $1 + 3 + 4 + 6 + 7 = 21$, which is divisible by 3. To form a 4-digit number whose digit sum is divisible by 3, the omitted digit must also be divisible by 3. From $\\{1, 3, 4, 6, 7\\}$, the digits divisible by 3 are $3$ and $6$ (2 choices to omit). For each valid set of 4 distinct digits, there are $4! = 24$ permutations. Total valid 4-digit numbers $= 2 \\times 24 = 48$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q04",
+      "questionNumber": 4,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The sum of the following infinite series is\n\n$$2 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{9} + \\frac{1}{16} + \\frac{1}{27} + \\cdots$$",
+      "optionsEn": [
+        "$11/3$",
+        "$7/2$",
+        "$13/4$",
+        "$9/2$"
+      ],
+      "explanationEn": "Group the terms into the constant $2$ and two convergent infinite geometric series:\n$$S = 2 + \\left(\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\cdots\\right) + \\left(\\frac{1}{3} + \\frac{1}{9} + \\frac{1}{27} + \\cdots\\right)$$\nUsing $\\sum_{k=1}^{\\infty} r^k = \\frac{r}{1-r}$ for $|r| < 1$:\n$$S = 2 + \\frac{1/2}{1 - 1/2} + \\frac{1/3}{1 - 1/3} = 2 + 1 + \\frac{1}{2} = \\frac{7}{2}.$$\nHence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q05",
+      "questionNumber": 5,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.05]\n\nIn an election, the share of valid votes received by the four candidates A, B, C, and D is represented by the pie chart shown (Share of valid votes: A = 40%, B = 25%, C = 20%, D = 15%). The total number of votes cast in the election were 1,15,000, out of which 5,000 were invalid.\n\nBased on the data provided, the total number of valid votes received by the candidates B and C is",
+      "optionsEn": [
+        "45,000",
+        "49,500",
+        "51,750",
+        "54,000"
+      ],
+      "explanationEn": "Total valid votes $= 1,15,000 - 5,000 = 1,10,000$. From the pie chart, candidate B received $25\\%$ and candidate C received $20\\%$ of the valid votes, for a combined share of $25\\% + 20\\% = 45\\%$. Therefore, valid votes for B and C $= 0.45 \\times 1,10,000 = 49,500$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q06",
+      "questionNumber": 6,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Verbal Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Thousands of years ago, some people began dairy farming. This coincided with a number of mutations in a particular gene that resulted in these people developing the ability to digest dairy milk.\n\nBased on the given passage, which of the following can be inferred?",
+      "optionsEn": [
+        "All human beings can digest dairy milk.",
+        "No human being can digest dairy milk.",
+        "Digestion of dairy milk is essential for human beings.",
+        "In human beings, digestion of dairy milk resulted from a mutated gene."
+      ],
+      "explanationEn": "The passage states that 'some people' developed the ability to digest dairy milk due to mutations in a particular gene. Options (A) and (B) overgeneralize to 'all' or 'no' human beings, and (C) introduces an unsupported claim about necessity. Option (D) directly follows from the passage. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q07",
+      "questionNumber": 7,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "The probability of a boy or a girl being born is $1/2$. For a family having only three children, what is the probability of having two girls and one boy?",
+      "optionsEn": [
+        "$3/8$",
+        "$1/8$",
+        "$1/4$",
+        "$1/2$"
+      ],
+      "explanationEn": "Each of the 3 births is independent with $P(\\text{Girl}) = P(\\text{Boy}) = 1/2$, giving $2^3 = 8$ equally likely outcomes. The number of ways to have 2 girls and 1 boy is $\\binom{3}{2} = 3$ (GGB, GBG, BGG). Thus, the probability is $3/8$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q08",
+      "questionNumber": 8,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Quantitative Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Person 1 and Person 2 invest in three mutual funds A, B, and C. The amounts they invest in each of these mutual funds are given in the table.\n\n| | Mutual fund A | Mutual fund B | Mutual fund C |\n| :--- | :---: | :---: | :---: |\n| **Person 1** | ₹10,000 | ₹20,000 | ₹20,000 |\n| **Person 2** | ₹20,000 | ₹15,000 | ₹15,000 |\n\nAt the end of one year, the total amount that Person 1 gets is ₹500 more than Person 2. The annual rate of return for the mutual funds B and C is $15\\%$ each. What is the annual rate of return for the mutual fund A?",
+      "optionsEn": [
+        "$7.5\\%$",
+        "$10\\%$",
+        "$15\\%$",
+        "$20\\%$"
+      ],
+      "explanationEn": "Both Person 1 and Person 2 invest a total principal of ₹50,000, so the difference in their final amounts equals the difference in their returns. Let $r$ be the annual rate of return on Mutual fund A.\nReturn for Person 1 $= 10000r + 0.15(20000 + 20000) = 10000r + 6000$.\nReturn for Person 2 $= 20000r + 0.15(15000 + 15000) = 20000r + 4500$.\nGiven $(10000r + 6000) - (20000r + 4500) = 500 \\implies 1500 - 10000r = 500 \\implies r = 1000/10000 = 0.10 = 10\\%$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q09",
+      "questionNumber": 9,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.09]\n\nThree different views of a dice are shown in the figure below: View 1 shows top face 5, front-left face 4, front-right face 1; View 2 shows top face 4, front-left face 6, front-right face 3; View 3 shows top face 2, front-left face 6, front-right face 5.\n\nThe piece of paper that can be folded to make this dice is",
+      "optionsEn": [
+        "Net with vertical column [1, 4, 6, 2], with 5 attached to the left of 1 and 3 attached to the right of 2",
+        "Net with vertical column [1, 4, 2, 6], with 5 attached to the left of 1 and 3 attached to the right of 6",
+        "Net with vertical column [1, 3, 2, 4], with 5 attached to the left of 1 and 6 attached to the right of 4",
+        "Net with vertical column [1, 4, 6, 3], with 5 attached to the left of 1 and 2 attached to the right of 3"
+      ],
+      "explanationEn": "From View 2 and View 3, face 6 is adjacent to 4, 3, 2, and 5, so 6 must be opposite to 1. From View 1 and View 2, face 4 is adjacent to 5, 1, 6, and 3, so 4 must be opposite to 2. The remaining pair, 5 and 3, must be opposite to each other. Checking the opposite pairs in each foldable net: only option (A) yields opposite pairs (1, 6), (4, 2), and (5, 3), and its face orientation matches all three views when folded. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q10",
+      "questionNumber": 10,
+      "sectionId": "sec_ga",
+      "sectionTitle": "General Aptitude",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Spatial Aptitude",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Visualize two identical right circular cones such that one is inverted over the other and they share a common circular base. If a cutting plane passes through the vertices of the assembled cones, what shape does the outer boundary of the resulting cross-section make?",
+      "optionsEn": [
+        "A rhombus",
+        "A triangle",
+        "An ellipse",
+        "A hexagon"
+      ],
+      "explanationEn": "A plane passing through the vertices of both identical right circular cones passes along the common axis of symmetry and cuts the shared circular base along a diameter. In each cone, the cross-section is an isosceles triangle with two equal slant heights $l$ and base equal to the diameter $2r$. Joining the two identical isosceles triangles along their common base forms a quadrilateral with all four sides equal to the slant height $l$, which is a rhombus. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q11",
+      "questionNumber": 11,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following statements:\n\n(i) The mean and variance of a Poisson random variable are equal.\n(ii) For a standard normal random variable, the mean is zero and the variance is one.\n\nWhich **ONE** of the following options is **correct**?",
+      "optionsEn": [
+        "Both (i) and (ii) are true",
+        "(i) is true and (ii) is false",
+        "(ii) is true and (i) is false",
+        "Both (i) and (ii) are false"
+      ],
+      "explanationEn": "For a Poisson random variable $X \\sim \\text{Poisson}(\\lambda)$, both $\\mathbb{E}[X] = \\lambda$ and $\\text{Var}(X) = \\lambda$, so (i) is true. By definition, a standard normal random variable $Z \\sim \\mathcal{N}(0, 1)$ has mean $0$ and variance $1$, so (ii) is also true. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q12",
+      "questionNumber": 12,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Three fair coins are tossed independently. $T$ is the event that two or more tosses result in heads. $S$ is the event that two or more tosses result in tails.\n\nWhat is the probability of the event $T \\cap S$?",
+      "optionsEn": [
+        "0",
+        "0.5",
+        "0.25",
+        "1"
+      ],
+      "explanationEn": "In 3 coin tosses, if $T$ occurs (at least 2 heads), there can be at most $3 - 2 = 1$ tail. Therefore, it is impossible to simultaneously have at least 2 heads and at least 2 tails, meaning $T \\cap S = \\emptyset$. Thus, $P(T \\cap S) = 0$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q13",
+      "questionNumber": 13,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the matrix $\\mathbf{M} = \\begin{bmatrix} 2 & -1 \\\\ 3 & 1 \\end{bmatrix}$.\n\nWhich **ONE** of the following statements is **TRUE**?",
+      "optionsEn": [
+        "The eigenvalues of $\\mathbf{M}$ are non-negative and real.",
+        "The eigenvalues of $\\mathbf{M}$ are complex conjugate pairs.",
+        "One eigenvalue of $\\mathbf{M}$ is positive and real, and another eigenvalue of $\\mathbf{M}$ is zero.",
+        "One eigenvalue of $\\mathbf{M}$ is non-negative and real, and another eigenvalue of $\\mathbf{M}$ is negative and real."
+      ],
+      "explanationEn": "The characteristic equation of $\\mathbf{M}$ is $\\det(\\mathbf{M} - \\lambda \\mathbf{I}) = (2 - \\lambda)(1 - \\lambda) - (-1)(3) = \\lambda^2 - 3\\lambda + 5 = 0$. The discriminant is $\\Delta = (-3)^2 - 4(1)(5) = 9 - 20 = -11 < 0$. Since $\\Delta < 0$, the eigenvalues are $\\lambda = \\frac{3 \\pm i\\sqrt{11}}{2}$, which are complex conjugate pairs. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q14",
+      "questionNumber": 14,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider performing depth-first search (DFS) on an undirected and unweighted graph $G$ starting at vertex $s$. For any vertex $u$ in $G$, $d[u]$ is the length of the shortest path from $s$ to $u$. Let $(u, v)$ be an edge in $G$ such that $d[u] < d[v]$. If the edge $(u, v)$ is explored first in the direction from $u$ to $v$ during the above DFS, then $(u, v)$ becomes a ________ edge.",
+      "optionsEn": [
+        "tree",
+        "cross",
+        "back",
+        "gray"
+      ],
+      "explanationEn": "In DFS on an undirected graph, every edge is either a tree edge or a back edge (no cross or forward edges exist, and 'gray' is a vertex color, not an edge type). When the edge $(u, v)$ is explored for the first time from $u$ to an unvisited vertex $v$ (with $d[u] < d[v]$), $v$ is discovered via $u$, so $(u, v)$ becomes a tree edge in the DFS tree. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q15",
+      "questionNumber": 15,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Calculus & Optimization",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any twice differentiable function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, if at some $x^* \\in \\mathbb{R}$, $f'(x^*) = 0$ and $f''(x^*) > 0$, then the function $f$ necessarily has a ________ at $x = x^*$.\n\n**Note:** $\\mathbb{R}$ denotes the set of real numbers.",
+      "optionsEn": [
+        "local minimum",
+        "global minimum",
+        "local maximum",
+        "global maximum"
+      ],
+      "explanationEn": "By the second derivative test, a stationary point $x^*$ where $f'(x^*) = 0$ and $f''(x^*) > 0$ is strictly locally convex near $x^*$, which guarantees a strict local minimum at $x = x^*$. It need not be a global minimum (e.g., for non-convex functions like $f(x) = x^3 - 3x$). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q16",
+      "questionNumber": 16,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Match the items in **Column 1** with the items in **Column 2** in the following table:\n\n| Column 1 | Column 2 |\n| :--- | :--- |\n| (p) First In First Out | (i) Stacks |\n| (q) Lookup Operation | (ii) Queues |\n| (r) Last In First Out | (iii) Hash Tables |",
+      "optionsEn": [
+        "(p) – (ii), (q) – (iii), (r) – (i)",
+        "(p) – (ii), (q) – (i), (r) – (iii)",
+        "(p) – (i), (q) – (ii), (r) – (iii)",
+        "(p) – (i), (q) – (iii), (r) – (ii)"
+      ],
+      "explanationEn": "Queues follow First In First Out (FIFO), so (p) – (ii). Hash Tables are designed for fast $O(1)$ average-time lookup operations, so (q) – (iii). Stacks follow Last In First Out (LIFO), so (r) – (i). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q17",
+      "questionNumber": 17,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the dataset with six datapoints: $\\{(\\mathbf{x}_1, y_1), (\\mathbf{x}_2, y_2), \\dots, (\\mathbf{x}_6, y_6)\\}$, where $\\mathbf{x}_1 = \\begin{bmatrix} 1 \\\\ 0 \\end{bmatrix}$, $\\mathbf{x}_2 = \\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$, $\\mathbf{x}_3 = \\begin{bmatrix} 0 \\\\ -1 \\end{bmatrix}$, $\\mathbf{x}_4 = \\begin{bmatrix} -1 \\\\ 0 \\end{bmatrix}$, $\\mathbf{x}_5 = \\begin{bmatrix} 2 \\\\ 2 \\end{bmatrix}$, $\\mathbf{x}_6 = \\begin{bmatrix} -2 \\\\ -2 \\end{bmatrix}$ and the labels are given by $y_1 = y_2 = y_5 = 1$, and $y_3 = y_4 = y_6 = -1$. A hard margin linear support vector machine is trained on the above dataset.\n\nWhich **ONE** of the following sets is a possible set of support vectors?",
+      "optionsEn": [
+        "$\\{\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_5\\}$",
+        "$\\{\\mathbf{x}_3, \\mathbf{x}_4, \\mathbf{x}_5\\}$",
+        "$\\{\\mathbf{x}_4, \\mathbf{x}_5\\}$",
+        "$\\{\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_3, \\mathbf{x}_4\\}$"
+      ],
+      "explanationEn": "By symmetry of the positive points $\\{(1,0), (0,1), (2,2)\\}$ and negative points $\\{(0,-1), (-1,0), (-2,-2)\\}$, the maximum-margin separating hyperplane is $x_1 + x_2 = 0$, i.e., $\\mathbf{w} = [1, 1]^T$ and $b = 0$. Checking $y_i(\\mathbf{w}^T \\mathbf{x}_i + b)$: for $\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_3, \\mathbf{x}_4$ we get $1$ (on the margin), while for $\\mathbf{x}_5$ and $\\mathbf{x}_6$ we get $4 > 1$ (strictly outside the margin). Therefore, the support vectors are $\\{\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_3, \\mathbf{x}_4\\}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q18",
+      "questionNumber": 18,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Match the items in **Column 1** with the items in **Column 2** in the following table:\n\n| Column 1 | Column 2 |\n| :--- | :--- |\n| (p) Principal Component Analysis | (i) Discriminative Model |\n| (q) Naïve Bayes Classification | (ii) Dimensionality Reduction |\n| (r) Logistic Regression | (iii) Generative Model |",
+      "optionsEn": [
+        "(p) – (iii), (q) – (i), (r) – (ii)",
+        "(p) – (ii), (q) – (i), (r) – (iii)",
+        "(p) – (ii), (q) – (iii), (r) – (i)",
+        "(p) – (iii), (q) – (ii), (r) – (i)"
+      ],
+      "explanationEn": "Principal Component Analysis (PCA) is a dimensionality reduction technique, so (p) – (ii). Naïve Bayes models the joint distribution $P(\\mathbf{x}, y) = P(y)P(\\mathbf{x}|y)$, making it a generative model, so (q) – (iii). Logistic Regression directly models the conditional probability $P(y|\\mathbf{x})$, making it a discriminative model, so (r) – (i). Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q19",
+      "questionNumber": 19,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Medium",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Euclidean distance based $k$-means clustering algorithm was run on a dataset of 100 points with $k = 3$. If the points $\\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix}$ and $\\begin{bmatrix} -1 \\\\ 1 \\end{bmatrix}$ are both part of cluster 3, then which **ONE** of the following points is necessarily also part of cluster 3?",
+      "optionsEn": [
+        "$\\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}$",
+        "$\\begin{bmatrix} 0 \\\\ 2 \\end{bmatrix}$",
+        "$\\begin{bmatrix} 2 \\\\ 0 \\end{bmatrix}$",
+        "$\\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$"
+      ],
+      "explanationEn": "In Euclidean $k$-means clustering, each cluster corresponds to a Voronoi cell, which is an intersection of half-spaces and therefore a convex set. Since $\\mathbf{a} = \\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix}$ and $\\mathbf{b} = \\begin{bmatrix} -1 \\\\ 1 \\end{bmatrix}$ belong to cluster 3, every convex combination $\\lambda \\mathbf{a} + (1 - \\lambda) \\mathbf{b}$ for $\\lambda \\in [0, 1]$ must also belong to cluster 3. Setting $\\lambda = 0.5$ gives the midpoint $\\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q20",
+      "questionNumber": 20,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given a dataset with $K$ binary-valued attributes (where $K > 2$) for a two-class classification task, the number of parameters to be estimated for learning a naïve Bayes classifier is",
+      "optionsEn": [
+        "$2^K + 1$",
+        "$2K + 1$",
+        "$2^{K+1} + 1$",
+        "$K^2 + 1$"
+      ],
+      "explanationEn": "For a two-class naïve Bayes classifier with $K$ conditionally independent binary attributes:\n- Class prior: $1$ parameter, $P(Y = 1)$ (since $P(Y = 0) = 1 - P(Y = 1)$).\n- Class-conditional probabilities: for each of the $2$ classes and each of the $K$ binary attributes, we estimate $1$ parameter $P(X_i = 1 \\mid Y = y)$, giving $2K$ parameters.\nTotal parameters $= 2K + 1$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q21",
+      "questionNumber": 21,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider performing uniform hashing on an open address hash table with load factor $\\alpha = \\frac{n}{m} < 1$, where $n$ elements are stored in the table with $m$ slots. The expected number of probes in an unsuccessful search is at most $\\frac{1}{1 - \\alpha}$.\n\nInserting an element in this hash table requires at most ________ probes, on average.",
+      "optionsEn": [
+        "$\\ln\\left(\\frac{1}{1 - \\alpha}\\right)$",
+        "$\\frac{1}{1 - \\alpha}$",
+        "$1 + \\frac{\\alpha}{2}$",
+        "$\\frac{1}{1 + \\alpha}$"
+      ],
+      "explanationEn": "In open addressing, inserting a new key requires probing the hash table until an empty slot is found—which follows the exact same probe sequence as an unsuccessful search. Therefore, the expected number of probes for an insertion is identical to that of an unsuccessful search, i.e., at most $\\frac{1}{1 - \\alpha}$. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q22",
+      "questionNumber": 22,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "For any binary classification dataset, let $S_B \\in \\mathbb{R}^{d \\times d}$ and $S_W \\in \\mathbb{R}^{d \\times d}$ be the between-class and within-class scatter (covariance) matrices, respectively. The Fisher linear discriminant is defined by $u^* \\in \\mathbb{R}^d$, that maximizes\n\n$$J(u) = \\frac{u^T S_B u}{u^T S_W u}$$\n\nIf $\\lambda = J(u^*)$, $S_W$ is non-singular and $S_B \\neq 0$, then $(u^*, \\lambda)$ must satisfy which **ONE** of the following equations?\n\n**Note:** $\\mathbb{R}$ denotes the set of real numbers.",
+      "optionsEn": [
+        "$S_W^{-1} S_B u^* = \\lambda u^*$",
+        "$S_W u^* = \\lambda S_B u^*$",
+        "$S_B S_W u^* = \\lambda u^*$",
+        "$u^{*T} u^* = \\lambda^2$"
+      ],
+      "explanationEn": "To maximize the Rayleigh quotient $J(u) = \\frac{u^T S_B u}{u^T S_W u}$, set its gradient with respect to $u$ to zero:\n$$\\nabla_u J(u) = \\frac{2 S_B u (u^T S_W u) - 2 S_W u (u^T S_B u)}{(u^T S_W u)^2} = 0.$$\nAt $u = u^*$ with $\\lambda = J(u^*) = \\frac{u^{*T} S_B u^*}{u^{*T} S_W u^*}$, this simplifies to $S_B u^* = \\lambda S_W u^*$. Since $S_W$ is non-singular, multiplying on the left by $S_W^{-1}$ gives $S_W^{-1} S_B u^* = \\lambda u^*$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q23",
+      "questionNumber": 23,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $h_1$ and $h_2$ be two admissible heuristics used in $A^*$ search.\n\nWhich **ONE** of the following expressions is always an admissible heuristic?",
+      "optionsEn": [
+        "$h_1 + h_2$",
+        "$h_1 \\times h_2$",
+        "$h_1 / h_2,\\; (h_2 \\neq 0)$",
+        "$|h_1 - h_2|$"
+      ],
+      "explanationEn": "An admissible heuristic satisfies $0 \\le h(n) \\le h^*(n)$, where $h^*(n)$ is the true optimal cost to the goal. Since $0 \\le h_1(n) \\le h^*(n)$ and $0 \\le h_2(n) \\le h^*(n)$, their absolute difference satisfies $0 \\le |h_1(n) - h_2(n)| \\le \\max(h_1(n), h_2(n)) \\le h^*(n)$, so $|h_1 - h_2|$ is always admissible. By contrast, $h_1 + h_2$, $h_1 \\times h_2$, and $h_1 / h_2$ can all exceed $h^*(n)$. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q24",
+      "questionNumber": 24,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider five random variables $U, V, W, X,$ and $Y$ whose joint distribution satisfies:\n\n$$P(U, V, W, X, Y) = P(U)P(V)P(W \\mid U, V)P(X \\mid W)P(Y \\mid W)$$\n\nWhich **ONE** of the following statements is **FALSE**?",
+      "optionsEn": [
+        "$Y$ is conditionally independent of $V$ given $W$",
+        "$X$ is conditionally independent of $U$ given $W$",
+        "$U$ and $V$ are conditionally independent given $W$",
+        "$Y$ and $X$ are conditionally independent given $W$"
+      ],
+      "explanationEn": "The factorization defines a Bayesian network with edges $U \\rightarrow W$, $V \\rightarrow W$, $W \\rightarrow X$, and $W \\rightarrow Y$. Here, $W$ is a collider (v-structure) on the path $U \\rightarrow W \\leftarrow V$. While $U$ and $V$ are marginally independent, conditioning on their common child $W$ opens the collider path (explaining away), making $U$ and $V$ conditionally dependent given $W$. Options (A), (B), and (D) are all true because $W$ d-separates those pairs. Thus, statement (C) is FALSE. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q25",
+      "questionNumber": 25,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following statement:\n\nIn adversarial search, $\\alpha$-$\\beta$ pruning can be applied to game trees of any depth where $\\alpha$ is the **__(m)__** value choice we have formed so far at any choice point along the path for the MAX player and $\\beta$ is the **__(n)__** value choice we have formed so far at any choice point along the path for the MIN player.\n\nWhich **ONE** of the following choices of **(m)** and **(n)** makes the above statement valid?",
+      "optionsEn": [
+        "(m) = highest, (n) = highest",
+        "(m) = lowest, (n) = highest",
+        "(m) = highest, (n) = lowest",
+        "(m) = lowest, (n) = lowest"
+      ],
+      "explanationEn": "In $\\alpha$-$\\beta$ pruning, $\\alpha$ tracks the best (highest) value that the MAX player can guarantee along the current path to the root, while $\\beta$ tracks the best (lowest) value that the MIN player can guarantee along the current path to the root. Therefore, (m) = highest and (n) = lowest. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q26",
+      "questionNumber": 26,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Database Management & Warehousing",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a database that includes the following relations:\n\n- $\\text{Defender}(name, rating, side, goals)$\n- $\\text{Forward}(name, rating, assists, goals)$\n- $\\text{Team}(name, club, price)$\n\nWhich **ONE** of the following relational algebra expressions checks that every name occurring in $\\text{Team}$ appears in either $\\text{Defender}$ or $\\text{Forward}$, where $\\phi$ denotes the empty set?",
+      "optionsEn": [
+        "$\\Pi_{name}(\\text{Team}) \\setminus (\\Pi_{name}(\\text{Defender}) \\cap \\Pi_{name}(\\text{Forward})) = \\phi$",
+        "$(\\Pi_{name}(\\text{Defender}) \\cap \\Pi_{name}(\\text{Forward})) \\setminus \\Pi_{name}(\\text{Team}) = \\phi$",
+        "$\\Pi_{name}(\\text{Team}) \\setminus (\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})) = \\phi$",
+        "$(\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})) \\setminus \\Pi_{name}(\\text{Team}) = \\phi$"
+      ],
+      "explanationEn": "The condition 'every name in Team appears in either Defender or Forward' is the subset relation $\\Pi_{name}(\\text{Team}) \\subseteq \\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})$. Equivalently, the set difference $\\Pi_{name}(\\text{Team}) \\setminus (\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward}))$ must be empty ($\\phi$). Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q27",
+      "questionNumber": 27,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.33,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let the minimum, maximum, mean and standard deviation values for the attribute *income* of data scientists be ₹46000, ₹170000, ₹96000, and ₹21000, respectively. The $z$-score normalized *income* value of ₹106000 is closest to which **ONE** of the following options?",
+      "optionsEn": [
+        "0.217",
+        "0.476",
+        "0.623",
+        "2.304"
+      ],
+      "explanationEn": "The $z$-score normalization formula is $z = \\frac{x - \\mu}{\\sigma}$. Substituting $x = 106000$, $\\mu = 96000$, and $\\sigma = 21000$:\n$$z = \\frac{106000 - 96000}{21000} = \\frac{10000}{21000} = \\frac{10}{21} \\approx 0.4762.$$\nHence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q28",
+      "questionNumber": 28,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following tree traversals on a full binary tree:\n\n(i) Preorder\n(ii) Inorder\n(iii) Postorder\n\nWhich of the following traversal options **is/are** sufficient to uniquely reconstruct the full binary tree?",
+      "optionsEn": [
+        "(i) and (ii)",
+        "(ii) and (iii)",
+        "(i) and (iii)",
+        "(ii) only"
+      ],
+      "explanationEn": "For any binary tree (with distinct keys), Preorder + Inorder (A) and Inorder + Postorder (B) uniquely reconstruct the tree. Additionally, for a **full** binary tree (where every node has either 0 or 2 children), Preorder + Postorder (C) also uniquely determines the tree because the left child of the root is always the second element in Preorder (if it exists), which splits the left and right subtrees in Postorder. Inorder alone (D) is insufficient. Hence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q29",
+      "questionNumber": 29,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $x$ and $y$ be two propositions. Which of the following statements **is a tautology / are tautologies**?",
+      "optionsEn": [
+        "$(\\neg x \\land y) \\implies (y \\implies x)$",
+        "$(x \\land \\neg y) \\implies (\\neg x \\implies y)$",
+        "$(\\neg x \\land y) \\implies (\\neg x \\implies y)$",
+        "$(x \\land \\neg y) \\implies (y \\implies x)$"
+      ],
+      "explanationEn": "Recall $A \\implies B \\equiv \\neg A \\lor B$. Evaluate each formula:\n- (A): If $x = F, y = T$, then $(\\neg x \\land y) = T$ and $(y \\implies x) = F$, so the implication is $F$ (not a tautology).\n- (B): $(x \\land \\neg y) \\implies (x \\lor y)$. Whenever $x \\land \\neg y$ is $T$, $x$ is $T$, so $x \\lor y$ is $T$ (tautology).\n- (C): $(\\neg x \\land y) \\implies (x \\lor y)$. Whenever $\\neg x \\land y$ is $T$, $y$ is $T$, so $x \\lor y$ is $T$ (tautology).\n- (D): $(x \\land \\neg y) \\implies (\\neg y \\lor x)$. Whenever $x \\land \\neg y$ is $T$, both $x$ and $\\neg y$ are $T$, so $\\neg y \\lor x$ is $T$ (tautology).\nHence, options (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q30",
+      "questionNumber": 30,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Medium",
+      "correctOption": "0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.0,
+      "natMax": 0.0,
+      "questionTextEn": "Consider sorting the following array of integers in ascending order using an in-place Quicksort algorithm that uses the last element as the pivot:\n\n`[60, 70, 80, 90, 100]`\n\nThe minimum number of swaps performed during this Quicksort is ________.",
+      "optionsEn": [],
+      "explanationEn": "The array `[60, 70, 80, 90, 100]` is already sorted in ascending order. At each partition step with the last element as pivot (100, then 90, then 80, then 70), every preceding element is strictly smaller than the pivot. An in-place partition (such as Hoare's partition or Lomuto's partition that skips self-swaps when $i = j$) places the pivot in its existing position without needing any swap of distinct elements. Thus, the minimum number of swaps performed is 0."
+    },
+    {
+      "questionId": "gate_da_2024_q31",
+      "questionNumber": 31,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Database Management & Warehousing",
+      "difficulty": "Easy",
+      "correctOption": "3",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 3.0,
+      "natMax": 3.0,
+      "questionTextEn": "Consider the following two tables named **Raider** and **Team** in a relational database maintained by a Kabaddi league. The attribute *ID* in table Team references the primary key of the Raider table, *ID*.\n\n**Raider**\n\n| *ID* | *Name* | *Raids* | *RaidPoints* |\n| :---: | :--- | :---: | :---: |\n| 1 | Arjun | 200 | 250 |\n| 2 | Ankush | 190 | 219 |\n| 3 | Sunil | 150 | 200 |\n| 4 | Reza | 150 | 190 |\n| 5 | Pratham | 175 | 220 |\n| 6 | Gopal | 193 | 215 |\n\n**Team**\n\n| *City* | *ID* | *BidPoints* |\n| :--- | :---: | :---: |\n| Jaipur | 2 | 200 |\n| Patna | 3 | 195 |\n| Hyderabad | 5 | 175 |\n| Jaipur | 1 | 250 |\n| Patna | 4 | 200 |\n| Jaipur | 6 | 200 |\n\nThe SQL query described below is executed on this database:\n\n```sql\nSELECT *\nFROM Raider, Team\nWHERE Raider.ID=Team.ID AND City=\"Jaipur\" AND\nRaidPoints > 200;\n```\n\nThe number of rows returned by this query is ________.",
+      "optionsEn": [],
+      "explanationEn": "Filtering **Team** for `City = \"Jaipur\"` gives rows with `ID` $\\in \\{2, 1, 6\\}$. Joining with **Raider** on `Raider.ID = Team.ID` yields:\n- ID = 1 (Arjun): `RaidPoints = 250 > 200` (included)\n- ID = 2 (Ankush): `RaidPoints = 219 > 200` (included)\n- ID = 6 (Gopal): `RaidPoints = 215 > 200` (included)\nAll 3 matching rows satisfy `RaidPoints > 200`, so the query returns 3 rows."
+    },
+    {
+      "questionId": "gate_da_2024_q32",
+      "questionNumber": 32,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "17",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 17.0,
+      "natMax": 17.0,
+      "questionTextEn": "The fundamental operations in a double-ended queue D are:\n\n- `insertFirst(e)` – Insert a new element `e` at the beginning of D.\n- `insertLast(e)` – Insert a new element `e` at the end of D.\n- `removeFirst()` – Remove and return the first element of D.\n- `removeLast()` – Remove and return the last element of D.\n\nIn an empty double-ended queue, the following operations are performed:\n\n```\ninsertFirst(10)\ninsertLast(32)\na <- removeFirst()\ninsertLast(28)\ninsertLast(17)\na <- removeFirst()\na <- removeLast()\n```\n\nThe value of **a** is ________.",
+      "optionsEn": [],
+      "explanationEn": "Trace the deque D step by step:\n1. `insertFirst(10)` $\\rightarrow [10]$\n2. `insertLast(32)` $\\rightarrow [10, 32]$\n3. `a <- removeFirst()` $\\rightarrow a = 10$, D $= [32]$\n4. `insertLast(28)` $\\rightarrow [32, 28]$\n5. `insertLast(17)` $\\rightarrow [32, 28, 17]$\n6. `a <- removeFirst()` $\\rightarrow a = 32$, D $= [28, 17]$\n7. `a <- removeLast()` $\\rightarrow a = 17$, D $= [28]$\nThus, the final value of **a** is 17."
+    },
+    {
+      "questionId": "gate_da_2024_q33",
+      "questionNumber": 33,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Calculus & Optimization",
+      "difficulty": "Easy",
+      "correctOption": "0.24",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.24,
+      "natMax": 0.24,
+      "questionTextEn": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be the function $f(x) = \\frac{1}{1 + e^{-x}}$.\n\nThe value of the derivative of $f$ at $x$ where $f(x) = 0.4$ is ________ (rounded off to **two** decimal places).\n\n**Note:** $\\mathbb{R}$ denotes the set of real numbers.",
+      "optionsEn": [],
+      "explanationEn": "For the logistic sigmoid function $f(x) = \\frac{1}{1 + e^{-x}}$, the derivative satisfies the identity:\n$$f'(x) = \\frac{e^{-x}}{(1 + e^{-x})^2} = f(x)(1 - f(x)).$$\nSubstituting $f(x) = 0.4$ gives $f'(x) = 0.4 \\times (1 - 0.4) = 0.4 \\times 0.6 = 0.24$."
+    },
+    {
+      "questionId": "gate_da_2024_q34",
+      "questionNumber": 34,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "42",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 42.0,
+      "natMax": 42.0,
+      "questionTextEn": "The sample average of 50 data points is 40. The updated sample average after including a new data point taking the value of 142 is ________.",
+      "optionsEn": [],
+      "explanationEn": "The sum of the original 50 data points is $50 \\times 40 = 2000$. After adding the new data point 142, the new sum is $2000 + 142 = 2142$ across $50 + 1 = 51$ points. Thus, the updated sample average is $\\frac{2142}{51} = 42$."
+    },
+    {
+      "questionId": "gate_da_2024_q35",
+      "questionNumber": 35,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 1.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": "0",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.0,
+      "natMax": 0.0,
+      "questionTextEn": "Consider the $3 \\times 3$ matrix $\\mathbf{M} = \\begin{bmatrix} 1 & 2 & 3 \\\\ 3 & 1 & 3 \\\\ 4 & 3 & 6 \\end{bmatrix}$.\n\nThe determinant of $(\\mathbf{M}^2 + 12\\mathbf{M})$ is ________.",
+      "optionsEn": [],
+      "explanationEn": "Observe that Row 3 of $\\mathbf{M}$ equals Row 1 + Row 2: $[1, 2, 3] + [3, 1, 3] = [4, 3, 6]$. Hence $\\mathbf{M}$ is singular and $\\det(\\mathbf{M}) = 0$. Using the multiplicative property of determinants:\n$$\\det(\\mathbf{M}^2 + 12\\mathbf{M}) = \\det(\\mathbf{M}(\\mathbf{M} + 12\\mathbf{I})) = \\det(\\mathbf{M})\\det(\\mathbf{M} + 12\\mathbf{I}) = 0.$$"
+    },
+    {
+      "questionId": "gate_da_2024_q36",
+      "questionNumber": 36,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "A fair six-sided die (with faces numbered $1, 2, 3, 4, 5, 6$) is repeatedly thrown independently.\n\nWhat is the expected number of times the die is thrown until **two** consecutive throws of even numbers are seen?",
+      "optionsEn": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "explanationEn": "On each throw, $P(\\text{Even}) = P(\\text{Odd}) = 1/2$. Let $E$ be the expected number of throws until two consecutive evens appear.\n- If the first throw is odd (prob. $1/2$), we spent 1 throw and restart: $1 + E$.\n- If the first throw is even and the second is odd (prob. $1/4$), we spent 2 throws and restart: $2 + E$.\n- If both the first and second throws are even (prob. $1/4$), we stop after 2 throws.\nThus, $E = \\frac{1}{2}(1 + E) + \\frac{1}{4}(2 + E) + \\frac{1}{4}(2) = \\frac{3}{2} + \\frac{3}{4}E \\implies \\frac{1}{4}E = \\frac{3}{2} \\implies E = 6$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q37",
+      "questionNumber": 37,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Calculus & Optimization",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function. **Note:** $\\mathbb{R}$ denotes the set of real numbers.\n\n$$f(x) = \\begin{cases} -x, & \\text{if } x < -2 \\\\ ax^2 + bx + c, & \\text{if } x \\in [-2, 2] \\\\ x, & \\text{if } x > 2 \\end{cases}$$\n\nWhich **ONE** of the following choices gives the values of $a, b, c$ that make the function $f$ continuous and differentiable?",
+      "optionsEn": [
+        "$a = \\frac{1}{4},\\; b = 0,\\; c = 1$",
+        "$a = \\frac{1}{2},\\; b = 0,\\; c = 0$",
+        "$a = 0,\\; b = 0,\\; c = 0$",
+        "$a = 1,\\; b = 1,\\; c = -4$"
+      ],
+      "explanationEn": "For continuity at $x = -2$ and $x = 2$:\n- $4a - 2b + c = 2$ and $4a + 2b + c = 2$, which gives $b = 0$ and $4a + c = 2$.\nFor differentiability at $x = -2$ and $x = 2$ (where $f'(x) = 2ax + b$ on $(-2, 2)$):\n- $2a(-2) + b = -1$ and $2a(2) + b = 1$. With $b = 0$, $4a = 1 \\implies a = \\frac{1}{4}$.\nThen $c = 2 - 4(1/4) = 1$. Thus $a = \\frac{1}{4}, b = 0, c = 1$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q38",
+      "questionNumber": 38,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "D",
+      "correctOptionsList": [
+        "D"
+      ],
+      "correct_index": 3,
+      "correct_indices": [
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following Python code:\n\n```python\ndef count(child_dict, i):\n    if i not in child_dict.keys():\n        return 1\n    ans = 1\n    for j in child_dict[i]:\n        ans += count(child_dict, j)\n    return ans\n\nchild_dict = dict()\nchild_dict[0] = [1,2]\nchild_dict[1] = [3,4,5]\nchild_dict[2] = [6,7,8]\nprint(count(child_dict,0))\n```\n\nWhich **ONE** of the following is the output of this code?",
+      "optionsEn": [
+        "6",
+        "1",
+        "8",
+        "9"
+      ],
+      "explanationEn": "The function `count(child_dict, i)` counts the total number of nodes in the subtree rooted at node `i` (1 for `i` itself plus the counts of all its children). Nodes 3, 4, 5, 6, 7, 8 are leaves (each returns 1). Thus `count(1) = 1 + 1 + 1 + 1 = 4`, `count(2) = 1 + 1 + 1 + 1 = 4`, and `count(0) = 1 + 4 + 4 = 9`. Hence, option (D) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q39",
+      "questionNumber": 39,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the function `computeS(X)` whose pseudocode is given below:\n\n```\ncomputeS(X)\nS[1] <- 1\nfor i <- 2 to length(X)\n    S[i] <- 1\n    if X[i - 1] <= X[i]\n        S[i] <- S[i] + S[i - 1]\n    end if\nend for\nreturn S\n```\n\nWhich **ONE** of the following values is returned by the function `computeS(X)` for $X = [6, 3, 5, 4, 10]$?",
+      "optionsEn": [
+        "$[1, 1, 2, 3, 4]$",
+        "$[1, 1, 2, 3, 3]$",
+        "$[1, 1, 2, 1, 2]$",
+        "$[1, 1, 2, 1, 5]$"
+      ],
+      "explanationEn": "Trace `computeS` on 1-indexed $X = [6, 3, 5, 4, 10]$:\n- $i = 1$: $S[1] = 1$\n- $i = 2$: $X[1]=6 \\not\\le X[2]=3 \\implies S[2] = 1$\n- $i = 3$: $X[2]=3 \\le X[3]=5 \\implies S[3] = 1 + S[2] = 2$\n- $i = 4$: $X[3]=5 \\not\\le X[4]=4 \\implies S[4] = 1$\n- $i = 5$: $X[4]=4 \\le X[5]=10 \\implies S[5] = 1 + S[4] = 2$\nThus $S = [1, 1, 2, 1, 2]$. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q40",
+      "questionNumber": 40,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $F(n)$ denote the maximum number of comparisons made while searching for an entry in a sorted array of size $n$ using binary search.\n\nWhich **ONE** of the following options is **TRUE**?",
+      "optionsEn": [
+        "$F(n) = F(\\lfloor n/2 \\rfloor) + 1$",
+        "$F(n) = F(\\lfloor n/2 \\rfloor) + F(\\lceil n/2 \\rceil)$",
+        "$F(n) = F(\\lfloor n/2 \\rfloor)$",
+        "$F(n) = F(n - 1) + 1$"
+      ],
+      "explanationEn": "In binary search on a sorted array of size $n$, comparing the target with the middle element takes 1 comparison and eliminates the middle element plus one half of the array, leaving at most $\\lfloor n/2 \\rfloor$ elements in the larger remaining subarray. Therefore, the worst-case number of comparisons satisfies $F(n) = F(\\lfloor n/2 \\rfloor) + 1$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q41",
+      "questionNumber": 41,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following Python function:\n\n```python\ndef fun(D, s1, s2):\n    if s1 < s2:\n        D[s1], D[s2] = D[s2], D[s1]\n        fun(D, s1+1, s2-1)\n```\n\nWhat does this Python function `fun()` do? Select the **ONE** appropriate option below.",
+      "optionsEn": [
+        "It finds the smallest element in D from index s1 to s2, both inclusive.",
+        "It performs a merge sort in-place on this list D between indices s1 and s2, both inclusive.",
+        "It reverses the list D between indices s1 and s2, both inclusive.",
+        "It swaps the elements in D at indices s1 and s2, and leaves the remaining elements unchanged."
+      ],
+      "explanationEn": "Whenever `s1 < s2`, the function swaps `D[s1]` with `D[s2]` and recursively calls itself on `(s1 + 1, s2 - 1)` until the two indices meet or cross. This reverses the sublist `D[s1..s2]` in-place, inclusive of both endpoints `s1` and `s2`. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q42",
+      "questionNumber": 42,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.42]\n\nConsider the table below, where the $(i, j)^{th}$ element of the table is the distance between points $x_i$ and $x_j$. Single linkage clustering is performed on data points, $x_1, x_2, x_3, x_4, x_5$.\n\n| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| $x_1$ | 0 | 1 | 4 | 3 | 6 |\n| $x_2$ | 1 | 0 | 3 | 5 | 3 |\n| $x_3$ | 4 | 3 | 0 | 2 | 5 |\n| $x_4$ | 3 | 5 | 2 | 0 | 1 |\n| $x_5$ | 6 | 3 | 5 | 1 | 0 |\n\nWhich **ONE** of the following is the correct representation of the clusters produced?",
+      "optionsEn": [
+        "Dendrogram merging (x1, x2) and (x4, x5) at height 1, then merging x3 with (x4, x5) at height 2, then merging (x1, x2) with (x3, (x4, x5)) at height 3",
+        "Dendrogram merging (x1, x2) and (x4, x5) at height 1, then merging x3 with (x1, x2) at height 2, then merging ((x1, x2), x3) with (x4, x5) at height 3",
+        "Dendrogram merging (x1, x2) and (x3, x4) at height 1, then merging (x3, x4) with x5 at height 2, then merging (x1, x2) with ((x3, x4), x5) at height 3",
+        "Dendrogram merging (x1, x2) and (x3, x4) at height 1, then merging (x1, x2) with (x3, x4) at height 2, then merging x5 at height 3"
+      ],
+      "explanationEn": "In single linkage clustering, clusters merge based on the minimum pairwise distance:\n1. Minimum distance is $1$: $d(x_1, x_2) = 1$ and $d(x_4, x_5) = 1$, forming clusters $\\{x_1, x_2\\}$ and $\\{x_4, x_5\\}$.\n2. Next smallest distance is $d(x_3, x_4) = 2$, so $d(x_3, \\{x_4, x_5\\}) = \\min(2, 5) = 2$, merging $x_3$ with $\\{x_4, x_5\\}$ to form $\\{x_3, x_4, x_5\\}$.\n3. Finally, $d(\\{x_1, x_2\\}, \\{x_3, x_4, x_5\\}) = \\min(4, 3, 6, 3, 5, 3) = 3$, merging the two remaining clusters.\nThis hierarchical structure matches option (A). Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q43",
+      "questionNumber": 43,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Medium",
+      "correctOption": "A",
+      "correctOptionsList": [
+        "A"
+      ],
+      "correct_index": 0,
+      "correct_indices": [
+        0
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.43]\n\nConsider the two neural networks (NNs) shown in Figures 1 and 2, with $ReLU$ activation ($ReLU(z) = \\max\\{0, z\\}, \\forall z \\in \\mathbb{R}$). $\\mathbb{R}$ denotes the set of real numbers. The connections and their corresponding weights are shown in the Figures (Figure 1: input layer $x_1, x_2, x_3$ connects with weight $1$ to 3 neurons in Hidden Layer 1—$x_1$ connects to all 3 neurons, $x_2$ connects to the top and bottom neurons, $x_3$ connects to the middle and bottom neurons; all 3 neurons in Hidden Layer 1 connect to both neurons in Hidden Layer 2 with weight $2$; both neurons in Hidden Layer 2 connect to the output neuron with weight $3$. Figure 2: $x_1, x_2, x_3$ connect directly to a single output neuron with weights $p, q, r$, respectively). The biases at every neuron are set to 0. For what values of $p, q, r$ in Figure 2 are the two NNs equivalent, when $x_1, x_2, x_3$ are positive?",
+      "optionsEn": [
+        "$p = 36,\\; q = 24,\\; r = 24$",
+        "$p = 24,\\; q = 24,\\; r = 36$",
+        "$p = 18,\\; q = 36,\\; r = 24$",
+        "$p = 36,\\; q = 36,\\; r = 36$"
+      ],
+      "explanationEn": "Since $x_1, x_2, x_3 > 0$, all weights are positive, and all biases are $0$, every pre-activation is positive, so $\\text{ReLU}(z) = z$ acts as the identity function.\n- Hidden Layer 1 outputs: $h_1 = x_1 + x_2$, $h_2 = x_1 + x_3$, $h_3 = x_1 + x_2 + x_3$.\n- Sum of Hidden Layer 1 outputs: $h_1 + h_2 + h_3 = 3x_1 + 2x_2 + 2x_3$.\n- Hidden Layer 2 outputs: $g_1 = g_2 = 2(h_1 + h_2 + h_3) = 2(3x_1 + 2x_2 + 2x_3)$.\n- Final output: $3g_1 + 3g_2 = 6g_1 = 12(3x_1 + 2x_2 + 2x_3) = 36x_1 + 24x_2 + 24x_3$.\nComparing with $px_1 + qx_2 + rx_3$ gives $p = 36, q = 24, r = 24$. Hence, option (A) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q44",
+      "questionNumber": 44,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Medium",
+      "correctOption": "C",
+      "correctOptionsList": [
+        "C"
+      ],
+      "correct_index": 2,
+      "correct_indices": [
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a state space where the start state is number 1. The successor function for the state numbered $n$ returns two states numbered $n+1$ and $n+2$. Assume that the states in the unexpanded state list are expanded in the ascending order of numbers and the previously expanded states are not added to the unexpanded state list.\n\nWhich **ONE** of the following statements about breadth-first search (BFS) and depth-first search (DFS) is true, when reaching the goal state number 6?",
+      "optionsEn": [
+        "BFS expands more states than DFS.",
+        "DFS expands more states than BFS.",
+        "Both BFS and DFS expand equal number of states.",
+        "Both BFS and DFS do not reach the goal state number 6."
+      ],
+      "explanationEn": "Because the unexpanded states are always expanded in ascending numerical order and previously expanded states are never re-added:\n- **BFS**: starts at 1 (adds 2, 3), expands 2 (adds 4), expands 3 (adds 5), expands 4 (adds 6), expands 5, then reaches 6 — expanding states $\\{1, 2, 3, 4, 5\\}$ (5 states before 6).\n- **DFS**: starts at 1 (adds 2, 3), expands smaller state 2 first (adds 3, 4), expands 3 (adds 4, 5), expands 4 (adds 5, 6), expands 5, then reaches 6 — also expanding states $\\{1, 2, 3, 4, 5\\}$ (5 states before 6).\nThus, both BFS and DFS expand an equal number of states. Hence, option (C) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q45",
+      "questionNumber": 45,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MCQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.67,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": "B",
+      "correctOptionsList": [
+        "B"
+      ],
+      "correct_index": 1,
+      "correct_indices": [
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the following sorting algorithms:\n\n(i) Bubble sort\n(ii) Insertion sort\n(iii) Selection sort\n\nWhich **ONE** among the following choices of sorting algorithms sorts the numbers in the array $[4, 3, 2, 1, 5]$ in increasing order after **exactly two** passes over the array?",
+      "optionsEn": [
+        "(i) only",
+        "(iii) only",
+        "(i) and (iii) only",
+        "(ii) and (iii) only"
+      ],
+      "explanationEn": "Trace two passes on $[4, 3, 2, 1, 5]$:\n- **Bubble sort**: Pass 1 $\\rightarrow [3, 2, 1, 4, 5]$; Pass 2 $\\rightarrow [2, 1, 3, 4, 5]$ (not sorted).\n- **Insertion sort**: Pass 1 (insert 3) $\\rightarrow [3, 4, 2, 1, 5]$; Pass 2 (insert 2) $\\rightarrow [2, 3, 4, 1, 5]$ (not sorted).\n- **Selection sort**: Pass 1 (swap min 1 with index 0) $\\rightarrow [1, 3, 2, 4, 5]$; Pass 2 (swap min 2 with index 1) $\\rightarrow [1, 2, 3, 4, 5]$ (sorted!).\nOnly Selection sort (iii) sorts the array in two passes. Hence, option (B) is correct."
+    },
+    {
+      "questionId": "gate_da_2024_q46",
+      "questionNumber": 46,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Database Management & Warehousing",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Given the relational schema $R = (U, V, W, X, Y, Z)$ and the set of functional dependencies:\n\n$$\\{U \\rightarrow V,\\; U \\rightarrow W,\\; WX \\rightarrow Y,\\; WX \\rightarrow Z,\\; V \\rightarrow X\\}$$\n\nWhich of the following functional dependencies can be derived from the above set?",
+      "optionsEn": [
+        "$VW \\rightarrow YZ$",
+        "$WX \\rightarrow YZ$",
+        "$VW \\rightarrow U$",
+        "$VW \\rightarrow Y$"
+      ],
+      "explanationEn": "Compute attribute closures:\n- $(WX)^+ = \\{W, X, Y, Z\\}$ (from $WX \\rightarrow Y$ and $WX \\rightarrow Z$), so $WX \\rightarrow YZ$ holds (B).\n- $(VW)^+ = \\{V, W, X, Y, Z\\}$ (since $V \\rightarrow X$ gives $WX$, which gives $Y$ and $Z$). Thus both $VW \\rightarrow YZ$ (A) and $VW \\rightarrow Y$ (D) hold.\n- $U$ never appears on the RHS of any FD, so $U \\notin (VW)^+$ and $VW \\rightarrow U$ (C) does not hold.\nHence, options (A), (B), and (D) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q47",
+      "questionNumber": 47,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Select all choices that are subspaces of $\\mathbb{R}^3$.\n\n**Note:** $\\mathbb{R}$ denotes the set of real numbers.",
+      "optionsEn": [
+        "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 : \\mathbf{x} = \\alpha \\begin{bmatrix} 1 \\\\ 1 \\\\ 0 \\end{bmatrix} + \\beta \\begin{bmatrix} 1 \\\\ 0 \\\\ 0 \\end{bmatrix},\\; \\alpha, \\beta \\in \\mathbb{R}\\right\\}$",
+        "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 : \\mathbf{x} = \\alpha^2 \\begin{bmatrix} 1 \\\\ 2 \\\\ 0 \\end{bmatrix} + \\beta^2 \\begin{bmatrix} 1 \\\\ 0 \\\\ 1 \\end{bmatrix},\\; \\alpha, \\beta \\in \\mathbb{R}\\right\\}$",
+        "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 : 5x_1 + 2x_3 = 0,\\; 4x_1 - 2x_2 + 3x_3 = 0\\right\\}$",
+        "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 : 5x_1 + 2x_3 + 4 = 0\\right\\}$"
+      ],
+      "explanationEn": "A subset of $\\mathbb{R}^3$ is a subspace if and only if it is non-empty and closed under vector addition and scalar multiplication:\n- (A) is the linear span of two vectors in $\\mathbb{R}^3$, which is always a subspace.\n- (B) uses $\\alpha^2, \\beta^2 \\ge 0$, so it is not closed under multiplication by negative scalars (e.g., $[-1, -2, 0]^T$ is not in the set).\n- (C) is the solution set (null space) of a homogeneous linear system $A\\mathbf{x} = \\mathbf{0}$, which is always a subspace.\n- (D) does not contain the zero vector $\\mathbf{0}$ (since $0 + 0 + 4 \\neq 0$), so it is not a subspace.\nHence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q48",
+      "questionNumber": 48,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Which of the following statements is/are **TRUE**?\n\n**Note:** $\\mathbb{R}$ denotes the set of real numbers.",
+      "optionsEn": [
+        "There exist $\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^3,$ and $\\mathbf{q} \\in \\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x} = \\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x} = \\mathbf{q}$ has infinite solutions.",
+        "There exist $\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^3,$ and $\\mathbf{q} \\in \\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x} = \\mathbf{p}$ has no solutions and $\\mathbf{M}\\mathbf{x} = \\mathbf{q}$ has infinite solutions.",
+        "There exist $\\mathbf{M} \\in \\mathbb{R}^{2 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^2,$ and $\\mathbf{q} \\in \\mathbb{R}^2$ such that $\\mathbf{M}\\mathbf{x} = \\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x} = \\mathbf{q}$ has infinite solutions.",
+        "There exist $\\mathbf{M} \\in \\mathbb{R}^{3 \\times 2}, \\mathbf{p} \\in \\mathbb{R}^3,$ and $\\mathbf{q} \\in \\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x} = \\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x} = \\mathbf{q}$ has no solutions."
+      ],
+      "explanationEn": "For any linear system $\\mathbf{M}\\mathbf{x} = \\mathbf{b}$, a unique solution requires full column rank ($\\text{nullity}(\\mathbf{M}) = 0$), whereas infinitely many solutions require $\\text{nullity}(\\mathbf{M}) \\ge 1$. Since nullity depends only on $\\mathbf{M}$, the same matrix $\\mathbf{M}$ can NEVER yield a unique solution for $\\mathbf{p}$ and infinitely many solutions for $\\mathbf{q}$:\n- (A) and (C) are FALSE (contradictory nullity requirements; moreover for $2 \\times 3$, nullity is at least 1).\n- (B) is TRUE: take a rank-deficient $3 \\times 3$ matrix (e.g., $\\text{diag}(1, 1, 0)$), $\\mathbf{p} = [0, 0, 1]^T$ (no solution), and $\\mathbf{q} = [0, 0, 0]^T$ (infinite solutions).\n- (D) is TRUE: take a full-column-rank $3 \\times 2$ matrix (e.g., $\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$), $\\mathbf{p} = [1, 1, 0]^T$ (unique solution), and $\\mathbf{q} = [0, 0, 1]^T$ (no solution).\nHence, options (B) and (D) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q49",
+      "questionNumber": 49,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        2,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $\\mathbb{R}$ be the set of real numbers, $U$ be a subspace of $\\mathbb{R}^3$ and $\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}$ be the matrix corresponding to the projection on to the subspace $U$.\n\nWhich of the following statements is/are **TRUE**?",
+      "optionsEn": [
+        "If $U$ is a 1-dimensional subspace of $\\mathbb{R}^3$, then the null space of $\\mathbf{M}$ is a 1-dimensional subspace.",
+        "If $U$ is a 2-dimensional subspace of $\\mathbb{R}^3$, then the null space of $\\mathbf{M}$ is a 1-dimensional subspace.",
+        "$\\mathbf{M}^2 = \\mathbf{M}$",
+        "$\\mathbf{M}^3 = \\mathbf{M}$"
+      ],
+      "explanationEn": "For a projection matrix $\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}$ onto $U$, the column space is $U$, so $\\text{rank}(\\mathbf{M}) = \\dim(U)$.\n- By the Rank-Nullity Theorem, $\\text{nullity}(\\mathbf{M}) = 3 - \\dim(U)$. If $\\dim(U) = 1$, nullity is $2$ (so A is false); if $\\dim(U) = 2$, nullity is $1$ (so B is true).\n- Every projection matrix is idempotent: $\\mathbf{M}^2 = \\mathbf{M}$ (C is true), which immediately implies $\\mathbf{M}^3 = \\mathbf{M}^2 \\mathbf{M} = \\mathbf{M}^2 = \\mathbf{M}$ (D is true).\nHence, options (B), (C), and (D) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q50",
+      "questionNumber": 50,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Calculus & Optimization",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ where $\\mathbb{R}$ is the set of all real numbers.\n\n$$f(x) = \\frac{x^4}{4} - \\frac{2x^3}{3} - \\frac{3x^2}{2} + 1$$\n\nWhich of the following statements is/are **TRUE**?",
+      "optionsEn": [
+        "$x = 0$ is a local maximum of $f$",
+        "$x = 3$ is a local minimum of $f$",
+        "$x = -1$ is a local maximum of $f$",
+        "$x = 0$ is a local minimum of $f$"
+      ],
+      "explanationEn": "Differentiate $f(x)$:\n$$f'(x) = x^3 - 2x^2 - 3x = x(x - 3)(x + 1) = 0 \\implies x \\in \\{-1, 0, 3\\}.$$\nCompute the second derivative $f''(x) = 3x^2 - 4x - 3$:\n- At $x = 0$: $f''(0) = -3 < 0 \\implies$ local maximum (A is true, D is false).\n- At $x = 3$: $f''(3) = 27 - 12 - 3 = 12 > 0 \\implies$ local minimum (B is true).\n- At $x = -1$: $f''(-1) = 3 + 4 - 3 = 4 > 0 \\implies$ local minimum (C is false).\nHence, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q51",
+      "questionNumber": 51,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "B",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        1,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.51]\n\nConsider the directed acyclic graph (DAG) below with vertices $\\{P, Q, R, S, T, U, V\\}$ and directed edges: $P \\rightarrow Q$, $R \\rightarrow Q$, $Q \\rightarrow S$, $Q \\rightarrow V$, $S \\rightarrow U$, and $V \\rightarrow T$.\n\nWhich of the following is/are valid vertex orderings that can be obtained from a topological sort of the DAG?",
+      "optionsEn": [
+        "P Q R S T U V",
+        "P R Q V S U T",
+        "P Q R S V U T",
+        "P R Q S V T U"
+      ],
+      "explanationEn": "A valid topological ordering must satisfy: $P$ and $R$ before $Q$; $Q$ before $S$ and $V$; $S$ before $U$; and $V$ before $T$.\n- (A) `P Q R S T U V`: invalid because $Q$ appears before $R$ (and $T$ before $V$).\n- (B) `P R Q V S U T`: valid ($P, R < Q < V, S$; $S < U$; $V < T$).\n- (C) `P Q R S V U T`: invalid because $Q$ appears before $R$.\n- (D) `P R Q S V T U`: valid ($P, R < Q < S, V$; $S < U$; $V < T$).\nHence, options (B) and (D) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q52",
+      "questionNumber": 52,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Programming, Data Structures & Algorithms",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $H, I, L,$ and $N$ represent height, number of internal nodes, number of leaf nodes, and the total number of nodes respectively in a rooted binary tree.\n\nWhich of the following statements is/are always **TRUE**?",
+      "optionsEn": [
+        "$L \\le I + 1$",
+        "$H + 1 \\le N \\le 2^{H+1} - 1$",
+        "$H \\le I \\le 2^H - 1$",
+        "$H \\le L \\le 2^{H-1}$"
+      ],
+      "explanationEn": "Using standard edge-based height ($H = 0$ for a single root node):\n- (A) In any binary tree, $L = N_2 + 1 \\le (N_2 + N_1) + 1 = I + 1$, where $N_k$ is the number of nodes with $k$ children. Always TRUE.\n- (B) Minimum nodes for height $H$ is a skewed tree ($N = H + 1$); maximum is a perfect binary tree ($N = 2^{H+1} - 1$). Always TRUE.\n- (C) A longest root-to-leaf path of length $H$ contains $H$ internal nodes (minimum $I = H$); maximum internal nodes in a perfect tree is $2^H - 1$. Always TRUE.\n- (D) FALSE: a skewed tree of height $H = 3$ has $L = 1 < H$, and a perfect tree has $L = 2^H > 2^{H-1}$.\nHence, options (A), (B), and (C) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q53",
+      "questionNumber": 53,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Easy",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "D"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        3
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "[Diagram required - Q.53]\n\nConsider the following figures representing datasets consisting of two-dimensional features with two classes denoted by circles and squares:\n- (i) Circles at $(1,2), (1,3), (2,3)$; Squares at $(2,0.3), (2,1), (3,1)$.\n- (ii) Circle at $(2,2)$; Squares at $(1,2), (3,2), (2,1), (2,3)$.\n- (iii) Circles at $(1,1), (3,3)$; Squares at $(1,3), (3,1)$.\n- (iv) Squares at $(1,1.2), (1,2.2), (2,2.6)$; Circles at $(2,0.7), (3,0.8), (3,1.6)$.\n\nWhich of the following is/are **TRUE**?",
+      "optionsEn": [
+        "(i) is linearly separable.",
+        "(ii) is linearly separable.",
+        "(iii) is linearly separable.",
+        "(iv) is linearly separable."
+      ],
+      "explanationEn": "A 2D binary dataset is linearly separable if a straight line can place all circles on one side and all squares on the other:\n- (i) All circles have $y \\ge 2$ and all squares have $y \\le 1$, so the line $y = 1.5$ separates them (TRUE).\n- (ii) The circle at $(2,2)$ lies strictly inside the convex hull of the four surrounding squares (FALSE).\n- (iii) Forms the classic XOR configuration whose convex hulls intersect at $(2,2)$ (FALSE).\n- (iv) All squares lie above-left and all circles lie below-right of a diagonal line such as $y = x - 0.5$ (TRUE).\nHence, options (A) and (D) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q54",
+      "questionNumber": 54,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "C"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        2
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Let $game(ball, rugby)$ be true if the ball is used in rugby and false otherwise.\n\nLet $shape(ball, round)$ be true if the ball is round and false otherwise.\n\nConsider the following logical sentences:\n\n- $s1: \\forall ball\\; \\neg game(ball, rugby) \\implies shape(ball, round)$\n- $s2: \\forall ball\\; \\neg shape(ball, round) \\implies game(ball, rugby)$\n- $s3: \\forall ball\\; game(ball, rugby) \\implies \\neg shape(ball, round)$\n- $s4: \\forall ball\\; shape(ball, round) \\implies \\neg game(ball, rugby)$\n\nWhich of the following choices is/are logical representations of the assertion, \"All balls are round except balls used in rugby\"?",
+      "optionsEn": [
+        "$s1 \\land s3$",
+        "$s1 \\land s2$",
+        "$s2 \\land s3$",
+        "$s3 \\land s4$"
+      ],
+      "explanationEn": "The assertion 'All balls are round except balls used in rugby' states two things:\n1. Every ball not used in rugby is round: $s1$ (note that $s2$ is the contrapositive of $s1$, so $s1 \\equiv s2$).\n2. Every ball used in rugby is not round: $s3$ (note that $s4$ is the contrapositive of $s3$, so $s3 \\equiv s4$).\nTherefore, the full assertion requires one sentence from $\\{s1, s2\\}$ AND one from $\\{s3, s4\\}$, giving $s1 \\land s3$ (A) and $s2 \\land s3$ (C). (B) omits the rugby exception, and (D) omits non-rugby balls being round. Hence, options (A) and (C) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q55",
+      "questionNumber": 55,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "MSQ",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Database Management & Warehousing",
+      "difficulty": "Medium",
+      "correctOption": null,
+      "correctOptionsList": [
+        "A",
+        "B"
+      ],
+      "correct_index": null,
+      "correct_indices": [
+        0,
+        1
+      ],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "An OTT company is maintaining a large disk-based relational database of different movies with the following schema:\n\n- `Movie(ID, CustomerRating)` (primary key: `ID`)\n- `Genre(ID, Name)` (primary key: `ID`)\n- `Movie_Genre(MovieID, GenreID)` (primary key: `(MovieID, GenreID)`)\n\nConsider the following SQL query on the relation database above:\n\n```sql\nSELECT *\nFROM Movie, Genre, Movie_Genre\nWHERE\n    Movie.CustomerRating > 3.4 AND\n    Genre.Name = \"Comedy\" AND\n    Movie_Genre.MovieID = Movie.ID AND\n    Movie_Genre.GenreID = Genre.ID;\n```\n\nThis SQL query can be sped up using which of the following indexing options?",
+      "optionsEn": [
+        "$B^+$ tree on all the attributes.",
+        "Hash index on `Genre.Name` and $B^+$ tree on the remaining attributes.",
+        "Hash index on `Movie.CustomerRating` and $B^+$ tree on the remaining attributes.",
+        "Hash index on all the attributes."
+      ],
+      "explanationEn": "The query contains a range predicate (`Movie.CustomerRating > 3.4`) and equality predicates (`Genre.Name = \"Comedy\"` and equi-join keys). A $B^+$ tree supports both range queries and equality lookups efficiently, whereas a hash index only accelerates equality predicates and cannot speed up range queries like `CustomerRating > 3.4`. Thus, putting a $B^+$ tree on all attributes (A) or a hash index on `Genre.Name` with $B^+$ trees on the rest (B) speeds up all predicates, while (C) and (D) fail on the range condition. Hence, options (A) and (B) are correct."
+    },
+    {
+      "questionId": "gate_da_2024_q56",
+      "questionNumber": 56,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Medium",
+      "correctOption": "0.125",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.125,
+      "natMax": 0.125,
+      "questionTextEn": "Let $X$ be a random variable uniformly distributed in the interval $[1, 3]$ and $Y$ be a random variable uniformly distributed in the interval $[2, 4]$. If $X$ and $Y$ are independent of each other, the probability $P(X \\ge Y)$ is ________ (rounded off to **three** decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Since $X \\sim U[1, 3]$ and $Y \\sim U[2, 4]$ are independent, $(X, Y)$ is uniformly distributed over the $2 \\times 2$ square $[1, 3] \\times [2, 4]$ of area $4$. The region where $X \\ge Y$ inside this square is the right triangle with vertices $(2, 2)$, $(3, 2)$, and $(3, 3)$, whose area is $\\frac{1}{2} \\times 1 \\times 1 = 0.5$. Therefore, $P(X \\ge Y) = \\frac{0.5}{4} = 0.125$."
+    },
+    {
+      "questionId": "gate_da_2024_q57",
+      "questionNumber": 57,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "0.2",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.2,
+      "natMax": 0.2,
+      "questionTextEn": "Let $X$ be a random variable exponentially distributed with parameter $\\lambda > 0$. The probability density function of $X$ is given by:\n\n$$f_X(x) = \\begin{cases} \\lambda e^{-\\lambda x}, & x \\ge 0 \\\\ 0, & \\text{otherwise} \\end{cases}$$\n\nIf $5E(X) = Var(X)$, where $E(X)$ and $Var(X)$ indicate the expectation and variance of $X$, respectively, the value of $\\lambda$ is ________ (rounded off to **one** decimal place).",
+      "optionsEn": [],
+      "explanationEn": "For an exponential random variable with rate $\\lambda > 0$, $E(X) = \\frac{1}{\\lambda}$ and $Var(X) = \\frac{1}{\\lambda^2}$. Substituting into $5E(X) = Var(X)$:\n$$\\frac{5}{\\lambda} = \\frac{1}{\\lambda^2} \\implies \\lambda = \\frac{1}{5} = 0.2.$$"
+    },
+    {
+      "questionId": "gate_da_2024_q58",
+      "questionNumber": 58,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "0.25",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.25,
+      "natMax": 0.25,
+      "questionTextEn": "Consider two events $T$ and $S$. Let $\\overline{T}$ denote the complement of the event $T$. The probability associated with different events are given as follows:\n\n$$P(\\overline{T}) = 0.6, \\quad P(S \\mid T) = 0.3, \\quad P(S \\mid \\overline{T}) = 0.6$$\n\nThen, $P(T \\mid S)$ is ________ (rounded off to **two** decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Given $P(\\overline{T}) = 0.6$, we have $P(T) = 1 - 0.6 = 0.4$. By the law of total probability, $P(S) = P(S \\mid T)P(T) + P(S \\mid \\overline{T})P(\\overline{T}) = (0.3)(0.4) + (0.6)(0.6) = 0.12 + 0.36 = 0.48$. By Bayes' theorem, $P(T \\mid S) = \\frac{P(S \\mid T)P(T)}{P(S)} = \\frac{0.12}{0.48} = 0.25$."
+    },
+    {
+      "questionId": "gate_da_2024_q59",
+      "questionNumber": 59,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Medium",
+      "correctOption": "MTA",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": null,
+      "natMax": null,
+      "questionTextEn": "Consider a joint probability density function of two random variables $X$ and $Y$:\n\n$$f_{X,Y}(x, y) = \\begin{cases} 2xy, & 0 < x < 2,\\; 0 < y < x \\\\ 0, & \\text{otherwise} \\end{cases}$$\n\nThen, $E[Y \\mid X = 1.5]$ is ________.",
+      "optionsEn": [],
+      "explanationEn": "Integrating $f_{X,Y}(x, y)$ over its support gives $\\int_0^2 \\int_0^x 2xy\\,dy\\,dx = \\int_0^2 x^3\\,dx = \\left[\\frac{x^4}{4}\\right]_0^2 = 4 \\neq 1$. Because the given function does not integrate to 1, it is not a valid probability density function (note that normalizing it formally would yield $f_{Y|X}(y|x) = 2y/x^2$ on $(0, x)$ and $E[Y|X=1.5] = \\frac{2}{3}(1.5) = 1$). Consequently, IISc Bengaluru awarded Marks to All (MTA) for this question in the official final answer key."
+    },
+    {
+      "questionId": "gate_da_2024_q60",
+      "questionNumber": 60,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Calculus & Optimization",
+      "difficulty": "Medium",
+      "correctOption": "0.5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.5,
+      "natMax": 0.5,
+      "questionTextEn": "Evaluate the following limit:\n\n$$\\lim_{x \\to 0} \\frac{\\ln((x^2 + 1)\\cos x)}{x^2} = \\text{________}.$$",
+      "optionsEn": [],
+      "explanationEn": "Split the logarithm as $\\ln(1 + x^2) + \\ln(\\cos x)$ and use Taylor expansions around $x = 0$:\n- $\\ln(1 + x^2) = x^2 + O(x^4)$\n- $\\cos x = 1 - \\frac{x^2}{2} + O(x^4) \\implies \\ln(\\cos x) = -\\frac{x^2}{2} + O(x^4)$\nSumming gives $\\ln((1 + x^2)\\cos x) = \\frac{x^2}{2} + O(x^4)$. Dividing by $x^2$ and taking $x \\to 0$ yields $0.5$."
+    },
+    {
+      "questionId": "gate_da_2024_q61",
+      "questionNumber": 61,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Linear Algebra",
+      "difficulty": "Medium",
+      "correctOption": "55",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 55.0,
+      "natMax": 55.0,
+      "questionTextEn": "Let $\\mathbf{u} = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\\\ 4 \\\\ 5 \\end{bmatrix}$, and let $\\sigma_1, \\sigma_2, \\sigma_3, \\sigma_4, \\sigma_5$ be the singular values of the matrix $\\mathbf{M} = \\mathbf{u}\\mathbf{u}^T$ (where $\\mathbf{u}^T$ is the transpose of $\\mathbf{u}$). The value of $\\sum_{i=1}^{5} \\sigma_i$ is ________.",
+      "optionsEn": [],
+      "explanationEn": "The matrix $\\mathbf{M} = \\mathbf{u}\\mathbf{u}^T$ is a symmetric, positive semidefinite, rank-1 matrix. Therefore, it has exactly one non-zero eigenvalue (which equals its sole non-zero singular value): $\\sigma_1 = \\mathbf{u}^T \\mathbf{u} = 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 1 + 4 + 9 + 16 + 25 = 55$, and $\\sigma_2 = \\sigma_3 = \\sigma_4 = \\sigma_5 = 0$. Hence, $\\sum_{i=1}^{5} \\sigma_i = 55$."
+    },
+    {
+      "questionId": "gate_da_2024_q62",
+      "questionNumber": 62,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Medium",
+      "correctOption": "0.12 to 0.13",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.12,
+      "natMax": 0.13,
+      "questionTextEn": "Details of ten international cricket games between two teams \"Green\" and \"Blue\" are given in Table C. This table consists of matches played on different pitches, across formats along with their winners. The attribute *Pitch* can take one of two values: spin-friendly (represented as *S*) or pace-friendly (represented as *F*). The attribute *Format* can take one of two values: one-day match (represented as *O*) or test match (represented as *T*).\n\nA cricket organization would like to use the information given in Table C to develop a decision-tree model to predict outcomes of future games between these two teams.\n\nTo develop such a model, the computed $\\text{InformationGain}(C, \\text{Pitch})$ with respect to the Target is ________ (rounded off to **two** decimal places).\n\n**Table C**\n\n| Match Number | Pitch | Format | Winner (Target) |\n| :---: | :---: | :---: | :---: |\n| 1 | S | T | Green |\n| 2 | S | T | Blue |\n| 3 | F | O | Blue |\n| 4 | S | O | Blue |\n| 5 | F | T | Green |\n| 6 | F | O | Blue |\n| 7 | S | O | Green |\n| 8 | F | T | Blue |\n| 9 | F | O | Blue |\n| 10 | S | O | Green |",
+      "optionsEn": [],
+      "explanationEn": "Out of 10 matches, 4 are won by Green and 6 by Blue, so the parent entropy is:\n$$H(C) = -\\frac{4}{10}\\log_2\\frac{4}{10} - \\frac{6}{10}\\log_2\\frac{6}{10} \\approx 0.9710.$$\nSplitting on *Pitch*:\n- $S$ (5 matches: 3 Green, 2 Blue): $H(S) = -\\frac{3}{5}\\log_2\\frac{3}{5} - \\frac{2}{5}\\log_2\\frac{2}{5} \\approx 0.9710$.\n- $F$ (5 matches: 1 Green, 4 Blue): $H(F) = -\\frac{1}{5}\\log_2\\frac{1}{5} - \\frac{4}{5}\\log_2\\frac{4}{5} \\approx 0.7219$.\nTherefore, $\\text{IG}(C, \\text{Pitch}) = 0.9710 - \\left(\\frac{5}{10}(0.9710) + \\frac{5}{10}(0.7219)\\right) = 0.9710 - 0.8464 = 0.1245 \\approx 0.12$ (official key range: 0.12 to 0.13)."
+    },
+    {
+      "questionId": "gate_da_2024_q63",
+      "questionNumber": 63,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Machine Learning",
+      "difficulty": "Easy",
+      "correctOption": "5",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 5.0,
+      "natMax": 5.0,
+      "questionTextEn": "[Diagram required - Q.63]\n\nGiven the two-dimensional dataset consisting of 5 data points from two classes (circles and squares: circles at $(1, 1)$ and $(1, 2)$; squares at $(3, 2)$, $(2, 3)$, and $(3, 3)$; query diamond $\\diamond$ at $(2, 1)$) and assume that the Euclidean distance is used to measure the distance between two points. The minimum odd value of $k$ in $k$-nearest neighbor algorithm for which the diamond ($\\diamond$) shaped data point is assigned the label square is ________.",
+      "optionsEn": [],
+      "explanationEn": "Compute Euclidean distances from the diamond at $(2, 1)$ to all 5 points:\n1. Circle $(1, 1)$: $d = 1$\n2. Circle $(1, 2)$: $d = \\sqrt{2} \\approx 1.414$\n3. Square $(3, 2)$: $d = \\sqrt{2} \\approx 1.414$\n4. Square $(2, 3)$: $d = 2$\n5. Square $(3, 3)$: $d = \\sqrt{5} \\approx 2.236$\nFor $k = 1$: 1 circle (assigned circle). For $k = 3$: 2 circles, 1 square (assigned circle). For $k = 5$: 2 circles, 3 squares (assigned square). Thus, the minimum odd value of $k$ is 5."
+    },
+    {
+      "questionId": "gate_da_2024_q64",
+      "questionNumber": 64,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Artificial Intelligence",
+      "difficulty": "Easy",
+      "correctOption": "0.125",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.125,
+      "natMax": 0.125,
+      "questionTextEn": "[Diagram required - Q.64]\n\nGiven the following Bayesian Network consisting of four Bernoulli random variables (directed edges: $U \\rightarrow V$, $U \\rightarrow W$, $V \\rightarrow Z$, $W \\rightarrow Z$) and the associated conditional probability tables:\n\n| | $P(\\cdot)$ |\n| :---: | :---: |\n| $U = 0$ | $0.5$ |\n| $U = 1$ | $0.5$ |\n\n| | $P(V = 0 \\mid \\cdot)$ | $P(V = 1 \\mid \\cdot)$ |\n| :---: | :---: | :---: |\n| $U = 0$ | $0.5$ | $0.5$ |\n| $U = 1$ | $0.5$ | $0.5$ |\n\n| | $P(W = 0 \\mid \\cdot)$ | $P(W = 1 \\mid \\cdot)$ |\n| :---: | :---: | :---: |\n| $U = 0$ | $1$ | $0$ |\n| $U = 1$ | $0$ | $1$ |\n\n| | | $P(Z = 0 \\mid \\cdot)$ | $P(Z = 1 \\mid \\cdot)$ |\n| :---: | :---: | :---: | :---: |\n| $V = 0$ | $W = 0$ | $0.5$ | $0.5$ |\n| $V = 0$ | $W = 1$ | $1$ | $0$ |\n| $V = 1$ | $W = 0$ | $1$ | $0$ |\n| $V = 1$ | $W = 1$ | $0.5$ | $0.5$ |\n\nThe value of $P(U = 1, V = 1, W = 1, Z = 1) =$ ________ (rounded off to **three** decimal places).",
+      "optionsEn": [],
+      "explanationEn": "Using the Bayesian Network chain rule:\n$$P(U=1, V=1, W=1, Z=1) = P(U=1) \\cdot P(V=1 \\mid U=1) \\cdot P(W=1 \\mid U=1) \\cdot P(Z=1 \\mid V=1, W=1).$$\nReading directly from the CPTs: $0.5 \\times 0.5 \\times 1 \\times 0.5 = 0.125$."
+    },
+    {
+      "questionId": "gate_da_2024_q65",
+      "questionNumber": 65,
+      "sectionId": "sec_da",
+      "sectionTitle": "Data Science & Artificial Intelligence",
+      "questionType": "NAT",
+      "positiveMarks": 2.0,
+      "negativeMarks": 0.0,
+      "pyqTag": "GATE DA 2024 Official Paper",
+      "topicTag": "Probability & Statistics",
+      "difficulty": "Easy",
+      "correctOption": "0.062 to 0.063",
+      "correctOptionsList": [],
+      "correct_index": null,
+      "correct_indices": [],
+      "natMin": 0.062,
+      "natMax": 0.063,
+      "questionTextEn": "Two fair coins are tossed independently. $X$ is a random variable that takes a value of 1 if both tosses are heads and 0 otherwise. $Y$ is a random variable that takes a value of 1 if at least one of the tosses is heads and 0 otherwise.\n\nThe value of the covariance of $X$ and $Y$ is ________ (rounded off to **three** decimal places).",
+      "optionsEn": [],
+      "explanationEn": "For two fair coins, sample space is $\\{HH, HT, TH, TT\\}$ with equal probability $1/4$:\n- $E[X] = P(HH) = 1/4$.\n- $E[Y] = P(\\{HH, HT, TH\\}) = 3/4$.\n- Since $X = 1$ implies $Y = 1$, $XY = X$, so $E[XY] = E[X] = 1/4$.\nTherefore, $\\text{Cov}(X, Y) = E[XY] - E[X]E[Y] = \\frac{1}{4} - \\frac{1}{4}\\cdot\\frac{3}{4} = \\frac{1}{16} = 0.0625$ (official key range: 0.062 to 0.063)."
+    }
+  ]
+}
